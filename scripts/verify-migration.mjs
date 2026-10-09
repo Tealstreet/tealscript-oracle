@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 import { createReadStream } from 'node:fs';
-import { readFile, stat } from 'node:fs/promises';
+import { readFile, lstat } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 
 const root = new URL('../', import.meta.url);
@@ -9,7 +9,8 @@ let bytes = 0;
 for (const entry of manifest.files) {
   if (entry.path.startsWith('/') || entry.path.split('/').includes('..')) throw new Error(`Invalid path: ${entry.path}`);
   const file = new URL(entry.path, root);
-  const info = await stat(file);
+  const info = await lstat(file);
+  if (!info.isFile()) throw new Error(`Not a regular imported file: ${entry.path}`);
   if (info.size !== entry.bytes) throw new Error(`Byte length changed: ${entry.path}`);
   const hash = createHash('sha256');
   for await (const chunk of createReadStream(file)) hash.update(chunk);
