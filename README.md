@@ -2,6 +2,8 @@
 
 Public capture requests, Pine source, TradingView observations, exports and evidence used to investigate TealScript parity. This repository is separate from the application and the public [tealchart source mirror](https://github.com/Tealstreet/tealchart).
 
+See [MIGRATION.md](MIGRATION.md) for the application cutover, verification and other-agent handoff.
+
 ## Capture and handoff
 
 Create requests and commit capture responses here on `master`. Run the exact sources and settings in each round’s handoff. Preserve source bytes, CSV headers, numeric strings, missing cells, compile/runtime diagnostics and source/capture hashes. Record refusals and unavailable observations; never replace a TradingView observation with engine output. Historical documents contain their original monorepo paths: `packages/tealscript/oracle-probes/` maps to this repository’s root. Historical `/Users/sam/` and `/home/sam/` intake paths record where work originated; they are not downloadable dependencies.
