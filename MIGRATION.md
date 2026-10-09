@@ -1,6 +1,6 @@
 # Oracle archive migration
 
-Capture requests, native observations, raw exports, screenshots and capture-agent responses now belong in `Tealstreet/tealscript-oracle` on `master`. The application cutover is [tealstreet-next commit 58db566](https://github.com/Tealstreet/tealstreet-next/commit/58db566f513784917bde9861f9a683ea69c5b3c4). Author engine fixes and regression assertions in the application/source mirror; author new probes and capture results here. Copybara still owns the engine/source mirror and does not synchronize this archive.
+Capture requests, native observations, raw exports, screenshots and capture-agent responses now belong in `Tealstreet/tealscript-oracle` on `master`. The application cutover is [tealstreet-next commit 58db566](https://github.com/Tealstreet/tealstreet-next/commit/58db566f513784917bde9861f9a683ea69c5b3c4). The [portable setup fix](https://github.com/Tealstreet/tealstreet-next/commit/75550b21f0bccfff35e0c6345e06a55ba36f9710) also makes direct CLI invocation through symlink paths execute normally. Author engine fixes and regression assertions in the application/source mirror; author new probes and capture results here. Copybara still owns the engine/source mirror and does not synchronize this archive.
 
 ## Preserved evidence
 
@@ -24,6 +24,6 @@ Commit future inter-agent capture responses next to the relevant handoff here, t
 
 ## Verification
 
-The public sparse fetch verified all 79 fixture hashes and lengths. Package typecheck and scoped lint passed. Thirteen fixture-tool tests and 27 deployment-selector tests passed, including proved-failed corruption, checkout-identity and deployment-selection regressions. Nine existing native test files passed all 106 tests across full-history CSVs, manifests/outcomes, text diagnostics and dynamic paths. The deletion inventory and integration were independently reviewed by sub-agents. Full application suites remain CI’s gate.
+The public sparse fetch verified all 79 fixture hashes and lengths, including a fresh checkout after archive `master` advanced beyond the pinned commit. Package typecheck and scoped lint passed. Fourteen fixture-tool tests and 27 deployment-selector tests passed, including proved-failed corruption, checkout-identity and deployment-selection regressions. Ten existing native test files passed all 118 tests across full-history CSVs, manifests/outcomes, text diagnostics and dynamic paths. The deletion inventory and integration were independently reviewed by sub-agents. Full application suites remain CI’s gate.
 
 New application trees exclude 5.54 GB of archive evidence. Selected test data is about 94% smaller than the complete archive. Old application and mirror histories still retain previous objects; vendored source clones must remain shallow. Docker/EAS and both mirror-direction exclusions remain in place.
