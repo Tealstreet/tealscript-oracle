@@ -1,16 +1,30 @@
-# v58 native capture response v7
+# v58 native capture response v9
 
-Consumer inventory: 422 sources; COMPILE-ERROR: 182, CONTEXT-UNMET: 2, NOT-ATTEMPTED: 60, PUBLICATION-BLOCKED: 2, RUNS: 169, RUNTIME-ERROR: 7.
+Consumer inventory: 422 sources; COMPILE-ERROR: 185, CONTEXT-UNMET: 2, PUBLICATION-BLOCKED: 20, RUNS: 208, RUNTIME-ERROR: 7.
 
 Library prerequisites: 27 sources; COMPILE-ERROR: 7, RUNS: 20.
 
-Browser work uses only Chrome MCP on the designated mini, signed in as `sours-lat`. Source integrity passed all 918 SHA256 entries; see [integrity log](environment-v1/integrity-v1.txt). Ordinary chart context is BINANCE:BTCUSDT candles, UTC; per-attempt observations record the actual interval and inputs. No application fixture pin was advanced.
+Browser work uses only Chrome MCP on the designated mini, signed in as `sours-lat`. Source integrity passed all 918 SHA256 entries; see [integrity log](environment-v1/integrity-v2.txt). Ordinary chart context is BINANCE:BTCUSDT candles, UTC; per-attempt observations record the actual interval and inputs. No application fixture pin was advanced.
 
 The priority single-float library is refused with CE10236 at 3:19: `The "self" argument is not used. The first method argument should be used.` Its namespace and receiver companions are PUBLICATION-BLOCKED and were not executed. No consumer admission or values are inferred from a prerequisite refusal.
 
-Every source is independent. Compilation admission alone is not numeric evidence. RUNS consumer observations without a CSV remain incomplete; their values are UNOBSERVED. Physical/live context is credited only when observed. Raw diagnostics include both native/editor marker owners when exposed, with severity, code, and source ranges. Initial unsettled classifications are retained with explicit exclusion metadata and repeated attempts; use this inventory to select valid evidence.
+All 449 assets have a recorded outcome. There are 451 valid observation records, including two additional binding records and one title-only cross-reference. The 185 consumer COMPILE-ERROR entries comprise 184 independently executed source refusals plus the requested title-only cross-reference for `default-request-omitted-reversed-v1.pine`; it receives no additional native credit. In total, 428 source executions were performed, including 27 library prerequisites. Blocked consumers were not executed.
 
-[Machine-readable attempt inventory](attempt-inventory-v7.json)
+All 208 RUNS consumers have original native CSV exports. Two additional exports preserve the historical DXY executions separately from their unmet live context. CSV headers, duplicate unnamed plot positions, numeric strings and missing cells remain unchanged. Exact executed sources, template/executed hashes, import-only diffs, setup, inputs, capture/export times, closed-bar cutoffs, snapshots and screenshots accompany each attempt. All 20 admitted libraries were privately published as immutable owner/title/version identities; their published sources were fetched through Chrome MCP and verified byte-for-byte.
+
+Raw diagnostics retain exposed codes, ranges, severity, message and owner. Seven consumers reach a native runtime error for `Invalid symbol: REMOTE`; their complete structured error descriptions are retained. TradingView did not expose a runtime code, source location or runtime bar for those errors. Initial unsettled classifications are preserved with explicit exclusion metadata and repeated settled attempts; select the valid evidence through this inventory.
+
+[Machine-readable attempt inventory](attempt-inventory-v9.json) · [Evidence audit](audit-v2.json)
+
+## Paired observations
+
+- Group 3: the VWAP pair has the same 32 physical index/time window and 31 matching closed OHLCV samples. Both observer readouts are missing at samples 10–15. At sample 16 the explicit-anchor readout resumes at `82828.66`, while the omitted-anchor readout remains missing. The separately sampled open row is excluded. See [physical-window comparison](comparisons-v1/vwap-pair-v1.json).
+- Group 14: all five omitted/explicit pairs have refusal or prerequisite outcomes; no numeric comparison is credited. See [pair records](comparisons-v1/group-14-pairs-v2.json).
+- Group 16: 41 natural/typed pairs match across every observer as raw strings at matching closed timestamps; two pairs have only compilation refusal outcomes. See [43 pair records](comparisons-v1/group-16-pairs-v3.json).
+- Group 17: all eight natural/control comparisons match their common observer columns at matching closed timestamps. Differing observer schemas remain explicit, and every source's full CSV is retained. See [pair records](comparisons-v1/group-17-pairs-v1.json).
+- Group 18: 11 namespace/receiver pairs have raw equality, six have only prerequisite/refusal outcomes, and `nested-6` has a requested-feed context mismatch. Namespace widening sources run, while their receiver companions fail compilation. Each acquired pair uses the same immutable publication. See [18 pair records](comparisons-v1/group-18-pairs-v3.json).
+
+For `nested-6`, both sources RUN, but their separately timed requested daily close controls differ (`82859.99` versus `82848.98`) despite matching closed chart OHLCV. Their plot readouts differ by the same amount (`82966.99` versus `82955.98`). The requested daily bar was unconfirmed; a closed chart bar does not confirm that daily bar. The paired numeric question stays CONTEXT-UNMET rather than receiving dispatch-difference credit. Decimal subtraction of the saved strings gives `107.00` on both sides; this is labeled a derived witness, not an additional native observer. `nested-5` has observed raw equality in its separate executions, without realtime or confirmed requested-bar credit.
 
 | Source | Group | Outcome | Evidence |
 | --- | --- | --- | --- |
@@ -307,11 +321,16 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `parameter-reference-explicit-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/parameter-reference-explicit-v1/default/attempt-v1/observation-v1.json) |
 | `default-presence-overload-omitted-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-presence-overload-omitted-v1/default/attempt-v1/observation-v1.json) |
 | `default-presence-overload-explicit-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-presence-overload-explicit-v1/default/attempt-v1/observation-v1.json) |
+| `imported-omitted-v1.pine` | group-14 | PUBLICATION-BLOCKED | [observation](consumers/imported-omitted-v1/binding-v1/attempt-v1/observation-v1.json) |
+| `imported-explicit-v1.pine` | group-14 | PUBLICATION-BLOCKED | [observation](consumers/imported-explicit-v1/binding-v1/attempt-v1/observation-v1.json) |
 | `default-request-omitted-original-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-request-omitted-original-v1/default/attempt-v1/observation-v1.json) |
 | `default-request-omitted-reversed-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-request-omitted-reversed-v1/default/attempt-v1/observation-v1.json) |
-| `imported-numeric-single-float-namespace-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-single-float-namespace-v58-v1/single-float-namespace/attempt-v1/observation-v1.json) |
+| `imported-numeric-import-float-function-false-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-import-float-function-false-v58-v1/import-float-function-True/attempt-v1/observation-v1.json) |
+| `imported-numeric-import-int-function-false-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-import-int-function-false-v58-v1/import-int-function-True/attempt-v1/observation-v1.json) |
+| `imported-numeric-single-float-namespace-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-single-float-namespace-v58-v1/single-float-namespace/attempt-v1/observation-v2.json) |
+| `imported-numeric-single-int-namespace-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-single-int-namespace-v58-v1/single-int-namespace/attempt-v1/observation-v1.json) |
 | `g01-v5-array-chain-two-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
-| `g01-v5-array-chain-two-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g01-v5-array-chain-two-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-typed/default/attempt-v1/observation-v3.json) |
 | `g01-v6-array-chain-two-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v6-array-chain-two-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
 | `g01-v6-array-chain-two-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v6-array-chain-two-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
 | `g01-v6-matrix-var-chain-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v6-matrix-var-chain-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
@@ -396,14 +415,73 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `g11-v6-matrix-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v6-matrix-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
 | `g11-v6-map-int-identity-initializer-untyped.pine` | group-16 | RUNS | [observation](consumers/g11-v6-map-int-identity-initializer-untyped/default/attempt-v1/observation-v2.json) |
 | `g11-v6-map-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v6-map-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
+| `local-precedence-natural-v5-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-natural-v5-v1/binding-v1/attempt-v1/observation-v3.json) |
+| `local-precedence-import-control-v5-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-import-control-v5-v1/binding-v1/attempt-v1/observation-v3.json) |
 | `local-precedence-local-control-v5-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-local-control-v5-v1/default/attempt-v1/observation-v2.json) |
+| `same-receiver-identity-natural-v5-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-natural-v5-v1/binding-v1/attempt-v1/observation-v3.json) |
+| `same-receiver-identity-import-control-v5-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-import-control-v5-v1/binding-v1/attempt-v1/observation-v3.json) |
 | `same-receiver-identity-local-control-v5-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-local-control-v5-v1/default/attempt-v1/observation-v2.json) |
+| `local-precedence-natural-v6-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-natural-v6-v1/binding-v1/attempt-v1/observation-v3.json) |
+| `local-precedence-import-control-v6-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-import-control-v6-v1/binding-v1/attempt-v1/observation-v3.json) |
 | `local-precedence-local-control-v6-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-local-control-v6-v1/default/attempt-v1/observation-v2.json) |
+| `same-receiver-identity-natural-v6-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-natural-v6-v1/binding-v1/attempt-v1/observation-v3.json) |
+| `same-receiver-identity-import-control-v6-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-import-control-v6-v1/binding-v1/attempt-v1/observation-v3.json) |
 | `same-receiver-identity-local-control-v6-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-local-control-v6-v1/default/attempt-v1/observation-v2.json) |
-| `root2-root1-single-float-receiver-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-single-float-receiver-preservation-control-v58-v1/root1-single-float-receiver/attempt-v1/observation-v1.json) |
+| `root2-direct-5-false-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-5-false-namespace-v58-v1/direct-5-False/attempt-v1/observation-v3.json) |
+| `root2-direct-5-false-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-5-false-receiver-v58-v1/direct-5-False/attempt-v1/observation-v3.json) |
+| `root2-wrapper-5-false-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-5-false-namespace-v58-v1/wrapper-5-False/attempt-v1/observation-v3.json) |
+| `root2-wrapper-5-false-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-5-false-receiver-v58-v1/wrapper-5-False/attempt-v1/observation-v3.json) |
+| `root2-direct-5-true-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-5-true-namespace-v58-v1/direct-5-True/attempt-v1/observation-v3.json) |
+| `root2-direct-5-true-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-5-true-receiver-v58-v1/direct-5-True/attempt-v1/observation-v3.json) |
+| `root2-wrapper-5-true-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-5-true-namespace-v58-v1/wrapper-5-True/attempt-v1/observation-v3.json) |
+| `root2-wrapper-5-true-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-5-true-receiver-v58-v1/wrapper-5-True/attempt-v1/observation-v3.json) |
+| `root2-collection-5-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-collection-5-namespace-v58-v1/collection-5/attempt-v1/observation-v3.json) |
+| `root2-collection-5-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-collection-5-receiver-v58-v1/collection-5/attempt-v1/observation-v3.json) |
+| `root2-widening-5-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-widening-5-namespace-v58-v1/widening-5/attempt-v1/observation-v3.json) |
+| `root2-widening-5-receiver-v58-v1.pine` | group-18 | COMPILE-ERROR | [observation](consumers/root2-widening-5-receiver-v58-v1/widening-5/attempt-v1/observation-v3.json) |
+| `root2-nested-5-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-nested-5-namespace-v58-v1/nested-5/attempt-v1/observation-v3.json) |
+| `root2-nested-5-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-nested-5-receiver-v58-v1/nested-5/attempt-v1/observation-v3.json) |
+| `root2-direct-6-false-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-6-false-namespace-v58-v1/direct-6-False/attempt-v1/observation-v3.json) |
+| `root2-direct-6-false-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-6-false-receiver-v58-v1/direct-6-False/attempt-v1/observation-v3.json) |
+| `root2-wrapper-6-false-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-6-false-namespace-v58-v1/wrapper-6-False/attempt-v1/observation-v3.json) |
+| `root2-wrapper-6-false-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-6-false-receiver-v58-v1/wrapper-6-False/attempt-v1/observation-v3.json) |
+| `root2-direct-6-true-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-6-true-namespace-v58-v1/direct-6-True/attempt-v1/observation-v3.json) |
+| `root2-direct-6-true-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-direct-6-true-receiver-v58-v1/direct-6-True/attempt-v1/observation-v3.json) |
+| `root2-wrapper-6-true-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-6-true-namespace-v58-v1/wrapper-6-True/attempt-v1/observation-v3.json) |
+| `root2-wrapper-6-true-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-wrapper-6-true-receiver-v58-v1/wrapper-6-True/attempt-v1/observation-v3.json) |
+| `root2-collection-6-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-collection-6-namespace-v58-v1/collection-6/attempt-v1/observation-v3.json) |
+| `root2-collection-6-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-collection-6-receiver-v58-v1/collection-6/attempt-v1/observation-v3.json) |
+| `root2-widening-6-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-widening-6-namespace-v58-v1/widening-6/attempt-v1/observation-v3.json) |
+| `root2-widening-6-receiver-v58-v1.pine` | group-18 | COMPILE-ERROR | [observation](consumers/root2-widening-6-receiver-v58-v1/widening-6/attempt-v1/observation-v3.json) |
+| `root2-nested-6-namespace-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-nested-6-namespace-v58-v1/nested-6/attempt-v1/observation-v3.json) |
+| `root2-nested-6-receiver-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-nested-6-receiver-v58-v1/nested-6/attempt-v1/observation-v3.json) |
+| `root2-root1-import-float-receiver-false-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-import-float-receiver-false-preservation-control-v58-v1/root1-import-float-receiver-False/attempt-v1/observation-v1.json) |
+| `root2-root1-import-int-receiver-false-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-import-int-receiver-false-preservation-control-v58-v1/root1-import-int-receiver-False/attempt-v1/observation-v1.json) |
+| `root2-root1-import-float-receiver-true-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-import-float-receiver-true-preservation-control-v58-v1/root1-import-float-receiver-True/attempt-v1/observation-v1.json) |
+| `root2-root1-import-int-receiver-true-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-import-int-receiver-true-preservation-control-v58-v1/root1-import-int-receiver-True/attempt-v1/observation-v1.json) |
+| `root2-root1-single-float-receiver-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-single-float-receiver-preservation-control-v58-v1/root1-single-float-receiver/attempt-v1/observation-v2.json) |
+| `root2-root1-single-int-receiver-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-single-int-receiver-preservation-control-v58-v1/root1-single-int-receiver/attempt-v1/observation-v1.json) |
 | `root2-root1-local-float-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-local-float-control-preservation-control-v58-v1/default/attempt-v1/observation-v2.json) |
+| `root2-root1-imported-regular-float-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-imported-regular-float-control-preservation-control-v58-v1/root1-imported-regular-float-control/attempt-v1/observation-v3.json) |
 | `root2-root1-local-int-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-local-int-control-preservation-control-v58-v1/default/attempt-v1/observation-v2.json) |
+| `root2-root1-imported-regular-int-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-imported-regular-int-control-preservation-control-v58-v1/root1-imported-regular-int-control/attempt-v1/observation-v3.json) |
+| `root2-root1-udt-receiver-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-udt-receiver-control-preservation-control-v58-v1/root1-udt-receiver-control/attempt-v1/observation-v3.json) |
+| `root2-root1-array-receiver-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-array-receiver-control-preservation-control-v58-v1/root1-array-receiver-control/attempt-v1/observation-v3.json) |
+| `root2-root1-float-only-int-widening-preservation-control-v58-v1.pine` | group-18 | COMPILE-ERROR | [observation](consumers/root2-root1-float-only-int-widening-preservation-control-v58-v1/root1-float-only-int-widening/attempt-v1/observation-v3.json) |
+| `root2-root1-library-local-numeric-forward-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-library-local-numeric-forward-preservation-control-v58-v1/root1-library-local-numeric-forward/attempt-v1/observation-v3.json) |
+| `root2-ambiguous-5-false-namespace-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-5-false-namespace-v58-v1/ambiguous-5-False/attempt-v1/observation-v1.json) |
+| `root2-ambiguous-5-false-receiver-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-5-false-receiver-v58-v1/ambiguous-5-False/attempt-v1/observation-v1.json) |
+| `root2-ambiguous-5-true-namespace-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-5-true-namespace-v58-v1/ambiguous-5-True/attempt-v1/observation-v1.json) |
+| `root2-ambiguous-5-true-receiver-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-5-true-receiver-v58-v1/ambiguous-5-True/attempt-v1/observation-v1.json) |
+| `root2-ambiguous-6-false-namespace-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-6-false-namespace-v58-v1/ambiguous-6-False/attempt-v1/observation-v1.json) |
+| `root2-ambiguous-6-false-receiver-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-6-false-receiver-v58-v1/ambiguous-6-False/attempt-v1/observation-v1.json) |
+| `root2-ambiguous-6-true-namespace-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-6-true-namespace-v58-v1/ambiguous-6-True/attempt-v1/observation-v1.json) |
+| `root2-ambiguous-6-true-receiver-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-ambiguous-6-true-receiver-v58-v1/ambiguous-6-True/attempt-v1/observation-v1.json) |
 
 ## Remaining capture work
 
-Read the inventory before resuming; do not repeat completed source/setting attempts. NOT-ATTEMPTED entries have no native evidence. Preserve prerequisite publication identity, bind paired consumers to the same immutable revision, retain exact import-only diffs, and acquire all required CSV, Data Window, and physical/live evidence. Groups 3 and 5 require the contexts in their literal instructions.
+No sources are NOT-ATTEMPTED. Twenty consumer sources remain PUBLICATION-BLOCKED by exact prerequisite refusals; 22 individual binding attempts are recorded. No consumer acceptance or values are inferred from those refusals, and no helper was repaired.
+
+Group 5's two TVC:DXY sources remain CONTEXT-UNMET: the native market was closed, so the required missing-volume initial open execution, two same-timestamp updates and confirmed close could not be observed. Historical exports and the market-closed screenshots are retained without live-state credit. Resume only when the literal required live context is available.
+
+The `nested-6` paired requested-feed question remains held until the same requested stimulus can be observed; preserve exact source, symbol, timeframe and publication. The two independent RUNS captures remain valid source observations.

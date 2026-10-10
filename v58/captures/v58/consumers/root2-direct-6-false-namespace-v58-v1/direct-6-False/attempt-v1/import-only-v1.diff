@@ -1,0 +1,9 @@
+--- root2-direct-6-false-namespace-v58-v1.pine
++++ executed-v1.pine
+@@ -1,5 +1,5 @@
+ //@version=6
+ indicator("Namespace methods")
+-import CAPTURE_OWNER/R2Ns8ffdca5e384d/1 as lib
++import sours-lat/R2Ns8ffdca5e384d/1 as lib
+ plot(lib.pick(float(3)))
+ plot(lib.pick(int(3)))

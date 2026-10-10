@@ -1,0 +1,229 @@
+{
+  "captureTimestamp": "2026-10-10T13:24:58.069Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nindicator(\"Namespace methods\")\nimport sours-lat/R2Nsad4a19ecf824/1 as lib\nouter(value) => request.security(\"BINANCE:BTCUSDT\", \"1D\", request.security(\"BINANCE:BTCUSDT\", \"1D\", lib.pick(value) + lib.pick(int(7)), lookahead=barmerge.lookahead_on), lookahead=barmerge.lookahead_on)\nplot(outer(close))\nplot(request.security(\"BINANCE:BTCUSDT\", \"1D\", close, lookahead=barmerge.lookahead_on), title=\"REQUESTED_CLOSE_CONTROL\")\n",
+  "executedSha256": "ba47e1d4264c7ff00fd555125dddaa75c557db495e02388aad7beff8246dd008",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "0EgpbV",
+        "title": "Namespace methods (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          },
+          {
+            "id": "plot_1",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"import\":1,\"indicator\":1,\"plot\":1,\"request.security\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_7GuIbKrZ2hCxKqsR2GzAhw==_Abw34uaDBMdERcJp4cnYWfxrUUMNxvvG5Gs2EWlErLfPr8onpqMzS0+9fE578CFP1GNyoXfrCFSErxyr3kJovpjEVaU1fDTOBr+4QFqY0Vfeh6JmxJ9Zri7cFiOhIIP/nDaMxiYH+uVhNkFEI9jdx/jXCJsdIDTa1wVDdqvXG8RFF+RmErNFkPbOAFIYaNMoi4rBzmK3LTFXcsJO1ZYoXybzZMH83+WIMDoNZyFDYdS7Y+KyLUM7GKJAVyqR0/fAQ11QCxxpbfz+ovFjk6A5yFLQiMY/KNY/ET2DRGvJ8eX4uBWRmqhBK4pVZabcxtRQITbISBgGu5zlGCdzClBEc6h9wT4SBV7b6zpXv3B5rPCpQ0clAoz3Xb3ESpDEH/aSgp06CwCEskoa3m41uH1fEvbtRQJNZi+NR1u+mTj4vT+DBg0S6253ZHW4A67sd/lMUEN3clgVJLr2Usvk2mXI70j0wIUPxlpFzEJVdG/XJ1pk5Yvfyrf6EZsJSgA3jJQ9P5aMSEkQsNuf6aJgGZLb1LOCpd8RXz9P/gJAANn5fy4vuqhUkeytb22+DENc6fBJla4D6h5WIFyO2R5WAn5EQKbC2GrxpxoKD8csOKv63pA9U8amqqyboHnwdTC4J+uGiUE+0s47fktZJYJrdTQJBN/AQp8Cfa/vJP13+exFBE55clvb9YzkpBfogtE0Ag3B2JvLNq7+/rLNF43qDmWa1WnQiakzDkFKX7FyOQi7FuJCSlCA3GGjyOWXcADyAv5YWeVv1yzVzOAAMPQPvLZOYFp1669J23CvskIJEI7uXn+RyeIyiO0dwljYcSfS+paXjFJQjSQqz2TGrae5URFvoLy/ubsOsDRrefiqpCP8El7si/fVG2wyh0xG9QZK7qEH2wAAaTYDySAMcxrP4uqoQq2VQFoZwgJPo+PdDVr50bdJ6otL1MZrWjNEA+8CoPoTtLA1j3U8Gf1HXB5c32ci9lXtOi486WB5Yu+itSqR1S/k7pfdmnFY99kKhqf59MDct4g0m23yjhsuBsSEvWwPWVrjxp19fJo69HYYOMJeGBXyNIfjp0++CVrLJj4WJAGEpxOHcLBaIDstdGpaxt+lj/f4jSsnaz/u0STBxeZl56A8j2/ibfty/36cF5Nr9d9pBwOye3az0ChJO+tOBMzpdJhUiVovJPsC07nHGgHZCOqn+ECH3a9WRilGQuEqyOfgjuDPrENkb5EWW1m+q+ror9q+r3gI2xIA7CJyblxhOfUytcXXquSniirkgkY1KToUuVde3jPxmieztvn85TFA85QomFceYHwbbZ1Uew81jMHmr8FHIGzQbfsKkY7e8WDisSGytDIgjIhTZr1l5n7t5YO5FXDQSEKmT4R6BiBVyKq3DaVN0ZeD5Cd1n75bCs5eQ+jWQdllXU9MZnMQ4pZVtMQ8D+h5cauvAsJ0uSbQUuM="
+        }
+      }
+    ]
+  },
+  "markers": [],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,860.00\nH\n82,860.00\nL\n82,859.99\nC\n82,860.00\n0.00 (0.00%)\n82,859.99\nSELL\n0.01\n82,860.00\nBUY\nVol · BTC\n1\nUSDT\nNamespace methods\n82,967.00\n82,860.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:24:57 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:24\nBTCUSDT · 2 · Binance\nOpen\n82,860.00\nHigh\n82,860.00\nLow\n82,859.99\nClose\n82,860.00\nChange\n0.00 (0.00%)\nVol\n0.72\nLast day change\n+224.45 (+0.27%)\nVol · BTC\nVolume\n1\nNamespace methods\nPlot\n82,967.00\nREQUESTED_CLOSE_CONTROL\n82,860.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n//@version=6\nindicator(\"Namespace methods\")\nimport sours-lat/R2Nsad4a19ecf824/1 as lib\nouter(value) => request.security(\"BINANCE:BTCUSDT\", \"1D\", request.security(\"BINANCE:BTCUSDT\", \"1D\", lib.pick(value) + lib.pick(int(7)), lookahead=barmerge.lookahead_on), lookahead=barmerge.lookahead_on)\nplot(outer(close))\nplot(request.security(\"BINANCE:BTCUSDT\", \"1D\", close, lookahead=barmerge.lookahead_on), title=\"REQUESTED_CLOSE_CONTROL\")\nLine 1, Col 1\nPine Script® v6\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 2 minutes"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 1, Col 1",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNS",
+  "nativeCompilationObserved": true,
+  "templatePath": "root2-nested-6-namespace-v58-v1.pine",
+  "templateSha256": "a049c10901ac8cd23335d9ac620d9e89f6fc2e96c5b1d9595a626cd5bdee7ea4",
+  "instructionsPath": "instructions/root2-nested-6-namespace-v58-v1-instructions-v1.md",
+  "group": "group-18",
+  "role": "CONSUMER",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "2",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": "1791638520",
+  "closedBarCutoffReason": "Latest exported bar with opening time before the current interval; open row retained separately in original CSV.",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-10T13:24:59.494Z",
+    "byteLength": 21673,
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "Plot",
+      "REQUESTED_CLOSE_CONTROL"
+    ],
+    "rowCount": 305,
+    "closedRowCount": 304,
+    "firstTimestamp": "1791602160",
+    "lastTimestamp": "1791638640",
+    "openRowTimestamps": [
+      "1791638640"
+    ],
+    "observerColumns": [
+      {
+        "ordinal": 1,
+        "title": "Plot",
+        "expression": "outer(close)",
+        "sourceLine": 5
+      },
+      {
+        "ordinal": 2,
+        "title": "REQUESTED_CLOSE_CONTROL",
+        "expression": "request.security(\"BINANCE:BTCUSDT\", \"1D\", close, lookahead=barmerge.lookahead_on)",
+        "sourceLine": 6
+      }
+    ],
+    "volumeCapture": "TradingView built-in Volume indicator, unchanged defaults"
+  }
+}

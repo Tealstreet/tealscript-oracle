@@ -1,0 +1,269 @@
+{
+  "captureTimestamp": "2026-10-10T13:22:37.066Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=5\nindicator(\"Namespace methods\")\nimport sours-lat/R2Nseb54acaa28f5/1 as lib\nplot(lib.pick(float(3)))\nplot(lib.pick(int(3)))\n",
+  "executedSha256": "722b529664bd64a5539765497a82167b6a6abc9dc02ed448252b48e0fcd83293",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "Pl8x63",
+        "title": "Namespace methods (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          },
+          {
+            "id": "plot_1",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"import\":1,\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_3RRHgnXqgxoE4zTRvm9tMA==_/ks6jKmjNJVpcZO7VdONvLFUjYQNHjqcM/qdWui9cQ7yf5takO198CWoEhv0ZieDX2hzEaTQkOLOgnX7L6/2rwphP7VCxGVO5VodACCPWQR8S7WiIUVfjZ1FgBL7hkpehVKeVhWeoAkB8gdhlZrgJyBLL7z2U9NoC4R3WvPmfM4DJApbKJs/QkKK+50Mx29vpesrn5NoveFQn+LBNZII4JtkxEGdaz6cmXXVZhdzri4xDjIysGhThaRogVtGO7Nmy8q6rFjed96FwtySHZwju2Z2ARmpWezVsOnV8u818bgZKzCNpgv6cz2HP4ZwtHX2f43ANFkKTTMhmFNHXv8FqQtnA3xEuMm3BWMAHor9UYBiPvIxwudIX6ECGKUE+mD6A6IS2Si5j8l2JCGIQsj0p4r34F5C+XX5vgsyh5bVnpITflU2H2BxJWKc+XyEGbVs+6XMxCCmBQy6szxX/JwLuFpbMeAbJuEI3MkrZwPlCspJJxes9qHKzK7LNe5jidSl2ab/d8hYziNu/xUscMAKq1iibvruNgfmIbsMEC1rs8PnHhKDzCNNAo0KemA2RuNtiN4fGCl7wGxNFBrO7cR02+Z6M419RSKzq5J9ijrYTeJxVXiMcAJO23n3ezJJNvbPijx3Rcv6nSHB3xBpqhMCH8tFUv8kZOmSd5u7gPPDYNFFSdj7+ImijISkgkA2vPP9OyJ7AI7mJWkvQTpFiMyEbwVowSCWtC18aDsGvrZ9187+WKz7W9fz4feps3CvfaBpMA+OQGww7ZQkUykZ8GPVVAL7PL5/ZDDsISddQfp0kO+FpQ=="
+        }
+      }
+    ]
+  },
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,850.16\nH\n82,860.00\nL\n82,850.15\nC\n82,860.00\n+9.84 (+0.01%)\n82,859.99\nSELL\n0.01\n82,860.00\nBUY\nVol · BTC\n1\nUSDT\nNamespace methods\n103.00\n203.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:22:36 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:22\nBTCUSDT · 2 · Binance\nOpen\n82,850.16\nHigh\n82,860.00\nLow\n82,850.15\nClose\n82,860.00\nChange\n+9.84 (+0.01%)\nVol\n0.86\nLast day change\n+224.45 (+0.27%)\nVol · BTC\nVolume\n1\nNamespace methods\nPlot\n103.00\nPlot\n203.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=5\nindicator(\"Namespace methods\")\nimport sours-lat/R2Nseb54acaa28f5/1 as lib\nplot(lib.pick(float(3)))\nplot(lib.pick(int(3)))\nLine 1, Col 1\nPine Script® v5\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 2 minutes"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 1, Col 1",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNS",
+  "nativeCompilationObserved": true,
+  "templatePath": "root2-direct-5-false-namespace-v58-v1.pine",
+  "templateSha256": "e48744d4efb7f3dfb3598e98fa92aee2609bf9b0e36d72f7a1e965b91ca7b5e1",
+  "instructionsPath": "instructions/root2-direct-5-false-namespace-v58-v1-instructions-v1.md",
+  "group": "group-18",
+  "role": "CONSUMER",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "2",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": "1791638400",
+  "closedBarCutoffReason": "Latest exported bar with opening time before the current interval; open row retained separately in original CSV.",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-10T13:22:38.570Z",
+    "byteLength": 18547,
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "Plot",
+      "Plot"
+    ],
+    "rowCount": 304,
+    "closedRowCount": 303,
+    "firstTimestamp": "1791602160",
+    "lastTimestamp": "1791638520",
+    "openRowTimestamps": [
+      "1791638520"
+    ],
+    "observerColumns": [
+      {
+        "ordinal": 1,
+        "title": "Plot",
+        "expression": "lib.pick(float(3))",
+        "sourceLine": 4
+      },
+      {
+        "ordinal": 2,
+        "title": "Plot",
+        "expression": "lib.pick(int(3))",
+        "sourceLine": 5
+      }
+    ],
+    "volumeCapture": "TradingView built-in Volume indicator, unchanged defaults"
+  },
+  "libraryBinding": {
+    "id": "direct-5-False",
+    "fixturePath": "CAPTURE_OWNER/R2Nseb54acaa28f5/1",
+    "librarySourceSha256": "242d17c05031554c71f1a7e3d8a92d27c32116d638c447195f20423a6fce5bbe",
+    "libraryPath": "root2-library-eb54acaa28f5-v58-v1.pine",
+    "placeholderImportPath": "CAPTURE_OWNER/R2Nseb54acaa28f5/1"
+  },
+  "publication": {
+    "timestamp": "2026-10-10T13:17:13.799Z",
+    "templatePath": "root2-library-eb54acaa28f5-v58-v1.pine",
+    "templateSha256": "242d17c05031554c71f1a7e3d8a92d27c32116d638c447195f20423a6fce5bbe",
+    "publishedSourceSha256": "242d17c05031554c71f1a7e3d8a92d27c32116d638c447195f20423a6fce5bbe",
+    "owner": "sours-lat",
+    "title": "R2Nseb54acaa28f5",
+    "version": "1",
+    "immutableImportPath": "sours-lat/R2Nseb54acaa28f5/1",
+    "importPath": "sours-lat/R2Nseb54acaa28f5/1",
+    "url": "https://www.tradingview.com/script/NFnIlFlN-R2Nseb54acaa28f5/",
+    "visibility": "private",
+    "sourceVerifiedAgainstTemplate": true,
+    "publishedSourceRequest": "PUB%3Bc242e1dfa20b492ba09816ac2dae4391/1?no_4xx=true"
+  }
+}

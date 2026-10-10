@@ -1,0 +1,9 @@
+--- local-precedence-import-control-v5-v1.pine
++++ executed-v1.pine
+@@ -1,5 +1,5 @@
+ //@version=5
+ indicator("local-precedence import-control v5")
+-import Test/IX5Precedence/1 as lib
++import sours-lat/IX5Precedence/1 as lib
+ plot(float(3.0).choose(), "IMPORTED_FLOAT")
+ plot(int(3).choose(), "IMPORTED_INT")

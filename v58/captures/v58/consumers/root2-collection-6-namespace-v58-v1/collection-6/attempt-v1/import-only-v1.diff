@@ -1,0 +1,10 @@
+--- root2-collection-6-namespace-v58-v1.pine
++++ executed-v1.pine
+@@ -1,6 +1,6 @@
+ //@version=6
+ indicator("Namespace methods")
+-import CAPTURE_OWNER/R2Nse97e9c211f29/1 as lib
++import sours-lat/R2Nse97e9c211f29/1 as lib
+ p = lib.Point.new(3)
+ a = array.from(float(4))
+ plot(lib.pick(p))

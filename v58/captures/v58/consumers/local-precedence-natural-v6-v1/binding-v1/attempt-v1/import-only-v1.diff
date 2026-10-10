@@ -1,0 +1,10 @@
+--- local-precedence-natural-v6-v1.pine
++++ executed-v1.pine
+@@ -1,6 +1,6 @@
+ //@version=6
+ indicator("local-precedence natural v6")
+-import Test/IX6Precedence/1 as lib
++import sours-lat/IX6Precedence/1 as lib
+ type Holder
+     float value
+ method choose(Holder self) => self.value + 300

@@ -1,0 +1,52 @@
+[
+  {
+    "label": "first-named",
+    "leftSource": "first-named-omitted-v1.pine",
+    "rightSource": "first-named-explicit-v1.pine",
+    "leftStatus": "COMPILE-ERROR",
+    "rightStatus": "COMPILE-ERROR",
+    "leftEvidence": "consumers/first-named-omitted-v1/default/attempt-v1/observation-v1.json",
+    "rightEvidence": "consumers/first-named-explicit-v1/default/attempt-v1/observation-v1.json",
+    "numericComparison": "UNOBSERVED: separate refusal/prerequisite outcomes retained"
+  },
+  {
+    "label": "nested-request",
+    "leftSource": "nested-request-omitted-v1.pine",
+    "rightSource": "nested-request-explicit-v1.pine",
+    "leftStatus": "COMPILE-ERROR",
+    "rightStatus": "COMPILE-ERROR",
+    "leftEvidence": "consumers/nested-request-omitted-v1/default/attempt-v1/observation-v1.json",
+    "rightEvidence": "consumers/nested-request-explicit-v1/default/attempt-v1/observation-v1.json",
+    "numericComparison": "UNOBSERVED: separate refusal/prerequisite outcomes retained"
+  },
+  {
+    "label": "parameter-reference",
+    "leftSource": "parameter-reference-omitted-v1.pine",
+    "rightSource": "parameter-reference-explicit-v1.pine",
+    "leftStatus": "COMPILE-ERROR",
+    "rightStatus": "COMPILE-ERROR",
+    "leftEvidence": "consumers/parameter-reference-omitted-v1/default/attempt-v1/observation-v1.json",
+    "rightEvidence": "consumers/parameter-reference-explicit-v1/default/attempt-v1/observation-v1.json",
+    "numericComparison": "UNOBSERVED: separate refusal/prerequisite outcomes retained"
+  },
+  {
+    "label": "default-presence-overload",
+    "leftSource": "default-presence-overload-omitted-v1.pine",
+    "rightSource": "default-presence-overload-explicit-v1.pine",
+    "leftStatus": "COMPILE-ERROR",
+    "rightStatus": "COMPILE-ERROR",
+    "leftEvidence": "consumers/default-presence-overload-omitted-v1/default/attempt-v1/observation-v1.json",
+    "rightEvidence": "consumers/default-presence-overload-explicit-v1/default/attempt-v1/observation-v1.json",
+    "numericComparison": "UNOBSERVED: separate refusal/prerequisite outcomes retained"
+  },
+  {
+    "label": "imported",
+    "leftSource": "imported-omitted-v1.pine",
+    "rightSource": "imported-explicit-v1.pine",
+    "leftStatus": "PUBLICATION-BLOCKED",
+    "rightStatus": "PUBLICATION-BLOCKED",
+    "leftEvidence": "consumers/imported-omitted-v1/binding-v1/attempt-v1/observation-v1.json",
+    "rightEvidence": "consumers/imported-explicit-v1/binding-v1/attempt-v1/observation-v1.json",
+    "numericComparison": "UNOBSERVED: separate refusal/prerequisite outcomes retained"
+  }
+]

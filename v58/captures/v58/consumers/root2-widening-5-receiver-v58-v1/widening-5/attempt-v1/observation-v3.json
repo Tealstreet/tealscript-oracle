@@ -1,0 +1,277 @@
+{
+  "captureTimestamp": "2026-10-10T13:23:39.083Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=5\nindicator(\"Namespace methods\")\nimport sours-lat/R2Ns7300f5f6f0f4/1 as lib\nplot(int(3).pick())\n",
+  "executedSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "LfT3sc",
+        "title": "Oracle na holes crosses v1 (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "Could not find method or method reference 'pick' for 'integer'",
+            "editorError": {
+              "end": {
+                "column": 23,
+                "line": 4
+              },
+              "message": "Could not find method or method reference 'pick' for 'integer'",
+              "start": {
+                "column": 12,
+                "line": 4
+              },
+              "id": "USER;64eb9fe01ecd4728859be8cb120fa590"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_zDJpvBm6BZ7dFEabFI9r8Q==_0gnUU1ikGzuCrMtsvs1kUFzh36EzOdY07nBfTq/nlfRHLVqpI4BwNJQt5UR3O5orlHUtMKxiFj1qe7NAmZoPSJl1D7EOKtN1cteHvGI9YagcEhLb9LpD+/4uy/K4U4gVSCwnZHiEZokUzpFkSVg1mnbesF8eyr7O91TaaoX5fwjI7XV3m2AiGcZpsRtYiTzFAxB7rm4BKh9HkcFViGnAeoNRJteKa4dGUE8FK4/Q7Di+3dwqnKrFrFllLqNtxk0b/ZGaf+ZdG8LEwRrBiclH1fjszPzxixgzON7U6gbSO6SZeeezcgF3uJSRLPMh5QalSUZKIpIQwEAClsV22Hc="
+        }
+      }
+    ]
+  },
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "severity": 8,
+      "message": "Could not find method or method reference 'pick' for 'integer'",
+      "startLineNumber": 4,
+      "startColumn": 12,
+      "endLineNumber": 4,
+      "endColumn": 23
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "severity": 8,
+      "message": "Could not find method or method reference 'pick' for 'integer'",
+      "startLineNumber": 4,
+      "startColumn": 12,
+      "endLineNumber": 4,
+      "endColumn": 24
+    }
+  ],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,850.16\nH\n82,860.00\nL\n82,850.15\nC\n82,859.99\n+9.83 (+0.01%)\n82,859.99\nSELL\n0.01\n82,860.00\nBUY\nVol · BTC\n2\nUSDT\nOracle na holes crosses v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:23:38 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:22\nBTCUSDT · 2 · Binance\nOpen\n82,850.16\nHigh\n82,860.00\nLow\n82,850.15\nClose\n82,859.99\nChange\n+9.83 (+0.01%)\nVol\n1.58\nLast day change\n+224.44 (+0.27%)\nVol · BTC\nVolume\n2\nOracle na holes crosses v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nindicator(\"Namespace methods\")\nimport sours-lat/R2Ns7300f5f6f0f4/1 as lib\nplot(int(3).pick())\n1 of 3 problems\nCould not find method or method reference 'pick' for 'integer'\nLine 4, Col 12\nPine Script® v5\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 2 minutes"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 4, Col 12",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "COMPILE-ERROR",
+  "nativeCompilationObserved": true,
+  "templatePath": "root2-widening-5-receiver-v58-v1.pine",
+  "templateSha256": "9ee7c2d320214d7ca14936c507724e7201d4efbde0ff01feb0baaa3bd7e3034d",
+  "instructionsPath": "instructions/root2-widening-5-receiver-v58-v1-instructions-v1.md",
+  "group": "group-18",
+  "role": "CONSUMER",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "2",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Compilation refused; no executed series.",
+  "libraryBinding": {
+    "id": "widening-5",
+    "fixturePath": "CAPTURE_OWNER/R2Ns7300f5f6f0f4/1",
+    "librarySourceSha256": "65a58a5a33bcd9643df9dec5185d570f441cb6b13ff6bdfc8a0993d5130d3531",
+    "libraryPath": "root2-library-7300f5f6f0f4-v58-v1.pine",
+    "placeholderImportPath": "CAPTURE_OWNER/R2Ns7300f5f6f0f4/1"
+  },
+  "publication": {
+    "timestamp": "2026-10-10T13:17:39.073Z",
+    "templatePath": "root2-library-7300f5f6f0f4-v58-v1.pine",
+    "templateSha256": "65a58a5a33bcd9643df9dec5185d570f441cb6b13ff6bdfc8a0993d5130d3531",
+    "publishedSourceSha256": "65a58a5a33bcd9643df9dec5185d570f441cb6b13ff6bdfc8a0993d5130d3531",
+    "owner": "sours-lat",
+    "title": "R2Ns7300f5f6f0f4",
+    "version": "1",
+    "immutableImportPath": "sours-lat/R2Ns7300f5f6f0f4/1",
+    "importPath": "sours-lat/R2Ns7300f5f6f0f4/1",
+    "url": "https://www.tradingview.com/script/0LFrJZoR-R2Ns7300f5f6f0f4/",
+    "visibility": "private",
+    "sourceVerifiedAgainstTemplate": true,
+    "publishedSourceRequest": "PUB%3B0e29fa3b7c1d49308d54ca2bcf8e554d/1?no_4xx=true"
+  }
+}
