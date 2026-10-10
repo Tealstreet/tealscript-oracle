@@ -1,6 +1,6 @@
-# v58 native capture response v1
+# v58 native capture response v3
 
-Consumer inventory: 66 sources; COMPILE-ERROR: 12, NOT-ATTEMPTED: 54.
+Consumer inventory: 422 sources; COMPILE-ERROR: 76, NOT-ATTEMPTED: 344, PUBLICATION-BLOCKED: 2.
 
 Library prerequisites: 27 sources; COMPILE-ERROR: 7, RUNS: 20.
 
@@ -10,7 +10,7 @@ The priority single-float library is refused with CE10236 at 3:19: `The "self" a
 
 Every source is independent. Compilation admission alone is not numeric evidence. RUNS consumer observations without a CSV remain incomplete; their values are UNOBSERVED. Physical/live context is credited only when observed. Raw diagnostics include both native/editor marker owners when exposed, with severity, code, and source ranges. Initial unsettled classifications are retained with explicit exclusion metadata and repeated attempts; use this inventory to select valid evidence.
 
-[Machine-readable attempt inventory](attempt-inventory-v1.json)
+[Machine-readable attempt inventory](attempt-inventory-v3.json)
 
 | Source | Group | Outcome | Evidence |
 | --- | --- | --- | --- |
@@ -53,7 +53,70 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `v6-security-omitted.pine` | group-01 | COMPILE-ERROR | [observation](consumers/v6-security-omitted/default/attempt-v2/observation-v1.json) |
 | `v6-security-body-frame.pine` | group-01 | COMPILE-ERROR | [observation](consumers/v6-security-body-frame/default/attempt-v2/observation-v1.json) |
 | `v6-security-independent.pine` | group-01 | COMPILE-ERROR | [observation](consumers/v6-security-independent/default/attempt-v2/observation-v1.json) |
+| `v5-direct-function-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-direct-function-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-function-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-direct-function-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-method-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-direct-method-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-method-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-direct-method-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-function-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-security-function-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-function-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-security-function-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-method-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-security-method-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-method-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v5-security-method-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-function-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-direct-function-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-function-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-direct-function-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-method-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-direct-method-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-method-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-direct-method-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-function-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-security-function-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-function-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-security-function-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-method-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-security-method-cum-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-method-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-security-method-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-root-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-root-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-root-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-root-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-root-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-root-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-root-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-root-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-nested-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-nested-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-nested-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-nested-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-nested-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-nested-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-nested-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-nested-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-root-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-root-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-root-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-root-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-root-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-root-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-root-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-root-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-nested-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-nested-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-nested-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-nested-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-nested-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-nested-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-security-nested-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-security-nested-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-root-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-root-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-root-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-root-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-root-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-root-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-root-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-root-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-nested-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-nested-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-nested-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-nested-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-nested-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-nested-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-direct-nested-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-direct-nested-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-root-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-root-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-root-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-root-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-root-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-root-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-root-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-root-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-nested-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-nested-function-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-nested-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-nested-function-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-nested-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-nested-method-twice-omitted/default/attempt-v1/observation-v1.json) |
+| `v6-security-nested-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-nested-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `v5-direct-float-function-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-direct-float-function-omitted-v1/default/attempt-v1/observation-v1.json) |
 | `v5-direct-float-function-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-direct-float-function-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-float-function-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-security-float-function-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-float-function-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-security-float-function-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-float-function-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-direct-float-function-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-float-function-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-direct-float-function-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-float-function-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-security-float-function-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-float-function-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-security-float-function-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-float-method-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-direct-float-method-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-float-method-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-direct-float-method-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-float-method-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-security-float-method-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-float-method-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-security-float-method-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-float-method-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-direct-float-method-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-float-method-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-direct-float-method-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-float-method-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-security-float-method-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-float-method-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-security-float-method-supplied-v1/default/attempt-v1/observation-v1.json) |
 | `imported-numeric-single-float-namespace-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-single-float-namespace-v58-v1/single-float-namespace/attempt-v1/observation-v1.json) |
 | `root2-root1-single-float-receiver-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-single-float-receiver-preservation-control-v58-v1/root1-single-float-receiver/attempt-v1/observation-v1.json) |
 
