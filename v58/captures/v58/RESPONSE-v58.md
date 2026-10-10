@@ -1,4 +1,4 @@
-# v58 native capture response v6
+# v58 native capture response v7
 
 Consumer inventory: 422 sources; COMPILE-ERROR: 182, CONTEXT-UNMET: 2, NOT-ATTEMPTED: 60, PUBLICATION-BLOCKED: 2, RUNS: 169, RUNTIME-ERROR: 7.
 
@@ -10,7 +10,7 @@ The priority single-float library is refused with CE10236 at 3:19: `The "self" a
 
 Every source is independent. Compilation admission alone is not numeric evidence. RUNS consumer observations without a CSV remain incomplete; their values are UNOBSERVED. Physical/live context is credited only when observed. Raw diagnostics include both native/editor marker owners when exposed, with severity, code, and source ranges. Initial unsettled classifications are retained with explicit exclusion metadata and repeated attempts; use this inventory to select valid evidence.
 
-[Machine-readable attempt inventory](attempt-inventory-v6.json)
+[Machine-readable attempt inventory](attempt-inventory-v7.json)
 
 | Source | Group | Outcome | Evidence |
 | --- | --- | --- | --- |
