@@ -1,0 +1,188 @@
+{
+  "captureTimestamp": "2026-10-10T13:08:30.226Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nindicator(\"G6 alias terminal boundary\")\nscore(array<int> xs) => 10\nscore(array<float> xs) => 20\nidentity(array<int> z) => z\nrelay(array<int> xs, array<float> ys) =>\n    copied = identity(xs)\n    score(copied)\nplot(relay(array.new<int>(1,3),array.new<float>(1,1.5)))\n",
+  "executedSha256": "e4c4a4b3adf6e1bbecf47c79e2633c7db27bf8792b4a83bda339d7ef73798931",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "1",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "x0hYKV",
+        "title": "G6 alias terminal boundary (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"array\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_U5stJTsq5IdhepvHjzfjXw==_v5Tr/TzHelVazWKQcM4psppXbT+Tdjqib64UDETJ3JknW7P+EumOproZjJ0yygdMdNf+d9mYlVHto/HsEIMFjANsx6DTc+hPej7jMPR6RbS+1r3kP2zFyHNBPXVS0xiZ0G/6N8wYeJToVFsd4RBMfCRnsxRarcmR8kh2ZzlPgEtWhTS5/CItAP6EOLxi6yk8Na4sSMFuJnnGHGkN/nXkqLTkkKCRuQUWJNzCL4C8Br2yfmMOhE2+FzaEtpJyHTBVobBrTIMsuJLABYIJSVRmwccLvjMzJZ6xJumcIJBGMViIWP6OAxOMjLU4oz3rwyvswzJWx4g4xSN/W5X6N92BX63ie9RWDfMQxlA="
+        }
+      }
+    ]
+  },
+  "markers": [],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n1m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,816.01\nH\n82,821.80\nL\n82,816.00\nC\n82,821.79\n+5.78 (+0.01%)\n82,821.79\nSELL\n0.01\n82,821.80\nBUY\nVol · BTC\n2\nUSDT\nG6 alias terminal boundary\n10.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:08:29 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:08\nBTCUSDT · 1 · Binance\nOpen\n82,816.01\nHigh\n82,821.80\nLow\n82,816.00\nClose\n82,821.79\nChange\n+5.78 (+0.01%)\nVol\n2.22\nLast day change\n+186.24 (+0.23%)\nVol · BTC\nVolume\n2\nG6 alias terminal boundary\nPlot\n10.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=6\nindicator(\"G6 alias terminal boundary\")\nscore(array<int> xs) => 10\nscore(array<float> xs) => 20\nidentity(array<int> z) => z\nrelay(array<int> xs, array<float> ys) =>\n    copied = identity(xs)\n    score(copied)\nplot(relay(array.new<int>(1,3),array.new<float>(1,1.5)))\nLine 1, Col 1\nPine Script® v6\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 1 minute"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 1, Col 1",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNS",
+  "nativeCompilationObserved": true,
+  "templatePath": "g11-v6-array-int-identity-initializer-typed.pine",
+  "templateSha256": "e4c4a4b3adf6e1bbecf47c79e2633c7db27bf8792b4a83bda339d7ef73798931",
+  "instructionsPath": "instructions/g11-v6-array-int-identity-initializer-typed-instructions-v1.md",
+  "group": "group-16",
+  "role": "typed-control",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "1",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Pending CSV capture"
+}

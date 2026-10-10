@@ -1,0 +1,218 @@
+{
+  "captureTimestamp": "2026-10-10T13:07:24.730Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nindicator(\"G6 persistent alias state\")\nscore(map<string,int> values) => 100+map.get(values,\"v\")\nscore(map<string,float> values) => 200+map.get(values,\"v\")\nrelay(map<string,int> xs,map<string,int> ys) =>\n    var copied = map.copy(xs)\n    score(copied)\nxs = map.new<string,int>()\nmap.put(xs,\"v\",int(close))\nys = map.new<string,int>()\nmap.put(ys,\"v\",int(close)+70)\nplot(relay(xs,ys))\n",
+  "executedSha256": "a23dd9ef3060f96dc7da5100d9a4a51668e036d9250d917152e3fbd4f7d0d420",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "1",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "sMMM9o",
+        "title": "G6 persistent alias state (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"map\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_DWECotk+GMYNhbdvbIC3WQ==_MpX10GlDpkZRc+LKJ2HMFeOYSCdmQgPilfsU2FX9iQ9IfO3sYW05ffWvE20s1ziQoxX0i3hRA5o/8JTYPvVjCby2Bij5b2BMcosVnYSFELP2fREj0I0znMWdVUnQb08NV99a6izKuHvm+Qyl7sYrAzIizC31RD3+Tb++GUcWF3C9gWSfaO+7B4DK4QtPg3jEIW55kyTcs98VUVmiGEtc9B/4lHbtLqN9sI3Imu4tG01wXbU1n4K6G7XVUkKuK1VSXA3Q1ZSFwr5vd9goacQUxINGjAZs7ruqbDSzddOuwXGCgW/0aqbxwQkKp4Gb74tI658NI1CLW6eLip74CSotrkyvedLPQjki+4qC1ip/aMjGw9JDhjIri8NQA2M9ms77ZnshXj7pERrOuQ8delYQSNzbUmLjSfcozfMZSjveBr/lz0Oux/fIgYZG+gQFiVN8cYMAlrhqFCQI6UdK+Y7YnKhhck3d1X2gVdbFHWGhzspV6brhheCNHQ/9WPt+kRCBOY/OlS4n2nL6rBcCRmrUg//7YLnvsNt13raSwQRpo5QvV++RFh30ajopDXPso8CTYPFxMzOVDIAOm405s+nzml3X1vHjODXIdOrOZ+BiLRduqvqp4JdxY4DsqkBhfUcZNme6dThkR6t1feJcLt8d2RVyBbS4txxmbnxqDKl7bWG7LMsUY4+gv8G998YBgqk0zEIGFd+YKU0vsYhgsv3HHtLHrjPSV/GsllgMrbgf27Xmsct2CUx95psCoMndpcAYlGT9crFRas0e9wwLvQiygNnnVFASvDUDsTIP4OJ/4CF42iI="
+        }
+      }
+    ]
+  },
+  "markers": [],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n1m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,813.60\nH\n82,816.01\nL\n82,813.60\nC\n82,816.01\n+2.41 (+0.00%)\n82,816.00\nSELL\n0.01\n82,816.01\nBUY\nVol · BTC\n16\nUSDT\nG6 persistent alias state\n81,298.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:07:24 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:07\nBTCUSDT · 1 · Binance\nOpen\n82,813.60\nHigh\n82,816.01\nLow\n82,813.60\nClose\n82,816.01\nChange\n+2.41 (+0.00%)\nVol\n16.16\nLast day change\n+180.46 (+0.22%)\nVol · BTC\nVolume\n16\nG6 persistent alias state\nPlot\n81,298.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n//@version=6\nindicator(\"G6 persistent alias state\")\nscore(map<string,int> values) => 100+map.get(values,\"v\")\nscore(map<string,float> values) => 200+map.get(values,\"v\")\nrelay(map<string,int> xs,map<string,int> ys) =>\n    var copied = map.copy(xs)\n    score(copied)\nxs = map.new<string,int>()\nmap.put(xs,\"v\",int(close))\nys = map.new<string,int>()\nmap.put(ys,\"v\",int(close)+70)\nplot(relay(xs,ys))\nLine 1, Col 1\nPine Script® v6\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 1 minute"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 1, Col 1",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNS",
+  "nativeCompilationObserved": true,
+  "templatePath": "g09-v6-map-int-copy-initializer-typed.pine",
+  "templateSha256": "a23dd9ef3060f96dc7da5100d9a4a51668e036d9250d917152e3fbd4f7d0d420",
+  "instructionsPath": "instructions/g09-v6-map-int-copy-initializer-typed-instructions-v1.md",
+  "group": "group-16",
+  "role": "typed-control",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "1",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": "1791637560",
+  "closedBarCutoffReason": "Latest exported bar with opening time before the current interval; open row retained separately in original CSV.",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-10T13:07:26.279Z",
+    "byteLength": 19829,
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "Plot"
+    ],
+    "rowCount": 338,
+    "closedRowCount": 337,
+    "firstTimestamp": "1791617400",
+    "lastTimestamp": "1791637620",
+    "openRowTimestamps": [
+      "1791637620"
+    ],
+    "observerColumns": [
+      {
+        "ordinal": 1,
+        "title": "Plot",
+        "expression": "relay(xs,ys)",
+        "sourceLine": 12
+      }
+    ],
+    "volumeCapture": "TradingView built-in Volume indicator, unchanged defaults"
+  }
+}

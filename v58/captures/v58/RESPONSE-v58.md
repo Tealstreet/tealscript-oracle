@@ -1,6 +1,6 @@
-# v58 native capture response v4
+# v58 native capture response v5
 
-Consumer inventory: 422 sources; COMPILE-ERROR: 164, NOT-ATTEMPTED: 183, PUBLICATION-BLOCKED: 2, RUNS: 73.
+Consumer inventory: 422 sources; COMPILE-ERROR: 168, NOT-ATTEMPTED: 98, PUBLICATION-BLOCKED: 2, RUNS: 154.
 
 Library prerequisites: 27 sources; COMPILE-ERROR: 7, RUNS: 20.
 
@@ -10,7 +10,7 @@ The priority single-float library is refused with CE10236 at 3:19: `The "self" a
 
 Every source is independent. Compilation admission alone is not numeric evidence. RUNS consumer observations without a CSV remain incomplete; their values are UNOBSERVED. Physical/live context is credited only when observed. Raw diagnostics include both native/editor marker owners when exposed, with severity, code, and source ranges. Initial unsettled classifications are retained with explicit exclusion metadata and repeated attempts; use this inventory to select valid evidence.
 
-[Machine-readable attempt inventory](attempt-inventory-v4.json)
+[Machine-readable attempt inventory](attempt-inventory-v5.json)
 
 | Source | Group | Outcome | Evidence |
 | --- | --- | --- | --- |
@@ -278,7 +278,92 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `v6-security-map-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
 | `v6-security-map-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-float-first-typed-var/default/attempt-v1/observation-v2.json) |
 | `imported-numeric-single-float-namespace-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-single-float-namespace-v58-v1/single-float-namespace/attempt-v1/observation-v1.json) |
+| `g01-v5-array-chain-two-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
 | `g01-v5-array-chain-two-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g01-v6-array-chain-two-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v6-array-chain-two-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g01-v6-array-chain-two-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v6-array-chain-two-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g01-v6-matrix-var-chain-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v6-matrix-var-chain-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g01-v6-matrix-var-chain-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v6-matrix-var-chain-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g01-v6-map-other-parameter-chain-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v6-map-other-parameter-chain-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g01-v6-map-other-parameter-chain-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v6-map-other-parameter-chain-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g02-v5-array-reassigned-before-int-int-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g02-v5-array-reassigned-before-int-int-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g02-v5-array-reassigned-before-int-int-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g02-v5-array-reassigned-before-int-int-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g02-v6-array-reassigned-before-int-int-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g02-v6-array-reassigned-before-int-int-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g02-v6-array-reassigned-before-int-int-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g02-v6-array-reassigned-before-int-int-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g02-v6-matrix-int-last-bar-reassignment-chain-untyped.pine` | group-16 | RUNS | [observation](consumers/g02-v6-matrix-int-last-bar-reassignment-chain-untyped/default/attempt-v1/observation-v2.json) |
+| `g02-v6-matrix-int-last-bar-reassignment-chain-typed.pine` | group-16 | RUNS | [observation](consumers/g02-v6-matrix-int-last-bar-reassignment-chain-typed/default/attempt-v1/observation-v2.json) |
+| `g02-v6-map-branch-reassign-int-int-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g02-v6-map-branch-reassign-int-int-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g02-v6-map-branch-reassign-int-int-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g02-v6-map-branch-reassign-int-int-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g03-v5-array-reassigned-before-float-int-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g03-v5-array-reassigned-before-float-int-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g03-v5-array-reassigned-before-float-int-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g03-v5-array-reassigned-before-float-int-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g03-v6-array-reassigned-before-float-int-int-first-untyped.pine` | group-16 | COMPILE-ERROR | [observation](consumers/g03-v6-array-reassigned-before-float-int-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `g03-v6-array-reassigned-before-float-int-int-first-typed.pine` | group-16 | COMPILE-ERROR | [observation](consumers/g03-v6-array-reassigned-before-float-int-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `g03-v6-map-chain-after-reassign-float-int-int-first-untyped.pine` | group-16 | COMPILE-ERROR | [observation](consumers/g03-v6-map-chain-after-reassign-float-int-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `g03-v6-map-chain-after-reassign-float-int-int-first-typed.pine` | group-16 | COMPILE-ERROR | [observation](consumers/g03-v6-map-chain-after-reassign-float-int-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `g04-v5-array-if-two-origins-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g04-v5-array-if-two-origins-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g04-v5-array-if-two-origins-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g04-v5-array-if-two-origins-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g04-v6-array-if-two-origins-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g04-v6-array-if-two-origins-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g04-v6-array-if-two-origins-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g04-v6-array-if-two-origins-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g04-v6-matrix-for-shadow-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g04-v6-matrix-for-shadow-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g04-v6-matrix-for-shadow-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g04-v6-matrix-for-shadow-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g04-v6-map-while-local-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g04-v6-map-while-local-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g04-v6-map-while-local-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g04-v6-map-while-local-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g05-v5-array-int-var-inside-if-untyped.pine` | group-16 | RUNS | [observation](consumers/g05-v5-array-int-var-inside-if-untyped/default/attempt-v1/observation-v2.json) |
+| `g05-v5-array-int-var-inside-if-typed.pine` | group-16 | RUNS | [observation](consumers/g05-v5-array-int-var-inside-if-typed/default/attempt-v1/observation-v2.json) |
+| `g05-v6-array-int-var-inside-if-untyped.pine` | group-16 | RUNS | [observation](consumers/g05-v6-array-int-var-inside-if-untyped/default/attempt-v1/observation-v2.json) |
+| `g05-v6-array-int-var-inside-if-typed.pine` | group-16 | RUNS | [observation](consumers/g05-v6-array-int-var-inside-if-typed/default/attempt-v1/observation-v2.json) |
+| `g05-v6-matrix-int-var-inside-loop-untyped.pine` | group-16 | RUNS | [observation](consumers/g05-v6-matrix-int-var-inside-loop-untyped/default/attempt-v1/observation-v2.json) |
+| `g05-v6-matrix-int-var-inside-loop-typed.pine` | group-16 | RUNS | [observation](consumers/g05-v6-matrix-int-var-inside-loop-typed/default/attempt-v1/observation-v2.json) |
+| `g05-v6-map-int-var-only-on-enabled-path-untyped.pine` | group-16 | RUNS | [observation](consumers/g05-v6-map-int-var-only-on-enabled-path-untyped/default/attempt-v1/observation-v2.json) |
+| `g05-v6-map-int-var-only-on-enabled-path-typed.pine` | group-16 | RUNS | [observation](consumers/g05-v6-map-int-var-only-on-enabled-path-typed/default/attempt-v1/observation-v2.json) |
+| `g06-v5-array-int-if-expression-once-untyped.pine` | group-16 | RUNS | [observation](consumers/g06-v5-array-int-if-expression-once-untyped/default/attempt-v1/observation-v2.json) |
+| `g06-v5-array-int-if-expression-once-typed.pine` | group-16 | RUNS | [observation](consumers/g06-v5-array-int-if-expression-once-typed/default/attempt-v1/observation-v2.json) |
+| `g06-v6-array-int-if-expression-once-untyped.pine` | group-16 | RUNS | [observation](consumers/g06-v6-array-int-if-expression-once-untyped/default/attempt-v1/observation-v2.json) |
+| `g06-v6-array-int-if-expression-once-typed.pine` | group-16 | RUNS | [observation](consumers/g06-v6-array-int-if-expression-once-typed/default/attempt-v1/observation-v2.json) |
+| `g06-v6-matrix-int-switch-arm-untyped.pine` | group-16 | RUNS | [observation](consumers/g06-v6-matrix-int-switch-arm-untyped/default/attempt-v1/observation-v2.json) |
+| `g06-v6-matrix-int-switch-arm-typed.pine` | group-16 | RUNS | [observation](consumers/g06-v6-matrix-int-switch-arm-typed/default/attempt-v1/observation-v2.json) |
+| `g06-v6-map-int-unary-terminal-untyped.pine` | group-16 | RUNS | [observation](consumers/g06-v6-map-int-unary-terminal-untyped/default/attempt-v1/observation-v2.json) |
+| `g06-v6-map-int-unary-terminal-typed.pine` | group-16 | RUNS | [observation](consumers/g06-v6-map-int-unary-terminal-typed/default/attempt-v1/observation-v2.json) |
+| `g06-v6-map-int-ternary-argument-untyped.pine` | group-16 | RUNS | [observation](consumers/g06-v6-map-int-ternary-argument-untyped/default/attempt-v1/observation-v2.json) |
+| `g06-v6-map-int-ternary-argument-typed.pine` | group-16 | RUNS | [observation](consumers/g06-v6-map-int-ternary-argument-typed/default/attempt-v1/observation-v2.json) |
+| `g07-v5-array-varip-alias-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g07-v5-array-varip-alias-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g07-v5-array-varip-alias-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g07-v5-array-varip-alias-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g07-v6-array-varip-alias-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g07-v6-array-varip-alias-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g07-v6-array-varip-alias-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g07-v6-array-varip-alias-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g07-v6-matrix-int-varip-overload-still-refused-untyped.pine` | group-16 | RUNS | [observation](consumers/g07-v6-matrix-int-varip-overload-still-refused-untyped/default/attempt-v1/observation-v2.json) |
+| `g07-v6-matrix-int-varip-overload-still-refused-typed.pine` | group-16 | RUNS | [observation](consumers/g07-v6-matrix-int-varip-overload-still-refused-typed/default/attempt-v1/observation-v2.json) |
+| `g07-v6-map-int-var-and-varip-overload-expression-untyped.pine` | group-16 | RUNS | [observation](consumers/g07-v6-map-int-var-and-varip-overload-expression-untyped/default/attempt-v1/observation-v2.json) |
+| `g07-v6-map-int-var-and-varip-overload-expression-typed.pine` | group-16 | RUNS | [observation](consumers/g07-v6-map-int-var-and-varip-overload-expression-typed/default/attempt-v1/observation-v2.json) |
+| `g08-v5-array-conditional-initializer-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g08-v5-array-conditional-initializer-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g08-v5-array-conditional-initializer-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g08-v5-array-conditional-initializer-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g08-v6-array-conditional-initializer-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g08-v6-array-conditional-initializer-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g08-v6-array-conditional-initializer-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g08-v6-array-conditional-initializer-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g08-v6-matrix-ternary-initializer-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g08-v6-matrix-ternary-initializer-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g08-v6-matrix-ternary-initializer-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g08-v6-matrix-ternary-initializer-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g09-v5-array-namespace-copy-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g09-v5-array-namespace-copy-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g09-v5-array-namespace-copy-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g09-v5-array-namespace-copy-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g09-v6-array-namespace-copy-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g09-v6-array-namespace-copy-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g09-v6-array-namespace-copy-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g09-v6-array-namespace-copy-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g09-v6-matrix-receiver-copy-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g09-v6-matrix-receiver-copy-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `g09-v6-matrix-receiver-copy-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g09-v6-matrix-receiver-copy-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `g09-v6-map-int-copy-initializer-untyped.pine` | group-16 | RUNS | [observation](consumers/g09-v6-map-int-copy-initializer-untyped/default/attempt-v1/observation-v2.json) |
+| `g09-v6-map-int-copy-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g09-v6-map-int-copy-initializer-typed/default/attempt-v1/observation-v2.json) |
+| `g10-v5-array-udt-field-int-untyped.pine` | group-16 | RUNS | [observation](consumers/g10-v5-array-udt-field-int-untyped/default/attempt-v1/observation-v2.json) |
+| `g10-v5-array-udt-field-int-typed.pine` | group-16 | RUNS | [observation](consumers/g10-v5-array-udt-field-int-typed/default/attempt-v1/observation-v2.json) |
+| `g10-v6-array-udt-field-int-untyped.pine` | group-16 | RUNS | [observation](consumers/g10-v6-array-udt-field-int-untyped/default/attempt-v1/observation-v2.json) |
+| `g10-v6-array-udt-field-int-typed.pine` | group-16 | RUNS | [observation](consumers/g10-v6-array-udt-field-int-typed/default/attempt-v1/observation-v2.json) |
+| `g10-v6-matrix-udt-alias-field-int-untyped.pine` | group-16 | RUNS | [observation](consumers/g10-v6-matrix-udt-alias-field-int-untyped/default/attempt-v1/observation-v2.json) |
+| `g10-v6-matrix-udt-alias-field-int-typed.pine` | group-16 | RUNS | [observation](consumers/g10-v6-matrix-udt-alias-field-int-typed/default/attempt-v1/observation-v2.json) |
+| `g10-v6-map-int-udt-field-alias-untyped.pine` | group-16 | RUNS | [observation](consumers/g10-v6-map-int-udt-field-alias-untyped/default/attempt-v1/observation-v2.json) |
+| `g10-v6-map-int-udt-field-alias-typed.pine` | group-16 | RUNS | [observation](consumers/g10-v6-map-int-udt-field-alias-typed/default/attempt-v1/observation-v2.json) |
+| `g11-v5-array-int-identity-initializer-untyped.pine` | group-16 | RUNS | [observation](consumers/g11-v5-array-int-identity-initializer-untyped/default/attempt-v1/observation-v2.json) |
+| `g11-v5-array-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v5-array-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
+| `g11-v6-array-int-identity-initializer-untyped.pine` | group-16 | RUNS | [observation](consumers/g11-v6-array-int-identity-initializer-untyped/default/attempt-v1/observation-v2.json) |
+| `g11-v6-array-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v6-array-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
+| `g11-v6-matrix-int-identity-initializer-untyped.pine` | group-16 | RUNS | [observation](consumers/g11-v6-matrix-int-identity-initializer-untyped/default/attempt-v1/observation-v2.json) |
+| `g11-v6-matrix-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v6-matrix-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
+| `g11-v6-map-int-identity-initializer-untyped.pine` | group-16 | RUNS | [observation](consumers/g11-v6-map-int-identity-initializer-untyped/default/attempt-v1/observation-v2.json) |
+| `g11-v6-map-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v6-map-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
 | `root2-root1-single-float-receiver-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-single-float-receiver-preservation-control-v58-v1/root1-single-float-receiver/attempt-v1/observation-v1.json) |
 
 ## Remaining capture work

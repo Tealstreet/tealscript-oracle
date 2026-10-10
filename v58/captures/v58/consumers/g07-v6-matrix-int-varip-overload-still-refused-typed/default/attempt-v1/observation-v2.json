@@ -1,0 +1,218 @@
+{
+  "captureTimestamp": "2026-10-10T13:05:55.831Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nindicator(\"G6 persistent alias state\")\nscore(matrix<int> values) => 100+matrix.get(values,0,0)\nscore(matrix<float> values) => 200+matrix.get(values,0,0)\nrelay(matrix<int> xs,matrix<int> ys) =>\n    varip copied = xs\n    score(copied)\nxs = matrix.new<int>(1,1,int(close))\nys = matrix.new<int>(1,1,int(close)+70)\nplot(relay(xs,ys))\n",
+  "executedSha256": "ac76a6c5a1dd098d4ff17bec88e9d9e1f90dc48bba60c2d0d73176dc3fca70dc",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "1",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "HK0EZJ",
+        "title": "G6 persistent alias state (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"matrix\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_DKB7KPlz6t6zccjPikbWaQ==_vSVsoGyxf+z3JqtsbS567SfRpGCoMMcYPoh7Im5MWqV3evHqdSFT82oDJJfUSOpy74YT1X1YJvyRIVD3zSBxdCh4QjlvQ0TPzPZgKiko4OLZ95OUhWh9r+mw8xpAbA7N4lYD0K0I64FOHmW29lNMVamkDM0rx1h862mjUdBzc40Rwq/ZK2oz/qQSIXDP3AfCPmM5K5QCn1kEJG26wCyID9LYvj4gkp5vkTgjOe0kVKv1gEse8uwrWEsorrKmJMk7VvARjf/DuWIAHdxa7oCQokuP9JkFxM5VFk3HxKwx4MvjLJEAMqduer5+tBrd2/VjJaY2kwe+PD6/yyBNbx6RcmfL22N8shBZq9wCVmVfovy8kdkO1zBYFuriX36xsELumN8ofBqBFdBNC3EFXk4qdD230sbKNbGfqa3YeYyjrPzeVeRsXcCNTCwW9S/Fie88HIH5MzIGiUEVHbCzYpAFo4nKS8c0c3jBvXMHyRTyp6VNqw3wgqnxkpn4rde21Sk3QoaoxyyiRwwYorcIDN/krnogDaGNY+x3mZ7/W5lJqscYEC6Ga/IYjw4WEJv6NUaOl8aQL3r+G9B1bx9mU486l/zTd1FiCCFr4IvJXbR0a3LqCPsUeZ9Skos16DhHSnr+ys+R/qRKO9KWlWPyUC5BE2rgnF8wl24eYG2zHWJexLF3Hg=="
+        }
+      }
+    ]
+  },
+  "markers": [],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n1m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,829.32\nH\n82,829.32\nL\n82,826.00\nC\n82,826.00\n−3.32 (−0.00%)\n82,826.00\nSELL\n0.01\n82,826.01\nBUY\nVol · BTC\n4\nUSDT\nG6 persistent alias state\n81,298.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:05:55 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:05\nBTCUSDT · 1 · Binance\nOpen\n82,829.32\nHigh\n82,829.32\nLow\n82,826.00\nClose\n82,826.00\nChange\n−3.32 (−0.00%)\nVol\n3.79\nLast day change\n+193.76 (+0.23%)\nVol · BTC\nVolume\n4\nG6 persistent alias state\nPlot\n81,298.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n//@version=6\nindicator(\"G6 persistent alias state\")\nscore(matrix<int> values) => 100+matrix.get(values,0,0)\nscore(matrix<float> values) => 200+matrix.get(values,0,0)\nrelay(matrix<int> xs,matrix<int> ys) =>\n    varip copied = xs\n    score(copied)\nxs = matrix.new<int>(1,1,int(close))\nys = matrix.new<int>(1,1,int(close)+70)\nplot(relay(xs,ys))\nLine 1, Col 1\nPine Script® v6\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 1 minute"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 1, Col 1",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNS",
+  "nativeCompilationObserved": true,
+  "templatePath": "g07-v6-matrix-int-varip-overload-still-refused-typed.pine",
+  "templateSha256": "ac76a6c5a1dd098d4ff17bec88e9d9e1f90dc48bba60c2d0d73176dc3fca70dc",
+  "instructionsPath": "instructions/g07-v6-matrix-int-varip-overload-still-refused-typed-instructions-v1.md",
+  "group": "group-16",
+  "role": "typed-control",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "1",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": "1791637440",
+  "closedBarCutoffReason": "Latest exported bar with opening time before the current interval; open row retained separately in original CSV.",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-10T13:05:57.295Z",
+    "byteLength": 19716,
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "Plot"
+    ],
+    "rowCount": 336,
+    "closedRowCount": 335,
+    "firstTimestamp": "1791617400",
+    "lastTimestamp": "1791637500",
+    "openRowTimestamps": [
+      "1791637500"
+    ],
+    "observerColumns": [
+      {
+        "ordinal": 1,
+        "title": "Plot",
+        "expression": "relay(xs,ys)",
+        "sourceLine": 10
+      }
+    ],
+    "volumeCapture": "TradingView built-in Volume indicator, unchanged defaults"
+  }
+}
