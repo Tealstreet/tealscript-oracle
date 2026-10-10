@@ -1,0 +1,233 @@
+{
+  "captureTimestamp": "2026-10-10T12:46:53.241Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=5\nindicator(\"Mixed collection call scopes\")\nmethod score(array<int> xs) => 10\nmethod score(array<float> xs) => 20\nrelay(xs) => xs.score()\n[x,y] = [relay(array.new<float>(1,0)),relay(array.new<int>(1,0))]\nplot(x)\nplot(y)",
+  "executedSha256": "3ec63383c2ff27be27f403a68f08fa4adf42c3adce37dba814a80a64c4e88fc7",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "1",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "w3q304",
+        "title": "Oracle na holes crosses v1 (false, false)",
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_QKUoc8oO7PvQkLj/KcihDw==_Q8/5PpRYH9b6y+zmBQVIv8WSqXSeyGe2wPcVR+mDDSJaKkX0dIbfLJ16gejuxz2eRyK1zsGVPLnSgoLc3cvVSM1iNp05XQ4sTQw2bZkFUmc2win0oNkkmVQKAql6+MQL8MbMgFozae5uorLN36D2jhqDVpJyBT337d//lvXjot3vcNUwDj0US43GMXjlMt+vR6Zg9X7OOcWwu2pYyZIn8g6Kbjf6FSAL9EuLRqlmw3sMciRvuWCbsAvoDd5eOKyDMc/wswD7628xcTmHV3Of3BA0WIuAu0sXHpde2N91BDhYhplQCrugUAk7m5mg8RZSFe5fmX9GdYmNo9geIw=="
+        }
+      }
+    ]
+  },
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "severity": 8,
+      "message": "Syntax error at input '['",
+      "startLineNumber": 6,
+      "startColumn": 9,
+      "endLineNumber": 6,
+      "endColumn": 9
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "severity": 8,
+      "message": "Syntax error at input '['",
+      "startLineNumber": 6,
+      "startColumn": 9,
+      "endLineNumber": 6,
+      "endColumn": 10
+    }
+  ],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n1m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,854.01\nH\n82,854.01\nL\n82,845.47\nC\n82,845.47\n−8.53 (−0.01%)\n82,845.47\nSELL\n0.01\n82,845.48\nBUY\nVol · BTC\n3\nUSDT\nOracle na holes crosses v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:46:52 UTC\n99+\nObject tree\nData window\nBTCUSDT · Binance, 1\nVol · BTC\nOracle na holes crosses v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=5\nindicator(\"Mixed collection call scopes\")\nmethod score(array<int> xs) => 10\nmethod score(array<float> xs) => 20\nrelay(xs) => xs.score()\n[x,y] = [relay(array.new<float>(1,0)),relay(array.new<int>(1,0))]\nplot(x)\nplot(y)\n1 of 3 problems\nSyntax error at input '['\nLine 6, Col 9\nPine Script® v5\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 1 minute"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 6, Col 9",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "COMPILE-ERROR",
+  "nativeCompilationObserved": true,
+  "templatePath": "v5-direct-float-first-method-v1.pine",
+  "templateSha256": "3ec63383c2ff27be27f403a68f08fa4adf42c3adce37dba814a80a64c4e88fc7",
+  "instructionsPath": "instructions/v5-direct-float-first-method-v1-instructions-v1.md",
+  "group": "group-07",
+  "role": "control",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "1",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Compilation refused; no executed series."
+}

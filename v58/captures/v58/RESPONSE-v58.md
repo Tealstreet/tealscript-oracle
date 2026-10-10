@@ -1,6 +1,6 @@
-# v58 native capture response v3
+# v58 native capture response v4
 
-Consumer inventory: 422 sources; COMPILE-ERROR: 76, NOT-ATTEMPTED: 344, PUBLICATION-BLOCKED: 2.
+Consumer inventory: 422 sources; COMPILE-ERROR: 164, NOT-ATTEMPTED: 183, PUBLICATION-BLOCKED: 2, RUNS: 73.
 
 Library prerequisites: 27 sources; COMPILE-ERROR: 7, RUNS: 20.
 
@@ -10,7 +10,7 @@ The priority single-float library is refused with CE10236 at 3:19: `The "self" a
 
 Every source is independent. Compilation admission alone is not numeric evidence. RUNS consumer observations without a CSV remain incomplete; their values are UNOBSERVED. Physical/live context is credited only when observed. Raw diagnostics include both native/editor marker owners when exposed, with severity, code, and source ranges. Initial unsettled classifications are retained with explicit exclusion metadata and repeated attempts; use this inventory to select valid evidence.
 
-[Machine-readable attempt inventory](attempt-inventory-v3.json)
+[Machine-readable attempt inventory](attempt-inventory-v4.json)
 
 | Source | Group | Outcome | Evidence |
 | --- | --- | --- | --- |
@@ -117,7 +117,168 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `v6-direct-float-method-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-direct-float-method-supplied-v1/default/attempt-v1/observation-v1.json) |
 | `v6-security-float-method-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-security-float-method-omitted-v1/default/attempt-v1/observation-v1.json) |
 | `v6-security-float-method-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v6-security-float-method-supplied-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-int-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-direct-int-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-int-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-direct-int-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-float-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-direct-float-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-float-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-direct-float-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-int-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-security-int-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-int-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-security-int-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-float-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-security-float-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-float-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v5-security-float-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-int-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-direct-int-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-int-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-direct-int-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-float-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-direct-float-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-float-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-direct-float-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-int-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-security-int-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-int-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-security-int-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-float-first-function-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-security-float-first-function-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-float-first-method-v1.pine` | group-07 | COMPILE-ERROR | [observation](consumers/v6-security-float-first-method-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-int-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-int-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-float-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-array-float-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-float-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-array-float-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-int-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-int-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-int-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-int-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-float-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-float-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-float-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-float-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-int-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-map-int-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-int-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-map-int-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-float-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-map-float-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-float-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v5-direct-map-float-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v5-security-array-int-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-array-int-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-int-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-array-int-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-float-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-array-float-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-float-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-array-float-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-int-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-matrix-int-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-int-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-matrix-int-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-float-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-matrix-float-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-float-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-matrix-float-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-int-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-map-int-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-int-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-map-int-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-float-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-map-float-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-float-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v5-security-map-float-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v6-direct-array-int-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-array-int-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-int-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-array-int-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-float-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-array-float-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-float-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-array-float-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-int-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-int-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-int-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-int-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-float-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-float-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-float-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-float-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-int-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-map-int-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-int-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-map-int-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-float-first-untyped-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-map-float-first-untyped-v1/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-float-first-typed-v1.pine` | group-08 | COMPILE-ERROR | [observation](consumers/v6-direct-map-float-first-typed-v1/default/attempt-v1/observation-v1.json) |
+| `v6-security-array-int-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-array-int-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-int-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-array-int-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-float-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-array-float-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-float-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-array-float-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-int-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-matrix-int-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-int-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-matrix-int-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-float-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-matrix-float-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-float-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-matrix-float-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-int-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-map-int-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-int-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-map-int-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-float-first-untyped-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-map-float-first-untyped-v1/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-float-first-typed-v1.pine` | group-08 | RUNS | [observation](consumers/v6-security-map-float-first-typed-v1/default/attempt-v1/observation-v2.json) |
+| `v5-direct-array-int-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-int-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-float-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-array-float-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-float-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-array-float-first-typed/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-int-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-int-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-float-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-float-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-float-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-float-first-typed/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-int-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-map-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-int-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-map-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-float-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-map-float-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-float-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v5-direct-map-float-first-typed/default/attempt-v1/observation-v1.json) |
+| `v5-security-array-int-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v5-security-array-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-int-first-typed.pine` | group-09 | RUNS | [observation](consumers/v5-security-array-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-float-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v5-security-array-float-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-float-first-typed.pine` | group-09 | RUNS | [observation](consumers/v5-security-array-float-first-typed/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-int-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v5-security-matrix-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-int-first-typed.pine` | group-09 | RUNS | [observation](consumers/v5-security-matrix-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-float-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v5-security-matrix-float-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-float-first-typed.pine` | group-09 | RUNS | [observation](consumers/v5-security-matrix-float-first-typed/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-int-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v5-security-map-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-int-first-typed.pine` | group-09 | RUNS | [observation](consumers/v5-security-map-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-float-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v5-security-map-float-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-float-first-typed.pine` | group-09 | RUNS | [observation](consumers/v5-security-map-float-first-typed/default/attempt-v1/observation-v2.json) |
+| `v6-direct-array-int-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-array-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-int-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-array-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-float-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-array-float-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-float-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-array-float-first-typed/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-int-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-int-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-float-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-float-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-float-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-float-first-typed/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-int-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-map-int-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-int-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-map-int-first-typed/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-float-first-untyped.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-map-float-first-untyped/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-float-first-typed.pine` | group-09 | COMPILE-ERROR | [observation](consumers/v6-direct-map-float-first-typed/default/attempt-v1/observation-v1.json) |
+| `v6-security-array-int-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v6-security-array-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-int-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-array-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-float-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v6-security-array-float-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-float-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-array-float-first-typed/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-int-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v6-security-matrix-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-int-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-matrix-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-float-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v6-security-matrix-float-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-float-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-matrix-float-first-typed/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-int-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v6-security-map-int-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-int-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-map-int-first-typed/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-float-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v6-security-map-float-first-untyped/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-float-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-map-float-first-typed/default/attempt-v1/observation-v2.json) |
+| `v5-direct-array-int-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-int-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-float-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-array-float-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-array-float-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-array-float-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-int-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-int-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-int-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-int-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-float-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-float-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-matrix-float-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-matrix-float-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-int-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-map-int-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-int-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-map-int-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-float-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-map-float-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v5-direct-map-float-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-map-float-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v5-security-array-int-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-array-int-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-int-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-array-int-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-array-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-array-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-array-float-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-int-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-matrix-int-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-int-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-matrix-int-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-matrix-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-matrix-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-matrix-float-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-int-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-map-int-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-int-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-map-int-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-map-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v5-security-map-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v5-security-map-float-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v6-direct-array-int-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-array-int-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-int-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-array-int-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-float-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-array-float-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-array-float-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-array-float-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-int-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-int-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-int-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-int-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-float-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-float-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-matrix-float-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-matrix-float-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-int-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-map-int-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-int-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-map-int-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-float-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-map-float-first-untyped-var/default/attempt-v1/observation-v1.json) |
+| `v6-direct-map-float-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v6-direct-map-float-first-typed-var/default/attempt-v1/observation-v1.json) |
+| `v6-security-array-int-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-array-int-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-int-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-array-int-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-array-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-array-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-array-float-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-int-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-matrix-int-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-int-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-matrix-int-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-matrix-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-matrix-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-matrix-float-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-int-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-int-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-int-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-int-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
+| `v6-security-map-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-float-first-typed-var/default/attempt-v1/observation-v2.json) |
 | `imported-numeric-single-float-namespace-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-single-float-namespace-v58-v1/single-float-namespace/attempt-v1/observation-v1.json) |
+| `g01-v5-array-chain-two-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
 | `root2-root1-single-float-receiver-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-single-float-receiver-preservation-control-v58-v1/root1-single-float-receiver/attempt-v1/observation-v1.json) |
 
 ## Remaining capture work

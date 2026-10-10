@@ -1,0 +1,210 @@
+{
+  "captureTimestamp": "2026-10-10T12:54:11.368Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=5\nindicator(\"Forwarded regular collection overload\")\nscore(map<string,int> xs) => 10\nscore(map<string,float> xs) => 20\nrelay(xs) =>\n    copied = xs\n    score(copied)\n[x,y] = request.security(\"REMOTE:ALT\",\"1\",[relay(map.new<string,int>()),relay(map.new<string,float>())])\nplot(x)\nplot(y)",
+  "executedSha256": "0b81b9e46faf186aa0f673a81d9337ebe8f76331ac5636707299e0a97c8e273b",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "1",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "0FcRDZ",
+        "title": "Forwarded regular collection overload (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          },
+          {
+            "id": "plot_1",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"map\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_R0P1xV4pYpIsY2qWIGRT9w==_/N3MXfY8KSweDV/BXiNaPFoOJNO1Hgv46j+mejwrRANmOn1KUcKPapeI7oFEWGkOW5uGDz9TGhNI2jAfz+GLzJFmNV4NgK4eqt8ueTKx+A0kmCJAgiT8laCFH+HyqkmpBSvY3wpwkZ414XvTl111juMleiu/+8nxyGz5ALI6ccU6kIEINnkWvljE6nz/nkbCIB6DnBH/2R10TUYQv0J+G2gUJHv/XeDiqH3a0gGm5wqUmNEqRaISrmsOZUKVY7wMsgxKpcXIGDliyA96NAQUFIY0K7/E7EkIGssbfgbHUz5E39e+r6BGcSs3egz8iqhfyntYSvGltCcL5uQzu5AvLMukSh4BD/7RNjOoNEU="
+        }
+      }
+    ]
+  },
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n1m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,818.00\nH\n82,818.01\nL\n82,818.00\nC\n82,818.00\n−0.01 (−0.00%)\n82,818.00\nSELL\n0.01\n82,818.01\nBUY\nVol · BTC\n0\nUSDT\nForwarded regular collection overload\n10.00\n20.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:54:10 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n12:54\nBTCUSDT · 1 · Binance\nOpen\n82,818.00\nHigh\n82,818.01\nLow\n82,818.00\nClose\n82,818.00\nChange\n−0.01 (−0.00%)\nVol\n0.12\nLast day change\n+182.45 (+0.22%)\nVol · BTC\nVolume\n0\nForwarded regular collection overload\nPlot\n10.00\nPlot\n20.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=5\nindicator(\"Forwarded regular collection overload\")\nscore(map<string,int> xs) => 10\nscore(map<string,float> xs) => 20\nrelay(xs) =>\n    copied = xs\n    score(copied)\n[x,y] = request.security(\"REMOTE:ALT\",\"1\",[relay(map.new<string,int>()),relay(map.new<string,float>())])\nplot(x)\nplot(y)\nLine 1, Col 1\nPine Script® v5\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 1 minute"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 1, Col 1",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNS",
+  "nativeCompilationObserved": true,
+  "templatePath": "v5-security-map-int-first-untyped.pine",
+  "templateSha256": "0b81b9e46faf186aa0f673a81d9337ebe8f76331ac5636707299e0a97c8e273b",
+  "instructionsPath": "instructions/v5-security-map-int-first-untyped-instructions-v1.md",
+  "group": "group-09",
+  "role": "natural",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "1",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Pending CSV capture"
+}
