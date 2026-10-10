@@ -1,0 +1,80 @@
+{
+  "captureTimestamp": "2026-10-10T12:35:06.407Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nindicator(\"Stateful omitted defaults\")\nmeasure() =>\n    var int count = 0\n    count += 1\n    count\nread(value = measure()) => value\n\nvalue = read()\nplot(value, \"Value\")",
+  "executedSha256": "2c8e95a686d28d22effb4232d188fe5d2d7f1f4e1845be0c96ca5e946164e6ce",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "CE10133",
+      "severity": 8,
+      "message": "The default value cannot be a function, variable or calculation.",
+      "startLineNumber": 7,
+      "startColumn": 6,
+      "endLineNumber": 7,
+      "endColumn": 23
+    }
+  ],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n1m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\n1\nBinance\nO\n82,852.89\nH\n82,852.90\nL\n82,852.89\nC\n82,852.89\n0.00 (0.00%)\n82,852.89\nSELL\n0.01\n82,852.90\nBUY\nUSDT\nOracle na holes crosses v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:35:05 UTC\n99+\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=6\nindicator(\"Stateful omitted defaults\")\nmeasure() =>\n    var int count = 0\n    count += 1\n    count\nread(value = measure()) => value\nvalue = read()\nplot(value, \"Value\")\nLine 7, Col 6\nPine Script® v6\nTimezone",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 1 minute"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 7, Col 6",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNS",
+  "nativeCompilationObserved": false,
+  "templatePath": "v6-direct-omitted.pine",
+  "templateSha256": "2c8e95a686d28d22effb4232d188fe5d2d7f1f4e1845be0c96ca5e946164e6ce",
+  "instructionsPath": "instructions/v6-direct-omitted-instructions-v1.md",
+  "group": "group-01",
+  "role": "consumer",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "Binance",
+    "chartType": "Candles",
+    "timeframe": "1",
+    "session": "24x7",
+    "timezone": "UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Pending CSV capture"
+}

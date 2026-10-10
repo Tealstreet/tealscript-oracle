@@ -1,0 +1,81 @@
+{
+  "captureTimestamp": "2026-10-10T12:34:20.666Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nlibrary(\"R2Nsb4dddfb489fd\")\nexport method pick(int self)=>200\n",
+  "executedSha256": "f27f1ed924c5f9ceabc9ea5d1800293085d2cb06a225b1af5222598099c632fd",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "code": "CE10236",
+      "severity": 8,
+      "message": "The \"self\" argument is not used. The first method argument should be used.",
+      "startLineNumber": 3,
+      "startColumn": 19,
+      "endLineNumber": 3,
+      "endColumn": 33
+    }
+  ],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n1m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\n1\nBinance\nO\n82,852.89\nH\n82,852.90\nL\n82,852.89\nC\n82,852.90\n0.00 (0.00%)\n82,852.89\nSELL\n0.01\n82,852.90\nBUY\nUSDT\nOracle na holes crosses v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:34:19 UTC\n99+\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n//@version=6\nlibrary(\"R2Nsb4dddfb489fd\")\nexport method pick(int self)=>200\nLine 3, Col 19\nPine Script® v6\nTimezone",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 1 minute"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 3, Col 19",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "COMPILE-ERROR",
+  "nativeCompilationObserved": true,
+  "templatePath": "root2-library-b4dddfb489fd-v58-v1.pine",
+  "templateSha256": "f27f1ed924c5f9ceabc9ea5d1800293085d2cb06a225b1af5222598099c632fd",
+  "instructionsPath": "instructions/root2-library-b4dddfb489fd-v58-v1-instructions-v1.md",
+  "group": "group-18",
+  "role": "LIBRARY-PREREQUISITE",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "Binance",
+    "chartType": "Candles",
+    "timeframe": "1",
+    "session": "24x7",
+    "timezone": "UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Compilation refused; no executed series."
+}
