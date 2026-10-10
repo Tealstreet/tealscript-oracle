@@ -1,6 +1,6 @@
-# v58 native capture response v5
+# v58 native capture response v6
 
-Consumer inventory: 422 sources; COMPILE-ERROR: 168, NOT-ATTEMPTED: 98, PUBLICATION-BLOCKED: 2, RUNS: 154.
+Consumer inventory: 422 sources; COMPILE-ERROR: 182, CONTEXT-UNMET: 2, NOT-ATTEMPTED: 60, PUBLICATION-BLOCKED: 2, RUNS: 169, RUNTIME-ERROR: 7.
 
 Library prerequisites: 27 sources; COMPILE-ERROR: 7, RUNS: 20.
 
@@ -10,7 +10,7 @@ The priority single-float library is refused with CE10236 at 3:19: `The "self" a
 
 Every source is independent. Compilation admission alone is not numeric evidence. RUNS consumer observations without a CSV remain incomplete; their values are UNOBSERVED. Physical/live context is credited only when observed. Raw diagnostics include both native/editor marker owners when exposed, with severity, code, and source ranges. Initial unsettled classifications are retained with explicit exclusion metadata and repeated attempts; use this inventory to select valid evidence.
 
-[Machine-readable attempt inventory](attempt-inventory-v5.json)
+[Machine-readable attempt inventory](attempt-inventory-v6.json)
 
 | Source | Group | Outcome | Evidence |
 | --- | --- | --- | --- |
@@ -69,6 +69,8 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `v6-security-function-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-security-function-sma-omitted/default/attempt-v1/observation-v1.json) |
 | `v6-security-method-cum-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-security-method-cum-omitted/default/attempt-v1/observation-v1.json) |
 | `v6-security-method-sma-omitted.pine` | group-02 | COMPILE-ERROR | [observation](consumers/v6-security-method-sma-omitted/default/attempt-v1/observation-v1.json) |
+| `vwap-explicit-anchor-source-hole-v58-v1.pine` | group-03 | RUNS | [observation](consumers/vwap-explicit-anchor-source-hole-v58-v1/default/attempt-v1/observation-v2.json) |
+| `vwap-omitted-anchor-source-hole-v58-v1.pine` | group-03 | RUNS | [observation](consumers/vwap-omitted-anchor-source-hole-v58-v1/default/attempt-v1/observation-v2.json) |
 | `v5-direct-root-function-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-root-function-twice-omitted/default/attempt-v1/observation-v1.json) |
 | `v5-direct-root-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-root-function-range-omitted/default/attempt-v1/observation-v1.json) |
 | `v5-direct-root-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v5-direct-root-method-twice-omitted/default/attempt-v1/observation-v1.json) |
@@ -101,6 +103,8 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `v6-security-nested-function-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-nested-function-range-omitted/default/attempt-v1/observation-v1.json) |
 | `v6-security-nested-method-twice-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-nested-method-twice-omitted/default/attempt-v1/observation-v1.json) |
 | `v6-security-nested-method-range-omitted.pine` | group-04 | COMPILE-ERROR | [observation](consumers/v6-security-nested-method-range-omitted/default/attempt-v1/observation-v1.json) |
+| `accdist-variable-missing-inputs-v53-v1.pine` | group-05 | CONTEXT-UNMET | [observation](consumers/accdist-variable-missing-inputs-v53-v1/live-context/attempt-v1/observation-v3.json) |
+| `obv-implicit-feed-hole-state-v54-v1.pine` | group-05 | CONTEXT-UNMET | [observation](consumers/obv-implicit-feed-hole-state-v54-v1/live-context/attempt-v1/observation-v3.json) |
 | `v5-direct-float-function-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-direct-float-function-omitted-v1/default/attempt-v1/observation-v1.json) |
 | `v5-direct-float-function-supplied-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-direct-float-function-supplied-v1/default/attempt-v1/observation-v1.json) |
 | `v5-security-float-function-omitted-v1.pine` | group-06 | COMPILE-ERROR | [observation](consumers/v5-security-float-function-omitted-v1/default/attempt-v1/observation-v1.json) |
@@ -229,6 +233,14 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `v6-security-map-int-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-map-int-first-typed/default/attempt-v1/observation-v2.json) |
 | `v6-security-map-float-first-untyped.pine` | group-09 | RUNS | [observation](consumers/v6-security-map-float-first-untyped/default/attempt-v1/observation-v2.json) |
 | `v6-security-map-float-first-typed.pine` | group-09 | RUNS | [observation](consumers/v6-security-map-float-first-typed/default/attempt-v1/observation-v2.json) |
+| `request-overload-last-v1.pine` | group-10 | RUNTIME-ERROR | [observation](consumers/request-overload-last-v1/default/attempt-v1/observation-v1.json) |
+| `pure-overload-last-v1.pine` | group-10 | RUNTIME-ERROR | [observation](consumers/pure-overload-last-v1/default/attempt-v1/observation-v1.json) |
+| `nested-method-direct-exact-v58-v1.pine` | group-11 | COMPILE-ERROR | [observation](consumers/nested-method-direct-exact-v58-v1/default/attempt-v1/observation-v1.json) |
+| `nested-method-direct-chart-symbol-companion-v58-v1.pine` | group-11 | COMPILE-ERROR | [observation](consumers/nested-method-direct-chart-symbol-companion-v58-v1/default/attempt-v1/observation-v1.json) |
+| `nested-method-helper-exact-v58-v1.pine` | group-11 | COMPILE-ERROR | [observation](consumers/nested-method-helper-exact-v58-v1/default/attempt-v1/observation-v1.json) |
+| `nested-method-helper-chart-symbol-companion-v58-v1.pine` | group-11 | COMPILE-ERROR | [observation](consumers/nested-method-helper-chart-symbol-companion-v58-v1/default/attempt-v1/observation-v1.json) |
+| `same-expression-scalar-dispatch-exact-v58-v1.pine` | group-11 | RUNTIME-ERROR | [observation](consumers/same-expression-scalar-dispatch-exact-v58-v1/default/attempt-v1/observation-v1.json) |
+| `same-expression-scalar-dispatch-chart-symbol-companion-v58-v1.pine` | group-11 | RUNS | [observation](consumers/same-expression-scalar-dispatch-chart-symbol-companion-v58-v1/default/attempt-v1/observation-v2.json) |
 | `v5-direct-array-int-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-untyped-var/default/attempt-v1/observation-v1.json) |
 | `v5-direct-array-int-first-typed-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-array-int-first-typed-var/default/attempt-v1/observation-v1.json) |
 | `v5-direct-array-float-first-untyped-var.pine` | group-12 | COMPILE-ERROR | [observation](consumers/v5-direct-array-float-first-untyped-var/default/attempt-v1/observation-v1.json) |
@@ -277,6 +289,26 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `v6-security-map-int-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-int-first-typed-var/default/attempt-v1/observation-v2.json) |
 | `v6-security-map-float-first-untyped-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-float-first-untyped-var/default/attempt-v1/observation-v2.json) |
 | `v6-security-map-float-first-typed-var.pine` | group-12 | RUNS | [observation](consumers/v6-security-map-float-first-typed-var/default/attempt-v1/observation-v2.json) |
+| `numeric-method-float-receiver-reversed-exact-v58-v1.pine` | group-13 | RUNTIME-ERROR | [observation](consumers/numeric-method-float-receiver-reversed-exact-v58-v1/default/attempt-v1/observation-v1.json) |
+| `numeric-method-float-receiver-reversed-chart-symbol-companion-v58-v1.pine` | group-13 | RUNS | [observation](consumers/numeric-method-float-receiver-reversed-chart-symbol-companion-v58-v1/default/attempt-v1/observation-v2.json) |
+| `numeric-method-float-function-reversed-exact-v58-v1.pine` | group-13 | RUNTIME-ERROR | [observation](consumers/numeric-method-float-function-reversed-exact-v58-v1/default/attempt-v1/observation-v1.json) |
+| `numeric-method-float-function-reversed-chart-symbol-companion-v58-v1.pine` | group-13 | RUNS | [observation](consumers/numeric-method-float-function-reversed-chart-symbol-companion-v58-v1/default/attempt-v1/observation-v2.json) |
+| `numeric-method-int-receiver-reversed-exact-v58-v1.pine` | group-13 | RUNTIME-ERROR | [observation](consumers/numeric-method-int-receiver-reversed-exact-v58-v1/default/attempt-v1/observation-v1.json) |
+| `numeric-method-int-receiver-reversed-chart-symbol-companion-v58-v1.pine` | group-13 | RUNS | [observation](consumers/numeric-method-int-receiver-reversed-chart-symbol-companion-v58-v1/default/attempt-v1/observation-v2.json) |
+| `numeric-method-int-function-reversed-exact-v58-v1.pine` | group-13 | RUNTIME-ERROR | [observation](consumers/numeric-method-int-function-reversed-exact-v58-v1/default/attempt-v1/observation-v1.json) |
+| `numeric-method-int-function-reversed-chart-symbol-companion-v58-v1.pine` | group-13 | RUNS | [observation](consumers/numeric-method-int-function-reversed-chart-symbol-companion-v58-v1/default/attempt-v1/observation-v2.json) |
+| `numeric-minimal-float-receiver-reversed-exact-v58-v1.pine` | group-13 | RUNS | [observation](consumers/numeric-minimal-float-receiver-reversed-exact-v58-v1/default/attempt-v1/observation-v2.json) |
+| `numeric-minimal-int-receiver-reversed-exact-v58-v1.pine` | group-13 | RUNS | [observation](consumers/numeric-minimal-int-receiver-reversed-exact-v58-v1/default/attempt-v1/observation-v2.json) |
+| `first-named-omitted-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/first-named-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `first-named-explicit-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/first-named-explicit-v1/default/attempt-v1/observation-v1.json) |
+| `nested-request-omitted-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/nested-request-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `nested-request-explicit-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/nested-request-explicit-v1/default/attempt-v1/observation-v1.json) |
+| `parameter-reference-omitted-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/parameter-reference-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `parameter-reference-explicit-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/parameter-reference-explicit-v1/default/attempt-v1/observation-v1.json) |
+| `default-presence-overload-omitted-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-presence-overload-omitted-v1/default/attempt-v1/observation-v1.json) |
+| `default-presence-overload-explicit-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-presence-overload-explicit-v1/default/attempt-v1/observation-v1.json) |
+| `default-request-omitted-original-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-request-omitted-original-v1/default/attempt-v1/observation-v1.json) |
+| `default-request-omitted-reversed-v1.pine` | group-14 | COMPILE-ERROR | [observation](consumers/default-request-omitted-reversed-v1/default/attempt-v1/observation-v1.json) |
 | `imported-numeric-single-float-namespace-v58-v1.pine` | group-15 | PUBLICATION-BLOCKED | [observation](consumers/imported-numeric-single-float-namespace-v58-v1/single-float-namespace/attempt-v1/observation-v1.json) |
 | `g01-v5-array-chain-two-int-float-int-first-untyped.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-untyped/default/attempt-v1/observation-v2.json) |
 | `g01-v5-array-chain-two-int-float-int-first-typed.pine` | group-16 | RUNS | [observation](consumers/g01-v5-array-chain-two-int-float-int-first-typed/default/attempt-v1/observation-v2.json) |
@@ -364,7 +396,13 @@ Every source is independent. Compilation admission alone is not numeric evidence
 | `g11-v6-matrix-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v6-matrix-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
 | `g11-v6-map-int-identity-initializer-untyped.pine` | group-16 | RUNS | [observation](consumers/g11-v6-map-int-identity-initializer-untyped/default/attempt-v1/observation-v2.json) |
 | `g11-v6-map-int-identity-initializer-typed.pine` | group-16 | RUNS | [observation](consumers/g11-v6-map-int-identity-initializer-typed/default/attempt-v1/observation-v2.json) |
+| `local-precedence-local-control-v5-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-local-control-v5-v1/default/attempt-v1/observation-v2.json) |
+| `same-receiver-identity-local-control-v5-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-local-control-v5-v1/default/attempt-v1/observation-v2.json) |
+| `local-precedence-local-control-v6-v1.pine` | group-17 | RUNS | [observation](consumers/local-precedence-local-control-v6-v1/default/attempt-v1/observation-v2.json) |
+| `same-receiver-identity-local-control-v6-v1.pine` | group-17 | RUNS | [observation](consumers/same-receiver-identity-local-control-v6-v1/default/attempt-v1/observation-v2.json) |
 | `root2-root1-single-float-receiver-preservation-control-v58-v1.pine` | group-18 | PUBLICATION-BLOCKED | [observation](consumers/root2-root1-single-float-receiver-preservation-control-v58-v1/root1-single-float-receiver/attempt-v1/observation-v1.json) |
+| `root2-root1-local-float-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-local-float-control-preservation-control-v58-v1/default/attempt-v1/observation-v2.json) |
+| `root2-root1-local-int-control-preservation-control-v58-v1.pine` | group-18 | RUNS | [observation](consumers/root2-root1-local-int-control-preservation-control-v58-v1/default/attempt-v1/observation-v2.json) |
 
 ## Remaining capture work
 

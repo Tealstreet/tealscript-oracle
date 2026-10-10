@@ -1,0 +1,197 @@
+{
+  "captureTimestamp": "2026-10-10T13:10:56.527Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nindicator(\"Static replay selection\", dynamic_requests=false)\nsample(float value) => value\nsample(int value) => request.security(\"REMOTE\", \"1D\", close)\nfloat selected = sample(close)\nplot(request.security(\"REMOTE\", \"1D\", selected, lookahead=barmerge.lookahead_on))\n",
+  "executedSha256": "6177b758358626b04f46e7bd1150106e777cef84a095aec5d42fc3cb550aa332",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "uCy03Y",
+        "title": "Static replay selection (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "ctx": {
+              "symbol": "REMOTE"
+            },
+            "error": "Invalid symbol: {symbol}",
+            "title": "Runtime error",
+            "showReportItButton": false,
+            "studyAccessBlocked": false
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"request.security\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_DN6r6j5CtlCEiEXYqsltVA==_8uiFFmSTmYyvYsRWExY9JvEOHQ2zbvU/uMgCRFLLFBKOjW33172M7VUM3cnXtrCaDdR0d1dXGlOtRNdPUrpS34zU4uRYKtzkWF/Mg4eDvsTXdWmhENA5t1dbdS5AtusVJ8eIDfMnmM27mSUW89TCnt3p2SoVD8d+Vg5v9fDNXTLnf0XSZDkehEGAlsxvN098fHDrWQvCKzgfn0zf2ioNi/E5l1a1ba3oazyB/6O4cNTCqfKRIS2oqYvd6x2et9HwW6XJNI4QbJYjcaW+YKd5EtEeAl+tc9j4hj24qa5l6g3s6cEGu8uXz/YvkNPSCMT5XSixTOkFDP1+o2nyqQ9tJ9dGFC9oFF7VM7FHdeKkRqGb/7FReO06WRaSTJ5fT3nW4D48h99dxHsJ4u3nx8D5abM/2vCev8AdfOG4Zb3zRhHYiv3PIc9befd6Kh6c1CJG9zZOMl5lZwNumPy5ePlSlRY6/MUTqwB06KtdgYkSKIyhP1GPjNcezq4LwpT0S1RNEYoB41bHZuhJKrnoqpISrat3EcLRcr78typNipF8ssERN4tQU3v7Z2ncPNSp3v4pEb13BSWA63B2ar4QjDkkS/ksSesWgtzOkEGHle/IowO+F0flR7SZW8lm6ymgB5tqWxaXGxgGMCLNQq65VGFZ51z5KfyE0rWPOgcZYu9+fPNmyGc="
+        }
+      }
+    ]
+  },
+  "markers": [],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,821.79\nH\n82,821.79\nL\n82,821.78\nC\n82,821.78\n−0.01 (−0.00%)\n82,821.78\nSELL\n0.01\n82,821.79\nBUY\nVol · BTC\n1\nUSDT\nStatic replay selection\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:10:55 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:10\nBTCUSDT · 2 · Binance\nOpen\n82,821.79\nHigh\n82,821.79\nLow\n82,821.78\nClose\n82,821.78\nChange\n−0.01 (−0.00%)\nVol\n1.03\nLast day change\n+186.23 (+0.23%)\nVol · BTC\nVolume\n1\nStatic replay selection\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n//@version=6\nindicator(\"Static replay selection\", dynamic_requests=false)\nsample(float value) => value\nsample(int value) => request.security(\"REMOTE\", \"1D\", close)\nfloat selected = sample(close)\nplot(request.security(\"REMOTE\", \"1D\", selected, lookahead=barmerge.lookahead_on))\nLine 1, Col 1\nPine Script® v6\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 2 minutes"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 1, Col 1",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "RUNTIME-ERROR",
+  "nativeCompilationObserved": true,
+  "templatePath": "request-overload-last-v1.pine",
+  "templateSha256": "6177b758358626b04f46e7bd1150106e777cef84a095aec5d42fc3cb550aa332",
+  "instructionsPath": "instructions/request-overload-last-v1-instructions-v1.md",
+  "group": "group-10",
+  "role": "consumer",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "2",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Pending CSV capture"
+}

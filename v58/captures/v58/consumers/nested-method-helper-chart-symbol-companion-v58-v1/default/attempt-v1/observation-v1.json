@@ -1,0 +1,228 @@
+{
+  "captureTimestamp": "2026-10-10T13:11:14.870Z",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "executedSource": "//@version=6\nindicator(\"BE independent specialization\")\nfloat unused = array.get(array.from(1.0), timeframe.isdaily ? 1 : 0)\nmethod sample(int self) => unused\nmethod sample(float self) => self\ninner(value) => request.security(syminfo.tickerid,\"1D\",value.sample(),lookahead=barmerge.lookahead_on)\nouter(value) => request.security(syminfo.tickerid,\"1D\",inner(value),lookahead=barmerge.lookahead_on)\nplot(outer(close))",
+  "executedSha256": "7670486fc8b9245c712862210438e26a3763f897d01fc44c3f6b86c31078a33f",
+  "chartSetup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "studySources": [
+      {
+        "id": "LrXJZB",
+        "title": "Vol · BTC (false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "vol",
+            "type": "line"
+          },
+          {
+            "id": "vol_color",
+            "palette": "volumePalette",
+            "target": "vol",
+            "type": "colorer"
+          },
+          {
+            "id": "vol_ma",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "col_prev_close": false,
+          "length": 20
+        }
+      },
+      {
+        "id": "qi4AtK",
+        "title": "Oracle na holes crosses v1 (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "Cannot use global variable \"{varId}\" in the local scope of overloaded function \"{funName}()\"",
+            "editorError": {
+              "code": "CE10182",
+              "ctx": {
+                "funName": "sample",
+                "varId": "unused"
+              },
+              "end": {
+                "column": 33,
+                "line": 4
+              },
+              "message": "Cannot use global variable \"{varId}\" in the local scope of overloaded function \"{funName}()\"",
+              "start": {
+                "column": 28,
+                "line": 4
+              },
+              "id": "USER;64eb9fe01ecd4728859be8cb120fa590"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_uqzX8EYwKvp8ShlJuU9SAw==_wh9R9u9Apm8Ld7yeImbFSqX4WhLMANwsFBZKW/9FnNht9LHIR1ynoqCjQSdxfyR6YudJ0bO2P6OcYXLd0UKsMiSXWNBnjSdi2EJh6DoR2ka49v2c1280lqCrTIOpLfCwxxQPtBU3sbhBoYM0W4yW0xJnBZbOsPRl0sJbPj/jUyzE4NHKUvxq81+OwKR/RlTyoKLH58WgqhkelDmD6z5W1xO8PT7fwvc68C1ITu/uKCh9ZZT7Pnwv13EaZf7X2aP0lRf/3X6OH/LOhzpcp3tl6Hvgfl9lLR/Gj7VpwKSn1MUjEsGnaZ78EsFtsE7CTknJ0qYLlERMW2wtNifyHKKciG2ndtyXT4fmNVg66g=="
+        }
+      }
+    ]
+  },
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "external": "file:///301fc12c-b644-45d1-abeb-4fe95cf07c62.pine?placement%3Ddialog",
+        "path": "/301fc12c-b644-45d1-abeb-4fe95cf07c62.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "code": "CE10182",
+      "severity": 8,
+      "message": "Cannot use global variable \"unused\" in the local scope of overloaded function \"sample()\"",
+      "startLineNumber": 4,
+      "startColumn": 28,
+      "endLineNumber": 4,
+      "endColumn": 33
+    }
+  ],
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n82,821.79\nH\n82,821.79\nL\n82,821.78\nC\n82,821.79\n0.00 (0.00%)\n82,821.78\nSELL\n0.01\n82,821.79\nBUY\nVol · BTC\n1\nUSDT\nOracle na holes crosses v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:11:14 UTC\n99+\nObject tree\nData window\nDate\nSat 10 Oct '26\nTime\n13:10\nBTCUSDT · 2 · Binance\nOpen\n82,821.79\nHigh\n82,821.79\nLow\n82,821.78\nClose\n82,821.79\nChange\n0.00 (0.00%)\nVol\n1.32\nLast day change\n+186.24 (+0.23%)\nVol · BTC\nVolume\n1\nOracle na holes crosses v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=6\nindicator(\"BE independent specialization\")\nfloat unused = array.get(array.from(1.0), timeframe.isdaily ? 1 : 0)\nmethod sample(int self) => unused\nmethod sample(float self) => self\ninner(value) => request.security(syminfo.tickerid,\"1D\",value.sample(),lookahead=barmerge.lookahead_on)\nouter(value) => request.security(syminfo.tickerid,\"1D\",inner(value),lookahead=barmerge.lookahead_on)\nplot(outer(close))\n1 of 1 problem\nCannot use global variable \"unused\" in the local scope of overloaded function \"sample()\"(CE10182)\nLine 4, Col 28\nPine Script® v6\nManage layouts",
+  "chartCanvas": [
+    "Chart for BINANCE:BTCUSDT, 2 minutes"
+  ],
+  "editorButtons": [
+    {
+      "text": "",
+      "title": null,
+      "disabled": true
+    },
+    {
+      "text": "Save",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Publish script",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": null,
+      "disabled": false
+    },
+    {
+      "text": "Line 4, Col 28",
+      "title": null,
+      "disabled": false
+    }
+  ],
+  "status": "COMPILE-ERROR",
+  "nativeCompilationObserved": true,
+  "templatePath": "nested-method-helper-chart-symbol-companion-v58-v1.pine",
+  "templateSha256": "7670486fc8b9245c712862210438e26a3763f897d01fc44c3f6b86c31078a33f",
+  "instructionsPath": "instructions/nested-method-helper-chart-symbol-companion-v58-v1-instructions-v1.md",
+  "group": "group-11",
+  "role": "nested-method-natural-chart-symbol-companion",
+  "setup": {
+    "symbol": "BINANCE:BTCUSDT",
+    "provider": "binance",
+    "chartType": "Candles",
+    "timeframe": "2",
+    "session": "24x7",
+    "timezone": "Etc/UTC",
+    "inputs": {}
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Compilation refused; no executed series."
+}
