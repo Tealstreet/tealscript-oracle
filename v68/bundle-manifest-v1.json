@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v68",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "c5ab8030ef3f3b631b038b9bc272a7c21a127763",
+  "inventory": {
+    "groups": 1,
+    "scripts": 4,
+    "pairs": 2,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "pineAssetCount": 4,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "unused-udt-receiver-only",
+      "scripts": 4,
+      "scope": "Receiver-only UDT methods without further parameters; unused receiver natural and used receiver control, Pine v5/v6"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "unused-udt-receiver-only-v5-control-v1",
+      "path": "unused-udt-receiver-only-v5-control-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver-only",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "receiver-only-v5",
+      "pairRole": "control",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v1.json",
+      "sourceSha256": "42afeb382a78f6011fd562367a20eacaf9ab6a722a9e8bb3644f8f4dfb8bc689",
+      "instructionsPath": "instructions/unused-udt-receiver-only-v5-control-v1-instructions-v1.md",
+      "instructionsSha256": "2789b5797a92d19d86d416dca6ebf21d5a2ade119998464399291c5ac8949985",
+      "questions": [
+        "Does the Pine v5 receiver-only method with used UDT receiver admit and run, refuse at declaration or fault at runtime?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with Plot12 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "unused-udt-receiver-only-v5-natural-v1",
+      "path": "unused-udt-receiver-only-v5-natural-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver-only",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "receiver-only-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v1.json",
+      "sourceSha256": "b155aa7a6b3e7e87f59f915023746b286c61a12099440897fde09642e7b24e1d",
+      "instructionsPath": "instructions/unused-udt-receiver-only-v5-natural-v1-instructions-v1.md",
+      "instructionsSha256": "8a6c06c474f0fcec01ed5572ab7a15cf34a509406be6636fa3417df5553e8d2a",
+      "questions": [
+        "Does the Pine v5 receiver-only method with unused UDT receiver admit and run, refuse at declaration or fault at runtime?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with Plot12 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "unused-udt-receiver-only-v6-control-v1",
+      "path": "unused-udt-receiver-only-v6-control-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver-only",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "receiver-only-v6",
+      "pairRole": "control",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v1.json",
+      "sourceSha256": "18386d44613d34d1cf5b4234b536319187ec29662bdfb30980a0676fa99a9813",
+      "instructionsPath": "instructions/unused-udt-receiver-only-v6-control-v1-instructions-v1.md",
+      "instructionsSha256": "77d397227fb7a61518a2bd3f45001eaab58709b227041ffbec5213985e29fdb3",
+      "questions": [
+        "Does the Pine v6 receiver-only method with used UDT receiver admit and run, refuse at declaration or fault at runtime?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with Plot12 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "unused-udt-receiver-only-v6-natural-v1",
+      "path": "unused-udt-receiver-only-v6-natural-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver-only",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "receiver-only-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v1.json",
+      "sourceSha256": "60174829689c0f1a854f190b5d1778eacb84d740c1e84798bc54722e071b5e1f",
+      "instructionsPath": "instructions/unused-udt-receiver-only-v6-natural-v1-instructions-v1.md",
+      "instructionsSha256": "9ed3afd088149f6220e773e1e652f6d61390f9d4f07d4484d26639bcb3db7de9",
+      "questions": [
+        "Does the Pine v6 receiver-only method with unused UDT receiver admit and run, refuse at declaration or fault at runtime?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with Plot12 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "id": "receiver-only-v5",
+      "natural": "unused-udt-receiver-only-v5-natural-v1.pine",
+      "usedReceiverControl": "unused-udt-receiver-only-v5-control-v1.pine",
+      "comparison": "isolated compilation/runtime records; same closed physical rows if both run"
+    },
+    {
+      "id": "receiver-only-v6",
+      "natural": "unused-udt-receiver-only-v6-natural-v1.pine",
+      "usedReceiverControl": "unused-udt-receiver-only-v6-control-v1.pine",
+      "comparison": "isolated compilation/runtime records; same closed physical rows if both run"
+    }
+  ],
+  "governingHandoff": "HANDOFF-v68-v1.md",
+  "sourceRoundProvenance": {
+    "stagingDirectory": "v61-probes-v1",
+    "publishedRound": "v68",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "V60 refusals with further method parameters do not settle this receiver-only form.",
+    "Plot12 is a producer candidate answer, not a native prediction.",
+    "Closed-bar evidence provides no realtime credit."
+  ]
+}

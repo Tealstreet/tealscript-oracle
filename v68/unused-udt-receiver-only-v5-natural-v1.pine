@@ -1,0 +1,7 @@
+//@version=5
+indicator("unused-udt-receiver-only-v5-natural-v1")
+type Point
+    float x
+method inspect(Point p) => 12.0
+p = Point.new(12)
+plot(p.inspect())

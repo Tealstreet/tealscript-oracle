@@ -1,0 +1,7 @@
+//@version=6
+indicator("unused-udt-receiver-only-v6-control-v1")
+type Point
+    float x
+method inspect(Point p) => p.x
+p = Point.new(12)
+plot(p.inspect())
