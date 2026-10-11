@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bundle": "v79",
-  "version": 1,
+  "version": 2,
   "owner": "codex-tkxtd0",
   "status": "STAGED-ONLY",
   "baseOracleCommit": "025b9ee433b0a489607b0e5739c7cfdea3708e6f",
@@ -29,8 +29,8 @@
         "values": "UNSPECIFIED"
       },
       "owner": "codex-p4250m",
-      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
-      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "63cd3d99cc7856d4583dde09e7137bb539d21f80c4d8a6c405f1798f3b665502"
     },
     {
       "probe": "v79-v5-exported-controls-v1",
@@ -54,8 +54,8 @@
       },
       "localPreflight": "NOT-RUN: probe design only",
       "owner": "codex-p4250m",
-      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
-      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "63cd3d99cc7856d4583dde09e7137bb539d21f80c4d8a6c405f1798f3b665502"
     },
     {
       "probe": "v79-v5-private-receiver-v1",
@@ -76,8 +76,8 @@
       },
       "localPreflight": "NOT-RUN: probe design only",
       "owner": "codex-p4250m",
-      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
-      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "63cd3d99cc7856d4583dde09e7137bb539d21f80c4d8a6c405f1798f3b665502"
     },
     {
       "probe": "v79-v5-private-function-v1",
@@ -98,8 +98,8 @@
       },
       "localPreflight": "NOT-RUN: probe design only",
       "owner": "codex-p4250m",
-      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
-      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "63cd3d99cc7856d4583dde09e7137bb539d21f80c4d8a6c405f1798f3b665502"
     },
     {
       "probe": "v79-v6-exported-controls-v1",
@@ -123,8 +123,8 @@
       },
       "localPreflight": "NOT-RUN: probe design only",
       "owner": "codex-p4250m",
-      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
-      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "63cd3d99cc7856d4583dde09e7137bb539d21f80c4d8a6c405f1798f3b665502"
     },
     {
       "probe": "v79-v6-private-receiver-v1",
@@ -145,8 +145,8 @@
       },
       "localPreflight": "NOT-RUN: probe design only",
       "owner": "codex-p4250m",
-      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
-      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "63cd3d99cc7856d4583dde09e7137bb539d21f80c4d8a6c405f1798f3b665502"
     },
     {
       "probe": "v79-v6-private-function-v1",
@@ -167,8 +167,8 @@
       },
       "localPreflight": "NOT-RUN: probe design only",
       "owner": "codex-p4250m",
-      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
-      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "63cd3d99cc7856d4583dde09e7137bb539d21f80c4d8a6c405f1798f3b665502"
     }
   ],
   "chartContext": {
@@ -179,15 +179,16 @@
     "chartType": "standard candles",
     "minimumConfirmedBars": 32
   },
-  "governingHandoff": "HANDOFF-v79-v1.md",
+  "governingHandoff": "HANDOFF-v79-v2.md",
   "sourceRoundProvenance": {
     "stagingDirectory": "v79-v5-private-library-p4250m-v1",
     "sourceNamesAndBytesUnchanged": true,
     "producerEntry": "instructions/ENTRY-v1.json",
     "producerInstructions": "instructions/PRODUCER-INSTRUCTIONS-v1.md",
-    "publishedInstructions": "instructions/INSTRUCTIONS-v1.md",
+    "publishedInstructions": "instructions/INSTRUCTIONS-v2.md",
     "producerHandoff": "instructions/PRODUCER-HANDOFF-v1.json",
-    "pathAdaptationOnly": "Pine sources flattened from producer sources/ to round root; v79 instruction library path and helper entry/source lookup rebased; no semantic/source edits."
+    "pathAdaptationOnly": "Pine sources flattened from producer sources/ to round root; v79 instruction library path and helper entry/source lookup rebased; no semantic/source edits.",
+    "publicationInstructionCorrection": "Owner revoked public publication; only private/unlisted author-only publication allowed."
   },
   "publication": {
     "status": "NOT-PUBLISHED",
@@ -196,6 +197,11 @@
     "requiredVersion": 1,
     "publisher": "TO-BE-OBSERVED",
     "publicationUrl": "TO-BE-OBSERVED",
-    "publishedSourceSha256": "TO-BE-OBSERVED"
-  }
+    "publishedSourceSha256": "TO-BE-OBSERVED",
+    "requiredVisibility": "PRIVATE (unlisted, author-only)",
+    "publicPublicationAuthorized": false,
+    "failureDisposition": "BLOCKED-NEEDS-OWNER-APPROVAL",
+    "ownerRestriction": "Do NOT publish publicly. If a private library cannot be imported in this account, STOP and record BLOCKED-NEEDS-OWNER-APPROVAL instead of publishing publicly."
+  },
+  "supersededManifest": "bundle-manifest-v1.json"
 }
