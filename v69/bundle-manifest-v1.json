@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v69",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "9f5504d83162bb6fe4602c1a9c231f4e0e18480b",
+  "inventory": {
+    "groups": 2,
+    "scripts": 8,
+    "pineAssetCount": 8,
+    "libraryPrerequisiteCount": 0,
+    "historyBridgeRequests": 1,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "custom-ta-boundaries",
+      "scope": "Custom Holder methods named stdev/lowest/cum/valuewhen, parameter named ta, each Pine v5/v6",
+      "scripts": 8
+    },
+    {
+      "id": "v63-input-history-bridge",
+      "scope": "Authentic pre-CSV OHLCV plus overlap for existing v63 highest/change captures; no new Pine source",
+      "scripts": 0,
+      "instructionsPath": "HISTORY-BRIDGE-v1.md",
+      "instructionsSha256": "80ede2cf3efc4c8460998117f4f8b492fce610dd4d27d03685a7d7dd1238800d",
+      "firstExistingTime": 1791602160,
+      "requiredPriorBars": 12,
+      "priorTimeStart": 1791600720,
+      "priorTimeEnd": 1791602040,
+      "barSeconds": 120,
+      "overlapRequirement": "Same timestamps and unchanged OHLCV as existing native CSVs; retain original strings and explain any difference",
+      "existingEvidence": [
+        {
+          "probe": "custom-ta-highest-v5-v61-v1",
+          "executedSourcePath": "../v63/captures/v63/custom-ta-highest-v5-v61-v1/attempt-v1/executed-v1.pine",
+          "executedSourceSha256": "db77e49f8015925c3e8d0e977a19f18a2792ad5e0fb002581cfe208121917fea",
+          "existingCsvPath": "../v63/captures/v63/custom-ta-highest-v5-v61-v1/attempt-v1/native-v1.csv",
+          "existingCsvSha256": "05a2e01945c6b79ca743c9ff8a5b96f2285b60989e1301b6ed83581afd498d16"
+        },
+        {
+          "probe": "custom-ta-highest-v6-v61-v1",
+          "executedSourcePath": "../v63/captures/v63/custom-ta-highest-v6-v61-v1/attempt-v1/executed-v1.pine",
+          "executedSourceSha256": "79f936b4e2e225b8c5008b448e171bcf9c2ca4fa7c6b6a7f60d02fbd0de8017d",
+          "existingCsvPath": "../v63/captures/v63/custom-ta-highest-v6-v61-v1/attempt-v1/native-v1.csv",
+          "existingCsvSha256": "bb529e912785a7b0b3e3c8ec53eadf9f9434c5edf61630982029a3fa1066eea3"
+        },
+        {
+          "probe": "custom-ta-change-v5-v61-v1",
+          "executedSourcePath": "../v63/captures/v63/custom-ta-change-v5-v61-v1/attempt-v1/executed-v1.pine",
+          "executedSourceSha256": "84a3987874996c25f66391a79aca4448f7ce9435d42e1d10ab01459eb9311bfb",
+          "existingCsvPath": "../v63/captures/v63/custom-ta-change-v5-v61-v1/attempt-v1/native-v1.csv",
+          "existingCsvSha256": "8d627179c4f49d6d20c4287b2348566470561099ed1f16ec1d724851d08b2a1d"
+        },
+        {
+          "probe": "custom-ta-change-v6-v61-v1",
+          "executedSourcePath": "../v63/captures/v63/custom-ta-change-v6-v61-v1/attempt-v1/executed-v1.pine",
+          "executedSourceSha256": "d515566e3c4983d1e1bafbfd0e8fe63f93af1f4f9ad7483bf88e1697e2979e5a",
+          "existingCsvPath": "../v63/captures/v63/custom-ta-change-v6-v61-v1/attempt-v1/native-v1.csv",
+          "existingCsvSha256": "2a86ec1797b261cbac3d6c0243d182b8682534dd213637eab87be23748c434d8"
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 5,
+      "sourceSha256": "5f6903e196b558e7694289d62cd32731e29df8d88a058e94e5d4825f0cd9e541",
+      "instructionsPath": "instructions/custom-ta-stdev-v5-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "e2e7895a6abfa09c8d79a667df183c3ee7ba5814859ff51b273d19690ed1227c",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.stdev(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-stdev-v5-v63-followup-v1",
+      "path": "custom-ta-stdev-v5-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 5,
+      "sourceSha256": "11d19837f5392d600a2c0b32f52289489e33b0bcaa5b5e3e2cd89f46c7ebd369",
+      "instructionsPath": "instructions/custom-ta-lowest-v5-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "88e70fbba9bdb09a9c3b80d4965d2c444abe93e90a5f4f2b1d8c7df5fd2fb672",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.lowest(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-lowest-v5-v63-followup-v1",
+      "path": "custom-ta-lowest-v5-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 5,
+      "sourceSha256": "532c4b8445d7057db408070ee96803b51d47a05475b3cd98d026f4138077e2e4",
+      "instructionsPath": "instructions/custom-ta-cum-v5-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "cc18f04d9bd6039160181b118fcf096c81d4d6ba27a1af25142d70a957f5a0b1",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.cum(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-cum-v5-v63-followup-v1",
+      "path": "custom-ta-cum-v5-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 5,
+      "sourceSha256": "0f5550eabd381a8a16f927516cb70b3300a566e920a69e04749cb2384b17bab3",
+      "instructionsPath": "instructions/custom-ta-valuewhen-v5-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "e47a5c4973005f7a614abb78ac5a30137150438f62d03a007fbdf53474f0a304",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.valuewhen(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-valuewhen-v5-v63-followup-v1",
+      "path": "custom-ta-valuewhen-v5-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 6,
+      "sourceSha256": "33c220d4b3f701a1aba761ddd292233a3d42dd73834cc44ab9dec9d1dcf64a2e",
+      "instructionsPath": "instructions/custom-ta-stdev-v6-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "735ab88cd930a560ff9fe92b21cf46b19656195f15c22560c87e1a5b122221dd",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.stdev(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-stdev-v6-v63-followup-v1",
+      "path": "custom-ta-stdev-v6-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 6,
+      "sourceSha256": "646d04f27238c90a8cbc59cf20125c174b806d290dd9fdd61f7af824aab6a5d5",
+      "instructionsPath": "instructions/custom-ta-lowest-v6-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "c374c458407afe319181ca2807b50fecbd95a93702c679e7c7fb3e2b2461106e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.lowest(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-lowest-v6-v63-followup-v1",
+      "path": "custom-ta-lowest-v6-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 6,
+      "sourceSha256": "888c7d70d01804d5aea36eed8b4b6c91f67bb5f029389f04985074faeabb5a3f",
+      "instructionsPath": "instructions/custom-ta-cum-v6-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "12c149b3d82e83030513042c26d9828babb0edbbb327d9d5bb6012d7439028b7",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.cum(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-cum-v6-v63-followup-v1",
+      "path": "custom-ta-cum-v6-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "owner": "codex-w0bo0b",
+      "pineVersion": 6,
+      "sourceSha256": "eac86c9dcd3d84bdbb3230c56013e93fff0640cba487d567eba8bfba5c46c1de",
+      "instructionsPath": "instructions/custom-ta-valuewhen-v6-v63-followup-v1-instructions-v1.md",
+      "instructionsSha256": "59f991dfe70907a7e1e06e0ea0730223c2f63545c8795eb763ee50ec4fc51dbf",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does ta.valuewhen(13) on a Holder parameter named ta refuse, select the custom Holder method, or select the builtin namespace?"
+      ],
+      "probe": "custom-ta-valuewhen-v6-v63-followup-v1",
+      "path": "custom-ta-valuewhen-v6-v63-followup-v1.pine",
+      "group": "custom-ta-boundaries",
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "localPreflight": "NOT-RUN: native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "plots": [
+        "Plot"
+      ],
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "governingHandoff": "HANDOFF-v69-v1.md",
+  "sourceRoundProvenance": {
+    "stagingDirectory": "v63-followup-v1",
+    "publishedRound": "v69",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "No namespace-wide rule inferred from one method/version.",
+    "History inputs must be authentic native OHLCV, never synthetic seed or derived value oracle.",
+    "Existing v63 observations remain unchanged.",
+    "Closed-bar evidence provides no realtime credit."
+  ]
+}

@@ -1,0 +1,3 @@
+# v63 input-history bridge request v1
+
+The native v63 change/highest CSVs start at UNIX 1791602160 (2026-10-10 03:16 UTC). To replay their first closed observations exactly, retain unchanged v63 sources/chart context and capture authentic BINANCE:BTCUSDT 2-minute OHLCV inputs covering at least the twelve immediately prior physical bars (1791600720 through 1791602040), plus an overlap after 1791602160 whose OHLCV must match the existing CSV. This is an input-history request, not a synthetic seed or inferred value oracle. Preserve all source, export, settings, timestamps and hash provenance. Existing v63 raw observations remain unchanged.

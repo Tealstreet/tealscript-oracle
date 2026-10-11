@@ -1,0 +1,9 @@
+//@version=5
+indicator("TA custom boundary valuewhen")
+type Holder
+    int value
+method valuewhen(Holder self, int n) =>
+    self.value + n
+f(Holder ta) =>
+    ta.valuewhen(13) * 2 + 1
+plot(f(Holder.new(7)))

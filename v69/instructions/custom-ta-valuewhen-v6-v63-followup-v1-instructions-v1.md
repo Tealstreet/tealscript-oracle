@@ -1,0 +1,3 @@
+# Custom ta.valuewhen v6 native request v1
+
+Run the exact unchanged attached source on BINANCE:BTCUSDT, ordinary candles, 2 minutes, Etc/UTC, 24x7, default inputs. Native outcome is UNOBSERVED; do not assume refusal, custom-body dispatch or builtin dispatch. Capture compiler response/text/code and exact line/column if refused; if RUNS, export original CSV with time/OHLCV and positional Plot values, at least 32 confirmed closed rows, cutoff/open timestamp and settings. Record source bytes/SHA and observation provenance. Keep observed numeric strings separate from any derived formula comparison. Do not infer a namespace-wide rule from this one name/version. No realtime credit.
