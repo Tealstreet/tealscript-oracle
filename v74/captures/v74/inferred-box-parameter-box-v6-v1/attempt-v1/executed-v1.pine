@@ -1,0 +1,5 @@
+//@version=6
+indicator("Drawing receiver collision")
+read(box) =>
+    box.get_top()
+plot(read(box.new(bar_index, 41.0, bar_index + 1, 39.0)), "Value")
