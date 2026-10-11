@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "status": "DESIGN-VALIDATED",
+  "localEnginePreflight": "NOT-RUN: probe design only",
+  "nativeStatus": "UNOBSERVED",
+  "sourceAndInstructionsHashesVerified": true,
+  "engineChanges": false,
+  "sources": 3,
+  "originalBytesUnchanged": true,
+  "instrumentedOriginalExpressionImportAndPlotsUnchanged": true,
+  "originalDeclarationDelta": "precision=16 only",
+  "instrumentedPlotCount": 25,
+  "dailyExportPlotCount": 16,
+  "referenceLibraryHashVerified": true,
+  "staticPlotBudget": {
+    "instrumented": 25,
+    "daily": 16,
+    "limit": 64
+  },
+  "minimumCoverage": "2 adjacent closed daily periods, 1440 confirmed 2m bars, 32 each side of boundary, 2 daily prefix +1 suffix closed day",
+  "feedIdentityMustBeObserved": true
+}
