@@ -1,0 +1,34 @@
+------WebKitFormBoundaryASrtsI8ABANWTQ8S
+Content-Disposition: form-data; name="source"
+
+//@version=5
+// @description Version-compatible exported and private member capture library.
+library("P425PrivateV79v1")
+
+method pick(float self) => self + 10
+hidden(float value) => value + 30
+
+// @function Calls the private method inside the library.
+// @param value Value supplied by the caller.
+// @returns The private method result.
+export forward(float value) => value.pick()
+
+// @function Calls the private function inside the library.
+// @param value Value supplied by the caller.
+// @returns The private function result.
+export forwardFunction(float value) => hidden(value)
+
+// @function Provides an exported method access control.
+// @param self Value supplied by the caller.
+// @returns The supplied value plus twenty.
+export method publicPick(float self) => self + 20
+
+// @function Provides an exported function access control.
+// @param value Value supplied by the caller.
+// @returns The supplied value plus forty.
+export publicRead(float value) => value + 40
+
+plot(forward(3.5), title="INTERNAL_PRIVATE_METHOD")
+plot(forwardFunction(3.5), title="INTERNAL_PRIVATE_FUNCTION")
+
+------WebKitFormBoundaryASrtsI8ABANWTQ8S--
