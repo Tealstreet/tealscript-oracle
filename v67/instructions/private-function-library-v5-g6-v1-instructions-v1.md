@@ -1,0 +1,5 @@
+# PrivateFunctionQA5 library prerequisite — instructions v1
+
+Compile and publish the [exact source](../private-function-library-v5-g6-v1.pine) unchanged as `sours-lat/PrivateFunctionQA5/1` before running either v5 consumer. Preserve exact source/hash, Pine directive, compilation response, library title, publication identity, immutable version and URL. The private ordinary `pick` function remains non-exported; only `forward` is exported. Never turn `pick` into a method or export it.
+
+If the requested immutable identity already exists, reuse only after verifying its exact source hash and Pine version. Do not overwrite it. If that identity is unavailable, record the actual publication and bind both consumers to the same version-compatible library by import-path substitution only, preserving executed source/hash and the explicit import-only mapping/diff. If no matching-version publication/access can be established, capture the blocker as CONTEXT-UNMET; it is not a private-function visibility refusal. Keep v5/v6 prerequisites separate. Native outcome UNSPECIFIED. See the round handoff for evidence and chart settings.

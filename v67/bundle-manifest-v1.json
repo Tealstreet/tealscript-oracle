@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v67",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "f82120690265578bb4c2c26da49ec387ad696a81",
+  "inventory": {
+    "groups": 1,
+    "scripts": 4,
+    "pairs": 2,
+    "libraryPrerequisiteCount": 2,
+    "libraryCompileOnlyCount": 0,
+    "pineAssetCount": 6,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "private-function-namespace-visibility",
+      "scripts": 4,
+      "libraryPrerequisiteCount": 2,
+      "scope": "Private ordinary library-function namespace calls and exported-forward controls, separate v5/v6 publications"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "private-function-library-v5-g6-v1",
+      "path": "private-function-library-v5-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "private-function-namespace-visibility",
+      "pineVersion": 5,
+      "role": "library-prerequisite",
+      "pairRole": "prerequisite",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+      "instructionsPath": "instructions/private-function-library-v5-g6-v1-instructions-v1.md",
+      "instructionsSha256": "df224d65e49f17b368a2f84e94300f0df2fbd024e5dee2853e943aa04aa4dbd0",
+      "questions": [
+        "Can the exact Pine v5 prerequisite library be published and bound to both corresponding consumers?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "exported native values if executed",
+        "publication/access unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "publicationBinding": {
+        "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+        "requiredPineVersion": 5,
+        "status": "REQUIRED-UNOBSERVED",
+        "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "publicationRequired": true,
+        "chartExecutionRequired": false
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-function-library-v6-g6-v1",
+      "path": "private-function-library-v6-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "private-function-namespace-visibility",
+      "pineVersion": 6,
+      "role": "library-prerequisite",
+      "pairRole": "prerequisite",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+      "instructionsPath": "instructions/private-function-library-v6-g6-v1-instructions-v1.md",
+      "instructionsSha256": "246351d1226f8c39ce30394f5b3ec1d8703b0cc07943fbf0676a55176f4ea3a6",
+      "questions": [
+        "Can the exact Pine v6 prerequisite library be published and bound to both corresponding consumers?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "exported native values if executed",
+        "publication/access unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "publicationBinding": {
+        "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+        "requiredPineVersion": 6,
+        "status": "REQUIRED-UNOBSERVED",
+        "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "publicationRequired": true,
+        "chartExecutionRequired": false
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-function-namespace-exported-control-v5-g6-v1",
+      "path": "private-function-namespace-exported-control-v5-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "private-function-namespace-visibility",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairRole": "exported-control",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "dad9baf08226f738f8ef548a370e2c7305ed6edd197d7edcf55069e2e53cd702",
+      "instructionsPath": "instructions/private-function-namespace-exported-control-v5-g6-v1-instructions-v1.md",
+      "instructionsSha256": "0e8f3f7dd06209cb4c728c40d66ce1b9891e1bcccfb803794eb6e9c3b62abe30",
+      "questions": [
+        "Pine v5 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "exported native values if executed",
+        "publication/access unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "publicationBinding": {
+        "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+        "requiredPineVersion": 5,
+        "status": "REQUIRED-UNOBSERVED",
+        "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-function-namespace-exported-control-v6-g6-v1",
+      "path": "private-function-namespace-exported-control-v6-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "private-function-namespace-visibility",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairRole": "exported-control",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "1a90a9d4b0888c978da13400b71b4ec231425a0b9abbd7fd01bf72a5196d1805",
+      "instructionsPath": "instructions/private-function-namespace-exported-control-v6-g6-v1-instructions-v1.md",
+      "instructionsSha256": "3d90d60aa21fdd8a42c20612c140304d97582b6e3aa4af876d6f3becc8d95716",
+      "questions": [
+        "Pine v6 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "exported native values if executed",
+        "publication/access unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "publicationBinding": {
+        "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+        "requiredPineVersion": 6,
+        "status": "REQUIRED-UNOBSERVED",
+        "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-function-namespace-private-v5-g6-v1",
+      "path": "private-function-namespace-private-v5-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "private-function-namespace-visibility",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairRole": "private",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+      "instructionsPath": "instructions/private-function-namespace-private-v5-g6-v1-instructions-v1.md",
+      "instructionsSha256": "757a428980e42ce8bdf702f7022559aac687ff15925d52d6f0557ca27b6eb81d",
+      "questions": [
+        "Pine v5 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "exported native values if executed",
+        "publication/access unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "publicationBinding": {
+        "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+        "requiredPineVersion": 5,
+        "status": "REQUIRED-UNOBSERVED",
+        "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-function-namespace-private-v6-g6-v1",
+      "path": "private-function-namespace-private-v6-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "private-function-namespace-visibility",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairRole": "private",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "e0ade29b5d8840dcfd2ed598bac7e315d7f8f7659b8f112a53a3616b05d241d1",
+      "instructionsPath": "instructions/private-function-namespace-private-v6-g6-v1-instructions-v1.md",
+      "instructionsSha256": "d5bedc64764222d8dd3b414e8afed71eba06cd5326ab1de8132e85a440951587",
+      "questions": [
+        "Pine v6 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "exported native values if executed",
+        "publication/access unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "publicationBinding": {
+        "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+        "requiredPineVersion": 6,
+        "status": "REQUIRED-UNOBSERVED",
+        "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "id": "private-function-v5",
+      "private": "private-function-namespace-private-v5-g6-v1.pine",
+      "exportedControl": "private-function-namespace-exported-control-v5-g6-v1.pine",
+      "prerequisite": "private-function-library-v5-g6-v1.pine",
+      "comparison": "isolated executions; exported control establishes compatible library access"
+    },
+    {
+      "id": "private-function-v6",
+      "private": "private-function-namespace-private-v6-g6-v1.pine",
+      "exportedControl": "private-function-namespace-exported-control-v6-g6-v1.pine",
+      "prerequisite": "private-function-library-v6-g6-v1.pine",
+      "comparison": "isolated executions; exported control establishes compatible library access"
+    }
+  ],
+  "governingHandoff": "HANDOFF-v67-v1.md",
+  "receiptVersionExclusions": [
+    "Private ordinary function namespace visibility grants no private receiver-method or realtime credit.",
+    "Import version/access errors are prerequisite blockers, not private-function visibility answers.",
+    "A missing or failed exported control does not establish access for the private witness."
+  ]
+}
