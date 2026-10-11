@@ -1,0 +1,163 @@
+{
+  "captureTimestamp": "2026-10-11T12:28:49.926Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"Optional declaration boundary\")\nread(a) => a\nread(a, b=3.0) => a+b\nplot(1, \"VALUE\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///0e35f0a6-5ab1-434e-883c-b6877b00b569.pine?placement%3Ddialog",
+        "path": "/0e35f0a6-5ab1-434e-883c-b6877b00b569.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "8DSRrw",
+        "title": "Optional declaration boundary (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_HkrVgaA3ueaHIymwiAN4KQ==_2Ejt6uwNvIj5rhWf0Aq4GHhd7M51Ppns1O6P/K9/nL1jFh0KWjGekpNAjkGpfKqPEKH9iqF5W7112aCq/EPgNeu96r2pB4oliuAznblTMUZ/sE7gqruolYcahV48dnOZ7vwOS93Rciy8H+1xM6HuxHQ0pT9VmZgzl6oejGK1W9PbQrLUXgIrZjKqmDchrrLOnnV1kHXKm1dsqVlCOiWtlefiqTYQLhb7uRj2te/QDERa52DcGkHTMuZ7209hKOl+hpnV0iq3lDHttaHzO8G2eXgqt2wyNPpDcZ3v8+5dzKBa/MXRsD3lOWfQ7VYHJsAAgRY6G3BeHg=="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 996,
+      "value": [
+        1791721680,
+        83140.17,
+        83150.56,
+        83140.16,
+        83150.56,
+        2.7194
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,140.17\nH\n83,150.56\nL\n83,140.16\nC\n83,150.56\n+10.40 (+0.01%)\n83,150.55\nSELL\n0.01\n83,150.56\nBUY\nVol \u00b7 BTC\n3\nUSDT\nOptional declaration boundary\n1.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:28:49 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:28\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,140.17\nHigh\n83,150.56\nLow\n83,140.16\nClose\n83,150.56\nChange\n+10.40 (+0.01%)\nVol\n2.72\nLast day change\n+162.20 (+0.20%)\nVol \u00b7 BTC\nVolume\n3\nOptional declaration boundary\nVALUE\n1.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=5\nindicator(\"Optional\u00a0declaration\u00a0boundary\")\nread(a)\u00a0=>\u00a0a\nread(a,\u00a0b=3.0)\u00a0=>\u00a0a+b\nplot(1,\u00a0\"VALUE\")\nLine 1, Col 1\nPine Script\u00ae v5\nUntitled script",
+  "templatePath": "v61-v5-optional-only-untyped-function-declaration-g6-v1.pine",
+  "templateSha256": "ef20fd0459d095305770684e93206362e2d1c9b801535fa745396172cee3ba03",
+  "role": "consumer",
+  "group": "v5-optional-only-declarations",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "ef20fd0459d095305770684e93206362e2d1c9b801535fa745396172cee3ba03",
+  "closedBarCutoff": "1791721560",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T12:28:51.736Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "VALUE"
+    ],
+    "rowCount": 997,
+    "closedRowCount": 996,
+    "openRowTimestamps": [
+      "1791721680"
+    ],
+    "sourceIsolated": true
+  }
+}

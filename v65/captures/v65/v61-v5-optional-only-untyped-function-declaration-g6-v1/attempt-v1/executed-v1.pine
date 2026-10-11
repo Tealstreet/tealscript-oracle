@@ -1,0 +1,5 @@
+//@version=5
+indicator("Optional declaration boundary")
+read(a) => a
+read(a, b=3.0) => a+b
+plot(1, "VALUE")
