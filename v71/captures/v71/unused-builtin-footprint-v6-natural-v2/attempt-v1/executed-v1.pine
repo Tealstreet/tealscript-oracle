@@ -1,0 +1,5 @@
+//@version=6
+indicator("unused-builtin-footprint-v6-natural-v2")
+method inspect(footprint self) => 7
+footprint value = na
+plot(value.inspect())

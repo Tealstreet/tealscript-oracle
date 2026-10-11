@@ -1,0 +1,2260 @@
+{
+  "revision": 1,
+  "round": "v71",
+  "assets": [
+    {
+      "source": {
+        "probe": "unused-builtin-footprint-v5-natural-v2",
+        "path": "unused-builtin-footprint-v5-natural-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairRole": "natural",
+        "sourceSha256": "8a3f8666b5f30e03042cf4dd356146a94fe224700315e8f8695ae01de98e5fd2",
+        "instructionsPath": "instructions/unused-builtin-footprint-v5-natural-v2-instructions-v2.md",
+        "instructionsSha256": "991cb1c9a0910e6d4da8ac2961c2f9d63f72c10c9a9e0cfea57e30a1055213cd",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:09:43.152Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"unused-builtin-footprint-v5-natural-v2\")\nmethod inspect(footprint self) => 7\nfootprint value = na\nplot(value.inspect())\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/a74b6983-5ddc-4edf-b95d-dbd45f4a4c8b.pine",
+              "external": "file:///a74b6983-5ddc-4edf-b95d-dbd45f4a4c8b.pine?placement%3Ddialog",
+              "path": "/a74b6983-5ddc-4edf-b95d-dbd45f4a4c8b.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "severity": 8,
+            "message": "'footprint' is not a valid type keyword.",
+            "startLineNumber": 3,
+            "startColumn": 16,
+            "endLineNumber": 3,
+            "endColumn": 24
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///a74b6983-5ddc-4edf-b95d-dbd45f4a4c8b.pine?placement%3Ddialog",
+              "path": "/a74b6983-5ddc-4edf-b95d-dbd45f4a4c8b.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///a74b6983-5ddc-4edf-b95d-dbd45f4a4c8b.pine?placement%3Ddialog",
+              "path": "/a74b6983-5ddc-4edf-b95d-dbd45f4a4c8b.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "severity": 8,
+            "message": "'footprint' is not a valid type keyword.",
+            "startLineNumber": 3,
+            "startColumn": 16,
+            "endLineNumber": 3,
+            "endColumn": 25
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "qh6PxR",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "'footprint' is not a valid type keyword.",
+                  "editorError": {
+                    "end": {
+                      "column": 24,
+                      "line": 3
+                    },
+                    "message": "'footprint' is not a valid type keyword.",
+                    "start": {
+                      "column": 16,
+                      "line": 3
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_ymEUrMrLUjts+Eqqr7toOQ==_jkVYpP8kcJzlXo7zyu2iMHRImKne0e2TpXIg7UEJzEA5+y9hevXkFEq9Wfn6YFCuYyG6e+SNoj6n38t/IfYEGZNtpMO6CwCcUupuNfYoSG25TZxZFH8cHRWvF1alYEfolq+EspahZudFp2pTsXL+OG8wRD+w1+MkAAZLgXNSJk1Lw0GbceHXOZPHLBzPzaIsWoGgVH5Z3ei3VHxyzIPui5oUJqAaKfV/kyqWU7rDqPpZ1KnSatRsRnejnF8gPO7ydN0PQoYYE/yfOj3Z03WWFeGLtuGf9yOlbaRrjHfLUgKFOPjVWwGz94cJ0NY0YdFU/muTI7LBdPhhncKt"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1046,
+            "value": [
+              1791727680,
+              83079.41,
+              83079.41,
+              83079.4,
+              83079.4,
+              7.55885
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.41\nH\n83,079.41\nL\n83,079.40\nC\n83,079.40\n\u22120.01 (\u22120.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n8\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:09:42 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:08\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.41\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.40\nChange\n\u22120.01 (\u22120.00%)\nVol\n7.56\nLast day change\n+91.04 (+0.11%)\nVol \u00b7 BTC\nVolume\n8\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=5\nindicator(\"unused-builtin-footprint-v5-natural-v2\")\nmethod\u00a0inspect(footprint\u00a0self)\u00a0=>\u00a07\nfootprint\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\n1 of 3 problems\n'footprint' is not a valid type keyword.\nLine 3, Col 16\nPine Script\u00ae v5\nUntitled script",
+        "templatePath": "unused-builtin-footprint-v5-natural-v2.pine",
+        "templateSha256": "8a3f8666b5f30e03042cf4dd356146a94fe224700315e8f8695ae01de98e5fd2",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "8a3f8666b5f30e03042cf4dd356146a94fe224700315e8f8695ae01de98e5fd2",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "'footprint' is not a valid type keyword.",
+            "line": 3,
+            "column": 16,
+            "owner": "owner"
+          },
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          },
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "'footprint' is not a valid type keyword.",
+            "line": 3,
+            "column": 16,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14918,
+            14926,
+            14930
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "receiverUsageFacet": {
+          "status": "CONTEXT-UNMET",
+          "reason": "Native v5 compiler rejects footprint as a type keyword before receiver-usage semantics are reached."
+        },
+        "refusalKind": "BUILTIN-TYPE-UNAVAILABLE",
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-footprint-v5-natural-v2/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "unused-builtin-footprint-v5-control-v2",
+        "path": "unused-builtin-footprint-v5-control-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairRole": "control",
+        "sourceSha256": "0b1da371815bc1049d141aef492bfece1d8abff9f8043cbd4a766672bec38aa4",
+        "instructionsPath": "instructions/unused-builtin-footprint-v5-control-v2-instructions-v2.md",
+        "instructionsSha256": "7873efde9dca89a66eb740d4dcc06ee87fffd06a7799233141469263d5737399",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:09:51.171Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"unused-builtin-footprint-v5-control-v2\")\nmethod inspect(footprint self) => na(self) ? 7 : 7\nfootprint value = na\nplot(value.inspect())\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/bf9649b8-d58f-42e1-9706-ab65cf53cd85.pine",
+              "external": "file:///bf9649b8-d58f-42e1-9706-ab65cf53cd85.pine?placement%3Ddialog",
+              "path": "/bf9649b8-d58f-42e1-9706-ab65cf53cd85.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "severity": 8,
+            "message": "'footprint' is not a valid type keyword.",
+            "startLineNumber": 3,
+            "startColumn": 16,
+            "endLineNumber": 3,
+            "endColumn": 24
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///bf9649b8-d58f-42e1-9706-ab65cf53cd85.pine?placement%3Ddialog",
+              "path": "/bf9649b8-d58f-42e1-9706-ab65cf53cd85.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///bf9649b8-d58f-42e1-9706-ab65cf53cd85.pine?placement%3Ddialog",
+              "path": "/bf9649b8-d58f-42e1-9706-ab65cf53cd85.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "severity": 8,
+            "message": "'footprint' is not a valid type keyword.",
+            "startLineNumber": 3,
+            "startColumn": 16,
+            "endLineNumber": 3,
+            "endColumn": 25
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "EjHHFK",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "'footprint' is not a valid type keyword.",
+                  "editorError": {
+                    "end": {
+                      "column": 24,
+                      "line": 3
+                    },
+                    "message": "'footprint' is not a valid type keyword.",
+                    "start": {
+                      "column": 16,
+                      "line": 3
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_8R1CUciRzderGBO1I42EgA==_A6gc69TmZAqkK8DxXQHB2St16sWSrGbJlnsKiX4PMNlz6mvfClYtNCNFXu4VzciMFSZNhiKB23wYx3zFjN4QjP+Jk6nI7h90C6bXyUXFc5pWuOMb+4pVkv5Qe6XVG45iKOXWT6TOM0fmeVd5wyu/WVHzu8+yMlnlXpfNgsgtddpyc0IC49ZR8ezznQp+/TdOBxYYJv2kj+ZIttRBwvW0BGcV5BRdS3UWiXfvgn93R9CwAuKpzwf7VN4sBpB4os57VvN5ENfas9M8TWzNOVajvGTyYbD6zL9uhCA0+oBCsjFHaBx4V8zo3dEuiGVX6bLBAtdCXkTcvbdwEyGL"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1046,
+            "value": [
+              1791727680,
+              83079.41,
+              83079.41,
+              83079.4,
+              83079.4,
+              7.57474
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.41\nH\n83,079.41\nL\n83,079.40\nC\n83,079.40\n\u22120.01 (\u22120.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n8\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:09:50 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:08\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.41\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.40\nChange\n\u22120.01 (\u22120.00%)\nVol\n7.57\nLast day change\n+91.04 (+0.11%)\nVol \u00b7 BTC\nVolume\n8\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=5\nindicator(\"unused-builtin-footprint-v5-control-v2\")\nmethod\u00a0inspect(footprint\u00a0self)\u00a0=>\u00a0na(self)\u00a0?\u00a07\u00a0:\u00a07\nfootprint\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\n1 of 3 problems\n'footprint' is not a valid type keyword.\nLine 3, Col 16\nPine Script\u00ae v5\nUntitled script",
+        "templatePath": "unused-builtin-footprint-v5-control-v2.pine",
+        "templateSha256": "0b1da371815bc1049d141aef492bfece1d8abff9f8043cbd4a766672bec38aa4",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "0b1da371815bc1049d141aef492bfece1d8abff9f8043cbd4a766672bec38aa4",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "'footprint' is not a valid type keyword.",
+            "line": 3,
+            "column": 16,
+            "owner": "owner"
+          },
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          },
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "'footprint' is not a valid type keyword.",
+            "line": 3,
+            "column": 16,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14946,
+            14952,
+            14956
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "receiverUsageFacet": {
+          "status": "CONTEXT-UNMET",
+          "reason": "Native v5 compiler rejects footprint as a type keyword before receiver-usage semantics are reached."
+        },
+        "refusalKind": "BUILTIN-TYPE-UNAVAILABLE",
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-footprint-v5-control-v2/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "unused-builtin-box-v5-natural-v2",
+        "path": "unused-builtin-box-v5-natural-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairRole": "natural",
+        "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+        "instructionsPath": "instructions/unused-builtin-box-v5-natural-v2-instructions-v2.md",
+        "instructionsSha256": "b1f6f4339e35d69d73a5ce5b1f6608ae1cd3bf702edc22101c350ec80592ebc4",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:09:59.385Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"unused-builtin-box-v5-natural-v2\")\nmethod inspect(box self) => 7\nbox value = na\nplot(value.inspect())\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/bd6b869a-0640-47e8-a5a1-3549e5ef3b53.pine",
+              "external": "file:///bd6b869a-0640-47e8-a5a1-3549e5ef3b53.pine?placement%3Ddialog",
+              "path": "/bd6b869a-0640-47e8-a5a1-3549e5ef3b53.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "severity": 8,
+            "message": "The 'self' argument is not used. The first method argument should be used.",
+            "startLineNumber": 3,
+            "startColumn": 15,
+            "endLineNumber": 3,
+            "endColumn": 29
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///bd6b869a-0640-47e8-a5a1-3549e5ef3b53.pine?placement%3Ddialog",
+              "path": "/bd6b869a-0640-47e8-a5a1-3549e5ef3b53.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "b7iVAx",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "The 'self' argument is not used. The first method argument should be used.",
+                  "editorError": {
+                    "end": {
+                      "column": 29,
+                      "line": 3
+                    },
+                    "message": "The 'self' argument is not used. The first method argument should be used.",
+                    "start": {
+                      "column": 15,
+                      "line": 3
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_PBsY8DCnHv4GAvm9rgumnQ==_hpnPnM45Xp533Bjqc2siPY1tSrG3l3jU1KGs8Vd8VY2zwqB1cci9+6zAneAS71EWzWYwACAAhKx82vHiuai5TPJp8r3erHMBAEoaVqpKTwG7J4xDL1Dr96WtwrbBZcb7oN/YIadoKBIMXLSaEXHAynOlsh3LNelZeDstPA6TQ0JzO1cMlvVSUnM7+HGwaRaFX1Vm0rZzxuaRTjbvWam+ZqeHfge7G012ccXM4Kk1WuI8jy9rELtOlQ77qk62K7p3blEoQdsa85cZkGjW/kc/Psya7tbp8FgijOemypNfLcLJFxdd7HKG2N+eEBaVDU7WBnrQ81DRLPZ8A3Qj"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1046,
+            "value": [
+              1791727680,
+              83079.41,
+              83079.41,
+              83079.4,
+              83079.41,
+              7.76971
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.41\nH\n83,079.41\nL\n83,079.40\nC\n83,079.41\n0.00 (0.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n8\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:09:58 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:08\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.41\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.41\nChange\n0.00 (0.00%)\nVol\n7.77\nLast day change\n+91.05 (+0.11%)\nVol \u00b7 BTC\nVolume\n8\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=5\nindicator(\"unused-builtin-box-v5-natural-v2\")\nmethod\u00a0inspect(box\u00a0self)\u00a0=>\u00a07\nbox\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\n1 of 2 problems\nThe 'self' argument is not used. The first method argument should be used.\nLine 3, Col 15\nPine Script\u00ae v5\nUntitled script",
+        "templatePath": "unused-builtin-box-v5-natural-v2.pine",
+        "templateSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "The 'self' argument is not used. The first method argument should be used.",
+            "line": 3,
+            "column": 15,
+            "owner": "owner"
+          },
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14973,
+            14979,
+            14983
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "receiverUsageFacet": {
+          "status": "OBSERVED",
+          "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+        },
+        "refusalKind": "UNUSED-FIRST-METHOD-RECEIVER",
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-box-v5-natural-v2/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "unused-builtin-box-v5-control-v2",
+        "path": "unused-builtin-box-v5-control-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairRole": "control",
+        "sourceSha256": "78a973e27bcbdfa9fc3981cc6a277bc22e9ec24f7a62ecadc8c66f63c16315c8",
+        "instructionsPath": "instructions/unused-builtin-box-v5-control-v2-instructions-v2.md",
+        "instructionsSha256": "6aced2a43f414cd58b818de533ee9a09c86b06e00ccdad8c1fdc9c13b8bb07f9",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:10:07.246Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"unused-builtin-box-v5-control-v2\")\nmethod inspect(box self) => na(self) ? 7 : 7\nbox value = na\nplot(value.inspect())\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///2994cf70-49b2-4363-86d6-5a0f7f35a384.pine?placement%3Ddialog",
+              "path": "/2994cf70-49b2-4363-86d6-5a0f7f35a384.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "Pyx1bT",
+              "title": "unused-builtin-box-v5-control-v2 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1,\"user_methods\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_0arQLkvU02rhlkU9i8mHBA==_CU7iIM+3K1rTZRHRMHkXKuOLqretsgPQkLt8O3/OOwy0mVA8hYwmVzietIlFRTlyYF7MQ+n5lAg8TEnnsNkw8SOQjNWB2MgtLaUdKNLbPwgFPqjrwdIfytsAIALaeK6e9sdj2+Su69unme84q8V3hOYdz8bX3AlAMVaaAg2f6iLAd8TLplPf3W9CvuzQTwA6NyBmB0nup5m4WJYPlglF7eCiGfAhd1G+wnvuo9N5RF9GyE7L21tnERTbX8qWOrwxRjGkW9uLfdMUN5xB4+o5CunqIBedWIC2kQRvvjSrJen5uolLimNAZykO+onbJG1oZI5Ztye2LFBY9ceiL3XPw0ssCNn1/2H8h+ZjqeMm/bNhTCv4uIShIDB8v1K9nwWmoMq4vtl4NDM4oszFaBLSoVINtzxSz8pjl6EZE1rKNd42cr01Fm+dRUw0aHz6ZLSM2WHvcrpQd+nUwf7+gZKnsVZvW2AvDb69QQWjYFVRu6hQATj+q7Ua3XFPEwtLTpA="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1047,
+            "value": [
+              1791727800,
+              83079.4,
+              83079.41,
+              83079.4,
+              83079.41,
+              0.19429
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.40\nH\n83,079.41\nL\n83,079.40\nC\n83,079.41\n+0.01 (+0.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n0\nUSDT\nunused-builtin-box-v5-control-v2\n7.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:10:06 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:10\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.40\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.41\nChange\n+0.01 (+0.00%)\nVol\n0.19\nLast day change\n+91.05 (+0.11%)\nVol \u00b7 BTC\nVolume\n0\nunused-builtin-box-v5-control-v2\nPlot\n7.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=5\nindicator(\"unused-builtin-box-v5-control-v2\")\nmethod\u00a0inspect(box\u00a0self)\u00a0=>\u00a0na(self)\u00a0?\u00a07\u00a0:\u00a07\nbox\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\nLine 1, Col 1\nPine Script\u00ae v5\nUntitled script",
+        "templatePath": "unused-builtin-box-v5-control-v2.pine",
+        "templateSha256": "78a973e27bcbdfa9fc3981cc6a277bc22e9ec24f7a62ecadc8c66f63c16315c8",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "78a973e27bcbdfa9fc3981cc6a277bc22e9ec24f7a62ecadc8c66f63c16315c8",
+        "closedBarCutoff": "1791727680",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T14:10:09.108Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "Plot"
+          ],
+          "rowCount": 1789,
+          "closedRowCount": 1788,
+          "openRowTimestamps": [
+            "1791727800"
+          ],
+          "sourceIsolated": true,
+          "sha256": "fc3adf9e68e07f093867885548ce2761dda3409d4e12ab715c0a3dfd8f9d5c5d"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14998,
+            15004,
+            15007
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "Plot",
+            "uniqueRawStrings": [
+              "7"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791727440",
+                "83072.34",
+                "83085.68",
+                "83072.33",
+                "83085.67",
+                "3.16612",
+                "7"
+              ],
+              [
+                "1791727560",
+                "83085.68",
+                "83090.01",
+                "83079.4",
+                "83079.41",
+                "4.59853",
+                "7"
+              ],
+              [
+                "1791727680",
+                "83079.41",
+                "83079.41",
+                "83079.4",
+                "83079.4",
+                "7.77154",
+                "7"
+              ]
+            ]
+          }
+        ],
+        "receiverUsageFacet": {
+          "status": "OBSERVED",
+          "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+        },
+        "refusalKind": null,
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-box-v5-control-v2/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "unused-builtin-footprint-v6-natural-v2",
+        "path": "unused-builtin-footprint-v6-natural-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairRole": "natural",
+        "sourceSha256": "569e20dce5bba62b0ad63d37ea664b112c9a74e63e4520fb5ac9afb5ef76528a",
+        "instructionsPath": "instructions/unused-builtin-footprint-v6-natural-v2-instructions-v2.md",
+        "instructionsSha256": "0159a7c543eb9cddc56f9afde4bd223415ae6a57a811c55da9a590bb349fffbe",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:10:22.818Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"unused-builtin-footprint-v6-natural-v2\")\nmethod inspect(footprint self) => 7\nfootprint value = na\nplot(value.inspect())\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/085ca146-f092-4f8b-abc6-7a8901edea84.pine",
+              "external": "file:///085ca146-f092-4f8b-abc6-7a8901edea84.pine?placement%3Ddialog",
+              "path": "/085ca146-f092-4f8b-abc6-7a8901edea84.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "code": "CE10236",
+            "severity": 8,
+            "message": "The \"self\" argument is not used. The first method argument should be used.",
+            "startLineNumber": 3,
+            "startColumn": 15,
+            "endLineNumber": 3,
+            "endColumn": 35
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "pH8kbE",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "The \"{argName}\" argument is not used. The first method argument should be used.",
+                  "editorError": {
+                    "code": "CE10236",
+                    "ctx": {
+                      "argName": "self"
+                    },
+                    "end": {
+                      "column": 35,
+                      "line": 3
+                    },
+                    "message": "The \"{argName}\" argument is not used. The first method argument should be used.",
+                    "start": {
+                      "column": 15,
+                      "line": 3
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_a0L9/X+U6AC0wEdWq8Sr1A==_kJaP5/djiGYmdD51XML0+JHQ8008GRDWvlblTd8IGS3DaaiYBJxDexQBWNuckcdUAidnVZQrNkYvEGNU7Hn7t36Hoj3SIBABxc8uyYjzNn6c4divp2mDy82QdaVFmlwxaDsRk1C/bV4fo+9h2k4yrN4b23Gi+C63Ps5L9h3v8QI6Lw04j6lwbT9ZxtUx0uSggJuF01nH4uIIMI9PC6a6CUM49dbfXdipFW+BeHKMCAf8WYG3oVik+NlRL2ksS7WJQogNO2+gqxvuVVcSPAKWwnymObxpkmoWvrKVEe+t2EB+MezqHAgAp+lR49oVtpk6l8YMY98mzPpeOg2hZJuULZ4laKBSLuXV9yQ="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1047,
+            "value": [
+              1791727800,
+              83079.4,
+              83079.41,
+              83079.4,
+              83079.41,
+              0.35307
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.40\nH\n83,079.41\nL\n83,079.40\nC\n83,079.41\n+0.01 (+0.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n0\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:10:22 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:10\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.40\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.41\nChange\n+0.01 (+0.00%)\nVol\n0.35\nLast day change\n+91.05 (+0.11%)\nVol \u00b7 BTC\nVolume\n0\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=6\nindicator(\"unused-builtin-footprint-v6-natural-v2\")\nmethod\u00a0inspect(footprint\u00a0self)\u00a0=>\u00a07\nfootprint\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\n1 of 1 problem\nThe \"self\" argument is not used. The first method argument should be used.(CE10236)\nLine 3, Col 15\nPine Script\u00ae v6\nUntitled script",
+        "templatePath": "unused-builtin-footprint-v6-natural-v2.pine",
+        "templateSha256": "569e20dce5bba62b0ad63d37ea664b112c9a74e63e4520fb5ac9afb5ef76528a",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "569e20dce5bba62b0ad63d37ea664b112c9a74e63e4520fb5ac9afb5ef76528a",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": "CE10236",
+            "codeAvailability": "EXPOSED",
+            "text": "The \"self\" argument is not used. The first method argument should be used.",
+            "line": 3,
+            "column": 15,
+            "owner": "owner"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            15027,
+            15033,
+            15037
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "receiverUsageFacet": {
+          "status": "OBSERVED",
+          "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+        },
+        "refusalKind": "UNUSED-FIRST-METHOD-RECEIVER",
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-footprint-v6-natural-v2/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "unused-builtin-footprint-v6-control-v2",
+        "path": "unused-builtin-footprint-v6-control-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairRole": "control",
+        "sourceSha256": "d2ca0f0c2b86f6aa090b47f062fae471e0f3550dceeba5e7523aa129b8c2b159",
+        "instructionsPath": "instructions/unused-builtin-footprint-v6-control-v2-instructions-v2.md",
+        "instructionsSha256": "2c25a658245861b88d0c966c490ec88b44d0af54f869c6293810e38baf0aad2d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:10:30.659Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"unused-builtin-footprint-v6-control-v2\")\nmethod inspect(footprint self) => na(self) ? 7 : 7\nfootprint value = na\nplot(value.inspect())\n",
+        "markers": [],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "xjVRiS",
+              "title": "unused-builtin-footprint-v6-control-v2 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1,\"user_methods\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_MktDDe1xmxp6otk3KaYWLw==_lApsbvXY4LUnlypmJNaXQpa5shtpsFHRDLilW6EKowqtuNlmuq628I0WswP5kpCMlEYGji6UdB2c9BQF4ZRp3h0b/2v6TmrC/Z/YyzIgU+WUawyrE8V1HwffPNH75gWCDQy6U1a6YJysMfNbob4uup5hVPjxxynAXyuJtS0Bt1w7KVMjhf2hRP8bQQMDstw/GOxkWA28AbIoD6jYwbMJlGrVXhMYEVcPDrXbPAeiPr6fGjDH7Cw8RyHvSzEyi8qw6nVnNW/vh5cVunbB7j8B6KGEXuB9rEmaYBXXsP4njt5w0R6iALLLqQFUCkoxuOJAjZFjnfsHV5zyKkGiWoOaMAJC6n/EAONEaljw+AT8VrNgsYB3V5ka/Vhs3BayHlwRmYYDBxQ0bveNTzdo4UZhiExfeHpFFOKFdOJYtxWAMXCer/BKMFpRz3IJamaUggBCGolFy0FC8tKR0xAn06jqUWH0vOrBkc5PoLfqOlST+CMNRol54pedRX2QAL3uL5kXGb3eCM3Qyr/88soXyS4MZlWPKCxmb4f5W3tiApShTFmcEB7t"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1047,
+            "value": [
+              1791727800,
+              83079.4,
+              83079.41,
+              83079.4,
+              83079.4,
+              0.8417
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.40\nH\n83,079.41\nL\n83,079.40\nC\n83,079.40\n0.00 (0.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n1\nUSDT\nunused-builtin-footprint-v6-control-v2\n7.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:10:29 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:10\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.40\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.40\nChange\n0.00 (0.00%)\nVol\n0.84\nLast day change\n+91.04 (+0.11%)\nVol \u00b7 BTC\nVolume\n1\nunused-builtin-footprint-v6-control-v2\nPlot\n7.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=6\nindicator(\"unused-builtin-footprint-v6-control-v2\")\nmethod\u00a0inspect(footprint\u00a0self)\u00a0=>\u00a0na(self)\u00a0?\u00a07\u00a0:\u00a07\nfootprint\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\nLine 1, Col 1\nPine Script\u00ae v6\nUntitled script",
+        "templatePath": "unused-builtin-footprint-v6-control-v2.pine",
+        "templateSha256": "d2ca0f0c2b86f6aa090b47f062fae471e0f3550dceeba5e7523aa129b8c2b159",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "d2ca0f0c2b86f6aa090b47f062fae471e0f3550dceeba5e7523aa129b8c2b159",
+        "closedBarCutoff": "1791727680",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T14:10:32.496Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "Plot"
+          ],
+          "rowCount": 1789,
+          "closedRowCount": 1788,
+          "openRowTimestamps": [
+            "1791727800"
+          ],
+          "sourceIsolated": true,
+          "sha256": "ed659ded0f43e93ddde5d803b4428622769f652be549b5e31fcd2de9cd48c24a"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            15051,
+            15057,
+            15060
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "Plot",
+            "uniqueRawStrings": [
+              "7"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791727440",
+                "83072.34",
+                "83085.68",
+                "83072.33",
+                "83085.67",
+                "3.16612",
+                "7"
+              ],
+              [
+                "1791727560",
+                "83085.68",
+                "83090.01",
+                "83079.4",
+                "83079.41",
+                "4.59853",
+                "7"
+              ],
+              [
+                "1791727680",
+                "83079.41",
+                "83079.41",
+                "83079.4",
+                "83079.4",
+                "7.77154",
+                "7"
+              ]
+            ]
+          }
+        ],
+        "receiverUsageFacet": {
+          "status": "OBSERVED",
+          "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+        },
+        "refusalKind": null,
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-footprint-v6-control-v2/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "unused-builtin-box-v6-natural-v2",
+        "path": "unused-builtin-box-v6-natural-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairRole": "natural",
+        "sourceSha256": "8e46047f3e3e47ecf6e0696fb4f86544fa6a710461a34407dc7ff5b6d9c5ea5a",
+        "instructionsPath": "instructions/unused-builtin-box-v6-natural-v2-instructions-v2.md",
+        "instructionsSha256": "7e81f16ba00bc5346a90e307c140b8b717dc67e2ba7e62d29858c4466170f99b",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:10:40.296Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"unused-builtin-box-v6-natural-v2\")\nmethod inspect(box self) => 7\nbox value = na\nplot(value.inspect())\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/a1fa07fa-fdb7-4d21-8fcb-791d95b26f9a.pine",
+              "external": "file:///a1fa07fa-fdb7-4d21-8fcb-791d95b26f9a.pine?placement%3Ddialog",
+              "path": "/a1fa07fa-fdb7-4d21-8fcb-791d95b26f9a.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "code": "CE10236",
+            "severity": 8,
+            "message": "The \"self\" argument is not used. The first method argument should be used.",
+            "startLineNumber": 3,
+            "startColumn": 15,
+            "endLineNumber": 3,
+            "endColumn": 29
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "vVt8ct",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "The \"{argName}\" argument is not used. The first method argument should be used.",
+                  "editorError": {
+                    "code": "CE10236",
+                    "ctx": {
+                      "argName": "self"
+                    },
+                    "end": {
+                      "column": 29,
+                      "line": 3
+                    },
+                    "message": "The \"{argName}\" argument is not used. The first method argument should be used.",
+                    "start": {
+                      "column": 15,
+                      "line": 3
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_AimA5VNr+TQu40Doco7rcw==_H/iRJXGwqC/J4fRHqT6aTQ8DuO3GwVZyX4sn9qqa5cudQ9hHDtDmvWNqJCDS7t9onBp+Obwn34K1cVc4KYwGsm37de8LtBYW65wzRjOTzUkc6HlpV7xMED5sDYRQWzgoEiA3ZDopD54fBFt1gZZbjk3/HUV/aGcA9i3o6q3dp04HEHak2KZBVhMkHYgHRhLV4zNOL94aGMpMIBQThr5gbyHtQ8KyS0oz2OmsT/jZzoIYozE9J38b2HN5c0E5qQWD6w8UMn6H5CDYXZdAb3/M2lB53MIkZDvXWDUWPdcPpgBaxp6gveFPvpJgLGgOFYY1jUwk4yXHfIARkbGRuQ09vT4WAA7uFPhEvgw="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1047,
+            "value": [
+              1791727800,
+              83079.4,
+              83079.41,
+              83079.4,
+              83079.41,
+              0.8691
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.40\nH\n83,079.41\nL\n83,079.40\nC\n83,079.41\n+0.01 (+0.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n1\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:10:39 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:10\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.40\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.41\nChange\n+0.01 (+0.00%)\nVol\n0.87\nLast day change\n+91.05 (+0.11%)\nVol \u00b7 BTC\nVolume\n1\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=6\nindicator(\"unused-builtin-box-v6-natural-v2\")\nmethod\u00a0inspect(box\u00a0self)\u00a0=>\u00a07\nbox\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\n1 of 1 problem\nThe \"self\" argument is not used. The first method argument should be used.(CE10236)\nLine 3, Col 15\nPine Script\u00ae v6\nUntitled script",
+        "templatePath": "unused-builtin-box-v6-natural-v2.pine",
+        "templateSha256": "8e46047f3e3e47ecf6e0696fb4f86544fa6a710461a34407dc7ff5b6d9c5ea5a",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "8e46047f3e3e47ecf6e0696fb4f86544fa6a710461a34407dc7ff5b6d9c5ea5a",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": "CE10236",
+            "codeAvailability": "EXPOSED",
+            "text": "The \"self\" argument is not used. The first method argument should be used.",
+            "line": 3,
+            "column": 15,
+            "owner": "owner"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            15078,
+            15084,
+            15088
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "receiverUsageFacet": {
+          "status": "OBSERVED",
+          "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+        },
+        "refusalKind": "UNUSED-FIRST-METHOD-RECEIVER",
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-box-v6-natural-v2/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "unused-builtin-box-v6-control-v2",
+        "path": "unused-builtin-box-v6-control-v2.pine",
+        "owner": "codex-vmp8l6",
+        "group": "builtin-unused-receivers",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairRole": "control",
+        "sourceSha256": "f5afdc1028fcd11d27e8ef1bdf3fd9f5d97709b1bd89d181c042ca8c94bc2851",
+        "instructionsPath": "instructions/unused-builtin-box-v6-control-v2-instructions-v2.md",
+        "instructionsSha256": "31133ad5ae9e540217f8553e2996258f87475e70598048e39c1bfa2fac597181",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": "UNSPECIFIED",
+        "questions": [
+          "Does this unused/used builtin receiver admit, refuse for receiver usage, refuse for type/version/entitlement availability, or fault at runtime?"
+        ],
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "plots": [
+          "Plot"
+        ],
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "excludeOpenBar": true,
+          "sourceUnchanged": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T14:10:48.292Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"unused-builtin-box-v6-control-v2\")\nmethod inspect(box self) => na(self) ? 7 : 7\nbox value = na\nplot(value.inspect())\n",
+        "markers": [],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "fWE6TC",
+              "title": "unused-builtin-box-v6-control-v2 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1,\"user_methods\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_MY7OQKESI59nbzBdLIYPww==_kDzOcTI6py1qdV8+mCW06909Yz/qRGOR81lsMrn93cla8PjiHBbxH31GqGC5Q7A8o4e77MrTPqxpRh86hFQTq5c8acL9nsYsaPL++85rvLmtduqt+YzamAEn3P9TE+Als/NameUzI8INM5uq/FXKIjfD3o5YLSaDTEW+rVyWhpBnajdCDA9AV35BcE4CoeQ62W+2EXvPr0l8riqVi3O8r5fPT024kbYOh6xIO9IVEDTJZ7QzBq07CVsByQfnbYSy/E+1LihpBfvCuUXVXs/9TuFLFdR+Mxy6yluDQc2LkzlhklISldBbE5O48k1SYUqctXEPHQM+RMYgTyXzxG1JBLT3GYqAWkx7TweBFw/OUrMq/fm1AVeUjmj2NxX9cJP/zJQ/yk5XUsGB0SsCHtMLiK7GENSqZH9bAE7mmdNl2RCOpZ2dC0KwpwhtyZy4iNj0VhICjrCKdtSGRBXkRwyrVQ+cLLYawKlEMNWgwEnAhum/HSbjKhInMYVAPSRfxe+jaOQIms85c41d+1ACkg=="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1047,
+            "value": [
+              1791727800,
+              83079.4,
+              83079.41,
+              83079.4,
+              83079.4,
+              0.97333
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,079.40\nH\n83,079.41\nL\n83,079.40\nC\n83,079.40\n0.00 (0.00%)\n83,079.40\nSELL\n0.01\n83,079.41\nBUY\nVol \u00b7 BTC\n1\nUSDT\nunused-builtin-box-v6-control-v2\n7.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n14:10:47 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n14:10\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,079.40\nHigh\n83,079.41\nLow\n83,079.40\nClose\n83,079.40\nChange\n0.00 (0.00%)\nVol\n0.97\nLast day change\n+91.04 (+0.11%)\nVol \u00b7 BTC\nVolume\n1\nunused-builtin-box-v6-control-v2\nPlot\n7.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n//@version=6\nindicator(\"unused-builtin-box-v6-control-v2\")\nmethod\u00a0inspect(box\u00a0self)\u00a0=>\u00a0na(self)\u00a0?\u00a07\u00a0:\u00a07\nbox\u00a0value\u00a0=\u00a0na\nplot(value.inspect())\nLine 1, Col 1\nPine Script\u00ae v6\nUntitled script",
+        "templatePath": "unused-builtin-box-v6-control-v2.pine",
+        "templateSha256": "f5afdc1028fcd11d27e8ef1bdf3fd9f5d97709b1bd89d181c042ca8c94bc2851",
+        "role": "consumer",
+        "group": "builtin-unused-receivers",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "f5afdc1028fcd11d27e8ef1bdf3fd9f5d97709b1bd89d181c042ca8c94bc2851",
+        "closedBarCutoff": "1791727680",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T14:10:50.154Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "Plot"
+          ],
+          "rowCount": 1789,
+          "closedRowCount": 1788,
+          "openRowTimestamps": [
+            "1791727800"
+          ],
+          "sourceIsolated": true,
+          "sha256": "ab5521b65132a6d55ed252076c1a9cbbc76d3c398efac25f741730f2cc30a616"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            15104,
+            15112,
+            15115
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "Plot",
+            "uniqueRawStrings": [
+              "7"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791727440",
+                "83072.34",
+                "83085.68",
+                "83072.33",
+                "83085.67",
+                "3.16612",
+                "7"
+              ],
+              [
+                "1791727560",
+                "83085.68",
+                "83090.01",
+                "83079.4",
+                "83079.41",
+                "4.59853",
+                "7"
+              ],
+              [
+                "1791727680",
+                "83079.41",
+                "83079.41",
+                "83079.4",
+                "83079.4",
+                "7.77154",
+                "7"
+              ]
+            ]
+          }
+        ],
+        "receiverUsageFacet": {
+          "status": "OBSERVED",
+          "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+        },
+        "refusalKind": null,
+        "realtimeCredit": false,
+        "providerAvailabilityCredit": false,
+        "evidencePath": "unused-builtin-box-v6-control-v2/attempt-v1/observation-v3.json"
+      }
+    }
+  ],
+  "naturalControlPairs": [
+    {
+      "revision": 1,
+      "builtinType": "footprint",
+      "pineVersion": 5,
+      "naturalStatus": "COMPILE-ERROR",
+      "naturalEvidence": "unused-builtin-footprint-v5-natural-v2/attempt-v1/observation-v3.json",
+      "controlStatus": "COMPILE-ERROR",
+      "controlEvidence": "unused-builtin-footprint-v5-control-v2/attempt-v1/observation-v3.json",
+      "receiverUsageFacet": {
+        "status": "CONTEXT-UNMET",
+        "reason": "Native v5 compiler rejects footprint as a type keyword before receiver-usage semantics are reached."
+      },
+      "controlClosedRowCount": null,
+      "controlClosedRawReadout": null,
+      "numericPairComparison": "UNOBSERVED: no successful natural numeric execution; used control values are not attributed to refused sources",
+      "providerAvailabilityCredit": false,
+      "realtimeCredit": false
+    },
+    {
+      "revision": 1,
+      "builtinType": "footprint",
+      "pineVersion": 6,
+      "naturalStatus": "COMPILE-ERROR",
+      "naturalEvidence": "unused-builtin-footprint-v6-natural-v2/attempt-v1/observation-v3.json",
+      "controlStatus": "RUNS",
+      "controlEvidence": "unused-builtin-footprint-v6-control-v2/attempt-v1/observation-v3.json",
+      "receiverUsageFacet": {
+        "status": "OBSERVED",
+        "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+      },
+      "controlClosedRowCount": 1788,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "Plot",
+          "uniqueRawStrings": [
+            "7"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791727440",
+              "83072.34",
+              "83085.68",
+              "83072.33",
+              "83085.67",
+              "3.16612",
+              "7"
+            ],
+            [
+              "1791727560",
+              "83085.68",
+              "83090.01",
+              "83079.4",
+              "83079.41",
+              "4.59853",
+              "7"
+            ],
+            [
+              "1791727680",
+              "83079.41",
+              "83079.41",
+              "83079.4",
+              "83079.4",
+              "7.77154",
+              "7"
+            ]
+          ]
+        }
+      ],
+      "numericPairComparison": "UNOBSERVED: no successful natural numeric execution; used control values are not attributed to refused sources",
+      "providerAvailabilityCredit": false,
+      "realtimeCredit": false
+    },
+    {
+      "revision": 1,
+      "builtinType": "box",
+      "pineVersion": 5,
+      "naturalStatus": "COMPILE-ERROR",
+      "naturalEvidence": "unused-builtin-box-v5-natural-v2/attempt-v1/observation-v3.json",
+      "controlStatus": "RUNS",
+      "controlEvidence": "unused-builtin-box-v5-control-v2/attempt-v1/observation-v3.json",
+      "receiverUsageFacet": {
+        "status": "OBSERVED",
+        "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+      },
+      "controlClosedRowCount": 1788,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "Plot",
+          "uniqueRawStrings": [
+            "7"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791727440",
+              "83072.34",
+              "83085.68",
+              "83072.33",
+              "83085.67",
+              "3.16612",
+              "7"
+            ],
+            [
+              "1791727560",
+              "83085.68",
+              "83090.01",
+              "83079.4",
+              "83079.41",
+              "4.59853",
+              "7"
+            ],
+            [
+              "1791727680",
+              "83079.41",
+              "83079.41",
+              "83079.4",
+              "83079.4",
+              "7.77154",
+              "7"
+            ]
+          ]
+        }
+      ],
+      "numericPairComparison": "UNOBSERVED: no successful natural numeric execution; used control values are not attributed to refused sources",
+      "providerAvailabilityCredit": false,
+      "realtimeCredit": false
+    },
+    {
+      "revision": 1,
+      "builtinType": "box",
+      "pineVersion": 6,
+      "naturalStatus": "COMPILE-ERROR",
+      "naturalEvidence": "unused-builtin-box-v6-natural-v2/attempt-v1/observation-v3.json",
+      "controlStatus": "RUNS",
+      "controlEvidence": "unused-builtin-box-v6-control-v2/attempt-v1/observation-v3.json",
+      "receiverUsageFacet": {
+        "status": "OBSERVED",
+        "reason": "Exact native unused-receiver refusal or used control admission/execution retained."
+      },
+      "controlClosedRowCount": 1788,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "Plot",
+          "uniqueRawStrings": [
+            "7"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791727440",
+              "83072.34",
+              "83085.68",
+              "83072.33",
+              "83085.67",
+              "3.16612",
+              "7"
+            ],
+            [
+              "1791727560",
+              "83085.68",
+              "83090.01",
+              "83079.4",
+              "83079.41",
+              "4.59853",
+              "7"
+            ],
+            [
+              "1791727680",
+              "83079.41",
+              "83079.41",
+              "83079.4",
+              "83079.4",
+              "7.77154",
+              "7"
+            ]
+          ]
+        }
+      ],
+      "numericPairComparison": "UNOBSERVED: no successful natural numeric execution; used control values are not attributed to refused sources",
+      "providerAvailabilityCredit": false,
+      "realtimeCredit": false
+    }
+  ]
+}
