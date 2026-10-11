@@ -1,0 +1,7 @@
+//@version=6
+indicator("v61-array-reassign-varip-control-v2")
+relay(xs, ys)=>
+    varip copied = xs
+    copied := ys
+    array.get(copied,0)
+plot(relay(array.new<float>(1,1.5),array.new<float>(1,3)))

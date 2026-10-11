@@ -1,0 +1,11 @@
+//@version=6
+indicator("v61-map-reassign-var-natural-v2")
+relay(xs, ys)=>
+    var copied = xs
+    copied := ys
+    map.get(copied,"key")
+xs = map.new<string,float>()
+ys = map.new<string,int>()
+map.put(xs,"key",1.5)
+map.put(ys,"key",3)
+plot(relay(xs,ys))

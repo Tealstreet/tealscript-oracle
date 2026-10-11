@@ -1,0 +1,7 @@
+//@version=6
+indicator("v61-array-reassign-var-control-v2")
+relay(xs, ys)=>
+    var copied = xs
+    copied := ys
+    array.get(copied,0)
+plot(relay(array.new<float>(1,1.5),array.new<float>(1,3)))
