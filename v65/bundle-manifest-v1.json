@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v65",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "53547bee7953e18eb621d61db9ece48ef1a86489",
+  "inventory": {
+    "groups": 1,
+    "scripts": 2,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "pineAssetCount": 2,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "v5-optional-only-declarations",
+      "scripts": 2,
+      "scope": "Unused v5 typed method and untyped function declarations differing only by a legal optional literal parameter"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "v61-v5-optional-only-typed-method-declaration-g6-v1",
+      "path": "v61-v5-optional-only-typed-method-declaration-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "v5-optional-only-declarations",
+      "pineVersion": 5,
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "c281726c119e34b611806045b50acb2c836add731b06a6ba3227cdf4f10dbf95",
+      "instructionsPath": "instructions/v61-v5-optional-only-typed-method-declaration-g6-v1-instructions-v1.md",
+      "instructionsSha256": "7599b74e976f85175faeb21b423c7b859ff5ae74f8d994a667ff86cedceb535d",
+      "questions": [
+        "v5 optional-only typed-method declaration identity: do unused declarations sharing required parameters refuse or admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostics and sites",
+        "compile admission and exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-v5-optional-only-untyped-function-declaration-g6-v1",
+      "path": "v61-v5-optional-only-untyped-function-declaration-g6-v1.pine",
+      "owner": "codex-g6qooy",
+      "group": "v5-optional-only-declarations",
+      "pineVersion": 5,
+      "role": "consumer",
+      "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+      "sourceSha256": "ef20fd0459d095305770684e93206362e2d1c9b801535fa745396172cee3ba03",
+      "instructionsPath": "instructions/v61-v5-optional-only-untyped-function-declaration-g6-v1-instructions-v1.md",
+      "instructionsSha256": "5dadfc4ac5f3b9333b564812c2fac071865fb02f31d391b7a752ab729389869f",
+      "questions": [
+        "v5 optional-only untyped-function declaration identity: do unused declarations sharing required parameters refuse or admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostics and sites",
+        "compile admission and exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "governingHandoff": "HANDOFF-v65-v1.md",
+  "sourceRoundProvenance": {
+    "requestedRound": "v61",
+    "publishedRound": "v65",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "v60 typed ordinary-function results do not settle these callable/annotation shapes.",
+    "Do not add an invocation or publish a library.",
+    "No realtime or general overload policy credit is requested."
+  ]
+}
