@@ -1,0 +1,4 @@
+//@version=6
+indicator("V79 v6 private-function")
+import sours-lat/P425PrivateV79v1/1 as lib
+plot(lib.hidden(3.5), title="RESULT")

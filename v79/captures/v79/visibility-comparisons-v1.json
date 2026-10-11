@@ -1,0 +1,140 @@
+[
+  {
+    "revision": 1,
+    "pineVersion": 5,
+    "role": "private-receiver",
+    "status": "OBSERVED-REFUSAL",
+    "importContext": "MET: same-version exported-controls resolves and RUNS against exact private v5 /1 publication first",
+    "controlEvidence": "v79-v5-exported-controls-v1/attempt-v1/observation-v4.json",
+    "refusalEvidence": "v79-v5-private-receiver-v1/attempt-v1/observation-v4.json",
+    "nativeDiagnostics": [
+      {
+        "class": "error",
+        "code": null,
+        "codeAvailability": "UNAVAILABLE",
+        "text": "Could not find method or method reference 'pick' for 'float'",
+        "line": 4,
+        "column": 11,
+        "owner": "owner"
+      },
+      {
+        "class": "warning",
+        "code": "PINE_VERSION_OUTDATED",
+        "codeAvailability": "EXPOSED",
+        "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+        "line": 1,
+        "column": 3,
+        "owner": "_generated_diagnostic_collection_name_#0"
+      },
+      {
+        "class": "error",
+        "code": null,
+        "codeAvailability": "UNAVAILABLE",
+        "text": "Could not find method or method reference 'pick' for 'float'",
+        "line": 4,
+        "column": 11,
+        "owner": "_generated_diagnostic_collection_name_#0"
+      }
+    ],
+    "numericCredit": false
+  },
+  {
+    "revision": 1,
+    "pineVersion": 5,
+    "role": "private-function",
+    "status": "OBSERVED-REFUSAL",
+    "importContext": "MET: same-version exported-controls resolves and RUNS against exact private v5 /1 publication first",
+    "controlEvidence": "v79-v5-exported-controls-v1/attempt-v1/observation-v4.json",
+    "refusalEvidence": "v79-v5-private-function-v1/attempt-v1/observation-v4.json",
+    "nativeDiagnostics": [
+      {
+        "class": "error",
+        "code": null,
+        "codeAvailability": "UNAVAILABLE",
+        "text": "Could not find method or method reference 'hidden' for 'lib'",
+        "line": 4,
+        "column": 9,
+        "owner": "owner"
+      },
+      {
+        "class": "warning",
+        "code": "PINE_VERSION_OUTDATED",
+        "codeAvailability": "EXPOSED",
+        "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+        "line": 1,
+        "column": 3,
+        "owner": "_generated_diagnostic_collection_name_#0"
+      },
+      {
+        "class": "error",
+        "code": null,
+        "codeAvailability": "UNAVAILABLE",
+        "text": "Could not find method or method reference 'hidden' for 'lib'",
+        "line": 4,
+        "column": 9,
+        "owner": "_generated_diagnostic_collection_name_#0"
+      }
+    ],
+    "numericCredit": false
+  },
+  {
+    "revision": 1,
+    "pineVersion": 6,
+    "role": "private-receiver",
+    "status": "OBSERVED-REFUSAL",
+    "importContext": "MET: same-version exported-controls resolves and RUNS against exact private v5 /1 publication first",
+    "controlEvidence": "v79-v6-exported-controls-v1/attempt-v1/observation-v4.json",
+    "refusalEvidence": "v79-v6-private-receiver-v1/attempt-v1/observation-v4.json",
+    "nativeDiagnostics": [
+      {
+        "class": "error",
+        "code": "CE10271",
+        "codeAvailability": "EXPOSED",
+        "text": "Could not find method or method reference 'float.pick'",
+        "line": 4,
+        "column": 11,
+        "owner": "owner"
+      },
+      {
+        "class": "error",
+        "code": "CE10271",
+        "codeAvailability": "EXPOSED",
+        "text": "Could not find method or method reference 'float.pick'",
+        "line": 4,
+        "column": 11,
+        "owner": "_generated_diagnostic_collection_name_#0"
+      }
+    ],
+    "numericCredit": false
+  },
+  {
+    "revision": 1,
+    "pineVersion": 6,
+    "role": "private-function",
+    "status": "OBSERVED-REFUSAL",
+    "importContext": "MET: same-version exported-controls resolves and RUNS against exact private v5 /1 publication first",
+    "controlEvidence": "v79-v6-exported-controls-v1/attempt-v1/observation-v4.json",
+    "refusalEvidence": "v79-v6-private-function-v1/attempt-v1/observation-v4.json",
+    "nativeDiagnostics": [
+      {
+        "class": "error",
+        "code": "CE10271",
+        "codeAvailability": "EXPOSED",
+        "text": "Could not find method or method reference 'lib.hidden'",
+        "line": 4,
+        "column": 9,
+        "owner": "owner"
+      },
+      {
+        "class": "error",
+        "code": "CE10271",
+        "codeAvailability": "EXPOSED",
+        "text": "Could not find method or method reference 'lib.hidden'",
+        "line": 4,
+        "column": 9,
+        "owner": "_generated_diagnostic_collection_name_#0"
+      }
+    ],
+    "numericCredit": false
+  }
+]

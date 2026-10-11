@@ -1,0 +1,20 @@
+{
+  "created": "2026-10-11T23:45:47.079294Z",
+  "extra": {
+    "isCompiled": true,
+    "is_price_study": false,
+    "kind": "library",
+    "originalScriptId": "USER;1ca37fddd4a94d91952b5ca35df4f798",
+    "originalScriptVersion": "1.0",
+    "sourceInputsCount": 0,
+    "stats": {
+      "plot": 2
+    }
+  },
+  "lastVersionMaj": "1.0",
+  "scriptAccess": "open_no_auth",
+  "scriptName": "P425PrivateV79v1",
+  "source": "//@version=5\n// @description Version-compatible exported and private member capture library.\nlibrary(\"P425PrivateV79v1\")\n\nmethod pick(float self) => self + 10\nhidden(float value) => value + 30\n\n// @function Calls the private method inside the library.\n// @param value Value supplied by the caller.\n// @returns The private method result.\nexport forward(float value) => value.pick()\n\n// @function Calls the private function inside the library.\n// @param value Value supplied by the caller.\n// @returns The private function result.\nexport forwardFunction(float value) => hidden(value)\n\n// @function Provides an exported method access control.\n// @param self Value supplied by the caller.\n// @returns The supplied value plus twenty.\nexport method publicPick(float self) => self + 20\n\n// @function Provides an exported function access control.\n// @param value Value supplied by the caller.\n// @returns The supplied value plus forty.\nexport publicRead(float value) => value + 40\n\nplot(forward(3.5), title=\"INTERNAL_PRIVATE_METHOD\")\nplot(forwardFunction(3.5), title=\"INTERNAL_PRIVATE_FUNCTION\")\n",
+  "updated": "2026-10-11T23:45:47.079294Z",
+  "version": "1.0"
+}
