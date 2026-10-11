@@ -1,0 +1,5 @@
+//@version=5
+indicator("Optional-only literal overload boundary")
+read(float a) => a
+read(float a, float b=3.0) => a+b
+plot(read(2.0,3.0), "VALUE")

@@ -1,0 +1,5 @@
+//@version=6
+indicator("Tuple RHS shape")
+[x,y]=[array.size(array.new<int>(1,0)),2]
+plot(x)
+plot(y)

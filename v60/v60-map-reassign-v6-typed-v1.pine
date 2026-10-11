@@ -1,0 +1,9 @@
+//@version=6
+indicator("Collection reassignment 2x2")
+score(map<string,int> xs) => 10
+score(map<string,float> xs) => 20
+relay(map<string,float> xs, map<string,int> ys) =>
+    copied = xs
+    copied := ys
+    score(copied)
+plot(relay(map.new<string,float>(),map.new<string,int>()),"VALUE")

@@ -1,0 +1,1255 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v60",
+  "version": 1,
+  "owner": "codex-be9795",
+  "status": "STAGED-ONLY",
+  "inventory": {
+    "groups": 6,
+    "scripts": 27,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 2,
+    "pineAssetCount": 29,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "collection-reassignment",
+      "scripts": 8,
+      "scope": "collection-reassignment"
+    },
+    {
+      "id": "unused-udt-receiver",
+      "scripts": 4,
+      "scope": "unused-udt-receiver"
+    },
+    {
+      "id": "private-import-visibility",
+      "scripts": 4,
+      "scope": "private-import-visibility"
+    },
+    {
+      "id": "default-expression-boundaries",
+      "scripts": 6,
+      "scope": "default-expression-boundaries"
+    },
+    {
+      "id": "tuple-rhs-shapes",
+      "scripts": 4,
+      "scope": "tuple-rhs-shapes"
+    },
+    {
+      "id": "optional-only-overloads",
+      "scripts": 3,
+      "scope": "optional-only-overloads"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "v60-array-reassign-v5-untyped-v1",
+      "path": "v60-array-reassign-v5-untyped-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "624d85aac031848dffd1662c1dd5689b1bd8282df5e5b9765a3db8ecb4d853ff",
+      "instructionsPath": "instructions/v60-array-reassign-v5-untyped-v1-instructions-v1.md",
+      "instructionsSha256": "8272b0daa067b8591a324f76a81e9d3d69301342d9769ce9ff5edc8967a7a2fa",
+      "questions": [
+        "Pine v5, untyped array parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v60-array-reassign-v5-typed-v1",
+      "path": "v60-array-reassign-v5-typed-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "7942a402f6635bdd07983ddc3502f7a670dee157d7a1a0e37d252417160b65bb",
+      "instructionsPath": "instructions/v60-array-reassign-v5-typed-v1-instructions-v1.md",
+      "instructionsSha256": "db5e213c5427a4f177245de5597bd3c5fe1a139e471bc02092b94d11f639f880",
+      "questions": [
+        "Pine v5, typed array parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v60-array-reassign-v6-untyped-v1",
+      "path": "v60-array-reassign-v6-untyped-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "aa5621cd8642e8a553d659d7aacd026fa38ce184fc8c7abdd6e938819ac726d2",
+      "instructionsPath": "instructions/v60-array-reassign-v6-untyped-v1-instructions-v1.md",
+      "instructionsSha256": "4ab020055dd5ba03886f7dcc4376eeb17bb874be0e2e1c18010733dca5b4e90f",
+      "questions": [
+        "Pine v6, untyped array parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v60-array-reassign-v6-typed-v1",
+      "path": "v60-array-reassign-v6-typed-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "85b7efc61a1bb6da6dbee286efc3037d7f3ed1ac360c072a302b522a032799e5",
+      "instructionsPath": "instructions/v60-array-reassign-v6-typed-v1-instructions-v1.md",
+      "instructionsSha256": "7fa00f7fa2a808f74a5e683e0f7034399c26756a824e0401155221499aa3cbea",
+      "questions": [
+        "Pine v6, typed array parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v60-map-reassign-v5-untyped-v1",
+      "path": "v60-map-reassign-v5-untyped-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "fb39f250f1cf6efac3f0ade4e1e9fa8543c024bcb63b63e13786cc1369e473fb",
+      "instructionsPath": "instructions/v60-map-reassign-v5-untyped-v1-instructions-v1.md",
+      "instructionsSha256": "064afaeda014bd9473d432fc84a69a197ae8c0a51f8492229a3f22bf7c6c9cda",
+      "questions": [
+        "Pine v5, untyped map parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v60-map-reassign-v5-typed-v1",
+      "path": "v60-map-reassign-v5-typed-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "cd1002844ecdaa1f886e9f5d6d40856fab38158e2cabc2d29313d7a535e79b6c",
+      "instructionsPath": "instructions/v60-map-reassign-v5-typed-v1-instructions-v1.md",
+      "instructionsSha256": "8252189cae3d1d79d3ec2cce084538383696252a755b8ee725a6ceb089ca7e59",
+      "questions": [
+        "Pine v5, typed map parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v60-map-reassign-v6-untyped-v1",
+      "path": "v60-map-reassign-v6-untyped-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "9109e6bc99b89a545cadd06771c969fc7e134e3e98b789f508cbea7100e9001b",
+      "instructionsPath": "instructions/v60-map-reassign-v6-untyped-v1-instructions-v1.md",
+      "instructionsSha256": "3c5a6df9dafa1be138506f8cddfe96e2319658f47bd4e83bca2997ad2e28b855",
+      "questions": [
+        "Pine v6, untyped map parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v60-map-reassign-v6-typed-v1",
+      "path": "v60-map-reassign-v6-typed-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "collection-reassignment",
+      "ledgerPacket": "v58-method-rules-forward-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "9a0052aea3bc1982e6cba6c522661f311ce702fe1aa0fe502f1e3b2a6ebf2ecf",
+      "instructionsPath": "instructions/v60-map-reassign-v6-typed-v1-instructions-v1.md",
+      "instructionsSha256": "262a891200497c8663c0f6bf4116953ec6e32a42c64e4c298fa300276930e33e",
+      "questions": [
+        "Pine v6, typed map parameters: may a local initialized from the float collection be reassigned to the int collection, and which score overload is selected?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic/site",
+        "runtime error with exact message/bar",
+        "admitted value 10",
+        "admitted value 20",
+        "other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "unused-udt-v5-indicator-v1",
+      "path": "unused-udt-v5-indicator-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver",
+      "ledgerPacket": "v58-method-rules-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "b8223f7ae7696939edfdc09c2fd448f5c155ebc628a5db45b9a710a3a67fe25d",
+      "instructionsPath": "instructions/unused-udt-v5-indicator-v1-instructions-v1.md",
+      "instructionsSha256": "5c584b44544e41d573abd8e610c9842e6694928f6105c8c6ad691c1c5222ccc0",
+      "questions": [
+        "Unused first UDT receiver: compile refusal versus admission; indicator result if admitted is 21."
+      ],
+      "candidateOutcomes": [
+        "compile refusal (exact code/text/site)",
+        "compile admission and SHIFT=21 or other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "unused-udt-v5-library-v1",
+      "path": "unused-udt-v5-library-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver",
+      "ledgerPacket": "v58-method-rules-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "library-compile-only",
+      "sourceSha256": "3c7cdb9f5c456a03729de57f35f8fa1a79ed50f8278778e9fb56cc31b6e36d2f",
+      "instructionsPath": "instructions/unused-udt-v5-library-v1-instructions-v1.md",
+      "instructionsSha256": "9cd13aee700a9ea05f964eef327d41127eafc51e1af4aa58bace096f0f158742",
+      "questions": [
+        "Unexported method with unused first UDT receiver in a library: compile refusal versus admission. Exported type makes the library publishable, but do not publish."
+      ],
+      "candidateOutcomes": [
+        "compile refusal (exact code/text/site)",
+        "compile admission (no publication)"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "unused-udt-v6-indicator-v1",
+      "path": "unused-udt-v6-indicator-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver",
+      "ledgerPacket": "v58-method-rules-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "f3d0a95c4e5ca9667f389a735e252d620f127cdd003170b7b6bd6ab7823f4c82",
+      "instructionsPath": "instructions/unused-udt-v6-indicator-v1-instructions-v1.md",
+      "instructionsSha256": "aefa107fc6cba5ac8a82c83b27f0f8e30b75a4b24f4292550c44fcc3722b6583",
+      "questions": [
+        "Unused first UDT receiver: compile refusal versus admission; indicator result if admitted is 21."
+      ],
+      "candidateOutcomes": [
+        "compile refusal (exact code/text/site)",
+        "compile admission and SHIFT=21 or other value"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "unused-udt-v6-library-v1",
+      "path": "unused-udt-v6-library-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "unused-udt-receiver",
+      "ledgerPacket": "v58-method-rules-vmp8l6-v1/V60-PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "library-compile-only",
+      "sourceSha256": "f09ca2b9b3264c22dd595a9e734e081d868eae3383125f7ec82a8258d6814977",
+      "instructionsPath": "instructions/unused-udt-v6-library-v1-instructions-v1.md",
+      "instructionsSha256": "2c8b5755ff08e6d4940f26803a9180648a82739d9363e67d1afca3d9ee842a54",
+      "questions": [
+        "Unexported method with unused first UDT receiver in a library: compile refusal versus admission. Exported type makes the library publishable, but do not publish."
+      ],
+      "candidateOutcomes": [
+        "compile refusal (exact code/text/site)",
+        "compile admission (no publication)"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-method-private-receiver-v5-v2",
+      "path": "private-method-private-receiver-v5-v2.pine",
+      "owner": "codex-p4250m",
+      "group": "private-import-visibility",
+      "ledgerPacket": "private-import-visibility-p4250m-v1/PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+      "instructionsPath": "instructions/private-method-private-receiver-v5-v2-instructions-v1.md",
+      "instructionsSha256": "f08db11f531c19c0460734a39f8d174fc215e575786bc1ace9aa4527ed508cdd",
+      "questions": [
+        "Exact native phase/message of importer access to non-exported method; independent exported forward control must establish access. This source is private-receiver."
+      ],
+      "candidateOutcomes": [
+        "private access compile refusal (exact code/site)",
+        "admitted access with plotted result",
+        "exported forward control establishes access",
+        "library inaccessible: prerequisite HOLD"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-method-exported-forward-control-v5-v2",
+      "path": "private-method-exported-forward-control-v5-v2.pine",
+      "owner": "codex-p4250m",
+      "group": "private-import-visibility",
+      "ledgerPacket": "private-import-visibility-p4250m-v1/PROBE-REQUEST-v2.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "076e12cf4744a21297428b983ec8342446fd6641ff7bc3cda660150af7dba44a",
+      "instructionsPath": "instructions/private-method-exported-forward-control-v5-v2-instructions-v1.md",
+      "instructionsSha256": "bb8811ac14894cb34a99e955582c193a6faee68bce5a3a4e646671d958bc6ab7",
+      "questions": [
+        "Exact native phase/message of importer access to non-exported method; independent exported forward control must establish access. This source is exported-forward-control."
+      ],
+      "candidateOutcomes": [
+        "private access compile refusal (exact code/site)",
+        "admitted access with plotted result",
+        "exported forward control establishes access",
+        "library inaccessible: prerequisite HOLD"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-method-private-receiver-v6-v2",
+      "path": "private-method-private-receiver-v6-v2.pine",
+      "owner": "codex-p4250m",
+      "group": "private-import-visibility",
+      "ledgerPacket": "private-import-visibility-p4250m-v1/PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "fc933d977a10d3548b96343dfe352a21c46676a16927097afe8fae7625002069",
+      "instructionsPath": "instructions/private-method-private-receiver-v6-v2-instructions-v1.md",
+      "instructionsSha256": "b1c15a6b171195507d31fe0d4f93eb5ab429df61edd63a7fe54e31ecedd0a4e0",
+      "questions": [
+        "Exact native phase/message of importer access to non-exported method; independent exported forward control must establish access. This source is private-receiver."
+      ],
+      "candidateOutcomes": [
+        "private access compile refusal (exact code/site)",
+        "admitted access with plotted result",
+        "exported forward control establishes access",
+        "library inaccessible: prerequisite HOLD"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "private-method-exported-forward-control-v6-v2",
+      "path": "private-method-exported-forward-control-v6-v2.pine",
+      "owner": "codex-p4250m",
+      "group": "private-import-visibility",
+      "ledgerPacket": "private-import-visibility-p4250m-v1/PROBE-REQUEST-v2.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "ccb686f316a7bc1f296d909e0c461a7cfb998761e064951d6aca9dce4c5667d2",
+      "instructionsPath": "instructions/private-method-exported-forward-control-v6-v2-instructions-v1.md",
+      "instructionsSha256": "567705211b7f30ee145d91f849b73e5dbee54b5acbedd635debd1dea2fe64b2a",
+      "questions": [
+        "Exact native phase/message of importer access to non-exported method; independent exported forward control must establish access. This source is exported-forward-control."
+      ],
+      "candidateOutcomes": [
+        "private access compile refusal (exact code/site)",
+        "admitted access with plotted result",
+        "exported forward control establishes access",
+        "library inaccessible: prerequisite HOLD"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "default-boundary-volume-multiply-v5-1x-v1",
+      "path": "default-boundary-volume-multiply-v5-1x-v1.pine",
+      "owner": "codex-jjs8ff",
+      "group": "default-expression-boundaries",
+      "ledgerPacket": "v58-default-values-jjs8ff-v1/verify-1xjtos-v1/V60-CONFIRMATION-PROBES-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+      "instructionsPath": "instructions/default-boundary-volume-multiply-v5-1x-v1-instructions-v1.md",
+      "instructionsSha256": "79543231ba8074dfeee9ee8b56d50d916b72a84fd41f25327f698eaace7a7be9",
+      "questions": [
+        "Does native refuse the volume-multiply default in this exact declaration/call form?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic class/site",
+        "compile admission; runtime result or error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "default-boundary-volume-multiply-v6-1x-v1",
+      "path": "default-boundary-volume-multiply-v6-1x-v1.pine",
+      "owner": "codex-jjs8ff",
+      "group": "default-expression-boundaries",
+      "ledgerPacket": "v58-default-values-jjs8ff-v1/verify-1xjtos-v1/V60-CONFIRMATION-PROBES-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "92e663b2b084004a3e790287439064307452c16f948fddbe01ce079a87f0ed0b",
+      "instructionsPath": "instructions/default-boundary-volume-multiply-v6-1x-v1-instructions-v1.md",
+      "instructionsSha256": "b835c49a51e607311fe7331e089e475575b7afe2d6d14839a72f819fea057b4e",
+      "questions": [
+        "Does native refuse the volume-multiply default in this exact declaration/call form?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic class/site",
+        "compile admission; runtime result or error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "method-header-helper-default-function-v5-1x-v1",
+      "path": "method-header-helper-default-function-v5-1x-v1.pine",
+      "owner": "codex-jjs8ff",
+      "group": "default-expression-boundaries",
+      "ledgerPacket": "v58-default-values-jjs8ff-v1/verify-1xjtos-v1/V60-CONFIRMATION-PROBES-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "647d3baa4bcfd9188d67b8229f284476e625beeeb2f62df298dcd90555239632",
+      "instructionsPath": "instructions/method-header-helper-default-function-v5-1x-v1-instructions-v1.md",
+      "instructionsSha256": "80666b4ba071556c758c0eacd47d84025195489e945f7b933237768f3959c1d0",
+      "questions": [
+        "Does native refuse the method UDF-helper default default in this exact declaration/call form?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic class/site",
+        "compile admission; runtime result or error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "method-header-helper-default-receiver-v5-1x-v1",
+      "path": "method-header-helper-default-receiver-v5-1x-v1.pine",
+      "owner": "codex-jjs8ff",
+      "group": "default-expression-boundaries",
+      "ledgerPacket": "v58-default-values-jjs8ff-v1/verify-1xjtos-v1/V60-CONFIRMATION-PROBES-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "2bdf6871b7fa4b16d4a0b47247f3de69f9012aa12d1381938f27463e94091bb4",
+      "instructionsPath": "instructions/method-header-helper-default-receiver-v5-1x-v1-instructions-v1.md",
+      "instructionsSha256": "e9fb5bd7a0bae500d4f9d8e1a539ec1ffe5eaeac588dd3e2ea27de33dab23685",
+      "questions": [
+        "Does native refuse the method UDF-helper default default in this exact declaration/call form?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic class/site",
+        "compile admission; runtime result or error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "method-header-helper-default-function-v6-1x-v1",
+      "path": "method-header-helper-default-function-v6-1x-v1.pine",
+      "owner": "codex-jjs8ff",
+      "group": "default-expression-boundaries",
+      "ledgerPacket": "v58-default-values-jjs8ff-v1/verify-1xjtos-v1/V60-CONFIRMATION-PROBES-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "09e5963f587a7134e3f87acee3383a457e7cf97ab5f30299c3b38301d5f5fcf0",
+      "instructionsPath": "instructions/method-header-helper-default-function-v6-1x-v1-instructions-v1.md",
+      "instructionsSha256": "9e1df08810a339cd46b4adee2ee27be870b9fd1a20ef55757fddfcc2206bc89d",
+      "questions": [
+        "Does native refuse the method UDF-helper default default in this exact declaration/call form?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic class/site",
+        "compile admission; runtime result or error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "method-header-helper-default-receiver-v6-1x-v1",
+      "path": "method-header-helper-default-receiver-v6-1x-v1.pine",
+      "owner": "codex-jjs8ff",
+      "group": "default-expression-boundaries",
+      "ledgerPacket": "v58-default-values-jjs8ff-v1/verify-1xjtos-v1/V60-CONFIRMATION-PROBES-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "0629dc27c435b29899425fb6d97d8b3a040698effffbc0c69e74ff49249180cb",
+      "instructionsPath": "instructions/method-header-helper-default-receiver-v6-1x-v1-instructions-v1.md",
+      "instructionsSha256": "997b86c6b5c4eb20a424cdf4400c25a8cd8f1cf3769b58f946f94593fda4b728",
+      "questions": [
+        "Does native refuse the method UDF-helper default default in this exact declaration/call form?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic class/site",
+        "compile admission; runtime result or error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-literal-v5-v60-v1",
+      "path": "tuple-rhs-literal-v5-v60-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "v58-bracket-be9795-v1/UNOBSERVED-SHAPE-PROBE-LIST-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "845c2a98fbbcaa1485bafd8cf920a6498a5e60ea8113ff87c255470c522d358d",
+      "instructionsPath": "instructions/tuple-rhs-literal-v5-v60-v1-instructions-v1.md",
+      "instructionsSha256": "e8652318902a797ac62119d70b50b9023b0854e215b46fdae34db46ce7c0c42e",
+      "questions": [
+        "Does native refuse direct tuple RHS at opening bracket? Exact RHS [1,2]."
+      ],
+      "candidateOutcomes": [
+        "syntax refusal at opening bracket (retain exact marker)",
+        "admission with x/y values or runtime error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-mixed-v5-v60-v1",
+      "path": "tuple-rhs-mixed-v5-v60-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "v58-bracket-be9795-v1/UNOBSERVED-SHAPE-PROBE-LIST-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "9369b73ce36a1ab2a4af6c221272706f9038f8b39c58c90b6d3000df6acebf8b",
+      "instructionsPath": "instructions/tuple-rhs-mixed-v5-v60-v1-instructions-v1.md",
+      "instructionsSha256": "b103076259a19528048fb3e1f944d81475877d8e3f93cdf9d34ad550b7b350f1",
+      "questions": [
+        "Does native refuse direct tuple RHS at opening bracket? Exact RHS [array.size(array.new<int>(1,0)),2]."
+      ],
+      "candidateOutcomes": [
+        "syntax refusal at opening bracket (retain exact marker)",
+        "admission with x/y values or runtime error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-literal-v6-v60-v1",
+      "path": "tuple-rhs-literal-v6-v60-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "v58-bracket-be9795-v1/UNOBSERVED-SHAPE-PROBE-LIST-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "03d46a41c91b0edbaed8914f068d1c11a8db526f5356bfe922b22819201298b1",
+      "instructionsPath": "instructions/tuple-rhs-literal-v6-v60-v1-instructions-v1.md",
+      "instructionsSha256": "31a2699fd22e4ad40e610ba78fe11a584660f1e9e113b72836ae3263539f8ec8",
+      "questions": [
+        "Does native refuse direct tuple RHS at opening bracket? Exact RHS [1,2]."
+      ],
+      "candidateOutcomes": [
+        "syntax refusal at opening bracket (retain exact marker)",
+        "admission with x/y values or runtime error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-mixed-v6-v60-v1",
+      "path": "tuple-rhs-mixed-v6-v60-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "v58-bracket-be9795-v1/UNOBSERVED-SHAPE-PROBE-LIST-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "229118069068d08dfb0c92dcbba526e958510a9228979e3a72c22f2e009cbb21",
+      "instructionsPath": "instructions/tuple-rhs-mixed-v6-v60-v1-instructions-v1.md",
+      "instructionsSha256": "96ff94c1e4a1f072ab784477fd6fe29cf5fa3f69713ee3c3cdce4df568584a0f",
+      "questions": [
+        "Does native refuse direct tuple RHS at opening bracket? Exact RHS [array.size(array.new<int>(1,0)),2]."
+      ],
+      "candidateOutcomes": [
+        "syntax refusal at opening bracket (retain exact marker)",
+        "admission with x/y values or runtime error"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "optional-only-overloads-v5-declaration-v60-v1",
+      "path": "optional-only-overloads-v5-declaration-v60-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "optional-only-overloads",
+      "ledgerPacket": "v4-omitted-default-inherited-roots-vmp8l6-v1/ROOT-CLAIM-v1.json; v59/HANDOFF-v59-v4.md unmet P2",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+      "instructionsPath": "instructions/optional-only-overloads-v5-declaration-v60-v1-instructions-v1.md",
+      "instructionsSha256": "202450d97476b94353d2274d6972c91ef047227ef08d58c596294ac34dca0adc",
+      "questions": [
+        "Does v5 reject two overloads differing only by a legal literal optional parameter? Is refusal declaration-wide or dependent on the declaration call form?"
+      ],
+      "candidateOutcomes": [
+        "declaration/overload compile refusal",
+        "ambiguous omitted call",
+        "admitted VALUE=1 (declaration),2 (omitted),5 (supplied), or other result"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "optional-only-overloads-v5-omitted-v60-v1",
+      "path": "optional-only-overloads-v5-omitted-v60-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "optional-only-overloads",
+      "ledgerPacket": "v4-omitted-default-inherited-roots-vmp8l6-v1/ROOT-CLAIM-v1.json; v59/HANDOFF-v59-v4.md unmet P2",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "390685126b245b19ff22c8762efb053a02d8ec08c3d5d115296db94eed0a457f",
+      "instructionsPath": "instructions/optional-only-overloads-v5-omitted-v60-v1-instructions-v1.md",
+      "instructionsSha256": "8842b2c0c2378fc5b123e6070887da00a0655a3a335966f78e305f180ad87970",
+      "questions": [
+        "Does v5 reject two overloads differing only by a legal literal optional parameter? Is refusal declaration-wide or dependent on the omitted call form?"
+      ],
+      "candidateOutcomes": [
+        "declaration/overload compile refusal",
+        "ambiguous omitted call",
+        "admitted VALUE=1 (declaration),2 (omitted),5 (supplied), or other result"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "optional-only-overloads-v5-supplied-v60-v1",
+      "path": "optional-only-overloads-v5-supplied-v60-v1.pine",
+      "owner": "codex-vmp8l6",
+      "group": "optional-only-overloads",
+      "ledgerPacket": "v4-omitted-default-inherited-roots-vmp8l6-v1/ROOT-CLAIM-v1.json; v59/HANDOFF-v59-v4.md unmet P2",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "2e3b974cd73feaeb484d897cf2bc14cb48894f05783e8f141c5aa1ef459c13d4",
+      "instructionsPath": "instructions/optional-only-overloads-v5-supplied-v60-v1-instructions-v1.md",
+      "instructionsSha256": "0557c3ab82b400fba5eca1721c9849e6dd940396774f907432177e903de2fbd8",
+      "questions": [
+        "Does v5 reject two overloads differing only by a legal literal optional parameter? Is refusal declaration-wide or dependent on the supplied call form?"
+      ],
+      "candidateOutcomes": [
+        "declaration/overload compile refusal",
+        "ambiguous omitted call",
+        "admitted VALUE=1 (declaration),2 (omitted),5 (supplied), or other result"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "governingHandoff": "HANDOFF-v60-v1.md",
+  "deduplication": {
+    "v59ExactShaDrops": [],
+    "privateImportV1Superseded": true
+  },
+  "receiptVersionExclusions": [
+    "restart-20261006/verify-vmp8l6-tkxtd0-v60: documented bool truth table, no capture request",
+    "restart-20261006/ta-values-w0bo0b-v60: documented bool crossings, no capture request",
+    "restart-series-tkxtd0-v1/CROSSWALK-v60.json: review version60; no staged sources; row102 fixnan leading hole remains held, not a staged v60 probe",
+    "defect-register-restart-be-v2/SCAN-v60.json: changes=[]; receipt scan version60, no probes"
+  ]
+}
