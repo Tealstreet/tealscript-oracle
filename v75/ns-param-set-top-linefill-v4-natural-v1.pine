@@ -1,0 +1,7 @@
+//@version=4
+indicator("Standalone boundary")
+type Holder
+    int value
+method set_top(Holder self, int x)=>self.value+x
+f(Holder linefill)=>linefill.set_top(13)
+plot(f(Holder.new(7)))

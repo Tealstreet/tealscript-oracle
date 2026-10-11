@@ -1,0 +1,3 @@
+# Pine v4 namespace set_top boundaries — v1
+
+Paste each exact source independently on BTCUSDT, 2m. Keep //@version=4 unchanged. Capture the first compile refusal (full text, site, screenshot and diagnostic class) or, if admitted, export all closed plot rows plus chart/settings screenshot. Pair each namespace natural with its renamed holder control. These are indicator-only sources. Do not translate indicator/type/method syntax if v4 refuses it: preserve that refusal and identify any version-syntax mask before attributing a namespace rule. Expected parent value 20 has regression credit only; native behavior is unsettled.

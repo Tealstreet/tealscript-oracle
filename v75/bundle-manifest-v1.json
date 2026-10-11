@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v75",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "bf76cc8870e8717849ab3f7abb06eaa6b7e37e33",
+  "inventory": {
+    "groups": 1,
+    "scripts": 10,
+    "naturals": 5,
+    "renamedControls": 5,
+    "pineAssetCount": 10,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "set-top-namespace-v4",
+      "scripts": 10,
+      "scope": "Pine v4 local UDT set_top namespace parameters box/label/line/linefill/table, each paired with renamed holder"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "ns-param-set-top-box-v4-natural-v1",
+      "path": "ns-param-set-top-box-v4-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "natural",
+      "sourceSha256": "4d2abc5c46e9c1143cb27e11a7592b9a4d2a8deaf682d8949c5e944f8ae4c16b",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-box-v4-renamed-control-v1",
+      "path": "ns-param-set-top-box-v4-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "renamed-control",
+      "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-label-v4-natural-v1",
+      "path": "ns-param-set-top-label-v4-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "natural",
+      "sourceSha256": "48e28c48de1f83d3a88aacca34f9bc2304b33adf681b05196f8e30eb267bf3b8",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-label-v4-renamed-control-v1",
+      "path": "ns-param-set-top-label-v4-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "renamed-control",
+      "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-line-v4-natural-v1",
+      "path": "ns-param-set-top-line-v4-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "natural",
+      "sourceSha256": "2c49aa81eb7388b4fd3ab98da153f6f12851f8b15297d005e1294a73673d6eb3",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-line-v4-renamed-control-v1",
+      "path": "ns-param-set-top-line-v4-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "renamed-control",
+      "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-linefill-v4-natural-v1",
+      "path": "ns-param-set-top-linefill-v4-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "natural",
+      "sourceSha256": "9da5f5bdc8638ee85ae896bfa93fb1f039362b5f72647501aefa2dc7bef46557",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-linefill-v4-renamed-control-v1",
+      "path": "ns-param-set-top-linefill-v4-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "renamed-control",
+      "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-table-v4-natural-v1",
+      "path": "ns-param-set-top-table-v4-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "natural",
+      "sourceSha256": "07e49239c98118cfeb4073946deff54b502e7806b9b063ce3d8a397961ca805a",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-table-v4-renamed-control-v1",
+      "path": "ns-param-set-top-table-v4-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "set-top-namespace-v4",
+      "pineVersion": 4,
+      "role": "renamed-control",
+      "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "0c7b5290e6a6e8cb368af4c2887a579a88aedb05d81ea50094e830a8a3c00f55",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "What is the first native diagnostic or admitted plot output of this exact Pine v4 source, and how does the namespace spelling compare with its renamed holder control? Record any version-syntax mask separately; no outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "governingHandoff": "HANDOFF-v75-v1.md",
+  "sourceRoundProvenance": {
+    "stagingDirectory": "set-top-namespace-v4",
+    "publishedRound": "v75",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "Preserve Pine v4 indicator/type/method syntax exactly; a version-syntax mask does not settle namespace semantics.",
+    "Parent engine value 20 is regression evidence only, not native truth.",
+    "Producer ENTRY names RESULT cells; the sources have untitled plot() calls, so export the actual default Plot column without changing the sources.",
+    "All five renamed controls have identical bytes but remain separately identified paired attempts.",
+    "No realtime claim."
+  ]
+}
