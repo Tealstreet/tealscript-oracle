@@ -1,0 +1,142 @@
+{
+  "captureTimestamp": "2026-10-11T11:37:54.369Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"Collection reassignment 2x2\")\nscore(map<string,int> xs) => 10\nscore(map<string,float> xs) => 20\nrelay(map<string,float> xs, map<string,int> ys) =>\n    copied = xs\n    copied := ys\n    score(copied)\nplot(relay(map.new<string,float>(),map.new<string,int>()),\"VALUE\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine?placement%3Ddialog",
+        "path": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "AAP02Y",
+        "title": "Collection reassignment 2x2 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"map\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_47EiUj2uMZpcF19/uHDKqA==_WingjgEZ2AvxUjh2NW84GTIsvtuwO0vmrl1Qmmg676YtUtP3wvoaP2vJP51WiAJgdLFIQmbHg2WpQDlmBuJJQRUXh3Tn3m9Y4+1qj6CE6Oety/y+aDYDrM40AM6bbSqF2vDb1UxqPr+9XyY94tjFOAAjyUtXsPmnfmkOyrhBeV77Ptka+nOBcx9/+Q/4oSWuX03myzCMBJpYeWk1UMorcKEjRT86fA5xMBnHBu2MVfwgFf8xZOjThPpBCFENg1k2KjIvR9lVoVJ8bXbzhz/U4Lx09VPjLtBRc7tNurBpR7e/6NMi1YpACjVViHNknjLUWfF6Z4AGitgSFbYwIkwxFiwxxq4kQU9Zt5hH6F0qnasoLAivA4/fSPV+oVl+oU1dgWQgvMsWT+VTogv6+JujrHnD5DQfU5M0AfsJg1T7G4SCF2AfC7PN/Ad2/0TcxBRY+zW+YLQPcYqAYPxbpXe7ewI5X/Hs/JEKXMc96IoFgXHrYQdflphFeBVzHFrBlgqAaoynx++WtM+hKgeFbFJdDYKivIAup9a606bm63+JgbDAHhAtsJeC387aLmtKSWVubSCGA3YrQw=="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 970,
+      "value": [
+        1791718560,
+        83051.59,
+        83051.59,
+        83047,
+        83047,
+        8.0551
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,051.59\nH\n83,051.59\nL\n83,047.00\nC\n83,047.00\n−4.58 (−0.01%)\n83,046.99\nSELL\n0.01\n83,047.00\nBUY\nVol · BTC\n8\nUSDT\nCollection reassignment 2x2\n20.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n11:37:53 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n11:36\nBTCUSDT · 2 · Binance\nOpen\n83,051.59\nHigh\n83,051.59\nLow\n83,047.00\nClose\n83,047.00\nChange\n−4.58 (−0.01%)\nVol\n8.06\nLast day change\n+58.64 (+0.07%)\nVol · BTC\nVolume\n8\nCollection reassignment 2x2\nVALUE\n20.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=5\nindicator(\"Collection reassignment 2x2\")\nscore(map<string,int> xs) => 10\nscore(map<string,float> xs) => 20\nrelay(map<string,float> xs, map<string,int> ys) =>\n    copied = xs\n    copied := ys\n    score(copied)\nplot(relay(map.new<string,float>(),map.new<string,int>()),\"VALUE\")\nLine 1, Col 1\nPine Script® v5",
+  "templatePath": "v60-map-reassign-v5-typed-v1.pine",
+  "templateSha256": "cd1002844ecdaa1f886e9f5d6d40856fab38158e2cabc2d29313d7a535e79b6c",
+  "role": "consumer",
+  "group": "collection-reassignment",
+  "inputs": {},
+  "status": "RUNS"
+}

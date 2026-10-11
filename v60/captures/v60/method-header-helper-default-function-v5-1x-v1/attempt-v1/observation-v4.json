@@ -1,0 +1,197 @@
+{
+  "captureTimestamp": "2026-10-11T11:38:55.748Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"method helper default boundary\")\nseed() => 6.0\nmethod read(float receiver, float value=seed()) => receiver+value\nplot(read(close))",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "external": "file:///5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine?placement%3Ddialog",
+        "path": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "severity": 8,
+      "message": "The default value cannot be a function, variable or calculation.",
+      "startLineNumber": 4,
+      "startColumn": 29,
+      "endLineNumber": 4,
+      "endColumn": 46
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine?placement%3Ddialog",
+        "path": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine?placement%3Ddialog",
+        "path": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "severity": 8,
+      "message": "The default value cannot be a function, variable or calculation.",
+      "startLineNumber": 4,
+      "startColumn": 29,
+      "endLineNumber": 4,
+      "endColumn": 47
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "3nCdXG",
+        "title": "minimal (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "The default value cannot be a function, variable or calculation.",
+            "editorError": {
+              "end": {
+                "column": 46,
+                "line": 4
+              },
+              "message": "The default value cannot be a function, variable or calculation.",
+              "start": {
+                "column": 29,
+                "line": 4
+              },
+              "id": "USER;f70a02fd9a1c443cbe1d86db4d6d01ac"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_gzDcXakEPnyFdE/65psJgg==_QufQsBb/js3ul45YM3KRttDTuHHb05CC+ZhxcwHmB/mvu8/cOZ5MP50Zzewe10Fo+6FCNtBG86aVcj8aw6VyJkW4WVXs3O6uoOHoECGHuatcoZ9HM4FN/kceT+ehhsty8IUqM/qGUVywxoiDJpgk3Fr9VjaKdSay54MURfjb5x4qNPyxICtme0wgwjYf2+GhUl/sft+IuH8R/Khw0Oq071jjXb0vWmN5R0BopE86He47SPgFF3h3jV6i3qR8Diqfk83LF+1uaCVmaHT5T+Q3HSgY3T2LLUMobE3BAm2KcJ3vxeGWBN6t1wuBy1lka/VyAZTrgs0Oc4tmxnlu"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 971,
+      "value": [
+        1791718680,
+        83047,
+        83047,
+        83046.99,
+        83046.99,
+        0.71293
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,047.00\nH\n83,047.00\nL\n83,046.99\nC\n83,046.99\n\u22120.01 (\u22120.00%)\n83,046.99\nSELL\n0.01\n83,047.00\nBUY\nVol \u00b7 BTC\n1\nUSDT\nminimal\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n11:38:54 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n11:38\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,047.00\nHigh\n83,047.00\nLow\n83,046.99\nClose\n83,046.99\nChange\n\u22120.01 (\u22120.00%)\nVol\n0.71\nLast day change\n+58.63 (+0.07%)\nVol \u00b7 BTC\nVolume\n1\nminimal\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nindicator(\"method\u00a0helper\u00a0default\u00a0boundary\")\nseed()\u00a0=>\u00a06.0\nmethod\u00a0read(float\u00a0receiver,\u00a0float\u00a0value=seed())\u00a0=>\u00a0receiver+value\nplot(read(close))\n1 of 3 problems\nThe default value cannot be a function, variable or calculation.\nLine 4, Col 29\nPine Script\u00ae v5",
+  "templatePath": "method-header-helper-default-function-v5-1x-v1.pine",
+  "templateSha256": "647d3baa4bcfd9188d67b8229f284476e625beeeb2f62df298dcd90555239632",
+  "role": "consumer",
+  "group": "default-expression-boundaries",
+  "inputs": {},
+  "status": "COMPILE-ERROR",
+  "executedSha256": "647d3baa4bcfd9188d67b8229f284476e625beeeb2f62df298dcd90555239632",
+  "nativeCompilationObserved": true,
+  "compilationStatus": "REFUSED",
+  "diagnosticCodePolicy": "Preserve exposed native codes. Missing code fields mean not exposed; no code is inferred.",
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "No numeric CSV observation requested for compile-only libraries, or compilation/runtime failure prevented a successful numeric export."
+}

@@ -1,0 +1,8 @@
+//@version=6
+indicator("UnusedUdt")
+type Point
+    float x
+method shift(Point p, Point other, float delta) => other.x + delta
+p = Point.new(11)
+other = Point.new(20)
+plot(p.shift(other, 1), "SHIFT")

@@ -1,0 +1,10 @@
+//@version=5
+indicator("ns-param-naming-box-local-renamed-control-v5-v59-v1")
+setTop(float y) =>
+    array<box> items = array.new<box>()
+    array.push(items, box.new(0, 5.0, 1, 1.0))
+    box.set_top(array.get(items, 0), y)
+    float observed = box.get_top(array.get(items, 0))
+    box.delete(array.get(items, 0))
+    observed
+plot(setTop(29.0), "RESULT")

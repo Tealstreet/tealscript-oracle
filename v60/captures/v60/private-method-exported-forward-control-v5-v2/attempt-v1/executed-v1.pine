@@ -1,0 +1,4 @@
+//@version=5
+indicator("Private import visibility v5")
+import sours-lat/R2Nsaa411cdaddab/1 as lib
+plot(lib.forward(3.5), "RESULT")

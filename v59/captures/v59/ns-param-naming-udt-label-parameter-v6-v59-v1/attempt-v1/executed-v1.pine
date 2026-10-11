@@ -1,0 +1,7 @@
+//@version=6
+indicator("ns-param-naming-udt-label-parameter-v6-v59-v1")
+type NsPayload
+    float value
+readPayload(NsPayload label) =>
+    label.value
+plot(readPayload(NsPayload.new(17.0)), "RESULT")

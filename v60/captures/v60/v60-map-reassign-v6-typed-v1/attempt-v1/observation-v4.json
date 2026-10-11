@@ -1,0 +1,171 @@
+{
+  "captureTimestamp": "2026-10-11T11:38:03.808Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"Collection reassignment 2x2\")\nscore(map<string,int> xs) => 10\nscore(map<string,float> xs) => 20\nrelay(map<string,float> xs, map<string,int> ys) =>\n    copied = xs\n    copied := ys\n    score(copied)\nplot(relay(map.new<string,float>(),map.new<string,int>()),\"VALUE\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "external": "file:///5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine?placement%3Ddialog",
+        "path": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "code": "CE10173",
+      "severity": 8,
+      "message": "Cannot assign a value of the \"map<string, int>\" type to the \"copied\" variable. The variable is declared with the \"map<string, float>\" type.",
+      "startLineNumber": 7,
+      "startColumn": 5,
+      "endLineNumber": 7,
+      "endColumn": 10
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "taPy4H",
+        "title": "minimal (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "Cannot assign a value of the \"{assignedValueType}\" type to the \"{variableName}\" variable. The variable is declared with the \"{ownValueType}\" type.",
+            "editorError": {
+              "code": "CE10173",
+              "ctx": {
+                "assignedValueType": "map<string, int>",
+                "ownValueType": "map<string, float>",
+                "variableName": "copied"
+              },
+              "end": {
+                "column": 10,
+                "line": 7
+              },
+              "message": "Cannot assign a value of the \"{assignedValueType}\" type to the \"{variableName}\" variable. The variable is declared with the \"{ownValueType}\" type.",
+              "start": {
+                "column": 5,
+                "line": 7
+              },
+              "id": "USER;f70a02fd9a1c443cbe1d86db4d6d01ac"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_KG+WU4KWcuzHdWI2lmJI3Q==_yoTBQIVajy/Aj5aNasjk5E8OWwFXUUJ3w4DDzLWyvZNow0kVXFGTJKb5q6WiBExE95R5ORntoqYJwOTsy2LIxdjYA4HBAep/mjON58iWwUzv7qWVtREsStIv5btYelLwUJomqolsBZyyt6cM+MIC+LrPViIjQRDnQlY5cy1o6ZzplrNwg83k527sMetncUOeqgHu8RKOcwlFw57OC9Uzw6rP+lLs2QPtnNklan9d6HzHDqAb7Qzi4VvPLpK83MfC+wN6WjZI5QnQBIf5i+Pcs9OYomAVbVK44PuD4uAa9JmMA1y7ZnTGW2AN2itnNfCbvT7vLh00b3KiZQb016zMemhVL1Wt2oxlMwc="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 971,
+      "value": [
+        1791718680,
+        83047,
+        83047,
+        83046.99,
+        83047,
+        0.01056
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,047.00\nH\n83,047.00\nL\n83,046.99\nC\n83,047.00\n0.00 (0.00%)\n83,046.99\nSELL\n0.01\n83,047.00\nBUY\nVol \u00b7 BTC\n0\nUSDT\nminimal\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n11:38:02 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n11:38\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,047.00\nHigh\n83,047.00\nLow\n83,046.99\nClose\n83,047.00\nChange\n0.00 (0.00%)\nVol\n0.01\nLast day change\n+58.64 (+0.07%)\nVol \u00b7 BTC\nVolume\n0\nminimal\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=6\nindicator(\"Collection\u00a0reassignment\u00a02x2\")\nscore(map<string,int>\u00a0xs)\u00a0=>\u00a010\nscore(map<string,float>\u00a0xs)\u00a0=>\u00a020\nrelay(map<string,float>\u00a0xs,\u00a0map<string,int>\u00a0ys)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0copied\u00a0=\u00a0xs\n\u00a0\u00a0\u00a0\u00a0copied\u00a0:=\u00a0ys\n\u00a0\u00a0\u00a0\u00a0score(copied)\nplot(relay(map.new<string,float>(),map.new<string,int>()),\"VALUE\")\n1 of 1 problem\nCannot assign a value of the \"map<string, int>\" type to the \"copied\" variable. The variable is declared with the \"map<string, float>\" type.(CE10173)\nLine 7, Col 5\nPine Script\u00ae v6",
+  "templatePath": "v60-map-reassign-v6-typed-v1.pine",
+  "templateSha256": "9a0052aea3bc1982e6cba6c522661f311ce702fe1aa0fe502f1e3b2a6ebf2ecf",
+  "role": "consumer",
+  "group": "collection-reassignment",
+  "inputs": {},
+  "status": "COMPILE-ERROR",
+  "executedSha256": "9a0052aea3bc1982e6cba6c522661f311ce702fe1aa0fe502f1e3b2a6ebf2ecf",
+  "nativeCompilationObserved": true,
+  "compilationStatus": "REFUSED",
+  "diagnosticCodePolicy": "Preserve exposed native codes. Missing code fields mean not exposed; no code is inferred.",
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "No numeric CSV observation requested for compile-only libraries, or compilation/runtime failure prevented a successful numeric export."
+}

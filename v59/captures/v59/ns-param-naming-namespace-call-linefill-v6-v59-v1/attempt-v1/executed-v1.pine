@@ -1,0 +1,10 @@
+//@version=6
+indicator("W0 paired")
+type Holder
+    int value
+method w0Value(Holder self, int amount) =>
+    self.value + amount
+f(Holder linefill) =>
+    unused = linefill.new(line.new(0,1,1,2),line.new(0,2,1,3),color.red)
+    linefill.w0Value(13) * 2 + 1
+plot(f(Holder.new(7)))

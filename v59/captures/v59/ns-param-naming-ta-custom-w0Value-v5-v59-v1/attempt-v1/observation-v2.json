@@ -1,0 +1,163 @@
+{
+  "captureTimestamp": "2026-10-11T11:37:08.948Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"TA receiver\")\ntype Holder\n    int value\nmethod w0Value(Holder self, int n) =>\n    self.value + n\nf(Holder ta) =>\n    ta.w0Value(13) * 2 + 1\nplot(f(Holder.new(7)))",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine?placement%3Ddialog",
+        "path": "/5059e2a3-d37c-4b2a-9fd3-8d5535d0bf5b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "wyYjMk",
+        "title": "TA receiver (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"type\":1,\"user_methods\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_IUMZQNO2yFzYBcICpst7oQ==_xfcHv/V/02RtxWZ0cj0SubwHODXzttLZxlfTEITj4vlt75rtv1jeO/qOyAEwWt5r/2Z6bv9pgLhZd7Mg7PiIhGufG2UR5SnhgZSHxefGyoDOkBXMlCGY+uPgU4j/43v+lhh+aDO89BwhfXNmxJCYWVn2uZkeitxutN2NjXfuRt1mbMuUl93rZpavjw1OibcXPhf8nOYIBUzDJ10Tdd240L2SxROjbVJb9V7EmUx7JqZ+xrQmlU7Xto8edMvRBZyMAkyRK8xRtE8AJLksTmzgDPyIvlpAQs4B3raNhkSyDFYX8x2NqsDtO/R1S1dqX9Gv1ysHB3i5TngZo6Q9LmtzjFUbtb6jQaFqa9dm8GpWJz1Otk9iE8iUproaz1r7BtlhdyU85l+XebCggy67JEm7SP4NeRuJ55cT3mFK0hmWx2ojrMpLL4cFnEILASkIoTgAFMHTwLi9zQJ5XZwqtyfT40KeCWVbf6rylIR3GnisnG3P2SI4AwUydKzzKF81wsI2abcvrtz1WvLB4gH+Gkl/PDqxXIGOMD9VGNWG9Ub8EXLNZQQ6i3Rt/YsiacP/g5d57+PyT5L4EQzDW1zmjieyJDA1gd8221xBIl6B0iatBSj9HHfA2k/gbIh1+P7wt8MUu7Xd"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 970,
+      "value": [
+        1791718560,
+        83051.59,
+        83051.59,
+        83050.66,
+        83050.66,
+        6.67876
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,051.59\nH\n83,051.59\nL\n83,050.66\nC\n83,050.66\n\u22120.92 (\u22120.00%)\n83,050.66\nSELL\n0.01\n83,050.67\nBUY\nVol \u00b7 BTC\n7\nUSDT\nTA receiver\n41.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n11:37:08 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n11:36\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,051.59\nHigh\n83,051.59\nLow\n83,050.66\nClose\n83,050.66\nChange\n\u22120.92 (\u22120.00%)\nVol\n6.68\nLast day change\n+62.30 (+0.08%)\nVol \u00b7 BTC\nVolume\n7\nTA receiver\nPlot\n41.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n//@version=5\nindicator(\"TA\u00a0receiver\")\ntype\u00a0Holder\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0w0Value(Holder\u00a0self,\u00a0int\u00a0n)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0self.value\u00a0+\u00a0n\nf(Holder\u00a0ta)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0ta.w0Value(13)\u00a0*\u00a02\u00a0+\u00a01\nplot(f(Holder.new(7)))\nLine 1, Col 1\nPine Script\u00ae v5",
+  "templatePath": "ns-param-naming-ta-custom-w0Value-v5-v59-v1.pine",
+  "templateSha256": "c834fca27baac01d47ac78c7229b87500b78b9ea2e8115b404dc3ba063c22a5c",
+  "role": "natural",
+  "group": "ns-param-naming-namespace-calls",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "c834fca27baac01d47ac78c7229b87500b78b9ea2e8115b404dc3ba063c22a5c",
+  "closedBarCutoff": "1791718440",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T11:37:10.945Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "Plot"
+    ],
+    "rowCount": 971,
+    "closedRowCount": 970,
+    "openRowTimestamps": [
+      "1791718560"
+    ],
+    "sourceIsolated": true
+  }
+}

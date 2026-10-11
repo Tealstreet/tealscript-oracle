@@ -1,0 +1,10 @@
+------WebKitFormBoundaryKZl6DFP0EOR5A9wr
+Content-Disposition: form-data; name="source"
+
+//@version=5
+library("UnusedUdt")
+export type Point
+    float x
+method shift(Point p, Point other, float delta) => other.x + delta
+
+------WebKitFormBoundaryKZl6DFP0EOR5A9wr--

@@ -1,0 +1,7 @@
+//@version=6
+indicator("ns-param-naming-array-local-renamed-control-v6-v59-v1")
+appendValue(float x) =>
+    array<float> items = array.new<float>()
+    array.push(items, x)
+    array.get(items, 0)
+plot(appendValue(23.0), "RESULT")

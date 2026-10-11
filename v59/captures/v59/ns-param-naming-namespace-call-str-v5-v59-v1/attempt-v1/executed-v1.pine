@@ -1,0 +1,10 @@
+//@version=5
+indicator("W0 paired")
+type Holder
+    int value
+method w0Value(Holder self, int amount) =>
+    self.value + amount
+f(Holder str) =>
+    unused = str.length("abc")
+    str.w0Value(13) * 2 + 1
+plot(f(Holder.new(7)))

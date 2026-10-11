@@ -1,0 +1,145 @@
+{
+  "captureTimestamp": "2026-10-11T11:33:14.751Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"ns-param-naming-udt-box-parameter-v6-v59-v1\")\ntype NsPayload\n    float value\nreadPayload(NsPayload box) =>\n    box.value\nplot(readPayload(NsPayload.new(17.0)), \"RESULT\")\n",
+  "markers": [],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "5H4wbH",
+        "title": "ns-param-naming-udt-box-parameter-v6-v59-v1 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"type\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_stxSAzk5pSINEnBQa0LRXg==_d3b+MdGqhVeBcMDDRvRuXexOOGmMO+1WzoPFYZQdQdwE7Z7x77Ikiojw8D2kDXr9VoXqL05tqjIBp8z15IqXOxED07pt2ObgKgJyO09FZUam6wfdmsukH7KfgbM9+CY1/G5eIDWFCEnMiAtgslc0LW1mxE0F6TybRlYb5zC1JkhZ3FOAbxY9fhap0iYZGap5/9JMus70xWCPs69m9smocJ09nMTSMyMTJaX+hpDX5shrJkQZnrbeiaDOzWjeh1qSkH3NLmqtk0rEMnmBHrikQKdwVr6a5KE61JtvgqXrVNa147RURQ+74sXrNit5HPQZ44TDzuPPIxaMf+dgfSBmez+3nqvdOCs9bRAuGxJkbI+jRwaCC88QlJFyRd3RqzGCnBHgykf93a9DdIOWSMT/WpDQzRNvIGyZm4n4dL5HggPBiWzIdzDB3q09MR4S4rqi4DHcC6W3LAiVq6ea4VfmLJYRJhA93Nudg4LW25CLz26PFrORpJmpWqbqIal/QqqjVxm0l3BAmYoEEeli4zykdgFzYy6A1uWWf0eyUfc+ABysgGcGt06ZY6+Y1vWLJLwmLcZBaUMLegKho3QQ/y+TvH6S"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 968,
+      "value": [
+        1791718320,
+        83064,
+        83064.01,
+        83053.7,
+        83053.71,
+        10.06401
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,064.00\nH\n83,064.01\nL\n83,053.70\nC\n83,053.71\n\u221210.29 (\u22120.01%)\n83,053.70\nSELL\n0.01\n83,053.71\nBUY\nVol \u00b7 BTC\n10\nUSDT\nns-param-naming-udt-box-parameter-v6-v59-v1\n17.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n11:33:13 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n11:32\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,064.00\nHigh\n83,064.01\nLow\n83,053.70\nClose\n83,053.71\nChange\n\u221210.29 (\u22120.01%)\nVol\n10.06\nLast day change\n+65.35 (+0.08%)\nVol \u00b7 BTC\nVolume\n10\nns-param-naming-udt-box-parameter-v6-v59-v1\nRESULT\n17.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=6\nindicator(\"ns-param-naming-udt-box-parameter-v6-v59-v1\")\ntype\u00a0NsPayload\n\u00a0\u00a0\u00a0\u00a0float\u00a0value\nreadPayload(NsPayload\u00a0box)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0box.value\nplot(readPayload(NsPayload.new(17.0)),\u00a0\"RESULT\")\nLine 1, Col 1\nPine Script\u00ae v6",
+  "templatePath": "ns-param-naming-udt-box-parameter-v6-v59-v1.pine",
+  "templateSha256": "25c2e2f7610122529fc6dd1e50cfb55690162f789bd45c7daf55719c819271e4",
+  "role": "natural",
+  "group": "ns-param-naming",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "25c2e2f7610122529fc6dd1e50cfb55690162f789bd45c7daf55719c819271e4",
+  "closedBarCutoff": "1791718200",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T11:33:16.761Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "RESULT"
+    ],
+    "rowCount": 969,
+    "closedRowCount": 968,
+    "openRowTimestamps": [
+      "1791718320"
+    ],
+    "sourceIsolated": true
+  }
+}

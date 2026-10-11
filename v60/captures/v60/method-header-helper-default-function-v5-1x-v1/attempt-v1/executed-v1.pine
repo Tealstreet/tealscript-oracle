@@ -1,0 +1,5 @@
+//@version=5
+indicator("method helper default boundary")
+seed() => 6.0
+method read(float receiver, float value=seed()) => receiver+value
+plot(read(close))
