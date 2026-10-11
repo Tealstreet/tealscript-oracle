@@ -1,0 +1,4 @@
+//@version=5
+indicator("v77 footprint request-call")
+fp = request.security(syminfo.tickerid, timeframe.period, close)
+plot(na(fp) ? 0 : 1)

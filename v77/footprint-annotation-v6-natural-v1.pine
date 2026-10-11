@@ -1,0 +1,4 @@
+//@version=6
+indicator("v77 footprint annotation")
+footprint footprint = na
+plot(na(footprint) ? 7 : 8)

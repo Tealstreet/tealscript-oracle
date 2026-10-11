@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v77",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "engineBase": "9dc666803fcc420f7651cd9c8d78fde76b91b217",
+  "baseOracleCommit": "0ae72c6106516dc262e05273efeb8b246ec4c6b0",
+  "inventory": {
+    "groups": 4,
+    "scripts": 24,
+    "naturals": 8,
+    "renamedControls": 8,
+    "grammarControls": 8,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "footprint-annotation-v5-natural-v1",
+      "path": "footprint-annotation-v5-natural-v1.pine",
+      "sourceSha256": "6e49b12c3e448dd347d5924542c6a80e60d3d1d609f156629452a90820d49e24",
+      "owner": "codex-vmp8l6",
+      "group": "annotation",
+      "pineVersion": 5,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-annotation-v5-natural-v1-instructions-v1.md",
+      "instructionsSha256": "6993b511137e462d181a9ec37f678a48f013153c5148723d0ca33abc939731f1",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "plain explicitly typed variable declaration; no function or request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-annotation-v5-renamed-control-v1",
+      "path": "footprint-annotation-v5-renamed-control-v1.pine",
+      "sourceSha256": "b9f25e0aad6980d4e8d22d033e51d021fdc5bd3aeb1b83e5ee5663db5c224ffd",
+      "owner": "codex-vmp8l6",
+      "group": "annotation",
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-annotation-v5-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "8247bafd67fda1b056bc6f5f974047b9360d4a386feef2f6eb239c3cb06159b5",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "plain explicitly typed variable declaration; no function or request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-annotation-v5-grammar-control-v1",
+      "path": "footprint-annotation-v5-grammar-control-v1.pine",
+      "sourceSha256": "93aa295434eb4b3c02c71fb79e939f2529ba15539402bf623ed47a949a664961",
+      "owner": "codex-vmp8l6",
+      "group": "annotation",
+      "pineVersion": 5,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-annotation-v5-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "a8d9b1d792da2166eb28f3c34ebbd2d3fe559eabacba33fb28b44b778ea062ef",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "plain explicitly typed variable declaration; no function or request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-annotation-v6-natural-v1",
+      "path": "footprint-annotation-v6-natural-v1.pine",
+      "sourceSha256": "68aaf4dda37654d8c7dec6107fd634e40124318e79a586c468893f2334d4cc79",
+      "owner": "codex-vmp8l6",
+      "group": "annotation",
+      "pineVersion": 6,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-annotation-v6-natural-v1-instructions-v1.md",
+      "instructionsSha256": "13cd0a0fe4e74905066f28e4cd4cbf67f5d6d2306cfbeb336ebea278bb7c88af",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "plain explicitly typed variable declaration; no function or request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-annotation-v6-renamed-control-v1",
+      "path": "footprint-annotation-v6-renamed-control-v1.pine",
+      "sourceSha256": "8143f3fda90b19a77eafe173f80da1cbd1aab47c6590f0b25e350f65f4d5f14a",
+      "owner": "codex-vmp8l6",
+      "group": "annotation",
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-annotation-v6-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "ca58d74e6f388098034ab057030087aeeadbbb3c7cd9d61c97a9cc5f64b71b3d",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "plain explicitly typed variable declaration; no function or request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-annotation-v6-grammar-control-v1",
+      "path": "footprint-annotation-v6-grammar-control-v1.pine",
+      "sourceSha256": "14a3f48aea6e7efa3ae1905340d268531bfd0f26d7c1f2bce0dce974df74e784",
+      "owner": "codex-vmp8l6",
+      "group": "annotation",
+      "pineVersion": 6,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-annotation-v6-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "1b5f03b5d527353e965ef1be7412e1bdc453a27d4f2b3a5995c966d64ae02302",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "plain explicitly typed variable declaration; no function or request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-parameter-v5-natural-v1",
+      "path": "footprint-parameter-v5-natural-v1.pine",
+      "sourceSha256": "954bdb8f48af80036fb293c3bede23801a9559eab1432007c0a6f4b0d5821d4e",
+      "owner": "codex-vmp8l6",
+      "group": "parameter",
+      "pineVersion": 5,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-parameter-v5-natural-v1-instructions-v1.md",
+      "instructionsSha256": "d6ae1d842af10432ffc623b86c413ec161a1d19a04a037b9596afd41b30408a3",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "ordinary function parameter with a live use; not a method and not an unused receiver",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-parameter-v5-renamed-control-v1",
+      "path": "footprint-parameter-v5-renamed-control-v1.pine",
+      "sourceSha256": "066da0ccb23b8296afca49d7c89c8f67adea571c8852a2436588cef474baa009",
+      "owner": "codex-vmp8l6",
+      "group": "parameter",
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-parameter-v5-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "819cd142cec7f59b048a0b86dfdb5fecf65b202e87a40d5318a3241bfa9bc94c",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "ordinary function parameter with a live use; not a method and not an unused receiver",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-parameter-v5-grammar-control-v1",
+      "path": "footprint-parameter-v5-grammar-control-v1.pine",
+      "sourceSha256": "860caea1f40b31d7f7dbb650c4b8fb902e8241ef1ef001a3cc445ccc67a6d2d0",
+      "owner": "codex-vmp8l6",
+      "group": "parameter",
+      "pineVersion": 5,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-parameter-v5-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "41632760f3ebb18c3ca5918f40f939ef6d3323bb5c14e5b2dace68650e4dee3e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "ordinary function parameter with a live use; not a method and not an unused receiver",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-parameter-v6-natural-v1",
+      "path": "footprint-parameter-v6-natural-v1.pine",
+      "sourceSha256": "e70610b6262c44b74713e68948da2b066949f35c059a1fe39f372b1ceabd616d",
+      "owner": "codex-vmp8l6",
+      "group": "parameter",
+      "pineVersion": 6,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-parameter-v6-natural-v1-instructions-v1.md",
+      "instructionsSha256": "937131fa45abc41379426485f59bf6293ea410297ea8d19a565f3ba318996d80",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "ordinary function parameter with a live use; not a method and not an unused receiver",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-parameter-v6-renamed-control-v1",
+      "path": "footprint-parameter-v6-renamed-control-v1.pine",
+      "sourceSha256": "373c346f7cc1234d1c7c4dc0d9de9cc5760e5403abbab3b6f9551cd746e5ca4c",
+      "owner": "codex-vmp8l6",
+      "group": "parameter",
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-parameter-v6-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "2f1240ab573f2cbf8d1e18aaeefeca36d4d46bbe8711d6299a3f6320a51531de",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "ordinary function parameter with a live use; not a method and not an unused receiver",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-parameter-v6-grammar-control-v1",
+      "path": "footprint-parameter-v6-grammar-control-v1.pine",
+      "sourceSha256": "dc2abb3c6a62a08217d70624f17866fe3cbe9907bf36863ac6589b19563059f5",
+      "owner": "codex-vmp8l6",
+      "group": "parameter",
+      "pineVersion": 6,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-parameter-v6-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "5c48249b9ceff34cd84f9b00551f7cab558385c0d0fd31d3baa0155d37ed0642",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "ordinary function parameter with a live use; not a method and not an unused receiver",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-var-v5-natural-v1",
+      "path": "footprint-var-v5-natural-v1.pine",
+      "sourceSha256": "ffaa41fd3941899f00e667bdf82d82e7693083615c6a8ab8b84120aed1a2506c",
+      "owner": "codex-vmp8l6",
+      "group": "var",
+      "pineVersion": 5,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-var-v5-natural-v1-instructions-v1.md",
+      "instructionsSha256": "411d8d883627825fc04fd6a16e82e3d7b31c638f7894c2001699d96c47b801ec",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "persistent explicitly typed var declaration; no request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-var-v5-renamed-control-v1",
+      "path": "footprint-var-v5-renamed-control-v1.pine",
+      "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+      "owner": "codex-vmp8l6",
+      "group": "var",
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-var-v5-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "7c233bbabc8a21f14c2ec3d3b1f3a029c94249e1fa09b4ecfab0e9fa94957ec9",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "persistent explicitly typed var declaration; no request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-var-v5-grammar-control-v1",
+      "path": "footprint-var-v5-grammar-control-v1.pine",
+      "sourceSha256": "afdea5f4914ff10617fa13a81df582034b8d19e3e3f8dd3f302d8ea592112407",
+      "owner": "codex-vmp8l6",
+      "group": "var",
+      "pineVersion": 5,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-var-v5-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "23fede83968758c1407d8f411a745e4859207f4dccd02e227fdf94d6d7b557f4",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "persistent explicitly typed var declaration; no request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-var-v6-natural-v1",
+      "path": "footprint-var-v6-natural-v1.pine",
+      "sourceSha256": "23b4759ff7a12e2175bd966503c8e0f6c06a0f53fbc38b24ec0ef921a2bc6f30",
+      "owner": "codex-vmp8l6",
+      "group": "var",
+      "pineVersion": 6,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-var-v6-natural-v1-instructions-v1.md",
+      "instructionsSha256": "7d191612309ccdcfbc0b4b35cbd1213eeffc88561c7fe29fcd9e90c46829e978",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "persistent explicitly typed var declaration; no request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-var-v6-renamed-control-v1",
+      "path": "footprint-var-v6-renamed-control-v1.pine",
+      "sourceSha256": "e1c43dc46847a849bc824478ae2f3c7d453cfccdc9837a54731f9718b37a5c2d",
+      "owner": "codex-vmp8l6",
+      "group": "var",
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-var-v6-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "101ce6bb59879546598a55c66ce043827434162c3af947b6bd94f534a402ece8",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "persistent explicitly typed var declaration; no request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-var-v6-grammar-control-v1",
+      "path": "footprint-var-v6-grammar-control-v1.pine",
+      "sourceSha256": "97b73deddc196e32f1c6ea3cb918343fff5a3944d547c67c95da3cf4309e0049",
+      "owner": "codex-vmp8l6",
+      "group": "var",
+      "pineVersion": 6,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-var-v6-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "38033b5616a07ad8a247518301fe8f18c798a2f018d451e03355fcf64d2517e8",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "persistent explicitly typed var declaration; no request call",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-request-call-v5-natural-v1",
+      "path": "footprint-request-call-v5-natural-v1.pine",
+      "sourceSha256": "fa5aa19e2643f18a8966c75254bc23d481eb9b5d44c040165cee833607381930",
+      "owner": "codex-vmp8l6",
+      "group": "request-call",
+      "pineVersion": 5,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-request-call-v5-natural-v1-instructions-v1.md",
+      "instructionsSha256": "983d3bf17b2cf34d9d9b9132e369b9575a5bacdd4977d3d22b0aa058edcadcb3",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "inferred request result; no explicit footprint type annotation",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-request-call-v5-renamed-control-v1",
+      "path": "footprint-request-call-v5-renamed-control-v1.pine",
+      "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+      "owner": "codex-vmp8l6",
+      "group": "request-call",
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-request-call-v5-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "f797c544dde70070bbd175117b2ebaa8cfde92cc2c6af7d1b45ab8a680f861a5",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "inferred request result; no explicit footprint type annotation",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-request-call-v5-grammar-control-v1",
+      "path": "footprint-request-call-v5-grammar-control-v1.pine",
+      "sourceSha256": "a94a90dc4102150d48b403d4286b15b0a648c0616253feb01f438eea6e804c93",
+      "owner": "codex-vmp8l6",
+      "group": "request-call",
+      "pineVersion": 5,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-request-call-v5-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "a6b2b7c1bc69e95a0f79f3f00d5dbbb2ab4cc0c5d25fc1bfd18d4a4673e4ce0f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "inferred request result; no explicit footprint type annotation",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-request-call-v6-natural-v1",
+      "path": "footprint-request-call-v6-natural-v1.pine",
+      "sourceSha256": "1b2bb71020884d383ddc40b0f3cf252a071c649339e2e607184605e6b7d2355a",
+      "owner": "codex-vmp8l6",
+      "group": "request-call",
+      "pineVersion": 6,
+      "role": "natural",
+      "instructionsPath": "instructions/footprint-request-call-v6-natural-v1-instructions-v1.md",
+      "instructionsSha256": "fd34e45fb01db91faa1937a9d9acbbb01f4c296df547c5e5a13f31027176f771",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "inferred request result; no explicit footprint type annotation",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-request-call-v6-renamed-control-v1",
+      "path": "footprint-request-call-v6-renamed-control-v1.pine",
+      "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+      "owner": "codex-vmp8l6",
+      "group": "request-call",
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "instructionsPath": "instructions/footprint-request-call-v6-renamed-control-v1-instructions-v1.md",
+      "instructionsSha256": "6c8e8e08c91c7c4a13dc37d4034e2acf77b111a2c638f29b013db2bea7c253ce",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "inferred request result; no explicit footprint type annotation",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "footprint-request-call-v6-grammar-control-v1",
+      "path": "footprint-request-call-v6-grammar-control-v1.pine",
+      "sourceSha256": "a6b0f6ffa0573a1ecbca05040663e082a7470ffa12ad4c1c3ca29211f72ac009",
+      "owner": "codex-vmp8l6",
+      "group": "request-call",
+      "pineVersion": 6,
+      "role": "grammar-control",
+      "instructionsPath": "instructions/footprint-request-call-v6-grammar-control-v1-instructions-v1.md",
+      "instructionsSha256": "14facdc09204a72a3ef8069f324b2a56ba1a99e025e58c7fa88635c515ee7139",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "question": "inferred request result; no explicit footprint type annotation",
+      "localPreflight": "NOT-RUN: probe-only task, no engine build or test",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "context": "annotation",
+      "version": 5,
+      "natural": "footprint-annotation-v5-natural-v1",
+      "renamedControl": "footprint-annotation-v5-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    },
+    {
+      "context": "annotation",
+      "version": 6,
+      "natural": "footprint-annotation-v6-natural-v1",
+      "renamedControl": "footprint-annotation-v6-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    },
+    {
+      "context": "parameter",
+      "version": 5,
+      "natural": "footprint-parameter-v5-natural-v1",
+      "renamedControl": "footprint-parameter-v5-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    },
+    {
+      "context": "parameter",
+      "version": 6,
+      "natural": "footprint-parameter-v6-natural-v1",
+      "renamedControl": "footprint-parameter-v6-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    },
+    {
+      "context": "var",
+      "version": 5,
+      "natural": "footprint-var-v5-natural-v1",
+      "renamedControl": "footprint-var-v5-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    },
+    {
+      "context": "var",
+      "version": 6,
+      "natural": "footprint-var-v6-natural-v1",
+      "renamedControl": "footprint-var-v6-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    },
+    {
+      "context": "request-call",
+      "version": 5,
+      "natural": "footprint-request-call-v5-natural-v1",
+      "renamedControl": "footprint-request-call-v5-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    },
+    {
+      "context": "request-call",
+      "version": 6,
+      "natural": "footprint-request-call-v6-natural-v1",
+      "renamedControl": "footprint-request-call-v6-renamed-control-v1",
+      "onlyBindingSpellingChanged": true
+    }
+  ],
+  "governingHandoff": "HANDOFF-v77-v1.md",
+  "groups": [
+    {
+      "id": "annotation",
+      "scripts": 6
+    },
+    {
+      "id": "parameter",
+      "scripts": 6
+    },
+    {
+      "id": "request-call",
+      "scripts": 6
+    },
+    {
+      "id": "var",
+      "scripts": 6
+    }
+  ],
+  "sourceRoundProvenance": {
+    "stagingDirectory": "v77-footprint-version-probes-vmp8l6-v1",
+    "sourceNamesAndBytesUnchanged": true,
+    "producerEntry": "instructions/ENTRY-v1.json",
+    "producerHandoff": "instructions/INSTRUCTIONS-v1.md"
+  },
+  "receiptVersionExclusions": [
+    "Grammar controls cannot prove footprint admission.",
+    "The historical v71 method-parameter refusal does not settle the four new contexts.",
+    "Request Plot 0/1 reports presence only, not numeric footprint correctness.",
+    "Compiler acceptance, runtime entitlement/provider errors and CSV availability are separate observations.",
+    "Keep masked facets CONTEXT-UNMET; no realtime/library/publication claim.",
+    "Original producer absolute paths are provenance; published manifest paths resolve from this round directory."
+  ]
+}

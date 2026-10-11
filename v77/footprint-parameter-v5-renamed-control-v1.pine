@@ -1,0 +1,4 @@
+//@version=5
+indicator("v77 footprint parameter")
+inspect(footprint fp) => na(fp) ? 7 : 8
+plot(inspect(na))
