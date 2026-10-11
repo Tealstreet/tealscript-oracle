@@ -1,0 +1,59 @@
+{
+  "version": "v1",
+  "status": "PROBE-READY",
+  "root": "private-function-namespace-visibility",
+  "entries": [
+    {
+      "path": "private-function-library-v5-g6-v1.pine",
+      "kind": "library-prerequisite",
+      "sha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787"
+    },
+    {
+      "path": "private-function-namespace-private-v5-g6-v1.pine",
+      "kind": "consumer",
+      "version": 5,
+      "role": "private",
+      "sha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+      "instructions": "private-function-namespace-private-v5-g6-v1-instructions-v1.md",
+      "instructionsSha256": "757a428980e42ce8bdf702f7022559aac687ff15925d52d6f0557ca27b6eb81d",
+      "nativeExpected": "UNSPECIFIED"
+    },
+    {
+      "path": "private-function-namespace-exported-control-v5-g6-v1.pine",
+      "kind": "consumer",
+      "version": 5,
+      "role": "exported-control",
+      "sha256": "dad9baf08226f738f8ef548a370e2c7305ed6edd197d7edcf55069e2e53cd702",
+      "instructions": "private-function-namespace-exported-control-v5-g6-v1-instructions-v1.md",
+      "instructionsSha256": "0e8f3f7dd06209cb4c728c40d66ce1b9891e1bcccfb803794eb6e9c3b62abe30",
+      "nativeExpected": "UNSPECIFIED"
+    },
+    {
+      "path": "private-function-library-v6-g6-v1.pine",
+      "kind": "library-prerequisite",
+      "sha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845"
+    },
+    {
+      "path": "private-function-namespace-private-v6-g6-v1.pine",
+      "kind": "consumer",
+      "version": 6,
+      "role": "private",
+      "sha256": "e0ade29b5d8840dcfd2ed598bac7e315d7f8f7659b8f112a53a3616b05d241d1",
+      "instructions": "private-function-namespace-private-v6-g6-v1-instructions-v1.md",
+      "instructionsSha256": "d5bedc64764222d8dd3b414e8afed71eba06cd5326ab1de8132e85a440951587",
+      "nativeExpected": "UNSPECIFIED"
+    },
+    {
+      "path": "private-function-namespace-exported-control-v6-g6-v1.pine",
+      "kind": "consumer",
+      "version": 6,
+      "role": "exported-control",
+      "sha256": "1a90a9d4b0888c978da13400b71b4ec231425a0b9abbd7fd01bf72a5196d1805",
+      "instructions": "private-function-namespace-exported-control-v6-g6-v1-instructions-v1.md",
+      "instructionsSha256": "3d90d60aa21fdd8a42c20612c140304d97582b6e3aa4af876d6f3becc8d95716",
+      "nativeExpected": "UNSPECIFIED"
+    }
+  ],
+  "localPreflight": "NOT-RUN",
+  "nativeCredit": false
+}

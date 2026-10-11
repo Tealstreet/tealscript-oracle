@@ -1,0 +1,4 @@
+//@version=6
+indicator("Private function namespace v6")
+import sours-lat/PrivateFunctionQA6/1 as lib
+plot(lib.forward(3.5), "RESULT")
