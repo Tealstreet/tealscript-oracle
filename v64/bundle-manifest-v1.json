@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v64",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "f24711d8784fe66b71090c2b4a490c1f219cf6e0",
+  "inventory": {
+    "groups": 1,
+    "scripts": 8,
+    "pairs": 4,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "pineAssetCount": 8,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "persistent-collection-reassignment",
+      "scripts": 8,
+      "scope": "Pine v6 var/varip array/map alias reassignment, natural/control"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "v61-array-reassign-var-control-v2",
+      "path": "v61-array-reassign-var-control-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "array-var",
+      "pairRole": "control",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "ff569667c29bc60e8a82d075a97e1fa3a3a8ad054d5246f9ce00c02335d7e20a",
+      "instructionsPath": "instructions/v61-array-reassign-var-control-v2-instructions-v2.md",
+      "instructionsSha256": "8442198ff48d896bdd7dcb03b4dc9eee713edd9433bf2f484a582a134e900946",
+      "questions": [
+        "In Pine v6, does the matching same-kind var array alias reassignment refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-array-reassign-var-natural-v2",
+      "path": "v61-array-reassign-var-natural-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "array-var",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "0d170ef2f4bf5a86c341c20e16734c14c50d071db821108610a94ddcc4255f66",
+      "instructionsPath": "instructions/v61-array-reassign-var-natural-v2-instructions-v2.md",
+      "instructionsSha256": "c46d85428e0ee310667915b0a9b70a5c81416d81011f164b3fde111109d75dd1",
+      "questions": [
+        "In Pine v6, does var array alias reassignment from float elements to int elements refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-array-reassign-varip-control-v2",
+      "path": "v61-array-reassign-varip-control-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "array-varip",
+      "pairRole": "control",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "28a829165bbc947ea0a1cb4ceeee264452f383b6ce34323d3b003a1a5e913dc4",
+      "instructionsPath": "instructions/v61-array-reassign-varip-control-v2-instructions-v2.md",
+      "instructionsSha256": "6c9bbbc4092a8fc034df376455338a45ba3bc81c50fcaec3a76d4191eaf1e338",
+      "questions": [
+        "In Pine v6, does the matching same-kind varip array alias reassignment refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-array-reassign-varip-natural-v2",
+      "path": "v61-array-reassign-varip-natural-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "array-varip",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "1e93de566b05d572e09b163868ff9418babeea701a0180a28fb3f579313ffeb9",
+      "instructionsPath": "instructions/v61-array-reassign-varip-natural-v2-instructions-v2.md",
+      "instructionsSha256": "9ec32256b0dc2989711a0ab897d787b16f7d5696a80181a6ff9bb4da7ee79e54",
+      "questions": [
+        "In Pine v6, does varip array alias reassignment from float elements to int elements refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-map-reassign-var-control-v2",
+      "path": "v61-map-reassign-var-control-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "map-var",
+      "pairRole": "control",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "bbc96296cf85ed7def58473b1c0a9e3bf1d27a2c5724d86fa5747455ac18453c",
+      "instructionsPath": "instructions/v61-map-reassign-var-control-v2-instructions-v2.md",
+      "instructionsSha256": "acaca4ff37dd3afd304b047ed8c5f6c330ea2309aeb302db09d78a96e63e290d",
+      "questions": [
+        "In Pine v6, does the matching same-kind var map alias reassignment refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-map-reassign-var-natural-v2",
+      "path": "v61-map-reassign-var-natural-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "map-var",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "194f9353775a139206c8be36d361199333c73c6494a798c9b26e20c97622d9d6",
+      "instructionsPath": "instructions/v61-map-reassign-var-natural-v2-instructions-v2.md",
+      "instructionsSha256": "46e9f6bafd93ed363436bfe0d366673efe77a70674477d694ddaa1dc4d960768",
+      "questions": [
+        "In Pine v6, does var map alias reassignment from float elements to int elements refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-map-reassign-varip-control-v2",
+      "path": "v61-map-reassign-varip-control-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "map-varip",
+      "pairRole": "control",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "2f00db11ba1e3af92e464870e2f79be3558ca501cd476b74f55a1e9977876de9",
+      "instructionsPath": "instructions/v61-map-reassign-varip-control-v2-instructions-v2.md",
+      "instructionsSha256": "fc0dadef15058521934957b3c06b79fe8b71635cb0feca240970935bddfb4628",
+      "questions": [
+        "In Pine v6, does the matching same-kind varip map alias reassignment refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "v61-map-reassign-varip-natural-v2",
+      "path": "v61-map-reassign-varip-natural-v2.pine",
+      "owner": "codex-vmp8l6",
+      "group": "persistent-collection-reassignment",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "map-varip",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-PROBE-REQUEST-v2.json",
+      "sourceSha256": "aae229d2b711ce234dca82b8275dbed92a4198992810ca31f6a74024bb7ad0c4",
+      "instructionsPath": "instructions/v61-map-reassign-varip-natural-v2-instructions-v2.md",
+      "instructionsSha256": "2ab5208b0278f97f0eaebd134bcd952ca66e9bc2baed588992b667d5605594a2",
+      "questions": [
+        "In Pine v6, does varip map alias reassignment from float elements to int elements refuse, fault or run?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "runtime error with exact message and bar",
+        "RUN with VALUE=3 (producer candidate, not a native expectation)",
+        "other observed value",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "id": "array-var",
+      "natural": "v61-array-reassign-var-natural-v2.pine",
+      "control": "v61-array-reassign-var-control-v2.pine",
+      "comparison": "independent compile/runtime outcomes; same closed physical rows if both run"
+    },
+    {
+      "id": "array-varip",
+      "natural": "v61-array-reassign-varip-natural-v2.pine",
+      "control": "v61-array-reassign-varip-control-v2.pine",
+      "comparison": "independent compile/runtime outcomes; same closed physical rows if both run"
+    },
+    {
+      "id": "map-var",
+      "natural": "v61-map-reassign-var-natural-v2.pine",
+      "control": "v61-map-reassign-var-control-v2.pine",
+      "comparison": "independent compile/runtime outcomes; same closed physical rows if both run"
+    },
+    {
+      "id": "map-varip",
+      "natural": "v61-map-reassign-varip-natural-v2.pine",
+      "control": "v61-map-reassign-varip-control-v2.pine",
+      "comparison": "independent compile/runtime outcomes; same closed physical rows if both run"
+    }
+  ],
+  "governingHandoff": "HANDOFF-v64-v1.md",
+  "sourceRoundProvenance": {
+    "requestedRound": "v61",
+    "publishedRound": "v64",
+    "packetVersion": 2,
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "Plain-declaration v60 outcomes do not settle these var/varip declarations.",
+    "RUN with VALUE=3 is a candidate answer, not a predicted or captured native outcome.",
+    "The packet v1 is superseded; only the eight v2 sources are active."
+  ]
+}
