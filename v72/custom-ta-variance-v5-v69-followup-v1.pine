@@ -1,0 +1,9 @@
+//@version=5
+indicator("TA custom boundary variance")
+type Holder
+    int value
+method variance(Holder self, int n) =>
+    self.value + n
+f(Holder ta) =>
+    ta.variance(13) * 2 + 1
+plot(f(Holder.new(7)))

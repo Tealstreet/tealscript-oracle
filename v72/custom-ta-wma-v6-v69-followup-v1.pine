@@ -1,0 +1,9 @@
+//@version=6
+indicator("TA custom boundary wma")
+type Holder
+    int value
+method wma(Holder self, int n) =>
+    self.value + n
+f(Holder ta) =>
+    ta.wma(13) * 2 + 1
+plot(f(Holder.new(7)))
