@@ -1,0 +1,174 @@
+{
+  "captureTimestamp": "2026-10-11T12:07:12.659Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"TA custom boundary\")\ntype Holder\n    int value\nmethod rsi(Holder self, int n) =>\n    self.value + n\nf(Holder ta) =>\n    ta.rsi(13) * 2 + 1\nplot(f(Holder.new(7)))\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+        "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+        "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "severity": 8,
+      "message": "ta.rsi() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+      "startLineNumber": 8,
+      "startColumn": 5,
+      "endLineNumber": 8,
+      "endColumn": 15
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "pR8W1B",
+        "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "ta.rsi() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+            "editorError": {
+              "end": {
+                "column": 14,
+                "line": 8
+              },
+              "message": "ta.rsi() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+              "start": {
+                "column": 5,
+                "line": 8
+              },
+              "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_HD5XmEZtgBWSwY5nHnCHVg==_FO+qaQRFggVxni4JCAFVBj0VCPyFQfEIkC8AAzhqscn6c5sucHQRA8myVb0naaM3So2FlbGIH5uePxq9shPhWwEiu2HgTXfiHf/Jxhf8yGvzdr/PpuMUikIoiwJM0jWs0pZlKhJU84oKT7XJrBIiccGRGDbinodyMnC+8lhmfcgS0TcIGQ1PEkdP9Rq3/tQs55Q9SEA1ujy21B+iEZFabLJM5hul8Wgz0Zaab7OTHavoEuSIT+oHIgNU4PghgY/QNojK2bCg8HfGFlCZarPjXIOzv6LFuBf7I0dSyBqw0u+iRGpeXVZBMIvZEu6YtHQOqg5/C/ctdIEER9E/"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 985,
+      "value": [
+        1791720360,
+        83214.48,
+        83216.47,
+        83207.03,
+        83210.22,
+        2.4653
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.47\nL\n83,207.03\nC\n83,210.22\n−4.26 (−0.01%)\n83,210.22\nSELL\n0.01\n83,210.23\nBUY\nVol · BTC\n2\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:07:11 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT · 2 · Binance\nOpen\n83,214.48\nHigh\n83,216.47\nLow\n83,207.03\nClose\n83,210.22\nChange\n−4.26 (−0.01%)\nVol\n2.47\nLast day change\n+221.86 (+0.27%)\nVol · BTC\nVolume\n2\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=5\nindicator(\"TA custom boundary\")\ntype Holder\n    int value\nmethod rsi(Holder self, int n) =>\n    self.value + n\nf(Holder ta) =>\n    ta.rsi(13) * 2 + 1\nplot(f(Holder.new(7)))\n1 of 2 problems\nta.rsi() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.\nLine 8, Col 5\nPine Script® v5\nPrivateTransit6private",
+  "templatePath": "custom-ta-rsi-v5-v61-v1.pine",
+  "templateSha256": "a487a802124b01e44efe5d27e4019d1f0f725de7c10fae58b9caa087872574b0",
+  "role": "consumer",
+  "group": "custom-ta-boundaries",
+  "inputs": {},
+  "status": "COMPILE-ERROR"
+}

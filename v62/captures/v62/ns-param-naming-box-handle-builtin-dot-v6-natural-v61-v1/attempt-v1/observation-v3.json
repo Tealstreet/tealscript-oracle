@@ -1,0 +1,218 @@
+{
+  "captureTimestamp": "2026-10-11T12:06:08.499Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1\")\nf(box box) =>\n    box.get_top()\nb = box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b), \"RESULT\")\nbox.delete(b)\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+        "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+        "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "code": "CE10165",
+      "severity": 8,
+      "message": "No value assigned to the \"id\" parameter in box.get_top()",
+      "startLineNumber": 4,
+      "startColumn": 5,
+      "endLineNumber": 4,
+      "endColumn": 17
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+        "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "CE10165",
+      "severity": 8,
+      "message": "No value assigned to the \"id\" parameter in box.get_top()",
+      "startLineNumber": 4,
+      "startColumn": 5,
+      "endLineNumber": 4,
+      "endColumn": 18
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "18TLfd",
+        "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "No value assigned to the \"{name}\" parameter in {functionName}()",
+            "editorError": {
+              "code": "CE10165",
+              "ctx": {
+                "functionName": "box.get_top",
+                "name": "id"
+              },
+              "end": {
+                "column": 17,
+                "line": 4
+              },
+              "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+              "start": {
+                "column": 5,
+                "line": 4
+              },
+              "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_yr9LKga4oS6yCVa1EXmPCQ==_XHGAn6aaDG8ZpGGAPIh3PsVwVNGIAaTbl9JKETmWUR8TesGjwwTOCuGsZQhG85b0/ql3ZCG8Ffxczvfxy9DN9WuyWtnoFXbr6pJekMuQAzwiZjUFnD7yizxHP8s3WI8t2v0wTJWYAQ0J5CXAgGxFieqvr/5sBsOCLXERb49tc9hJijTqGC2aNC9mYgpwX9gtrlc8oMoQRNVBGvix//JXnfsk9Tk+L/2hD2dEhatBEg0Rmg83pXzg9nh/1EcmaZMthL0HLHZ4F2/uWSIdOd8u4JqWm9FV+iwHND9cehsPrQH9tY7xETm+y3S8CeEJs7Tqy0cht0ImnrA1K03j3vPvJYMJnX4sl4yO4J4="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 985,
+      "value": [
+        1791720360,
+        83214.48,
+        83216.01,
+        83214.48,
+        83216,
+        0.02283
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.01\nL\n83,214.48\nC\n83,216.00\n+1.52 (+0.00%)\n83,216.00\nSELL\n0.01\n83,216.01\nBUY\nVol \u00b7 BTC\n0\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:07 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,216.01\nLow\n83,214.48\nClose\n83,216.00\nChange\n+1.52 (+0.00%)\nVol\n0.02\nLast day change\n+227.64 (+0.27%)\nVol \u00b7 BTC\nVolume\n0\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=6\nindicator(\"ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1\")\nf(box\u00a0box)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0box.get_top()\nb\u00a0=\u00a0box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b),\u00a0\"RESULT\")\nbox.delete(b)\n1 of 2 problems\nNo value assigned to the \"id\" parameter in box.get_top()(CE10165)\nLine 4, Col 5\nPine Script\u00ae v6\nPrivateTransit6private",
+  "templatePath": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1.pine",
+  "templateSha256": "ff1d2c3bd4ae5a3026668b231d70cc93212dcf268c19330a555928c7c556546d",
+  "role": "consumer",
+  "group": "ns-param-naming",
+  "inputs": {},
+  "status": "COMPILE-ERROR",
+  "revision": 3,
+  "executedSha256": "ff1d2c3bd4ae5a3026668b231d70cc93212dcf268c19330a555928c7c556546d",
+  "compilationStatus": "REFUSED",
+  "phase": "INDICATOR-COMPILATION",
+  "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+  "diagnostics": [
+    {
+      "class": "error",
+      "code": "CE10165",
+      "codeAvailability": "EXPOSED",
+      "text": "No value assigned to the \"id\" parameter in box.get_top()",
+      "line": 4,
+      "column": 5,
+      "owner": "owner"
+    },
+    {
+      "class": "error",
+      "code": "CE10165",
+      "codeAvailability": "EXPOSED",
+      "text": "No value assigned to the \"id\" parameter in box.get_top()",
+      "line": 4,
+      "column": 5,
+      "owner": "_generated_diagnostic_collection_name_#0"
+    }
+  ],
+  "compilerEvidence": {
+    "file": "native-compiler-responses-v1.json",
+    "nativeRequestIds": [
+      12800,
+      12806,
+      12810
+    ],
+    "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+  "numericCredit": false
+}

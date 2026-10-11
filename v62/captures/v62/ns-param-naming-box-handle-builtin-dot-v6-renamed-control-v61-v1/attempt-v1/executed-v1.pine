@@ -1,0 +1,7 @@
+//@version=6
+indicator("ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1")
+f(box holder) =>
+    holder.get_top()
+b = box.new(bar_index,29.0,bar_index+1,1.0)
+plot(f(b), "RESULT")
+box.delete(b)

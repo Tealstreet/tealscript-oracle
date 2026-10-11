@@ -1,0 +1,9 @@
+//@version=6
+indicator("ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1")
+type Holder
+    int value
+method readValue(Holder self) => self.value
+f() =>
+    Holder holder = Holder.new(17)
+    holder.readValue()
+plot(f(), "RESULT")

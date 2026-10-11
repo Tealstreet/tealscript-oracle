@@ -1,0 +1,2319 @@
+{
+  "revision": 1,
+  "round": "v62",
+  "assets": [
+    {
+      "source": {
+        "probe": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1",
+        "path": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairId": "box-handle-builtin-dot-v5",
+        "pairRole": "natural",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "17213151578c477cdca2e7e772779bc4be315419fa863691039e6ce8800e6c5b",
+        "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1-instructions-v1.md",
+        "instructionsSha256": "b64d890c72bbda43f6d94b621612292fc75f3f7d8ea58a9e434548305769dd5e",
+        "questions": [
+          "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:05:59.136Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1\")\nf(box box) =>\n    box.get_top()\nb = box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b), \"RESULT\")\nbox.delete(b)\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "severity": 8,
+            "message": "No value assigned to the `id` parameter in box.get_top()",
+            "startLineNumber": 4,
+            "startColumn": 5,
+            "endLineNumber": 4,
+            "endColumn": 18
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "WoSoav",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "No value assigned to the `id` parameter in box.get_top()",
+                  "editorError": {
+                    "end": {
+                      "column": 17,
+                      "line": 4
+                    },
+                    "message": "No value assigned to the `id` parameter in box.get_top()",
+                    "start": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_FsblMrjxNwrLQgnlrfjxRQ==_x12P2rkM+dYmviKVGuz5IyaA2vTwmBbHozpvt+ab1HlE6hnaa0J1JZg2jggHNapSlBEQ8wbYvNgVwFv674jBUan8oZvE+JnotcWmGzNMqCJ+Dx2RcZ/tdJoOJJcCkFNN9ORArmjbn7BR1maPRuvCaeaEOBzzMoGZ3NRsoUZr7JWy8oRxA18jR3jFn2HnZHAxC/bhGwvYXg01mfy3IOgUTIfWjBYHemKN5x6QoyKvgmQ7pNEbQXPsR1wMAi/Oj3dWcT06JZQtDfPlj9YKR6pS+neqUOdF/G8WTWzB5IzvaMh9k+aOYrmEyUdc0Z22BVVkGE1HisQc8hcAzSw="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 984,
+            "value": [
+              1791720240,
+              83196.78,
+              83214.03,
+              83196.77,
+              83214.02,
+              6.63437
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,196.78\nH\n83,214.03\nL\n83,196.77\nC\n83,214.02\n+17.24 (+0.02%)\n83,214.02\nSELL\n0.01\n83,214.03\nBUY\nVol \u00b7 BTC\n7\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:05:58 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:04\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,196.78\nHigh\n83,214.03\nLow\n83,196.77\nClose\n83,214.02\nChange\n+17.24 (+0.02%)\nVol\n6.63\nLast day change\n+225.66 (+0.27%)\nVol \u00b7 BTC\nVolume\n7\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=5\nindicator(\"ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1\")\nf(box\u00a0box)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0box.get_top()\nb\u00a0=\u00a0box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b),\u00a0\"RESULT\")\nbox.delete(b)\n1 of 2 problems\nNo value assigned to the `id` parameter in box.get_top()\nLine 4, Col 5\nPine Script\u00ae v5\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1.pine",
+        "templateSha256": "17213151578c477cdca2e7e772779bc4be315419fa863691039e6ce8800e6c5b",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "17213151578c477cdca2e7e772779bc4be315419fa863691039e6ce8800e6c5b",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          },
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "No value assigned to the `id` parameter in box.get_top()",
+            "line": 4,
+            "column": 5,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12756,
+            12764,
+            12770
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "evidencePath": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1",
+        "path": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairId": "box-handle-builtin-dot-v5",
+        "pairRole": "renamed-control",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "32b04707ba15112706c7d96aa2be71448cf16838faa8f10f67fd168640771231",
+        "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1-instructions-v1.md",
+        "instructionsSha256": "c349784ecbbeefa2f5874272c5c462d66aeb7b7f9edc7b66c63de291f2fe0072",
+        "questions": [
+          "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:06:02.846Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1\")\nf(box holder) =>\n    holder.get_top()\nb = box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b), \"RESULT\")\nbox.delete(b)\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "iofX5C",
+              "title": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1,\"box\":1,\"builtin_methods\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_v5Iptcx29SBZSLwuttFRyA==_o3RSLtICBRZ8oFczSrlLsXygVXG456oyrM39LiPF8zDqPQwSedUzXuPVPulT6d34CF+E78YvLx+1JBel6XTMAC6u8HPP+BIBy5ScU9FOtVCFAhewkpcnZVqjsMgGu1flc7sP3G96pOzdMFJE4rMFBVCnFqJDqu9qon9rosjeVFfHOFwjDpjNebX2/5HdPQ2quxWY68sYCZrkTR+xljX+B+qM8fWLWCEkEF4CNhpTsn9h4vztuLGTmRBpSXaR4L3DQjA3noEAA12GTe/2tRdZWgpxVtxvZXNOxptBy6WcVQQJ050I0VKWQwG7wvK28198OBaauBZGWlN23jwungwPGmCQ/02AXQT0Zl262mM/kX4QowH9u6PjKFJesy+GAM91iPpF8Se+xKVfVSgMnTYLGmHe+h7j6KWqkP3W1j4QMnRIGRBdwb5vyRSs9gk0P0/6rCQuoYXv/IuUB/7QOpcIFdK3ZrKODTIpgCkPAV5gsjJvOWk/l4v517R+XnFmZFJ28gu+LymsOmJrjebxXNwKUUCBdx1Dd1vWitflZojr8Or9wOoJ3pOxLUcLo91MvTW6oIxKu/KixGcXfTYu3/0wBPTJQcNdsWOozLvh/QeiL5WvFVH8nSTdV2mB9QyoiOyQxJOt0m9CL9iwPzy4Ly8DpnwAS+oogVbHQHgseowSzLk="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 985,
+            "value": [
+              1791720360,
+              83214.48,
+              83214.48,
+              83214.48,
+              83214.48,
+              0.00012
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,214.48\nL\n83,214.48\nC\n83,214.48\n0.00 (0.00%)\n83,214.47\nSELL\n0.01\n83,214.48\nBUY\nVol \u00b7 BTC\n0\nUSDT\nns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1\n29.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:02 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,214.48\nLow\n83,214.48\nClose\n83,214.48\nChange\n0.00 (0.00%)\nVol\n0\nLast day change\n+226.12 (+0.27%)\nVol \u00b7 BTC\nVolume\n0\nns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1\nRESULT\n29.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=5\nindicator(\"ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1\")\nf(box\u00a0holder)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0holder.get_top()\nb\u00a0=\u00a0box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b),\u00a0\"RESULT\")\nbox.delete(b)\nLine 1, Col 1\nPine Script\u00ae v5\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1.pine",
+        "templateSha256": "32b04707ba15112706c7d96aa2be71448cf16838faa8f10f67fd168640771231",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "32b04707ba15112706c7d96aa2be71448cf16838faa8f10f67fd168640771231",
+        "closedBarCutoff": "1791720240",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T12:06:04.720Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "RESULT"
+          ],
+          "rowCount": 986,
+          "closedRowCount": 985,
+          "openRowTimestamps": [
+            "1791720360"
+          ],
+          "sourceIsolated": true,
+          "sha256": "3c5d0840b2a5a5b72b3a1427df751eb5d6105755da72d6c6d56567f464f76e63"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12777,
+            12783,
+            12797,
+            12786
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "RESULT",
+            "uniqueRawStrings": [
+              "29"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791720000",
+                "83164.01",
+                "83196.78",
+                "83164",
+                "83196.77",
+                "8.18182",
+                "29"
+              ],
+              [
+                "1791720120",
+                "83196.77",
+                "83196.78",
+                "83196.77",
+                "83196.78",
+                "1.78449",
+                "29"
+              ],
+              [
+                "1791720240",
+                "83196.78",
+                "83214.48",
+                "83196.77",
+                "83214.48",
+                "6.76518",
+                "29"
+              ]
+            ]
+          }
+        ],
+        "evidencePath": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1",
+        "path": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairId": "box-handle-builtin-dot-v6",
+        "pairRole": "natural",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "ff1d2c3bd4ae5a3026668b231d70cc93212dcf268c19330a555928c7c556546d",
+        "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1-instructions-v1.md",
+        "instructionsSha256": "f708f847b95ac0c9e909c0e69ab29affd24e07bce52182681c361d39bca52cda",
+        "questions": [
+          "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:06:08.499Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1\")\nf(box box) =>\n    box.get_top()\nb = box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b), \"RESULT\")\nbox.delete(b)\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "code": "CE10165",
+            "severity": 8,
+            "message": "No value assigned to the \"id\" parameter in box.get_top()",
+            "startLineNumber": 4,
+            "startColumn": 5,
+            "endLineNumber": 4,
+            "endColumn": 17
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "CE10165",
+            "severity": 8,
+            "message": "No value assigned to the \"id\" parameter in box.get_top()",
+            "startLineNumber": 4,
+            "startColumn": 5,
+            "endLineNumber": 4,
+            "endColumn": 18
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "18TLfd",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "No value assigned to the \"{name}\" parameter in {functionName}()",
+                  "editorError": {
+                    "code": "CE10165",
+                    "ctx": {
+                      "functionName": "box.get_top",
+                      "name": "id"
+                    },
+                    "end": {
+                      "column": 17,
+                      "line": 4
+                    },
+                    "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+                    "start": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_yr9LKga4oS6yCVa1EXmPCQ==_XHGAn6aaDG8ZpGGAPIh3PsVwVNGIAaTbl9JKETmWUR8TesGjwwTOCuGsZQhG85b0/ql3ZCG8Ffxczvfxy9DN9WuyWtnoFXbr6pJekMuQAzwiZjUFnD7yizxHP8s3WI8t2v0wTJWYAQ0J5CXAgGxFieqvr/5sBsOCLXERb49tc9hJijTqGC2aNC9mYgpwX9gtrlc8oMoQRNVBGvix//JXnfsk9Tk+L/2hD2dEhatBEg0Rmg83pXzg9nh/1EcmaZMthL0HLHZ4F2/uWSIdOd8u4JqWm9FV+iwHND9cehsPrQH9tY7xETm+y3S8CeEJs7Tqy0cht0ImnrA1K03j3vPvJYMJnX4sl4yO4J4="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 985,
+            "value": [
+              1791720360,
+              83214.48,
+              83216.01,
+              83214.48,
+              83216,
+              0.02283
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.01\nL\n83,214.48\nC\n83,216.00\n+1.52 (+0.00%)\n83,216.00\nSELL\n0.01\n83,216.01\nBUY\nVol \u00b7 BTC\n0\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:07 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,216.01\nLow\n83,214.48\nClose\n83,216.00\nChange\n+1.52 (+0.00%)\nVol\n0.02\nLast day change\n+227.64 (+0.27%)\nVol \u00b7 BTC\nVolume\n0\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=6\nindicator(\"ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1\")\nf(box\u00a0box)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0box.get_top()\nb\u00a0=\u00a0box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b),\u00a0\"RESULT\")\nbox.delete(b)\n1 of 2 problems\nNo value assigned to the \"id\" parameter in box.get_top()(CE10165)\nLine 4, Col 5\nPine Script\u00ae v6\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1.pine",
+        "templateSha256": "ff1d2c3bd4ae5a3026668b231d70cc93212dcf268c19330a555928c7c556546d",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "ff1d2c3bd4ae5a3026668b231d70cc93212dcf268c19330a555928c7c556546d",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": "CE10165",
+            "codeAvailability": "EXPOSED",
+            "text": "No value assigned to the \"id\" parameter in box.get_top()",
+            "line": 4,
+            "column": 5,
+            "owner": "owner"
+          },
+          {
+            "class": "error",
+            "code": "CE10165",
+            "codeAvailability": "EXPOSED",
+            "text": "No value assigned to the \"id\" parameter in box.get_top()",
+            "line": 4,
+            "column": 5,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12800,
+            12806,
+            12810
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "evidencePath": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1",
+        "path": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairId": "box-handle-builtin-dot-v6",
+        "pairRole": "renamed-control",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "9fadd9a787be8cad40940300b506009343d0d04beb4130118c00d9b789a39a44",
+        "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1-instructions-v1.md",
+        "instructionsSha256": "a1afb37e18265ffdc111efbbd4629d90f7366668adf61a65c630f189db133d13",
+        "questions": [
+          "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:06:12.485Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1\")\nf(box holder) =>\n    holder.get_top()\nb = box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b), \"RESULT\")\nbox.delete(b)\n",
+        "markers": [],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "AWavO9",
+              "title": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1,\"box\":1,\"builtin_methods\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_N2mxGmX1EYNg2R8GNxZFPQ==_OmebymGWVyVi/9/jnK+LULQjrbBXE4u5nQLN9alZHN8ElJdkIYtqvH3u19e3r6Sz6pBmizFMaA6lbDiPW05Z8JlykcxLGwTqT5cpUfSuMdXSRMQ9+OJEaafDV1BWIxc308iSrlLPrrmqpyiWhc96WW3T8pJk0dhvNdEB3rMgRCnMc7ym3p5gZPW8kGM9AudoZTYUo6o7zmKfe7rJm2qcIOLihb8NyfxgAYSKIcEUeqe/2Y72BGo8ga+sY8T2dxHLWL3Q/p/TUbS0urV1PeamiZBm5K03Mwkpcq3I51tEo0Vn5ItC68ltdPZj2UmE0ye83gMn0QBYVxv+QKqRrkY8AIDArhB+refnLb2COpkqy47jvq2p/tP8eWO/jNF2+vaWMOpNGTAPcKRDWuL2isqbeinUImbptNXTZDWAemAXeNnSW455aEJSSclCrf8KVZnHERmJUDfbr7JguqS4n3k3WT39fUJwDHymtGEh5ZzgA10JwesT5wPP0azTGbL9xncz9OgpNZC5RHR+ho1dTqnLkcNvX/XsNLE/bxccgQVtyLHao+j5mmt52/w6DJgWLdLdNBSJXpVz10UQGd/ZZVLt73uXIRPja/bm9T9CnOajNgJjE/o/7CwsjxXhRh//vSeQ2twKwMqPAu4quluoemerdu2KMvzhwJa3k0hfaXc2Qy52uGuNc5AX9YBb0juwkUzW"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 985,
+            "value": [
+              1791720360,
+              83214.48,
+              83216.47,
+              83214.48,
+              83216.47,
+              0.1277
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.47\nL\n83,214.48\nC\n83,216.47\n+1.99 (+0.00%)\n83,216.00\nSELL\n0.01\n83,216.01\nBUY\nVol \u00b7 BTC\n0\nUSDT\nns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1\n29.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:11 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,216.47\nLow\n83,214.48\nClose\n83,216.47\nChange\n+1.99 (+0.00%)\nVol\n0.13\nLast day change\n+227.65 (+0.27%)\nVol \u00b7 BTC\nVolume\n0\nns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1\nRESULT\n29.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n//@version=6\nindicator(\"ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1\")\nf(box\u00a0holder)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0holder.get_top()\nb\u00a0=\u00a0box.new(bar_index,29.0,bar_index+1,1.0)\nplot(f(b),\u00a0\"RESULT\")\nbox.delete(b)\nLine 1, Col 1\nPine Script\u00ae v6\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1.pine",
+        "templateSha256": "9fadd9a787be8cad40940300b506009343d0d04beb4130118c00d9b789a39a44",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "9fadd9a787be8cad40940300b506009343d0d04beb4130118c00d9b789a39a44",
+        "closedBarCutoff": "1791720240",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T12:06:14.305Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "RESULT"
+          ],
+          "rowCount": 986,
+          "closedRowCount": 985,
+          "openRowTimestamps": [
+            "1791720360"
+          ],
+          "sourceIsolated": true,
+          "sha256": "ea98d50971e576d9b76b3b868307f379c257d3e01d54f486d864792d30eb262c"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12819,
+            12825,
+            12839,
+            12828
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "RESULT",
+            "uniqueRawStrings": [
+              "29"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791720000",
+                "83164.01",
+                "83196.78",
+                "83164",
+                "83196.77",
+                "8.18182",
+                "29"
+              ],
+              [
+                "1791720120",
+                "83196.77",
+                "83196.78",
+                "83196.77",
+                "83196.78",
+                "1.78449",
+                "29"
+              ],
+              [
+                "1791720240",
+                "83196.78",
+                "83214.48",
+                "83196.77",
+                "83214.48",
+                "6.76518",
+                "29"
+              ]
+            ]
+          }
+        ],
+        "evidencePath": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1",
+        "path": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairId": "local-udt-custom-dot-v5",
+        "pairRole": "natural",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "5f297c860c9a85f5f62b17fdc8546f57e897e8971655c0613ac0c01286d326cc",
+        "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1-instructions-v1.md",
+        "instructionsSha256": "269f459e12a69e8005298d269804cc630e0df9c098805c4fcc24bf34ac17570b",
+        "questions": [
+          "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:06:18.136Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1\")\ntype Holder\n    int value\nmethod readValue(Holder self) => self.value\nf() =>\n    Holder box = Holder.new(17)\n    box.readValue()\nplot(f(), \"RESULT\")\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "severity": 8,
+            "message": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "startLineNumber": 7,
+            "startColumn": 5,
+            "endLineNumber": 7,
+            "endColumn": 7
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "severity": 8,
+            "message": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "startLineNumber": 7,
+            "startColumn": 5,
+            "endLineNumber": 7,
+            "endColumn": 8
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "8K8OL6",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+                  "editorError": {
+                    "end": {
+                      "column": 7,
+                      "line": 7
+                    },
+                    "message": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+                    "start": {
+                      "column": 5,
+                      "line": 7
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_GC5JATTHUy+c4c1780MsRg==_KCtDrzzQKqQybzYBINqWlUCGzjf0Bdu8qK/Tz+d7c6xYCzCRBEDfNDbhxPLqAnza9A6f3CTHuq29sM7rGztcGc9hruZmh0sx/4xnnrL0bMwDQknHY4LP2VHu5jMexoI+/qXrKt/bp2kZ32uGLptHaVGajJIT1KgdEyRdxrHl1i2z3TgEViLuD6qViZgdMorAWFnjuN4BdH8pWN5aG34ePDTxT+DzV9xCD9gfas0nau1Bg12TE2jcG/TOYpa57yJMV1girTNBscqaRXgU9GQX31m/xZIh4q4+TRkQIftFGJcK04YdFfkWF5uP3Y5om8uyGQgAjR5BcpOx+MRn"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 985,
+            "value": [
+              1791720360,
+              83214.48,
+              83216.47,
+              83214.48,
+              83216.47,
+              0.13632
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.47\nL\n83,214.48\nC\n83,216.47\n+1.99 (+0.00%)\n83,216.46\nSELL\n0.01\n83,216.47\nBUY\nVol \u00b7 BTC\n0\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:17 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,216.47\nLow\n83,214.48\nClose\n83,216.47\nChange\n+1.99 (+0.00%)\nVol\n0.14\nLast day change\n+228.11 (+0.27%)\nVol \u00b7 BTC\nVolume\n0\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=5\nindicator(\"ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1\")\ntype\u00a0Holder\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0readValue(Holder\u00a0self)\u00a0=>\u00a0self.value\nf()\u00a0=>\n\u00a0\u00a0\u00a0\u00a0Holder\u00a0box\u00a0=\u00a0Holder.new(17)\n\u00a0\u00a0\u00a0\u00a0box.readValue()\nplot(f(),\u00a0\"RESULT\")\n1 of 3 problems\nInvalid object name: box. Namespaces of built-ins cannot be used.\nLine 7, Col 5\nPine Script\u00ae v5\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1.pine",
+        "templateSha256": "5f297c860c9a85f5f62b17fdc8546f57e897e8971655c0613ac0c01286d326cc",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "5f297c860c9a85f5f62b17fdc8546f57e897e8971655c0613ac0c01286d326cc",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "line": 7,
+            "column": 5,
+            "owner": "owner"
+          },
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          },
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "line": 7,
+            "column": 5,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12842,
+            12848,
+            12852
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "evidencePath": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1",
+        "path": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairId": "local-udt-custom-dot-v5",
+        "pairRole": "renamed-control",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "d913b2dcac09c40f20655a469782c55ead842acdd81906eea30d02d3406f5078",
+        "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1-instructions-v1.md",
+        "instructionsSha256": "230e106dedcdf7241bc2528e75e1604efde4f1d23744f194b5a3e43d4df9bb8a",
+        "questions": [
+          "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:06:22.145Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1\")\ntype Holder\n    int value\nmethod readValue(Holder self) => self.value\nf() =>\n    Holder holder = Holder.new(17)\n    holder.readValue()\nplot(f(), \"RESULT\")\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "w1gryP",
+              "title": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1,\"type\":1,\"user_methods\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_e59HJ5TJUl6ZUBGwHX9nGA==_rQpg7IxMyIWDoov2bC2xk7BeTRlouL/I0lesQ1hIy5fx+/7JF6w7YTsYjuFC8yKWzcgw82hBwcIE6/BhWnoGyRzSzc33MqnHqq7w53eemksK0yWNRWzMPCEL2Pn5ypb3qrrUWWtvwQsYffs2NmRzOpdRL1Kku4EklDdo5v0fmy5+Ac1YuP8bDYTX2/fhv4HXy6BdEtsPppcbBvKc2EwzHsq9g+mP4LxLW1qkji0ho/iGtqFmEvhtMeKl4jlmeskwuV3SyR7xbvfMbv1Mw4w1VhyfozBvt9ONwVxPK61UcOD+Wtlnp4AcKQ8lqsffnSaFihtM7e/zYfYruNRe6eWHnRG2Z21Fqz/g7ncWijhEEnOyYtBVA38YiD6LjP1/Jo72MiETo+/L+5hbTIhq7YirMk+U9XBEbLATMXV0gsQkIR9GCpwkvL20ZehqiwMGvYPFLIrfFbvUSeaUwSRGWcn44dSX/Bhkzk32sVrgUq/OucJK0KGXK9uMTf3oWaNRwMzSDmHonMWDemxdmRnIVbR5qiXMLjWvaI5U7xhzQxzX/0hjXotizk/21bHb+utC4Hu8jkEVkaBXFtJtyhXX9B5Y4pXklB0/bRVkbSsSn7pl9BOFZz1h4c13GbndO4JjJWvQ28kE0IwgZg=="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 985,
+            "value": [
+              1791720360,
+              83214.48,
+              83216.47,
+              83214.48,
+              83216.46,
+              0.17149
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.47\nL\n83,214.48\nC\n83,216.46\n+1.98 (+0.00%)\n83,216.46\nSELL\n0.01\n83,216.47\nBUY\nVol \u00b7 BTC\n0\nUSDT\nns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1\n17.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:21 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,216.47\nLow\n83,214.48\nClose\n83,216.46\nChange\n+1.98 (+0.00%)\nVol\n0.17\nLast day change\n+228.10 (+0.27%)\nVol \u00b7 BTC\nVolume\n0\nns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1\nRESULT\n17.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=5\nindicator(\"ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1\")\ntype\u00a0Holder\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0readValue(Holder\u00a0self)\u00a0=>\u00a0self.value\nf()\u00a0=>\n\u00a0\u00a0\u00a0\u00a0Holder\u00a0holder\u00a0=\u00a0Holder.new(17)\n\u00a0\u00a0\u00a0\u00a0holder.readValue()\nplot(f(),\u00a0\"RESULT\")\nLine 1, Col 1\nPine Script\u00ae v5\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1.pine",
+        "templateSha256": "d913b2dcac09c40f20655a469782c55ead842acdd81906eea30d02d3406f5078",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "d913b2dcac09c40f20655a469782c55ead842acdd81906eea30d02d3406f5078",
+        "closedBarCutoff": "1791720240",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T12:06:24.428Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "RESULT"
+          ],
+          "rowCount": 986,
+          "closedRowCount": 985,
+          "openRowTimestamps": [
+            "1791720360"
+          ],
+          "sourceIsolated": true,
+          "sha256": "52b97e08aaa017c923e2fae181e802769da9a1bea97993f9b7325a5e25fa036a"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12862,
+            12868,
+            12882,
+            12871
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "RESULT",
+            "uniqueRawStrings": [
+              "17"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791720000",
+                "83164.01",
+                "83196.78",
+                "83164",
+                "83196.77",
+                "8.18182",
+                "17"
+              ],
+              [
+                "1791720120",
+                "83196.77",
+                "83196.78",
+                "83196.77",
+                "83196.78",
+                "1.78449",
+                "17"
+              ],
+              [
+                "1791720240",
+                "83196.78",
+                "83214.48",
+                "83196.77",
+                "83214.48",
+                "6.76518",
+                "17"
+              ]
+            ]
+          }
+        ],
+        "evidencePath": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1",
+        "path": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairId": "local-udt-custom-dot-v6",
+        "pairRole": "natural",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "2685e875aa95a53d4867a6fdd708a07856061d323cbed841e2a1d259c27faaab",
+        "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1-instructions-v1.md",
+        "instructionsSha256": "2164319212f451da0387eab66a271414612ea4f52b50b46c41d802be6af3c45d",
+        "questions": [
+          "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:06:28.209Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1\")\ntype Holder\n    int value\nmethod readValue(Holder self) => self.value\nf() =>\n    Holder box = Holder.new(17)\n    box.readValue()\nplot(f(), \"RESULT\")\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "code": "CE10093",
+            "severity": 8,
+            "message": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "startLineNumber": 7,
+            "startColumn": 5,
+            "endLineNumber": 7,
+            "endColumn": 7
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///32d7d39b-c698-4945-9397-e720bdef26e3.pine?placement%3Ddialog",
+              "path": "/32d7d39b-c698-4945-9397-e720bdef26e3.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "CE10093",
+            "severity": 8,
+            "message": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "startLineNumber": 7,
+            "startColumn": 5,
+            "endLineNumber": 7,
+            "endColumn": 8
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "aaRMWD",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "Invalid object name: {name}. Namespaces of built-ins cannot be used.",
+                  "editorError": {
+                    "code": "CE10093",
+                    "ctx": {
+                      "name": "box"
+                    },
+                    "end": {
+                      "column": 7,
+                      "line": 7
+                    },
+                    "message": "Invalid object name: {name}. Namespaces of built-ins cannot be used.",
+                    "start": {
+                      "column": 5,
+                      "line": 7
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_XP9CkkfBxFlEgLJvpo/bfg==_ybYwyuC+S9ZPGRgP6bGDEFEgNddONvNQPFIV7JhEy79tJ7/2rt+YPOaFQKvqRuPwYDjYzEIvSWi5JkrF5SW5Zqq4OKN71bWgV5Z4kTEQJKmJuiv6gkziL/TtuXEq5Ekok3l0IAXaPdU1SUJ6XGoOagT3vpqN90NZ1HMK9mltmEC18JEV5rv58y5MXWF1NDLxOKn3q+5wQnRUOYz4VCl8eT1Bm1UadLBfRUHpp1h7AEZQBCrPDsQzCqpSj4Do5+fuwUnrvu0A4OGa7eyJG2QTFTfNulD90SpAHA/Hf1p5cXHgZO4YgIvYF3sQVJd/6wv4/zoL7AQnQXmmKiXiUT8WTbZIGIG/pKbFldc="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 985,
+            "value": [
+              1791720360,
+              83214.48,
+              83216.47,
+              83207.03,
+              83207.03,
+              1.28969
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.47\nL\n83,207.03\nC\n83,207.03\n\u22127.45 (\u22120.01%)\n83,207.03\nSELL\n0.01\n83,207.04\nBUY\nVol \u00b7 BTC\n1\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:27 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,216.47\nLow\n83,207.03\nClose\n83,207.03\nChange\n\u22127.45 (\u22120.01%)\nVol\n1.29\nLast day change\n+218.67 (+0.26%)\nVol \u00b7 BTC\nVolume\n1\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=6\nindicator(\"ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1\")\ntype\u00a0Holder\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0readValue(Holder\u00a0self)\u00a0=>\u00a0self.value\nf()\u00a0=>\n\u00a0\u00a0\u00a0\u00a0Holder\u00a0box\u00a0=\u00a0Holder.new(17)\n\u00a0\u00a0\u00a0\u00a0box.readValue()\nplot(f(),\u00a0\"RESULT\")\n1 of 2 problems\nInvalid object name: box. Namespaces of built-ins cannot be used.(CE10093)\nLine 7, Col 5\nPine Script\u00ae v6\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1.pine",
+        "templateSha256": "2685e875aa95a53d4867a6fdd708a07856061d323cbed841e2a1d259c27faaab",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "2685e875aa95a53d4867a6fdd708a07856061d323cbed841e2a1d259c27faaab",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": "CE10093",
+            "codeAvailability": "EXPOSED",
+            "text": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "line": 7,
+            "column": 5,
+            "owner": "owner"
+          },
+          {
+            "class": "error",
+            "code": "CE10093",
+            "codeAvailability": "EXPOSED",
+            "text": "Invalid object name: box. Namespaces of built-ins cannot be used.",
+            "line": 7,
+            "column": 5,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12885,
+            12891,
+            12895
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "evidencePath": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1",
+        "path": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1.pine",
+        "owner": "codex-1xjtos",
+        "group": "ns-param-naming",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairId": "local-udt-custom-dot-v6",
+        "pairRole": "renamed-control",
+        "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+        "sourceSha256": "66e655cdebcb81b2a0536c51a6f22e245879a0676a66f5ad30596be563f9fd6d",
+        "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1-instructions-v1.md",
+        "instructionsSha256": "840fc9599b35933d29e6ad79082beea15f9b4bfef5d8b617b3ae0a8fe76456fd",
+        "questions": [
+          "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission with exported values",
+          "runtime error with exact message and bar",
+          "context unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:06:32.476Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1\")\ntype Holder\n    int value\nmethod readValue(Holder self) => self.value\nf() =>\n    Holder holder = Holder.new(17)\n    holder.readValue()\nplot(f(), \"RESULT\")\n",
+        "markers": [],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "hOQWXh",
+              "title": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1,\"type\":1,\"user_methods\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_73GOEI71aTY1/nPxYETUEQ==_9dTXbq+F+cr1emOtZ9GIVs6iIDnTVLxDw+shyb4Z6WVpqMglHdknejOyX4QRvaLOcpXq7WD140X5Ve0HSIGNmFotKaNkaccx2pQ4e4ZTGmhCiCg98ZtcrbNyfd8RxdFMKtymI02+a/1+Izh+7qwpNucd+oakyYfGqGQ5caex+x1B8uKefEfpWQO5xndwqYWzO/4sZQ9sr9Ld6yB22tfI+3RgnbEV2BCsJ0kqbcUg9HD2WHlKDoPODE6MdO2Z8NmdICA9C0ane/KwUp+SmpDesiDXLuBlCGxNntBVdPVVx1WvWCT9JmRNGne7QcN35BPnRWhym5z3z+QusUPfVeHHpTX1mbPXzAfnYm/MDzIana+HfAsr3UsuIteAAHwtQakkpkY9ufoITfgTlBg0m/VPZOhhcEi/1u67HEciCwsAA9AQJPwySM3I4lCGu6ep48Fc0zMq71Fgi67ak/VSwBgPLH/qWb/hEF9QfvePIIW3NzGdS1AM6VYVRouTQGFG915vAC7uXQvcxl+OmRT0lFl9NgDG4VOgphc0OFzyc1U14biBKxD5QqEcPNwVyu1D2T+yDbceE4s9l/xER6viAFLuTZqLbmpM8f0Wwlx4xF+oyp5dbRPSaAJM/+n1jWPxt/A3ksvrdV9jVLeaovK6xnhjcXwMEY0d"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 985,
+            "value": [
+              1791720360,
+              83214.48,
+              83216.47,
+              83207.03,
+              83207.03,
+              1.33699
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,214.48\nH\n83,216.47\nL\n83,207.03\nC\n83,207.03\n\u22127.45 (\u22120.01%)\n83,207.03\nSELL\n0.01\n83,207.04\nBUY\nVol \u00b7 BTC\n1\nUSDT\nns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1\n17.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:06:31 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:06\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,214.48\nHigh\n83,216.47\nLow\n83,207.03\nClose\n83,207.03\nChange\n\u22127.45 (\u22120.01%)\nVol\n1.34\nLast day change\n+218.67 (+0.26%)\nVol \u00b7 BTC\nVolume\n1\nns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1\nRESULT\n17.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=6\nindicator(\"ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1\")\ntype\u00a0Holder\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0readValue(Holder\u00a0self)\u00a0=>\u00a0self.value\nf()\u00a0=>\n\u00a0\u00a0\u00a0\u00a0Holder\u00a0holder\u00a0=\u00a0Holder.new(17)\n\u00a0\u00a0\u00a0\u00a0holder.readValue()\nplot(f(),\u00a0\"RESULT\")\nLine 1, Col 1\nPine Script\u00ae v6\nPrivateTransit6private",
+        "templatePath": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1.pine",
+        "templateSha256": "66e655cdebcb81b2a0536c51a6f22e245879a0676a66f5ad30596be563f9fd6d",
+        "role": "consumer",
+        "group": "ns-param-naming",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "66e655cdebcb81b2a0536c51a6f22e245879a0676a66f5ad30596be563f9fd6d",
+        "closedBarCutoff": "1791720240",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T12:06:34.317Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "RESULT"
+          ],
+          "rowCount": 986,
+          "closedRowCount": 985,
+          "openRowTimestamps": [
+            "1791720360"
+          ],
+          "sourceIsolated": true,
+          "sha256": "f43a51634a1eb4ffca9533127d6bd9905d77a910bf67e2a7560799db543ca8e8"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            12904,
+            12910,
+            12925,
+            12913
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "RESULT",
+            "uniqueRawStrings": [
+              "17"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791720000",
+                "83164.01",
+                "83196.78",
+                "83164",
+                "83196.77",
+                "8.18182",
+                "17"
+              ],
+              [
+                "1791720120",
+                "83196.77",
+                "83196.78",
+                "83196.77",
+                "83196.78",
+                "1.78449",
+                "17"
+              ],
+              [
+                "1791720240",
+                "83196.78",
+                "83214.48",
+                "83196.77",
+                "83214.48",
+                "6.76518",
+                "17"
+              ]
+            ]
+          }
+        ],
+        "evidencePath": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1/attempt-v1/observation-v3.json"
+      }
+    }
+  ],
+  "naturalControlPairs": [
+    {
+      "id": "box-handle-builtin-dot-v5",
+      "naturalOutcome": "COMPILE-ERROR",
+      "renamedControlOutcome": "RUNS",
+      "naturalEvidence": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1/attempt-v1/observation-v3.json",
+      "renamedControlEvidence": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1/attempt-v1/observation-v3.json",
+      "matchedPhysicalNumericComparison": "UNOBSERVED: natural refuses compilation and has no numeric CSV rows to match; independent successful control CSV retained.",
+      "controlClosedRowCount": 985,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "RESULT",
+          "uniqueRawStrings": [
+            "29"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791720000",
+              "83164.01",
+              "83196.78",
+              "83164",
+              "83196.77",
+              "8.18182",
+              "29"
+            ],
+            [
+              "1791720120",
+              "83196.77",
+              "83196.78",
+              "83196.77",
+              "83196.78",
+              "1.78449",
+              "29"
+            ],
+            [
+              "1791720240",
+              "83196.78",
+              "83214.48",
+              "83196.77",
+              "83214.48",
+              "6.76518",
+              "29"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "box-handle-builtin-dot-v6",
+      "naturalOutcome": "COMPILE-ERROR",
+      "renamedControlOutcome": "RUNS",
+      "naturalEvidence": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1/attempt-v1/observation-v3.json",
+      "renamedControlEvidence": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1/attempt-v1/observation-v3.json",
+      "matchedPhysicalNumericComparison": "UNOBSERVED: natural refuses compilation and has no numeric CSV rows to match; independent successful control CSV retained.",
+      "controlClosedRowCount": 985,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "RESULT",
+          "uniqueRawStrings": [
+            "29"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791720000",
+              "83164.01",
+              "83196.78",
+              "83164",
+              "83196.77",
+              "8.18182",
+              "29"
+            ],
+            [
+              "1791720120",
+              "83196.77",
+              "83196.78",
+              "83196.77",
+              "83196.78",
+              "1.78449",
+              "29"
+            ],
+            [
+              "1791720240",
+              "83196.78",
+              "83214.48",
+              "83196.77",
+              "83214.48",
+              "6.76518",
+              "29"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-udt-custom-dot-v5",
+      "naturalOutcome": "COMPILE-ERROR",
+      "renamedControlOutcome": "RUNS",
+      "naturalEvidence": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1/attempt-v1/observation-v3.json",
+      "renamedControlEvidence": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1/attempt-v1/observation-v3.json",
+      "matchedPhysicalNumericComparison": "UNOBSERVED: natural refuses compilation and has no numeric CSV rows to match; independent successful control CSV retained.",
+      "controlClosedRowCount": 985,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "RESULT",
+          "uniqueRawStrings": [
+            "17"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791720000",
+              "83164.01",
+              "83196.78",
+              "83164",
+              "83196.77",
+              "8.18182",
+              "17"
+            ],
+            [
+              "1791720120",
+              "83196.77",
+              "83196.78",
+              "83196.77",
+              "83196.78",
+              "1.78449",
+              "17"
+            ],
+            [
+              "1791720240",
+              "83196.78",
+              "83214.48",
+              "83196.77",
+              "83214.48",
+              "6.76518",
+              "17"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-udt-custom-dot-v6",
+      "naturalOutcome": "COMPILE-ERROR",
+      "renamedControlOutcome": "RUNS",
+      "naturalEvidence": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1/attempt-v1/observation-v3.json",
+      "renamedControlEvidence": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1/attempt-v1/observation-v3.json",
+      "matchedPhysicalNumericComparison": "UNOBSERVED: natural refuses compilation and has no numeric CSV rows to match; independent successful control CSV retained.",
+      "controlClosedRowCount": 985,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "RESULT",
+          "uniqueRawStrings": [
+            "17"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791720000",
+              "83164.01",
+              "83196.78",
+              "83164",
+              "83196.77",
+              "8.18182",
+              "17"
+            ],
+            [
+              "1791720120",
+              "83196.77",
+              "83196.78",
+              "83196.77",
+              "83196.78",
+              "1.78449",
+              "17"
+            ],
+            [
+              "1791720240",
+              "83196.78",
+              "83214.48",
+              "83196.77",
+              "83214.48",
+              "6.76518",
+              "17"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
