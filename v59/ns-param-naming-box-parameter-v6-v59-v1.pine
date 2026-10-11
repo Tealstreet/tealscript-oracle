@@ -1,0 +1,9 @@
+//@version=6
+indicator("ns-param-naming-box-parameter-v6-v59-v1")
+setTop(array<box> box, float y) =>
+    box.set_top(array.get(box, 0), y)
+    box.get_top(array.get(box, 0))
+var box drawing = box.new(0, 5.0, 1, 1.0)
+array<box> holders = array.new<box>()
+array.push(holders, drawing)
+plot(setTop(holders, 29.0), "RESULT")

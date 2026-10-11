@@ -1,0 +1,6 @@
+//@version=6
+indicator("ns-param-naming-array-parameter-v6-v59-v1")
+appendValue(array<float> array, float x) =>
+    array.push(array, x)
+    array.get(array, 0)
+plot(appendValue(array.new<float>(), 23.0), "RESULT")

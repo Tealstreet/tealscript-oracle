@@ -1,0 +1,3292 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v59",
+  "version": 2,
+  "owner": "codex-3rye5w",
+  "status": "STAGED-ONLY",
+  "inventory": {
+    "groups": 2,
+    "scripts": 62,
+    "naturalScripts": 52,
+    "controlScripts": 10,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "ns-param-naming",
+      "scope": "NS-PARAM-NAMING",
+      "scripts": 32,
+      "instructionsPath": "instructions/ns-param-naming-group-instructions-v1.md",
+      "instructionsSha256": "d5133ee89c2f9b76559f9071f65a32cb3c479e405e908961ce8c6598a5f77536",
+      "naturalControlPairs": [
+        {
+          "natural": "ns-param-naming-udt-array-parameter-v5-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-box-parameter-v5-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-line-parameter-v5-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-label-parameter-v5-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-map-parameter-v5-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-matrix-parameter-v5-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-table-parameter-v5-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-array-parameter-v5-v59-v1",
+          "control": "ns-param-naming-array-parameter-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-array-local-v5-v59-v1",
+          "control": "ns-param-naming-array-local-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-box-parameter-v5-v59-v1",
+          "control": "ns-param-naming-box-parameter-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-box-local-v5-v59-v1",
+          "control": "ns-param-naming-box-local-renamed-control-v5-v59-v1",
+          "version": 5,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-array-parameter-v6-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-box-parameter-v6-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-line-parameter-v6-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-label-parameter-v6-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-map-parameter-v6-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-matrix-parameter-v6-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-udt-table-parameter-v6-v59-v1",
+          "control": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-array-parameter-v6-v59-v1",
+          "control": "ns-param-naming-array-parameter-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-array-local-v6-v59-v1",
+          "control": "ns-param-naming-array-local-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-box-parameter-v6-v59-v1",
+          "control": "ns-param-naming-box-parameter-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        },
+        {
+          "natural": "ns-param-naming-box-local-v6-v59-v1",
+          "control": "ns-param-naming-box-local-renamed-control-v6-v59-v1",
+          "version": 6,
+          "matchedChartContext": true
+        }
+      ],
+      "engineProvenance": [
+        {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-builtin-namespace-receiver-vmp8l6-v1/REPORT-v1.md",
+          "sha256": "1067e96885599d97c57b42209057255256c76d0651a5746b1d5f005b868afe25"
+        },
+        {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/REPORT-v1.md",
+          "sha256": "2394e344ea413ef1d5f846c3a01990747527b82ee79ec52099a519f01bfef552"
+        }
+      ]
+    },
+    {
+      "id": "ns-param-naming-namespace-calls",
+      "scope": "NS-PARAM-NAMING: namespace calls and ta custom methods",
+      "scripts": 30,
+      "instructionsPath": "instructions/ns-param-naming-namespace-calls-group-instructions-v1.md",
+      "instructionsSha256": "e47223f2e9004b7b66368c70ea0469053a2c7c386e6e412374c2916d2dcf2073",
+      "sourceSelection": {
+        "namespaceCallPrograms": 24,
+        "taCustomMethodPrograms": 6,
+        "expectedValuesOmitted": true
+      }
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "ns-param-naming-udt-renamed-control-v5-v59-v1",
+      "path": "ns-param-naming-udt-renamed-control-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "testedIdentifier": "payload",
+      "testedBehavior": "udt-renamed-control",
+      "sourceSha256": "334697f151a100ef5ec6b832620314cd6d8695561018d6bc5157423dd7a16b3b",
+      "instructionsPath": "instructions/ns-param-naming-udt-renamed-control-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "859369223d84a59c3b162c256266b78f18daadb1f6e59a17044d460a0acc1533",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-udt-array-parameter-v5-v59-v1",
+      "path": "ns-param-naming-udt-array-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "udt-array-parameter",
+      "sourceSha256": "737e93842ac7971e7d49f53342d7be1b4efcac516fdf422c8aeff085590b2721",
+      "instructionsPath": "instructions/ns-param-naming-udt-array-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "a28e95e9cc95f9b04a4c5c37b54027653d91227835afdf303be4fee307cf8427",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-box-parameter-v5-v59-v1",
+      "path": "ns-param-naming-udt-box-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "udt-box-parameter",
+      "sourceSha256": "9d0e75cc3f2e83bbf7d70c27986dac07bccfd492ad9d70b45e0e3ba0ac596e5c",
+      "instructionsPath": "instructions/ns-param-naming-udt-box-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "4c28c645aafbff250ed924a636b123330b9091226ad857f650193485997907c2",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-line-parameter-v5-v59-v1",
+      "path": "ns-param-naming-udt-line-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "line",
+      "testedBehavior": "udt-line-parameter",
+      "sourceSha256": "b902f08e1e0e84d3687b701de1aec93f5b7818e45358c3e94627c460a6fbe412",
+      "instructionsPath": "instructions/ns-param-naming-udt-line-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "7fec64c4fb5a0feae5ed818fc3addf237dcf23a68f65d567fffd56cfef2df92d",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-label-parameter-v5-v59-v1",
+      "path": "ns-param-naming-udt-label-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "label",
+      "testedBehavior": "udt-label-parameter",
+      "sourceSha256": "0210f532ae8b3be47e38863ac81beb8ca7ccfee22a83d7989e0ed5f7648c2b88",
+      "instructionsPath": "instructions/ns-param-naming-udt-label-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "a5ec8228642ec6389431d328c8807549489309a4ca989f986aa42bec408a7d3b",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-map-parameter-v5-v59-v1",
+      "path": "ns-param-naming-udt-map-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "map",
+      "testedBehavior": "udt-map-parameter",
+      "sourceSha256": "528e63a17800df12fee2f4a3e5471a7f653fa51916a2d88d33a8600b2721221b",
+      "instructionsPath": "instructions/ns-param-naming-udt-map-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "80dffc871461de999644a6238e85a788bd806eb4dd7e86b11845a142bd8aafd6",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-matrix-parameter-v5-v59-v1",
+      "path": "ns-param-naming-udt-matrix-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "matrix",
+      "testedBehavior": "udt-matrix-parameter",
+      "sourceSha256": "66cb79221cdd29b16122125afab8b6c583ce232ee6af2c0490fff043a8b4b5b3",
+      "instructionsPath": "instructions/ns-param-naming-udt-matrix-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "00dae754e7206797a93c12582654080f7535b6113b406ee49c9053981d00d73b",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-table-parameter-v5-v59-v1",
+      "path": "ns-param-naming-udt-table-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "table",
+      "testedBehavior": "udt-table-parameter",
+      "sourceSha256": "4bfd395f1416c57a349833c76e9015a872bf7ecaefcf2573f3e547cf3f8f2dea",
+      "instructionsPath": "instructions/ns-param-naming-udt-table-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "9977e844e44fbc06bd043e952bfae992a5bee5431fb6a27d1f3e23170277c896",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-array-parameter-renamed-control-v5-v59-v1",
+      "path": "ns-param-naming-array-parameter-renamed-control-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "array-parameter-renamed-control",
+      "sourceSha256": "29539db2651c83e5648d80f0339cfe225d35d5a05128fc6192e68ad0585b1afe",
+      "instructionsPath": "instructions/ns-param-naming-array-parameter-renamed-control-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "380c961e130712dcbdeed5a43c3d0c74b93a742aea58ea732e5db6d1ba63bb2e",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-array-parameter-v5-v59-v1",
+      "path": "ns-param-naming-array-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "array-parameter",
+      "sourceSha256": "3615ccaf1bad08913933816e26356e87718fd57b098a91275e76571c1e765702",
+      "instructionsPath": "instructions/ns-param-naming-array-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "f8c849beb47a7b8a994b82ebcf727f0fa4197c6eaab1dfe126424df3133e7e5e",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-array-parameter-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-array-local-renamed-control-v5-v59-v1",
+      "path": "ns-param-naming-array-local-renamed-control-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "array-local-renamed-control",
+      "sourceSha256": "8d8df969197c0a4d3c503c1ec3bb5236881dd9dcaddc588f1be2a32363cc3432",
+      "instructionsPath": "instructions/ns-param-naming-array-local-renamed-control-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "9efb32b43ac6d12fe7bf68f5c40379ed7ac275b5204de803b86c18fee253a360",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-array-local-v5-v59-v1",
+      "path": "ns-param-naming-array-local-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "array-local",
+      "sourceSha256": "0545347b380dc7e19ab02f09102cf4f31ecf0f6ce36465e8603f84c04adf6042",
+      "instructionsPath": "instructions/ns-param-naming-array-local-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "7da482fb57235d7974b7c3f09c54b90530da0fc8fcc8bc8c0ba313d2823ad818",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-array-local-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-box-parameter-renamed-control-v5-v59-v1",
+      "path": "ns-param-naming-box-parameter-renamed-control-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "box-parameter-renamed-control",
+      "sourceSha256": "3ac92d76e9f0d812b58544e862a1cda9f5ca5bcef7db20d49d5dfc6d8e23a9db",
+      "instructionsPath": "instructions/ns-param-naming-box-parameter-renamed-control-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "af2064ada9b9e77c001ac13a1feac3403c665ffa79b72d8b52f854aef63003db",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-box-parameter-v5-v59-v1",
+      "path": "ns-param-naming-box-parameter-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "box-parameter",
+      "sourceSha256": "c13dffc40ecd26be7871351fceb08832f9f427300610e98cfed2a8ad19915b22",
+      "instructionsPath": "instructions/ns-param-naming-box-parameter-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "bba56013a78a1219298ef91c0c03e58b0fdf415cf624214e606fda2352f915ce",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-box-parameter-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-box-local-renamed-control-v5-v59-v1",
+      "path": "ns-param-naming-box-local-renamed-control-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "box-local-renamed-control",
+      "sourceSha256": "a0e2e91cc8e63b146c266d3886fa11d9d8176d425f33f9338ef414c94680760e",
+      "instructionsPath": "instructions/ns-param-naming-box-local-renamed-control-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "141f6be88236cd354ab0565e1a2a6df585fca23fb476ebe3a5b60236acb736cf",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-box-local-v5-v59-v1",
+      "path": "ns-param-naming-box-local-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "box-local",
+      "sourceSha256": "bd9dc82aa24b6a17002e6d16e3efc99b1c0bd07723fec974383b92fbd92c3f92",
+      "instructionsPath": "instructions/ns-param-naming-box-local-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "99679863ecf5432ab8bb4d06236c76f036ffe76a3c031eeb5e8d26c811ec1cd8",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-box-local-renamed-control-v5-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-renamed-control-v6-v59-v1",
+      "path": "ns-param-naming-udt-renamed-control-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "testedIdentifier": "payload",
+      "testedBehavior": "udt-renamed-control",
+      "sourceSha256": "94b15ed1434d183ccdd0e6bc54d17bacf907eefc5940b6fc965781c45ab22588",
+      "instructionsPath": "instructions/ns-param-naming-udt-renamed-control-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "9b9f6b52b267132a604f9951e2cb20e9336af5fc96dcb57b75eea16780678b69",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-udt-array-parameter-v6-v59-v1",
+      "path": "ns-param-naming-udt-array-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "udt-array-parameter",
+      "sourceSha256": "72ae766c7ed82a1be149647a5c2ee576e7312f272cd0eee8f7107e29168ad5cd",
+      "instructionsPath": "instructions/ns-param-naming-udt-array-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "1dc5d399c3412898d76621a905be28f49f9dd94bb6747790b18ce2a4ec29761b",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-box-parameter-v6-v59-v1",
+      "path": "ns-param-naming-udt-box-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "udt-box-parameter",
+      "sourceSha256": "25c2e2f7610122529fc6dd1e50cfb55690162f789bd45c7daf55719c819271e4",
+      "instructionsPath": "instructions/ns-param-naming-udt-box-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "9e9be14c7d8d93ab6bbe5556c7e1e85d187ad57adcf8e44cb0a53bca637f4e83",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-line-parameter-v6-v59-v1",
+      "path": "ns-param-naming-udt-line-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "line",
+      "testedBehavior": "udt-line-parameter",
+      "sourceSha256": "5575e5c9b371e1f1bc79500e15794a63237b49276d85663007292779c6b65dde",
+      "instructionsPath": "instructions/ns-param-naming-udt-line-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "1ab6e7865d3f7269b6d771654a6a7a94587242467132015d40940b7c881de572",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-label-parameter-v6-v59-v1",
+      "path": "ns-param-naming-udt-label-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "label",
+      "testedBehavior": "udt-label-parameter",
+      "sourceSha256": "878a3182025c4f7695b5005725a42968efc2275f5ba3f56e7d39b72a061a739d",
+      "instructionsPath": "instructions/ns-param-naming-udt-label-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "ef015178126f7bb706fc62f4583ed3b9baadfff465bbc91623040a9cee5933a0",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-map-parameter-v6-v59-v1",
+      "path": "ns-param-naming-udt-map-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "map",
+      "testedBehavior": "udt-map-parameter",
+      "sourceSha256": "95a54dd8abdeaa18b15229a51349496f76d6f75ed086693c583c1a8027331627",
+      "instructionsPath": "instructions/ns-param-naming-udt-map-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "83e74e04787a703cafaea7f95fb0870ebd27ee73d406ed78f3bb212c52d10420",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-matrix-parameter-v6-v59-v1",
+      "path": "ns-param-naming-udt-matrix-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "matrix",
+      "testedBehavior": "udt-matrix-parameter",
+      "sourceSha256": "2c7700719335cdbcd8822dd1e2a6cad9d2d2fdb2e437913ce686185dd268cf8e",
+      "instructionsPath": "instructions/ns-param-naming-udt-matrix-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "4f2f3fdfa2d59e2ed95f52ec364d048745a6304cf15c2e5bbf26c7f4e2265fab",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-udt-table-parameter-v6-v59-v1",
+      "path": "ns-param-naming-udt-table-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "table",
+      "testedBehavior": "udt-table-parameter",
+      "sourceSha256": "b3d84a3190d8f784ace19c5684ebccc695fdf6660709f988ab7f5586bff1dc38",
+      "instructionsPath": "instructions/ns-param-naming-udt-table-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "3d3466790da4b82cc9a2b85085459dc4a11f7490f13cfc8e4296e60ea75e9bf3",
+      "questions": [
+        "Does TradingView accept a UDT-typed function parameter with this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-udt-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-array-parameter-renamed-control-v6-v59-v1",
+      "path": "ns-param-naming-array-parameter-renamed-control-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "array-parameter-renamed-control",
+      "sourceSha256": "8c5579caaa55fb94106bed55fa8679c1c1cd10f19888fe41fabac613a5adce8d",
+      "instructionsPath": "instructions/ns-param-naming-array-parameter-renamed-control-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "4008edc4bbba6afbbdc8a2ca9be26c6933c6879458814b20adf88d37ea235007",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-array-parameter-v6-v59-v1",
+      "path": "ns-param-naming-array-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "array-parameter",
+      "sourceSha256": "56a2d9f4bdfca6a6907baaea05c5efe4381eb8ef4499fd240f44c119013aee4d",
+      "instructionsPath": "instructions/ns-param-naming-array-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "e2d8518ebedbacaae859bdf64028c4d5f98302493edc1699dcc439b7bc674491",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-array-parameter-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-array-local-renamed-control-v6-v59-v1",
+      "path": "ns-param-naming-array-local-renamed-control-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "array-local-renamed-control",
+      "sourceSha256": "181f26747ca279d1fe90bc3539dd80d9a82550d3045a9313987ef06ad9b032cf",
+      "instructionsPath": "instructions/ns-param-naming-array-local-renamed-control-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "520d48e15074a390af7782e4d54ee8c46957d5a9ae32a50a15cf8aa1091217c2",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-array-local-v6-v59-v1",
+      "path": "ns-param-naming-array-local-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "array-local",
+      "sourceSha256": "811899e280aaee0da79c044853156336b8a475fbc2379873658c03c258213bcc",
+      "instructionsPath": "instructions/ns-param-naming-array-local-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "a2488ba58e3cfd3853c099170a7fd74917a822f89b394685b763d9d763cb8ae9",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-array-local-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-box-parameter-renamed-control-v6-v59-v1",
+      "path": "ns-param-naming-box-parameter-renamed-control-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "box-parameter-renamed-control",
+      "sourceSha256": "51f4421cc29240cdd5835fa558007df570008083651a2919887266899b10ee68",
+      "instructionsPath": "instructions/ns-param-naming-box-parameter-renamed-control-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "cc1e1d135a22483993940b54bab2caf56ac1570deb4fe6f794c0e7977f00f863",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-box-parameter-v6-v59-v1",
+      "path": "ns-param-naming-box-parameter-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "box-parameter",
+      "sourceSha256": "962bf0b77b26fadcd1c85909e081f886e5cc677f4d8750929a2f1723b2448ac4",
+      "instructionsPath": "instructions/ns-param-naming-box-parameter-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "9db929296e6767519ad65caf42212088ebc361c20f5eec4ef4e81ea2a3eb167a",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-box-parameter-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-box-local-renamed-control-v6-v59-v1",
+      "path": "ns-param-naming-box-local-renamed-control-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "renamed-control",
+      "testedIdentifier": "items",
+      "testedBehavior": "box-local-renamed-control",
+      "sourceSha256": "e61511f74c7e6196e6bb6010cb71cc4aa1568c89d91f37cf4acce03cdcc64efb",
+      "instructionsPath": "instructions/ns-param-naming-box-local-renamed-control-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "009b7a7ca8e1fd3197015a216b3fd6250924f85715a11185bb3c091a8129dc7a",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-box-local-v6-v59-v1",
+      "path": "ns-param-naming-box-local-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "box-local",
+      "sourceSha256": "5635213ee12691aa43e676362807b70349d9c564244d7ef34295784ff3002b7d",
+      "instructionsPath": "instructions/ns-param-naming-box-local-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "2110500127eca8752deac049f76810419942dadba8720e9cdff03e5ca4a5df7d",
+      "questions": [
+        "Does TradingView preserve builtin namespace calls when a non-UDT collection parameter or function-local variable has this namespace name?"
+      ],
+      "columns": [
+        "RESULT"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: stage-only",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "controlProbe": "ns-param-naming-box-local-renamed-control-v6-v59-v1"
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-array-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-array-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "9118fba06233759a51a7db7973bc89af2f6417763d8419b69ee37db87c5d3eec",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-array-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "a41a736ccb4d966cd093fdc5674393073241dd99588fc2dacdda1da804b6360f",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter array when its body also uses the builtin array namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-array-namespace-array",
+        "exactStringSourceSha256": "9118fba06233759a51a7db7973bc89af2f6417763d8419b69ee37db87c5d3eec",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-array-namespace-array"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-box-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-box-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "92f381d8b7ddc4dfd169db45789d959ae059936581a818873807dcd244d350c5",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-box-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "039214e57a30b9295ced22f3472f6f04c5edc75e7a136574404d0225b95fc46b",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter box when its body also uses the builtin box namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-box-namespace-box",
+        "exactStringSourceSha256": "92f381d8b7ddc4dfd169db45789d959ae059936581a818873807dcd244d350c5",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-box-namespace-box"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-color-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-color-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "color",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "dfc7b538bd2934f29e8358ddbc6eaef02c74ba7a703020aa7bc0f01043419bf2",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-color-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "7bcd92e1b7f5f78b340f5e8154790047f2f7c1c87eb98852250fb37346409c8b",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter color when its body also uses the builtin color namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-color-namespace-color",
+        "exactStringSourceSha256": "dfc7b538bd2934f29e8358ddbc6eaef02c74ba7a703020aa7bc0f01043419bf2",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-color-namespace-color"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-label-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-label-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "label",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "3d7b9bd078e54eef30dc0682755d95ceecb8072e1392d954b3c0469cb28a4568",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-label-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "aa4578ba94f8343323877331081cb38867c7a1c0ba5bf573b5638fba9a2b5bb4",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter label when its body also uses the builtin label namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-label-namespace-label",
+        "exactStringSourceSha256": "3d7b9bd078e54eef30dc0682755d95ceecb8072e1392d954b3c0469cb28a4568",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-label-namespace-label"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-line-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-line-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "line",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "8697b71d1d5a700a5e00c3ea5546cff6d211606459a49009e6c3a28dc2748222",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-line-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "e1372fa25213efb7a633dd8f796c99bfb5ea93f588407e28023cd783162bff6b",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter line when its body also uses the builtin line namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-line-namespace-line",
+        "exactStringSourceSha256": "8697b71d1d5a700a5e00c3ea5546cff6d211606459a49009e6c3a28dc2748222",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-line-namespace-line"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-linefill-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-linefill-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "linefill",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "346cc4b0ad3314ff7730c820b0329aa1437949c83424a2271c5cb7f752817a0f",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-linefill-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "40fb930eddd84359f4e692316e0bbbabdcd6af37bf90449c94811140e560ea6f",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter linefill when its body also uses the builtin linefill namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-linefill-namespace-linefill",
+        "exactStringSourceSha256": "346cc4b0ad3314ff7730c820b0329aa1437949c83424a2271c5cb7f752817a0f",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-linefill-namespace-linefill"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-map-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-map-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "map",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "52089b3aa63c88d5cafcce8f5d31dfaf0be4b018517ecc85f27560326a1f3b14",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-map-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "07267a831fb21a2c80ad74b627ca825fce911664a7a5878bef0d7daa3b1e9531",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter map when its body also uses the builtin map namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-map-namespace-map",
+        "exactStringSourceSha256": "52089b3aa63c88d5cafcce8f5d31dfaf0be4b018517ecc85f27560326a1f3b14",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-map-namespace-map"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-math-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-math-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "math",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "7a9803ce5f3401f97a9f693a1a96fc6e48416bf549ec28e190fdb53b221e3d9f",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-math-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "1c25338ea9126841b383952bd4e83e7e65e5729284023209cd8b2470a58fa26f",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter math when its body also uses the builtin math namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-math-namespace-math",
+        "exactStringSourceSha256": "7a9803ce5f3401f97a9f693a1a96fc6e48416bf549ec28e190fdb53b221e3d9f",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-math-namespace-math"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-matrix-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-matrix-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "matrix",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "7a878b40459bc9a2938c9bb98b1754414ccca2c7042e5b3009dfbff91e6fae97",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-matrix-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "b2ccd19b747715a5d99d164dec6874ab016019858023f62ce40c07883077d4f5",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter matrix when its body also uses the builtin matrix namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-matrix-namespace-matrix",
+        "exactStringSourceSha256": "7a878b40459bc9a2938c9bb98b1754414ccca2c7042e5b3009dfbff91e6fae97",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-matrix-namespace-matrix"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-polyline-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-polyline-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "polyline",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "c04e20abfd34e5730b91d02eba114887bed08caf76642c9f8db6725b3a8d9302",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-polyline-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "b13d05836721b1572e9cabfd697b6d8ed0e7f3e30a536e4b1e4fd27a234c519a",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter polyline when its body also uses the builtin polyline namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-polyline-namespace-polyline",
+        "exactStringSourceSha256": "c04e20abfd34e5730b91d02eba114887bed08caf76642c9f8db6725b3a8d9302",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-polyline-namespace-polyline"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-str-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-str-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "str",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "a87c4c016c4610e7dc7d31454985387ddc8dd2967a4f850dabd417b84cce3578",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-str-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "d5b394fbcb206e75161af720bce6874866b3cc2b4b719e2da229a9e9d157488b",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter str when its body also uses the builtin str namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-str-namespace-str",
+        "exactStringSourceSha256": "a87c4c016c4610e7dc7d31454985387ddc8dd2967a4f850dabd417b84cce3578",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-str-namespace-str"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-table-v5-v59-v1",
+      "path": "ns-param-naming-namespace-call-table-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "table",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "2c55b690299840527677f60d0e44ceca0499d5218ef4e13bb3c06c3d8d9bb2ae",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-table-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "3b10478f11d172dc04bfe91d3da710ac9a35e67278affec8af6851df476d0cf0",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter table when its body also uses the builtin table namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v5-table-namespace-table",
+        "exactStringSourceSha256": "2c55b690299840527677f60d0e44ceca0499d5218ef4e13bb3c06c3d8d9bb2ae",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v5-table-namespace-table"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-array-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-array-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "array",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "bea7bd94cf84572714abba761655f9d3b03d35f85c8b69547b2d66d6d4de7a17",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-array-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "05085d44427dc58306e5306619405f3014bb5604fc4b3c6c6a0508dd5d5e165e",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter array when its body also uses the builtin array namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-array-namespace-array",
+        "exactStringSourceSha256": "bea7bd94cf84572714abba761655f9d3b03d35f85c8b69547b2d66d6d4de7a17",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-array-namespace-array"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-box-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-box-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "box",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "c33093680ccf68fdec5acb34c05f98ca0d8d12daa10e361f21de86591ea37547",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-box-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "7e9bd58b7092bc82608489c446b54524a2118736b368738b07e2cac45cf1bb1a",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter box when its body also uses the builtin box namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-box-namespace-box",
+        "exactStringSourceSha256": "c33093680ccf68fdec5acb34c05f98ca0d8d12daa10e361f21de86591ea37547",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-box-namespace-box"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-color-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-color-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "color",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "1a88260c8bba3e6b0253a52e477df8505f80b7e13a66b3bbf9e7616f811732ad",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-color-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "8a8856b748055af4a4251ab3880ba4f15f99a69f9a4d61c13b8eee39e99263c2",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter color when its body also uses the builtin color namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-color-namespace-color",
+        "exactStringSourceSha256": "1a88260c8bba3e6b0253a52e477df8505f80b7e13a66b3bbf9e7616f811732ad",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-color-namespace-color"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-label-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-label-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "label",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "2e823c44facfa8770227e9708962c8ad930fba5b048b6cc8e2c92054a520b8bd",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-label-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "1c8593e6cf1ce46a9113f2971f337ecced35d65baa99c7ebec7a290c4d78a439",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter label when its body also uses the builtin label namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-label-namespace-label",
+        "exactStringSourceSha256": "2e823c44facfa8770227e9708962c8ad930fba5b048b6cc8e2c92054a520b8bd",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-label-namespace-label"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-line-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-line-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "line",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "87388d0cb369419267d65098768d27477ee69cbe12c6a7b2ea3715deef4f83c3",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-line-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "4fa94a2bd414c03fae5ce68e17290f851e569607527f881f8f0c12797b6b33be",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter line when its body also uses the builtin line namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-line-namespace-line",
+        "exactStringSourceSha256": "87388d0cb369419267d65098768d27477ee69cbe12c6a7b2ea3715deef4f83c3",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-line-namespace-line"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-linefill-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-linefill-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "linefill",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "19555bc43d7bcfa3f613efd7eee6fa97ebdde348076f54a9d1543c51a8cda0c0",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-linefill-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "48f515788d301703ef2218d96f7da45671abfa4491b3f1a51189db12c45793b1",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter linefill when its body also uses the builtin linefill namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-linefill-namespace-linefill",
+        "exactStringSourceSha256": "19555bc43d7bcfa3f613efd7eee6fa97ebdde348076f54a9d1543c51a8cda0c0",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-linefill-namespace-linefill"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-map-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-map-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "map",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "e3eb1541713a444c163c9481f12a5369c9b9c59e7a496224656ba4562a89f92c",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-map-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "d47b2cefb09aa557559546c442d7fd0cc21dc03de23730eda3c498554efc49da",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter map when its body also uses the builtin map namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-map-namespace-map",
+        "exactStringSourceSha256": "e3eb1541713a444c163c9481f12a5369c9b9c59e7a496224656ba4562a89f92c",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-map-namespace-map"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-math-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-math-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "math",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "9b70086fcea731b78fd0659d9379f0dfe9432a8ae96083f0372f937e05569b23",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-math-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "e72db26499e037cb4bae426a2fb0f40c0f128356ab0a5dce9a912d4641f2d6e6",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter math when its body also uses the builtin math namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-math-namespace-math",
+        "exactStringSourceSha256": "9b70086fcea731b78fd0659d9379f0dfe9432a8ae96083f0372f937e05569b23",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-math-namespace-math"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-matrix-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-matrix-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "matrix",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "2ef03f06d5bd78f6231b869930d653a15d83d68446dd72e11958e0623b48660b",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-matrix-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "0b433ff9cd9a50639fcdafc2caae87ab87bb7db86ebb74da77da04f42f431a09",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter matrix when its body also uses the builtin matrix namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-matrix-namespace-matrix",
+        "exactStringSourceSha256": "2ef03f06d5bd78f6231b869930d653a15d83d68446dd72e11958e0623b48660b",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-matrix-namespace-matrix"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-polyline-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-polyline-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "polyline",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "b088e1eea2a84173ba5a29ef0bb87994dfa65b3d7b593d8f5c780d8a34f78bba",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-polyline-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "2f12f27a4fb56a2f7829dafdd2232f2d2f043192d43a7a89958b25041793a59e",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter polyline when its body also uses the builtin polyline namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-polyline-namespace-polyline",
+        "exactStringSourceSha256": "b088e1eea2a84173ba5a29ef0bb87994dfa65b3d7b593d8f5c780d8a34f78bba",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-polyline-namespace-polyline"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-str-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-str-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "str",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "6cdfb5fba615d14c267985fa69b4d105ed2022a04c454e412356bff14d270c92",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-str-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "5c3a35bc76e23b3a6a0cf1aef6dbe8f878804fad9f8010bc24ddf9438fa3fa18",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter str when its body also uses the builtin str namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-str-namespace-str",
+        "exactStringSourceSha256": "6cdfb5fba615d14c267985fa69b4d105ed2022a04c454e412356bff14d270c92",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-str-namespace-str"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-namespace-call-table-v6-v59-v1",
+      "path": "ns-param-naming-namespace-call-table-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "table",
+      "testedBehavior": "namespace-call",
+      "customMethod": "w0Value",
+      "sourceSha256": "20b80db3043f90eb658bae8f1ac34060bfeb051de72a489d7e00b7e562f610fe",
+      "instructionsPath": "instructions/ns-param-naming-namespace-call-table-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "1db660f0d0bb6c99d63713f74c21a9a91cf6309c039212263fe245217326186c",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter table when its body also uses the builtin table namespace and calls its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/PROGRAMS-v1.json",
+        "sha256": "91ee86578fc83cf4034507a37d376668888e78a7d5b495ace026bd2cf292f538",
+        "id": "v6-table-namespace-table",
+        "exactStringSourceSha256": "20b80db3043f90eb658bae8f1ac34060bfeb051de72a489d7e00b7e562f610fe",
+        "admissionSelection": {
+          "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/ADMISSION-DELTA-v1.json",
+          "sha256": "baf74fa2661f7764dc8f7b24af6506ef447d415b511ad1a91f0c6d5281923cf3",
+          "id": "v6-table-namespace-table"
+        }
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-ta-custom-sma-v5-v59-v1",
+      "path": "ns-param-naming-ta-custom-sma-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "ta",
+      "testedBehavior": "ta-custom-method",
+      "customMethod": "sma",
+      "sourceSha256": "4582bb518b05f76699ce34eca0ad6e7c591468b7c06eb6464aa26aab45c6e4eb",
+      "instructionsPath": "instructions/ns-param-naming-ta-custom-sma-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "168e58942e8ec32b2522a9a909a591d9bee020bd369b388104fd98e7cab1669f",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter ta and dispatch its custom sma method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/TA-PROGRAMS-v1.json",
+        "sha256": "7a31d54602dc4bdfdce269550d53f81018cdadd0f552112fc9e52427a3ea9466",
+        "id": "v5-sma-ta",
+        "exactStringSourceSha256": "4582bb518b05f76699ce34eca0ad6e7c591468b7c06eb6464aa26aab45c6e4eb"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-ta-custom-ema-v5-v59-v1",
+      "path": "ns-param-naming-ta-custom-ema-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "ta",
+      "testedBehavior": "ta-custom-method",
+      "customMethod": "ema",
+      "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+      "instructionsPath": "instructions/ns-param-naming-ta-custom-ema-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "5f79df056c09eed4365f53f632b234da8a1186dac88ce21a5a402d3cbf173a24",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter ta and dispatch its custom ema method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/TA-PROGRAMS-v1.json",
+        "sha256": "7a31d54602dc4bdfdce269550d53f81018cdadd0f552112fc9e52427a3ea9466",
+        "id": "v5-ema-ta",
+        "exactStringSourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-ta-custom-w0Value-v5-v59-v1",
+      "path": "ns-param-naming-ta-custom-w0Value-v5-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 5,
+      "role": "natural",
+      "testedIdentifier": "ta",
+      "testedBehavior": "ta-custom-method",
+      "customMethod": "w0Value",
+      "sourceSha256": "c834fca27baac01d47ac78c7229b87500b78b9ea2e8115b404dc3ba063c22a5c",
+      "instructionsPath": "instructions/ns-param-naming-ta-custom-w0Value-v5-v59-v1-instructions-v1.md",
+      "instructionsSha256": "c8a0c78af8ac61dc6f321411ec685c8641ce2a3f3832c19eee33ef00fdd57e90",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter ta and dispatch its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/TA-PROGRAMS-v1.json",
+        "sha256": "7a31d54602dc4bdfdce269550d53f81018cdadd0f552112fc9e52427a3ea9466",
+        "id": "v5-w0Value-ta",
+        "exactStringSourceSha256": "c834fca27baac01d47ac78c7229b87500b78b9ea2e8115b404dc3ba063c22a5c"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-ta-custom-sma-v6-v59-v1",
+      "path": "ns-param-naming-ta-custom-sma-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "ta",
+      "testedBehavior": "ta-custom-method",
+      "customMethod": "sma",
+      "sourceSha256": "9d9710093c96c45496bcb52da958e5190e9bb8d55481fa794b7f1672a88dd818",
+      "instructionsPath": "instructions/ns-param-naming-ta-custom-sma-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "a45b62960a9cb8d42197dfdda0c48d19be01148513fb338f05d198fefaa93eb0",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter ta and dispatch its custom sma method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/TA-PROGRAMS-v1.json",
+        "sha256": "7a31d54602dc4bdfdce269550d53f81018cdadd0f552112fc9e52427a3ea9466",
+        "id": "v6-sma-ta",
+        "exactStringSourceSha256": "9d9710093c96c45496bcb52da958e5190e9bb8d55481fa794b7f1672a88dd818"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-ta-custom-ema-v6-v59-v1",
+      "path": "ns-param-naming-ta-custom-ema-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "ta",
+      "testedBehavior": "ta-custom-method",
+      "customMethod": "ema",
+      "sourceSha256": "18bc1266db4b8afbddaad828a87a7963f563ffe93d82b6815e479f138999973f",
+      "instructionsPath": "instructions/ns-param-naming-ta-custom-ema-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "1c7afcf88fe1f5045c1d1b753cc508eda220f6b9a66b4b9bd31e66d7127e8dd3",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter ta and dispatch its custom ema method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/TA-PROGRAMS-v1.json",
+        "sha256": "7a31d54602dc4bdfdce269550d53f81018cdadd0f552112fc9e52427a3ea9466",
+        "id": "v6-ema-ta",
+        "exactStringSourceSha256": "18bc1266db4b8afbddaad828a87a7963f563ffe93d82b6815e479f138999973f"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-ta-custom-w0Value-v6-v59-v1",
+      "path": "ns-param-naming-ta-custom-w0Value-v6-v59-v1.pine",
+      "owner": "codex-3rye5w",
+      "group": "ns-param-naming-namespace-calls",
+      "facetIds": [
+        "NS-PARAM-NAMING"
+      ],
+      "pineVersion": 6,
+      "role": "natural",
+      "testedIdentifier": "ta",
+      "testedBehavior": "ta-custom-method",
+      "customMethod": "w0Value",
+      "sourceSha256": "5981bb469c05de8bdf1db196a330bb74b90a734dc68459f544cda467a1eac431",
+      "instructionsPath": "instructions/ns-param-naming-ta-custom-w0Value-v6-v59-v1-instructions-v1.md",
+      "instructionsSha256": "7b15b462b6fd7fd9f5275b74798d0c3e49278ecf3b268aad9fbadb455c443028",
+      "questions": [
+        "Does TradingView accept the UDT-typed parameter ta and dispatch its custom w0Value method?"
+      ],
+      "columns": [
+        "Plot"
+      ],
+      "plotIdentification": "One unnamed plot; preserve its header and position.",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: exact source staging only",
+      "submittedSource": {
+        "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/v4-udt-namespace-parameter-vmp8l6-v1/VERIFY-w0bo0b-evidence-v1/TA-PROGRAMS-v1.json",
+        "sha256": "7a31d54602dc4bdfdce269550d53f81018cdadd0f552112fc9e52427a3ea9466",
+        "id": "v6-w0Value-ta",
+        "exactStringSourceSha256": "5981bb469c05de8bdf1db196a330bb74b90a734dc68459f544cda467a1eac431"
+      },
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 3,
+        "maxPlotChannels": 1,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "supersedes": "bundle-manifest-v1.json"
+}

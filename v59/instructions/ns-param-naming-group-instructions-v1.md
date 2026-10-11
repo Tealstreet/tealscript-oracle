@@ -1,0 +1,11 @@
+# NS-PARAM-NAMING group capture instructions v1
+
+Stage-only v59 group: **22 isolated natural sources and 10 renamed controls**, 32 one-column scripts total. Do not ship or infer native results from this staging. Both phase and values remain UNSPECIFIED.
+
+For each Pine version (v5 and v6), compile seven separate typed UDT parameter cases: array, box, line, label, map, matrix and table. Their bodies read one UDT field; this isolates naming admission without introducing custom method dispatch. The renamed UDT control is shared only within its version. Do not generalize its outcome to the natural names or to namespace-named UDT variable declarations.
+
+For each version, compile separate collection parameter and function-local cases named array (array<float>) and box (array<box>). The array cases call array.push(array, x). The box cases call box.set_top(array.get(box, 0), y). Each has its own independently captured renamed counterpart. Do not batch them into one source: one refusal would mask other cases. Observe RESULT in at least three confirmed bars if a source runs, otherwise record its exact compile/runtime diagnostic and site. Warnings remain evidence. No ta.* calls, libraries or requested contexts are involved.
+
+Authority context: [Variable declarations — Shadowing](https://www.tradingview.com/pine-script-docs/language/variable-declarations/#shadowing) distinguishes namespace-named UDT variable declarations from ordinary variable names. Applying that declaration rule to function parameters is an open question here; these probes request native evidence instead of assuming the answer. [Methods](https://www.tradingview.com/pine-script-docs/language/methods/) is related dispatch context, but these UDT witnesses deliberately do not require it.
+
+The manifest's naturalControlPairs identifies the exact sources. Capture each file separately using its own instructions. Keep context, executed bytes, source SHA256, diagnostics, raw CSV timestamps/cells and confirmed cutoff. Record every result under captures/v59/RESPONSE-v59.md; an unavailable feed or unrelated earlier error leaves later value questions unobserved. No namespace naming policy is closed until captures return.

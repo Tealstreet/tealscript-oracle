@@ -1,0 +1,9 @@
+//@version=6
+indicator("TA receiver")
+type Holder
+    int value
+method w0Value(Holder self, int n) =>
+    self.value + n
+f(Holder ta) =>
+    ta.w0Value(13) * 2 + 1
+plot(f(Holder.new(7)))

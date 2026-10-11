@@ -1,0 +1,6 @@
+//@version=5
+indicator("minimal")
+import QA/Minimal/1 as lib
+method own(float self)=>self+100
+plot((close>open).own())
+plot(close.own())
