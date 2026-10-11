@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v79",
+  "version": 1,
+  "owner": "codex-tkxtd0",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "025b9ee433b0a489607b0e5739c7cfdea3708e6f",
+  "inventory": {
+    "scripts": 7,
+    "libraryPrerequisiteCount": 1,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "v79-library-v5-v1",
+      "path": "v79-library-v5-v1.pine",
+      "sourceSha256": "1b47b645caed09c76c6bef01dd839afdd5cee736ab57c7861f7da13d42188fe2",
+      "pineVersion": 5,
+      "role": "PUBLICATION-PREREQUISITE",
+      "libraryTitle": "P425PrivateV79v1",
+      "requiredPublishedVersion": 1,
+      "columns": [
+        "INTERNAL_PRIVATE_METHOD",
+        "INTERNAL_PRIVATE_FUNCTION"
+      ],
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "owner": "codex-p4250m",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+    },
+    {
+      "probe": "v79-v5-exported-controls-v1",
+      "path": "v79-v5-exported-controls-v1.pine",
+      "sourceSha256": "41f2c3fcb99498c53494985138e28ed86835e68a436922efc45e6ba7bd424429",
+      "pineVersion": 5,
+      "role": "exported-controls",
+      "question": "exported-access-and-internal-private-controls",
+      "columns": [
+        "EXPORTED_METHOD",
+        "EXPORTED_FUNCTION",
+        "INTERNAL_PRIVATE_METHOD",
+        "INTERNAL_PRIVATE_FUNCTION"
+      ],
+      "import": "__PUBLISHER__/P425PrivateV79v1/1",
+      "requiresPublicationBinding": true,
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "localPreflight": "NOT-RUN: probe design only",
+      "owner": "codex-p4250m",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+    },
+    {
+      "probe": "v79-v5-private-receiver-v1",
+      "path": "v79-v5-private-receiver-v1.pine",
+      "sourceSha256": "3eb83508b783b99c935f7558be7a12bd98c4719fc33a278dfc36bef3befd3f85",
+      "pineVersion": 5,
+      "role": "private-receiver",
+      "question": "private-method-visibility",
+      "columns": [
+        "RESULT"
+      ],
+      "import": "__PUBLISHER__/P425PrivateV79v1/1",
+      "requiresPublicationBinding": true,
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "localPreflight": "NOT-RUN: probe design only",
+      "owner": "codex-p4250m",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+    },
+    {
+      "probe": "v79-v5-private-function-v1",
+      "path": "v79-v5-private-function-v1.pine",
+      "sourceSha256": "85decea4d53cae21e3c9b850d43296d08874f737c330d634d6bf39c8348fa668",
+      "pineVersion": 5,
+      "role": "private-function",
+      "question": "private-function-visibility",
+      "columns": [
+        "RESULT"
+      ],
+      "import": "__PUBLISHER__/P425PrivateV79v1/1",
+      "requiresPublicationBinding": true,
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "localPreflight": "NOT-RUN: probe design only",
+      "owner": "codex-p4250m",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+    },
+    {
+      "probe": "v79-v6-exported-controls-v1",
+      "path": "v79-v6-exported-controls-v1.pine",
+      "sourceSha256": "4295ec0ea4336eb797c71327528a82782d13f46b74195814164cffcf4c8920e7",
+      "pineVersion": 6,
+      "role": "exported-controls",
+      "question": "exported-access-and-internal-private-controls",
+      "columns": [
+        "EXPORTED_METHOD",
+        "EXPORTED_FUNCTION",
+        "INTERNAL_PRIVATE_METHOD",
+        "INTERNAL_PRIVATE_FUNCTION"
+      ],
+      "import": "__PUBLISHER__/P425PrivateV79v1/1",
+      "requiresPublicationBinding": true,
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "localPreflight": "NOT-RUN: probe design only",
+      "owner": "codex-p4250m",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+    },
+    {
+      "probe": "v79-v6-private-receiver-v1",
+      "path": "v79-v6-private-receiver-v1.pine",
+      "sourceSha256": "a065c6e02d9738c5669cace41c444a07f9bdcc516210d7a9e2fac7bfb614d818",
+      "pineVersion": 6,
+      "role": "private-receiver",
+      "question": "private-method-visibility",
+      "columns": [
+        "RESULT"
+      ],
+      "import": "__PUBLISHER__/P425PrivateV79v1/1",
+      "requiresPublicationBinding": true,
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "localPreflight": "NOT-RUN: probe design only",
+      "owner": "codex-p4250m",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+    },
+    {
+      "probe": "v79-v6-private-function-v1",
+      "path": "v79-v6-private-function-v1.pine",
+      "sourceSha256": "ba7a2e4303142174e2614c42fe919212dc13f1539a5836ded142b2bb1e0b1f06",
+      "pineVersion": 6,
+      "role": "private-function",
+      "question": "private-function-visibility",
+      "columns": [
+        "RESULT"
+      ],
+      "import": "__PUBLISHER__/P425PrivateV79v1/1",
+      "requiresPublicationBinding": true,
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "localPreflight": "NOT-RUN: probe design only",
+      "owner": "codex-p4250m",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "63551a79bd19d2fd3b03fc2f84d1aff10ff0ababdf8629506dbb9753555a5aa5"
+    }
+  ],
+  "chartContext": {
+    "symbol": "BINANCE:BTCUSDT",
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "session": "regular/24x7",
+    "chartType": "standard candles",
+    "minimumConfirmedBars": 32
+  },
+  "governingHandoff": "HANDOFF-v79-v1.md",
+  "sourceRoundProvenance": {
+    "stagingDirectory": "v79-v5-private-library-p4250m-v1",
+    "sourceNamesAndBytesUnchanged": true,
+    "producerEntry": "instructions/ENTRY-v1.json",
+    "producerInstructions": "instructions/PRODUCER-INSTRUCTIONS-v1.md",
+    "publishedInstructions": "instructions/INSTRUCTIONS-v1.md",
+    "producerHandoff": "instructions/PRODUCER-HANDOFF-v1.json",
+    "pathAdaptationOnly": "Pine sources flattened from producer sources/ to round root; v79 instruction library path and helper entry/source lookup rebased; no semantic/source edits."
+  },
+  "publication": {
+    "status": "NOT-PUBLISHED",
+    "requiredPineVersion": 5,
+    "libraryTitle": "P425PrivateV79v1",
+    "requiredVersion": 1,
+    "publisher": "TO-BE-OBSERVED",
+    "publicationUrl": "TO-BE-OBSERVED",
+    "publishedSourceSha256": "TO-BE-OBSERVED"
+  }
+}

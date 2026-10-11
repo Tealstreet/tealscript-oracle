@@ -1,0 +1,7 @@
+//@version=6
+indicator("V79 v6 exported-controls")
+import __PUBLISHER__/P425PrivateV79v1/1 as lib
+plot((3.5).publicPick(), title="EXPORTED_METHOD")
+plot(lib.publicRead(3.5), title="EXPORTED_FUNCTION")
+plot(lib.forward(3.5), title="INTERNAL_PRIVATE_METHOD")
+plot(lib.forwardFunction(3.5), title="INTERNAL_PRIVATE_FUNCTION")

@@ -1,0 +1,4 @@
+//@version=5
+indicator("V79 v5 private-function")
+import __PUBLISHER__/P425PrivateV79v1/1 as lib
+plot(lib.hidden(3.5), title="RESULT")
