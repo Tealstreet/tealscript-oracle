@@ -1,0 +1,1647 @@
+{
+  "revision": 1,
+  "round": "v67",
+  "assets": [
+    {
+      "source": {
+        "probe": "private-function-library-v5-g6-v1",
+        "path": "private-function-library-v5-g6-v1.pine",
+        "owner": "codex-g6qooy",
+        "group": "private-function-namespace-visibility",
+        "pineVersion": 5,
+        "role": "library-prerequisite",
+        "pairRole": "prerequisite",
+        "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+        "sourceSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+        "instructionsPath": "instructions/private-function-library-v5-g6-v1-instructions-v1.md",
+        "instructionsSha256": "df224d65e49f17b368a2f84e94300f0df2fbd024e5dee2853e943aa04aa4dbd0",
+        "questions": [
+          "Can the exact Pine v5 prerequisite library be published and bound to both corresponding consumers?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission",
+          "runtime error if executed",
+          "exported native values if executed",
+          "publication/access unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "publicationBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+          "requiredPineVersion": 5,
+          "status": "REQUIRED-UNOBSERVED",
+          "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+        },
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "publicationRequired": true,
+          "chartExecutionRequired": false
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:41:51.152Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nlibrary(\"PrivateFunctionQA5\")\npick(float value) => value + 10\nexport forward(float value) => pick(value)\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///b0628621-cd83-4fc1-b9a7-668d0d13ee18.pine?placement%3Ddialog",
+              "path": "/b0628621-cd83-4fc1-b9a7-668d0d13ee18.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [],
+          "lastPhysicalBar": {
+            "index": 1002,
+            "value": [
+              1791722400,
+              83168.17,
+              83168.18,
+              83143.81,
+              83143.81,
+              2.86256
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,168.17\nH\n83,168.18\nL\n83,143.81\nC\n83,143.81\n\u221224.37 (\u22120.03%)\n83,143.81\nSELL\n0.01\n83,143.82\nBUY\nVol \u00b7 BTC\n3\nUSDT\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:41:50 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:40\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,168.17\nHigh\n83,168.18\nLow\n83,143.81\nClose\n83,143.81\nChange\n\u221224.37 (\u22120.03%)\nVol\n2.86\nLast day change\n+155.45 (+0.19%)\nVol \u00b7 BTC\nVolume\n3\nPine Editor\nPrivateFunctionQA5\nAdd to chart\nSaved\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nlibrary(\"PrivateFunctionQA5\")\npick(float\u00a0value)\u00a0=>\u00a0value\u00a0+\u00a010\nexport\u00a0forward(float\u00a0value)\u00a0=>\u00a0pick(value)\n1 \u2219 Today, 20:41\nLine 1, Col 1\nPine Script\u00ae v5\nUntitled script",
+        "templatePath": "private-function-library-v5-g6-v1.pine",
+        "templateSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+        "role": "library-prerequisite",
+        "group": "private-function-namespace-visibility",
+        "inputs": {},
+        "status": "RUNS",
+        "observationKind": "LIBRARY-COMPILE-ADMISSION",
+        "numericCredit": false,
+        "addedToChart": false,
+        "published": true,
+        "revision": 3,
+        "executedSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+        "compilationStatus": "ADMITTED",
+        "phase": "LIBRARY-COMPILATION-AND-PUBLICATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            13967,
+            13970,
+            13975,
+            13983
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "publication": {
+          "importPath": "sours-lat/PrivateFunctionQA5/1",
+          "url": "https://www.tradingview.com/script/z50HpHYu-PrivateFunctionQA5/",
+          "pineVersion": 5,
+          "sourceSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+          "nativeSourceRequest": "reqid=599 GET https://pine-facade.tradingview.com/pine-facade/get/PUB%3Be1d863020ce74c0e8653d7a17dd69beb/1?no_4xx=true [200]",
+          "version": "1.0",
+          "chartPreviewAdded": true,
+          "revision": 2,
+          "publishedSourceSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+          "visibility": "private",
+          "identityPreviouslyAvailable": false,
+          "identityCheckRequestId": 14000,
+          "reusedPublication": false,
+          "numericCredit": false
+        },
+        "publicationChartPreviewAdded": true,
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Library compilation/publication is not a numeric consumer execution.",
+        "evidencePath": "private-function-library-v5-g6-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "private-function-library-v6-g6-v1",
+        "path": "private-function-library-v6-g6-v1.pine",
+        "owner": "codex-g6qooy",
+        "group": "private-function-namespace-visibility",
+        "pineVersion": 6,
+        "role": "library-prerequisite",
+        "pairRole": "prerequisite",
+        "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+        "sourceSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+        "instructionsPath": "instructions/private-function-library-v6-g6-v1-instructions-v1.md",
+        "instructionsSha256": "246351d1226f8c39ce30394f5b3ec1d8703b0cc07943fbf0676a55176f4ea3a6",
+        "questions": [
+          "Can the exact Pine v6 prerequisite library be published and bound to both corresponding consumers?"
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission",
+          "runtime error if executed",
+          "exported native values if executed",
+          "publication/access unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "publicationBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+          "requiredPineVersion": 6,
+          "status": "REQUIRED-UNOBSERVED",
+          "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+        },
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "publicationRequired": true,
+          "chartExecutionRequired": false
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:42:11.911Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nlibrary(\"PrivateFunctionQA6\")\npick(float value) => value + 10\nexport forward(float value) => pick(value)\n",
+        "markers": [],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [],
+          "lastPhysicalBar": {
+            "index": 1003,
+            "value": [
+              1791722520,
+              83143.82,
+              83143.82,
+              83140.75,
+              83140.75,
+              0.08691
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,143.82\nH\n83,143.82\nL\n83,140.75\nC\n83,140.75\n\u22123.07 (\u22120.00%)\n83,140.75\nSELL\n0.01\n83,140.76\nBUY\nVol \u00b7 BTC\n0\nUSDT\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:42:11 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:42\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,143.82\nHigh\n83,143.82\nLow\n83,140.75\nClose\n83,140.75\nChange\n\u22123.07 (\u22120.00%)\nVol\n0.09\nLast day change\n+152.39 (+0.18%)\nVol \u00b7 BTC\nVolume\n0\nPine Editor\nPrivateFunctionQA6\nAdd to chart\nSaved\nPublish script\n1\n2\n3\n4\n5\n//@version=6\nlibrary(\"PrivateFunctionQA6\")\npick(float\u00a0value)\u00a0=>\u00a0value\u00a0+\u00a010\nexport\u00a0forward(float\u00a0value)\u00a0=>\u00a0pick(value)\n1 \u2219 Today, 20:42\nLine 1, Col 1\nPine Script\u00ae v6",
+        "templatePath": "private-function-library-v6-g6-v1.pine",
+        "templateSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+        "role": "library-prerequisite",
+        "group": "private-function-namespace-visibility",
+        "inputs": {},
+        "status": "RUNS",
+        "observationKind": "LIBRARY-COMPILE-ADMISSION",
+        "numericCredit": false,
+        "addedToChart": false,
+        "published": true,
+        "revision": 3,
+        "executedSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+        "compilationStatus": "ADMITTED",
+        "phase": "LIBRARY-COMPILATION-AND-PUBLICATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14030,
+            14032,
+            14037,
+            14044
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "publication": {
+          "importPath": "sours-lat/PrivateFunctionQA6/1",
+          "url": "https://www.tradingview.com/script/FiOCEqmy-PrivateFunctionQA6/",
+          "pineVersion": 6,
+          "sourceSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+          "nativeSourceRequest": "reqid=600 GET https://pine-facade.tradingview.com/pine-facade/get/PUB%3B4ee378e86d6d411f8843c6c1946a75e9/1?no_4xx=true [200]",
+          "version": "1.0",
+          "chartPreviewAdded": true,
+          "revision": 2,
+          "publishedSourceSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+          "visibility": "private",
+          "identityPreviouslyAvailable": false,
+          "identityCheckRequestId": 14061,
+          "reusedPublication": false,
+          "numericCredit": false
+        },
+        "publicationChartPreviewAdded": true,
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Library compilation/publication is not a numeric consumer execution.",
+        "evidencePath": "private-function-library-v6-g6-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "private-function-namespace-exported-control-v5-g6-v1",
+        "path": "private-function-namespace-exported-control-v5-g6-v1.pine",
+        "owner": "codex-g6qooy",
+        "group": "private-function-namespace-visibility",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairRole": "exported-control",
+        "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+        "sourceSha256": "dad9baf08226f738f8ef548a370e2c7305ed6edd197d7edcf55069e2e53cd702",
+        "instructionsPath": "instructions/private-function-namespace-exported-control-v5-g6-v1-instructions-v1.md",
+        "instructionsSha256": "0e8f3f7dd06209cb4c728c40d66ce1b9891e1bcccfb803794eb6e9c3b62abe30",
+        "questions": [
+          "Pine v5 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission",
+          "runtime error if executed",
+          "exported native values if executed",
+          "publication/access unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "publicationBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+          "requiredPineVersion": 5,
+          "status": "REQUIRED-UNOBSERVED",
+          "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+        },
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:42:25.260Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"Private function namespace v5\")\nimport sours-lat/PrivateFunctionQA5/1 as lib\nplot(lib.forward(3.5), \"RESULT\")\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///bb56f42a-d2f4-42e3-bcba-8a76d6381020.pine?placement%3Ddialog",
+              "path": "/bb56f42a-d2f4-42e3-bcba-8a76d6381020.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "a1jRPt",
+              "title": "Private function namespace v5 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"import\":1,\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_PrnslkmrgR49A0M9BOsgSA==_iDcS545Ch1PmHwHwdAboJBdpRLErecK5XTECgooNiP1ETfVGeiIIOog5gSwjMucBbpoZzuYjxXL9B4DHY5wXwAIyhht2vee1C3FbXTabSTELT74VP6Lazh6ji9VbYHJCjldjToOfvJaiovw3X11RaO8XMImC/jVKpbyOfG8HrFwbi+XKzUrBx1PeF5qrx/GDEEHk+Ep22hWMx0/JhB4PmRx0IYVsvncSWDRy6Z550ZfeX20AaAIaYucWJvxGWE8iqk+lTzhPvZvlstlgdPLGuOYLiIr4YVXeQMXdjfMmM0xoNlyJt8ennGBvH1gCv3qCHQ3JN7Rzyg353zMHe19CvtQRZfN85n389VH+AWNUdbj0rsXapmX5dU1gLWu8k7t4+EDwnzKnitr1UOK3zEtXUIanByQODO4jyp18bQFxsmL1uKWZlvR0dZqh/wQHj9ZqUesd5VGxD42IFPaJ3neV43f8oH975z5cLT7cB/q4OMqHCkxtMmgXDKxj7qednpOvNYGFJQZRtBsEE2weAIckHw/KAQAJmQz160kMsknopWn7rQJBfoyRC6/oofgX6tIwAi6hBt8h8YWLMRKnGqNjGxeuQvU83R310mTbU6Etok5pWoHtR9BMACeo2ro5ld7XAWdJe3J1XxDeAZGPPyBb8VnhwrBnXw8dJGiSIYIKAnph1q6pI2azID2/7AVezlJ+CeToG7lVXCD7X9wljYlASCeIeCjRrycJe3V8dNGrCz1A294rPm8INLczCem/tqoRyJysfQ=="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1003,
+            "value": [
+              1791722520,
+              83143.82,
+              83143.82,
+              83138.99,
+              83139,
+              0.26527
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,143.82\nH\n83,143.82\nL\n83,138.99\nC\n83,139.00\n\u22124.82 (\u22120.01%)\n83,138.99\nSELL\n0.01\n83,139.00\nBUY\nVol \u00b7 BTC\n0\nUSDT\nPrivate function namespace v5\n13.50\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:42:24 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:42\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,143.82\nHigh\n83,143.82\nLow\n83,138.99\nClose\n83,139.00\nChange\n\u22124.82 (\u22120.01%)\nVol\n0.27\nLast day change\n+150.64 (+0.18%)\nVol \u00b7 BTC\nVolume\n0\nPrivate function namespace v5\nRESULT\n13.50\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nindicator(\"Private\u00a0function\u00a0namespace\u00a0v5\")\nimport\u00a0sours-lat/PrivateFunctionQA5/1\u00a0as\u00a0lib\nplot(lib.forward(3.5),\u00a0\"RESULT\")\nLine 1, Col 1\nPine Script\u00ae v5",
+        "templatePath": "private-function-namespace-exported-control-v5-g6-v1.pine",
+        "templateSha256": "dad9baf08226f738f8ef548a370e2c7305ed6edd197d7edcf55069e2e53cd702",
+        "role": "consumer",
+        "group": "private-function-namespace-visibility",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "dad9baf08226f738f8ef548a370e2c7305ed6edd197d7edcf55069e2e53cd702",
+        "closedBarCutoff": "1791722400",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T12:42:27.133Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "RESULT"
+          ],
+          "rowCount": 1004,
+          "closedRowCount": 1003,
+          "openRowTimestamps": [
+            "1791722520"
+          ],
+          "sourceIsolated": true,
+          "sha256": "3d2da14ae58cc885a15370b6bb776116aa85b32c268accd4306959b88335d917"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14089,
+            14095,
+            14098
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "RESULT",
+            "uniqueRawStrings": [
+              "13.5"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791722160",
+                "83142.08",
+                "83142.08",
+                "83118",
+                "83125.72",
+                "3.33368",
+                "13.5"
+              ],
+              [
+                "1791722280",
+                "83125.73",
+                "83181.41",
+                "83125.73",
+                "83168.18",
+                "6.62808",
+                "13.5"
+              ],
+              [
+                "1791722400",
+                "83168.17",
+                "83168.18",
+                "83143.81",
+                "83143.82",
+                "3.04343",
+                "13.5"
+              ]
+            ]
+          }
+        ],
+        "libraryBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+          "actualImportPath": "sours-lat/PrivateFunctionQA5/1",
+          "importPathSubstituted": false,
+          "pineVersion": 5,
+          "sourceSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+          "publicationEvidence": "v67/captures/v67/private-function-library-v5-g6-v1/publication-v1/publication-v2.json"
+        },
+        "evidencePath": "private-function-namespace-exported-control-v5-g6-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "private-function-namespace-exported-control-v6-g6-v1",
+        "path": "private-function-namespace-exported-control-v6-g6-v1.pine",
+        "owner": "codex-g6qooy",
+        "group": "private-function-namespace-visibility",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairRole": "exported-control",
+        "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+        "sourceSha256": "1a90a9d4b0888c978da13400b71b4ec231425a0b9abbd7fd01bf72a5196d1805",
+        "instructionsPath": "instructions/private-function-namespace-exported-control-v6-g6-v1-instructions-v1.md",
+        "instructionsSha256": "3d90d60aa21fdd8a42c20612c140304d97582b6e3aa4af876d6f3becc8d95716",
+        "questions": [
+          "Pine v6 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission",
+          "runtime error if executed",
+          "exported native values if executed",
+          "publication/access unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "publicationBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+          "requiredPineVersion": 6,
+          "status": "REQUIRED-UNOBSERVED",
+          "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+        },
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:42:46.924Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"Private function namespace v6\")\nimport sours-lat/PrivateFunctionQA6/1 as lib\nplot(lib.forward(3.5), \"RESULT\")\n",
+        "markers": [],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "tjSlBS",
+              "title": "Private function namespace v6 (false, false)",
+              "status": {
+                "type": 2
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"import\":1,\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_3oPdqzOfhRrR00VAvKIrMA==_Q26lGByQEMC9A5eyHZATQTCTl9wrcb0NsiIZd+1XfU1ahHz9Yxqk54SdIoNtEPi2QzeE1TiMX3Ies1aOGkGk8VaNmah5BSdoIlIHiOVJeBcQIweljsuLOtU+a8lejNKMpG4io1J7HtQ/c/olFnEX0x4YIUc9EMaXKL1p0DgOedWiKvJxoRT+uzgL5bWWDrQPezjxOo+5q8OljwmE/cEutEn0X46LFxCs08oFX9s6zHX7KBIYDdQsXWX+yqMuKoLXAzyb69KPbXsd672tb3s9k9hBRCLWbrLHUmb0f1aHZhQgnS3e8/63PButHouh4IlKaCP6qaYo6xH+VaRHZTURcPb1nrk2HZ7vVJqUL+fRiiLbICCk66Hf24VMN+iokzdULnVKiauFGzoWMaVER7Um6R1TafHensO7GcixEATduv02hYTkBdmKGeOo+Fuf3El1ZlzE/9XD0DRr7XUhG2teqIIzcV9W7Wt0X4VDDmEMqohOBHE/wmLEtpM3epVJsMwi9W7/lJN9LseHvACADQk03utTlEMO0LQ4f9r2uSoxII+RUJhl4wmLrR6bDDBtX1tcL6dYmHb89JN5bjcEmWFLkAB0BVvs1U6fvFBB5HkqpBvF5HCfRLfnKtQXPbkBmL302bXicK8DfoNL8BS+s27vPbiq3UkLbwZJZbOGp9i1PDa2l7NeavqYm99NC/SrYNDumXm1KA29+/EqW1ReljzmWj5Fu77QXP7y9VjaZOQLlFSA1i5NGghGML10yhf0glVxUQP70PbAnsIxfwfyr4ntXsexBHB5cAL5RqXFgiBDmp8="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1003,
+            "value": [
+              1791722520,
+              83143.82,
+              83143.82,
+              83135.54,
+              83135.54,
+              0.9594
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,143.82\nH\n83,143.82\nL\n83,135.54\nC\n83,135.54\n\u22128.28 (\u22120.01%)\n83,135.54\nSELL\n0.01\n83,135.55\nBUY\nVol \u00b7 BTC\n1\nUSDT\nPrivate function namespace v6\n13.50\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:42:46 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:42\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,143.82\nHigh\n83,143.82\nLow\n83,135.54\nClose\n83,135.54\nChange\n\u22128.28 (\u22120.01%)\nVol\n0.96\nLast day change\n+147.18 (+0.18%)\nVol \u00b7 BTC\nVolume\n1\nPrivate function namespace v6\nRESULT\n13.50\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=6\nindicator(\"Private\u00a0function\u00a0namespace\u00a0v6\")\nimport\u00a0sours-lat/PrivateFunctionQA6/1\u00a0as\u00a0lib\nplot(lib.forward(3.5),\u00a0\"RESULT\")\nLine 1, Col 1\nPine Script\u00ae v6\nUntitled script",
+        "templatePath": "private-function-namespace-exported-control-v6-g6-v1.pine",
+        "templateSha256": "1a90a9d4b0888c978da13400b71b4ec231425a0b9abbd7fd01bf72a5196d1805",
+        "role": "consumer",
+        "group": "private-function-namespace-visibility",
+        "inputs": {},
+        "status": "RUNS",
+        "executedSha256": "1a90a9d4b0888c978da13400b71b4ec231425a0b9abbd7fd01bf72a5196d1805",
+        "closedBarCutoff": "1791722400",
+        "csv": {
+          "file": "native-v1.csv",
+          "exportTimestamp": "2026-10-11T12:42:48.747Z",
+          "headers": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close",
+            "Volume",
+            "RESULT"
+          ],
+          "rowCount": 1004,
+          "closedRowCount": 1003,
+          "openRowTimestamps": [
+            "1791722520"
+          ],
+          "sourceIsolated": true,
+          "sha256": "029ad7dca1f6e183a15ed2ba888d484cf275138b2ac4c0262eea3c7fbc302e34"
+        },
+        "revision": 3,
+        "compilationStatus": "ADMITTED",
+        "phase": "INDICATOR-RUNTIME",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14144,
+            14150,
+            14153
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "numericCredit": true,
+        "closedObserverReadouts": [
+          {
+            "csvOrdinal": 7,
+            "title": "RESULT",
+            "uniqueRawStrings": [
+              "13.5"
+            ],
+            "lastThreeClosedRows": [
+              [
+                "1791722160",
+                "83142.08",
+                "83142.08",
+                "83118",
+                "83125.72",
+                "3.33368",
+                "13.5"
+              ],
+              [
+                "1791722280",
+                "83125.73",
+                "83181.41",
+                "83125.73",
+                "83168.18",
+                "6.62808",
+                "13.5"
+              ],
+              [
+                "1791722400",
+                "83168.17",
+                "83168.18",
+                "83143.81",
+                "83143.82",
+                "3.04343",
+                "13.5"
+              ]
+            ]
+          }
+        ],
+        "libraryBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+          "actualImportPath": "sours-lat/PrivateFunctionQA6/1",
+          "importPathSubstituted": false,
+          "pineVersion": 6,
+          "sourceSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+          "publicationEvidence": "v67/captures/v67/private-function-library-v6-g6-v1/publication-v1/publication-v2.json"
+        },
+        "evidencePath": "private-function-namespace-exported-control-v6-g6-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "private-function-namespace-private-v5-g6-v1",
+        "path": "private-function-namespace-private-v5-g6-v1.pine",
+        "owner": "codex-g6qooy",
+        "group": "private-function-namespace-visibility",
+        "pineVersion": 5,
+        "role": "consumer",
+        "pairRole": "private",
+        "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+        "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+        "instructionsPath": "instructions/private-function-namespace-private-v5-g6-v1-instructions-v1.md",
+        "instructionsSha256": "757a428980e42ce8bdf702f7022559aac687ff15925d52d6f0557ca27b6eb81d",
+        "questions": [
+          "Pine v5 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission",
+          "runtime error if executed",
+          "exported native values if executed",
+          "publication/access unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "publicationBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+          "requiredPineVersion": 5,
+          "status": "REQUIRED-UNOBSERVED",
+          "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+        },
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:42:32.645Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=5\nindicator(\"Private function namespace v5\")\nimport sours-lat/PrivateFunctionQA5/1 as lib\nplot(lib.pick(3.5), \"RESULT\")\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/34124445-7167-4614-a2f9-b61bf51b1a17.pine",
+              "external": "file:///34124445-7167-4614-a2f9-b61bf51b1a17.pine?placement%3Ddialog",
+              "path": "/34124445-7167-4614-a2f9-b61bf51b1a17.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "severity": 8,
+            "message": "Could not find method or method reference 'pick' for 'lib'",
+            "startLineNumber": 4,
+            "startColumn": 9,
+            "endLineNumber": 4,
+            "endColumn": 16
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///34124445-7167-4614-a2f9-b61bf51b1a17.pine?placement%3Ddialog",
+              "path": "/34124445-7167-4614-a2f9-b61bf51b1a17.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "PINE_VERSION_OUTDATED",
+            "severity": 4,
+            "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "endLineNumber": 1,
+            "endColumn": 12
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///34124445-7167-4614-a2f9-b61bf51b1a17.pine?placement%3Ddialog",
+              "path": "/34124445-7167-4614-a2f9-b61bf51b1a17.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "severity": 8,
+            "message": "Could not find method or method reference 'pick' for 'lib'",
+            "startLineNumber": 4,
+            "startColumn": 9,
+            "endLineNumber": 4,
+            "endColumn": 17
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "jNs5ca",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "Could not find method or method reference 'pick' for 'lib'",
+                  "editorError": {
+                    "end": {
+                      "column": 16,
+                      "line": 4
+                    },
+                    "message": "Could not find method or method reference 'pick' for 'lib'",
+                    "start": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_18om0sNo2CfL4sLedbrlZQ==_8oQwD42ZXCD5JAkm45kIQ+qnGrLjNgTEiZb7lUeCj67INkVTR+wIjUWDL0AbffX93GDaJXRQo3rXqeZRa70lWo0NIe1xrD0z/1fyeeHsLsVfXI2ahzPhXyIdgzUg6OBuLgE8yvsroHVoSiN8IuBxWC/OBluzhx/xKL49zFb+bXLbEgacRiR3FX2PNSZDNfUkfPVzLwHVsAvLEhI0dWKJJr3iiZ4F+UpFDan2fNcZ5Epa42cSTXY82UV5/IyUk0V2BXI5MgNTk9RaoZVEwKuoWQ4WAtbUi3rh0TDLbo5d6C8G6KmJ6n93nKbZBGb0N3saRgmgF6pOdOFWDRQ+"
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1003,
+            "value": [
+              1791722520,
+              83143.82,
+              83143.82,
+              83138.99,
+              83138.99,
+              0.36312
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,143.82\nH\n83,143.82\nL\n83,138.99\nC\n83,138.99\n\u22124.83 (\u22120.01%)\n83,138.99\nSELL\n0.01\n83,139.00\nBUY\nVol \u00b7 BTC\n0\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:42:31 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:42\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,143.82\nHigh\n83,143.82\nLow\n83,138.99\nClose\n83,138.99\nChange\n\u22124.83 (\u22120.01%)\nVol\n0.36\nLast day change\n+150.63 (+0.18%)\nVol \u00b7 BTC\nVolume\n0\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nindicator(\"Private\u00a0function\u00a0namespace\u00a0v5\")\nimport\u00a0sours-lat/PrivateFunctionQA5/1\u00a0as\u00a0lib\nplot(lib.pick(3.5),\u00a0\"RESULT\")\n1 of 3 problems\nCould not find method or method reference 'pick' for 'lib'\nLine 4, Col 9\nPine Script\u00ae v5\nUntitled script",
+        "templatePath": "private-function-namespace-private-v5-g6-v1.pine",
+        "templateSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+        "role": "consumer",
+        "group": "private-function-namespace-visibility",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "Could not find method or method reference 'pick' for 'lib'",
+            "line": 4,
+            "column": 9,
+            "owner": "owner"
+          },
+          {
+            "class": "warning",
+            "code": "PINE_VERSION_OUTDATED",
+            "codeAvailability": "EXPOSED",
+            "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+            "line": 1,
+            "column": 3,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          },
+          {
+            "class": "error",
+            "code": null,
+            "codeAvailability": "UNAVAILABLE",
+            "text": "Could not find method or method reference 'pick' for 'lib'",
+            "line": 4,
+            "column": 9,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14117,
+            14123,
+            14127
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "libraryBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA5/1",
+          "actualImportPath": "sours-lat/PrivateFunctionQA5/1",
+          "importPathSubstituted": false,
+          "pineVersion": 5,
+          "sourceSha256": "98f7210c84b0e3e007c7c540779df20896b0cc20fc3314372c96171490247787",
+          "publicationEvidence": "v67/captures/v67/private-function-library-v5-g6-v1/publication-v1/publication-v2.json"
+        },
+        "evidencePath": "private-function-namespace-private-v5-g6-v1/attempt-v1/observation-v3.json"
+      }
+    },
+    {
+      "source": {
+        "probe": "private-function-namespace-private-v6-g6-v1",
+        "path": "private-function-namespace-private-v6-g6-v1.pine",
+        "owner": "codex-g6qooy",
+        "group": "private-function-namespace-visibility",
+        "pineVersion": 6,
+        "role": "consumer",
+        "pairRole": "private",
+        "ledgerPacket": "instructions/producer-HANDOFF-v1.json",
+        "sourceSha256": "e0ade29b5d8840dcfd2ed598bac7e315d7f8f7659b8f112a53a3616b05d241d1",
+        "instructionsPath": "instructions/private-function-namespace-private-v6-g6-v1-instructions-v1.md",
+        "instructionsSha256": "d5bedc64764222d8dd3b414e8afed71eba06cd5326ab1de8132e85a440951587",
+        "questions": [
+          "Pine v6 namespace access to a non-exported ordinary library function via lib.pick(3.5), compared with isolated exported forward control."
+        ],
+        "candidateOutcomes": [
+          "compile refusal with exact diagnostic and site",
+          "compile admission",
+          "runtime error if executed",
+          "exported native values if executed",
+          "publication/access unavailable"
+        ],
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "values": "UNSPECIFIED"
+        },
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "NOT-RUN: source-only native capture request",
+        "publicationBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+          "requiredPineVersion": 6,
+          "status": "REQUIRED-UNOBSERVED",
+          "allowedSubstitution": "immutable import path only, explicit executed source/hash and mapping"
+        },
+        "chartContext": {
+          "symbol": "BINANCE:BTCUSDT",
+          "timeframe": "2",
+          "timezone": "Etc/UTC"
+        },
+        "observationWindow": {
+          "closedBars": 32,
+          "sourceUnchanged": true,
+          "excludeOpenBar": true
+        },
+        "attempts": [
+          {
+            "id": "default",
+            "inputs": {}
+          }
+        ]
+      },
+      "observation": {
+        "captureTimestamp": "2026-10-11T12:42:54.313Z",
+        "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+        "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "executedSource": "//@version=6\nindicator(\"Private function namespace v6\")\nimport sours-lat/PrivateFunctionQA6/1 as lib\nplot(lib.pick(3.5), \"RESULT\")\n",
+        "markers": [
+          {
+            "resource": {
+              "$mid": 1,
+              "fsPath": "/67e05e4c-90d1-4c86-a7ee-eb5199115e79.pine",
+              "external": "file:///67e05e4c-90d1-4c86-a7ee-eb5199115e79.pine?placement%3Ddialog",
+              "path": "/67e05e4c-90d1-4c86-a7ee-eb5199115e79.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "owner",
+            "code": "CE10271",
+            "severity": 8,
+            "message": "Could not find method or method reference 'lib.pick'",
+            "startLineNumber": 4,
+            "startColumn": 9,
+            "endLineNumber": 4,
+            "endColumn": 16
+          },
+          {
+            "resource": {
+              "$mid": 1,
+              "external": "file:///67e05e4c-90d1-4c86-a7ee-eb5199115e79.pine?placement%3Ddialog",
+              "path": "/67e05e4c-90d1-4c86-a7ee-eb5199115e79.pine",
+              "scheme": "file",
+              "query": "placement=dialog"
+            },
+            "owner": "_generated_diagnostic_collection_name_#0",
+            "code": "CE10271",
+            "severity": 8,
+            "message": "Could not find method or method reference 'lib.pick'",
+            "startLineNumber": 4,
+            "startColumn": 9,
+            "endLineNumber": 4,
+            "endColumn": 17
+          }
+        ],
+        "chartSetup": {
+          "symbolInfo": {
+            "source2": {
+              "country": "MT",
+              "description": "Binance",
+              "exchange-type": "exchange",
+              "id": "BINANCE",
+              "name": "Binance",
+              "url": "https://www.binance.com/en"
+            },
+            "currency_code": "USDT",
+            "source_id": "BINANCE",
+            "subsession_id": "regular",
+            "provider_id": "binance",
+            "base_currency_id": "XTVCBTC",
+            "base_currency": "BTC",
+            "currency_id": "XTVCUSDT",
+            "format": "price",
+            "formatter": "price",
+            "pro_perm": "",
+            "volume_type": "base",
+            "measure": "price",
+            "allowed_adjustment": "none",
+            "short_description": "Bitcoin / TetherUS",
+            "variable_tick_size": "",
+            "name": "BTCUSDT",
+            "full_name": "BINANCE:BTCUSDT",
+            "pro_name": "BINANCE:BTCUSDT",
+            "base_name": [
+              "BINANCE:BTCUSDT"
+            ],
+            "description": "Bitcoin / TetherUS",
+            "exchange": "Binance",
+            "pricescale": 100,
+            "pointvalue": 1,
+            "minmov": 1,
+            "session": "24x7",
+            "session_display": "24x7",
+            "subsessions": [
+              {
+                "description": "Regular Trading Hours",
+                "id": "regular",
+                "private": false,
+                "session": "24x7",
+                "session-display": "24x7"
+              }
+            ],
+            "type": "spot",
+            "typespecs": [
+              "crypto"
+            ],
+            "has_intraday": true,
+            "fractional": false,
+            "listed_exchange": "BINANCE",
+            "legs": [
+              "BINANCE:BTCUSDT"
+            ],
+            "is_tradable": true,
+            "minmove2": 0,
+            "timezone": "Etc/UTC",
+            "aliases": [],
+            "alternatives": [],
+            "is_replayable": true,
+            "has_adjustment": false,
+            "has_extended_hours": false,
+            "bar_source": "trade",
+            "bar_transform": "none",
+            "bar_fillgaps": false,
+            "visible_plots_set": "ohlcv",
+            "is-tickbars-available": true,
+            "exchange_listed_name": "Binance"
+          },
+          "timeframe": "2",
+          "timezone": "Etc/UTC",
+          "chartStyle": 1,
+          "studySources": [
+            {
+              "id": "NGpOlz",
+              "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+              "status": {
+                "type": 3,
+                "errorDescription": {
+                  "error": "Could not find {kind} '{fullName}'",
+                  "editorError": {
+                    "code": "CE10271",
+                    "ctx": {
+                      "fullName": "lib.pick",
+                      "kind": "method or method reference"
+                    },
+                    "end": {
+                      "column": 16,
+                      "line": 4
+                    },
+                    "message": "Could not find {kind} '{fullName}'",
+                    "start": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+                  },
+                  "title": "Compilation error"
+                }
+              },
+              "plots": [
+                {
+                  "id": "plot_0",
+                  "type": "line"
+                }
+              ],
+              "inputs": {
+                "__fast_calc": false,
+                "__profile": false,
+                "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+                "pineId": "",
+                "pineVersion": "",
+                "text": "bmI9Ks46_6yfDjmB7+2ezwhOlAsDU4A==_/dQj96q2Y91fGk7lCTGrUrOyN7zBeHjrenfdugZpITwSLvPtRk+MxQfRYuj/lp6DC2L2iEqAyAAXWdntytAKUpXEnfRsZL/wyyiVWhVTVNUC70MH2FPXS9WCYcPsKXFjiYzQ4Rozjfa+Ximh9grfiE7CkzdRQljzoXA4jRPRmF3ZIQl8nwzQKEGXaaG33MEu0ZggUmB7wgc4KS7Yt/S6SG4k1cV+dCpD94e4J8po+vlc7dswxfZSkvcGKlY2fGFlClov0wA4UheIjZtY6zPz52ubG+sTra2+2loaSytBRtxy2joWEqup8+vXiEiyoD4RJUKyqfr4DKxYv3/d/307xwEL5a+BWd1rKlY="
+              }
+            }
+          ],
+          "lastPhysicalBar": {
+            "index": 1003,
+            "value": [
+              1791722520,
+              83143.82,
+              83143.82,
+              83131.24,
+              83131.24,
+              1.28316
+            ]
+          }
+        },
+        "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,143.82\nH\n83,143.82\nL\n83,131.24\nC\n83,131.24\n\u221212.58 (\u22120.02%)\n83,131.24\nSELL\n0.01\n83,131.25\nBUY\nVol \u00b7 BTC\n1\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:42:53 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:42\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,143.82\nHigh\n83,143.82\nLow\n83,131.24\nClose\n83,131.24\nChange\n\u221212.58 (\u22120.02%)\nVol\n1.28\nLast day change\n+142.88 (+0.17%)\nVol \u00b7 BTC\nVolume\n1\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=6\nindicator(\"Private\u00a0function\u00a0namespace\u00a0v6\")\nimport\u00a0sours-lat/PrivateFunctionQA6/1\u00a0as\u00a0lib\nplot(lib.pick(3.5),\u00a0\"RESULT\")\n1 of 2 problems\nCould not find method or method reference 'lib.pick'(CE10271)\nLine 4, Col 9\nPine Script\u00ae v6\nUntitled script",
+        "templatePath": "private-function-namespace-private-v6-g6-v1.pine",
+        "templateSha256": "e0ade29b5d8840dcfd2ed598bac7e315d7f8f7659b8f112a53a3616b05d241d1",
+        "role": "consumer",
+        "group": "private-function-namespace-visibility",
+        "inputs": {},
+        "status": "COMPILE-ERROR",
+        "revision": 3,
+        "executedSha256": "e0ade29b5d8840dcfd2ed598bac7e315d7f8f7659b8f112a53a3616b05d241d1",
+        "compilationStatus": "REFUSED",
+        "phase": "INDICATOR-COMPILATION",
+        "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+        "diagnostics": [
+          {
+            "class": "error",
+            "code": "CE10271",
+            "codeAvailability": "EXPOSED",
+            "text": "Could not find method or method reference 'lib.pick'",
+            "line": 4,
+            "column": 9,
+            "owner": "owner"
+          },
+          {
+            "class": "error",
+            "code": "CE10271",
+            "codeAvailability": "EXPOSED",
+            "text": "Could not find method or method reference 'lib.pick'",
+            "line": 4,
+            "column": 9,
+            "owner": "_generated_diagnostic_collection_name_#0"
+          }
+        ],
+        "compilerEvidence": {
+          "file": "native-compiler-responses-v1.json",
+          "nativeRequestIds": [
+            14174,
+            14180,
+            14184
+          ],
+          "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+        },
+        "closedBarCutoff": null,
+        "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+        "numericCredit": false,
+        "libraryBinding": {
+          "requestedImportPath": "sours-lat/PrivateFunctionQA6/1",
+          "actualImportPath": "sours-lat/PrivateFunctionQA6/1",
+          "importPathSubstituted": false,
+          "pineVersion": 6,
+          "sourceSha256": "8ef656d5890fb2ce865fec669bc5948b4a50b675a2dcc79387a034534e304845",
+          "publicationEvidence": "v67/captures/v67/private-function-library-v6-g6-v1/publication-v1/publication-v2.json"
+        },
+        "evidencePath": "private-function-namespace-private-v6-g6-v1/attempt-v1/observation-v3.json"
+      }
+    }
+  ],
+  "naturalControlPairs": [
+    {
+      "id": "private-function-v5",
+      "privateOutcome": "COMPILE-ERROR",
+      "exportedControlOutcome": "RUNS",
+      "privateEvidence": "private-function-namespace-private-v5-g6-v1/attempt-v1/observation-v3.json",
+      "exportedControlEvidence": "private-function-namespace-exported-control-v5-g6-v1/attempt-v1/observation-v3.json",
+      "matchedPhysicalNumericComparison": "UNOBSERVED: private source refuses compilation and has no numeric CSV rows to match; independent successful control CSV retained.",
+      "controlClosedRowCount": 1003,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "RESULT",
+          "uniqueRawStrings": [
+            "13.5"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791722160",
+              "83142.08",
+              "83142.08",
+              "83118",
+              "83125.72",
+              "3.33368",
+              "13.5"
+            ],
+            [
+              "1791722280",
+              "83125.73",
+              "83181.41",
+              "83125.73",
+              "83168.18",
+              "6.62808",
+              "13.5"
+            ],
+            [
+              "1791722400",
+              "83168.17",
+              "83168.18",
+              "83143.81",
+              "83143.82",
+              "3.04343",
+              "13.5"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "private-function-v6",
+      "privateOutcome": "COMPILE-ERROR",
+      "exportedControlOutcome": "RUNS",
+      "privateEvidence": "private-function-namespace-private-v6-g6-v1/attempt-v1/observation-v3.json",
+      "exportedControlEvidence": "private-function-namespace-exported-control-v6-g6-v1/attempt-v1/observation-v3.json",
+      "matchedPhysicalNumericComparison": "UNOBSERVED: private source refuses compilation and has no numeric CSV rows to match; independent successful control CSV retained.",
+      "controlClosedRowCount": 1003,
+      "controlClosedRawReadout": [
+        {
+          "csvOrdinal": 7,
+          "title": "RESULT",
+          "uniqueRawStrings": [
+            "13.5"
+          ],
+          "lastThreeClosedRows": [
+            [
+              "1791722160",
+              "83142.08",
+              "83142.08",
+              "83118",
+              "83125.72",
+              "3.33368",
+              "13.5"
+            ],
+            [
+              "1791722280",
+              "83125.73",
+              "83181.41",
+              "83125.73",
+              "83168.18",
+              "6.62808",
+              "13.5"
+            ],
+            [
+              "1791722400",
+              "83168.17",
+              "83168.18",
+              "83143.81",
+              "83143.82",
+              "3.04343",
+              "13.5"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

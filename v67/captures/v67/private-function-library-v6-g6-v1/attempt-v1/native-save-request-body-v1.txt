@@ -1,0 +1,9 @@
+------WebKitFormBoundaryrh8kQrjuIBCD6aXW
+Content-Disposition: form-data; name="source"
+
+//@version=6
+library("PrivateFunctionQA6")
+pick(float value) => value + 10
+export forward(float value) => pick(value)
+
+------WebKitFormBoundaryrh8kQrjuIBCD6aXW--

@@ -1,0 +1,4 @@
+//@version=5
+library("PrivateFunctionQA5")
+pick(float value) => value + 10
+export forward(float value) => pick(value)
