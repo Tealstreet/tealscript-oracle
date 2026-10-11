@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v74",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "d0017104d21a31e387e93021e1044f83e33a4525",
+  "inventory": {
+    "groups": 1,
+    "scripts": 4,
+    "pineAssetCount": 4,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "inferred-box-parameter",
+      "scripts": 4,
+      "scope": "Pine v5/v6 untyped actual box-handle parameter, paired box/fresh spellings"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "inferred-box-parameter-box-v5-v1",
+      "path": "inferred-box-parameter-box-v5-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "inferred-box-parameter",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "d33246330308dd4663b5bd5a4d4291b13e1cb90e304f82f210742c467720d63e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does the exact untyped parameter named box preserve native builtin box-handle get_top admission and values, and how does it compare with the renamed parameter? No outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Value"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "inferred-box-parameter-box-v6-v1",
+      "path": "inferred-box-parameter-box-v6-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "inferred-box-parameter",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "dad31a779a7f8106509e519eb7fc0d900f9c3da6b2199ad14f973fc1fad96fc0",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "d33246330308dd4663b5bd5a4d4291b13e1cb90e304f82f210742c467720d63e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does the exact untyped parameter named box preserve native builtin box-handle get_top admission and values, and how does it compare with the renamed parameter? No outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Value"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "inferred-box-parameter-fresh-v5-v1",
+      "path": "inferred-box-parameter-fresh-v5-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "inferred-box-parameter",
+      "pineVersion": 5,
+      "role": "control",
+      "sourceSha256": "6d157a60fd0b27437179d8588256982380c1b42711bde594ad9bb3de69799319",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "d33246330308dd4663b5bd5a4d4291b13e1cb90e304f82f210742c467720d63e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does the exact untyped parameter named box preserve native builtin box-handle get_top admission and values, and how does it compare with the renamed parameter? No outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Value"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "inferred-box-parameter-fresh-v6-v1",
+      "path": "inferred-box-parameter-fresh-v6-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "inferred-box-parameter",
+      "pineVersion": 6,
+      "role": "control",
+      "sourceSha256": "a9906d725366c0d4a8df8a8e4ffe3c4769c7693ae97bf46c4006c20523d48260",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "d33246330308dd4663b5bd5a4d4291b13e1cb90e304f82f210742c467720d63e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does the exact untyped parameter named box preserve native builtin box-handle get_top admission and values, and how does it compare with the renamed parameter? No outcome is presumed."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Value"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "governingHandoff": "HANDOFF-v74-v1.md",
+  "sourceRoundProvenance": {
+    "stagingDirectory": "inferred-box-parameter-v3",
+    "publishedRound": "v74",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "Preserve inferred/untyped parameter; explicitly typed captures do not settle these exact sources.",
+    "41 is only an arithmetic control question, not native truth.",
+    "No realtime claim."
+  ]
+}
