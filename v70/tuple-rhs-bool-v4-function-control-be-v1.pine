@@ -1,0 +1,7 @@
+//@version=4
+study("Tuple RHS v4 bool function-control")
+a=1
+b=2
+pair() => [true,false]
+[x,y]=pair()
+plot(1,"VALUE")
