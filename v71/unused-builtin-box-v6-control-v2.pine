@@ -1,0 +1,5 @@
+//@version=6
+indicator("unused-builtin-box-v6-control-v2")
+method inspect(box self) => na(self) ? 7 : 7
+box value = na
+plot(value.inspect())

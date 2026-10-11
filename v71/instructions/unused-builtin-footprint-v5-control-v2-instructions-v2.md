@@ -1,0 +1,5 @@
+# unused-builtin-footprint-v5-control-v2
+
+Use BINANCE:BTCUSDT, 2 minutes, UTC, default inputs, new indicator. Paste the exact source and save/compile. If refused capture the complete compiler text, code if exposed, and line/column. Distinguish an unknown/unavailable builtin type or version/entitlement refusal from an unused-method-receiver refusal. If admitted add to chart, capture any runtime error text/site/bar, otherwise export original chart CSV including Plot after at least32 closed bars. Preserve sourceSHA and actual chart context in screenshot notes.
+
+Question: does this used first receiver of builtin footprint type admit and RUN with Plot7, refuse for unused receiver, refuse for unavailable type/version/entitlement, or raise a runtime error? Native outcome UNSPECIFIED. This control reads the receiver via na(self); both conditional branches return7. Declared Point UDT captures do not settle builtin receivers. V5 footprint availability may prevent observing the unused-receiver facet; retain that limit rather than attributing any earlier error to unusedness. No realtime or provider availability claim.
