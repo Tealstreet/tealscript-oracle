@@ -1,0 +1,173 @@
+{
+  "captureTimestamp": "2026-10-11T18:54:58.809Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"V76 var tuple method v5\")\ntype Probe\n    int value\nmethod f(Probe self) => [self.value, self.value + 1]\nholder = Probe.new(1)\n[a, b] = holder.f()\nplot(a, \"A\")\nplot(b, \"B\")\nplot(1, \"VALUE\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///3b20ac7d-13b5-4205-9bf5-cb4818ff37c0.pine?placement%3Ddialog",
+        "path": "/3b20ac7d-13b5-4205-9bf5-cb4818ff37c0.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "KN36ix",
+        "title": "V76 var tuple method v5 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          },
+          {
+            "id": "plot_1",
+            "type": "line"
+          },
+          {
+            "id": "plot_2",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"type\":1,\"user_methods\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_fPNsMBDbFh7sF+ya/7/LOQ==_+/8vSKq4IBzFrfK8DnVde8DxpR6j0jd07kUAoAKb+3vagtGdZaW7j6JgZ9P+Hj32dmYrju0y0uchLy2SivCmMm07B9dRaNHm+mbCPcWohqR8PY2arfEI5s9ya/5yVEJsr747ePdULyhjfGk/eBrxnOePjIW0uGtQ5n+vkwtiPgH0DhHWtdHKRXvcFJK+Oo84FWe0v8Ky1EhcSgI78QOtuV1ZLrnm8v5e2ggGZJosyKPc57KV7I2ma2jKdLdQmHTd3+jMHA3QXKV1XtK0rxSkrinf3GnkCUlyO+v6elHm5NsytTZTJKdpM/LkqtgckrBhtisy4p2lcZxz1keBtwZ2IVbUYc7ubt6IPw9/BwYjdNkCN8+nOwAFSsGUA7sMHyrHJvQykvRj1N2i60wC+jyEm2c+87OylQK7iF6fOXAQQJzagyIvqrBPsjnLkVNXU+ZPED0W6mpbFiiWqrKy6YJMuCq/cogmCz2SCBTTXkFxacuF+/gnElHYc2jfrwvDiY6RYpz0Djnh8xW3OvWGmVwIr6TYByR+bmPgAvw6qdo+Yu2GDazfWgjKpYPXLo8dDDv9VAxQkoIHU4xyJD3HuoPmswx8hSKya+iCLbcnxU5JLibYhiOMC0QmS9UW6TouQPKH"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1189,
+      "value": [
+        1791744840,
+        83598.01,
+        83608.23,
+        83598,
+        83608.23,
+        2.1159
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,598.01\nH\n83,608.23\nL\n83,598.00\nC\n83,608.23\n+10.22 (+0.01%)\n83,609.00\nSELL\n0.01\n83,609.01\nBUY\nVol \u00b7 BTC\n2\nUSDT\nV76 var tuple method v5\n1.00\n2.00\n1.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n18:54:58 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n18:54\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,598.01\nHigh\n83,608.23\nLow\n83,598.00\nClose\n83,608.23\nChange\n+10.22 (+0.01%)\nVol\n2.12\nLast day change\n+619.87 (+0.75%)\nVol \u00b7 BTC\nVolume\n2\nV76 var tuple method v5\nA\n1.00\nB\n2.00\nVALUE\n1.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n//@version=5\nindicator(\"V76\u00a0var\u00a0tuple\u00a0method\u00a0v5\")\ntype\u00a0Probe\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0f(Probe\u00a0self)\u00a0=>\u00a0[self.value,\u00a0self.value\u00a0+\u00a01]\nholder\u00a0=\u00a0Probe.new(1)\n[a,\u00a0b]\u00a0=\u00a0holder.f()\nplot(a,\u00a0\"A\")\nplot(b,\u00a0\"B\")\nplot(1,\u00a0\"VALUE\")\nLine 1, Col 1\nPine Script\u00ae v5\nUntitled script",
+  "templatePath": "v76-var-tuple-method-v5-be-v1-control.pine",
+  "templateSha256": "2d6aa14f266c7a7a4614db0823621caf1885ac03bc53d2720c55f9e50f01520d",
+  "role": "control",
+  "group": "var-varip-tuple-declarations",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "2d6aa14f266c7a7a4614db0823621caf1885ac03bc53d2720c55f9e50f01520d",
+  "closedBarCutoff": "1791744720",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T18:55:00.636Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "A",
+      "B",
+      "VALUE"
+    ],
+    "rowCount": 1931,
+    "closedRowCount": 1930,
+    "openRowTimestamps": [
+      "1791744840"
+    ],
+    "sourceIsolated": true
+  }
+}

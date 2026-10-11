@@ -1,0 +1,233 @@
+{
+  "captureTimestamp": "2026-10-11T18:56:15.515Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"V76 var tuple method v6\")\ntype Probe\n    int value\nmethod f(Probe self) => [self.value, self.value + 1]\nholder = Probe.new(1)\nvar [a, b] = holder.f()\nplot(a, \"A\")\nplot(b, \"B\")\nplot(1, \"VALUE\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/f49c476c-ca06-4fdf-aa56-a4bc059cff9a.pine",
+        "external": "file:///f49c476c-ca06-4fdf-aa56-a4bc059cff9a.pine?placement%3Ddialog",
+        "path": "/f49c476c-ca06-4fdf-aa56-a4bc059cff9a.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "code": "CE10150",
+      "severity": 8,
+      "message": "\"\"var\"\" cannot be used as a variable or function name.",
+      "startLineNumber": 7,
+      "startColumn": 1,
+      "endLineNumber": 7,
+      "endColumn": 3
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///f49c476c-ca06-4fdf-aa56-a4bc059cff9a.pine?placement%3Ddialog",
+        "path": "/f49c476c-ca06-4fdf-aa56-a4bc059cff9a.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "CE10150",
+      "severity": 8,
+      "message": "\"\"var\"\" cannot be used as a variable or function name.",
+      "startLineNumber": 7,
+      "startColumn": 1,
+      "endLineNumber": 7,
+      "endColumn": 4
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "c2B7ko",
+        "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "\"{keyword}\" cannot be used as a variable or function name.",
+            "editorError": {
+              "code": "CE10150",
+              "ctx": {
+                "keyword": "\"var\""
+              },
+              "end": {
+                "column": 3,
+                "line": 7
+              },
+              "message": "\"{keyword}\" cannot be used as a variable or function name.",
+              "start": {
+                "column": 1,
+                "line": 7
+              },
+              "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_oKBa/iOykwevon1DkFy2Qg==_75L3udFts8SdRIG8puKT3J/DmuTq0bZRmGOpuAZ8SlCVcKocVxAxPzE1HRmJlhRRZeQVOGGm2T4aTanNIgjBGb0u0SyfyQL2sGF41Zsu/mpFp465/FF9S+KLEXuBoSzz9JNUYEP97qmT3tlNU52GE1HJwHbXfjSWVnLLUj31VZSg0b5h2yutriy+Qw4/mRFKEn202ywJGZk2s/hxC6kaOyDy//p9n9KV2WlFIH2DTJaH0Von8Iqmo6kkwjjaBUvxQGGidTxOUd0ArAQmsttyoki5AQO6QFh4afZhZZyc3m/rQhdJAUQ5bpQaYFsbbxzV+PT2iLzxuvnyRqUz4jZpRCQx0zVDGKq7Sik3"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1190,
+      "value": [
+        1791744960,
+        83679.77,
+        83679.78,
+        83664.81,
+        83664.82,
+        1.77636
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,679.77\nH\n83,679.78\nL\n83,664.81\nC\n83,664.82\n\u221214.96 (\u22120.02%)\n83,664.81\nSELL\n0.01\n83,664.82\nBUY\nVol \u00b7 BTC\n2\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n18:56:14 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n18:56\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,679.77\nHigh\n83,679.78\nLow\n83,664.81\nClose\n83,664.82\nChange\n\u221214.96 (\u22120.02%)\nVol\n1.78\nLast day change\n+676.45 (+0.82%)\nVol \u00b7 BTC\nVolume\n2\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n//@version=6\nindicator(\"V76\u00a0var\u00a0tuple\u00a0method\u00a0v6\")\ntype\u00a0Probe\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0f(Probe\u00a0self)\u00a0=>\u00a0[self.value,\u00a0self.value\u00a0+\u00a01]\nholder\u00a0=\u00a0Probe.new(1)\nvar\u00a0[a,\u00a0b]\u00a0=\u00a0holder.f()\nplot(a,\u00a0\"A\")\nplot(b,\u00a0\"B\")\nplot(1,\u00a0\"VALUE\")\n1 of 2 problems\n\"\"var\"\" cannot be used as a variable or function name.(CE10150)\nLine 7, Col 1\nPine Script\u00ae v6\nUntitled script",
+  "templatePath": "v76-var-tuple-method-v6-be-v1-target.pine",
+  "templateSha256": "93c02f8e6945f11ef61a5f8ea66147f2bef5292821d19ed26a7bf53846e1a4a5",
+  "role": "target",
+  "group": "var-varip-tuple-declarations",
+  "inputs": {},
+  "status": "COMPILE-ERROR",
+  "revision": 3,
+  "executedSha256": "93c02f8e6945f11ef61a5f8ea66147f2bef5292821d19ed26a7bf53846e1a4a5",
+  "compilationStatus": "REFUSED",
+  "phase": "INDICATOR-COMPILATION",
+  "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+  "diagnostics": [
+    {
+      "class": "error",
+      "code": "CE10150",
+      "codeAvailability": "EXPOSED",
+      "text": "\"\"var\"\" cannot be used as a variable or function name.",
+      "line": 7,
+      "column": 1,
+      "owner": "owner"
+    },
+    {
+      "class": "error",
+      "code": "CE10150",
+      "codeAvailability": "EXPOSED",
+      "text": "\"\"var\"\" cannot be used as a variable or function name.",
+      "line": 7,
+      "column": 1,
+      "owner": "_generated_diagnostic_collection_name_#0"
+    }
+  ],
+  "compilerEvidence": {
+    "file": "native-compiler-responses-v1.json",
+    "nativeRequestIds": [
+      16480,
+      16486,
+      16490
+    ],
+    "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+  "numericCredit": false,
+  "nativeNetworkWindow": {
+    "revision": 1,
+    "probe": "v76-var-tuple-method-v6-be-v1-target",
+    "requestIdAfter": 16472,
+    "requestIdThrough": 16495,
+    "reason": "Bounds preserve the independent attempt identity even for byte-identical renamed control sources."
+  },
+  "creditLimits": {
+    "closedHistoricalInputsOnly": true,
+    "intrabarPersistenceRollback": false,
+    "initializationCadence": false,
+    "unusedDeclaration": false,
+    "functionSyntaxMethod": false,
+    "tupleContentGeneralization": false,
+    "otherVersions": false
+  }
+}

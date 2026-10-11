@@ -1,0 +1,155 @@
+{
+  "captureTimestamp": "2026-10-11T18:57:05.219Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"V76 varip tuple method v6\")\ntype Probe\n    int value\nmethod f(Probe self) => [self.value, self.value + 1]\nholder = Probe.new(1)\n[a, b] = holder.f()\nplot(a, \"A\")\nplot(b, \"B\")\nplot(1, \"VALUE\")\n",
+  "markers": [],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "ihy2CU",
+        "title": "V76 varip tuple method v6 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          },
+          {
+            "id": "plot_1",
+            "type": "line"
+          },
+          {
+            "id": "plot_2",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"type\":1,\"user_methods\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_92jMmzxqh7NfdnZOzeTEgw==_sKjLcNzTAtbFwPofVsnkrYwyDhMXFXpkqC8+EetUSyYJ3+wCfZ55jFNvgTuJbv/ARHrzO5DWyiIV0IxPygr/pEd4ms9FqPO0EHYmpd1PlsrqiI1FJZAF4k3t2igNScvyP0JAmIm4NnCL52BhL9PqoR7DyT+GLv5siKtW23LRZqE/kU56YR3VNP+d0GPrZNkytXv+gO89gEII38+yV4JoyDx/7FGbt79kyuDbaEiYwbYLR961zJXtPuZDIksLQ38XLU9/3CuvMqMfW30dFH/DIJkv8wHdZbiP+1Hkq4LnrWfUrqb4baIdpcgkKix9EyGnAUK4FdGEGhW5bYBsmXON9+MeFi4+L744SSUYwWlI/EOcjcw5I+n5Xmigh6JlGmL8jh0tLRvRM6+L14srLR7sGUkYrsQXMYVRPUBsM+ncd+xl9sX1DXu7WeDaO2TZX+yCbeC7182KxoHVDeEsQxzja5UjLFmrEna2tCm1Q8Zpclm8JZoRLAgNefEgmtsZaQ/s6hA28lmUiPeK6mGacBhV/BmGJJeLUmeN8U9uWH2TFo8jFp6THB2SZOUVCdIspRsSkTpnAPeu+YaBlzSAHBUstvuzY459wtK424Gczt8fzDXgJhSfbHNQ+SiO8IulZx1zThYuzPe5fdyzA5nhY+0="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1190,
+      "value": [
+        1791744960,
+        83679.77,
+        83690.01,
+        83662,
+        83678,
+        4.25248
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,679.77\nH\n83,690.01\nL\n83,662.00\nC\n83,678.00\n\u22121.78 (\u22120.00%)\n83,676.00\nSELL\n0.01\n83,676.01\nBUY\nVol \u00b7 BTC\n4\nUSDT\nV76 varip tuple method v6\n1.00\n2.00\n1.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n18:57:04 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n18:56\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,679.77\nHigh\n83,690.01\nLow\n83,662.00\nClose\n83,678.00\nChange\n\u22121.78 (\u22120.00%)\nVol\n4.25\nLast day change\n+689.64 (+0.83%)\nVol \u00b7 BTC\nVolume\n4\nV76 varip tuple method v6\nA\n1.00\nB\n2.00\nVALUE\n1.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n//@version=6\nindicator(\"V76\u00a0varip\u00a0tuple\u00a0method\u00a0v6\")\ntype\u00a0Probe\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0f(Probe\u00a0self)\u00a0=>\u00a0[self.value,\u00a0self.value\u00a0+\u00a01]\nholder\u00a0=\u00a0Probe.new(1)\n[a,\u00a0b]\u00a0=\u00a0holder.f()\nplot(a,\u00a0\"A\")\nplot(b,\u00a0\"B\")\nplot(1,\u00a0\"VALUE\")\nLine 1, Col 1\nPine Script\u00ae v6\nUntitled script",
+  "templatePath": "v76-varip-tuple-method-v6-be-v1-control.pine",
+  "templateSha256": "f104d867906a284edafac57ab961b5ba3a71905067da31348e2815d0053954cd",
+  "role": "control",
+  "group": "var-varip-tuple-declarations",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "f104d867906a284edafac57ab961b5ba3a71905067da31348e2815d0053954cd",
+  "closedBarCutoff": "1791744840",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T18:57:07.375Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "A",
+      "B",
+      "VALUE"
+    ],
+    "rowCount": 1932,
+    "closedRowCount": 1931,
+    "openRowTimestamps": [
+      "1791744960"
+    ],
+    "sourceIsolated": true
+  }
+}

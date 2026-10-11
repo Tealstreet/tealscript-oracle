@@ -1,0 +1,173 @@
+{
+  "captureTimestamp": "2026-10-11T18:55:40.812Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"V76 varip tuple method v5\")\ntype Probe\n    int value\nmethod f(Probe self) => [self.value, self.value + 1]\nholder = Probe.new(1)\n[a, b] = holder.f()\nplot(a, \"A\")\nplot(b, \"B\")\nplot(1, \"VALUE\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///d02e623c-61ae-4bcd-bb9d-dd5b3510f366.pine?placement%3Ddialog",
+        "path": "/d02e623c-61ae-4bcd-bb9d-dd5b3510f366.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "RtFoX5",
+        "title": "V76 varip tuple method v5 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          },
+          {
+            "id": "plot_1",
+            "type": "line"
+          },
+          {
+            "id": "plot_2",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"type\":1,\"user_methods\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_MO5uQf2aAtflRdWP+7jjeg==_cWsxAjVbZul7lQZmVL6HdxA8YmjnjICC9itTbKdnAD2rOlwQHnn5cN3BER4Yd+I+a2RG8Qo+6KVEPdqm28CKguKZbMpQb/20f3qcmCT9ol579DKBDSfWsYNjHv6fKZNFa2TICyjyqRdgC6BgfeuJDGP+mtdlcGXHHOAbGiepkdIiXCVP3l/HZyoINLWYbKuXp4MmRI5RgLRMhr7QbHGG36P11e5mvIQ5LjxaRS/E9kpQFeDLWzReVFj2Q6R5uDr5p22OO90JVXxiqgNfmij9MiPx4pcvhuV2cliWjGhnnsyyQlBTcZNFf1Up0fx5w1VZ7n4G10zJsGe+a2QM63F4vriwLnE0HMqjEo/SputnVGhlcruLk09OgLGhEJRkd7PAE2pKNZ4b6/rl7olNM/ZvUR1hAllMev6uJD79jk5GPlspZmjIF3XKSpmJjUKHd2e4feeZhMHT2xQm4gokWD0v2LGCXgzrGBXfs3MYXTJuglLYYOKtFLmSUbKFsPITIzCY3M1eIkH3CiaPzkKB/xuhIIujF9vG1vF8ngWCo32b+sEqbNRkgD9hVGSH4OxO2Nc2dBu63Y8oyWyz8AYzjUg5sHoMHRaXkHURRhRrzQUEsDHJ2y5fZoxzVcpvGPpncPt1"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1189,
+      "value": [
+        1791744840,
+        83598.01,
+        83642,
+        83598,
+        83642,
+        6.96641
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,598.01\nH\n83,642.00\nL\n83,598.00\nC\n83,642.00\n+43.99 (+0.05%)\n83,641.99\nSELL\n0.01\n83,642.00\nBUY\nVol \u00b7 BTC\n7\nUSDT\nV76 varip tuple method v5\n1.00\n2.00\n1.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n18:55:40 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n18:54\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,598.01\nHigh\n83,642.00\nLow\n83,598.00\nClose\n83,642.00\nChange\n+43.99 (+0.05%)\nVol\n6.97\nLast day change\n+653.64 (+0.79%)\nVol \u00b7 BTC\nVolume\n7\nV76 varip tuple method v5\nA\n1.00\nB\n2.00\nVALUE\n1.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n//@version=5\nindicator(\"V76\u00a0varip\u00a0tuple\u00a0method\u00a0v5\")\ntype\u00a0Probe\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0f(Probe\u00a0self)\u00a0=>\u00a0[self.value,\u00a0self.value\u00a0+\u00a01]\nholder\u00a0=\u00a0Probe.new(1)\n[a,\u00a0b]\u00a0=\u00a0holder.f()\nplot(a,\u00a0\"A\")\nplot(b,\u00a0\"B\")\nplot(1,\u00a0\"VALUE\")\nLine 1, Col 1\nPine Script\u00ae v5\nUntitled script",
+  "templatePath": "v76-varip-tuple-method-v5-be-v1-control.pine",
+  "templateSha256": "da95a0518a1533d688881ed3f52368795a9847a92a0040e95e2b531306b174ba",
+  "role": "control",
+  "group": "var-varip-tuple-declarations",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "da95a0518a1533d688881ed3f52368795a9847a92a0040e95e2b531306b174ba",
+  "closedBarCutoff": "1791744720",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T18:55:42.687Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "A",
+      "B",
+      "VALUE"
+    ],
+    "rowCount": 1931,
+    "closedRowCount": 1930,
+    "openRowTimestamps": [
+      "1791744840"
+    ],
+    "sourceIsolated": true
+  }
+}
