@@ -1,0 +1,170 @@
+[
+  {
+    "revision": 1,
+    "context": "annotation",
+    "pineVersion": 5,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "CONTEXT-UNMET: binder interaction is masked by the invalid footprint type keyword",
+    "natural": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-annotation-v5-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-annotation-v5-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-annotation-v5-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  },
+  {
+    "revision": 1,
+    "context": "annotation",
+    "pineVersion": 6,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "OBSERVED: natural binder name refuses; renamed control is admitted in this exact context",
+    "natural": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-annotation-v6-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "RUNS",
+      "evidence": "footprint-annotation-v6-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-annotation-v6-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  },
+  {
+    "revision": 1,
+    "context": "parameter",
+    "pineVersion": 5,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "CONTEXT-UNMET: binder interaction is masked by the invalid footprint type keyword",
+    "natural": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-parameter-v5-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-parameter-v5-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-parameter-v5-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  },
+  {
+    "revision": 1,
+    "context": "parameter",
+    "pineVersion": 6,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "OBSERVED: both binder spellings are admitted in this ordinary used function parameter",
+    "natural": {
+      "status": "RUNS",
+      "evidence": "footprint-parameter-v6-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "RUNS",
+      "evidence": "footprint-parameter-v6-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-parameter-v6-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  },
+  {
+    "revision": 1,
+    "context": "var",
+    "pineVersion": 5,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "CONTEXT-UNMET: binder interaction is masked by the invalid footprint type keyword",
+    "natural": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-var-v5-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-var-v5-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-var-v5-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  },
+  {
+    "revision": 1,
+    "context": "var",
+    "pineVersion": 6,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "OBSERVED: natural binder name refuses; renamed control is admitted in this exact context",
+    "natural": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-var-v6-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "RUNS",
+      "evidence": "footprint-var-v6-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-var-v6-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  },
+  {
+    "revision": 1,
+    "context": "request-call",
+    "pineVersion": 5,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "CONTEXT-UNMET: binder interaction is masked by unavailable request.footprint function",
+    "natural": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-request-call-v5-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-request-call-v5-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-request-call-v5-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  },
+  {
+    "revision": 1,
+    "context": "request-call",
+    "pineVersion": 6,
+    "onlyBindingSpellingChangedVerified": true,
+    "binderInteractionFacet": "OBSERVED: natural binder name refuses; renamed control is admitted in this exact context",
+    "natural": {
+      "status": "COMPILE-ERROR",
+      "evidence": "footprint-request-call-v6-natural-v1/attempt-v1/observation-v3.json"
+    },
+    "renamedControl": {
+      "status": "RUNS",
+      "evidence": "footprint-request-call-v6-renamed-control-v1/attempt-v1/observation-v3.json"
+    },
+    "grammarControl": {
+      "status": "RUNS",
+      "evidence": "footprint-request-call-v6-grammar-control-v1/attempt-v1/observation-v3.json",
+      "footprintAdmissionCredit": false
+    },
+    "numericFootprintCorrectness": false
+  }
+]

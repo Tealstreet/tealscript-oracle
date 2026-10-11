@@ -1,0 +1,142 @@
+{
+  "captureTimestamp": "2026-10-11T19:01:41.707Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"v77 footprint var\")\nvar box fp = na\nplot(na(fp) ? 7 : 8)\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///f64769f9-d810-4325-bfa7-0ab4a45f4328.pine?placement%3Ddialog",
+        "path": "/f64769f9-d810-4325-bfa7-0ab4a45f4328.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "N4ZyJi",
+        "title": "v77 footprint var (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_s9DxF27M2Xh8EqFgRcWQqg==_wVB1Xx1YhgPCEl+oj0sgGWZf30QyPTTAr7eFhlixdhz+xAXikUDZI9VZ5auHNvp7dxmyRMEerfyzIEXJWr74bI+eRgVtmQ8iIqacXBzGwHjx3pcW9Ii2A8IoXr1KoNKLUaqKnUVrZgxXYPPco8sq2JdlSe3EP4dId0gmUFmoE+CSc7znufJZm6CC90nQgKCixUuoGt8MZ17W16KSxB8Az76gbdzEB86Lal9EeREfj3Zm932CElfAoz/vjNaXNQ8Z2zusJbLl6rNG4vKuKyS3EAHRylHIQm42M2TQXRqBnOFV+hdjeEhUvuLuBTnW8tg2YVnEyUIjRic7CBdpqoKmLL3EZU33S8A06ZQJ61erfzlXeUqwuagTaPK0B3CYgvzAZvXZUgz5rj7KKb2BjkUY2KmSr+nIQFJ2QsNkwGK7VJJTZtFXz2ge34oQGaM="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1192,
+      "value": [
+        1791745200,
+        83678.01,
+        83688.21,
+        83670,
+        83688.2,
+        4.57703
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,678.01\nH\n83,688.21\nL\n83,670.00\nC\n83,688.20\n+10.19 (+0.01%)\n83,688.20\nSELL\n0.01\n83,688.21\nBUY\nVol · BTC\n5\nUSDT\nv77 footprint var\n7.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n19:01:40 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n19:00\nBTCUSDT · 2 · Binance\nOpen\n83,678.01\nHigh\n83,688.21\nLow\n83,670.00\nClose\n83,688.20\nChange\n+10.19 (+0.01%)\nVol\n4.58\nLast day change\n+699.84 (+0.84%)\nVol · BTC\nVolume\n5\nv77 footprint var\nPlot\n7.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nindicator(\"v77 footprint var\")\nvar box fp = na\nplot(na(fp) ? 7 : 8)\nLine 1, Col 1\nPine Script® v5\nUntitled script",
+  "templatePath": "footprint-var-v5-grammar-control-v1.pine",
+  "templateSha256": "afdea5f4914ff10617fa13a81df582034b8d19e3e3f8dd3f302d8ea592112407",
+  "role": "grammar-control",
+  "group": "var",
+  "inputs": {},
+  "status": "RUNS"
+}
