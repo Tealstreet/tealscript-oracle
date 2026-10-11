@@ -1,0 +1,9 @@
+//@version=5
+indicator("Local UDT table declaration")
+type Holder
+    int value
+
+read() =>
+    Holder table = Holder.new(17)
+    17
+plot(read(), "RESULT")

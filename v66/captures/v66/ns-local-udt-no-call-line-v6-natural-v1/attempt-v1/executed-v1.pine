@@ -1,0 +1,9 @@
+//@version=6
+indicator("Local UDT line declaration")
+type Holder
+    int value
+
+read() =>
+    Holder line = Holder.new(17)
+    17
+plot(read(), "RESULT")
