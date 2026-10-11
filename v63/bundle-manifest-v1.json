@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v63",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "24e63070c988c6062c7af0d0457bd993fb4340c7",
+  "inventory": {
+    "groups": 1,
+    "scripts": 8,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "pineAssetCount": 8,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "custom-ta-boundaries",
+      "scripts": 8,
+      "scope": "Custom UDT methods change/rsi/highest/crossover called through a parameter named ta, Pine v5/v6"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "custom-ta-change-v5-v61-v1",
+      "path": "custom-ta-change-v5-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 5,
+      "role": "consumer",
+      "method": "change",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "84a3987874996c25f66391a79aca4448f7ce9435d42e1d10ab01459eb9311bfb",
+      "instructionsPath": "instructions/custom-ta-change-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "a49c4311df6f63f4d2b541623a5cf8ba9f16a7e18b8f84e87f74a11e1757d6bb",
+      "questions": [
+        "Does this custom UDT call named ta.change run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "custom-ta-change-v6-v61-v1",
+      "path": "custom-ta-change-v6-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 6,
+      "role": "consumer",
+      "method": "change",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "d515566e3c4983d1e1bafbfd0e8fe63f93af1f4f9ad7483bf88e1697e2979e5a",
+      "instructionsPath": "instructions/custom-ta-change-v6-v61-v1-instructions-v1.md",
+      "instructionsSha256": "f3310acaa0b12de6cdfcf8870bfae51ee48fd7cd7a4a205bd4d92e56120cdc0a",
+      "questions": [
+        "Does this custom UDT call named ta.change run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "custom-ta-crossover-v5-v61-v1",
+      "path": "custom-ta-crossover-v5-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 5,
+      "role": "consumer",
+      "method": "crossover",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "e5827f8674d4c868d30053c68109a4eba32b6c6690071342ca26aeec5bbc1d2e",
+      "instructionsPath": "instructions/custom-ta-crossover-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "e839b8cada5b8ca7c1f421e3fb81d8b9d7693d6d7f2edca09df04f34b401fa94",
+      "questions": [
+        "Does this custom UDT call named ta.crossover run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "custom-ta-crossover-v6-v61-v1",
+      "path": "custom-ta-crossover-v6-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 6,
+      "role": "consumer",
+      "method": "crossover",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "f9c18ce5b90dd692d2b1cbaf69f291c2b8cd22607daa07cd8ebef21f54b941d1",
+      "instructionsPath": "instructions/custom-ta-crossover-v6-v61-v1-instructions-v1.md",
+      "instructionsSha256": "835d712e67d08ec7ab6c1f4fb38c226b5ad5ddf8600d50ecc66b75d13fdafec3",
+      "questions": [
+        "Does this custom UDT call named ta.crossover run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "custom-ta-highest-v5-v61-v1",
+      "path": "custom-ta-highest-v5-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 5,
+      "role": "consumer",
+      "method": "highest",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "db77e49f8015925c3e8d0e977a19f18a2792ad5e0fb002581cfe208121917fea",
+      "instructionsPath": "instructions/custom-ta-highest-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "09d1f9681b986baaa428d8165446b465f9a3b2e8f37d99cc69ca7dc519b6e7ee",
+      "questions": [
+        "Does this custom UDT call named ta.highest run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "custom-ta-highest-v6-v61-v1",
+      "path": "custom-ta-highest-v6-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 6,
+      "role": "consumer",
+      "method": "highest",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "79f936b4e2e225b8c5008b448e171bcf9c2ca4fa7c6b6a7f60d02fbd0de8017d",
+      "instructionsPath": "instructions/custom-ta-highest-v6-v61-v1-instructions-v1.md",
+      "instructionsSha256": "25d4d6d432760c73de1c25cb283f62955df7432db4d10a32e862a63e76e665b8",
+      "questions": [
+        "Does this custom UDT call named ta.highest run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "custom-ta-rsi-v5-v61-v1",
+      "path": "custom-ta-rsi-v5-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 5,
+      "role": "consumer",
+      "method": "rsi",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "a487a802124b01e44efe5d27e4019d1f0f725de7c10fae58b9caa087872574b0",
+      "instructionsPath": "instructions/custom-ta-rsi-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "33e40d279ff35dcf7733da0485e10cbd3cdc5f83543ebf47070d942dc7800e0e",
+      "questions": [
+        "Does this custom UDT call named ta.rsi run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "custom-ta-rsi-v6-v61-v1",
+      "path": "custom-ta-rsi-v6-v61-v1.pine",
+      "owner": "codex-w0bo0b",
+      "group": "custom-ta-boundaries",
+      "pineVersion": 6,
+      "role": "consumer",
+      "method": "rsi",
+      "ledgerPacket": "instructions/producer-manifest-v1.json",
+      "sourceSha256": "7476720a067e6111f0dad34f7c03c83111261141a565d52689a7416ab239d90a",
+      "instructionsPath": "instructions/custom-ta-rsi-v6-v61-v1-instructions-v1.md",
+      "instructionsSha256": "d11c984cf158bcb0ebd284a8577483646f10411898c6b72f987a265f791db748",
+      "questions": [
+        "Does this custom UDT call named ta.rsi run, or does native refuse it as builtin shadowing?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "governingHandoff": "HANDOFF-v63-v1.md",
+  "sourceRoundProvenance": {
+    "requestedRound": "v61",
+    "publishedRound": "v63",
+    "reason": "v62 already pushed when this packet arrived",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "v59 sma/ema refusals and w0Value admission do not establish outcomes for these four method names.",
+    "No general namespace policy or realtime behavior is requested."
+  ]
+}

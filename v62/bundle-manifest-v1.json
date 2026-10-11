@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v62",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "aec31308d99b6fc3b89dbf5e2a5ae0fa7572a61a",
+  "inventory": {
+    "groups": 1,
+    "scripts": 8,
+    "pairs": 4,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "pineAssetCount": 8,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "ns-param-naming",
+      "scripts": 8,
+      "scope": "Local-UDT custom dot vs actual box-handle builtin dot, natural/renamed v5/v6 pairs"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1",
+      "path": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "box-handle-builtin-dot-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "17213151578c477cdca2e7e772779bc4be315419fa863691039e6ce8800e6c5b",
+      "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1-instructions-v1.md",
+      "instructionsSha256": "b64d890c72bbda43f6d94b621612292fc75f3f7d8ea58a9e434548305769dd5e",
+      "questions": [
+        "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1",
+      "path": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "box-handle-builtin-dot-v5",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "32b04707ba15112706c7d96aa2be71448cf16838faa8f10f67fd168640771231",
+      "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1-instructions-v1.md",
+      "instructionsSha256": "c349784ecbbeefa2f5874272c5c462d66aeb7b7f9edc7b66c63de291f2fe0072",
+      "questions": [
+        "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1",
+      "path": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "box-handle-builtin-dot-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "ff1d2c3bd4ae5a3026668b231d70cc93212dcf268c19330a555928c7c556546d",
+      "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1-instructions-v1.md",
+      "instructionsSha256": "f708f847b95ac0c9e909c0e69ab29affd24e07bce52182681c361d39bca52cda",
+      "questions": [
+        "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1",
+      "path": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "box-handle-builtin-dot-v6",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "9fadd9a787be8cad40940300b506009343d0d04beb4130118c00d9b789a39a44",
+      "instructionsPath": "instructions/ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1-instructions-v1.md",
+      "instructionsSha256": "a1afb37e18265ffdc111efbbd4629d90f7366668adf61a65c630f189db133d13",
+      "questions": [
+        "Does an actual box-handle parameter named box allow receiver get_top() with no explicit ID, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1",
+      "path": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "local-udt-custom-dot-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "5f297c860c9a85f5f62b17fdc8546f57e897e8971655c0613ac0c01286d326cc",
+      "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1-instructions-v1.md",
+      "instructionsSha256": "269f459e12a69e8005298d269804cc630e0df9c098805c4fcc24bf34ac17570b",
+      "questions": [
+        "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1",
+      "path": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "local-udt-custom-dot-v5",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "d913b2dcac09c40f20655a469782c55ead842acdd81906eea30d02d3406f5078",
+      "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1-instructions-v1.md",
+      "instructionsSha256": "230e106dedcdf7241bc2528e75e1604efde4f1d23744f194b5a3e43d4df9bb8a",
+      "questions": [
+        "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1",
+      "path": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "local-udt-custom-dot-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "2685e875aa95a53d4867a6fdd708a07856061d323cbed841e2a1d259c27faaab",
+      "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1-instructions-v1.md",
+      "instructionsSha256": "2164319212f451da0387eab66a271414612ea4f52b50b46c41d802be6af3c45d",
+      "questions": [
+        "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1",
+      "path": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "ns-param-naming",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "local-udt-custom-dot-v6",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "66e655cdebcb81b2a0536c51a6f22e245879a0676a66f5ad30596be563f9fd6d",
+      "instructionsPath": "instructions/ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1-instructions-v1.md",
+      "instructionsSha256": "840fc9599b35933d29e6ad79082beea15f9b4bfef5d8b617b3ae0a8fe76456fd",
+      "questions": [
+        "Does a local Holder-typed variable named box allow its custom readValue() dot call, compared with the holder-renamed control?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error with exact message and bar",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "id": "box-handle-builtin-dot-v5",
+      "natural": "ns-param-naming-box-handle-builtin-dot-v5-natural-v61-v1.pine",
+      "renamedControl": "ns-param-naming-box-handle-builtin-dot-v5-renamed-control-v61-v1.pine",
+      "comparison": "identical closed physical rows; independent compile and runtime records"
+    },
+    {
+      "id": "box-handle-builtin-dot-v6",
+      "natural": "ns-param-naming-box-handle-builtin-dot-v6-natural-v61-v1.pine",
+      "renamedControl": "ns-param-naming-box-handle-builtin-dot-v6-renamed-control-v61-v1.pine",
+      "comparison": "identical closed physical rows; independent compile and runtime records"
+    },
+    {
+      "id": "local-udt-custom-dot-v5",
+      "natural": "ns-param-naming-local-udt-custom-dot-v5-natural-v61-v1.pine",
+      "renamedControl": "ns-param-naming-local-udt-custom-dot-v5-renamed-control-v61-v1.pine",
+      "comparison": "identical closed physical rows; independent compile and runtime records"
+    },
+    {
+      "id": "local-udt-custom-dot-v6",
+      "natural": "ns-param-naming-local-udt-custom-dot-v6-natural-v61-v1.pine",
+      "renamedControl": "ns-param-naming-local-udt-custom-dot-v6-renamed-control-v61-v1.pine",
+      "comparison": "identical closed physical rows; independent compile and runtime records"
+    }
+  ],
+  "governingHandoff": "HANDOFF-v62-v1.md",
+  "sourceRoundProvenance": {
+    "requestedRound": "v61",
+    "publishedRound": "v62",
+    "reason": "v61 already published when this packet arrived",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "v59 UDT-parameter custom-dot results do not establish these local-variable and drawing-handle boundaries."
+  ]
+}
