@@ -1,0 +1,237 @@
+{
+  "captureTimestamp": "2026-10-11T13:14:42.955Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"TA custom boundary stdev\")\ntype Holder\n    int value\nmethod stdev(Holder self, int n) =>\n    self.value + n\nf(Holder ta) =>\n    ta.stdev(13) * 2 + 1\nplot(f(Holder.new(7)))\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/ecda4629-0c9f-47bc-a396-5f6b1850df8c.pine",
+        "external": "file:///ecda4629-0c9f-47bc-a396-5f6b1850df8c.pine?placement%3Ddialog",
+        "path": "/ecda4629-0c9f-47bc-a396-5f6b1850df8c.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "severity": 8,
+      "message": "ta.stdev() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+      "startLineNumber": 8,
+      "startColumn": 5,
+      "endLineNumber": 8,
+      "endColumn": 16
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///ecda4629-0c9f-47bc-a396-5f6b1850df8c.pine?placement%3Ddialog",
+        "path": "/ecda4629-0c9f-47bc-a396-5f6b1850df8c.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///ecda4629-0c9f-47bc-a396-5f6b1850df8c.pine?placement%3Ddialog",
+        "path": "/ecda4629-0c9f-47bc-a396-5f6b1850df8c.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "severity": 8,
+      "message": "ta.stdev() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+      "startLineNumber": 8,
+      "startColumn": 5,
+      "endLineNumber": 8,
+      "endColumn": 17
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "Q8HNij",
+        "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "ta.stdev() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+            "editorError": {
+              "end": {
+                "column": 16,
+                "line": 8
+              },
+              "message": "ta.stdev() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+              "start": {
+                "column": 5,
+                "line": 8
+              },
+              "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_Ae0mQIgVCGcYGoa1LvNVEg==_bmcpwxcvGuG1ceqb3P3dDPcflL2Y+MdxxLJ7W/N1Jlk79GJt9M4/AyhX7S5oBpsdWsmDcIhXKGEcDXQvpIkSZNCkG3JLJV+o9auXWGjZNkrehhTJXDBEFfmBEeX6QKv8NjQKeoacmBj+zaf++L3sPP5sNCsPATApwBLTvJ4wjKCTcdnD0fJFcKJw0ypYz2MVvsXiah736unJfFXwrrcZ7V3uirq/2qB5jMbz5NkawJNZfD8NZM0r96tVOR0lEe32o56+lD5q+1BCfkRjFPGkBKP6zYeZ6lF7GCH7JdDZW/HcrEmaOOeMbd5toEYATZWeR4M5eAPVxe6NaA75"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1019,
+      "value": [
+        1791724440,
+        83097.61,
+        83097.61,
+        83097.6,
+        83097.61,
+        1.43139
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,097.61\nH\n83,097.61\nL\n83,097.60\nC\n83,097.61\n0.00 (0.00%)\n83,097.60\nSELL\n0.01\n83,097.61\nBUY\nVol \u00b7 BTC\n1\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n13:14:42 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n13:14\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,097.61\nHigh\n83,097.61\nLow\n83,097.60\nClose\n83,097.61\nChange\n0.00 (0.00%)\nVol\n1.43\nLast day change\n+109.25 (+0.13%)\nVol \u00b7 BTC\nVolume\n1\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n//@version=5\nindicator(\"TA\u00a0custom\u00a0boundary\u00a0stdev\")\ntype\u00a0Holder\n\u00a0\u00a0\u00a0\u00a0int\u00a0value\nmethod\u00a0stdev(Holder\u00a0self,\u00a0int\u00a0n)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0self.value\u00a0+\u00a0n\nf(Holder\u00a0ta)\u00a0=>\n\u00a0\u00a0\u00a0\u00a0ta.stdev(13)\u00a0*\u00a02\u00a0+\u00a01\nplot(f(Holder.new(7)))\n1 of 3 problems\nta.stdev() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.\nLine 8, Col 5\nPine Script\u00ae v5\nUntitled script",
+  "templatePath": "custom-ta-stdev-v5-v63-followup-v1.pine",
+  "templateSha256": "5f6903e196b558e7694289d62cd32731e29df8d88a058e94e5d4825f0cd9e541",
+  "role": "consumer",
+  "group": "custom-ta-boundaries",
+  "inputs": {},
+  "status": "COMPILE-ERROR",
+  "revision": 3,
+  "executedSha256": "5f6903e196b558e7694289d62cd32731e29df8d88a058e94e5d4825f0cd9e541",
+  "compilationStatus": "REFUSED",
+  "phase": "INDICATOR-COMPILATION",
+  "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+  "diagnostics": [
+    {
+      "class": "error",
+      "code": null,
+      "codeAvailability": "UNAVAILABLE",
+      "text": "ta.stdev() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+      "line": 8,
+      "column": 5,
+      "owner": "owner"
+    },
+    {
+      "class": "warning",
+      "code": "PINE_VERSION_OUTDATED",
+      "codeAvailability": "EXPOSED",
+      "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "line": 1,
+      "column": 3,
+      "owner": "_generated_diagnostic_collection_name_#0"
+    },
+    {
+      "class": "error",
+      "code": null,
+      "codeAvailability": "UNAVAILABLE",
+      "text": "ta.stdev() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+      "line": 8,
+      "column": 5,
+      "owner": "_generated_diagnostic_collection_name_#0"
+    }
+  ],
+  "compilerEvidence": {
+    "file": "native-compiler-responses-v1.json",
+    "nativeRequestIds": [
+      14328,
+      14336,
+      14340
+    ],
+    "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+  },
+  "closedBarCutoff": null,
+  "closedBarCutoffReason": "Compilation refusal prevented successful numeric execution/export.",
+  "numericCredit": false
+}
