@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v73",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "6b2319703130b2970ff67770b68818937a9f7893",
+  "inventory": {
+    "groups": 2,
+    "scripts": 15,
+    "pineAssetCount": 15,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "namespace-set-top",
+      "scripts": 10,
+      "scope": "Five original Holder.set_top namespace-parameter shapes in v5 and v6"
+    },
+    {
+      "id": "renamed-controls",
+      "scripts": 5,
+      "scope": "Five v6 paired non-namespace Holder parameter controls"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "box-holder-control-v1",
+      "path": "box-holder-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "renamed-controls",
+      "pineVersion": 6,
+      "role": "control",
+      "sourceSha256": "f8e4dec3b2376d54e140093a0c0b39b1cadd6af84d8f11f02e7c63c385f1ba02",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "label-holder-control-v1",
+      "path": "label-holder-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "renamed-controls",
+      "pineVersion": 6,
+      "role": "control",
+      "sourceSha256": "d9651995d3202e658dcf1982fcc2d7d92f1469a17c7e1a8443c9dde033bc52b7",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "line-holder-control-v1",
+      "path": "line-holder-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "renamed-controls",
+      "pineVersion": 6,
+      "role": "control",
+      "sourceSha256": "227a3843e0f78591337ad3b57708ad1198261248f2e3d1654179cd70c77d16cd",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "linefill-holder-control-v1",
+      "path": "linefill-holder-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "renamed-controls",
+      "pineVersion": 6,
+      "role": "control",
+      "sourceSha256": "3795130e844e787b9847364b6f4fc9673ed5020d9139e7ecc92fe28c399dab77",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-box-v5-v1",
+      "path": "ns-param-set-top-box-v5-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "d7001a4e75cf01f0a9e764676a1585f2ae198d0abcf3cafb7bd80ebabb62bc98",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-box-v6-v1",
+      "path": "ns-param-set-top-box-v6-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "74a85b2acee04ef09cdd3628a51033ce64095fee07401182c8e995b80103b271",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-label-v5-v1",
+      "path": "ns-param-set-top-label-v5-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "7218728cb4a061128a49ee93dbe050aea55e68c3beb2d39a879ca8bcaf4ea2b5",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-label-v6-v1",
+      "path": "ns-param-set-top-label-v6-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "0eccf6d83590605cc1620385ab3cf20d58c7c46ad13f65bb224380026d521968",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-line-v5-v1",
+      "path": "ns-param-set-top-line-v5-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-line-v6-v1",
+      "path": "ns-param-set-top-line-v6-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "2326af4e840fe3c9aacef09b7919b04e313ae9f3e17f5443ce1aa246c896aad9",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-linefill-v5-v1",
+      "path": "ns-param-set-top-linefill-v5-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "f47ca76c3e3a0dcc1c0e787aa94c71687eadf7ad51012482c415b80eb869e9b8",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-linefill-v6-v1",
+      "path": "ns-param-set-top-linefill-v6-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "4dbe28b0d2887c1f09aef3d22d363af01a4569bf77f0c65e2e559a9274ddd449",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-table-v5-v1",
+      "path": "ns-param-set-top-table-v5-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "49563d167c96aa3e518ea1caa172301bda52ae9db48bdf70c1fcde68e15ee61a",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-param-set-top-table-v6-v1",
+      "path": "ns-param-set-top-table-v6-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "namespace-set-top",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "7ec2cc95b950fa4d40cbb5fbb8264ad775b248b7924bc187de87bee710759d94",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "table-holder-control-v1",
+      "path": "table-holder-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "group": "renamed-controls",
+      "pineVersion": 6,
+      "role": "control",
+      "sourceSha256": "db7a92915ba75ff0ebb7da9ef77f2ee11375de99e7c675c9afe7bbaf59868baa",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "48dbd8bf653f38e41ac93c04897be2418e5aa14b05b14d0848a7d22caa1e648f",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does this exact custom Holder.set_top receiver parameter spelling admit, refuse, or execute another route? Record native outcomes without predicting from TealScript."
+      ],
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "plots": [
+        "Plot"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary",
+        "session": "24x7"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "governingHandoff": "HANDOFF-v73-v1.md",
+  "sourceRoundProvenance": {
+    "stagingDirectory": "set-top-namespace-v3",
+    "publishedRound": "v73",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "Arithmetic value20 is a capture question, not native expected truth.",
+    "Native v59 w0Value sources and v62/v66 local variable probes do not settle these exact set_top programs.",
+    "No realtime claim."
+  ]
+}

@@ -1,0 +1,9 @@
+//@version=5
+indicator("UDT collision")
+type Holder
+    int value
+method set_top(Holder self, int x) =>
+    self.value + x
+f(Holder box) =>
+    box.set_top(13)
+plot(f(Holder.new(7)))
