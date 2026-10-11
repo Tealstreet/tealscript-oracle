@@ -1,0 +1,24 @@
+# v74 agent response v1
+
+Batch 56 `9dc666803fcc420f7651cd9c8d78fde76b91b217` is pushed to pine-parity-integration-v4. Root: **naming**, codex-1xjtos, `fc1747e42463cc3b7b46398d4ce3e0121221a421`. Inventory: [attempt-inventory-v1.json](captures/v74/attempt-inventory-v1.json) (SHA256 `494b244b8c981904a07455a8715955c21b69a9d32691256f336246a42a67c23a`). Landed fixture union: 1,239 sorted entries at oracle `ee640c966180f35325c50999413ebb155a6c99b3`.
+
+The inferred actual-box parameter naturals and fresh-named controls are consumed by naming, independently of the earlier explicitly typed receiver witnesses.
+
+4 attempts: 4 fixture-bound consumed, 0 not consumed; 0 masked CONTEXT-UNMET facets. Consuming a masking refusal does not answer the masked question.
+
+| Attempt | State / owner root | Pushed batch commit | Native outcome / credited scope | Fixture entries |
+| --- | --- | --- | --- | --- |
+| `inferred-box-parameter-box-v5-v1` | CONSUMED / 1xjtos / naming / `fc1747e42463cc3b7b46398d4ce3e0121221a421` | 56 / `9dc666803fcc420f7651cd9c8d78fde76b91b217` | COMPILE-ERROR; Exact captured compile or closed-row scope only. | `v74/captures/v74/inferred-box-parameter-box-v5-v1/attempt-v1/executed-v1.pine` (SHA256 `6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc`)<br>`v74/captures/v74/inferred-box-parameter-box-v5-v1/attempt-v1/observation-v3.json` (SHA256 `e0134953d7e55f735b7f2e19cd6adc51e9fadf0cbd222e6cb3437bf82ab83748`) |
+| `inferred-box-parameter-box-v6-v1` | CONSUMED / 1xjtos / naming / `fc1747e42463cc3b7b46398d4ce3e0121221a421` | 56 / `9dc666803fcc420f7651cd9c8d78fde76b91b217` | COMPILE-ERROR; Exact captured compile or closed-row scope only. | `v74/captures/v74/inferred-box-parameter-box-v6-v1/attempt-v1/executed-v1.pine` (SHA256 `dad31a779a7f8106509e519eb7fc0d900f9c3da6b2199ad14f973fc1fad96fc0`)<br>`v74/captures/v74/inferred-box-parameter-box-v6-v1/attempt-v1/observation-v3.json` (SHA256 `91996422d90fab078aac3566a4122a96cab7a8195d41da2a073c38726d216d0c`) |
+| `inferred-box-parameter-fresh-v5-v1` | CONSUMED / 1xjtos / naming / `fc1747e42463cc3b7b46398d4ce3e0121221a421` | 56 / `9dc666803fcc420f7651cd9c8d78fde76b91b217` | RUNS; Exact captured compile or closed-row scope only. | `v74/captures/v74/inferred-box-parameter-fresh-v5-v1/attempt-v1/executed-v1.pine` (SHA256 `6d157a60fd0b27437179d8588256982380c1b42711bde594ad9bb3de69799319`)<br>`v74/captures/v74/inferred-box-parameter-fresh-v5-v1/attempt-v1/native-v1.csv` (SHA256 `d48fe3a3dcc34996fb308978a098bf9c9750239ffd9d950dfadabd394bc6ef3f`)<br>`v74/captures/v74/inferred-box-parameter-fresh-v5-v1/attempt-v1/observation-v3.json` (SHA256 `03f9b67603107622e08ee522c5c0b2b2db52b286a7590696958a1ca3291bda2b`) |
+| `inferred-box-parameter-fresh-v6-v1` | CONSUMED / 1xjtos / naming / `fc1747e42463cc3b7b46398d4ce3e0121221a421` | 56 / `9dc666803fcc420f7651cd9c8d78fde76b91b217` | RUNS; Exact captured compile or closed-row scope only. | `v74/captures/v74/inferred-box-parameter-fresh-v6-v1/attempt-v1/executed-v1.pine` (SHA256 `a9906d725366c0d4a8df8a8e4ffe3c4769c7693ae97bf46c4006c20523d48260`)<br>`v74/captures/v74/inferred-box-parameter-fresh-v6-v1/attempt-v1/native-v1.csv` (SHA256 `58d76a9771a8e2c50f03b23165023f88abc8fbeb3e7ba5be28f771996646b15d`)<br>`v74/captures/v74/inferred-box-parameter-fresh-v6-v1/attempt-v1/observation-v3.json` (SHA256 `87a3487d4966e134baac5b8f8cfd0e46c773942ebc101797b80ee853a4bba291`) |
+
+## Receipt authority v1
+
+- Root freeze: `/home/sam/cs/docs/tealscript-parity-archive/ledger/v62-box-local-naming-1xjtos-v1/FREEZE-v4.json` (SHA256 `e298e819e47e84a47419f39bac6892750d8ce69e25bdee7410e7ab974b81bcb4`).
+- Crossed QA: `/home/sam/cs/docs/tealscript-parity-archive/ledger/v62-box-local-naming-1xjtos-v1/QA-DELTA-jjs8ff-v2.md` (SHA256 `3aa93a5736011105471e1cb05727d3528bdbb4b749b528c04ac5089a4bef5cf1`). Production verification carries through the frozen normal-merge successor; the batch receipts bind the landed tip.
+- Batch freeze and push: `/home/sam/cs/docs/tealscript-parity-archive/ledger/restart-20261006/integration-batch56-v1/FREEZE-v1.json`; `/home/sam/cs/docs/tealscript-parity-archive/ledger/restart-20261006/integration-batch56-v1/PUSH-v1.json`.
+- Batch crossed composition QA: `/home/sam/cs/docs/tealscript-parity-archive/ledger/restart-20261006/integration-batch56-v1/QA-DELTA-jjs8ff-v1.md`.
+- Successful quiet run: `/home/sam/cs/docs/tealscript-parity-archive/ledger/restart-20261006/integration-batch56-v1/FINISH-v1.json` (31,652 passed, zero failed, zero overlap).
+
+Fixture entries are from packages/tealscript/oracle-fixtures.json at the root and landed batch commits; paths are oracle-relative. Every listed file matches its locked byte count and SHA256. No raw captures were copied into tealstreet-next. No open-row, realtime, visual-only or unavailable native-code credit is inferred.
