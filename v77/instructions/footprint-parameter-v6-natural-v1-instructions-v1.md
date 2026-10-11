@@ -1,0 +1,14 @@
+# footprint-parameter-v6-natural-v1 instructions v1
+
+Question: Pine v6 ordinary function parameter with a live use; not a method and not an unused receiver. Role: natural. Native outcome UNSPECIFIED.
+
+1. Fresh indicator draft for this exact .pine; retain //@version=6, indicator title, all source bytes, and SHA256. Do not repair, rename, change arguments or upgrade a refusal. The separate renamed-control file changes only binding/use spelling footprint to fp; the type keyword or request.footprint member spelling remains unchanged.
+2. Chart BINANCE:BTCUSDT (Binance), ordinary candles, 2 minutes, Etc/UTC, 24x7, default inputs; at least32 closed physical bars. Record symbol/provider/timeframe/timezone/session, source/hash, capture timestamp, and account plan/entitlement state if the UI exposes it. No Bar Replay/live-tick requirement. Type-only probes do not request footprint data.
+3. Save/add the indicator. Capture the first compiler refusal and ALL returned markers with verbatim text, code/class, line:column, owner, source identity and editor/error screenshot. Record compiler and add-to-chart phases separately. A plan/provider/unavailable-type error is not permission to alter source. Do not collapse an earlier type/name failure into a later runtime conclusion.
+4. If admitted, record runtime status and first runtime error with exact text and bar/time, plus chart/settings screenshot. If it runs, use TradingView Export chart data including this indicator and preserve ORIGINAL CSV time/OHLCV/Plot headers, strings, missing cells, at least32 closed rows, closed cutoff and excluded open row identity. If CSV is unavailable, record that limitation and a Data Window screenshot for Plot; screenshot-only evidence does not certify the32-cell vector. Capture compile-only admission even if later add/export is unavailable.
+
+Decision rule: Record whether the exact footprint type annotation is accepted in this context. The source reads its handle and exposes the result in Plot. No unused-method rule is exercised. A keyword refusal is type availability evidence at the exact marker, not a conclusion about request.footprint.
+
+Compare this exact source to its same-version natural/renamed pair and the same-context other-version source. Both renamed forms refusing the same keyword supports a context-specific keyword refusal; only one name failing exposes a naming interaction rather than blanket unavailability. Both RUN supports admission only for this context/version. Unrelated syntax, plan or provider masking leaves the target facet CONTEXT-UNMET. Preserve runtime errors and unexpected Plot values without substituting a predicted result. Grammar controls also have unspecified native outcomes.
+
+Return executed source, immutable SHA256, observation JSON, compiler/Save response and markers, screenshots/settings, runtime status and original CSV if available. No engine output is a native oracle.

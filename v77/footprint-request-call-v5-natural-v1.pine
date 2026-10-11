@@ -1,0 +1,4 @@
+//@version=5
+indicator("v77 footprint request-call")
+footprint = request.footprint(100, 70, 300)
+plot(na(footprint) ? 0 : 1)
