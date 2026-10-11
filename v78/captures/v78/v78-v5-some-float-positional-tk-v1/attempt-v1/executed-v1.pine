@@ -1,0 +1,4 @@
+//@version=5
+indicator("v78-v5-some-float-positional-tk-v1", max_bars_back=64)
+array<float> items = array.from(0.0, -7.5, 2.25)
+plot(array.some(items) ? 1 : 0, "RESULT")

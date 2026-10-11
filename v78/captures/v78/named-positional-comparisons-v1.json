@@ -1,0 +1,278 @@
+[
+  {
+    "revision": 1,
+    "pair": "v5-every-int",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "RUNS",
+    "namedEvidence": "v78-v5-every-int-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "RUNS",
+    "positionalEvidence": "v78-v5-every-int-positional-tk-v1/attempt-v1/observation-v3.json",
+    "originalClosedResultComparison": {
+      "kind": "DERIVED-CSV-COMPARISON",
+      "sharedClosedBars": 2008,
+      "exactRawStringMatches": 2008,
+      "mismatches": 0,
+      "numericCredit": "Exact supplied int/float array constants only",
+      "originalFilesUnchanged": true
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v5-every-float",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "RUNS",
+    "namedEvidence": "v78-v5-every-float-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "RUNS",
+    "positionalEvidence": "v78-v5-every-float-positional-tk-v1/attempt-v1/observation-v3.json",
+    "originalClosedResultComparison": {
+      "kind": "DERIVED-CSV-COMPARISON",
+      "sharedClosedBars": 2008,
+      "exactRawStringMatches": 2008,
+      "mismatches": 0,
+      "numericCredit": "Exact supplied int/float array constants only",
+      "originalFilesUnchanged": true
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v5-every-string",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v5-every-string-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v5-every-string-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        21
+      ],
+      "positionalLineColumn": [
+        4,
+        18
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call 'array.every' with argument 'id'='items'. An argument of 'array<string>' type was used but a 'array<bool>' is expected.",
+      "nativeCode": null,
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v5-some-int",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "RUNS",
+    "namedEvidence": "v78-v5-some-int-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "RUNS",
+    "positionalEvidence": "v78-v5-some-int-positional-tk-v1/attempt-v1/observation-v3.json",
+    "originalClosedResultComparison": {
+      "kind": "DERIVED-CSV-COMPARISON",
+      "sharedClosedBars": 2008,
+      "exactRawStringMatches": 2008,
+      "mismatches": 0,
+      "numericCredit": "Exact supplied int/float array constants only",
+      "originalFilesUnchanged": true
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v5-some-float",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "RUNS",
+    "namedEvidence": "v78-v5-some-float-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "RUNS",
+    "positionalEvidence": "v78-v5-some-float-positional-tk-v1/attempt-v1/observation-v3.json",
+    "originalClosedResultComparison": {
+      "kind": "DERIVED-CSV-COMPARISON",
+      "sharedClosedBars": 2008,
+      "exactRawStringMatches": 2008,
+      "mismatches": 0,
+      "numericCredit": "Exact supplied int/float array constants only",
+      "originalFilesUnchanged": true
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v5-some-string",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v5-some-string-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v5-some-string-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        20
+      ],
+      "positionalLineColumn": [
+        4,
+        17
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call 'array.some' with argument 'id'='items'. An argument of 'array<string>' type was used but a 'array<bool>' is expected.",
+      "nativeCode": null,
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v6-every-int",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v6-every-int-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v6-every-int-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        21
+      ],
+      "positionalLineColumn": [
+        4,
+        18
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call \"array.every\" with argument \"id\"=\"items\". An argument of \"array<int>\" type was used but a \"array<bool>\"  is expected.",
+      "nativeCode": "CE10123",
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v6-every-float",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v6-every-float-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v6-every-float-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        21
+      ],
+      "positionalLineColumn": [
+        4,
+        18
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call \"array.every\" with argument \"id\"=\"items\". An argument of \"array<float>\" type was used but a \"array<bool>\"  is expected.",
+      "nativeCode": "CE10123",
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v6-every-string",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v6-every-string-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v6-every-string-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        21
+      ],
+      "positionalLineColumn": [
+        4,
+        18
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call \"array.every\" with argument \"id\"=\"items\". An argument of \"array<string>\" type was used but a \"array<bool>\"  is expected.",
+      "nativeCode": "CE10123",
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v6-some-int",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v6-some-int-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v6-some-int-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        20
+      ],
+      "positionalLineColumn": [
+        4,
+        17
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call \"array.some\" with argument \"id\"=\"items\". An argument of \"array<int>\" type was used but a \"array<bool>\"  is expected.",
+      "nativeCode": "CE10123",
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v6-some-float",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v6-some-float-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v6-some-float-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        20
+      ],
+      "positionalLineColumn": [
+        4,
+        17
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call \"array.some\" with argument \"id\"=\"items\". An argument of \"array<float>\" type was used but a \"array<bool>\"  is expected.",
+      "nativeCode": "CE10123",
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  },
+  {
+    "revision": 1,
+    "pair": "v6-some-string",
+    "sourceDifferenceVerified": "Role-specific indicator title plus named id=items versus positional items; all other bytes identical",
+    "namedStatus": "COMPILE-ERROR",
+    "namedEvidence": "v78-v6-some-string-named-tk-v1/attempt-v1/observation-v3.json",
+    "positionalStatus": "COMPILE-ERROR",
+    "positionalEvidence": "v78-v6-some-string-positional-tk-v1/attempt-v1/observation-v3.json",
+    "diagnosticComparison": {
+      "sameNativeErrorText": true,
+      "sameExposedCodeOrUnavailability": true,
+      "namedLineColumn": [
+        4,
+        20
+      ],
+      "positionalLineColumn": [
+        4,
+        17
+      ],
+      "sitesEqual": false,
+      "duplicateMarkerOwnersPreserved": true,
+      "nativeMessage": "Cannot call \"array.some\" with argument \"id\"=\"items\". An argument of \"array<string>\" type was used but a \"array<bool>\"  is expected.",
+      "nativeCode": "CE10123",
+      "numericPairComparison": "UNOBSERVED: both sources refuse compilation"
+    }
+  }
+]

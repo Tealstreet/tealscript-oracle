@@ -1,0 +1,284 @@
+{
+  "captureTimestamp": "2026-10-11T21:31:36.367Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"v78-v5-some-float-positional-tk-v1\", max_bars_back=64)\narray<float> items = array.from(0.0, -7.5, 2.25)\nplot(array.some(items) ? 1 : 0, \"RESULT\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///ed0c3608-b787-4155-9050-9013f053db79.pine?placement%3Ddialog",
+        "path": "/ed0c3608-b787-4155-9050-9013f053db79.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///ed0c3608-b787-4155-9050-9013f053db79.pine?placement%3Ddialog",
+        "path": "/ed0c3608-b787-4155-9050-9013f053db79.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "severity": 4,
+      "message": "The `id` parameter of the `array.some` function accepts a 'bool' argument. To avoid potential unexpected results, pass a 'bool' value or expression to this parameter.",
+      "startLineNumber": 4,
+      "startColumn": 17,
+      "endLineNumber": 4,
+      "endColumn": 22
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "xl6VUN",
+        "title": "v78-v5-some-float-positional-tk-v1 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1,\"array\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_xZs/zo9mQm6NBI2dsXGWNQ==_9SWa02Q9JciHyTqOo7yyKajbxuHAnLTG0VjTlmhVqlzBFZcJ4k5RiPKNled7Qt4Z+GetuCUtPygybS5yOpCXoK8K6DVAIicq21kfdeSCaF8iH+2o068pd+YpKluFnTUptxfzbkMW2aZ9ofZWi0eISe3dQS8tuGiMM+rcpJDp2ru+S2NKWD8RqEjhm/8/CBfXZgHo5blsQAjMfKiixqq6AmWXvAMgpQQa7F4KQldMAmXESTu3M+Bq9ppJXG25Y/djjGlUPcGK+NMuLGUQ32s9/9Gf6XQwnxOFgHja+bSzyQJiEZaUPkZdW1xE0oPMXAje8vk2f6kYgfshw0W1B1ss3DQm0q9NkaDovOVksIIFyMJ0dg2KypZei93P5p4opkg35H0NWimZciDecsxs9SML1Hg7TyIz+/faa33XqsB3z4qydn/LpqW5t4mvITRiWQgVy1ab1naQBv61RsURfooG2n/ZLsJdTe9rw8LkxdC9Z+8jAMmtavL3wUn8czP34LbrU+yW6V/GSSM="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1267,
+      "value": [
+        1791754200,
+        83444.91,
+        83448.06,
+        83430.19,
+        83448.05,
+        3.55002
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,444.91\nH\n83,448.06\nL\n83,430.19\nC\n83,448.05\n+3.14 (+0.00%)\n83,448.05\nSELL\n0.01\n83,448.06\nBUY\nVol \u00b7 BTC\n4\nUSDT\nv78-v5-some-float-positional-tk-v1\n1.00\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n21:31:35 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n21:30\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,444.91\nHigh\n83,448.06\nLow\n83,430.19\nClose\n83,448.05\nChange\n+3.14 (+0.00%)\nVol\n3.55\nLast day change\n+459.69 (+0.55%)\nVol \u00b7 BTC\nVolume\n4\nv78-v5-some-float-positional-tk-v1\nRESULT\n1.00\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nindicator(\"v78-v5-some-float-positional-tk-v1\",\u00a0max_bars_back=64)\narray<float>\u00a0items\u00a0=\u00a0array.from(0.0,\u00a0-7.5,\u00a02.25)\nplot(array.some(items)\u00a0?\u00a01\u00a0:\u00a00,\u00a0\"RESULT\")\nLine 1, Col 1\nPine Script\u00ae v5\nUntitled script",
+  "templatePath": "v78-v5-some-float-positional-tk-v1.pine",
+  "templateSha256": "37cdbe65ab668416351a8ad3e6549f73e6c5d742f4c891da66da8d0efe53f010",
+  "role": "positional",
+  "group": "named-id-nonbool-predicate",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "37cdbe65ab668416351a8ad3e6549f73e6c5d742f4c891da66da8d0efe53f010",
+  "closedBarCutoff": "1791754080",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T21:31:38.171Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "RESULT"
+    ],
+    "rowCount": 2009,
+    "closedRowCount": 2008,
+    "openRowTimestamps": [
+      "1791754200"
+    ],
+    "sourceIsolated": true,
+    "sha256": "406fa67fb1ef65cf4a57e751922ee5d962f18e7b60c72b723e82bfaef068495f"
+  },
+  "revision": 3,
+  "compilationStatus": "ADMITTED",
+  "phase": "INDICATOR-RUNTIME",
+  "diagnosticCodePolicy": "Native codes retained when exposed; absent v5 codes remain unavailable. Duplicate marker owners are preserved.",
+  "diagnostics": [
+    {
+      "class": "warning",
+      "code": "PINE_VERSION_OUTDATED",
+      "codeAvailability": "EXPOSED",
+      "text": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "line": 1,
+      "column": 3,
+      "owner": "_generated_diagnostic_collection_name_#0"
+    },
+    {
+      "class": "warning",
+      "code": null,
+      "codeAvailability": "UNAVAILABLE",
+      "text": "The `id` parameter of the `array.some` function accepts a 'bool' argument. To avoid potential unexpected results, pass a 'bool' value or expression to this parameter.",
+      "line": 4,
+      "column": 17,
+      "owner": "_generated_diagnostic_collection_name_#0"
+    }
+  ],
+  "compilerEvidence": {
+    "file": "native-compiler-responses-v1.json",
+    "nativeRequestIds": [
+      17627,
+      17633,
+      17636
+    ],
+    "sourceIdentityPolicy": "Native source request matches exact source after CRLF transport normalization; full native compiler/Save response bodies retained without headers."
+  },
+  "closedBarCutoffReason": "Confirmed against the native export-time physical bar by the capture helper; preserved excluded row timestamps and export timestamp are independently audited. Chart setup was sampled before export and may precede a bar rollover.",
+  "exportContext": {
+    "revision": 1,
+    "exportTimestamp": "2026-10-11T21:31:38.171Z",
+    "currentPhysicalBar": {
+      "index": 1267,
+      "value": [
+        1791754200,
+        83444.91,
+        83448.06,
+        83430.19,
+        83448.06,
+        4.11789
+      ]
+    },
+    "nativeBlobTimestamp": "2026-10-11T21:31:37.553Z"
+  },
+  "numericCredit": true,
+  "closedObserverReadouts": [
+    {
+      "csvOrdinal": 7,
+      "title": "RESULT",
+      "uniqueRawStrings": [
+        "1"
+      ],
+      "lastThreeClosedRows": [
+        [
+          "1791753840",
+          "83363.16",
+          "83420.3",
+          "83363.16",
+          "83394.53",
+          "9.94333",
+          "1"
+        ],
+        [
+          "1791753960",
+          "83394.54",
+          "83420.3",
+          "83361.77",
+          "83420.3",
+          "7.01574",
+          "1"
+        ],
+        [
+          "1791754080",
+          "83420.29",
+          "83444.92",
+          "83420.29",
+          "83444.91",
+          "3.98492",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "observerCredit": "Original closed RESULT cells for the exact supplied array constants only",
+  "nativeNetworkWindow": {
+    "revision": 1,
+    "probe": "v78-v5-some-float-positional-tk-v1",
+    "requestIdAfter": 17618,
+    "requestIdThrough": 17650,
+    "reason": "Bounds preserve the independent attempt identity even for byte-identical renamed control sources."
+  },
+  "creditLimits": {
+    "exactSuppliedArrayElementsOnly": true,
+    "otherArrayContents": false,
+    "otherArgumentNames": false,
+    "intrabarOrRealtime": false,
+    "otherVersions": false
+  }
+}

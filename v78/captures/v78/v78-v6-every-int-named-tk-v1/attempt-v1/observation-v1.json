@@ -1,0 +1,185 @@
+{
+  "captureTimestamp": "2026-10-11T21:32:09.210Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"v78-v6-every-int-named-tk-v1\", max_bars_back=64)\narray<int> items = array.from(0, -7, 2)\nplot(array.every(id=items) ? 1 : 0, \"RESULT\")\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "fsPath": "/150f26d0-c0fd-4960-90be-7da61e8f3a8b.pine",
+        "external": "file:///150f26d0-c0fd-4960-90be-7da61e8f3a8b.pine?placement%3Ddialog",
+        "path": "/150f26d0-c0fd-4960-90be-7da61e8f3a8b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "owner",
+      "code": "CE10123",
+      "severity": 8,
+      "message": "Cannot call \"array.every\" with argument \"id\"=\"items\". An argument of \"array<int>\" type was used but a \"array<bool>\"  is expected.",
+      "startLineNumber": 4,
+      "startColumn": 21,
+      "endLineNumber": 4,
+      "endColumn": 25
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///150f26d0-c0fd-4960-90be-7da61e8f3a8b.pine?placement%3Ddialog",
+        "path": "/150f26d0-c0fd-4960-90be-7da61e8f3a8b.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "CE10123",
+      "severity": 8,
+      "message": "Cannot call \"array.every\" with argument \"id\"=\"items\". An argument of \"array<int>\" type was used but a \"array<bool>\"  is expected.",
+      "startLineNumber": 4,
+      "startColumn": 21,
+      "endLineNumber": 4,
+      "endColumn": 26
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "jQbd1g",
+        "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+        "status": {
+          "type": 3,
+          "errorDescription": {
+            "error": "Cannot call \"{funId}\" with argument \"{argDisplayName}\"=\"{argUserFriendlyRepresentation}\". An argument of \"{argumentType}\" type was used but a \"{currentTypeDocStr}\" {typePostfix} is expected.",
+            "editorError": {
+              "code": "CE10123",
+              "ctx": {
+                "argDisplayName": "id",
+                "argUserFriendlyRepresentation": "items",
+                "argumentType": "array<int>",
+                "currentTypeDocStr": "array<bool>",
+                "funId": "array.every",
+                "typePostfix": ""
+              },
+              "end": {
+                "column": 25,
+                "line": 4
+              },
+              "message": "Cannot call \"{funId}\" with argument \"{argDisplayName}\"=\"{argUserFriendlyRepresentation}\". An argument of \"{argumentType}\" type was used but a \"{currentTypeDocStr}\" {typePostfix} is expected.",
+              "start": {
+                "column": 21,
+                "line": 4
+              },
+              "id": "USER;0523f0a612c1498fb5c48a7bbb70b216"
+            },
+            "title": "Compilation error"
+          }
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"indicator\":1,\"plot\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_tMo+70QenQrL6rp36T341w==_+V+z28n5Se3q/tA+JQbp5D0eHYlLZixzOmPuT5U5nkRdtEBlvVcN9kEfdRFGiMB3AxBtThs6olJFF+6BW/Sd+8NKRiKzN4dkaTIdb/tJuAcP8zSLpvyNBWFaqXkBSff2NQ6CjAX6TyjVf5Ozmsm9BbVNBbjrR14Hk4TiJRrpLg2QoExOMj5hswOXmjPqZKmQzDhpJNTSHFlN4xYec+Vuldl6QZKY8UIv44hvZcMXoB71nnfmzsVJwUsTPsIYSoxgs/aAmMivuMigTXPfSAk1AbrdOmywg6JkJ6sZhvv+jvRWhUbS8z+jd8XxdO2nO6Z0XvLvFglKw3HHZ1Zj5bK3WRYkfPCCxAqoY7vZ"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 1268,
+      "value": [
+        1791754320,
+        83455.95,
+        83455.96,
+        83455.95,
+        83455.96,
+        0.11
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,455.95\nH\n83,455.96\nL\n83,455.95\nC\n83,455.96\n0.00 (0.00%)\n83,455.95\nSELL\n0.01\n83,455.96\nBUY\nVol · BTC\n0\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n21:32:08 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n21:32\nBTCUSDT · 2 · Binance\nOpen\n83,455.95\nHigh\n83,455.96\nLow\n83,455.95\nClose\n83,455.96\nChange\n0.00 (0.00%)\nVol\n0.11\nLast day change\n+467.60 (+0.56%)\nVol · BTC\nVolume\n0\nprivate-transitive-v5-control-v2 execution v1\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=6\nindicator(\"v78-v6-every-int-named-tk-v1\", max_bars_back=64)\narray<int> items = array.from(0, -7, 2)\nplot(array.every(id=items) ? 1 : 0, \"RESULT\")\n1 of 2 problems\nCannot call \"array.every\" with argument \"id\"=\"items\". An argument of \"array<int>\" type was used but a \"array<bool>\" is expected.(CE10123)\nLine 4, Col 21\nPine Script® v6\nUntitled script",
+  "templatePath": "v78-v6-every-int-named-tk-v1.pine",
+  "templateSha256": "401ea2668fbd90d3421253ca8db0d91b0623ee1a6e8c2f654adfa9f0ec50a760",
+  "role": "named",
+  "group": "named-id-nonbool-predicate",
+  "inputs": {},
+  "status": "COMPILE-ERROR"
+}
