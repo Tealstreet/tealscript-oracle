@@ -1,0 +1,4 @@
+//@version=5
+library("PrivateTransit5private")
+import CAPTURE_OWNER/PrivateTransitBase5v61/1 as a
+export read(float x)=>x.pick()

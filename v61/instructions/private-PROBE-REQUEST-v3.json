@@ -1,0 +1,41 @@
+{
+  "version": "v1",
+  "round": "v61",
+  "stageOnly": true,
+  "question": "Does external private-method access inside a second library refuse when that library is compiled, and at what phase/message?",
+  "nativeExpected": "UNSPECIFIED",
+  "immutableLibrary": "sours-lat/R2Nsaa411cdaddab/1",
+  "entries": [
+    {
+      "id": "private-transitive-v5-private-v1",
+      "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/private-import-visibility-p4250m-v1/v61-transitive-probes-v1/private-transitive-v5-private-v1.pine",
+      "sha256": "2e9a7e20a212b2ad8cffae280fd48f25134f8e2d73c4922a27340f8a4b744526",
+      "question": "Private external receiver access in a dependent library: exact phase and diagnostic",
+      "expectedNative": "UNSPECIFIED"
+    },
+    {
+      "id": "private-transitive-v5-control-v1",
+      "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/private-import-visibility-p4250m-v1/v61-transitive-probes-v1/private-transitive-v5-control-v1.pine",
+      "sha256": "8b56a6a7d2197fbd74be36d6e9254dfd3fa473bb9fb7d4c6855faebfc81926d2",
+      "question": "Exported forwarding control through the immutable library",
+      "expectedNative": "UNSPECIFIED"
+    },
+    {
+      "id": "private-transitive-v6-private-v1",
+      "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/private-import-visibility-p4250m-v1/v61-transitive-probes-v1/private-transitive-v6-private-v1.pine",
+      "sha256": "46f4255c2818653422fdcb7fe38d7cfa1ec842b9d4072581feb3e741c6974845",
+      "question": "Private external receiver access in a dependent library: exact phase and diagnostic",
+      "expectedNative": "UNSPECIFIED"
+    },
+    {
+      "id": "private-transitive-v6-control-v1",
+      "path": "/home/sam/cs/docs/tealscript-parity-archive/ledger/private-import-visibility-p4250m-v1/v61-transitive-probes-v1/private-transitive-v6-control-v1.pine",
+      "sha256": "8807207b67edf06a0cb637975fe8ed2765a00e09f87f1068dbe1a6d571e70a2d",
+      "question": "Exported forwarding control through the immutable library",
+      "expectedNative": "UNSPECIFIED"
+    }
+  ],
+  "instructions": "/home/sam/cs/docs/tealscript-parity-archive/ledger/private-import-visibility-p4250m-v1/v61-transitive-probes-v1/INSTRUCTIONS-v1.md",
+  "instructionsSha256": "69d31b233b1d79701e5d8a5f6c29bfcac7200f71680e9f674f8392e1ec8846ca",
+  "v60RequestUnchanged": "/home/sam/cs/docs/tealscript-parity-archive/ledger/private-import-visibility-p4250m-v1/PROBE-REQUEST-v2.json"
+}

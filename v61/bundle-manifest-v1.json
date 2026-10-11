@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v61",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "6db7a257cf37ce1a0cb570d5b9333ddd3dba3e21",
+  "inventory": {
+    "groups": 2,
+    "scripts": 6,
+    "libraryPrerequisiteCount": 1,
+    "libraryCompileOnlyCount": 4,
+    "activeSourceCount": 11,
+    "excludedSourceCount": 2,
+    "pineAssetCount": 13,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "transitive-private-visibility",
+      "scripts": 0,
+      "libraryCompileOnlyCount": 4,
+      "libraryPrerequisiteCount": 1,
+      "scope": "Dependent-library private method access with version-compatible imports"
+    },
+    {
+      "id": "tuple-rhs-shapes",
+      "scripts": 6,
+      "scope": "Direct identifier/string/bool tuple RHS, Pine v5/v6"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "private-transitive-base-v5-v61-v1",
+      "path": "private-transitive-base-v5-v61-v1.pine",
+      "owner": "codex-vlysqw",
+      "group": "transitive-private-visibility",
+      "ledgerPacket": "instructions/private-PROBE-REQUEST-v3.json",
+      "pineVersion": 5,
+      "role": "library-prerequisite",
+      "sourceSha256": "5ab5815ad058ff6740a1571429dfb7c90800a1152cbc54c48555eebe7028ebb2",
+      "instructionsPath": "instructions/private-transitive-base-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "3659430e92bf71ee5a540ee2fbbe6a16c4ad774688ca775388f88e838c0aae5d",
+      "questions": [
+        "Can the exact v5 prerequisite be compiled and published for version-compatible dependent library probes?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "compileOnly": true,
+        "chartExecutionRequired": false
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "derivedFrom": {
+        "path": "../v58/captures/v58/prerequisites/root2-library-aa411cdaddab-v58-v1/publication-v1/published-source-v1.pine",
+        "sourceSha256": "d6afd2cab8dae06301bcef249685bcff2b3d986c144deda2c13e99094759fa45",
+        "changes": [
+          "version 6 to 5",
+          "library title R2Nsaa411cdaddab to PrivateTransitBase5v61"
+        ]
+      },
+      "publicationBinding": {
+        "status": "REQUIRED-UNOBSERVED",
+        "placeholder": "CAPTURE_OWNER/PrivateTransitBase5v61/1",
+        "mustPublishPineVersion": 5
+      }
+    },
+    {
+      "probe": "private-transitive-v5-control-v2",
+      "path": "private-transitive-v5-control-v2.pine",
+      "owner": "codex-p4250m",
+      "group": "transitive-private-visibility",
+      "ledgerPacket": "instructions/private-PROBE-REQUEST-v3.json",
+      "pineVersion": 5,
+      "role": "library-compile-only",
+      "sourceSha256": "8f95296830d82704240dfa56fa6c69fb672be83984b318d6455abc9703996844",
+      "instructionsPath": "instructions/private-transitive-v5-control-v2-instructions-v1.md",
+      "instructionsSha256": "c2c090f8c9cf516687d93b031125acd7ae6cca2a4c3055ff4c0b8c59e30e5d75",
+      "questions": [
+        "Exported forwarding control through the immutable library"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "compileOnly": true,
+        "chartExecutionRequired": false,
+        "sourceUnchanged": false
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "publicationBinding": {
+        "status": "REQUIRES-V5-PUBLICATION",
+        "importPath": "CAPTURE_OWNER/PrivateTransitBase5v61/1"
+      },
+      "sourceTemplate": {
+        "allowedSubstitution": "import path only",
+        "prerequisite": "private-transitive-base-v5-v61-v1.pine",
+        "retainExecutedSourceAndHash": true,
+        "originalExcludedSource": "private-transitive-v5-control-v1.pine"
+      }
+    },
+    {
+      "probe": "private-transitive-v5-private-v2",
+      "path": "private-transitive-v5-private-v2.pine",
+      "owner": "codex-p4250m",
+      "group": "transitive-private-visibility",
+      "ledgerPacket": "instructions/private-PROBE-REQUEST-v3.json",
+      "pineVersion": 5,
+      "role": "library-compile-only",
+      "sourceSha256": "c3645f948a181e0e14ed8ce96e84fe60c7a9b780b340e1899c1625f135aaa5df",
+      "instructionsPath": "instructions/private-transitive-v5-private-v2-instructions-v1.md",
+      "instructionsSha256": "4ff307865da86d5592f13abce884da0d8404b5f365b40ca6dc8151db3982c16f",
+      "questions": [
+        "Private external receiver access in a dependent library: exact phase and diagnostic"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "compileOnly": true,
+        "chartExecutionRequired": false,
+        "sourceUnchanged": false
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "publicationBinding": {
+        "status": "REQUIRES-V5-PUBLICATION",
+        "importPath": "CAPTURE_OWNER/PrivateTransitBase5v61/1"
+      },
+      "sourceTemplate": {
+        "allowedSubstitution": "import path only",
+        "prerequisite": "private-transitive-base-v5-v61-v1.pine",
+        "retainExecutedSourceAndHash": true,
+        "originalExcludedSource": "private-transitive-v5-private-v1.pine"
+      }
+    },
+    {
+      "probe": "private-transitive-v6-control-v1",
+      "path": "private-transitive-v6-control-v1.pine",
+      "owner": "codex-p4250m",
+      "group": "transitive-private-visibility",
+      "ledgerPacket": "instructions/private-PROBE-REQUEST-v3.json",
+      "pineVersion": 6,
+      "role": "library-compile-only",
+      "sourceSha256": "8807207b67edf06a0cb637975fe8ed2765a00e09f87f1068dbe1a6d571e70a2d",
+      "instructionsPath": "instructions/private-transitive-v6-control-v1-instructions-v1.md",
+      "instructionsSha256": "9e3f3fb512e1c0205615407d40125e6822c275e92fea5605ddbb5827cfe2c5f5",
+      "questions": [
+        "Exported forwarding control through the immutable library"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "compileOnly": true,
+        "chartExecutionRequired": false
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "publicationBinding": {
+        "status": "EXISTING-IMMUTABLE",
+        "importPath": "sours-lat/R2Nsaa411cdaddab/1",
+        "sourceSha256": "d6afd2cab8dae06301bcef249685bcff2b3d986c144deda2c13e99094759fa45"
+      }
+    },
+    {
+      "probe": "private-transitive-v6-private-v1",
+      "path": "private-transitive-v6-private-v1.pine",
+      "owner": "codex-p4250m",
+      "group": "transitive-private-visibility",
+      "ledgerPacket": "instructions/private-PROBE-REQUEST-v3.json",
+      "pineVersion": 6,
+      "role": "library-compile-only",
+      "sourceSha256": "46f4255c2818653422fdcb7fe38d7cfa1ec842b9d4072581feb3e741c6974845",
+      "instructionsPath": "instructions/private-transitive-v6-private-v1-instructions-v1.md",
+      "instructionsSha256": "68dad6db9d5115da4ef2759d91a2ec4c8c199cb6c495b147c82565a621c1c731",
+      "questions": [
+        "Private external receiver access in a dependent library: exact phase and diagnostic"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "compileOnly": true,
+        "chartExecutionRequired": false
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "publicationBinding": {
+        "status": "EXISTING-IMMUTABLE",
+        "importPath": "sours-lat/R2Nsaa411cdaddab/1",
+        "sourceSha256": "d6afd2cab8dae06301bcef249685bcff2b3d986c144deda2c13e99094759fa45"
+      }
+    },
+    {
+      "probe": "tuple-rhs-booleans-v5-v61-v1",
+      "path": "tuple-rhs-booleans-v5-v61-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "instructions/tuple-PROBE-REQUEST-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "7786d9d2a4130846767598278a759c63c69e2f44590f712a25a91f91b4e46caf",
+      "instructionsPath": "instructions/tuple-rhs-booleans-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "3a98c03b86a71ab5ebc4b2b1e300ec13a05a5b77d53955b363225a0da8cd330f",
+      "questions": [
+        "Does Pine v5 admit or refuse a direct tuple RHS of booleans, and at what exact site/diagnostic?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-booleans-v6-v61-v1",
+      "path": "tuple-rhs-booleans-v6-v61-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "instructions/tuple-PROBE-REQUEST-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "0f08ec9d063ff2869cd958c36de134d7eed91c46dc43dc61993c411a0fcdd002",
+      "instructionsPath": "instructions/tuple-rhs-booleans-v6-v61-v1-instructions-v1.md",
+      "instructionsSha256": "28b07929b2282f4920d23af8b435a8ce7e59a8ff80b43f06b5aa1f9a0234efb7",
+      "questions": [
+        "Does Pine v6 admit or refuse a direct tuple RHS of booleans, and at what exact site/diagnostic?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-identifiers-v5-v61-v1",
+      "path": "tuple-rhs-identifiers-v5-v61-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "instructions/tuple-PROBE-REQUEST-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "2b5343e6a674df20683599928afae8b40cfb485ae5bd315a9cfe1a3bb69f40cf",
+      "instructionsPath": "instructions/tuple-rhs-identifiers-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "017e389c99c00713a49e7200d63d3779b3bfa5c1e46f140554459c8289875e85",
+      "questions": [
+        "Does Pine v5 admit or refuse a direct tuple RHS of identifiers, and at what exact site/diagnostic?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-identifiers-v6-v61-v1",
+      "path": "tuple-rhs-identifiers-v6-v61-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "instructions/tuple-PROBE-REQUEST-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "63bf5ca282439a884e38007648269dc1601d269039aed54094893f0df7614660",
+      "instructionsPath": "instructions/tuple-rhs-identifiers-v6-v61-v1-instructions-v1.md",
+      "instructionsSha256": "291fcc2c5fc6483005201002ffa7d6866061b5d81c105a68d3e908ce82f7503d",
+      "questions": [
+        "Does Pine v6 admit or refuse a direct tuple RHS of identifiers, and at what exact site/diagnostic?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-strings-v5-v61-v1",
+      "path": "tuple-rhs-strings-v5-v61-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "instructions/tuple-PROBE-REQUEST-v1.json",
+      "pineVersion": 5,
+      "role": "consumer",
+      "sourceSha256": "5ae5367d10bb1cc96fd24476d237a826e91ca997fb8e30537bbd50de04a9759b",
+      "instructionsPath": "instructions/tuple-rhs-strings-v5-v61-v1-instructions-v1.md",
+      "instructionsSha256": "ea1d6282af1f5d9f97886ca23b4755be5094ddbaddaae5cccb92a7b7ae1c9fed",
+      "questions": [
+        "Does Pine v5 admit or refuse a direct tuple RHS of strings, and at what exact site/diagnostic?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "tuple-rhs-strings-v6-v61-v1",
+      "path": "tuple-rhs-strings-v6-v61-v1.pine",
+      "owner": "codex-be9795",
+      "group": "tuple-rhs-shapes",
+      "ledgerPacket": "instructions/tuple-PROBE-REQUEST-v1.json",
+      "pineVersion": 6,
+      "role": "consumer",
+      "sourceSha256": "03bca0fda608a5175c5dfe54ce2e51af6d2c716e06465871625d796415756cab",
+      "instructionsPath": "instructions/tuple-rhs-strings-v6-v61-v1-instructions-v1.md",
+      "instructionsSha256": "ab4d70ef87da1654dd572ef035b3d9d42c969a3648c17c88d177b6daaa597fee",
+      "questions": [
+        "Does Pine v6 admit or refuse a direct tuple RHS of strings, and at what exact site/diagnostic?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission",
+        "runtime error if executed",
+        "prerequisite unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only native capture request",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "excludedSources": [
+    {
+      "path": "private-transitive-v5-private-v1.pine",
+      "sourceSha256": "2e9a7e20a212b2ad8cffae280fd48f25134f8e2d73c4922a27340f8a4b744526",
+      "reason": "EXCLUDED: v5 source imports known v6 publication; v60 showed this masks private visibility",
+      "replacement": "private-transitive-v5-private-v2.pine"
+    },
+    {
+      "path": "private-transitive-v5-control-v1.pine",
+      "sourceSha256": "8b56a6a7d2197fbd74be36d6e9254dfd3fa473bb9fb7d4c6855faebfc81926d2",
+      "reason": "EXCLUDED: v5 source imports known v6 publication; v60 showed this masks private visibility",
+      "replacement": "private-transitive-v5-control-v2.pine"
+    }
+  ],
+  "governingHandoff": "HANDOFF-v61-v1.md",
+  "receiptVersionExclusions": [
+    "The original two v5-v1 transitive sources are provenance only, not valid private-visibility attempts.",
+    "v60 import-version refusals do not settle v5 private visibility.",
+    "The producer private request and instruction preserve original bytes; the governing handoff overrides their v5 import binding only."
+  ]
+}
