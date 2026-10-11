@@ -1,0 +1,8 @@
+--- template-v1.pine
++++ executed-v1.pine
+@@ -1,4 +1,4 @@
+ //@version=5
+ library("PrivateTransit5control")
+-import CAPTURE_OWNER/PrivateTransitBase5v61/1 as a
++import sours-lat/PrivateTransitBase5v61/1 as a
+ export read(float x)=>a.forward(x)

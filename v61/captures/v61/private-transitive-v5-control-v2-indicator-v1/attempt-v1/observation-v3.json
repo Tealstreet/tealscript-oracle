@@ -1,0 +1,219 @@
+{
+  "captureTimestamp": "2026-10-11T12:00:28.396Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nindicator(\"private-transitive-v5-control-v2 execution v1\")\nimport sours-lat/PrivateTransit5control/1 as b\nplot(b.read(3.5))\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///f6612d6d-22c9-43f6-bb47-dffd4f7e726c.pine?placement%3Ddialog",
+        "path": "/f6612d6d-22c9-43f6-bb47-dffd4f7e726c.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "bH93PG",
+        "title": "private-transitive-v5-control-v2 execution v1 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"import\":1,\"indicator\":1,\"plot\":1,\"user_methods\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_0ZKMHnWiULK6SF7SdPuuCA==_cX0fDwp6BkHvxukw8txIwy1r1BjKLTJOxmhW3XPsDHQkoE0LwtL42IBmnqRjlTFqPZgl8vnRWlEQTjwES9k9usIAPrcer3Iu0KWDUN/epnpnlgcfrkP1XQcJFQYR5raE39XhTiOJ9oQzRKQdzKKmUSqr8KQaj6qJqklm2+qFJZU6uAGyso4c1vLnj5LO7LRFeGwT4auvfPDTSvKuq0pTiaYYLAkgeYtqgXzmaxOhcIFfOUT2AvhI0KOrG/dZoZ8KtorRHaQFjAFp2UBAIhI+KZNM56zJWoCLYF7VRJQwv2Pf7OxIysaoowQYDL4dg5gYuGED6aKb2ox7GlqBWb0lJAws3Dz9mPuAMjKKSV/8vQBBBb6sLzfdTd94vCGT2ooqTII9PWiM1bUZALIiKK4dZjNIN/zxiqg+cK1k0nozxRoLpEGiipA16s2PkEZ7t3KauoZuSCowQvshZQbUNYEjoAviQ15Fcsh97o8yH0nGCfUDshslo2jkfVmL1X02qc6dM3h1zR/YDKADzezfxtkpgUghYlE1tE2frebNr+i2wUkes13zCCaAz7+sJs5zqHRI7Naa6x7WLo+ko4Kvn3vYnIrrNLEVlg9qAj47COIwyhMBOKmJmAtwsnifbe38wYdPed73zZZTNefTiAMLaC1m7mgDTj4nojNzhz8ceV+OlaO2ZnY1dk4SeLelXCYtpT0LU+0tsTj9S9ml2UrWSW/VrYxC1d+clV1phpX7trcdMwE3G5+pHw6Z+xrn535dMx4pTb17lgxfuD7uQDee1bVStk1Yl+8IF5CmXl0QYF9xWtFOWuIG9SMV2Gn54m4qZ4HrauPBEZ//3aFQdLdlYy4fAV2OKZH1VdW1Wk39MyJmUHJCS6AsJeZrKq8b5BqzL+IDHJpTFeoPnihVj+1ScY0N+XWVQcI33obdGr0uwLzEcM3r10YhkaMRMOPqiH1d4CBuE8sreMSAK93hJPF8Pxgi5+6eYaS8KeC/OXSU18jMtPTx4Hk8tj1d11HsBRSyUdZ+Q7DDHBOW6s1/5CQAyINbHRxh4yrs1t5kkT9P9NX3UJE="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 982,
+      "value": [
+        1791720000,
+        83164.01,
+        83187.29,
+        83164,
+        83187.28,
+        4.09607
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,164.01\nH\n83,187.29\nL\n83,164.00\nC\n83,187.28\n+23.28 (+0.03%)\n83,187.28\nSELL\n0.01\n83,187.29\nBUY\nVol \u00b7 BTC\n4\nUSDT\nprivate-transitive-v5-control-v2 execution v1\n13.50\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:00:27 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:00\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,164.01\nHigh\n83,187.29\nLow\n83,164.00\nClose\n83,187.28\nChange\n+23.28 (+0.03%)\nVol\n4.1\nLast day change\n+198.92 (+0.24%)\nVol \u00b7 BTC\nVolume\n4\nprivate-transitive-v5-control-v2 execution v1\nPlot\n13.50\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nindicator(\"private-transitive-v5-control-v2\u00a0execution\u00a0v1\")\nimport\u00a0sours-lat/PrivateTransit5control/1\u00a0as\u00a0b\nplot(b.read(3.5))\nLine 1, Col 1\nPine Script\u00ae v5",
+  "templatePath": "derived-indicator-v1",
+  "templateSha256": null,
+  "role": "derived-consumer",
+  "group": "transitive-private-visibility",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "aa3382ac302cdda6cc56b73bcb514817ef835a508598d0ed42064262c09f83bf",
+  "closedBarCutoff": "1791719880",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T12:00:30.212Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "Plot"
+    ],
+    "rowCount": 983,
+    "closedRowCount": 982,
+    "openRowTimestamps": [
+      "1791720000"
+    ],
+    "sourceIsolated": true,
+    "sha256": "d0aaf2fb4ad420e7ec07172655fe84183879407a56de541cda1784fe29cc4842"
+  },
+  "derivedFrom": "private-transitive-v5-control-v2",
+  "publicationBinding": "sours-lat/PrivateTransit5control/1",
+  "nativeCompilationObserved": true,
+  "compilationStatus": "ADMITTED",
+  "diagnosticCodePolicy": "Codes are preserved only when natively exposed. Missing v5 codes remain explicitly unavailable; marker owners are retained without deduplication.",
+  "compilerEvidence": {
+    "file": "native-compiler-responses-v1.json",
+    "nativeRequestIds": [
+      12444,
+      12450,
+      12455
+    ],
+    "sourceIdentityPolicy": "Exact LF executed source matches native source fields after CRLF transport normalization; full compiler/Save response bodies retained without headers."
+  },
+  "closedObserverReadouts": [
+    {
+      "csvOrdinal": 7,
+      "title": "Plot",
+      "uniqueRawStrings": [
+        "13.5"
+      ],
+      "lastThreeClosedRows": [
+        [
+          "1791719640",
+          "83147.19",
+          "83202.66",
+          "83147.18",
+          "83159.37",
+          "21.30994",
+          "13.5"
+        ],
+        [
+          "1791719760",
+          "83159.37",
+          "83164.01",
+          "83149.75",
+          "83164",
+          "21.92705",
+          "13.5"
+        ],
+        [
+          "1791719880",
+          "83164",
+          "83164.01",
+          "83164",
+          "83164",
+          "3.58252",
+          "13.5"
+        ]
+      ]
+    }
+  ],
+  "phase": "INDICATOR-RUNTIME",
+  "numericCredit": true,
+  "revision": 3
+}

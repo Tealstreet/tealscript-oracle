@@ -1,0 +1,206 @@
+{
+  "captureTimestamp": "2026-10-11T12:01:23.535Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"private-transitive-v6-control-v1 execution v1\")\nimport sours-lat/PrivateTransit6control/1 as b\nplot(b.read(3.5))\n",
+  "markers": [],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "U7lALy",
+        "title": "private-transitive-v6-control-v1 execution v1 (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"import\":1,\"indicator\":1,\"plot\":1,\"user_methods\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_UWD0Ph04oQ7Kg4CHBVZpyg==_I5BkCtN4QVTtfXE8DjFkINdSgdOcnS0yZ33VtYsXdut198hWrROsL6TpPSuRS4akcookP/NO1Wxq9LaTrmlnuSXZUBUQ3OJc046JBaNoPyw2PEOOwn12ksE4aiNkRspoNbiSnXNjA2l0Zu51mg3heA+8WJixoNn/eawOaJw+85vbCwy7FK3/M0SDawgkLagxhhWMVd36SmqhZc8iL/CzJUIUKVk4u9CRdm4Ga9Mw9tGZbs17JXrbx+ILSSRniha1Ok2LapNnvZGhMr0CcV/odFqLVgEAB5hSLkclatmgyWdn1YCl8jvJjKKzw5e5uWcq8tfyGYjIyFnjMdX+HRWiAwKmSOdlrZgCf8XfPrLN7nqrP5ty5USs316EMLMj/VmQCFDYQ1Etf4oJ2d7/ViqtYWPB3qTn1cvQWUbfG0JD2WwyaNJhtpaOvTuZMqRBcgSSFSWQ764VTLEjmifbAHMM27l5pZFxdU5xJ7qNm808GqyyfBWuMc/ikpnKNXUFv+f++K7qdwPZUu6zmabsinqBJH1RaCfszuwqR0fs1OpNlP67/GSeLMYuS+P5Zs/vRWn2vZVAdB9VZ799pJXo/wN63XcIELuhUvNke0csJLPwk1APToTZBQuwSnzPhugpkgCjqzmoQzFHniGGFb52iZJnZM2C4WevI5oc6NwLUvFSsUETFOXGAx1dFfSdvlMCBJbdbZxcHZobcX6tsXYKokb9C4vZ8sTFsTjpxtFq2m1yGvpcLjzULKPcpDwVzT23pFIvRtkemjifNfY6KemloHEJsRH7cAmZb28++aiCFZjzSgUU590uy/EdtlshLApi4wgf+Itfzg3p5qp0MRcoa1qd0fB0yUmIZ2ApKYAMqvePZO03EvEJwM1o7OAH5Ef8hh6R0RgNK/X/Tyc7loxPgapufthBFmFwXSK9zWwSg+70fPPEOpZUzCzLD9cron76NPOW9/3d7ayJHSr4yL5daOnMysZ0NHyPzQaW4BXWhjrPVHEvXWu1Mfyg/cDRrW6g0JCxHu7OMt+jjGKsXlYePcqeDeDuAT35MUBWzHKekV48LSb+gaN/0HYTPX43Bz7/U3ikMmTlT/VJ6MDjFZBVaVn5aT2Q/kWoXorpadk="
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 982,
+      "value": [
+        1791720000,
+        83164.01,
+        83194.19,
+        83164,
+        83194.18,
+        7.59055
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,164.01\nH\n83,194.19\nL\n83,164.00\nC\n83,194.18\n+30.18 (+0.04%)\n83,194.18\nSELL\n0.01\n83,194.19\nBUY\nVol \u00b7 BTC\n8\nUSDT\nprivate-transitive-v6-control-v1 execution v1\n13.50\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:01:22 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:00\nBTCUSDT \u00b7 2 \u00b7 Binance\nOpen\n83,164.01\nHigh\n83,194.19\nLow\n83,164.00\nClose\n83,194.18\nChange\n+30.18 (+0.04%)\nVol\n7.59\nLast day change\n+205.82 (+0.25%)\nVol \u00b7 BTC\nVolume\n8\nprivate-transitive-v6-control-v1 execution v1\nPlot\n13.50\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n//@version=6\nindicator(\"private-transitive-v6-control-v1\u00a0execution\u00a0v1\")\nimport\u00a0sours-lat/PrivateTransit6control/1\u00a0as\u00a0b\nplot(b.read(3.5))\nLine 1, Col 1\nPine Script\u00ae v6",
+  "templatePath": "derived-indicator-v1",
+  "templateSha256": null,
+  "role": "derived-consumer",
+  "group": "transitive-private-visibility",
+  "inputs": {},
+  "status": "RUNS",
+  "executedSha256": "9c8fa23c7fca8d3872f5fd645b75dc0c02a2baf333447c6103cb0404c38429da",
+  "closedBarCutoff": "1791719880",
+  "csv": {
+    "file": "native-v1.csv",
+    "exportTimestamp": "2026-10-11T12:01:25.586Z",
+    "headers": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "Plot"
+    ],
+    "rowCount": 983,
+    "closedRowCount": 982,
+    "openRowTimestamps": [
+      "1791720000"
+    ],
+    "sourceIsolated": true,
+    "sha256": "71791f15ca49faa64f55ba6a53628bd669f957a80f5d464411643aa881c0dcb6"
+  },
+  "derivedFrom": "private-transitive-v6-control-v1",
+  "publicationBinding": "sours-lat/PrivateTransit6control/1",
+  "nativeCompilationObserved": true,
+  "compilationStatus": "ADMITTED",
+  "diagnosticCodePolicy": "Codes are preserved only when natively exposed. Missing v5 codes remain explicitly unavailable; marker owners are retained without deduplication.",
+  "compilerEvidence": {
+    "file": "native-compiler-responses-v1.json",
+    "nativeRequestIds": [
+      12568,
+      12574,
+      12578
+    ],
+    "sourceIdentityPolicy": "Exact LF executed source matches native source fields after CRLF transport normalization; full compiler/Save response bodies retained without headers."
+  },
+  "closedObserverReadouts": [
+    {
+      "csvOrdinal": 7,
+      "title": "Plot",
+      "uniqueRawStrings": [
+        "13.5"
+      ],
+      "lastThreeClosedRows": [
+        [
+          "1791719640",
+          "83147.19",
+          "83202.66",
+          "83147.18",
+          "83159.37",
+          "21.30994",
+          "13.5"
+        ],
+        [
+          "1791719760",
+          "83159.37",
+          "83164.01",
+          "83149.75",
+          "83164",
+          "21.92705",
+          "13.5"
+        ],
+        [
+          "1791719880",
+          "83164",
+          "83164.01",
+          "83164",
+          "83164",
+          "3.58252",
+          "13.5"
+        ]
+      ]
+    }
+  ],
+  "phase": "INDICATOR-RUNTIME",
+  "numericCredit": true,
+  "immutableBase": {
+    "importPath": "sours-lat/R2Nsaa411cdaddab/1",
+    "sourceSha256": "d6afd2cab8dae06301bcef249685bcff2b3d986c144deda2c13e99094759fa45",
+    "publicationEvidence": "v58/captures/v58/prerequisites/root2-library-aa411cdaddab-v58-v1/publication-v1/publication-v1.json"
+  },
+  "revision": 3
+}

@@ -1,0 +1,9 @@
+------WebKitFormBoundary9pJCjHun0nAZi4lU
+Content-Disposition: form-data; name="source"
+
+//@version=5
+library("PrivateTransitBase5v61")
+method pick(float self)=>self+10
+export forward(float self)=>self.pick()
+
+------WebKitFormBoundary9pJCjHun0nAZi4lU--

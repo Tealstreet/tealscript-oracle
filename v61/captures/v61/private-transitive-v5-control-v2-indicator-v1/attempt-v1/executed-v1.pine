@@ -1,0 +1,4 @@
+//@version=5
+indicator("private-transitive-v5-control-v2 execution v1")
+import sours-lat/PrivateTransit5control/1 as b
+plot(b.read(3.5))

@@ -1,0 +1,31 @@
+{
+  "revision": 1,
+  "round": "v61",
+  "checksumEntriesPassed": 29,
+  "activeSources": 11,
+  "excludedSources": [
+    {
+      "path": "private-transitive-v5-private-v1.pine",
+      "sourceSha256": "2e9a7e20a212b2ad8cffae280fd48f25134f8e2d73c4922a27340f8a4b744526",
+      "reason": "EXCLUDED: v5 source imports known v6 publication; v60 showed this masks private visibility",
+      "replacement": "private-transitive-v5-private-v2.pine"
+    },
+    {
+      "path": "private-transitive-v5-control-v1.pine",
+      "sourceSha256": "8b56a6a7d2197fbd74be36d6e9254dfd3fa473bb9fb7d4c6855faebfc81926d2",
+      "reason": "EXCLUDED: v5 source imports known v6 publication; v60 showed this masks private visibility",
+      "replacement": "private-transitive-v5-control-v2.pine"
+    }
+  ],
+  "activeOutcomes": {
+    "RUNS": 3,
+    "COMPILE-ERROR": 8
+  },
+  "publishedLibraries": 3,
+  "privateDependentRefusals": 2,
+  "tupleRHSRefusals": 6,
+  "derivedIndicators": 2,
+  "rawNativeCSVExports": 2,
+  "compilerNetworkResponses": 61,
+  "result": "PASS"
+}

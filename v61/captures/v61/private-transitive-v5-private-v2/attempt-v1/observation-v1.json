@@ -1,0 +1,136 @@
+{
+  "captureTimestamp": "2026-10-11T12:00:37.943Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=5\nlibrary(\"PrivateTransit5private\")\nimport sours-lat/PrivateTransitBase5v61/1 as a\nexport read(float x)=>x.pick()\n",
+  "markers": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///fd7fe3df-2534-4fa5-9f1f-a293c8bc70ef.pine?placement%3Ddialog",
+        "path": "/fd7fe3df-2534-4fa5-9f1f-a293c8bc70ef.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    },
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///fd7fe3df-2534-4fa5-9f1f-a293c8bc70ef.pine?placement%3Ddialog",
+        "path": "/fd7fe3df-2534-4fa5-9f1f-a293c8bc70ef.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "severity": 8,
+      "message": "Could not find method or method reference 'pick' for 'x'",
+      "startLineNumber": 4,
+      "startColumn": 24,
+      "endLineNumber": 4,
+      "endColumn": 30
+    }
+  ],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [],
+    "lastPhysicalBar": {
+      "index": 982,
+      "value": [
+        1791720000,
+        83164.01,
+        83187.29,
+        83164,
+        83187.29,
+        4.18878
+      ]
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nO\n83,164.01\nH\n83,187.29\nL\n83,164.00\nC\n83,187.29\n+23.29 (+0.03%)\n83,187.28\nSELL\n0.01\n83,187.29\nBUY\nVol · BTC\n4\nUSDT\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n12:00:37 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n12:00\nBTCUSDT · 2 · Binance\nOpen\n83,164.01\nHigh\n83,187.29\nLow\n83,164.00\nClose\n83,187.29\nChange\n+23.29 (+0.03%)\nVol\n4.19\nLast day change\n+198.93 (+0.24%)\nVol · BTC\nVolume\n4\nPine Editor\nPrivateTransit5private\nAdd to chart\nSaved\nPublish script\n1\n2\n3\n4\n5\n//@version=5\nlibrary(\"PrivateTransit5private\")\nimport sours-lat/PrivateTransitBase5v61/1 as a\nexport read(float x)=>x.pick()\n1 of 3 problems\nCould not find method or method reference 'pick' for 'x'\n1 ∙ Today, 20:00\nLine 1, Col 1\nPine Script® v5\nUntitled script",
+  "templatePath": "private-transitive-v5-private-v2.pine",
+  "templateSha256": "c3645f948a181e0e14ed8ce96e84fe60c7a9b780b340e1899c1625f135aaa5df",
+  "role": "library-compile-only",
+  "group": "transitive-private-visibility",
+  "inputs": {},
+  "status": "COMPILE-ERROR"
+}
