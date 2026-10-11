@@ -1,0 +1,4 @@
+//@version=5
+indicator("v78-v5-some-string-positional-tk-v1", max_bars_back=64)
+array<string> items = array.from("", "alpha", "Beta")
+plot(array.some(items) ? 1 : 0, "RESULT")
