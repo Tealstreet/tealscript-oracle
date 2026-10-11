@@ -1,0 +1,9 @@
+//@version=6
+indicator("Local UDT label declaration")
+type Holder
+    int value
+
+read() =>
+    Holder fresh = Holder.new(17)
+    17
+plot(read(), "RESULT")

@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v66",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "240ff24195678e4172794cb9d4f8bec6cf4723f1",
+  "inventory": {
+    "groups": 1,
+    "scripts": 20,
+    "pairs": 10,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "pineAssetCount": 20,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "local-udt-no-call-namespace-declaration",
+      "scripts": 20,
+      "scope": "Local UDT declaration names color/label/line/linefill/table, fresh-identifier controls, Pine v5/v6; no custom method declared or called"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "ns-local-udt-no-call-color-v5-natural-v1",
+      "path": "ns-local-udt-no-call-color-v5-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "color-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "4e759ba07f4fd7215154c06f1f5b9991d19440de612b4a33cd37926210beefcf",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named color without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-color-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-color-v5-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "color-v5",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "d457edda5b7c9b8402e4f54e841184c72f91bb120759673b70598136bfb1e866",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named color without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-color-v6-natural-v1",
+      "path": "ns-local-udt-no-call-color-v6-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "color-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "dbdc747f134fcdbf4d310f6b8b8d2a45793eec351b3d9b136819f1fed12e132d",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named color without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-color-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-color-v6-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "color-v6",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "a700a4d92d9176609910b81de777bf1fac6aded9c34f439dcb40d5c63e65329d",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named color without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v5-natural-v1",
+      "path": "ns-local-udt-no-call-label-v5-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "label-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "3a155710b332bbd8af5f3b23b4e4fddf7fe2f60ae8ec67a6c7269192509031ef",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named label without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-label-v5-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "label-v5",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "9ee059e0d83fcd1ed0ccb09b8db2207699c5287df61224c1ebec1440041e06b6",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named label without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v6-natural-v1",
+      "path": "ns-local-udt-no-call-label-v6-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "label-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "e5399d3a7e2eeada1fabc5f14228d0206eb915775e1009322fb2aa9f322c1749",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named label without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-label-v6-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "label-v6",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "5dd9f2cbc7749e8267464158dc7e739d6b42fcebd653b284cd9dd935edea8107",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named label without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v5-natural-v1",
+      "path": "ns-local-udt-no-call-line-v5-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "line-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named line without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-line-v5-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "line-v5",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "8e08f780b7664fa2ac9bbdd87e239701cfbbc804d811225af9208b56060ffcec",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named line without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v6-natural-v1",
+      "path": "ns-local-udt-no-call-line-v6-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "line-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "8a206f559963217fe59f20b829da2bdab17f7d0918d198b38f379b0055a2b6b2",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named line without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-line-v6-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "line-v6",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "764d29dc6fba886ec38066f1d8392cbb1505f6ee40a19c4c449a89e5488c346d",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named line without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v5-natural-v1",
+      "path": "ns-local-udt-no-call-linefill-v5-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "linefill-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "074b38219e789621a6c5373fefd2a0800ec0231fc0e2d592bc752bb3f4528770",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named linefill without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-linefill-v5-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "linefill-v5",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "0656e50c70c13d0b16be55bbec56e8d8fbc12462f95c15b175d4a7190ad602dc",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named linefill without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v6-natural-v1",
+      "path": "ns-local-udt-no-call-linefill-v6-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "linefill-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "08801aa0f7172a375b61d95fc62d469d6cc53d2d61020ea1f9e1b27b9688fba8",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named linefill without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-linefill-v6-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "linefill-v6",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "63932b1ff16c2c0871b8654dcbaaf716c05ffcc9727de116bda723da50c8ecdc",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named linefill without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v5-natural-v1",
+      "path": "ns-local-udt-no-call-table-v5-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "table-v5",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "7b07bbb77413527025630d049d04c963fb3b5dd894ab626a0eef844b48a2e4a3",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named table without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-table-v5-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "role": "consumer",
+      "pairId": "table-v5",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "b08b8455016c1a671ba88f3232c075aa463472ed8a7af360e4f0330c6d837200",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v5 refuse a local UDT declaration named table without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v6-natural-v1",
+      "path": "ns-local-udt-no-call-table-v6-natural-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "table-v6",
+      "pairRole": "natural",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "c1171f7ba14895070b96f8be6ff02fab0437dd518d040d3035306fe572778e7c",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named table without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-table-v6-renamed-control-v1.pine",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "role": "consumer",
+      "pairId": "table-v6",
+      "pairRole": "renamed-control",
+      "ledgerPacket": "instructions/producer-ENTRY-v1.json",
+      "sourceSha256": "3c532c67ce648b8aa2a84050447ac74df36b256f2225c220deb891c9ec1b85b2",
+      "instructionsPath": "instructions/producer-INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "questions": [
+        "Does Pine v6 refuse a local UDT declaration named table without a custom method call, and does its fresh-identifier control admit?"
+      ],
+      "candidateOutcomes": [
+        "compile refusal with exact diagnostic and site",
+        "compile admission with exported values",
+        "runtime error if executed",
+        "context unavailable"
+      ],
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute",
+      "plots": [
+        "RESULT"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "sourceUnchanged": true,
+        "excludeOpenBar": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "id": "color-v5",
+      "natural": "ns-local-udt-no-call-color-v5-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-color-v5-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "color-v6",
+      "natural": "ns-local-udt-no-call-color-v6-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-color-v6-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "label-v5",
+      "natural": "ns-local-udt-no-call-label-v5-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-label-v5-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "label-v6",
+      "natural": "ns-local-udt-no-call-label-v6-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-label-v6-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "line-v5",
+      "natural": "ns-local-udt-no-call-line-v5-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-line-v5-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "line-v6",
+      "natural": "ns-local-udt-no-call-line-v6-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-line-v6-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "linefill-v5",
+      "natural": "ns-local-udt-no-call-linefill-v5-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-linefill-v5-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "linefill-v6",
+      "natural": "ns-local-udt-no-call-linefill-v6-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-linefill-v6-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "table-v5",
+      "natural": "ns-local-udt-no-call-table-v5-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-table-v5-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    },
+    {
+      "id": "table-v6",
+      "natural": "ns-local-udt-no-call-table-v6-natural-v1.pine",
+      "renamedControl": "ns-local-udt-no-call-table-v6-renamed-control-v1.pine",
+      "comparison": "naming-only local declaration; independent compile outcomes; same confirmed rows if both run"
+    }
+  ],
+  "governingHandoff": "HANDOFF-v66-v1.md",
+  "sourceRoundProvenance": {
+    "requestedRound": "NEXT-AVAILABLE: directory v61-probes-v2 is historical staging namespace, not a bundle claim",
+    "stagingDirectory": "v61-probes-v2",
+    "publishedRound": "v66",
+    "sourceNamesAndBytesUnchanged": true
+  },
+  "receiptVersionExclusions": [
+    "v62 box declaration refusal is message-class context only, not an exact-source expected outcome for these five names.",
+    "A failed control establishes no natural/control naming conclusion.",
+    "No custom method call, live behavior or general namespace policy is certified by this request."
+  ]
+}

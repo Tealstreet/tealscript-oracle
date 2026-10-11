@@ -1,0 +1,647 @@
+{
+  "version": "v1",
+  "status": "STAGED-ONLY",
+  "requestedRound": "NEXT-AVAILABLE: directory v61-probes-v2 is historical staging namespace, not a bundle claim",
+  "sources": [
+    {
+      "probe": "ns-local-udt-no-call-color-v5-natural-v1",
+      "path": "ns-local-udt-no-call-color-v5-natural-v1.pine",
+      "sourceSha256": "4e759ba07f4fd7215154c06f1f5b9991d19440de612b4a33cd37926210beefcf",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "color-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-color-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-color-v5-renamed-control-v1.pine",
+      "sourceSha256": "d457edda5b7c9b8402e4f54e841184c72f91bb120759673b70598136bfb1e866",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "color-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v5-natural-v1",
+      "path": "ns-local-udt-no-call-label-v5-natural-v1.pine",
+      "sourceSha256": "3a155710b332bbd8af5f3b23b4e4fddf7fe2f60ae8ec67a6c7269192509031ef",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "label-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-label-v5-renamed-control-v1.pine",
+      "sourceSha256": "9ee059e0d83fcd1ed0ccb09b8db2207699c5287df61224c1ebec1440041e06b6",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "label-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v5-natural-v1",
+      "path": "ns-local-udt-no-call-line-v5-natural-v1.pine",
+      "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "line-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-line-v5-renamed-control-v1.pine",
+      "sourceSha256": "8e08f780b7664fa2ac9bbdd87e239701cfbbc804d811225af9208b56060ffcec",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "line-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v5-natural-v1",
+      "path": "ns-local-udt-no-call-linefill-v5-natural-v1.pine",
+      "sourceSha256": "074b38219e789621a6c5373fefd2a0800ec0231fc0e2d592bc752bb3f4528770",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "linefill-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-linefill-v5-renamed-control-v1.pine",
+      "sourceSha256": "0656e50c70c13d0b16be55bbec56e8d8fbc12462f95c15b175d4a7190ad602dc",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "linefill-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v5-natural-v1",
+      "path": "ns-local-udt-no-call-table-v5-natural-v1.pine",
+      "sourceSha256": "7b07bbb77413527025630d049d04c963fb3b5dd894ab626a0eef844b48a2e4a3",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "table-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v5-renamed-control-v1",
+      "path": "ns-local-udt-no-call-table-v5-renamed-control-v1.pine",
+      "sourceSha256": "b08b8455016c1a671ba88f3232c075aa463472ed8a7af360e4f0330c6d837200",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "table-v5",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-color-v6-natural-v1",
+      "path": "ns-local-udt-no-call-color-v6-natural-v1.pine",
+      "sourceSha256": "dbdc747f134fcdbf4d310f6b8b8d2a45793eec351b3d9b136819f1fed12e132d",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "color-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-color-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-color-v6-renamed-control-v1.pine",
+      "sourceSha256": "a700a4d92d9176609910b81de777bf1fac6aded9c34f439dcb40d5c63e65329d",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "color-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v6-natural-v1",
+      "path": "ns-local-udt-no-call-label-v6-natural-v1.pine",
+      "sourceSha256": "e5399d3a7e2eeada1fabc5f14228d0206eb915775e1009322fb2aa9f322c1749",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "label-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-label-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-label-v6-renamed-control-v1.pine",
+      "sourceSha256": "5dd9f2cbc7749e8267464158dc7e739d6b42fcebd653b284cd9dd935edea8107",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "label-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v6-natural-v1",
+      "path": "ns-local-udt-no-call-line-v6-natural-v1.pine",
+      "sourceSha256": "8a206f559963217fe59f20b829da2bdab17f7d0918d198b38f379b0055a2b6b2",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "line-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-line-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-line-v6-renamed-control-v1.pine",
+      "sourceSha256": "764d29dc6fba886ec38066f1d8392cbb1505f6ee40a19c4c449a89e5488c346d",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "line-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v6-natural-v1",
+      "path": "ns-local-udt-no-call-linefill-v6-natural-v1.pine",
+      "sourceSha256": "08801aa0f7172a375b61d95fc62d469d6cc53d2d61020ea1f9e1b27b9688fba8",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "linefill-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-linefill-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-linefill-v6-renamed-control-v1.pine",
+      "sourceSha256": "63932b1ff16c2c0871b8654dcbaaf716c05ffcc9727de116bda723da50c8ecdc",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "linefill-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v6-natural-v1",
+      "path": "ns-local-udt-no-call-table-v6-natural-v1.pine",
+      "sourceSha256": "c1171f7ba14895070b96f8be6ff02fab0437dd518d040d3035306fe572778e7c",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "natural",
+      "pair": "table-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    },
+    {
+      "probe": "ns-local-udt-no-call-table-v6-renamed-control-v1",
+      "path": "ns-local-udt-no-call-table-v6-renamed-control-v1.pine",
+      "sourceSha256": "3c532c67ce648b8aa2a84050447ac74df36b256f2225c220deb891c9ec1b85b2",
+      "owner": "codex-1xjtos",
+      "stagedBy": "codex-tkxtd0",
+      "root": "ns-param-naming",
+      "group": "local-udt-no-call-namespace-declaration",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "role": "renamed-control",
+      "pair": "table-v6",
+      "columns": [
+        "RESULT"
+      ],
+      "instructionsPath": "INSTRUCTIONS-v1.md",
+      "instructionsSha256": "8615e239124cd78bac04983ed4c192c2e5495657bb81bedc197dbb6e8b7da401",
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "session": "regular",
+        "chartType": "standard",
+        "minimumConfirmedBars": 32
+      },
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "values": "UNSPECIFIED"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "NOT-RUN: source-only staging; no compute"
+    }
+  ]
+}
