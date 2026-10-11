@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v76",
+  "version": 1,
+  "owner": "codex-vlysqw",
+  "status": "STAGED-ONLY",
+  "baseOracleCommit": "ee640c966180f35325c50999413ebb155a6c99b3",
+  "inventory": {
+    "groups": 1,
+    "scripts": 16,
+    "targets": 8,
+    "controls": 8,
+    "pairs": 8,
+    "pineAssetCount": 16,
+    "libraryPrerequisiteCount": 0,
+    "libraryCompileOnlyCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "groups": [
+    {
+      "id": "var-varip-tuple-declarations",
+      "scripts": 16,
+      "scope": "Pine v5/v6 \u00d7 var/varip \u00d7 tuple-returning function/UDT-receiver method, paired with an ordinary declaration"
+    }
+  ],
+  "scripts": [
+    {
+      "probe": "v76-var-tuple-function-v5-be-v1-target",
+      "path": "v76-var-tuple-function-v5-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-function-v5-be-v1",
+      "pineVersion": 5,
+      "role": "target",
+      "modifier": "var",
+      "callForm": "function",
+      "sourceSha256": "3d01a057212451139abd8be1b3951a9395874a26452d9ee0f834bae32771bc4d",
+      "sourceBytes": 126,
+      "instructionsPath": "instructions/v76-var-tuple-function-v5-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "605fe4c1ce5f88ffbf748a2afdf727287a837cb5435986818e206a826ad59612",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit or refuse var [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-var-tuple-function-v5-be-v1-control",
+      "path": "v76-var-tuple-function-v5-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-function-v5-be-v1",
+      "pineVersion": 5,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "function",
+      "sourceSha256": "405012a94dfc51b9e63393d07b26e33cbd122705776ded3bf4566bc7d8ded91d",
+      "sourceBytes": 122,
+      "instructionsPath": "instructions/v76-var-tuple-function-v5-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "018c14f7037b26774349109bf2589b34849fe4d485de69ad6fb30473b3bbc146",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit the ordinary control [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-var-tuple-method-v5-be-v1-target",
+      "path": "v76-var-tuple-method-v5-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-method-v5-be-v1",
+      "pineVersion": 5,
+      "role": "target",
+      "modifier": "var",
+      "callForm": "method",
+      "sourceSha256": "76ed284779fb4fa2ad7355fba66a534c5e4382437af54c374af2992c68e9f567",
+      "sourceBytes": 217,
+      "instructionsPath": "instructions/v76-var-tuple-method-v5-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "171ce0563327a5a08c3fc7c0818f29b06113d11d103c2b6637cba5f1dd1d5f27",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit or refuse var [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-var-tuple-method-v5-be-v1-control",
+      "path": "v76-var-tuple-method-v5-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-method-v5-be-v1",
+      "pineVersion": 5,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "method",
+      "sourceSha256": "2d6aa14f266c7a7a4614db0823621caf1885ac03bc53d2720c55f9e50f01520d",
+      "sourceBytes": 213,
+      "instructionsPath": "instructions/v76-var-tuple-method-v5-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "78adb8408509199b77247eb02a97647dd6dcc16d7eaa3d720204a607f87b7082",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit the ordinary control [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-function-v5-be-v1-target",
+      "path": "v76-varip-tuple-function-v5-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-function-v5-be-v1",
+      "pineVersion": 5,
+      "role": "target",
+      "modifier": "varip",
+      "callForm": "function",
+      "sourceSha256": "2606c448d60d855bcc7fda486d253910fa004f12e9d459bae23c3c66a8cd1ab4",
+      "sourceBytes": 130,
+      "instructionsPath": "instructions/v76-varip-tuple-function-v5-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "a33094f34e3ab05d0ff3d674e3ac9b707e5ab13cf42982d3e0e1838669412fe3",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit or refuse varip [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-function-v5-be-v1-control",
+      "path": "v76-varip-tuple-function-v5-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-function-v5-be-v1",
+      "pineVersion": 5,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "function",
+      "sourceSha256": "b33cab167c55fd41516659d8fc198edaaccdac6f677f99b4a86dc64de1be4095",
+      "sourceBytes": 124,
+      "instructionsPath": "instructions/v76-varip-tuple-function-v5-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "f4551864473686b105affc5dd5ee7deb540c089cb846345141adf0cb65ba8a17",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit the ordinary control [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-method-v5-be-v1-target",
+      "path": "v76-varip-tuple-method-v5-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-method-v5-be-v1",
+      "pineVersion": 5,
+      "role": "target",
+      "modifier": "varip",
+      "callForm": "method",
+      "sourceSha256": "47bb0fbfb9b1a132ba9243ef5f69e3c239d7f0cca17858267ad6bc110cb82ba4",
+      "sourceBytes": 221,
+      "instructionsPath": "instructions/v76-varip-tuple-method-v5-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "65e6f2816538c07a259a86c4312534688ee4a203b530b64fa5b10e45e84c7524",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit or refuse varip [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-method-v5-be-v1-control",
+      "path": "v76-varip-tuple-method-v5-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-method-v5-be-v1",
+      "pineVersion": 5,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "method",
+      "sourceSha256": "da95a0518a1533d688881ed3f52368795a9847a92a0040e95e2b531306b174ba",
+      "sourceBytes": 215,
+      "instructionsPath": "instructions/v76-varip-tuple-method-v5-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "f1ee06a6f7476d5ad2ed74a25ceababe1101bfe49aab58339daac1c61d8d25d6",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v5 admit the ordinary control [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-var-tuple-function-v6-be-v1-target",
+      "path": "v76-var-tuple-function-v6-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-function-v6-be-v1",
+      "pineVersion": 6,
+      "role": "target",
+      "modifier": "var",
+      "callForm": "function",
+      "sourceSha256": "fa4a9304f077cb90be17ce9f01d9cafb8caa2dd5ee4c8c9de8bd38fe1e8148a1",
+      "sourceBytes": 126,
+      "instructionsPath": "instructions/v76-var-tuple-function-v6-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "9f06e1c72bec80a438e432c44cd325198545220d9ee309d754f886d5c866d414",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit or refuse var [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-var-tuple-function-v6-be-v1-control",
+      "path": "v76-var-tuple-function-v6-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-function-v6-be-v1",
+      "pineVersion": 6,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "function",
+      "sourceSha256": "2d0d8d498be1a3b0c15b4cc0ab8e5f7b7202535959ad00479ef2797fb876d7d5",
+      "sourceBytes": 122,
+      "instructionsPath": "instructions/v76-var-tuple-function-v6-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "65debe665eecb02866e9833ed7a7a5dbab97e79c54e0719973fab7014cad6568",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit the ordinary control [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-var-tuple-method-v6-be-v1-target",
+      "path": "v76-var-tuple-method-v6-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-method-v6-be-v1",
+      "pineVersion": 6,
+      "role": "target",
+      "modifier": "var",
+      "callForm": "method",
+      "sourceSha256": "93c02f8e6945f11ef61a5f8ea66147f2bef5292821d19ed26a7bf53846e1a4a5",
+      "sourceBytes": 217,
+      "instructionsPath": "instructions/v76-var-tuple-method-v6-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "be091c6c540250d7d1a4e46ef2f9c60a7b04fe51088fa142ad37bc63e4ee6425",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit or refuse var [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-var-tuple-method-v6-be-v1-control",
+      "path": "v76-var-tuple-method-v6-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-var-tuple-method-v6-be-v1",
+      "pineVersion": 6,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "method",
+      "sourceSha256": "ad16bc0f61dae044de69e8fd2a30e70767e9193250eecf50b957ecd7c5f63bc5",
+      "sourceBytes": 213,
+      "instructionsPath": "instructions/v76-var-tuple-method-v6-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "b85f66f1825d606ffa30e2ced3a7cf6c4d2d9cca4f370a2b15777644d8f0453e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit the ordinary control [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-function-v6-be-v1-target",
+      "path": "v76-varip-tuple-function-v6-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-function-v6-be-v1",
+      "pineVersion": 6,
+      "role": "target",
+      "modifier": "varip",
+      "callForm": "function",
+      "sourceSha256": "7b2fdf26a0cbb917780f7e3a307655be2672eb664ab4a42f742bca3e0baa230c",
+      "sourceBytes": 130,
+      "instructionsPath": "instructions/v76-varip-tuple-function-v6-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "7de74ee0b2eb596b386f8f242b40f2a13478bc5314ebe4df85cb86e3e60cb55e",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit or refuse varip [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-function-v6-be-v1-control",
+      "path": "v76-varip-tuple-function-v6-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-function-v6-be-v1",
+      "pineVersion": 6,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "function",
+      "sourceSha256": "25f1a0bd3f6729add8cff0eb00072aa9d67369885417b11c4a5fe8e7176184f3",
+      "sourceBytes": 124,
+      "instructionsPath": "instructions/v76-varip-tuple-function-v6-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "d808b62aae0ae10f4a94924e912801ec9b9bf652c712faa997f2c67122e02433",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit the ordinary control [a, b] = f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 4,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-method-v6-be-v1-target",
+      "path": "v76-varip-tuple-method-v6-be-v1-target.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-method-v6-be-v1",
+      "pineVersion": 6,
+      "role": "target",
+      "modifier": "varip",
+      "callForm": "method",
+      "sourceSha256": "4ce8c587e220b87528c1b932e7d5f85552b92a7c81ca00b22ea1cdb7e51229c4",
+      "sourceBytes": 221,
+      "instructionsPath": "instructions/v76-varip-tuple-method-v6-be-v1-target-instructions-v1.md",
+      "instructionsSha256": "f8aeb53a9a183b01b9def2d1bf24a0f3cc786aba43a22abb536329bc12837213",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit or refuse varip [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    },
+    {
+      "probe": "v76-varip-tuple-method-v6-be-v1-control",
+      "path": "v76-varip-tuple-method-v6-be-v1-control.pine",
+      "owner": "codex-be9795",
+      "group": "var-varip-tuple-declarations",
+      "pair": "v76-varip-tuple-method-v6-be-v1",
+      "pineVersion": 6,
+      "role": "control",
+      "modifier": "ordinary",
+      "callForm": "method",
+      "sourceSha256": "f104d867906a284edafac57ab961b5ba3a71905067da31348e2815d0053954cd",
+      "sourceBytes": 215,
+      "instructionsPath": "instructions/v76-varip-tuple-method-v6-be-v1-control-instructions-v1.md",
+      "instructionsSha256": "d64f381d285447935c070c2a2e4a659cea52fafa3e5f1f3fee8950e8e4515556",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": "UNSPECIFIED",
+      "questions": [
+        "Does Pine v6 admit the ordinary control [a, b] = holder.f() as an indicator tuple declaration?"
+      ],
+      "localPreflight": "NOT-RUN: probe-only task; no native outcome inferred",
+      "plots": [
+        "A",
+        "B",
+        "VALUE"
+      ],
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "timezone": "Etc/UTC",
+        "candles": "ordinary"
+      },
+      "observationWindow": {
+        "closedBars": 32,
+        "excludeOpenBar": true,
+        "sourceUnchanged": true
+      },
+      "attempts": [
+        {
+          "id": "default",
+          "inputs": {}
+        }
+      ],
+      "inputDeclarationLine": 7,
+      "limits": "Closed historical rows only. No intrabar persistence/rollback, initialization cadence, unused declaration, function-syntax method, tuple-content generalization or other version credit."
+    }
+  ],
+  "pairs": [
+    {
+      "id": "v76-var-tuple-function-v5-be-v1",
+      "target": "v76-var-tuple-function-v5-be-v1-target",
+      "control": "v76-var-tuple-function-v5-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    },
+    {
+      "id": "v76-var-tuple-method-v5-be-v1",
+      "target": "v76-var-tuple-method-v5-be-v1-target",
+      "control": "v76-var-tuple-method-v5-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    },
+    {
+      "id": "v76-varip-tuple-function-v5-be-v1",
+      "target": "v76-varip-tuple-function-v5-be-v1-target",
+      "control": "v76-varip-tuple-function-v5-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    },
+    {
+      "id": "v76-varip-tuple-method-v5-be-v1",
+      "target": "v76-varip-tuple-method-v5-be-v1-target",
+      "control": "v76-varip-tuple-method-v5-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    },
+    {
+      "id": "v76-var-tuple-function-v6-be-v1",
+      "target": "v76-var-tuple-function-v6-be-v1-target",
+      "control": "v76-var-tuple-function-v6-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    },
+    {
+      "id": "v76-var-tuple-method-v6-be-v1",
+      "target": "v76-var-tuple-method-v6-be-v1-target",
+      "control": "v76-var-tuple-method-v6-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    },
+    {
+      "id": "v76-varip-tuple-function-v6-be-v1",
+      "target": "v76-varip-tuple-function-v6-be-v1-target",
+      "control": "v76-varip-tuple-function-v6-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    },
+    {
+      "id": "v76-varip-tuple-method-v6-be-v1",
+      "target": "v76-varip-tuple-method-v6-be-v1-target",
+      "control": "v76-varip-tuple-method-v6-be-v1-control",
+      "difference": "Target adds only the var/varip modifier to the ordinary tuple declaration; paired indicator titles and all other source bytes are identical."
+    }
+  ],
+  "governingHandoff": "HANDOFF-v76-v1.md",
+  "sourceRoundProvenance": {
+    "stagingDirectory": "v76-var-tuple-probes-be9795-v1",
+    "publishedRound": "v76",
+    "sourceNamesAndBytesUnchanged": true,
+    "producerEntry": "instructions/ENTRY-v1.json",
+    "producerHandoff": "instructions/INSTRUCTIONS-v1.md"
+  },
+  "receiptVersionExclusions": [
+    "No intrabar persistence, rollback or initialization-cadence inference.",
+    "A failed ordinary control does not settle modifier-specific admission.",
+    "Preserve input line references as source locations, not predicted native error sites.",
+    "Do not generalize to unused declarations, function-syntax methods, other tuple contents or versions.",
+    "Original producer entry absolute paths are provenance; resolve published sources from this round directory."
+  ]
+}
