@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v87",
+  "version": 1,
+  "owner": "codex-p4250m",
+  "status": "SOURCE-REQUEST",
+  "baseOracleCommit": "7e1aec645a0cd51449ae876abc80f610ef3f8d9e",
+  "inventory": {
+    "scripts": 1,
+    "compileRepetitionsPerSource": 3,
+    "requestedRepetitions": 3,
+    "librarySourceCount": 1,
+    "libraryPublicationCount": 0,
+    "libraryImportCount": 0,
+    "libraryPrerequisiteCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "v87-v5-library-duplicate-method-order-p4250m-v1",
+      "path": "v87-v5-library-duplicate-method-order-p4250m-v1.pine",
+      "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+      "sourceBytes": 123,
+      "owner": "codex-p4250m",
+      "root": "census-v7-rank4-v5-exported-duplicate-method-advisory-order",
+      "pineVersion": 5,
+      "sourceKind": "library source saved privately; NOT a published library",
+      "indicatorOnly": false,
+      "captureMethod": "native PRIVATE unpublished Save",
+      "addToChart": "NOT-APPLICABLE-LIBRARY",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "ad345540902b4771859516fa473e01515ff12ae575ffeef6f2631e449fe0fb26",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "status": "UNSPECIFIED",
+        "markerPresence": "UNSPECIFIED",
+        "count": "UNSPECIFIED",
+        "order": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "repetitions": 3,
+      "originalAttempt": "v58/captures/v58/prerequisites/root2-library-02604ebe1288-v58-v1/attempt-v1",
+      "originalSourcePath": "v58/captures/v58/prerequisites/root2-library-02604ebe1288-v58-v1/attempt-v1/executed-v1.pine",
+      "historicalObservationSha256": "8a950417b160aa0287502b9de3ee8a89201fc6aa4fcd980f9595c65fd9e4f06e"
+    }
+  ],
+  "accountScope": {
+    "restriction": "ALLOWED: save as a PRIVATE unpublished script (a library source saved privately is fine), Add to chart where applicable, remove any study added by this request. FORBIDDEN: publish, share, visibility change, new layout, alerts, library publication or IMPORT. If any forbidden action is needed, STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+    "stopIfProhibitedActionRequired": true,
+    "noPublication": true,
+    "noImport": true
+  },
+  "governingHandoff": "HANDOFF-v87-v1.md",
+  "channelSeparation": [
+    "raw compiler response",
+    "immediate editor markers",
+    "settled editor markers"
+  ]
+}

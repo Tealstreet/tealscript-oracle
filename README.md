@@ -6,6 +6,8 @@ See [MIGRATION.md](MIGRATION.md) for the application cutover, verification and o
 
 ## Capture and handoff
 
+The v87 request is [v87/HANDOFF-v87-v1.md](v87/HANDOFF-v87-v1.md): one exact v5 exported duplicate-method library source, three PRIVATE unpublished Save captures. No publication or IMPORT; Add to chart is inapplicable to this library source.
+
 The v86 request is [v86/HANDOFF-v86-v1.md](v86/HANDOFF-v86-v1.md): one exact mixed-error source, three private Save/Add repetitions; compiler responses and editor marker arrays are captured independently without prescribed order.
 
 The v85 request is [v85/HANDOFF-v85-v1.md](v85/HANDOFF-v85-v1.md): eight exact advisory-presence exceptions/companions/controls, five private Save/Add compiles each; compiler response presence is recorded independently of editor markers.
