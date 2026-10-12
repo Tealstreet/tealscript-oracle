@@ -1,0 +1,3334 @@
+{
+  "revision": 1,
+  "round": "v83",
+  "governingHandoff": "HANDOFF-v83-v1.md",
+  "sources": [
+    {
+      "source": {
+        "probe": "v83-nonliteral-callable-default-w0-v1",
+        "path": "v83-nonliteral-callable-default-w0-v1.pine",
+        "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "nonliteral-callable-default",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v60/captures/v60/default-boundary-volume-multiply-v5-1x-v1/attempt-v1",
+        "shape": "v5 UDF default is arithmetic expression; chart/local call",
+        "historicalGroupAttempts": 33
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+            "version": "1.0"
+          },
+          "observationPath": "v83-nonliteral-callable-default-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18975,
+              "captureTimestamp": "2026-10-12T05:45:19.276Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+                "version": "1.0"
+              },
+              "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+              "responseSha256": "b283789e672372058942f04fdd565befc93b10fffc1a3af844e8ce89ca10d61f",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 31,
+                    "line": 4
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 18980,
+              "captureTimestamp": "2026-10-12T05:45:19.293Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+                "version": "1.0"
+              },
+              "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+              "responseSha256": "7f2020585e9c58b7c705c6cfad4c84ade0e546ae9f94df47873d92201bc89dc6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 31,
+                    "line": 4
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "uA47Jt"
+          ],
+          "removedStudyIds": [
+            "uA47Jt"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+            "version": "1.0"
+          },
+          "observationPath": "v83-nonliteral-callable-default-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18996,
+              "captureTimestamp": "2026-10-12T05:45:32.207Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+                "version": "1.0"
+              },
+              "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+              "responseSha256": "7f2020585e9c58b7c705c6cfad4c84ade0e546ae9f94df47873d92201bc89dc6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 31,
+                    "line": 4
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "bDjvMC"
+          ],
+          "removedStudyIds": [
+            "bDjvMC"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+            "version": "1.0"
+          },
+          "observationPath": "v83-nonliteral-callable-default-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19009,
+              "captureTimestamp": "2026-10-12T05:45:56.530Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+                "version": "1.0"
+              },
+              "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+              "responseSha256": "7f2020585e9c58b7c705c6cfad4c84ade0e546ae9f94df47873d92201bc89dc6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 31,
+                    "line": 4
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "6wQtly"
+          ],
+          "removedStudyIds": [
+            "6wQtly"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+            "version": "1.0"
+          },
+          "observationPath": "v83-nonliteral-callable-default-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19021,
+              "captureTimestamp": "2026-10-12T05:46:08.781Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+                "version": "1.0"
+              },
+              "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+              "responseSha256": "7f2020585e9c58b7c705c6cfad4c84ade0e546ae9f94df47873d92201bc89dc6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 31,
+                    "line": 4
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "2jAYWN"
+          ],
+          "removedStudyIds": [
+            "2jAYWN"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+            "version": "1.0"
+          },
+          "observationPath": "v83-nonliteral-callable-default-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19035,
+              "captureTimestamp": "2026-10-12T05:46:21.281Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;49e586fb16324882aa2713f375631b21",
+                "version": "1.0"
+              },
+              "sourceSha256": "8eb7cbd9f0fb73d9826af4e892cbb4931f1dd6830b6f1229fbebce5c12b87e9b",
+              "responseSha256": "7f2020585e9c58b7c705c6cfad4c84ade0e546ae9f94df47873d92201bc89dc6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 31,
+                    "line": 4
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "apOcFN"
+          ],
+          "removedStudyIds": [
+            "apOcFN"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-unused-method-receiver-w0-v1",
+        "path": "v83-unused-method-receiver-w0-v1.pine",
+        "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "unused-method-receiver",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v71/captures/v71/unused-builtin-box-v5-natural-v2/attempt-v1",
+        "shape": "v5 unused first method receiver in `method inspect(box self)`; chart/local declaration and call",
+        "historicalGroupAttempts": 7
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The 'self' argument is not used. The first method argument should be used.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unused-method-receiver-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19068,
+              "captureTimestamp": "2026-10-12T05:46:47.275Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+                "version": "1.0"
+              },
+              "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+              "responseSha256": "ea76942f8a268e86ad8df9755ffa554eefadc5638e209065dcd8502efc182013",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 29,
+                    "line": 3
+                  },
+                  "message": "The 'self' argument is not used. The first method argument should be used.",
+                  "start": {
+                    "column": 15,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19073,
+              "captureTimestamp": "2026-10-12T05:46:47.289Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+                "version": "1.0"
+              },
+              "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+              "responseSha256": "b999755df7e60489ffa83a25a70781524985135d62793036397b74725cd5aea3",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 29,
+                    "line": 3
+                  },
+                  "message": "The 'self' argument is not used. The first method argument should be used.",
+                  "start": {
+                    "column": 15,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 1,
+          "addedStudyIds": [
+            "txuyuc"
+          ],
+          "removedStudyIds": [
+            "txuyuc"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unused-method-receiver-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19091,
+              "captureTimestamp": "2026-10-12T05:47:26.956Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+                "version": "1.0"
+              },
+              "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+              "responseSha256": "b999755df7e60489ffa83a25a70781524985135d62793036397b74725cd5aea3",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 29,
+                    "line": 3
+                  },
+                  "message": "The 'self' argument is not used. The first method argument should be used.",
+                  "start": {
+                    "column": 15,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "KFvOYg"
+          ],
+          "removedStudyIds": [
+            "KFvOYg"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unused-method-receiver-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19105,
+              "captureTimestamp": "2026-10-12T05:47:39.210Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+                "version": "1.0"
+              },
+              "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+              "responseSha256": "b999755df7e60489ffa83a25a70781524985135d62793036397b74725cd5aea3",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 29,
+                    "line": 3
+                  },
+                  "message": "The 'self' argument is not used. The first method argument should be used.",
+                  "start": {
+                    "column": 15,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 1,
+          "addedStudyIds": [
+            "6uIb15"
+          ],
+          "removedStudyIds": [
+            "6uIb15"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unused-method-receiver-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19118,
+              "captureTimestamp": "2026-10-12T05:47:52.231Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+                "version": "1.0"
+              },
+              "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+              "responseSha256": "b999755df7e60489ffa83a25a70781524985135d62793036397b74725cd5aea3",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 29,
+                    "line": 3
+                  },
+                  "message": "The 'self' argument is not used. The first method argument should be used.",
+                  "start": {
+                    "column": 15,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "NlW8jn"
+          ],
+          "removedStudyIds": [
+            "NlW8jn"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unused-method-receiver-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19131,
+              "captureTimestamp": "2026-10-12T05:48:12.937Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;62649482fd5140a78e3fb888e52a065a",
+                "version": "1.0"
+              },
+              "sourceSha256": "9cda460fe7b1291bac21eee9025269c4831d7008eb489d8fb105fcf837b79413",
+              "responseSha256": "b999755df7e60489ffa83a25a70781524985135d62793036397b74725cd5aea3",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 29,
+                    "line": 3
+                  },
+                  "message": "The 'self' argument is not used. The first method argument should be used.",
+                  "start": {
+                    "column": 15,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 1,
+          "addedStudyIds": [
+            "ZqG6x1"
+          ],
+          "removedStudyIds": [
+            "ZqG6x1"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-namespace-named-receiver-w0-v1",
+        "path": "v83-namespace-named-receiver-w0-v1.pine",
+        "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "namespace-named-receiver",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v73/captures/v73/ns-param-set-top-line-v5-v1/attempt-v1",
+        "shape": "v5 dot method/namespace call on builtin-named UDT local/parameter; line",
+        "historicalGroupAttempts": 9
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "Cannot name a method `line` or use dot notation to call a method from a variable with this identifier.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+            "version": "1.0"
+          },
+          "observationPath": "v83-namespace-named-receiver-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19163,
+              "captureTimestamp": "2026-10-12T05:48:29.608Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+                "version": "1.0"
+              },
+              "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+              "responseSha256": "7740584252e6bd5cdb2aded807e27ce95affbe54836371213160a20401cbc743",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 20,
+                    "line": 8
+                  },
+                  "message": "Cannot name a method `line` or use dot notation to call a method from a variable with this identifier.",
+                  "start": {
+                    "column": 9,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19170,
+              "captureTimestamp": "2026-10-12T05:48:29.616Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+                "version": "1.0"
+              },
+              "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+              "responseSha256": "9a1b25efc7f110aa6593f0a46a109e9206e851382c22a3f2e61311c5c57d29b6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 20,
+                    "line": 8
+                  },
+                  "message": "Cannot name a method `line` or use dot notation to call a method from a variable with this identifier.",
+                  "start": {
+                    "column": 9,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 1,
+          "addedStudyIds": [
+            "OEXiAo"
+          ],
+          "removedStudyIds": [
+            "OEXiAo"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+            "version": "1.0"
+          },
+          "observationPath": "v83-namespace-named-receiver-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19186,
+              "captureTimestamp": "2026-10-12T05:48:41.709Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+                "version": "1.0"
+              },
+              "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+              "responseSha256": "9a1b25efc7f110aa6593f0a46a109e9206e851382c22a3f2e61311c5c57d29b6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 20,
+                    "line": 8
+                  },
+                  "message": "Cannot name a method `line` or use dot notation to call a method from a variable with this identifier.",
+                  "start": {
+                    "column": 9,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "dlSh85"
+          ],
+          "removedStudyIds": [
+            "dlSh85"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+            "version": "1.0"
+          },
+          "observationPath": "v83-namespace-named-receiver-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19199,
+              "captureTimestamp": "2026-10-12T05:49:06.205Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+                "version": "1.0"
+              },
+              "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+              "responseSha256": "9a1b25efc7f110aa6593f0a46a109e9206e851382c22a3f2e61311c5c57d29b6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 20,
+                    "line": 8
+                  },
+                  "message": "Cannot name a method `line` or use dot notation to call a method from a variable with this identifier.",
+                  "start": {
+                    "column": 9,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 1,
+          "addedStudyIds": [
+            "HsBvLa"
+          ],
+          "removedStudyIds": [
+            "HsBvLa"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+            "version": "1.0"
+          },
+          "observationPath": "v83-namespace-named-receiver-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19211,
+              "captureTimestamp": "2026-10-12T05:49:18.441Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+                "version": "1.0"
+              },
+              "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+              "responseSha256": "9a1b25efc7f110aa6593f0a46a109e9206e851382c22a3f2e61311c5c57d29b6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 20,
+                    "line": 8
+                  },
+                  "message": "Cannot name a method `line` or use dot notation to call a method from a variable with this identifier.",
+                  "start": {
+                    "column": 9,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "wuvwfJ"
+          ],
+          "removedStudyIds": [
+            "wuvwfJ"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+            "version": "1.0"
+          },
+          "observationPath": "v83-namespace-named-receiver-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19225,
+              "captureTimestamp": "2026-10-12T05:49:31.052Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0e9cec8764574085b11ac8ab4b8813b5",
+                "version": "1.0"
+              },
+              "sourceSha256": "ed4a5209e0d6420b3caef94ccc4c97688581986dc0005451aec1b8e346a2afa0",
+              "responseSha256": "9a1b25efc7f110aa6593f0a46a109e9206e851382c22a3f2e61311c5c57d29b6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 20,
+                    "line": 8
+                  },
+                  "message": "Cannot name a method `line` or use dot notation to call a method from a variable with this identifier.",
+                  "start": {
+                    "column": 9,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 1,
+          "addedStudyIds": [
+            "AhPQgv"
+          ],
+          "removedStudyIds": [
+            "AhPQgv"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-builtin-method-shadow-declaration-w0-v1",
+        "path": "v83-builtin-method-shadow-declaration-w0-v1.pine",
+        "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "builtin-method-shadow-declaration",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v59/captures/v59/ns-param-naming-ta-custom-ema-v5-v59-v1/attempt-v1",
+        "shape": "v5 custom same-name method shadows ta.ema on namespace-named receiver",
+        "historicalGroupAttempts": 7
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "ta.ema() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-method-shadow-declaration-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19260,
+              "captureTimestamp": "2026-10-12T05:49:54.316Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+                "version": "1.0"
+              },
+              "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+              "responseSha256": "20ab4675025f6f861dfdfa702888007af3390813c4956d5b41b6dbb0c000fa28",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 14,
+                    "line": 8
+                  },
+                  "message": "ta.ema() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+                  "start": {
+                    "column": 5,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19265,
+              "captureTimestamp": "2026-10-12T05:49:54.328Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+                "version": "1.0"
+              },
+              "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+              "responseSha256": "7039eb982173ba37ef4f58610d94807bcf0ccac406aab5d74a6f251981ffa605",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 14,
+                    "line": 8
+                  },
+                  "message": "ta.ema() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+                  "start": {
+                    "column": 5,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "dGvzDl"
+          ],
+          "removedStudyIds": [
+            "dGvzDl"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-method-shadow-declaration-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19281,
+              "captureTimestamp": "2026-10-12T05:50:13.751Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+                "version": "1.0"
+              },
+              "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+              "responseSha256": "7039eb982173ba37ef4f58610d94807bcf0ccac406aab5d74a6f251981ffa605",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 14,
+                    "line": 8
+                  },
+                  "message": "ta.ema() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+                  "start": {
+                    "column": 5,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "yfQWVN"
+          ],
+          "removedStudyIds": [
+            "yfQWVN"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-method-shadow-declaration-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19297,
+              "captureTimestamp": "2026-10-12T05:50:26.280Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+                "version": "1.0"
+              },
+              "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+              "responseSha256": "7039eb982173ba37ef4f58610d94807bcf0ccac406aab5d74a6f251981ffa605",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 14,
+                    "line": 8
+                  },
+                  "message": "ta.ema() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+                  "start": {
+                    "column": 5,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "4OBtND"
+          ],
+          "removedStudyIds": [
+            "4OBtND"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-method-shadow-declaration-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19313,
+              "captureTimestamp": "2026-10-12T05:50:39.259Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+                "version": "1.0"
+              },
+              "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+              "responseSha256": "7039eb982173ba37ef4f58610d94807bcf0ccac406aab5d74a6f251981ffa605",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 14,
+                    "line": 8
+                  },
+                  "message": "ta.ema() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+                  "start": {
+                    "column": 5,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "4nrvTZ"
+          ],
+          "removedStudyIds": [
+            "4nrvTZ"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-method-shadow-declaration-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19327,
+              "captureTimestamp": "2026-10-12T05:50:52.029Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2f4ad1f7a2c348768df2eb72b26f9081",
+                "version": "1.0"
+              },
+              "sourceSha256": "9576f4f58e96c2f9b96791ae85668d1bc0e17b0e742b0dc0c2d7b738e42461c5",
+              "responseSha256": "7039eb982173ba37ef4f58610d94807bcf0ccac406aab5d74a6f251981ffa605",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 14,
+                    "line": 8
+                  },
+                  "message": "ta.ema() constructs cannot shadow existing built-in functions. Rename the method or the variable that it is called with.",
+                  "start": {
+                    "column": 5,
+                    "line": 8
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "RwJ9j1"
+          ],
+          "removedStudyIds": [
+            "RwJ9j1"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-optional-only-overload-declaration-w0-v1",
+        "path": "v83-optional-only-overload-declaration-w0-v1.pine",
+        "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "optional-only-overload-declaration",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v60/captures/v60/optional-only-overloads-v5-declaration-v60-v1/attempt-v1",
+        "shape": "v5 overloaded read functions/methods share required parameter types and differ in optional parameters",
+        "historicalGroupAttempts": 4
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The 'read' function has overloads with the same required parameters. The type of required parameters must be different in overloaded versions of functions.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-optional-only-overload-declaration-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19359,
+              "captureTimestamp": "2026-10-12T05:51:15.057Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+                "version": "1.0"
+              },
+              "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+              "responseSha256": "07be850d9259f380b1350d9709d26d0d748c3ecca64edebe47e64267b693f2ca",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "message": "The 'read' function has overloads with the same required parameters. The type of required parameters must be different in overloaded versions of functions.",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19364,
+              "captureTimestamp": "2026-10-12T05:51:15.068Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+                "version": "1.0"
+              },
+              "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+              "responseSha256": "c8e73699617d145f99b8674d33e3a5f101f9f03a9de54eb4c6e591ca6c4f46e1",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "message": "The 'read' function has overloads with the same required parameters. The type of required parameters must be different in overloaded versions of functions.",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "n4K7XF"
+          ],
+          "removedStudyIds": [
+            "n4K7XF"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-optional-only-overload-declaration-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19380,
+              "captureTimestamp": "2026-10-12T05:51:27.459Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+                "version": "1.0"
+              },
+              "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+              "responseSha256": "c8e73699617d145f99b8674d33e3a5f101f9f03a9de54eb4c6e591ca6c4f46e1",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "message": "The 'read' function has overloads with the same required parameters. The type of required parameters must be different in overloaded versions of functions.",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "3OlBtG"
+          ],
+          "removedStudyIds": [
+            "3OlBtG"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-optional-only-overload-declaration-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19393,
+              "captureTimestamp": "2026-10-12T05:51:39.792Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+                "version": "1.0"
+              },
+              "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+              "responseSha256": "c8e73699617d145f99b8674d33e3a5f101f9f03a9de54eb4c6e591ca6c4f46e1",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "message": "The 'read' function has overloads with the same required parameters. The type of required parameters must be different in overloaded versions of functions.",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "zbR4AA"
+          ],
+          "removedStudyIds": [
+            "zbR4AA"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-optional-only-overload-declaration-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19408,
+              "captureTimestamp": "2026-10-12T05:52:03.311Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+                "version": "1.0"
+              },
+              "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+              "responseSha256": "c8e73699617d145f99b8674d33e3a5f101f9f03a9de54eb4c6e591ca6c4f46e1",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "message": "The 'read' function has overloads with the same required parameters. The type of required parameters must be different in overloaded versions of functions.",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "Dao4v5"
+          ],
+          "removedStudyIds": [
+            "Dao4v5"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-optional-only-overload-declaration-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19420,
+              "captureTimestamp": "2026-10-12T05:52:15.972Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d8f15d69446d45c997d16d64323d7f5c",
+                "version": "1.0"
+              },
+              "sourceSha256": "c61857e31e6b22d795bfe705788460188912261fe88164add713debd86c468fd",
+              "responseSha256": "c8e73699617d145f99b8674d33e3a5f101f9f03a9de54eb4c6e591ca6c4f46e1",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "message": "The 'read' function has overloads with the same required parameters. The type of required parameters must be different in overloaded versions of functions.",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "nUDMWs"
+          ],
+          "removedStudyIds": [
+            "nUDMWs"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-library-version-refusal-w0-v1",
+        "path": "v83-library-version-refusal-w0-v1.pine",
+        "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "library-version-refusal",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v60/captures/v60/private-method-private-receiver-v5-v2/attempt-v1",
+        "shape": "v5 imports library requiring v6; additional absent float.pick method after import error",
+        "historicalGroupAttempts": 2
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "Cannot import the 'lib' library into a script coded in Pine Script\u2122 v5. Convert the script to Pine Script\u2122 v6 to use this library.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+            "version": "1.0"
+          },
+          "observationPath": "v83-library-version-refusal-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19452,
+              "captureTimestamp": "2026-10-12T05:52:37.274Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+                "version": "1.0"
+              },
+              "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+              "responseSha256": "becdeff837e5a21b630d83a1ed334f8eefccbcf938b6afce1acc76890a1fb9e6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 35,
+                    "line": 3
+                  },
+                  "message": "Cannot import the 'lib' library into a script coded in Pine Script\u2122 v5. Convert the script to Pine Script\u2122 v6 to use this library.",
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19457,
+              "captureTimestamp": "2026-10-12T05:52:37.289Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+                "version": "1.0"
+              },
+              "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+              "responseSha256": "05c24f9f584bb9eef84fcf26af8d3d09ec83826a6fbda3d047679faf61d5a72a",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 35,
+                    "line": 3
+                  },
+                  "message": "Cannot import the 'lib' library into a script coded in Pine Script\u2122 v5. Convert the script to Pine Script\u2122 v6 to use this library.",
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "fYoI74"
+          ],
+          "removedStudyIds": [
+            "fYoI74"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+            "version": "1.0"
+          },
+          "observationPath": "v83-library-version-refusal-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19474,
+              "captureTimestamp": "2026-10-12T05:52:49.442Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+                "version": "1.0"
+              },
+              "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+              "responseSha256": "05c24f9f584bb9eef84fcf26af8d3d09ec83826a6fbda3d047679faf61d5a72a",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 35,
+                    "line": 3
+                  },
+                  "message": "Cannot import the 'lib' library into a script coded in Pine Script\u2122 v5. Convert the script to Pine Script\u2122 v6 to use this library.",
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 3,
+          "addedStudyIds": [
+            "lSulZ2"
+          ],
+          "removedStudyIds": [
+            "lSulZ2"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+            "version": "1.0"
+          },
+          "observationPath": "v83-library-version-refusal-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19489,
+              "captureTimestamp": "2026-10-12T05:53:10.209Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+                "version": "1.0"
+              },
+              "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+              "responseSha256": "05c24f9f584bb9eef84fcf26af8d3d09ec83826a6fbda3d047679faf61d5a72a",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 35,
+                    "line": 3
+                  },
+                  "message": "Cannot import the 'lib' library into a script coded in Pine Script\u2122 v5. Convert the script to Pine Script\u2122 v6 to use this library.",
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "R0p3GG"
+          ],
+          "removedStudyIds": [
+            "R0p3GG"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+            "version": "1.0"
+          },
+          "observationPath": "v83-library-version-refusal-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19502,
+              "captureTimestamp": "2026-10-12T05:53:23.016Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+                "version": "1.0"
+              },
+              "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+              "responseSha256": "05c24f9f584bb9eef84fcf26af8d3d09ec83826a6fbda3d047679faf61d5a72a",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 35,
+                    "line": 3
+                  },
+                  "message": "Cannot import the 'lib' library into a script coded in Pine Script\u2122 v5. Convert the script to Pine Script\u2122 v6 to use this library.",
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 3,
+          "addedStudyIds": [
+            "iJKFqy"
+          ],
+          "removedStudyIds": [
+            "iJKFqy"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+            "version": "1.0"
+          },
+          "observationPath": "v83-library-version-refusal-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19515,
+              "captureTimestamp": "2026-10-12T05:53:35.012Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b95641e07a91473ba9b590ff41ccdf2e",
+                "version": "1.0"
+              },
+              "sourceSha256": "103e2f08bd7ace29fe206f0c0c3d670f8afe5f462b866fe5d7ff829352cf5834",
+              "responseSha256": "05c24f9f584bb9eef84fcf26af8d3d09ec83826a6fbda3d047679faf61d5a72a",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 35,
+                    "line": 3
+                  },
+                  "message": "Cannot import the 'lib' library into a script coded in Pine Script\u2122 v5. Convert the script to Pine Script\u2122 v6 to use this library.",
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "Xt81SI"
+          ],
+          "removedStudyIds": [
+            "Xt81SI"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-builtin-name-object-declaration-w0-v1",
+        "path": "v83-builtin-name-object-declaration-w0-v1.pine",
+        "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "builtin-name-object-declaration",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v66/captures/v66/ns-local-udt-no-call-line-v5-natural-v1/attempt-v1",
+        "shape": "v5 builtin namespace name used by UDT local/object, rejected at declaration",
+        "historicalGroupAttempts": 6
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "Invalid object name: line. Namespaces of built-ins cannot be used.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-name-object-declaration-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19550,
+              "captureTimestamp": "2026-10-12T05:53:56.492Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+                "version": "1.0"
+              },
+              "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+              "responseSha256": "40b4ccdf1f0a2a7deb34c2d5e99932c8f9f1bcb65f93cc811f47b1197486e7c8",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 8,
+                    "line": 7
+                  },
+                  "message": "Invalid object name: line. Namespaces of built-ins cannot be used.",
+                  "start": {
+                    "column": 5,
+                    "line": 7
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19555,
+              "captureTimestamp": "2026-10-12T05:53:56.500Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+                "version": "1.0"
+              },
+              "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+              "responseSha256": "83f0d12da612cfedcd83b647d7a4b5d848357b6b4f254659f618ce92eeed9bd5",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 8,
+                    "line": 7
+                  },
+                  "message": "Invalid object name: line. Namespaces of built-ins cannot be used.",
+                  "start": {
+                    "column": 5,
+                    "line": 7
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "wToffq"
+          ],
+          "removedStudyIds": [
+            "wToffq"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-name-object-declaration-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19571,
+              "captureTimestamp": "2026-10-12T05:54:14.936Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+                "version": "1.0"
+              },
+              "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+              "responseSha256": "83f0d12da612cfedcd83b647d7a4b5d848357b6b4f254659f618ce92eeed9bd5",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 8,
+                    "line": 7
+                  },
+                  "message": "Invalid object name: line. Namespaces of built-ins cannot be used.",
+                  "start": {
+                    "column": 5,
+                    "line": 7
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "HKJfeN"
+          ],
+          "removedStudyIds": [
+            "HKJfeN"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-name-object-declaration-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19583,
+              "captureTimestamp": "2026-10-12T05:54:27.438Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+                "version": "1.0"
+              },
+              "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+              "responseSha256": "83f0d12da612cfedcd83b647d7a4b5d848357b6b4f254659f618ce92eeed9bd5",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 8,
+                    "line": 7
+                  },
+                  "message": "Invalid object name: line. Namespaces of built-ins cannot be used.",
+                  "start": {
+                    "column": 5,
+                    "line": 7
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "dQl6M2"
+          ],
+          "removedStudyIds": [
+            "dQl6M2"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-name-object-declaration-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19596,
+              "captureTimestamp": "2026-10-12T05:54:39.932Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+                "version": "1.0"
+              },
+              "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+              "responseSha256": "83f0d12da612cfedcd83b647d7a4b5d848357b6b4f254659f618ce92eeed9bd5",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 8,
+                    "line": 7
+                  },
+                  "message": "Invalid object name: line. Namespaces of built-ins cannot be used.",
+                  "start": {
+                    "column": 5,
+                    "line": 7
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "YISpcN"
+          ],
+          "removedStudyIds": [
+            "YISpcN"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+            "version": "1.0"
+          },
+          "observationPath": "v83-builtin-name-object-declaration-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19609,
+              "captureTimestamp": "2026-10-12T05:54:52.465Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;072906ada19043e38a922bb0c7c99049",
+                "version": "1.0"
+              },
+              "sourceSha256": "a708b6dfa90ef1318086af91401b0dc953e0df1ca51fe15ee19736fd7c3d51dc",
+              "responseSha256": "83f0d12da612cfedcd83b647d7a4b5d848357b6b4f254659f618ce92eeed9bd5",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 8,
+                    "line": 7
+                  },
+                  "message": "Invalid object name: line. Namespaces of built-ins cannot be used.",
+                  "start": {
+                    "column": 5,
+                    "line": 7
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "Ob8rBI"
+          ],
+          "removedStudyIds": [
+            "Ob8rBI"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-private-library-namespace-method-w0-v1",
+        "path": "v83-private-library-namespace-method-w0-v1.pine",
+        "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "private-library-namespace-method",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v67/captures/v67/private-function-namespace-private-v5-g6-v1/attempt-v1",
+        "shape": "v5 private imported library function called in namespace form lib.pick; missing reference on library receiver",
+        "historicalGroupAttempts": 1
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "Could not find method or method reference 'pick' for 'lib'",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+            "version": "1.0"
+          },
+          "observationPath": "v83-private-library-namespace-method-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19643,
+              "captureTimestamp": "2026-10-12T05:55:17.105Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+                "version": "1.0"
+              },
+              "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+              "responseSha256": "1af9581185a0438760a9bf3315b91fe0de8985b113038bc3ce5fc2b9a7bb79be",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "message": "Could not find method or method reference 'pick' for 'lib'",
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19648,
+              "captureTimestamp": "2026-10-12T05:55:17.114Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+                "version": "1.0"
+              },
+              "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+              "responseSha256": "59921e06b993d48061cd97c3f57b18cec17222e383fbfdad5aa1ebe91627f9d6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "message": "Could not find method or method reference 'pick' for 'lib'",
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "zWQgIv"
+          ],
+          "removedStudyIds": [
+            "zWQgIv"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+            "version": "1.0"
+          },
+          "observationPath": "v83-private-library-namespace-method-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19668,
+              "captureTimestamp": "2026-10-12T05:55:29.871Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+                "version": "1.0"
+              },
+              "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+              "responseSha256": "59921e06b993d48061cd97c3f57b18cec17222e383fbfdad5aa1ebe91627f9d6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "message": "Could not find method or method reference 'pick' for 'lib'",
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "35UMYU"
+          ],
+          "removedStudyIds": [
+            "35UMYU"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+            "version": "1.0"
+          },
+          "observationPath": "v83-private-library-namespace-method-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19681,
+              "captureTimestamp": "2026-10-12T05:55:42.283Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+                "version": "1.0"
+              },
+              "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+              "responseSha256": "59921e06b993d48061cd97c3f57b18cec17222e383fbfdad5aa1ebe91627f9d6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "message": "Could not find method or method reference 'pick' for 'lib'",
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "PBWPsp"
+          ],
+          "removedStudyIds": [
+            "PBWPsp"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+            "version": "1.0"
+          },
+          "observationPath": "v83-private-library-namespace-method-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19696,
+              "captureTimestamp": "2026-10-12T05:56:02.328Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+                "version": "1.0"
+              },
+              "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+              "responseSha256": "59921e06b993d48061cd97c3f57b18cec17222e383fbfdad5aa1ebe91627f9d6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "message": "Could not find method or method reference 'pick' for 'lib'",
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "dWCFyR"
+          ],
+          "removedStudyIds": [
+            "dWCFyR"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+            "version": "1.0"
+          },
+          "observationPath": "v83-private-library-namespace-method-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19710,
+              "captureTimestamp": "2026-10-12T05:56:14.508Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2338cec7c57a4c4e8ec1eb5d92c549e2",
+                "version": "1.0"
+              },
+              "sourceSha256": "922590feb7931f39e3ed4682462c228425508450ae975926e4e05a73229291f0",
+              "responseSha256": "59921e06b993d48061cd97c3f57b18cec17222e383fbfdad5aa1ebe91627f9d6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "message": "Could not find method or method reference 'pick' for 'lib'",
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "mT3MWT"
+          ],
+          "removedStudyIds": [
+            "mT3MWT"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-unavailable-footprint-type-w0-v1",
+        "path": "v83-unavailable-footprint-type-w0-v1.pine",
+        "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "unavailable-footprint-type",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v77/captures/v77/footprint-var-v5-renamed-control-v1/attempt-v1",
+        "shape": "v5 unavailable footprint type in variable annotation/declaration",
+        "historicalGroupAttempts": 7
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "'footprint' is not a valid type keyword.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-type-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19742,
+              "captureTimestamp": "2026-10-12T05:56:35.069Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+                "version": "1.0"
+              },
+              "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+              "responseSha256": "cf6acbd13fc77c83f24aa9794de00b051feac03021903e08ca97f6cfde1b2fa6",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 13,
+                    "line": 3
+                  },
+                  "message": "'footprint' is not a valid type keyword.",
+                  "start": {
+                    "column": 5,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19747,
+              "captureTimestamp": "2026-10-12T05:56:35.079Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+                "version": "1.0"
+              },
+              "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+              "responseSha256": "7d8736ff5b58ef324db45dd8e73756e91749b11008d27f7d104ccd64447253c7",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 13,
+                    "line": 3
+                  },
+                  "message": "'footprint' is not a valid type keyword.",
+                  "start": {
+                    "column": 5,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "gjfRRh"
+          ],
+          "removedStudyIds": [
+            "gjfRRh"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-type-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19763,
+              "captureTimestamp": "2026-10-12T05:56:47.999Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+                "version": "1.0"
+              },
+              "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+              "responseSha256": "7d8736ff5b58ef324db45dd8e73756e91749b11008d27f7d104ccd64447253c7",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 13,
+                    "line": 3
+                  },
+                  "message": "'footprint' is not a valid type keyword.",
+                  "start": {
+                    "column": 5,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "ic2GFO"
+          ],
+          "removedStudyIds": [
+            "ic2GFO"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-type-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19777,
+              "captureTimestamp": "2026-10-12T05:57:05.706Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+                "version": "1.0"
+              },
+              "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+              "responseSha256": "7d8736ff5b58ef324db45dd8e73756e91749b11008d27f7d104ccd64447253c7",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 13,
+                    "line": 3
+                  },
+                  "message": "'footprint' is not a valid type keyword.",
+                  "start": {
+                    "column": 5,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "yylj5w"
+          ],
+          "removedStudyIds": [
+            "yylj5w"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-type-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19791,
+              "captureTimestamp": "2026-10-12T05:57:18.242Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+                "version": "1.0"
+              },
+              "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+              "responseSha256": "7d8736ff5b58ef324db45dd8e73756e91749b11008d27f7d104ccd64447253c7",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 13,
+                    "line": 3
+                  },
+                  "message": "'footprint' is not a valid type keyword.",
+                  "start": {
+                    "column": 5,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "c5Mv0L"
+          ],
+          "removedStudyIds": [
+            "c5Mv0L"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-type-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19804,
+              "captureTimestamp": "2026-10-12T05:57:30.488Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;c8c88a0d114b4e189bb1954a61a10c7c",
+                "version": "1.0"
+              },
+              "sourceSha256": "09587f757a62e455a0a917d8f92c49a777685bdfc11e91c2ff21a68476dbfdac",
+              "responseSha256": "7d8736ff5b58ef324db45dd8e73756e91749b11008d27f7d104ccd64447253c7",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 13,
+                    "line": 3
+                  },
+                  "message": "'footprint' is not a valid type keyword.",
+                  "start": {
+                    "column": 5,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "RyKgn3"
+          ],
+          "removedStudyIds": [
+            "RyKgn3"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-missing-builtin-receiver-id-w0-v1",
+        "path": "v83-missing-builtin-receiver-id-w0-v1.pine",
+        "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "missing-builtin-receiver-id",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v74/captures/v74/inferred-box-parameter-box-v5-v1/attempt-v1",
+        "shape": "v5 inferred parameter named box used as box.get_top() with no id",
+        "historicalGroupAttempts": 1
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "No value assigned to the `id` parameter in box.get_top()",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+            "version": "1.0"
+          },
+          "observationPath": "v83-missing-builtin-receiver-id-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19836,
+              "captureTimestamp": "2026-10-12T05:57:52.349Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+                "version": "1.0"
+              },
+              "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+              "responseSha256": "2af7bbdc548c49ae6de390565c908bf516f9c47708beb4ee4bbcab701313d184",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 17,
+                    "line": 4
+                  },
+                  "message": "No value assigned to the `id` parameter in box.get_top()",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19841,
+              "captureTimestamp": "2026-10-12T05:57:52.360Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+                "version": "1.0"
+              },
+              "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+              "responseSha256": "9918b8e9a82d8003268e3c6b5e165e68a3399c1ba8ef1b15e31e2b4df2646c09",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 17,
+                    "line": 4
+                  },
+                  "message": "No value assigned to the `id` parameter in box.get_top()",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "38gdNp"
+          ],
+          "removedStudyIds": [
+            "38gdNp"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+            "version": "1.0"
+          },
+          "observationPath": "v83-missing-builtin-receiver-id-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19858,
+              "captureTimestamp": "2026-10-12T05:58:10.587Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+                "version": "1.0"
+              },
+              "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+              "responseSha256": "9918b8e9a82d8003268e3c6b5e165e68a3399c1ba8ef1b15e31e2b4df2646c09",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 17,
+                    "line": 4
+                  },
+                  "message": "No value assigned to the `id` parameter in box.get_top()",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "HUx6AW"
+          ],
+          "removedStudyIds": [
+            "HUx6AW"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+            "version": "1.0"
+          },
+          "observationPath": "v83-missing-builtin-receiver-id-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19872,
+              "captureTimestamp": "2026-10-12T05:58:22.847Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+                "version": "1.0"
+              },
+              "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+              "responseSha256": "9918b8e9a82d8003268e3c6b5e165e68a3399c1ba8ef1b15e31e2b4df2646c09",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 17,
+                    "line": 4
+                  },
+                  "message": "No value assigned to the `id` parameter in box.get_top()",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "SuP7m7"
+          ],
+          "removedStudyIds": [
+            "SuP7m7"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+            "version": "1.0"
+          },
+          "observationPath": "v83-missing-builtin-receiver-id-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19886,
+              "captureTimestamp": "2026-10-12T05:58:35.331Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+                "version": "1.0"
+              },
+              "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+              "responseSha256": "9918b8e9a82d8003268e3c6b5e165e68a3399c1ba8ef1b15e31e2b4df2646c09",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 17,
+                    "line": 4
+                  },
+                  "message": "No value assigned to the `id` parameter in box.get_top()",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "AUkNmi"
+          ],
+          "removedStudyIds": [
+            "AUkNmi"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+            "version": "1.0"
+          },
+          "observationPath": "v83-missing-builtin-receiver-id-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19898,
+              "captureTimestamp": "2026-10-12T05:58:47.705Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d106bf7aefa04d22aeba0e1398257ffb",
+                "version": "1.0"
+              },
+              "sourceSha256": "6636c6c2af7b9ea585b312b376a394dabb96111e4e40e9576190a1f59aa520cc",
+              "responseSha256": "9918b8e9a82d8003268e3c6b5e165e68a3399c1ba8ef1b15e31e2b4df2646c09",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 17,
+                    "line": 4
+                  },
+                  "message": "No value assigned to the `id` parameter in box.get_top()",
+                  "start": {
+                    "column": 5,
+                    "line": 4
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "BA059m"
+          ],
+          "removedStudyIds": [
+            "BA059m"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v83-unavailable-footprint-call-w0-v1",
+        "path": "v83-unavailable-footprint-call-w0-v1.pine",
+        "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "unavailable-footprint-call",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-residual-representative",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "3697c59d154118387a907e2841ee91e254eaf5e72bc4039ef6a00c248acc752d",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v77/captures/v77/footprint-request-call-v5-renamed-control-v1/attempt-v1",
+        "shape": "v5 unavailable request.footprint call; unavailable-function error",
+        "historicalGroupAttempts": 1
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "Could not find function or function reference 'request.footprint'",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-call-w0-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19933,
+              "captureTimestamp": "2026-10-12T05:59:16.242Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+                "version": "1.0"
+              },
+              "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+              "responseSha256": "50e5408347a644ba57e49b1bd91bcc7f12033b54a29f51c465e1ad62fc531524",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "message": "Could not find function or function reference 'request.footprint'",
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 19938,
+              "captureTimestamp": "2026-10-12T05:59:16.250Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+                "version": "1.0"
+              },
+              "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+              "responseSha256": "19c9af5548794f73d48c3f8de7f9ad07c3e827441075224bf3b71b3587b30899",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "message": "Could not find function or function reference 'request.footprint'",
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "XzbdAB"
+          ],
+          "removedStudyIds": [
+            "XzbdAB"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-call-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19954,
+              "captureTimestamp": "2026-10-12T05:59:28.910Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+                "version": "1.0"
+              },
+              "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+              "responseSha256": "19c9af5548794f73d48c3f8de7f9ad07c3e827441075224bf3b71b3587b30899",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "message": "Could not find function or function reference 'request.footprint'",
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "QAg8mO"
+          ],
+          "removedStudyIds": [
+            "QAg8mO"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-call-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19967,
+              "captureTimestamp": "2026-10-12T05:59:41.208Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+                "version": "1.0"
+              },
+              "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+              "responseSha256": "19c9af5548794f73d48c3f8de7f9ad07c3e827441075224bf3b71b3587b30899",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "message": "Could not find function or function reference 'request.footprint'",
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "UVYkJD"
+          ],
+          "removedStudyIds": [
+            "UVYkJD"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-call-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19980,
+              "captureTimestamp": "2026-10-12T06:00:00.653Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+                "version": "1.0"
+              },
+              "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+              "responseSha256": "19c9af5548794f73d48c3f8de7f9ad07c3e827441075224bf3b71b3587b30899",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "message": "Could not find function or function reference 'request.footprint'",
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "iOC8M2"
+          ],
+          "removedStudyIds": [
+            "iOC8M2"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+            "version": "1.0"
+          },
+          "observationPath": "v83-unavailable-footprint-call-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 19994,
+              "captureTimestamp": "2026-10-12T06:00:23.246Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;7e928638996147bfbebdb821756c4813",
+                "version": "1.0"
+              },
+              "sourceSha256": "e396bcd6a7ad8ad81ec3c1384776ed520b24da84e9fb9835064fa7ab967b3f4e",
+              "responseSha256": "19c9af5548794f73d48c3f8de7f9ad07c3e827441075224bf3b71b3587b30899",
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "message": "Could not find function or function reference 'request.footprint'",
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
+              ],
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "7KxWBv"
+          ],
+          "removedStudyIds": [
+            "7KxWBv"
+          ],
+          "chartRestored": true
+        }
+      ]
+    }
+  ],
+  "completedNativeSaveAddRepetitions": 55,
+  "statuses": {
+    "COMPILE-ERROR": 55
+  },
+  "numericCredit": false
+}

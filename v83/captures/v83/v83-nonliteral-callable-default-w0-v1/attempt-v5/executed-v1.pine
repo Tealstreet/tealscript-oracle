@@ -1,0 +1,5 @@
+//@version=5
+indicator("independent default boundary")
+
+f(series float value = volume*2) => value
+plot(1)
