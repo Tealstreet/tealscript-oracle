@@ -10,4 +10,4 @@ Imported corpus licenses are per-file; do not apply a blanket license or strip a
 
 V79 owner restriction: Do NOT publish publicly. If a private library cannot be imported in this account, STOP and record BLOCKED-NEEDS-OWNER-APPROVAL instead of publishing publicly.
 
-Consumption records: v78/AGENT-RESPONSE-v2.md supersedes its batch-57 partial record; v79/AGENT-RESPONSE-v1.md distinguishes failed public publication from pending private evidence; v80/AGENT-RESPONSE-v1.md binds the batch-59 closed-W certificate; v81/AGENT-RESPONSE-v1.md records the account/context stop with no account changes.
+Consumption records: v78/AGENT-RESPONSE-v2.md supersedes its batch-57 partial record; v79/AGENT-RESPONSE-v1.md distinguishes failed public publication from pending private evidence; v80/AGENT-RESPONSE-v2.md binds the batch-59 closed-W certificate; v81/AGENT-RESPONSE-v1.md records the account/context stop with no account changes.
