@@ -1,0 +1,79 @@
+{
+  "revision": 1,
+  "attemptId": "v81-dxy-live-inputs-renamed-control-v1-scope-check-v1",
+  "sourcePath": "v81-dxy-live-inputs-renamed-control-v1.pine",
+  "suppliedSourceSha256": "3a25fbc2a18c0d208d0f5c4d4139e5befea70d071949fc605e7370225acc8b4d",
+  "executedSourceSha256": null,
+  "exactExecutedSourcePath": null,
+  "sourceIdentityReason": "Not pasted/added/executed: account-scope gate triggered before compilation. Supplied source remains unchanged at round root.",
+  "symbol": "TVC:DXY",
+  "provider": null,
+  "providerAvailability": "Not exposed in permitted native UI inspection; prior ice metadata is not assumed",
+  "timeframe": null,
+  "actualExploratoryTimeframe": "3",
+  "requestedTimeframe": "2",
+  "chartTimezone": null,
+  "exchangeTimezone": null,
+  "session": null,
+  "feedStatus": {
+    "nativeExploratoryUI": "Market open \u00b7 One update every 5 seconds",
+    "relevance": "Anonymous 3-minute exploratory view only; no target 2-minute execution credit"
+  },
+  "addedAtUtc": null,
+  "scopeCheckedAtUtc": "2026-10-12 01:00:27 UTC",
+  "initialMode": null,
+  "targetBarTimeMs": null,
+  "targetBarIndex": null,
+  "historicalPrefix": null,
+  "events": [],
+  "exports": [],
+  "columnBindings": "column-bindings-v1.json",
+  "accountActions": {
+    "actual": [
+      "Read native signed-in chart and Manage layouts menu",
+      "Captured signed-in Autosave-on screenshot and accessibility snapshot",
+      "Dismissed read-only menu",
+      "Opened an isolated temporary DXY chart with requested interval=2 using Chrome MCP new_page",
+      "Inspected and captured native actual-3-minute/custom-interval upgrade gate and market-open status",
+      "Closed isolated temporary chart"
+    ],
+    "saveScript": false,
+    "saveLayout": false,
+    "publish": false,
+    "share": false,
+    "alerts": false,
+    "libraryImportOrPublication": false,
+    "persistentPreferenceChanges": false,
+    "accountOrSubscriptionChanges": false,
+    "savedLayoutEdits": false,
+    "injectedBrowserCode": false,
+    "APIUse": false,
+    "sourcesAdded": 0,
+    "noProhibitedActionsPerformed": true
+  },
+  "contextStatus": "CONTEXT-UNMET",
+  "compilationStatus": "UNOBSERVED",
+  "runtimeStatus": "UNOBSERVED",
+  "diagnostics": [],
+  "diagnosticAvailability": "No Add operation; no compiler/runtime diagnostics exist for this source",
+  "missingFacets": [
+    "No permitted unsaved 2-minute chart context: signed-in existing basic layout has native Autosave enabled; disabling it would change a persistent preference.",
+    "Isolated temporary anonymous chart URL requested interval=2; native custom-interval entitlement gate changed actual chart to 3 minutes and requests sign-in/upgrade. No sign-in/upgrade is authorized.",
+    "Neither exact source was pasted or added. Compilation/runtime, executed bytes, source/study column bindings, target timestamp/index and the four native event frames remain UNOBSERVED.",
+    "No physical-open startup with missing volume, realtime UPDATE1/UPDATE2, or native realtime-confirmed closing frame is authenticated for either source.",
+    "No original source CSV or confirmed historical prefix was exported."
+  ],
+  "numericCredit": false,
+  "volumeFacets": {
+    "historicalPrefixMissingVolume": "UNOBSERVED",
+    "initialOpenMissingVolume": "UNOBSERVED",
+    "liveZeroVolumeRecoveryObserved": "UNOBSERVED"
+  },
+  "evidence": [
+    "../../environment-v1/signed-in-save-state-v1.txt",
+    "../../environment-v1/signed-in-save-state-v1.jpg",
+    "../../environment-v1/temporary-chart-gate-v1.txt",
+    "../../environment-v1/temporary-chart-gate-v1.jpg"
+  ],
+  "sessionPolicy": "No execution session started. Shared environment scope check is not reused event data; no primary/control numeric comparison."
+}

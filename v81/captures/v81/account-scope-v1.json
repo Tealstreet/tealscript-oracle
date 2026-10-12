@@ -1,0 +1,54 @@
+{
+  "revision": 1,
+  "observedAtUtc": "2026-10-12 01:00:27 UTC",
+  "result": "CONTEXT-UNMET",
+  "signedInChart": {
+    "pageId": 1,
+    "layout": "basic",
+    "layoutId": "xlvYwHdH",
+    "symbol": "BINANCE:BTCUSDT",
+    "actualInterval": "2",
+    "autosave": "ON: native screenshot toggle right/on; existing saved layout",
+    "changedByV81": false
+  },
+  "temporaryChart": {
+    "pageId": 31,
+    "isolatedContext": "v81-temporary-v1",
+    "url": "https://www.tradingview.com/chart/?symbol=TVC%3ADXY&interval=2",
+    "actualInterval": "3",
+    "nativeGate": "See what others don't with custom intervals; After sign in; Basic; Recommended Premium; Upgrade now",
+    "nativeFeedStatus": "Market open \u00b7 One update every 5 seconds",
+    "closedAfterInspection": true
+  },
+  "stopInstruction": "INSTRUCTIONS-v1.md Account scope: If adding/exporting requires any prohibited action, record CONTEXT-UNMET and stop.",
+  "missingFacets": [
+    "No permitted unsaved 2-minute chart context: signed-in existing basic layout has native Autosave enabled; disabling it would change a persistent preference.",
+    "Isolated temporary anonymous chart URL requested interval=2; native custom-interval entitlement gate changed actual chart to 3 minutes and requests sign-in/upgrade. No sign-in/upgrade is authorized.",
+    "Neither exact source was pasted or added. Compilation/runtime, executed bytes, source/study column bindings, target timestamp/index and the four native event frames remain UNOBSERVED.",
+    "No physical-open startup with missing volume, realtime UPDATE1/UPDATE2, or native realtime-confirmed closing frame is authenticated for either source.",
+    "No original source CSV or confirmed historical prefix was exported."
+  ],
+  "actions": {
+    "actual": [
+      "Read native signed-in chart and Manage layouts menu",
+      "Captured signed-in Autosave-on screenshot and accessibility snapshot",
+      "Dismissed read-only menu",
+      "Opened an isolated temporary DXY chart with requested interval=2 using Chrome MCP new_page",
+      "Inspected and captured native actual-3-minute/custom-interval upgrade gate and market-open status",
+      "Closed isolated temporary chart"
+    ],
+    "saveScript": false,
+    "saveLayout": false,
+    "publish": false,
+    "share": false,
+    "alerts": false,
+    "libraryImportOrPublication": false,
+    "persistentPreferenceChanges": false,
+    "accountOrSubscriptionChanges": false,
+    "savedLayoutEdits": false,
+    "injectedBrowserCode": false,
+    "APIUse": false,
+    "sourcesAdded": 0,
+    "noProhibitedActionsPerformed": true
+  }
+}
