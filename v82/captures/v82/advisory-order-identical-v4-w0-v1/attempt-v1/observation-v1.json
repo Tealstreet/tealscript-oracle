@@ -1,0 +1,101 @@
+{
+  "revision": 1,
+  "probe": "advisory-order-identical-v4-w0-v1",
+  "sourcePath": "advisory-order-identical-v4-w0-v1.pine",
+  "suppliedSourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+  "draftSourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+  "draftSourcePath": "draft-source-v1.pine",
+  "executedSourceSha256": null,
+  "executedSourcePath": null,
+  "sourceIdentity": "Exact unsaved editor bytes verified; not compiled",
+  "observedAtUtc": "2026-10-12T05:11:40.162Z",
+  "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+  "compilationStatus": "UNOBSERVED",
+  "runtimeStatus": "NOT REQUESTED",
+  "numericCredit": false,
+  "orderingCredit": false,
+  "requestedCompileRepetitions": 5,
+  "completedCompileRepetitions": 0,
+  "unperformedCompileRepetitions": 5,
+  "actualAttemptType": "UNSAVED-DRAFT-AND-COMPILE-PATH-INSPECTION",
+  "reason": "No permitted full compilation trigger: prior native editor method used Save/Add; both are expressly prohibited. Exact v4 unsaved draft generated only a local editor advisory, no source-matched full compiler request/response. Native Command Palette compile search returned No matching commands and native matching editor actions were empty. Stop condition applies before any Save/Add.",
+  "compilerRequest": null,
+  "compilerResponse": null,
+  "compilerMarkers": null,
+  "compilerUnavailableReason": "No source-matched native full compile request occurred; unrelated translate_light request belongs to new draft default template, not any probe",
+  "editorMarkersImmediatelyAfterDraftPlacement": [],
+  "editorMarkersAfterSettling": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///71ece3b6-29b4-4126-b211-d2ada71289e0.pine?placement%3Ddialog",
+        "path": "/71ece3b6-29b4-4126-b211-d2ada71289e0.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 4 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "editorMarkersAfterInspection": [
+    {
+      "resource": {
+        "$mid": 1,
+        "external": "file:///71ece3b6-29b4-4126-b211-d2ada71289e0.pine?placement%3Ddialog",
+        "path": "/71ece3b6-29b4-4126-b211-d2ada71289e0.pine",
+        "scheme": "file",
+        "query": "placement=dialog"
+      },
+      "owner": "_generated_diagnostic_collection_name_#0",
+      "code": "PINE_VERSION_OUTDATED",
+      "severity": 4,
+      "message": "Version 4 of Pine Script\u00ae is outdated. We recommend using the current version, which is 6.",
+      "startLineNumber": 1,
+      "startColumn": 3,
+      "endLineNumber": 1,
+      "endColumn": 12
+    }
+  ],
+  "editorChannelPolicy": "Raw marker arrays in observed order; draft placement is not compilation; no combined compiler/editor list",
+  "editorChannelTimes": {
+    "immediate": "2026-10-12T05:10:29.898Z",
+    "settled": "2026-10-12T05:10:42.201Z",
+    "afterInspection": "2026-10-12T05:11:40.162Z"
+  },
+  "accountActions": {
+    "actual": [
+      "Existing signed-in Pine Editor: Create new > Indicator, local unsaved draft",
+      "Exact v4 source set through prior-round editor.setValue path; editor.getValue verified bytes",
+      "Read native getModelMarkers immediately, after settling, and after inspection",
+      "Inspected More menu and Command Palette; searched compile without executing any command",
+      "Inspected native Pine-facade requests through real Chrome MCP and retained bodies without headers",
+      "Captured screenshots and accessibility snapshots",
+      "Dismissed Command Palette"
+    ],
+    "save": false,
+    "addToChart": false,
+    "chartExport": false,
+    "publish": false,
+    "share": false,
+    "visibilityChange": false,
+    "alerts": false,
+    "libraryImportOrPublication": false,
+    "savedLayoutChange": false,
+    "accountPreferenceChange": false,
+    "chartStudyIdentityUnchanged": "Existing namespace study LOADED/RUNNING from v80 was not edited/removed/re-added; after inspection study identity is [{\"id\": \"zy7yxn\", \"title\": \"Namespace methods (false, false)\"}]",
+    "newTabs": false
+  },
+  "evidencePaths": [
+    "../../environment-v1/compile-command-search-v1.jpg",
+    "../../environment-v1/compile-command-search-v1.txt",
+    "../../environment-v1/native-network-window-v1.json"
+  ],
+  "stopInstruction": "HANDOFF-v82-v1.md and instructions/INSTRUCTIONS-v1.md HARD RESTRICTION",
+  "generalOrderingRule": null
+}

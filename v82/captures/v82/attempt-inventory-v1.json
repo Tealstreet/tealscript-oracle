@@ -1,0 +1,116 @@
+{
+  "revision": 1,
+  "round": "v82",
+  "governingHandoff": "HANDOFF-v82-v1.md",
+  "sources": [
+    {
+      "source": {
+        "probe": "advisory-order-identical-v4-w0-v1",
+        "path": "advisory-order-identical-v4-w0-v1.pine",
+        "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "compiler-versus-editor-order",
+        "pineVersion": 4,
+        "indicatorOnly": true,
+        "role": "ordering-discriminator",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "7e904a3bb250d8abe16a59828f7fb4b64e86869003bd6c148976c72aa8434b89",
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "Source identity only; no new native outcome inferred",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "originalAttempt": "v75/captures/v75/ns-param-set-top-box-v4-renamed-control-v1/attempt-v1"
+      },
+      "observationPath": "advisory-order-identical-v4-w0-v1/attempt-v1/observation-v1.json",
+      "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+      "completedCompileRepetitions": 0,
+      "requestedCompileRepetitions": 5
+    },
+    {
+      "source": {
+        "probe": "advisory-order-pick-v5-w0-v1",
+        "path": "advisory-order-pick-v5-w0-v1.pine",
+        "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "compiler-versus-editor-order",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "ordering-discriminator",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "7e904a3bb250d8abe16a59828f7fb4b64e86869003bd6c148976c72aa8434b89",
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "Source identity only; no new native outcome inferred",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "originalAttempt": "v58/captures/v58/consumers/root2-widening-5-receiver-v58-v1/widening-5/attempt-v1"
+      },
+      "observationPath": "advisory-order-pick-v5-w0-v1/attempt-v1/observation-v1.json",
+      "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+      "completedCompileRepetitions": 0,
+      "requestedCompileRepetitions": 5
+    },
+    {
+      "source": {
+        "probe": "advisory-order-array-string-v5-w0-v1",
+        "path": "advisory-order-array-string-v5-w0-v1.pine",
+        "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "compiler-versus-editor-order",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "ordering-discriminator",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "7e904a3bb250d8abe16a59828f7fb4b64e86869003bd6c148976c72aa8434b89",
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "Source identity only; no new native outcome inferred",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "originalAttempt": "v78/captures/v78/v78-v5-every-string-named-tk-v1/attempt-v1"
+      },
+      "observationPath": "advisory-order-array-string-v5-w0-v1/attempt-v1/observation-v1.json",
+      "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+      "completedCompileRepetitions": 0,
+      "requestedCompileRepetitions": 5
+    }
+  ],
+  "actualDraftInspections": 1,
+  "nativeFullCompilations": 0,
+  "requestedFullCompilations": 15,
+  "blockedRequestedRepetitions": 15,
+  "nativeOrderingOutcome": "UNOBSERVED",
+  "accountActions": {
+    "actual": [
+      "Existing signed-in Pine Editor: Create new > Indicator, local unsaved draft",
+      "Exact v4 source set through prior-round editor.setValue path; editor.getValue verified bytes",
+      "Read native getModelMarkers immediately, after settling, and after inspection",
+      "Inspected More menu and Command Palette; searched compile without executing any command",
+      "Inspected native Pine-facade requests through real Chrome MCP and retained bodies without headers",
+      "Captured screenshots and accessibility snapshots",
+      "Dismissed Command Palette"
+    ],
+    "save": false,
+    "addToChart": false,
+    "chartExport": false,
+    "publish": false,
+    "share": false,
+    "visibilityChange": false,
+    "alerts": false,
+    "libraryImportOrPublication": false,
+    "savedLayoutChange": false,
+    "accountPreferenceChange": false,
+    "chartStudyIdentityUnchanged": "Existing namespace study LOADED/RUNNING from v80 was not edited/removed/re-added; after inspection study identity is [{\"id\": \"zy7yxn\", \"title\": \"Namespace methods (false, false)\"}]",
+    "newTabs": false
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "timestamp": "2026-10-12T05:10:29.898Z",
+  "source": "//@version=4\nindicator(\"Standalone boundary\")\ntype Holder\n    int value\nmethod set_top(Holder self, int x)=>self.value+x\nf(Holder holder)=>holder.set_top(13)\nplot(f(Holder.new(7)))\n",
+  "markers": []
+}

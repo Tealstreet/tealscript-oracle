@@ -1,0 +1,38 @@
+{
+  "revision": 1,
+  "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+  "reason": "No permitted full compilation trigger: prior native editor method used Save/Add; both are expressly prohibited. Exact v4 unsaved draft generated only a local editor advisory, no source-matched full compiler request/response. Native Command Palette compile search returned No matching commands and native matching editor actions were empty. Stop condition applies before any Save/Add.",
+  "priorSourceExactMatch": true,
+  "priorCompilerEvidencePath": "v75/captures/v75/ns-param-set-top-box-v4-renamed-control-v1/attempt-v1/native-compiler-responses-v1.json",
+  "priorCompilerEvidenceSha256": "199f16e08f28e960636c43b72636c974bdcb3ac9611ec5a75c8560fedd9187f0",
+  "priorNativeRequests": [
+    "reqid=15955 POST https://pine-facade.tradingview.com/pine-facade/save/new_draft?allow_use_existing_draft=true [200]",
+    "reqid=15965 GET https://pine-facade.tradingview.com/pine-facade/translate/USER%3B0523f0a612c1498fb5c48a7bbb70b216/0.119 [200]"
+  ],
+  "currentSourceMatchedCompilerRequests": 0,
+  "unrelatedTemplateRequest": 18598,
+  "nativeCompileCommandSearch": "No matching commands",
+  "accountActions": {
+    "actual": [
+      "Existing signed-in Pine Editor: Create new > Indicator, local unsaved draft",
+      "Exact v4 source set through prior-round editor.setValue path; editor.getValue verified bytes",
+      "Read native getModelMarkers immediately, after settling, and after inspection",
+      "Inspected More menu and Command Palette; searched compile without executing any command",
+      "Inspected native Pine-facade requests through real Chrome MCP and retained bodies without headers",
+      "Captured screenshots and accessibility snapshots",
+      "Dismissed Command Palette"
+    ],
+    "save": false,
+    "addToChart": false,
+    "chartExport": false,
+    "publish": false,
+    "share": false,
+    "visibilityChange": false,
+    "alerts": false,
+    "libraryImportOrPublication": false,
+    "savedLayoutChange": false,
+    "accountPreferenceChange": false,
+    "chartStudyIdentityUnchanged": "Existing namespace study LOADED/RUNNING from v80 was not edited/removed/re-added; after inspection study identity is [{\"id\": \"zy7yxn\", \"title\": \"Namespace methods (false, false)\"}]",
+    "newTabs": false
+  }
+}
