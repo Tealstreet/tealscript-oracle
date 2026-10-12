@@ -1,0 +1,5 @@
+//@version=5
+indicator("unused-builtin-box-v5-natural-v2")
+method inspect(box self) => 7
+box value = na
+plot(value.inspect())
