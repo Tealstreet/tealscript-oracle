@@ -330,3 +330,7 @@ Capture the five indicators in [v56/bundle-manifest-v1.json](v56/bundle-manifest
 ## Then round v84 — parse-refusal advisory lists v1
 
 Capture the fifteen exact-source representatives in [v84/bundle-manifest-v1.json](v84/bundle-manifest-v1.json), following [HANDOFF-v84-v1.md](v84/HANDOFF-v84-v1.md) and instructions/INSTRUCTIONS-v1.md. Five native private Save/Add compiles per representative; preserve the verbatim v83 ALLOWED/FORBIDDEN block, source bytes and chart state. Native list presence/order/count is UNSPECIFIED; keep compiler responses and immediate/settled editor arrays separate. Check v84/SHA256SUMS and return v84/captures/v84/RESPONSE-v84.md.
+
+## Then round v85 — advisory presence channels v1
+
+Capture the eight unchanged sources in [v85/bundle-manifest-v1.json](v85/bundle-manifest-v1.json), following [HANDOFF-v85-v1.md](v85/HANDOFF-v85-v1.md) and its instructions. Five private Save/Add compiles each (40 attempts), the verbatim v83 scope, full compiler responses and separate immediate/settled editor arrays. State whether the advisory exists in the compiler response at all; keep native presence unspecified. Return v85/captures/v85/RESPONSE-v85.md.
