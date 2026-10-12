@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v82",
+  "version": 2,
+  "owner": "codex-w0bo0b",
+  "status": "SOURCE-REQUEST",
+  "baseOracleCommit": "0a02d0d0be8bcb1c05145fdecebf533b46b6f363",
+  "inventory": {
+    "scripts": 3,
+    "libraryPrerequisiteCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "advisory-order-identical-v4-w0-v1",
+      "path": "advisory-order-identical-v4-w0-v1.pine",
+      "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+      "owner": "codex-w0bo0b",
+      "root": "checker-advisory-placement-error-lists",
+      "group": "compiler-versus-editor-order",
+      "pineVersion": 4,
+      "indicatorOnly": true,
+      "role": "ordering-discriminator",
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "1097a02cef0a57759c9259df2bffd3e08ac3a7988e34ad9980a9f76d459d7e3a",
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "Source identity only; no new native outcome inferred",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "markerOrder": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "originalAttempt": "v75/captures/v75/ns-param-set-top-box-v4-renamed-control-v1/attempt-v1"
+    },
+    {
+      "probe": "advisory-order-pick-v5-w0-v1",
+      "path": "advisory-order-pick-v5-w0-v1.pine",
+      "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+      "owner": "codex-w0bo0b",
+      "root": "checker-advisory-placement-error-lists",
+      "group": "compiler-versus-editor-order",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "ordering-discriminator",
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "1097a02cef0a57759c9259df2bffd3e08ac3a7988e34ad9980a9f76d459d7e3a",
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "Source identity only; no new native outcome inferred",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "markerOrder": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "originalAttempt": "v58/captures/v58/consumers/root2-widening-5-receiver-v58-v1/widening-5/attempt-v1"
+    },
+    {
+      "probe": "advisory-order-array-string-v5-w0-v1",
+      "path": "advisory-order-array-string-v5-w0-v1.pine",
+      "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+      "owner": "codex-w0bo0b",
+      "root": "checker-advisory-placement-error-lists",
+      "group": "compiler-versus-editor-order",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "ordering-discriminator",
+      "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+      "instructionsSha256": "1097a02cef0a57759c9259df2bffd3e08ac3a7988e34ad9980a9f76d459d7e3a",
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "Source identity only; no new native outcome inferred",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "markerOrder": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "originalAttempt": "v78/captures/v78/v78-v5-every-string-named-tk-v1/attempt-v1"
+    }
+  ],
+  "accountScope": {
+    "restriction": "ALLOWED: exactly the editor method used in rounds v59-v80: Save as a PRIVATE unpublished script, then Add to chart. Remove any study added by this request afterwards so the chart returns to its prior state. STILL FORBIDDEN: publish, share, any visibility change, a new chart layout, any symbol/interval/setting change to a saved layout, alerts, library publication/import. Anything beyond the authorized method: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+    "permitted": [
+      "Save as PRIVATE unpublished script",
+      "Add to chart",
+      "remove request-added study to restore prior chart"
+    ],
+    "prohibited": [
+      "publish",
+      "share",
+      "visibility change",
+      "new chart layout",
+      "saved-layout symbol/interval/setting change",
+      "alerts",
+      "library publication/import",
+      "any additional action"
+    ],
+    "stopIfProhibitedActionRequired": true
+  },
+  "governingHandoff": "HANDOFF-v82-v2.md",
+  "sourceRoundProvenance": {
+    "sourceNamesAndBytesUnchanged": true,
+    "producerEntry": "instructions/ENTRY-v1.json",
+    "producerHandoff": "instructions/PRODUCER-HANDOFF-v1.json",
+    "producerInstructions": "instructions/PRODUCER-INSTRUCTIONS-v1.md",
+    "publishedInstructions": "instructions/INSTRUCTIONS-v2.md",
+    "producerReport": "instructions/REPORT-v1.md",
+    "producerChecksumList": "instructions/SHA256SUMS-v1.txt",
+    "producerProofIndex": "instructions/PROOF-INDEX-v1.json"
+  },
+  "supersedes": "bundle-manifest-v1.json account-scope restriction only"
+}
