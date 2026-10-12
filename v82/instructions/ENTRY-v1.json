@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v82",
+  "version": 1,
+  "owner": "codex-w0bo0b",
+  "status": "SOURCE-REQUEST",
+  "baseOracleCommit": "0a02d0d0be8bcb1c05145fdecebf533b46b6f363",
+  "inventory": {
+    "scripts": 3,
+    "libraryPrerequisiteCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "advisory-order-identical-v4-w0-v1",
+      "path": "advisory-order-identical-v4-w0-v1.pine",
+      "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+      "owner": "codex-w0bo0b",
+      "root": "checker-advisory-placement-error-lists",
+      "group": "compiler-versus-editor-order",
+      "pineVersion": 4,
+      "indicatorOnly": true,
+      "role": "ordering-discriminator",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "7e904a3bb250d8abe16a59828f7fb4b64e86869003bd6c148976c72aa8434b89",
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "Source identity only; no new native outcome inferred",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "markerOrder": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "originalAttempt": "v75/captures/v75/ns-param-set-top-box-v4-renamed-control-v1/attempt-v1"
+    },
+    {
+      "probe": "advisory-order-pick-v5-w0-v1",
+      "path": "advisory-order-pick-v5-w0-v1.pine",
+      "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+      "owner": "codex-w0bo0b",
+      "root": "checker-advisory-placement-error-lists",
+      "group": "compiler-versus-editor-order",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "ordering-discriminator",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "7e904a3bb250d8abe16a59828f7fb4b64e86869003bd6c148976c72aa8434b89",
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "Source identity only; no new native outcome inferred",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "markerOrder": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "originalAttempt": "v58/captures/v58/consumers/root2-widening-5-receiver-v58-v1/widening-5/attempt-v1"
+    },
+    {
+      "probe": "advisory-order-array-string-v5-w0-v1",
+      "path": "advisory-order-array-string-v5-w0-v1.pine",
+      "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+      "owner": "codex-w0bo0b",
+      "root": "checker-advisory-placement-error-lists",
+      "group": "compiler-versus-editor-order",
+      "pineVersion": 5,
+      "indicatorOnly": true,
+      "role": "ordering-discriminator",
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "7e904a3bb250d8abe16a59828f7fb4b64e86869003bd6c148976c72aa8434b89",
+      "nativeStatus": "UNOBSERVED",
+      "localPreflight": "Source identity only; no new native outcome inferred",
+      "expectedOutcome": {
+        "phase": "UNSPECIFIED",
+        "markerOrder": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "originalAttempt": "v78/captures/v78/v78-v5-every-string-named-tk-v1/attempt-v1"
+    }
+  ],
+  "accountScope": {
+    "restriction": "COMPILE ONLY, with the same editor method prior rounds used. No publish, no share, no visibility change, no new or altered saved chart layout, and no other account-visible action. No Save, Add to chart, chart export, alerts, library publication/import or persistent account/preference changes. If more is required, STOP and record BLOCKED-NEEDS-OWNER-APPROVAL.",
+    "stopIfProhibitedActionRequired": true
+  },
+  "governingHandoff": "HANDOFF-v82-v1.md",
+  "sourceRoundProvenance": {
+    "sourceNamesAndBytesUnchanged": true,
+    "producerEntry": "instructions/ENTRY-v1.json",
+    "producerHandoff": "instructions/PRODUCER-HANDOFF-v1.json",
+    "producerInstructions": "instructions/PRODUCER-INSTRUCTIONS-v1.md",
+    "publishedInstructions": "instructions/INSTRUCTIONS-v1.md",
+    "producerReport": "instructions/REPORT-v1.md",
+    "producerChecksumList": "instructions/SHA256SUMS-v1.txt",
+    "producerProofIndex": "instructions/PROOF-INDEX-v1.json"
+  }
+}
