@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v86",
+  "version": 1,
+  "owner": "codex-1xjtos",
+  "status": "SOURCE-REQUEST",
+  "baseOracleCommit": "5c5ed4cce32dea8dedd9cb55b4bd78a1631b053b",
+  "inventory": {
+    "scripts": 1,
+    "compileRepetitionsPerSource": 3,
+    "requestedRepetitions": 3,
+    "libraryPrerequisiteCount": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "v86-mixed-error-order-1x-v1",
+      "path": "v86-mixed-error-order-1x-v1.pine",
+      "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+      "sourceBytes": 155567,
+      "owner": "codex-1xjtos",
+      "root": "census-v6-rank11-mixed-error-order",
+      "pineVersion": 6,
+      "indicatorOnly": true,
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "88faac15faf0099d776a647ae8497c2d1e1fc07143dc8d4cf631255f19912486",
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "status": "UNSPECIFIED",
+        "order": "UNSPECIFIED",
+        "runtime": "NOT REQUESTED"
+      },
+      "repetitions": 3,
+      "originalAttempt": "v9/captures/v9/outcomes-v9.json#30",
+      "originalSourcePath": "v9/w8-exact-source-compile-corpus-v56-494-v1.pine",
+      "historicalObservationSha256": "43cf9618afc2e1c2ec69ff5681dccf93ae5b92db723cdb4f79b0d19245682970"
+    }
+  ],
+  "accountScope": {
+    "restriction": "ALLOWED: exactly the editor method used in rounds v59-v80: Save as a PRIVATE unpublished script, then Add to chart. Remove any study added by this request afterwards so the chart returns to its prior state. STILL FORBIDDEN: publish, share, any visibility change, a new chart layout, any symbol/interval/setting change to a saved layout, alerts, library publication/import. Anything beyond the authorized method: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+    "stopIfProhibitedActionRequired": true
+  },
+  "governingHandoff": "HANDOFF-v86-v1.md",
+  "channelSeparation": [
+    "raw compiler response",
+    "immediate editor markers",
+    "settled editor markers"
+  ]
+}

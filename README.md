@@ -6,6 +6,8 @@ See [MIGRATION.md](MIGRATION.md) for the application cutover, verification and o
 
 ## Capture and handoff
 
+The v86 request is [v86/HANDOFF-v86-v1.md](v86/HANDOFF-v86-v1.md): one exact mixed-error source, three private Save/Add repetitions; compiler responses and editor marker arrays are captured independently without prescribed order.
+
 The v85 request is [v85/HANDOFF-v85-v1.md](v85/HANDOFF-v85-v1.md): eight exact advisory-presence exceptions/companions/controls, five private Save/Add compiles each; compiler response presence is recorded independently of editor markers.
 
 The v84 request is [v84/HANDOFF-v84-v1.md](v84/HANDOFF-v84-v1.md): fifteen exact parse-refusal/advisory representatives, five private Save/Add compiles each, with unspecified native marker order and separate compiler/editor evidence.
