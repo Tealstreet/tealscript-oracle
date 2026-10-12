@@ -1,0 +1,240 @@
+{
+  "captureTimestamp": "2026-10-11T23:55:28.842Z",
+  "url": "https://www.tradingview.com/chart/xlvYwHdH/?symbol=BINANCE%3ABTCUSDT&interval=1",
+  "browserUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "executedSource": "//@version=6\nindicator(\"Namespace methods\", precision=16)\nimport sours-lat/R2Nsad4a19ecf824/1 as lib\nouter(value) => request.security(\"BINANCE:BTCUSDT\", \"1D\", request.security(\"BINANCE:BTCUSDT\", \"1D\", lib.pick(value) + lib.pick(int(7)), lookahead=barmerge.lookahead_on), lookahead=barmerge.lookahead_on)\nplot(outer(close))\nplot(request.security(\"BINANCE:BTCUSDT\", \"1D\", close, lookahead=barmerge.lookahead_on), title=\"REQUESTED_CLOSE_CONTROL\")\n\n[dTime, dTimeClose, dOpen, dHigh, dLow, dClose, dVolume] = request.security(\"BINANCE:BTCUSDT\", \"1D\", [time, time_close, open, high, low, close, volume], gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_on)\nplot(dTime, title=\"D_TIME\")\nplot(dTimeClose, title=\"D_TIME_CLOSE\")\nplot(dOpen, title=\"D_OPEN\")\nplot(dHigh, title=\"D_HIGH\")\nplot(dLow, title=\"D_LOW\")\nplot(dClose, title=\"D_CLOSE\")\nplot(dVolume, title=\"D_VOLUME\")\n[nTime, nTimeClose, nOpen, nHigh, nLow, nClose, nVolume] = request.security(\"BINANCE:BTCUSDT\", \"1D\", request.security(\"BINANCE:BTCUSDT\", \"1D\", [time, time_close, open, high, low, close, volume], gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_on), gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_on)\nplot(nTime, title=\"N_TIME\")\nplot(nTimeClose, title=\"N_TIME_CLOSE\")\nplot(nOpen, title=\"N_OPEN\")\nplot(nHigh, title=\"N_HIGH\")\nplot(nLow, title=\"N_LOW\")\nplot(nClose, title=\"N_CLOSE\")\nplot(nVolume, title=\"N_VOLUME\")\nplot(time, title=\"CHART_TIME\")\nplot(time_close, title=\"CHART_TIME_CLOSE\")\nplot(open, title=\"CHART_OPEN\")\nplot(high, title=\"CHART_HIGH\")\nplot(low, title=\"CHART_LOW\")\nplot(close, title=\"CHART_CLOSE\")\nplot(volume, title=\"CHART_VOLUME\")\nplot(barstate.isconfirmed ? 1 : 0, title=\"CHART_CONFIRMED\")\nplot(timenow, title=\"CAPTURE_CLOCK_MS\")\n",
+  "markers": [],
+  "chartSetup": {
+    "symbolInfo": {
+      "source2": {
+        "country": "MT",
+        "description": "Binance",
+        "exchange-type": "exchange",
+        "id": "BINANCE",
+        "name": "Binance",
+        "url": "https://www.binance.com/en"
+      },
+      "currency_code": "USDT",
+      "source_id": "BINANCE",
+      "subsession_id": "regular",
+      "provider_id": "binance",
+      "base_currency_id": "XTVCBTC",
+      "base_currency": "BTC",
+      "currency_id": "XTVCUSDT",
+      "format": "price",
+      "formatter": "price",
+      "pro_perm": "",
+      "volume_type": "base",
+      "measure": "price",
+      "allowed_adjustment": "none",
+      "short_description": "Bitcoin / TetherUS",
+      "variable_tick_size": "",
+      "name": "BTCUSDT",
+      "full_name": "BINANCE:BTCUSDT",
+      "pro_name": "BINANCE:BTCUSDT",
+      "base_name": [
+        "BINANCE:BTCUSDT"
+      ],
+      "description": "Bitcoin / TetherUS",
+      "exchange": "Binance",
+      "pricescale": 100,
+      "pointvalue": 1,
+      "minmov": 1,
+      "session": "24x7",
+      "session_display": "24x7",
+      "subsessions": [
+        {
+          "description": "Regular Trading Hours",
+          "id": "regular",
+          "private": false,
+          "session": "24x7",
+          "session-display": "24x7"
+        }
+      ],
+      "type": "spot",
+      "typespecs": [
+        "crypto"
+      ],
+      "has_intraday": true,
+      "fractional": false,
+      "listed_exchange": "BINANCE",
+      "legs": [
+        "BINANCE:BTCUSDT"
+      ],
+      "is_tradable": true,
+      "minmove2": 0,
+      "timezone": "Etc/UTC",
+      "aliases": [],
+      "alternatives": [],
+      "is_replayable": true,
+      "has_adjustment": false,
+      "has_extended_hours": false,
+      "bar_source": "trade",
+      "bar_transform": "none",
+      "bar_fillgaps": false,
+      "visible_plots_set": "ohlcv",
+      "is-tickbars-available": true,
+      "exchange_listed_name": "Binance"
+    },
+    "timeframe": "2",
+    "timezone": "Etc/UTC",
+    "chartStyle": 1,
+    "studySources": [
+      {
+        "id": "zy7yxn",
+        "title": "Namespace methods (false, false)",
+        "status": {
+          "type": 2
+        },
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line"
+          },
+          {
+            "id": "plot_1",
+            "type": "line"
+          },
+          {
+            "id": "plot_2",
+            "type": "line"
+          },
+          {
+            "id": "plot_3",
+            "type": "line"
+          },
+          {
+            "id": "plot_4",
+            "type": "line"
+          },
+          {
+            "id": "plot_5",
+            "type": "line"
+          },
+          {
+            "id": "plot_6",
+            "type": "line"
+          },
+          {
+            "id": "plot_7",
+            "type": "line"
+          },
+          {
+            "id": "plot_8",
+            "type": "line"
+          },
+          {
+            "id": "plot_9",
+            "type": "line"
+          },
+          {
+            "id": "plot_10",
+            "type": "line"
+          },
+          {
+            "id": "plot_11",
+            "type": "line"
+          },
+          {
+            "id": "plot_12",
+            "type": "line"
+          },
+          {
+            "id": "plot_13",
+            "type": "line"
+          },
+          {
+            "id": "plot_14",
+            "type": "line"
+          },
+          {
+            "id": "plot_15",
+            "type": "line"
+          },
+          {
+            "id": "plot_16",
+            "type": "line"
+          },
+          {
+            "id": "plot_17",
+            "type": "line"
+          },
+          {
+            "id": "plot_18",
+            "type": "line"
+          },
+          {
+            "id": "plot_19",
+            "type": "line"
+          },
+          {
+            "id": "plot_20",
+            "type": "line"
+          },
+          {
+            "id": "plot_21",
+            "type": "line"
+          },
+          {
+            "id": "plot_22",
+            "type": "line"
+          },
+          {
+            "id": "plot_23",
+            "type": "line"
+          },
+          {
+            "id": "plot_24",
+            "type": "line"
+          }
+        ],
+        "inputs": {
+          "__fast_calc": false,
+          "__profile": false,
+          "pineFeatures": "{\"import\":1,\"indicator\":1,\"plot\":1,\"request.security\":1}",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "bmI9Ks46_gul3DowvGdoijI+EUpbIkQ==_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"
+        }
+      }
+    ],
+    "lastPhysicalBar": {
+      "index": 299,
+      "value": [
+        1791762840,
+        83780.5,
+        83780.5,
+        83773.08,
+        83773.08,
+        4.65053
+      ]
+    },
+    "firstPhysicalBar": {
+      "index": -3447,
+      "value": [
+        1791313320,
+        85518,
+        85518,
+        85505.81,
+        85515.11,
+        12.38415
+      ]
+    },
+    "physicalBarCount": 3747,
+    "barReplay": false,
+    "seriesSettings": {
+      "sessionId": "regular",
+      "dividendsAdjustment": false,
+      "backAdjustment": false,
+      "settlementAsClose": true,
+      "currencyId": "XTVCUSDT"
+    }
+  },
+  "pageText": "11\nBTCUSDT\n3m\n5m\n15m\n30m\n45m\n1h\n2h\n3h\n4h\n8h\n10h\n12h\nD\n3D\n10D\nW\nM\n2m\nbasic\nSave\nTrade\nB\nBitcoin / TetherUS\nC\n83,773.08\n−7.42 (−0.01%)\n83,773.08\nSELL\n0.01\n83,773.09\nBUY\nVol · BTC\n5\nUSDT\nNamespace methods\n83,880.0800000000000000\n83,773.0800000000131072\n1,791,676,800,000.0000000000000000\n1,791,763,200,000.0000000000000000\n82,988.3500000000081920\n84,199.0000000000000000\n82,804.6499999999983616\n83,773.0800000000131072\n6,925.6885600000000000\n1,791,676,800,000.0000000000000000\n1,791,763,200,000.0000000000000000\n82,988.3500000000081920\n84,199.0000000000000000\n82,804.6499999999983616\n83,773.0800000000131072\n6,925.6885600000000000\n1,791,762,840,000.0000000000000000\n1,791,762,960,000.0000000000000000\n83,780.4999999999967232\n83,780.4999999999967232\n83,773.0800000000131072\n83,773.0800000000131072\n4.6505300000000000\n0\n1,791,762,928,422.0000000000000000\n1D\n5D\n1M\n3M\n6M\nYTD\n1Y\n5Y\nAll\n23:55:27 UTC\n99+\nObject tree\nData window\nDate\nSun 11 Oct '26\nTime\n23:54\nBTCUSDT · 2 · Binance\nOpen\n83,780.50\nHigh\n83,780.50\nLow\n83,773.08\nClose\n83,773.08\nChange\n−7.42 (−0.01%)\nVol\n4.65\nLast day change\n+784.72 (+0.95%)\nVol · BTC\nVolume\n5\nNamespace methods\nPlot\n83,880.0800000000000000\nREQUESTED_CLOSE_CONTROL\n83,773.0800000000131072\nD_TIME\n1,791,676,800,000.0000000000000000\nD_TIME_CLOSE\n1,791,763,200,000.0000000000000000\nD_OPEN\n82,988.3500000000081920\nD_HIGH\n84,199.0000000000000000\nD_LOW\n82,804.6499999999983616\nD_CLOSE\n83,773.0800000000131072\nD_VOLUME\n6,925.6885600000000000\nN_TIME\n1,791,676,800,000.0000000000000000\nN_TIME_CLOSE\n1,791,763,200,000.0000000000000000\nN_OPEN\n82,988.3500000000081920\nN_HIGH\n84,199.0000000000000000\nN_LOW\n82,804.6499999999983616\nN_CLOSE\n83,773.0800000000131072\nN_VOLUME\n6,925.6885600000000000\nCHART_TIME\n1,791,762,840,000.0000000000000000\nCHART_TIME_CLOSE\n1,791,762,960,000.0000000000000000\nCHART_OPEN\n83,780.4999999999967232\nCHART_HIGH\n83,780.4999999999967232\nCHART_LOW\n83,773.0800000000131072\nCHART_CLOSE\n83,773.0800000000131072\nCHART_VOLUME\n4.6505300000000000\nCHART_CONFIRMED\n0\nCAPTURE_CLOCK_MS\n1,791,762,928,422.0000000000000000\nPine Editor\nUntitled script\nSave\nPublish script\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n//@version=6\nindicator(\"Namespace methods\", precision=16)\nimport sours-lat/R2Nsad4a19ecf824/1 as lib\nouter(value) => request.security(\"BINANCE:BTCUSDT\", \"1D\", request.security(\"BINANCE:BTCUSDT\", \"1D\", lib.pick(value) + lib.pick(int(7)), lookahead=barmerge.lookahead_on), lookahead=barmerge.lookahead_on)\nplot(outer(close))\nplot(request.security(\"BINANCE:BTCUSDT\", \"1D\", close, lookahead=barmerge.lookahead_on), title=\"REQUESTED_CLOSE_CONTROL\")\n[dTime, dTimeClose, dOpen, dHigh, dLow, dClose, dVolume] = request.security(\"BINANCE:BTCUSDT\", \"1D\", [time, time_close, open, high, low, close, volume], gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_on)\nplot(dTime, title=\"D_TIME\")\nplot(dTimeClose, title=\"D_TIME_CLOSE\")\nplot(dOpen, title=\"D_OPEN\")\nplot(dHigh, title=\"D_HIGH\")\nplot(dLow, title=\"D_LOW\")\nplot(dClose, title=\"D_CLOSE\")\nplot(dVolume, title=\"D_VOLUME\")\n[nTime, nTimeClose, nOpen, nHigh, nLow, nClose, nVolume] = request.security(\"BINANCE:BTCUSDT\", \"1D\", request.security(\"BINANCE:BTCUSDT\", \"1D\", [time, time_close, open, high, low, close, volume], gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_on), gaps=barmerge.gaps_off, lookahead=barmerge.lookahead_on)\nplot(nTime, title=\"N_TIME\")\nplot(nTimeClose, title=\"N_TIME_CLOSE\")\nplot(nOpen, title=\"N_OPEN\")\nplot(nHigh, title=\"N_HIGH\")\nplot(nLow, title=\"N_LOW\")\nplot(nClose, title=\"N_CLOSE\")\nplot(nVolume, title=\"N_VOLUME\")\nplot(time, title=\"CHART_TIME\")\nplot(time_close, title=\"CHART_TIME_CLOSE\")\nplot(open, title=\"CHART_OPEN\")\nplot(high, title=\"CHART_HIGH\")\nplot(low, title=\"CHART_LOW\")\nplot(close, title=\"CHART_CLOSE\")\nplot(volume, title=\"CHART_VOLUME\")\nplot(barstate.isconfirmed ? 1 : 0, title=\"CHART_CONFIRMED\")\nplot(timenow, title=\"CAPTURE_CLOCK_MS\")\nLine 1, Col 1\nPine Script® v6\nUntitled script",
+  "templatePath": "v80-nested6-with-feed-v1.pine",
+  "templateSha256": "a18d8d1607f3b4d5aff88d6b46270f30af9dc88478ea66d9621822f93f239e5f",
+  "role": "nested-and-direct-feed-observers",
+  "group": "nested-daily-feed",
+  "inputs": {},
+  "status": "RUNS"
+}

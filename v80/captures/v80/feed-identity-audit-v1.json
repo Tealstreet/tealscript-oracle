@@ -1,0 +1,226 @@
+{
+  "revision": 1,
+  "result": "PASS",
+  "window": {
+    "startTimeMs": "1791417600000",
+    "endTimeCloseMs": "1791590400000",
+    "interiorBoundaryMs": "1791504000000",
+    "observedDailyRows": [
+      [
+        "1791417600000",
+        "1791504000000",
+        "83321.81",
+        "83521.15",
+        "80393.56",
+        "81754.45",
+        "21676.96164"
+      ],
+      [
+        "1791504000000",
+        "1791590400000",
+        "81754.46",
+        "83528.98",
+        "81603.52",
+        "82635.55",
+        "12301.61263"
+      ]
+    ],
+    "precedingClosedDays": [
+      "1791244800000",
+      "1791331200000"
+    ],
+    "followingClosedDay": "1791590400000"
+  },
+  "comparisons": {
+    "v80-nested6-with-feed-v1/attempt-v1": {
+      "eligibleRows": 2803,
+      "scoredRowsW": 1440,
+      "directAndNestedSevenFieldMismatches": 0,
+      "controlVersusDirectCloseMismatches": 0,
+      "perDayW": {
+        "1791417600000": 720,
+        "1791504000000": 720
+      },
+      "paddingConfirmedBeforeW": 643,
+      "paddingConfirmedAfterW": 1435,
+      "interiorBoundaryPaddingEachSide": 32,
+      "exactOriginalResultsComparedRows": 2803,
+      "exactOriginalResultsMismatches": 0
+    },
+    "v80-nested6-with-feed-v1/attempt-v2": {
+      "eligibleRows": 3029,
+      "scoredRowsW": 1440,
+      "directAndNestedSevenFieldMismatches": 0,
+      "controlVersusDirectCloseMismatches": 0,
+      "perDayW": {
+        "1791417600000": 720,
+        "1791504000000": 720
+      },
+      "paddingConfirmedBeforeW": 869,
+      "paddingConfirmedAfterW": 1437,
+      "interiorBoundaryPaddingEachSide": 32,
+      "exactOriginalResultsComparedRows": 2803,
+      "exactOriginalResultsMismatches": 0
+    },
+    "repeatStability": {
+      "comparedEligibleRows": 2803,
+      "comparedColumns": [
+        "Plot",
+        "REQUESTED_CLOSE_CONTROL",
+        "D_TIME",
+        "D_TIME_CLOSE",
+        "D_OPEN",
+        "D_HIGH",
+        "D_LOW",
+        "D_CLOSE",
+        "D_VOLUME",
+        "N_TIME",
+        "N_TIME_CLOSE",
+        "N_OPEN",
+        "N_HIGH",
+        "N_LOW",
+        "N_CLOSE",
+        "N_VOLUME",
+        "CHART_TIME",
+        "CHART_TIME_CLOSE",
+        "CHART_OPEN",
+        "CHART_HIGH",
+        "CHART_LOW",
+        "CHART_CLOSE",
+        "CHART_VOLUME",
+        "CHART_CONFIRMED"
+      ],
+      "mismatches": 0,
+      "observationClockExcluded": true,
+      "developingAndOpenRowsExcluded": true
+    },
+    "dailyRequestedVsPhysical": {
+      "confirmedClosedRows": 3342,
+      "fieldsCompared": 7,
+      "mismatches": 0
+    },
+    "originalWindowValues": {
+      "1791417600000": {
+        "Plot": [
+          "81861.45"
+        ],
+        "REQUESTED_CLOSE_CONTROL": [
+          "81754.45"
+        ]
+      },
+      "1791504000000": {
+        "Plot": [
+          "82742.55"
+        ],
+        "REQUESTED_CLOSE_CONTROL": [
+          "82635.55"
+        ]
+      }
+    },
+    "originalPadding": {
+      "confirmedBeforeW": 643,
+      "confirmedAfterW": 1434
+    }
+  },
+  "binary64VectorAudits": [
+    {
+      "attempt": "v80-nested6-with-feed-v1/attempt-v2",
+      "nativeSeriesFile": "native-series-v1.json",
+      "confirmedRowsCompared": 3746,
+      "CSVChartInputVsNativePhysicalMismatches": 0,
+      "CSVPlotsVsNativeBinary64Mismatches": 0,
+      "nativeStudyPaddingRows": 188
+    },
+    {
+      "attempt": "v80-requested-daily-export-v1/attempt-v3",
+      "nativeSeriesFile": "native-series-v1.json",
+      "confirmedRowsCompared": 3342,
+      "CSVChartInputVsNativePhysicalMismatches": 0,
+      "CSVPlotsVsNativeBinary64Mismatches": 0,
+      "nativeStudyPaddingRows": 0
+    }
+  ],
+  "builtinVolumeIndicatorDiscrepancies": [
+    {
+      "attempt": "v80-nested6-with-feed-v1/attempt-v1",
+      "rows": [
+        {
+          "rawCSVRow": 2478,
+          "time": "1791637560",
+          "builtinVolume": "19.546999999999997",
+          "CHART_VOLUME": "19.547",
+          "scoreW": false
+        }
+      ],
+      "providerVolumeColumn": "CHART_VOLUME; builtin Volume indicator is not the physical volume authority"
+    },
+    {
+      "attempt": "v80-nested6-with-feed-v1/attempt-v2",
+      "rows": [],
+      "providerVolumeColumn": "CHART_VOLUME; builtin Volume indicator is not the physical volume authority"
+    },
+    {
+      "attempt": "v80-requested-daily-export-v1/attempt-v1",
+      "rows": [],
+      "providerVolumeColumn": "CHART_VOLUME; builtin Volume indicator is not the physical volume authority"
+    },
+    {
+      "attempt": "v80-requested-daily-export-v1/attempt-v2",
+      "rows": [
+        {
+          "rawCSVRow": 298,
+          "time": "1791417600",
+          "builtinVolume": "21676.8324",
+          "CHART_VOLUME": "21676.96164",
+          "scoreW": true
+        },
+        {
+          "rawCSVRow": 299,
+          "time": "1791504000",
+          "builtinVolume": "12301.52816",
+          "CHART_VOLUME": "12301.61263",
+          "scoreW": true
+        },
+        {
+          "rawCSVRow": 300,
+          "time": "1791590400",
+          "builtinVolume": "7437.71802",
+          "CHART_VOLUME": "7437.72181",
+          "scoreW": false
+        }
+      ],
+      "providerVolumeColumn": "CHART_VOLUME; builtin Volume indicator is not the physical volume authority"
+    },
+    {
+      "attempt": "v80-requested-daily-export-v1/attempt-v3",
+      "rows": [
+        {
+          "rawCSVRow": 3341,
+          "time": "1791417600",
+          "builtinVolume": "21676.8324",
+          "CHART_VOLUME": "21676.96164",
+          "scoreW": true
+        },
+        {
+          "rawCSVRow": 3342,
+          "time": "1791504000",
+          "builtinVolume": "12301.52816",
+          "CHART_VOLUME": "12301.61263",
+          "scoreW": true
+        },
+        {
+          "rawCSVRow": 3343,
+          "time": "1791590400",
+          "builtinVolume": "7437.71802",
+          "CHART_VOLUME": "7437.72181",
+          "scoreW": false
+        }
+      ],
+      "providerVolumeColumn": "CHART_VOLUME; builtin Volume indicator is not the physical volume authority"
+    }
+  ],
+  "originalPhysicalInputsW": {
+    "rowsCompared": 1440,
+    "OHLCVExactMismatches": 0
+  }
+}

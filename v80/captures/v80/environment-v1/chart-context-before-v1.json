@@ -1,0 +1,108 @@
+{
+  "captureTimestamp": "2026-10-11T23:49:31.191Z",
+  "symbolInfo": {
+    "source2": {
+      "country": "MT",
+      "description": "Binance",
+      "exchange-type": "exchange",
+      "id": "BINANCE",
+      "name": "Binance",
+      "url": "https://www.binance.com/en"
+    },
+    "currency_code": "USDT",
+    "source_id": "BINANCE",
+    "subsession_id": "regular",
+    "provider_id": "binance",
+    "base_currency_id": "XTVCBTC",
+    "base_currency": "BTC",
+    "currency_id": "XTVCUSDT",
+    "format": "price",
+    "formatter": "price",
+    "pro_perm": "",
+    "volume_type": "base",
+    "measure": "price",
+    "allowed_adjustment": "none",
+    "short_description": "Bitcoin / TetherUS",
+    "variable_tick_size": "",
+    "name": "BTCUSDT",
+    "full_name": "BINANCE:BTCUSDT",
+    "pro_name": "BINANCE:BTCUSDT",
+    "base_name": [
+      "BINANCE:BTCUSDT"
+    ],
+    "description": "Bitcoin / TetherUS",
+    "exchange": "Binance",
+    "pricescale": 100,
+    "pointvalue": 1,
+    "minmov": 1,
+    "session": "24x7",
+    "session_display": "24x7",
+    "subsessions": [
+      {
+        "description": "Regular Trading Hours",
+        "id": "regular",
+        "private": false,
+        "session": "24x7",
+        "session-display": "24x7"
+      }
+    ],
+    "type": "spot",
+    "typespecs": [
+      "crypto"
+    ],
+    "has_intraday": true,
+    "fractional": false,
+    "listed_exchange": "BINANCE",
+    "legs": [
+      "BINANCE:BTCUSDT"
+    ],
+    "is_tradable": true,
+    "minmove2": 0,
+    "timezone": "Etc/UTC",
+    "aliases": [],
+    "alternatives": [],
+    "is_replayable": true,
+    "has_adjustment": false,
+    "has_extended_hours": false,
+    "bar_source": "trade",
+    "bar_transform": "none",
+    "bar_fillgaps": false,
+    "visible_plots_set": "ohlcv",
+    "is-tickbars-available": true,
+    "exchange_listed_name": "Binance"
+  },
+  "interval": "2",
+  "timezone": "Etc/UTC",
+  "barReplay": {},
+  "style": 1,
+  "sessionId": "regular",
+  "adjustments": {
+    "dividendsAdjustment": false,
+    "backAdjustment": false,
+    "settlementAsClose": true
+  },
+  "currencyId": "XTVCUSDT",
+  "firstBar": {
+    "index": -2181,
+    "value": [
+      1791340440,
+      83912.98,
+      83999.22,
+      83884.88,
+      83968.86,
+      22.52659
+    ]
+  },
+  "lastBar": {
+    "index": 1336,
+    "value": [
+      1791762480,
+      83690.06,
+      83716.01,
+      83690.05,
+      83716.01,
+      2.77607
+    ]
+  },
+  "barCount": 3518
+}
