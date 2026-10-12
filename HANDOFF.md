@@ -326,3 +326,7 @@ Capture the five bounded indicators in [v55/bundle-manifest-v1.json](v55/bundle-
 ## Then round v56 — matrix predicate/order and language return/live boundaries v1
 
 Capture the five indicators in [v56/bundle-manifest-v1.json](v56/bundle-manifest-v1.json), using [HANDOFF-v56-v1.md](v56/HANDOFF-v56-v1.md) and each exact instruction. Two matrix fixtures and separate v5/v6 no-match string sources use bounded historical CSV; the once source requires a continuous open/close/next-bar live sequence. All46 v31 native-pending rows already map to v52-v55; reuse existing questions without duplicate probes. Native phase/values are UNSPECIFIED. Preserve source hashes, raw blanks/zeros, exact diagnostics and live logs/context; insufficient live events remain HELD. Verify v56/SHA256SUMS; return v56/captures/v56/RESPONSE-v56.md.
+
+## Then round v84 — parse-refusal advisory lists v1
+
+Capture the fifteen exact-source representatives in [v84/bundle-manifest-v1.json](v84/bundle-manifest-v1.json), following [HANDOFF-v84-v1.md](v84/HANDOFF-v84-v1.md) and instructions/INSTRUCTIONS-v1.md. Five native private Save/Add compiles per representative; preserve the verbatim v83 ALLOWED/FORBIDDEN block, source bytes and chart state. Native list presence/order/count is UNSPECIFIED; keep compiler responses and immediate/settled editor arrays separate. Check v84/SHA256SUMS and return v84/captures/v84/RESPONSE-v84.md.

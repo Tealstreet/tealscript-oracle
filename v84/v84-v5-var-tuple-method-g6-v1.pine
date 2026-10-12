@@ -1,0 +1,10 @@
+//@version=5
+indicator("V76 var tuple method v5")
+type Probe
+    int value
+method f(Probe self) => [self.value, self.value + 1]
+holder = Probe.new(1)
+var [a, b] = holder.f()
+plot(a, "A")
+plot(b, "B")
+plot(1, "VALUE")
