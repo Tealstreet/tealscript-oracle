@@ -1,0 +1,7 @@
+//@version=5
+indicator("V76 varip tuple function v5")
+f() => [1, 2]
+varip [a, b] = f()
+plot(a, "A")
+plot(b, "B")
+plot(1, "VALUE")

@@ -1,0 +1,30 @@
+[
+  {
+    "captureTimestamp": "2026-10-12T07:58:50.810Z",
+    "reqid": 20327,
+    "nativeRequest": "reqid=20327 POST https://pine-facade.tradingview.com/pine-facade/parse_title [200]",
+    "requestBody": "------WebKitFormBoundaryl6j80YiHzPMAcCLI\r\nContent-Disposition: form-data; name=\"source\"\r\n\r\n//@version=4\r\nstudy(\"Tuple RHS v4 string direct\")\r\na=1\r\nb=2\r\n[x,y]=[\"a\",\"b\"]\r\nplot(1,\"VALUE\")\r\n\r\n------WebKitFormBoundaryl6j80YiHzPMAcCLI--\r\n",
+    "responseBody": "{\"success\":true,\"result\":null}"
+  },
+  {
+    "captureTimestamp": "2026-10-12T07:58:50.820Z",
+    "reqid": 20334,
+    "nativeRequest": "reqid=20334 POST https://pine-facade.tradingview.com/pine-facade/save/new?name=v84-v4-string-tuple-rhs-g6-v1&allow_overwrite=true [200]",
+    "requestBody": "------WebKitFormBoundary17TpGd7h4bKWZSoe\r\nContent-Disposition: form-data; name=\"source\"\r\n\r\n//@version=4\r\nstudy(\"Tuple RHS v4 string direct\")\r\na=1\r\nb=2\r\n[x,y]=[\"a\",\"b\"]\r\nplot(1,\"VALUE\")\r\n\r\n------WebKitFormBoundary17TpGd7h4bKWZSoe--\r\n",
+    "responseBody": "{\"success\":false,\"reason\":\"line 5: Syntax error at input '['.\",\"result\":{\"IL\":\"bmI9Ks46_89Xs4+X0qQHs9YwAG0ZucA==_/QGibSGWUNj7eOPL21dpgQqgSGKJiol4DYdh7vdyn++Lw/9rdPP7jd2+bs292lMWGTp2INxgIZBAs29YdnmVlnfm9+PUVvUyY0kkV93IMKaEKIiXg63igkrQtA==\",\"ilTemplate\":\"bmI9Ks46_IRQz38kYBuTBbSHgDVwuaA==_f9kJaDCeOQPgBp1f2LifmJKifBeTapehUFnH8ZFg8rc8+02U4yUfbdBwh7bI7mzZ5XNjOr7vxdPsgEXZQ5+tIOBhPnQ9zV1OC9ItNC7yHoMvZATXREw/Qpp+ew==\",\"metaInfo\":{\"_metainfoVersion\":55,\"defaults\":{\"inputs\":{\"pineId\":\"\",\"pineVersion\":\"\",\"text\":\"bmI9Ks46_IRQz38kYBuTBbSHgDVwuaA==_f9kJaDCeOQPgBp1f2LifmJKifBeTapehUFnH8ZFg8rc8+02U4yUfbdBwh7bI7mzZ5XNjOr7vxdPsgEXZQ5+tIOBhPnQ9zV1OC9ItNC7yHoMvZATXREw/Qpp+ew==\"},\"styles\":{\"plot_0\":{\"color\":null,\"display\":15,\"linestyle\":0,\"linewidth\":1,\"plottype\":0,\"trackPrice\":false,\"transparency\":0,\"visible\":true}}},\"description\":\"v84-v4-string-tuple-rhs-g6-v1\",\"format\":{\"type\":\"inherit\"},\"id\":\"Script$USER;0e3a7a3ce808479098ac99f81338ad2e@tv-scripting-101\",\"inputs\":[{\"defval\":\"bmI9Ks46_IRQz38kYBuTBbSHgDVwuaA==_f9kJaDCeOQPgBp1f2LifmJKifBeTapehUFnH8ZFg8rc8+02U4yUfbdBwh7bI7mzZ5XNjOr7vxdPsgEXZQ5+tIOBhPnQ9zV1OC9ItNC7yHoMvZATXREw/Qpp+ew==\",\"id\":\"text\",\"isHidden\":true,\"name\":\"ILScript\",\"type\":\"text\"},{\"defval\":\"\",\"id\":\"pineId\",\"isHidden\":true,\"name\":\"pineId\",\"type\":\"text\"},{\"defval\":\"\",\"id\":\"pineVersion\",\"isHidden\":true,\"name\":\"pineVersion\",\"type\":\"text\"}],\"isTVScript\":true,\"isTVScriptStub\":true,\"is_hidden_study\":false,\"is_price_study\":false,\"pine\":{\"digest\":\"085aef7c799ad6ee9d786e0dcc637cce85a2c836\",\"version\":\"1.0\"},\"plots\":[{\"id\":\"plot_0\",\"type\":\"line\"}],\"scriptIdPart\":\"USER;0e3a7a3ce808479098ac99f81338ad2e\",\"shortDescription\":\"v84-v4-string-tuple-rhs-g6-v1\",\"stats\":{\"plot\":1},\"styles\":{\"plot_0\":{\"histogramBase\":0,\"isHidden\":false,\"joinPoints\":false,\"title\":\"Plot\"}},\"usesPrivateLib\":false,\"warnings\":[]}}}"
+  },
+  {
+    "captureTimestamp": "2026-10-12T07:58:50.827Z",
+    "reqid": 20340,
+    "nativeRequest": "reqid=20340 GET https://pine-facade.tradingview.com/pine-facade/translate/USER%3B0e3a7a3ce808479098ac99f81338ad2e/1.0 [200]",
+    "requestBody": null,
+    "responseBody": "{\"success\":false,\"reason\":\"line 5: Syntax error at input '['.\",\"result\":{\"IL\":\"bmI9Ks46_hkgFb6rRQcA7+3rlif199Q==_Jp8PKF4zgWytnN325GkVFfj+AdBVmBaSpWlGqYx11zx2qwTc65FV53GdoorrBVnPFjTkwqkSenB7tKedld7ge8ITd9zOz6gCSkjiZ9n2K1b+2JfdVaOesW0lpA==\",\"ilTemplate\":\"bmI9Ks46_6lMSXfn3yC8aPaNN2Ue+Ew==_3uJeNOEBlRN7cKY03nb81QHSTPWr1c9MzZ6OMOPyOYqPSeKQ9hTVsYBXgrc8HzWW2QhRWDdL3NaooJwal8wuEukZMqvWgQaXBQ8jYvj0aoQJovRBSFsFFzVPNg==\",\"metaInfo\":{\"_metainfoVersion\":55,\"defaults\":{\"inputs\":{\"pineId\":\"\",\"pineVersion\":\"\",\"text\":\"bmI9Ks46_6lMSXfn3yC8aPaNN2Ue+Ew==_3uJeNOEBlRN7cKY03nb81QHSTPWr1c9MzZ6OMOPyOYqPSeKQ9hTVsYBXgrc8HzWW2QhRWDdL3NaooJwal8wuEukZMqvWgQaXBQ8jYvj0aoQJovRBSFsFFzVPNg==\"},\"styles\":{\"plot_0\":{\"color\":null,\"display\":15,\"linestyle\":0,\"linewidth\":1,\"plottype\":0,\"trackPrice\":false,\"transparency\":0,\"visible\":true}}},\"description\":\"Untitled Script\",\"format\":{\"type\":\"inherit\"},\"id\":\"Script$USER;0e3a7a3ce808479098ac99f81338ad2e@tv-scripting-101\",\"inputs\":[{\"defval\":\"bmI9Ks46_6lMSXfn3yC8aPaNN2Ue+Ew==_3uJeNOEBlRN7cKY03nb81QHSTPWr1c9MzZ6OMOPyOYqPSeKQ9hTVsYBXgrc8HzWW2QhRWDdL3NaooJwal8wuEukZMqvWgQaXBQ8jYvj0aoQJovRBSFsFFzVPNg==\",\"id\":\"text\",\"isHidden\":true,\"name\":\"ILScript\",\"type\":\"text\"},{\"defval\":\"\",\"id\":\"pineId\",\"isHidden\":true,\"name\":\"pineId\",\"type\":\"text\"},{\"defval\":\"\",\"id\":\"pineVersion\",\"isHidden\":true,\"name\":\"pineVersion\",\"type\":\"text\"}],\"isTVScript\":true,\"isTVScriptStub\":true,\"is_hidden_study\":false,\"is_price_study\":false,\"pine\":{\"digest\":\"085aef7c799ad6ee9d786e0dcc637cce85a2c836\",\"version\":\"1.0\"},\"plots\":[{\"id\":\"plot_0\",\"type\":\"line\"}],\"scriptIdPart\":\"USER;0e3a7a3ce808479098ac99f81338ad2e\",\"shortDescription\":\"Untitled Script\",\"stats\":{\"plot\":1},\"styles\":{\"plot_0\":{\"histogramBase\":0,\"isHidden\":false,\"joinPoints\":false,\"title\":\"Plot\"}},\"usesPrivateLib\":false,\"warnings\":[]}}}"
+  },
+  {
+    "captureTimestamp": "2026-10-12T07:58:50.836Z",
+    "reqid": 20346,
+    "nativeRequest": "reqid=20346 GET https://pine-facade.tradingview.com/pine-facade/is_auth_to_get/USER%3B0e3a7a3ce808479098ac99f81338ad2e/1.0 [200]",
+    "requestBody": null,
+    "responseBody": "true"
+  }
+]
