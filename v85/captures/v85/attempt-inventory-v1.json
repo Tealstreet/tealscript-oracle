@@ -1,0 +1,2580 @@
+{
+  "revision": 1,
+  "round": "v85",
+  "governingHandoff": "HANDOFF-v85-v1.md",
+  "sources": [
+    {
+      "source": {
+        "probe": "v85-v5-direct-method-cum-omitted-1x-v1",
+        "path": "v85-v5-direct-method-cum-omitted-1x-v1.pine",
+        "sourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-presence-exception",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v58/captures/v58/consumers/v5-direct-method-cum-omitted/default/attempt-v1",
+        "originalSourcePath": "v58/captures/v58/consumers/v5-direct-method-cum-omitted/default/attempt-v1/executed-v1.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v58/captures/v58/consumers/v5-direct-method-cum-omitted/default/attempt-v1/observation-v1.json",
+        "historicalObservationSha256": "a624b524112949218dbb155f5b25f8b2fafd89995275fccbeb986ecc39c32f48"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The default value cannot be a function, variable or calculation.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-cum-omitted-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21519,
+              "captureTimestamp": "2026-10-12T08:20:38.001Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+                "version": "1.0"
+              },
+              "sourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+              "responseSha256": "86518bb6416cd253e6b73e960f9147080c117e428eb732e7710963d24d2650d9",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21525,
+              "captureTimestamp": "2026-10-12T08:20:38.010Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+                "version": "1.0"
+              },
+              "sourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+              "responseSha256": "652fc7b980a54a67c08c06d359bd94bc3310ec9fcba3d13c09282210419ef53e",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "id8PFk"
+          ],
+          "removedStudyIds": [
+            "id8PFk"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-cum-omitted-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21863,
+              "captureTimestamp": "2026-10-12T08:24:39.606Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+                "version": "1.0"
+              },
+              "sourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+              "responseSha256": "652fc7b980a54a67c08c06d359bd94bc3310ec9fcba3d13c09282210419ef53e",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "Np0V8L"
+          ],
+          "removedStudyIds": [
+            "Np0V8L"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-cum-omitted-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22102,
+              "captureTimestamp": "2026-10-12T08:30:07.898Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+                "version": "1.0"
+              },
+              "sourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+              "responseSha256": "6368f51d5ba48bd97600417e26e2a4f8329f670f608ff73f11d1f5256d2ae53f",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "VXKcPc"
+          ],
+          "removedStudyIds": [
+            "VXKcPc"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-cum-omitted-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22331,
+              "captureTimestamp": "2026-10-12T08:33:53.367Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+                "version": "1.0"
+              },
+              "sourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+              "responseSha256": "6368f51d5ba48bd97600417e26e2a4f8329f670f608ff73f11d1f5256d2ae53f",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "rxL26o"
+          ],
+          "removedStudyIds": [
+            "rxL26o"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-cum-omitted-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22566,
+              "captureTimestamp": "2026-10-12T08:37:42.630Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2e2b2cdeb20e41eb89e9ebd540c7ea39",
+                "version": "1.0"
+              },
+              "sourceSha256": "5c19ddbf3a764e42b6c8cdeb159169cee36432ab444031cc90e068e7ce66c76e",
+              "responseSha256": "386afe1013b977175e3f9bbe7234ea0b795261ba81e7f07d3411dc8344764ab7",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "tK40NO"
+          ],
+          "removedStudyIds": [
+            "tK40NO"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v85-v5-direct-nested-method-range-omitted-1x-v1",
+        "path": "v85-v5-direct-nested-method-range-omitted-1x-v1.pine",
+        "sourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "exact-presence-exception",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v58/captures/v58/consumers/v5-direct-nested-method-range-omitted/default/attempt-v1",
+        "originalSourcePath": "v58/captures/v58/consumers/v5-direct-nested-method-range-omitted/default/attempt-v1/executed-v1.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v58/captures/v58/consumers/v5-direct-nested-method-range-omitted/default/attempt-v1/observation-v1.json",
+        "historicalObservationSha256": "9d1df68b60a1e1ac789f57261d4769bb70defa142f5899c5a1add3f2c526532b"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21559,
+              "captureTimestamp": "2026-10-12T08:20:54.283Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+                "version": "1.0"
+              },
+              "sourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+              "responseSha256": "ee26efe051a1c9d1f71daa041a152d997738a5782cedd45e53828ffd8d02e4c2",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21564,
+              "captureTimestamp": "2026-10-12T08:20:54.293Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+                "version": "1.0"
+              },
+              "sourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+              "responseSha256": "e72c2fbff27d7ac6f6ceeb1a3d1d31e82a3474167c48e713e0cb66d68934c5fc",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "9iHVgU"
+          ],
+          "removedStudyIds": [
+            "9iHVgU"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21902,
+              "captureTimestamp": "2026-10-12T08:26:43.759Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+                "version": "1.0"
+              },
+              "sourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+              "responseSha256": "fe7fa831e4417d57284f43d80a70083175ff4ffeb352a7e1b66ab4ccbc39ba0e",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "sHYCj5"
+          ],
+          "removedStudyIds": [
+            "sHYCj5"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22134,
+              "captureTimestamp": "2026-10-12T08:30:48.348Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+                "version": "1.0"
+              },
+              "sourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+              "responseSha256": "fe7fa831e4417d57284f43d80a70083175ff4ffeb352a7e1b66ab4ccbc39ba0e",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "iUdfzY"
+          ],
+          "removedStudyIds": [
+            "iUdfzY"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22360,
+              "captureTimestamp": "2026-10-12T08:34:10.663Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+                "version": "1.0"
+              },
+              "sourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+              "responseSha256": "8b4b1ce4d74482018f481fbe73382068c4b762d386d0e58cecbf59ba7e8d53e5",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "hcgWuW"
+          ],
+          "removedStudyIds": [
+            "hcgWuW"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22594,
+              "captureTimestamp": "2026-10-12T08:38:00.376Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;d91ec212a6524e49b6da6b91cc1650d6",
+                "version": "1.0"
+              },
+              "sourceSha256": "621a4e69482e49063e44d4427b4f94bebfa08996b036eb9a6813cc304a99e58f",
+              "responseSha256": "8b4b1ce4d74482018f481fbe73382068c4b762d386d0e58cecbf59ba7e8d53e5",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "kDscrm"
+          ],
+          "removedStudyIds": [
+            "kDscrm"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v85-trace-bgcolor-offset-v3-series-1x-v1",
+        "path": "v85-trace-bgcolor-offset-v3-series-1x-v1.pine",
+        "sourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 3,
+        "indicatorOnly": true,
+        "role": "exact-presence-exception",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v4/captures/v4/outcomes-v4.json#trace-bgcolor-offset-v3-series.pine/attempt-1",
+        "originalSourcePath": "v4/trace-bgcolor-offset-v3-series.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v4/captures/v4/outcomes-v4.json#trace-bgcolor-offset-v3-series.pine/attempt-1",
+        "historicalObservationSha256": "23c510ed1486c3c3c7bbba345e6b6696d37236a12fc71cb88c8a08c072db8bd5"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 7: Undeclared identifier `series_offset`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21596,
+              "captureTimestamp": "2026-10-12T08:21:27.304Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+                "version": "1.0"
+              },
+              "sourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+              "responseSha256": "66e035f8d00b22ca315c7034f491e0535d6a76d23979b80fed95bb47905ba353",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 7: Undeclared identifier `series_offset`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21612,
+              "captureTimestamp": "2026-10-12T08:21:27.314Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+                "version": "1.0"
+              },
+              "sourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+              "responseSha256": "6d17529e50cb9a12ef1ff1c99c34ecca74c9296b23dc594286e60d9e227d6fab",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 7: Undeclared identifier `series_offset`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 11,
+          "addedStudyIds": [
+            "gNoR07"
+          ],
+          "removedStudyIds": [
+            "gNoR07"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21928,
+              "captureTimestamp": "2026-10-12T08:27:01.365Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+                "version": "1.0"
+              },
+              "sourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+              "responseSha256": "786208aa2dc8aa473afa929ee518f9f04851589baa5dd5a6183dfb5b0ece62a7",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 7: Undeclared identifier `series_offset`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 11,
+          "addedStudyIds": [
+            "259njF"
+          ],
+          "removedStudyIds": [
+            "259njF"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22158,
+              "captureTimestamp": "2026-10-12T08:31:05.259Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+                "version": "1.0"
+              },
+              "sourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+              "responseSha256": "786208aa2dc8aa473afa929ee518f9f04851589baa5dd5a6183dfb5b0ece62a7",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 7: Undeclared identifier `series_offset`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 11,
+          "addedStudyIds": [
+            "i8825M"
+          ],
+          "removedStudyIds": [
+            "i8825M"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22388,
+              "captureTimestamp": "2026-10-12T08:35:05.123Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+                "version": "1.0"
+              },
+              "sourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+              "responseSha256": "9634a641fdbbe8c1811e3727619a24daf3215b54055b0c1cb203df3a579bd6b7",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 7: Undeclared identifier `series_offset`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 11,
+          "addedStudyIds": [
+            "LcTfPG"
+          ],
+          "removedStudyIds": [
+            "LcTfPG"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22618,
+              "captureTimestamp": "2026-10-12T08:38:17.858Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;667deb0d4883426d97f271fa914e2d81",
+                "version": "1.0"
+              },
+              "sourceSha256": "605ab6938f7b6f0940c5300c11f9efe5c6ac710dd5c9d862e1bff02b60f557fe",
+              "responseSha256": "9634a641fdbbe8c1811e3727619a24daf3215b54055b0c1cb203df3a579bd6b7",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 7: Undeclared identifier `series_offset`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 11,
+          "addedStudyIds": [
+            "2Nx4qS"
+          ],
+          "removedStudyIds": [
+            "2Nx4qS"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v85-trace-bgcolor-offset-v3-zero-control-1x-v1",
+        "path": "v85-trace-bgcolor-offset-v3-zero-control-1x-v1.pine",
+        "sourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 3,
+        "indicatorOnly": true,
+        "role": "exact-presence-exception",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v4/captures/v4/outcomes-v4.json#trace-bgcolor-offset-v3-zero-control.pine/attempt-1",
+        "originalSourcePath": "v4/trace-bgcolor-offset-v3-zero-control.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v4/captures/v4/outcomes-v4.json#trace-bgcolor-offset-v3-zero-control.pine/attempt-1",
+        "historicalObservationSha256": "23c510ed1486c3c3c7bbba345e6b6696d37236a12fc71cb88c8a08c072db8bd5"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21646,
+              "captureTimestamp": "2026-10-12T08:21:43.503Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+                "version": "1.0"
+              },
+              "sourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+              "responseSha256": "31302d9d119a698ca6de4f6364dc79be716051d05034236c90aaae3043dc9045",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21659,
+              "captureTimestamp": "2026-10-12T08:21:43.513Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+                "version": "1.0"
+              },
+              "sourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+              "responseSha256": "11e377f21c754b325b08cef10d0c32078a56d5049ffcde08270d5cc78feaee01",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 10,
+          "addedStudyIds": [
+            "KPx8Vx"
+          ],
+          "removedStudyIds": [
+            "KPx8Vx"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21956,
+              "captureTimestamp": "2026-10-12T08:28:03.270Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+                "version": "1.0"
+              },
+              "sourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+              "responseSha256": "95b1e6b6c3656a83eda42b7a75fda296633d74e4303e02711cd883df34941602",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 10,
+          "addedStudyIds": [
+            "setwGg"
+          ],
+          "removedStudyIds": [
+            "setwGg"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22182,
+              "captureTimestamp": "2026-10-12T08:31:23.002Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+                "version": "1.0"
+              },
+              "sourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+              "responseSha256": "95b1e6b6c3656a83eda42b7a75fda296633d74e4303e02711cd883df34941602",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 10,
+          "addedStudyIds": [
+            "jlH7Uv"
+          ],
+          "removedStudyIds": [
+            "jlH7Uv"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22412,
+              "captureTimestamp": "2026-10-12T08:35:23.123Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+                "version": "1.0"
+              },
+              "sourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+              "responseSha256": "ac1931ce14d1e915e64070c1d962f6fe99a011f6b85415dd667ec4de9c37ecda",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 10,
+          "addedStudyIds": [
+            "PFZ7yP"
+          ],
+          "removedStudyIds": [
+            "PFZ7yP"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+            "version": "1.0"
+          },
+          "observationPath": "v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22647,
+              "captureTimestamp": "2026-10-12T08:39:11.056Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ee34b33251bb4c65b107a0c5155a27d7",
+                "version": "1.0"
+              },
+              "sourceSha256": "1be260a87df772d3d4e2bb92b0f7cfe4b24043a378b423bf7dfee999ac38ceec",
+              "responseSha256": "ac1931ce14d1e915e64070c1d962f6fe99a011f6b85415dd667ec4de9c37ecda",
+              "compilerErrorsExposed": false,
+              "compilerErrors": null,
+              "compilerReason": "line 3: Undeclared identifier `bar_index`;\nline 4: Undeclared identifier `phase`;\nline 5: Undeclared identifier `phase`;\nline 6: Undeclared identifier `source_code`;\nline 7: Undeclared identifier `tint`;\nline 8: Undeclared identifier `bar_index`;\nline 9: Undeclared identifier `phase`;\nline 10: Undeclared identifier `source_code`;\nline 11: Undeclared identifier `series_offset`",
+              "compilerWarningsExposed": false,
+              "compilerWarnings": null,
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 10,
+          "addedStudyIds": [
+            "FcSNoe"
+          ],
+          "removedStudyIds": [
+            "FcSNoe"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v85-v5-security-method-cum-omitted-1x-v1",
+        "path": "v85-v5-security-method-cum-omitted-1x-v1.pine",
+        "sourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "same-default-companion",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v58/captures/v58/consumers/v5-security-method-cum-omitted/default/attempt-v1",
+        "originalSourcePath": "v58/captures/v58/consumers/v5-security-method-cum-omitted/default/attempt-v1/executed-v1.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v58/captures/v58/consumers/v5-security-method-cum-omitted/default/attempt-v1/observation-v1.json",
+        "historicalObservationSha256": "c03f1a04366fa6f45067cbd0335ddbcde482c513322ec00bfc8e2a53ca143c3a"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The default value cannot be a function, variable or calculation.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-method-cum-omitted-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21694,
+              "captureTimestamp": "2026-10-12T08:22:00.571Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+                "version": "1.0"
+              },
+              "sourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+              "responseSha256": "0fa4d56eb4c0d0bb4f5d5473e47d38d0ad915737a9ba09d2460e8b8ed5c04e50",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21700,
+              "captureTimestamp": "2026-10-12T08:22:00.579Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+                "version": "1.0"
+              },
+              "sourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+              "responseSha256": "9bbaa1bf8f7719cd9c48781732c9418ec5d46fc17c5000c27b5a07f5ef97e45f",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "hA3egL"
+          ],
+          "removedStudyIds": [
+            "hA3egL"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-method-cum-omitted-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21984,
+              "captureTimestamp": "2026-10-12T08:28:20.156Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+                "version": "1.0"
+              },
+              "sourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+              "responseSha256": "944b23f568a99dc87f5b6da6e1c0d6d50200c20110fb845bb6a77a8b3972a570",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "7wH2w1"
+          ],
+          "removedStudyIds": [
+            "7wH2w1"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-method-cum-omitted-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22215,
+              "captureTimestamp": "2026-10-12T08:32:11.541Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+                "version": "1.0"
+              },
+              "sourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+              "responseSha256": "944b23f568a99dc87f5b6da6e1c0d6d50200c20110fb845bb6a77a8b3972a570",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "wG5L88"
+          ],
+          "removedStudyIds": [
+            "wG5L88"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-method-cum-omitted-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22440,
+              "captureTimestamp": "2026-10-12T08:35:40.618Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+                "version": "1.0"
+              },
+              "sourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+              "responseSha256": "b9a8f2906ec9bc0a9dddc93078ad5bfdec81cfd2ce177739e1aec7caea9749b4",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "gknlBM"
+          ],
+          "removedStudyIds": [
+            "gknlBM"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-method-cum-omitted-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22675,
+              "captureTimestamp": "2026-10-12T08:39:28.044Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;ed9d0e31432d4271b2817563fd4b28bf",
+                "version": "1.0"
+              },
+              "sourceSha256": "baeec827fd8785fb2fd761d6ba8e6dbb9e0e1d68546baf49851f861126e843b8",
+              "responseSha256": "b9a8f2906ec9bc0a9dddc93078ad5bfdec81cfd2ce177739e1aec7caea9749b4",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 54,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "jRmqFa"
+          ],
+          "removedStudyIds": [
+            "jRmqFa"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v85-v5-direct-method-sma-omitted-1x-v1",
+        "path": "v85-v5-direct-method-sma-omitted-1x-v1.pine",
+        "sourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "direct-default-control",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v58/captures/v58/consumers/v5-direct-method-sma-omitted/default/attempt-v1",
+        "originalSourcePath": "v58/captures/v58/consumers/v5-direct-method-sma-omitted/default/attempt-v1/executed-v1.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v58/captures/v58/consumers/v5-direct-method-sma-omitted/default/attempt-v1/observation-v1.json",
+        "historicalObservationSha256": "16fe9ec6e9fbce228c44f26612a3c7066504d5387620083fae24287d01906631"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The default value cannot be a function, variable or calculation.",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-sma-omitted-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21737,
+              "captureTimestamp": "2026-10-12T08:22:34.856Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+                "version": "1.0"
+              },
+              "sourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+              "responseSha256": "b5ef097ae365249babd943420250f327b64c4321009afced5124953a76d574cb",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 56,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21744,
+              "captureTimestamp": "2026-10-12T08:22:34.862Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+                "version": "1.0"
+              },
+              "sourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+              "responseSha256": "cb6baec0b89610da217ac68de0d1a9a7a827bcba73e4cc6ba09dad1c522f9da9",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 56,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "TZI0d5"
+          ],
+          "removedStudyIds": [
+            "TZI0d5"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-sma-omitted-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22013,
+              "captureTimestamp": "2026-10-12T08:28:38.251Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+                "version": "1.0"
+              },
+              "sourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+              "responseSha256": "8bf1cfe302b354778c0e65f7f0836f3dd48640e94b4379ec33ddddf3651ad569",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 56,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "yOxCcS"
+          ],
+          "removedStudyIds": [
+            "yOxCcS"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-sma-omitted-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22243,
+              "captureTimestamp": "2026-10-12T08:32:28.825Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+                "version": "1.0"
+              },
+              "sourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+              "responseSha256": "8bf1cfe302b354778c0e65f7f0836f3dd48640e94b4379ec33ddddf3651ad569",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 56,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "4Y5cVZ"
+          ],
+          "removedStudyIds": [
+            "4Y5cVZ"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-sma-omitted-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22472,
+              "captureTimestamp": "2026-10-12T08:36:30.371Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+                "version": "1.0"
+              },
+              "sourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+              "responseSha256": "8ddb1e1fedc23656c32c85d8a36c7e1b87a6a5181c323e8def259998d65fa350",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 56,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "eM78t4"
+          ],
+          "removedStudyIds": [
+            "eM78t4"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-method-sma-omitted-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22704,
+              "captureTimestamp": "2026-10-12T08:39:45.144Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;fed4a66836eb47d786db2aa0c185aaea",
+                "version": "1.0"
+              },
+              "sourceSha256": "812d6b66d04f71b7f376f95e15532862742b4f13d10fb749ee3039516136abca",
+              "responseSha256": "8ddb1e1fedc23656c32c85d8a36c7e1b87a6a5181c323e8def259998d65fa350",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 56,
+                    "line": 5
+                  },
+                  "message": "The default value cannot be a function, variable or calculation.",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value cannot be a function, variable or calculation.",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "BEJFaj"
+          ],
+          "removedStudyIds": [
+            "BEJFaj"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v85-v5-security-nested-method-range-omitted-1x-v1",
+        "path": "v85-v5-security-nested-method-range-omitted-1x-v1.pine",
+        "sourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "same-default-companion",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v58/captures/v58/consumers/v5-security-nested-method-range-omitted/default/attempt-v1",
+        "originalSourcePath": "v58/captures/v58/consumers/v5-security-nested-method-range-omitted/default/attempt-v1/executed-v1.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v58/captures/v58/consumers/v5-security-nested-method-range-omitted/default/attempt-v1/observation-v1.json",
+        "historicalObservationSha256": "dc4237ef99c776f5815a822d031663e0d31ee6f8929d10f225e669430fb2959f"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21779,
+              "captureTimestamp": "2026-10-12T08:22:52.085Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+                "version": "1.0"
+              },
+              "sourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+              "responseSha256": "308dfbcda330105f41f96463ecc5e6e3b82cb72806bb7cc0e67d070f040ddd4c",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21785,
+              "captureTimestamp": "2026-10-12T08:22:52.094Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+                "version": "1.0"
+              },
+              "sourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+              "responseSha256": "46892f5b9f149287b769d44098e8a4d68f10b64d15f4b8bf0885813506f1e42c",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "nZ1PsP"
+          ],
+          "removedStudyIds": [
+            "nZ1PsP"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22045,
+              "captureTimestamp": "2026-10-12T08:29:33.628Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+                "version": "1.0"
+              },
+              "sourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+              "responseSha256": "741a0337560a274be9b8edbea1f04a30ff243275864ed4926743fc6618b26867",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "fiA8o6"
+          ],
+          "removedStudyIds": [
+            "fiA8o6"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22271,
+              "captureTimestamp": "2026-10-12T08:32:46.294Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+                "version": "1.0"
+              },
+              "sourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+              "responseSha256": "741a0337560a274be9b8edbea1f04a30ff243275864ed4926743fc6618b26867",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "FORlXa"
+          ],
+          "removedStudyIds": [
+            "FORlXa"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22500,
+              "captureTimestamp": "2026-10-12T08:36:48.149Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+                "version": "1.0"
+              },
+              "sourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+              "responseSha256": "963a9fad15b10a9b73532e5b4efd721ced476d9181f98a8d10f1eb652559d071",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "qV5F9U"
+          ],
+          "removedStudyIds": [
+            "qV5F9U"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22736,
+              "captureTimestamp": "2026-10-12T08:40:18.565Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;b8c330b7bb434bb1a2c9a305a15bb9ca",
+                "version": "1.0"
+              },
+              "sourceSha256": "031f7ba901228250f88f542dd679aba78d86e6bc2908ce11f316397d9acfcf0f",
+              "responseSha256": "963a9fad15b10a9b73532e5b4efd721ced476d9181f98a8d10f1eb652559d071",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 64,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "8cdmwr"
+          ],
+          "removedStudyIds": [
+            "8cdmwr"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "v85-v5-direct-nested-method-twice-omitted-1x-v1",
+        "path": "v85-v5-direct-nested-method-twice-omitted-1x-v1.pine",
+        "sourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+        "owner": "codex-1xjtos",
+        "root": "version-advisory-presence",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "direct-default-control",
+        "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+        "instructionsSha256": "2029f8fdafde1213e927d14ecff0c8184192ced33885dc836720838cfe70c608",
+        "nativeStatus": "UNOBSERVED",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "advisoryPresence": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "repetitions": 5,
+        "originalAttempt": "v58/captures/v58/consumers/v5-direct-nested-method-twice-omitted/default/attempt-v1",
+        "originalSourcePath": "v58/captures/v58/consumers/v5-direct-nested-method-twice-omitted/default/attempt-v1/executed-v1.pine",
+        "originalOracleCommit": "18e85052633d7e01b1ff7c068a9f77cf77aae48c",
+        "historicalObservation": "v58/captures/v58/consumers/v5-direct-nested-method-twice-omitted/default/attempt-v1/observation-v1.json",
+        "historicalObservationSha256": "f968c138d2b45f3aa73d904c64f300aa2746721868cde9d64c45a471338983ba"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "nativeRefusal": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+      "attempts": [
+        {
+          "attemptId": "attempt-v1",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v1/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 21819,
+              "captureTimestamp": "2026-10-12T08:23:09.001Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+                "version": "1.0"
+              },
+              "sourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+              "responseSha256": "754519208acb795be1f4645ac6930fc3e05d97c6d6ae3218e877ac8fdb12ee2b",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 55,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            },
+            {
+              "requestId": 21824,
+              "captureTimestamp": "2026-10-12T08:23:09.010Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+                "version": "1.0"
+              },
+              "sourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+              "responseSha256": "32c5d82c5f1913ec1f88ba02f34fe7371025fbd7e0e47ece0f29e09e2c6bfead",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 55,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "LeG0PT"
+          ],
+          "removedStudyIds": [
+            "LeG0PT"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22074,
+              "captureTimestamp": "2026-10-12T08:29:51.125Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+                "version": "1.0"
+              },
+              "sourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+              "responseSha256": "537891c3512a4ed7540e70162c60d9c93d078d2f9c257e9c9dd60637d7da175a",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 55,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "LXyYG7"
+          ],
+          "removedStudyIds": [
+            "LXyYG7"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22303,
+              "captureTimestamp": "2026-10-12T08:33:35.995Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+                "version": "1.0"
+              },
+              "sourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+              "responseSha256": "537891c3512a4ed7540e70162c60d9c93d078d2f9c257e9c9dd60637d7da175a",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 55,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "cytRcO"
+          ],
+          "removedStudyIds": [
+            "cytRcO"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22529,
+              "captureTimestamp": "2026-10-12T08:37:05.885Z",
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+                "version": "1.0"
+              },
+              "sourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+              "responseSha256": "80dafaaa4c6702d163cdcff4b5201ea49785c6f71f51f7dd3b009eb9ae623da0",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 55,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "sdKe5Q"
+          ],
+          "removedStudyIds": [
+            "sdKe5Q"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+          "nativeIdentity": {
+            "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+            "version": "1.0"
+          },
+          "observationPath": "v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 22764,
+              "captureTimestamp": "2026-10-12T08:40:36.283Z",
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2d3cc4fe498f495992ee8a30f09fcc06",
+                "version": "1.0"
+              },
+              "sourceSha256": "6e1f3a198e3ad985b7de8e077b3b7fb38d16977a19a8aeff9fadc6a40fa107af",
+              "responseSha256": "80dafaaa4c6702d163cdcff4b5201ea49785c6f71f51f7dd3b009eb9ae623da0",
+              "compilerErrorsExposed": true,
+              "compilerErrors": [
+                {
+                  "end": {
+                    "column": 55,
+                    "line": 5
+                  },
+                  "message": "The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+                  "start": {
+                    "column": 34,
+                    "line": 5
+                  }
+                }
+              ],
+              "compilerReason": "line 5: The default value assigned to a parameter must be either a literal value (e.g., `5`) or a built-in variable (e.g., `close`).",
+              "compilerWarningsExposed": true,
+              "compilerWarnings": [],
+              "metaInfoWarnings": [],
+              "freshServerEvaluationAsserted": false,
+              "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+              "advisoryCount": 0,
+              "advisoryTextMatches": [],
+              "advisoryDiagnostics": []
+            }
+          ],
+          "editorSettledMarkerCount": 2,
+          "addedStudyIds": [
+            "WkZgCY"
+          ],
+          "removedStudyIds": [
+            "WkZgCY"
+          ],
+          "chartRestored": true
+        }
+      ]
+    }
+  ],
+  "completedNativeSaveAddRepetitions": 40,
+  "statuses": {
+    "COMPILE-ERROR": 40
+  },
+  "numericCredit": false
+}

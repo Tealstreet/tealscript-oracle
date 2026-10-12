@@ -1,0 +1,44 @@
+# Oracle v85 advisory presence table v1
+
+| Index | Pass | Probe | Complete full responses | Compiler advisory count | Immediate editor count | Settled editor count |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 1 | [v85-v5-direct-method-cum-omitted-1x-v1](v85-v5-direct-method-cum-omitted-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 2 | 1 | [v85-v5-direct-nested-method-range-omitted-1x-v1](v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 3 | 1 | [v85-trace-bgcolor-offset-v3-series-1x-v1](v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 4 | 1 | [v85-trace-bgcolor-offset-v3-zero-control-1x-v1](v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 5 | 1 | [v85-v5-security-method-cum-omitted-1x-v1](v85-v5-security-method-cum-omitted-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 6 | 1 | [v85-v5-direct-method-sma-omitted-1x-v1](v85-v5-direct-method-sma-omitted-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 7 | 1 | [v85-v5-security-nested-method-range-omitted-1x-v1](v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 8 | 1 | [v85-v5-direct-nested-method-twice-omitted-1x-v1](v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v1/observation-v2.json) | 2 | 0 | 1 | 1 |
+| 9 | 2 | [v85-v5-direct-method-cum-omitted-1x-v1](v85-v5-direct-method-cum-omitted-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 10 | 2 | [v85-v5-direct-nested-method-range-omitted-1x-v1](v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 11 | 2 | [v85-trace-bgcolor-offset-v3-series-1x-v1](v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 12 | 2 | [v85-trace-bgcolor-offset-v3-zero-control-1x-v1](v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 13 | 2 | [v85-v5-security-method-cum-omitted-1x-v1](v85-v5-security-method-cum-omitted-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 14 | 2 | [v85-v5-direct-method-sma-omitted-1x-v1](v85-v5-direct-method-sma-omitted-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 15 | 2 | [v85-v5-security-nested-method-range-omitted-1x-v1](v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 16 | 2 | [v85-v5-direct-nested-method-twice-omitted-1x-v1](v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v2/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 17 | 3 | [v85-v5-direct-method-cum-omitted-1x-v1](v85-v5-direct-method-cum-omitted-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 18 | 3 | [v85-v5-direct-nested-method-range-omitted-1x-v1](v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 19 | 3 | [v85-trace-bgcolor-offset-v3-series-1x-v1](v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 20 | 3 | [v85-trace-bgcolor-offset-v3-zero-control-1x-v1](v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 21 | 3 | [v85-v5-security-method-cum-omitted-1x-v1](v85-v5-security-method-cum-omitted-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 22 | 3 | [v85-v5-direct-method-sma-omitted-1x-v1](v85-v5-direct-method-sma-omitted-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 23 | 3 | [v85-v5-security-nested-method-range-omitted-1x-v1](v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 24 | 3 | [v85-v5-direct-nested-method-twice-omitted-1x-v1](v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v3/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 25 | 4 | [v85-v5-direct-method-cum-omitted-1x-v1](v85-v5-direct-method-cum-omitted-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 26 | 4 | [v85-v5-direct-nested-method-range-omitted-1x-v1](v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 27 | 4 | [v85-trace-bgcolor-offset-v3-series-1x-v1](v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 28 | 4 | [v85-trace-bgcolor-offset-v3-zero-control-1x-v1](v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 29 | 4 | [v85-v5-security-method-cum-omitted-1x-v1](v85-v5-security-method-cum-omitted-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 30 | 4 | [v85-v5-direct-method-sma-omitted-1x-v1](v85-v5-direct-method-sma-omitted-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 31 | 4 | [v85-v5-security-nested-method-range-omitted-1x-v1](v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 32 | 4 | [v85-v5-direct-nested-method-twice-omitted-1x-v1](v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v4/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 33 | 5 | [v85-v5-direct-method-cum-omitted-1x-v1](v85-v5-direct-method-cum-omitted-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 34 | 5 | [v85-v5-direct-nested-method-range-omitted-1x-v1](v85-v5-direct-nested-method-range-omitted-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 35 | 5 | [v85-trace-bgcolor-offset-v3-series-1x-v1](v85-trace-bgcolor-offset-v3-series-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 36 | 5 | [v85-trace-bgcolor-offset-v3-zero-control-1x-v1](v85-trace-bgcolor-offset-v3-zero-control-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 37 | 5 | [v85-v5-security-method-cum-omitted-1x-v1](v85-v5-security-method-cum-omitted-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 38 | 5 | [v85-v5-direct-method-sma-omitted-1x-v1](v85-v5-direct-method-sma-omitted-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 39 | 5 | [v85-v5-security-nested-method-range-omitted-1x-v1](v85-v5-security-nested-method-range-omitted-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
+| 40 | 5 | [v85-v5-direct-nested-method-twice-omitted-1x-v1](v85-v5-direct-nested-method-twice-omitted-1x-v1/attempt-v5/observation-v2.json) | 1 | 0 | 1 | 1 |
