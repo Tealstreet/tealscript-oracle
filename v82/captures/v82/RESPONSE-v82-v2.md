@@ -1,0 +1,29 @@
+# Oracle v82 native compilation response v2
+
+All three unchanged sources have five native private Save/Add repetitions each: **15 COMPILE-ERROR observations**. All 15 settled editor lists contain one `PINE_VERSION_OUTDATED` advisory followed by one error. The historical v4 error-first list was not reproduced; these observations establish no general order rule or refusal-shape discriminator. No runtime/numeric credit is claimed.
+
+| Source | Exact executed SHA-256 | Five scored attempts | Settled error |
+| --- | --- | --- | --- |
+| advisory-order-identical-v4-w0-v1 | `3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e` | attempt-v2 through attempt-v6 | `'type' is not a valid type keyword in variable declaration`, editor 3:1 |
+| advisory-order-pick-v5-w0-v1 | `36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889` | attempt-v3 through attempt-v7 | `Could not find method or method reference 'pick' for 'integer'`, editor 4:12–4:24 |
+| advisory-order-array-string-v5-w0-v1 | `9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a` | attempt-v2 through attempt-v6 | `Cannot call 'array.every' with argument 'id'='items'. An argument of 'array<string>' type was used but a 'array<bool>' is expected.`, editor 4:21–4:26 |
+
+The exact messages, sites, owners, exposed codes, severity and occurrence counts are retained in [editor-order-comparison-v2.json](editor-order-comparison-v2.json), without sorting or deduplicating marker arrays. Each attempt retains exact source bytes, `observation-v1.json` and its annotated `observation-v2.json`, native request/response bodies, screenshot and accessibility snapshot. `saveImmediate` is the first read after Save handling; `addImmediate` is the first read after Meta+Enter and can precede asynchronous compilation. `afterSettling` is read five seconds later. The timestamped samples describe editor state, not compiler response ordering.
+
+Native compiler evidence is separate: **20 complete source-matched full Save/translate responses, nine HTTP 200 and eleven HTTP 304**. The 304 entries expose the browser's cached response body; they are repeated native Add attempts, not proof of eleven fresh server evaluations. Repeated Save on an unchanged saved version is a native no-op and emits no Save request. GET translate identity/version bindings trace to exact-source multipart Save bodies; native wire CRLF is retained, while executed editor files preserve the requested LF bytes.
+
+For v4, full responses expose the refusal in `reason`, no `reason2.errors` list, and an empty `result.metaInfo.warnings` array. No missing error/advisory list was reconstructed. For both v5 sources, full responses expose one `reason2.errors` occurrence, empty `reason2.warnings`, and empty `result.metaInfo.warnings`. They expose no error code. The editor advisory exists separately and carries `PINE_VERSION_OUTDATED`; compiler and editor arrays are never merged. Auxiliary parse-title/auth receipts are not counted as compilation responses. Private saved-script inventory bodies are omitted as unrelated account data; their request receipts explicitly identify the omission and original inline-tool truncation.
+
+Private unpublished identities returned by the native Save flow:
+
+- v4: `USER;51caa53668284c879df60ef74ca55aee/1.0`.
+- v5 pick: first private Save `USER;2f64627e976f4935bd5f959d90751c89/1.0`; first Add also saves the editor draft as `USER;0523f0a612c1498fb5c48a7bbb70b216/0.202`. The next native Save confirms replacing the same request title and returns `USER;0523f0a612c1498fb5c48a7bbb70b216/1.0`; remaining Add repetitions translate that saved version. Both identities and all full bodies are preserved rather than flattened into one identity. This editor draft identity was already used by prior rounds; the pre-existing chart study was neither edited nor re-added.
+- v5 array-string: `USER;4c345aca221f4783af90faac4e7eae5f/1.0`.
+
+Each scored Add creates one error study despite refusing compilation. Exactly those **15 request-added studies** were removed by their newly observed ids. After every repetition, the original `zy7yxn` study's id, metadata identity and encrypted input payload match the pre-capture record. Symbol `BINANCE:BTCUSDT`, interval `2`, timezone `Etc/UTC`, and style `1` remain unchanged. Full main-series properties also match before/after exactly; the existing Volume study remains present. The receipts are [chart-context-before-v1.json](environment-v2/chart-context-before-v1.json) and [chart-context-after-v1.json](environment-v2/chart-context-after-v1.json).
+
+The permitted account actions were native private unpublished Save, native Add, and removal of request-added error studies. **No Publish, Share, visibility change, layout save/new layout, symbol/interval/setting change, alert, library publication or manual library import occurred.** The unchanged pick source's existing import was resolved implicitly by native compilation; no library was republished or manually imported. No direct compiler API replacement was used.
+
+Historical v1 blocked evidence remains unchanged and receives zero compilation credit. The pick `attempt-v2` is preserved as **PARTIAL-SAVE-DIALOG**, excluded from the five scored repetitions: its dialog remained open, no full Save/translate occurred, and its editor markers alone are insufficient. `observation-v2.json` explicitly supersedes its earlier provisional COMPILE-ERROR/action classification. Pick `attempt-v4` additionally preserves the intermediate Save confirmation snapshot and editor state before that repetition completed.
+
+Validation: [attempt-inventory-v2.json](attempt-inventory-v2.json), [audit-v2.json](audit-v2.json), and [integrity-v2.json](integrity-v2.json). All 15 executed hashes and native source/identity bindings pass, all 15 chart restorations pass, and all 16 request-bundle checksum entries pass. Rank 3 intake remains the producer's decision.

@@ -1,0 +1,4 @@
+//@version=5
+indicator("v78-v5-every-string-named-tk-v1", max_bars_back=64)
+array<string> items = array.from("", "alpha", "Beta")
+plot(array.every(id=items) ? 1 : 0, "RESULT")

@@ -1,0 +1,637 @@
+{
+  "revision": 2,
+  "round": "v82",
+  "governingHandoff": "HANDOFF-v82-v2.md",
+  "sources": [
+    {
+      "source": {
+        "probe": "advisory-order-identical-v4-w0-v1",
+        "path": "advisory-order-identical-v4-w0-v1.pine",
+        "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "compiler-versus-editor-order",
+        "pineVersion": 4,
+        "indicatorOnly": true,
+        "role": "ordering-discriminator",
+        "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+        "instructionsSha256": "1097a02cef0a57759c9259df2bffd3e08ac3a7988e34ad9980a9f76d459d7e3a",
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "Source identity only; no new native outcome inferred",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "originalAttempt": "v75/captures/v75/ns-param-set-top-box-v4-renamed-control-v1/attempt-v1"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "attempts": [
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+          "observationPath": "advisory-order-identical-v4-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18639,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;51caa53668284c879df60ef74ca55aee",
+                "version": "1.0"
+              },
+              "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+              "responseSha256": "1e7dfa9ecba3f14b43f0cce4560f8c2fc551d9c9f9378f4dd2cbf530e45ef6ca",
+              "compilerErrorsExposed": false,
+              "compilerErrorCount": null,
+              "compilerWarningCount": null,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 18648,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;51caa53668284c879df60ef74ca55aee",
+                "version": "1.0"
+              },
+              "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+              "responseSha256": "7363b7b42c11b018017f689eb80ebcc7898cbc2cb820ee8abba8781ff2505551",
+              "compilerErrorsExposed": false,
+              "compilerErrorCount": null,
+              "compilerWarningCount": null,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "VuxPvX"
+          ],
+          "removedStudyIds": [
+            "VuxPvX"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+          "observationPath": "advisory-order-identical-v4-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18668,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;51caa53668284c879df60ef74ca55aee",
+                "version": "1.0"
+              },
+              "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+              "responseSha256": "7363b7b42c11b018017f689eb80ebcc7898cbc2cb820ee8abba8781ff2505551",
+              "compilerErrorsExposed": false,
+              "compilerErrorCount": null,
+              "compilerWarningCount": null,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "Ck4e5g"
+          ],
+          "removedStudyIds": [
+            "Ck4e5g"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+          "observationPath": "advisory-order-identical-v4-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18683,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;51caa53668284c879df60ef74ca55aee",
+                "version": "1.0"
+              },
+              "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+              "responseSha256": "7363b7b42c11b018017f689eb80ebcc7898cbc2cb820ee8abba8781ff2505551",
+              "compilerErrorsExposed": false,
+              "compilerErrorCount": null,
+              "compilerWarningCount": null,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "vEAjJW"
+          ],
+          "removedStudyIds": [
+            "vEAjJW"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+          "observationPath": "advisory-order-identical-v4-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18696,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;51caa53668284c879df60ef74ca55aee",
+                "version": "1.0"
+              },
+              "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+              "responseSha256": "7363b7b42c11b018017f689eb80ebcc7898cbc2cb820ee8abba8781ff2505551",
+              "compilerErrorsExposed": false,
+              "compilerErrorCount": null,
+              "compilerWarningCount": null,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "j0IrGa"
+          ],
+          "removedStudyIds": [
+            "j0IrGa"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v6",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+          "observationPath": "advisory-order-identical-v4-w0-v1/attempt-v6/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18708,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;51caa53668284c879df60ef74ca55aee",
+                "version": "1.0"
+              },
+              "sourceSha256": "3f833b8006c5411c97af5d6e15d88484d582a6def737307b5fb2ade73d3b425e",
+              "responseSha256": "7363b7b42c11b018017f689eb80ebcc7898cbc2cb820ee8abba8781ff2505551",
+              "compilerErrorsExposed": false,
+              "compilerErrorCount": null,
+              "compilerWarningCount": null,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "h0AEsM"
+          ],
+          "removedStudyIds": [
+            "h0AEsM"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "advisory-order-pick-v5-w0-v1",
+        "path": "advisory-order-pick-v5-w0-v1.pine",
+        "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "compiler-versus-editor-order",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "ordering-discriminator",
+        "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+        "instructionsSha256": "1097a02cef0a57759c9259df2bffd3e08ac3a7988e34ad9980a9f76d459d7e3a",
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "Source identity only; no new native outcome inferred",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "originalAttempt": "v58/captures/v58/consumers/root2-widening-5-receiver-v58-v1/widening-5/attempt-v1"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "attempts": [
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+          "observationPath": "advisory-order-pick-v5-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18757,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;2f64627e976f4935bd5f959d90751c89",
+                "version": "1.0"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "367e98d32bfe3d87cf2aeb6d7b4e8ef41539551d4718e385cde564ec9298d179",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 18764,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0523f0a612c1498fb5c48a7bbb70b216",
+                "version": "0.202"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "3442fc42ca8d4634c27a791fadaf1d52286ae0b587d45baf302324467e0e2d82",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 18773,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0523f0a612c1498fb5c48a7bbb70b216",
+                "version": "0.202"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "21ecb5c98c5e365e6b112fa6a9831301003a08ffc7fadd37a890a2972398b8da",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "8lyjz9"
+          ],
+          "removedStudyIds": [
+            "8lyjz9"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+          "observationPath": "advisory-order-pick-v5-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18793,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0523f0a612c1498fb5c48a7bbb70b216",
+                "version": "1.0"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "f2debbf0800039e42130f7b8fb99d24d7e8a5ea9d73a8ecc539e8dd4109853ac",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 18800,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0523f0a612c1498fb5c48a7bbb70b216",
+                "version": "1.0"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "f01f957b98a44faae1aae735cfbeeb2d4ebe852e9cc4a8051963a87d33bc7615",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "aDZxMV"
+          ],
+          "removedStudyIds": [
+            "aDZxMV"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+          "observationPath": "advisory-order-pick-v5-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18813,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0523f0a612c1498fb5c48a7bbb70b216",
+                "version": "1.0"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "f01f957b98a44faae1aae735cfbeeb2d4ebe852e9cc4a8051963a87d33bc7615",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "0CR2vj"
+          ],
+          "removedStudyIds": [
+            "0CR2vj"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v6",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+          "observationPath": "advisory-order-pick-v5-w0-v1/attempt-v6/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18825,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0523f0a612c1498fb5c48a7bbb70b216",
+                "version": "1.0"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "f01f957b98a44faae1aae735cfbeeb2d4ebe852e9cc4a8051963a87d33bc7615",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "Qw94E5"
+          ],
+          "removedStudyIds": [
+            "Qw94E5"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v7",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+          "observationPath": "advisory-order-pick-v5-w0-v1/attempt-v7/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18838,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;0523f0a612c1498fb5c48a7bbb70b216",
+                "version": "1.0"
+              },
+              "sourceSha256": "36961026314836630b30a97ac587925846f9128c495f5d6cf0f8cd4b51625889",
+              "responseSha256": "f01f957b98a44faae1aae735cfbeeb2d4ebe852e9cc4a8051963a87d33bc7615",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "Z8M9dX"
+          ],
+          "removedStudyIds": [
+            "Z8M9dX"
+          ],
+          "chartRestored": true
+        }
+      ]
+    },
+    {
+      "source": {
+        "probe": "advisory-order-array-string-v5-w0-v1",
+        "path": "advisory-order-array-string-v5-w0-v1.pine",
+        "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+        "owner": "codex-w0bo0b",
+        "root": "checker-advisory-placement-error-lists",
+        "group": "compiler-versus-editor-order",
+        "pineVersion": 5,
+        "indicatorOnly": true,
+        "role": "ordering-discriminator",
+        "instructionsPath": "instructions/INSTRUCTIONS-v2.md",
+        "instructionsSha256": "1097a02cef0a57759c9259df2bffd3e08ac3a7988e34ad9980a9f76d459d7e3a",
+        "nativeStatus": "UNOBSERVED",
+        "localPreflight": "Source identity only; no new native outcome inferred",
+        "expectedOutcome": {
+          "phase": "UNSPECIFIED",
+          "markerOrder": "UNSPECIFIED",
+          "runtime": "NOT REQUESTED"
+        },
+        "originalAttempt": "v78/captures/v78/v78-v5-every-string-named-tk-v1/attempt-v1"
+      },
+      "completedNativeSaveAddRepetitions": 5,
+      "attempts": [
+        {
+          "attemptId": "attempt-v2",
+          "repetition": 1,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+          "observationPath": "advisory-order-array-string-v5-w0-v1/attempt-v2/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18874,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;4c345aca221f4783af90faac4e7eae5f",
+                "version": "1.0"
+              },
+              "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+              "responseSha256": "df9c78bb7ddde8a29c87849eb82e2b23df21f01df8571ce3a95d2d391ca20fd5",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            },
+            {
+              "requestId": 18879,
+              "httpStatus": 200,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;4c345aca221f4783af90faac4e7eae5f",
+                "version": "1.0"
+              },
+              "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+              "responseSha256": "6933208bef8d844acf41a54e25a69bf1edffaf571f23e0f1c8aba25207239d4b",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "cPgJYe"
+          ],
+          "removedStudyIds": [
+            "cPgJYe"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v3",
+          "repetition": 2,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+          "observationPath": "advisory-order-array-string-v5-w0-v1/attempt-v3/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18895,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;4c345aca221f4783af90faac4e7eae5f",
+                "version": "1.0"
+              },
+              "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+              "responseSha256": "6933208bef8d844acf41a54e25a69bf1edffaf571f23e0f1c8aba25207239d4b",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "9eFObo"
+          ],
+          "removedStudyIds": [
+            "9eFObo"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v4",
+          "repetition": 3,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+          "observationPath": "advisory-order-array-string-v5-w0-v1/attempt-v4/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18907,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;4c345aca221f4783af90faac4e7eae5f",
+                "version": "1.0"
+              },
+              "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+              "responseSha256": "6933208bef8d844acf41a54e25a69bf1edffaf571f23e0f1c8aba25207239d4b",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "Dl8R8j"
+          ],
+          "removedStudyIds": [
+            "Dl8R8j"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v5",
+          "repetition": 4,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+          "observationPath": "advisory-order-array-string-v5-w0-v1/attempt-v5/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18920,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;4c345aca221f4783af90faac4e7eae5f",
+                "version": "1.0"
+              },
+              "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+              "responseSha256": "6933208bef8d844acf41a54e25a69bf1edffaf571f23e0f1c8aba25207239d4b",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "hoVXt6"
+          ],
+          "removedStudyIds": [
+            "hoVXt6"
+          ],
+          "chartRestored": true
+        },
+        {
+          "attemptId": "attempt-v6",
+          "repetition": 5,
+          "status": "COMPILE-ERROR",
+          "executedSourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+          "observationPath": "advisory-order-array-string-v5-w0-v1/attempt-v6/observation-v2.json",
+          "compilerResponses": [
+            {
+              "requestId": 18932,
+              "httpStatus": 304,
+              "nativeIdentity": {
+                "scriptIdPart": "USER;4c345aca221f4783af90faac4e7eae5f",
+                "version": "1.0"
+              },
+              "sourceSha256": "9d676fb59635bdc5e32ece58b4050bacea48926faa2297243e6bc56a5de45a8a",
+              "responseSha256": "6933208bef8d844acf41a54e25a69bf1edffaf571f23e0f1c8aba25207239d4b",
+              "compilerErrorsExposed": true,
+              "compilerErrorCount": 1,
+              "compilerWarningCount": 0,
+              "metaInfoWarningCount": 0,
+              "freshServerEvaluationAsserted": false
+            }
+          ],
+          "addedStudyIds": [
+            "b6EWqB"
+          ],
+          "removedStudyIds": [
+            "b6EWqB"
+          ],
+          "chartRestored": true
+        }
+      ]
+    }
+  ],
+  "completedNativeSaveAddRepetitions": 15,
+  "statuses": {
+    "COMPILE-ERROR": 15
+  },
+  "partialAttempts": [
+    {
+      "path": "advisory-order-pick-v5-w0-v1/attempt-v2/observation-v2.json",
+      "compilationCredit": false
+    }
+  ],
+  "v1EvidencePreserved": true,
+  "numericCredit": false
+}
