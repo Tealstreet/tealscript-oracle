@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v89",
+  "version": 1,
+  "owner": "codex-p4250m",
+  "status": "SOURCE-REQUEST",
+  "baseOracleCommit": "1aa48b2e05401c45b2b7d4d27d05546a137cc873",
+  "supersedesBlockedRequest": "v88; no execution occurred because a daily chart was unavailable",
+  "inventory": {
+    "scripts": 2,
+    "repetitionsPerSource": 2,
+    "requestedRepetitions": 4,
+    "libraryPrerequisites": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "v89-v5-requested-daily-counter-p4250m-v1",
+      "path": "v89-v5-requested-daily-counter-p4250m-v1.pine",
+      "sourceSha256": "348244d550c9a9b867654f98620f07da23ad79e96d5734c7097dcfcfa90486f2",
+      "sourceBytes": 2638,
+      "pineVersion": 5,
+      "owner": "codex-p4250m",
+      "root": "remaining-divergence-census-v4-record11-requested-daily-counter",
+      "role": "v5-discriminator",
+      "indicatorOnly": true,
+      "repetitions": 2,
+      "chartContext": {
+        "layout": "basic",
+        "layoutId": "xlvYwHdH",
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "intervalLabel": "2 minutes",
+        "timezone": "Etc/UTC",
+        "layoutSymbolIntervalChangesAllowed": false
+      },
+      "requestedContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "1D",
+        "lookahead": "barmerge.lookahead_on",
+        "calc_bars_count": "omitted; preserve native default"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "firstRequestedChange": "UNSPECIFIED",
+        "firstRequestedCounter": "UNSPECIFIED",
+        "requestedHistoryFrontier": "UNSPECIFIED",
+        "perChartRowValues": "UNSPECIFIED"
+      },
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "3caa9c08557eb4719edf6b713d44b42d29ce916972500d375d8ed96b83c7a8f4"
+    },
+    {
+      "probe": "v89-v6-requested-daily-counter-p4250m-v1",
+      "path": "v89-v6-requested-daily-counter-p4250m-v1.pine",
+      "sourceSha256": "eb286a21a27c5a6f369f20c9daf192f993338e78253e969ce6bede12008f88ea",
+      "sourceBytes": 2617,
+      "pineVersion": 6,
+      "owner": "codex-p4250m",
+      "root": "remaining-divergence-census-v4-record11-requested-daily-counter",
+      "role": "v6-control",
+      "indicatorOnly": true,
+      "repetitions": 2,
+      "chartContext": {
+        "layout": "basic",
+        "layoutId": "xlvYwHdH",
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "2",
+        "intervalLabel": "2 minutes",
+        "timezone": "Etc/UTC",
+        "layoutSymbolIntervalChangesAllowed": false
+      },
+      "requestedContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "1D",
+        "lookahead": "barmerge.lookahead_on",
+        "calc_bars_count": "omitted; preserve native default"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "firstRequestedChange": "UNSPECIFIED",
+        "firstRequestedCounter": "UNSPECIFIED",
+        "requestedHistoryFrontier": "UNSPECIFIED",
+        "perChartRowValues": "UNSPECIFIED"
+      },
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "3caa9c08557eb4719edf6b713d44b42d29ce916972500d375d8ed96b83c7a8f4"
+    }
+  ],
+  "motivation": {
+    "originalSourceSha256": "d91765c9517a779ff170b0b6632d4941fac93206a3c48be8015b4758e5d6cf20",
+    "originalNativeAttempt": "v4/captures/v4/outcomes-v4.json#corpus5-pivot-request-counter-v1.pine/attempt-1",
+    "closedCellsWithObservedConstantDelta": 24545,
+    "currentVsNativeDelta": "+1",
+    "firstEvaluatedRequestedBar": "UNOBSERVED in original capture",
+    "hypothesis": "first-change initialization versus actual requested history frontier; neither is assumed"
+  },
+  "accountScope": {
+    "restriction": "ALLOWED: Save as a PRIVATE unpublished script, Add to the existing basic BINANCE:BTCUSDT 2-minute UTC chart, then remove only the request-added study. FORBIDDEN: publish/share, visibility change, new or different layout, any symbol/interval/layout-setting change, alerts, or any library action. Anything beyond this authorized method: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+    "stopIfProhibitedActionRequired": true
+  },
+  "governingHandoff": "HANDOFF-v89-v1.md"
+}
