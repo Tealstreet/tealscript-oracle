@@ -1,0 +1,68 @@
+{
+  "revision": 1,
+  "failures": [
+    {
+      "tool": "chrome_devtools.evaluate_script",
+      "timestamp": null,
+      "timestampStatus": "UNOBSERVED",
+      "filePath": "/Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/chart-context-before-v1.json",
+      "isError": true,
+      "rawReturnedText": "Error: Access denied: path /Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/chart-context-before-v1.json (canonical: /Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/chart-context-before-v1.json) is not within any of the configured workspace roots.",
+      "channel": "MCP-OUTPUT-PATH; not native compiler"
+    },
+    {
+      "tool": "chrome_devtools.take_snapshot",
+      "timestamp": null,
+      "timestampStatus": "UNOBSERVED",
+      "filePath": "/Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/snapshot-before-v1.txt",
+      "isError": true,
+      "rawReturnedText": "Error: Access denied: path /Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/snapshot-before-v1.txt (canonical: /Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/snapshot-before-v1.txt) is not within any of the configured workspace roots.",
+      "channel": "MCP-OUTPUT-PATH; not native compiler"
+    },
+    {
+      "tool": "chrome_devtools.take_screenshot",
+      "timestamp": null,
+      "timestampStatus": "UNOBSERVED",
+      "filePath": "/Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/screenshot-before-v1.jpg",
+      "isError": true,
+      "rawReturnedText": "Error: Access denied: path /Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/screenshot-before-v1.jpg (canonical: /Users/samuelsteady/cs/tealscript-oracle/v88/captures/v88/environment-v1/screenshot-before-v1.jpg) is not within any of the configured workspace roots.",
+      "channel": "MCP-OUTPUT-PATH; not native compiler"
+    },
+    {
+      "tool": "chrome_devtools.evaluate_script",
+      "timestamp": null,
+      "timestampStatus": "UNOBSERVED",
+      "filePath": "oracle-v88-context-before-v1.json",
+      "isError": true,
+      "rawReturnedText": "Error: Access denied: path oracle-v88-context-before-v1.json (canonical: /Users/samuelsteady/oracle-v88-context-before-v1.json) is not within any of the configured workspace roots.",
+      "channel": "MCP-OUTPUT-PATH; not native compiler"
+    },
+    {
+      "tool": "chrome_devtools.take_snapshot",
+      "timestamp": null,
+      "timestampStatus": "UNOBSERVED",
+      "filePath": "oracle-v88-snapshot-before-v1.txt",
+      "isError": true,
+      "rawReturnedText": "Error: Access denied: path oracle-v88-snapshot-before-v1.txt (canonical: /Users/samuelsteady/oracle-v88-snapshot-before-v1.txt) is not within any of the configured workspace roots.",
+      "channel": "MCP-OUTPUT-PATH; not native compiler"
+    },
+    {
+      "tool": "chrome_devtools.take_screenshot",
+      "timestamp": null,
+      "timestampStatus": "UNOBSERVED",
+      "filePath": "oracle-v88-screenshot-before-v1.jpg",
+      "isError": true,
+      "rawReturnedText": "Error: Access denied: path oracle-v88-screenshot-before-v1.jpg (canonical: /Users/samuelsteady/oracle-v88-screenshot-before-v1.jpg) is not within any of the configured workspace roots.",
+      "channel": "MCP-OUTPUT-PATH; not native compiler"
+    },
+    {
+      "tool": "chrome_devtools.evaluate_script",
+      "timestamp": null,
+      "isError": true,
+      "rawReturnedText": "Error: m.properties is not a function",
+      "channel": "read-only inspection function; not native compiler",
+      "resolution": "Use the native undo-model model() getter for read-only chart properties."
+    }
+  ],
+  "resolution": "Use Chrome MCP default returned outputs; preserve native text and decode returned native JPEG bytes locally. No browser protocol, security settings or compiler substitution was used."
+}

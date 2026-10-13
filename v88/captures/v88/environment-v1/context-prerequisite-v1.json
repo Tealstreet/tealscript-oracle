@@ -1,0 +1,60 @@
+{
+  "revision": 1,
+  "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+  "required": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "1D"
+  },
+  "openPages": 1,
+  "openCharts": 1,
+  "actualChart": {
+    "layoutId": "xlvYwHdH",
+    "layoutName": "basic",
+    "saved": true,
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2",
+    "timezone": "Etc/UTC"
+  },
+  "nativeLayoutList": [
+    {
+      "name": "basic",
+      "symbol": "BTCUSDT",
+      "interval": "2m"
+    },
+    {
+      "name": "NoFOMO",
+      "symbol": "BTCUSD",
+      "interval": "4h"
+    },
+    {
+      "name": "Unnamed",
+      "symbol": "BTCUSDT.P",
+      "interval": "30m"
+    },
+    {
+      "name": "Adsız",
+      "symbol": "ETHUSD.P",
+      "interval": "1W"
+    },
+    {
+      "name": "Compare",
+      "symbol": "BTCUSD",
+      "interval": "1h"
+    }
+  ],
+  "matchingDailyLayoutShown": false,
+  "unsavedContextObserved": false,
+  "evidence": [
+    "chart-context-before-v1.json",
+    "layouts-snapshot-v1.txt",
+    "layouts-screenshot-v1.jpg"
+  ],
+  "permittedInspection": [
+    "read-only Chrome MCP page inventory and chart inspection",
+    "native Manage layouts menu",
+    "native Open layout list inspection",
+    "Close menu"
+  ],
+  "layoutLoaded": false,
+  "forbiddenActionRequired": "No permitted daily context is available in the inspected open page or native layout list. Creating a layout or changing a saved layout interval is forbidden."
+}
