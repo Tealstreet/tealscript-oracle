@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "bundle": "v88",
+  "version": 1,
+  "owner": "codex-p4250m",
+  "status": "SOURCE-REQUEST",
+  "baseOracleCommit": "1b8ede493b556467d6160e37a4c2d78b35f6c483",
+  "inventory": {
+    "scripts": 2,
+    "repetitionsPerSource": 2,
+    "requestedRepetitions": 4,
+    "libraryPrerequisites": 0,
+    "nativeExpectations": "UNSPECIFIED"
+  },
+  "scripts": [
+    {
+      "probe": "v88-v5-requested-daily-counter-p4250m-v1",
+      "path": "v88-v5-requested-daily-counter-p4250m-v1.pine",
+      "sourceSha256": "630e6784cb7e27585b74bf864d6a1b99c722c7882d113b6ecaec8a39b9337864",
+      "sourceBytes": 2454,
+      "pineVersion": 5,
+      "owner": "codex-p4250m",
+      "root": "remaining-divergence-census-v4-record11-requested-daily-counter",
+      "role": "v5-discriminator",
+      "indicatorOnly": true,
+      "repetitions": 2,
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "1D",
+        "symbolIntervalChangeToSavedLayoutAllowed": false
+      },
+      "requestedContext": {
+        "symbol": "syminfo.tickerid",
+        "timeframe": "1D",
+        "lookahead": "barmerge.lookahead_on",
+        "calc_bars_count": "omitted; preserve native default"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "firstRequestedChange": "UNSPECIFIED",
+        "firstRequestedCounter": "UNSPECIFIED",
+        "requestedHistoryFrontier": "UNSPECIFIED",
+        "perRequestedBarValues": "UNSPECIFIED"
+      },
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "4dbfdad5fe354dd059dee3a8dc8b2454a6a20011506f3ce04ae0df576cf9019e"
+    },
+    {
+      "probe": "v88-v6-requested-daily-counter-p4250m-v1",
+      "path": "v88-v6-requested-daily-counter-p4250m-v1.pine",
+      "sourceSha256": "5177d6d738e1f4bdf9339c6fc0374826b76ebc877de78b386f053537a983021b",
+      "sourceBytes": 2433,
+      "pineVersion": 6,
+      "owner": "codex-p4250m",
+      "root": "remaining-divergence-census-v4-record11-requested-daily-counter",
+      "role": "v6-control",
+      "indicatorOnly": true,
+      "repetitions": 2,
+      "chartContext": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "1D",
+        "symbolIntervalChangeToSavedLayoutAllowed": false
+      },
+      "requestedContext": {
+        "symbol": "syminfo.tickerid",
+        "timeframe": "1D",
+        "lookahead": "barmerge.lookahead_on",
+        "calc_bars_count": "omitted; preserve native default"
+      },
+      "nativeStatus": "UNOBSERVED",
+      "expectedOutcome": {
+        "firstRequestedChange": "UNSPECIFIED",
+        "firstRequestedCounter": "UNSPECIFIED",
+        "requestedHistoryFrontier": "UNSPECIFIED",
+        "perRequestedBarValues": "UNSPECIFIED"
+      },
+      "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+      "instructionsSha256": "4dbfdad5fe354dd059dee3a8dc8b2454a6a20011506f3ce04ae0df576cf9019e"
+    }
+  ],
+  "motivation": {
+    "originalSourceSha256": "d91765c9517a779ff170b0b6632d4941fac93206a3c48be8015b4758e5d6cf20",
+    "originalNativeAttempt": "v4/captures/v4/outcomes-v4.json#corpus5-pivot-request-counter-v1.pine/attempt-1",
+    "closedCellsWithObservedConstantDelta": 24545,
+    "currentVsNativeDelta": "+1",
+    "firstEvaluatedRequestedBar": "UNOBSERVED in original capture",
+    "hypothesis": "first-change initialization versus actual requested history frontier; neither is assumed"
+  },
+  "accountScope": {
+    "restriction": "ALLOWED: Save as a PRIVATE unpublished script, Add to chart, then remove only the request-added study. FORBIDDEN: publish/share, visibility change, new layout, symbol/interval change to any saved layout, alerts, or any library action. Anything beyond this authorized method: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+    "stopIfProhibitedActionRequired": true
+  },
+  "governingHandoff": "HANDOFF-v88-v1.md"
+}

@@ -6,6 +6,8 @@ See [MIGRATION.md](MIGRATION.md) for the application cutover, verification and o
 
 ## Capture and handoff
 
+The v88 request is [v88/HANDOFF-v88-v1.md](v88/HANDOFF-v88-v1.md): v5/v6 requested daily first-change/counter probes, two fresh private Save/Add captures each on an authorized BINANCE:BTCUSDT1D context. No saved-layout symbol/interval changes or library actions.
+
 The v87 request is [v87/HANDOFF-v87-v1.md](v87/HANDOFF-v87-v1.md): one exact v5 exported duplicate-method library source, three PRIVATE unpublished Save captures. No publication or IMPORT; Add to chart is inapplicable to this library source.
 
 The v86 request is [v86/HANDOFF-v86-v1.md](v86/HANDOFF-v86-v1.md): one exact mixed-error source, three private Save/Add repetitions; compiler responses and editor marker arrays are captured independently without prescribed order.
