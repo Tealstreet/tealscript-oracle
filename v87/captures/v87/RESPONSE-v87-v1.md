@@ -1,0 +1,27 @@
+# Oracle v87 response v1
+
+**STABLE-ADVISORY-FIRST.** Three independent native PRIVATE unpublished Save/new compilations of the identical library source each report **COMPILE-ERROR**. All three complete immediate and settled editor lists contain the version advisory first and the duplicate exported-method error second. The ordered semantic lists are identical. This is evidence for owner adjudication; the capture agent makes no engine change.
+
+All three executed sources are 123 bytes, SHA-256 `6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86`, byte-identical to the historical v58 executed source. The explicit v5 header, library title, both declarations, whitespace and trailing newline are unchanged.
+
+| Attempt | Source SHA-256 | Native status | Fresh native Save transaction | Channels | Ordered semantic-list SHA-256 | Advisory/error positions (1-based) | Private Save identity/version | Add to chart |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [1](v87-v5-library-duplicate-method-order-p4250m-v1/attempt-v1/observation-v1.json) | `6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86` | COMPILE-ERROR | Save/new 23249 HTTP 200; distinct new identity | Complete compiler, immediate and settled | `d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b` | Advisory 1; error 2 | `USER;c7e024054f5a4930b8946444cf969003` / `1.0` | NOT-APPLICABLE-LIBRARY |
+| [2](v87-v5-library-duplicate-method-order-p4250m-v1/attempt-v2/observation-v1.json) | `6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86` | COMPILE-ERROR | Save/new 23276 HTTP 200; distinct new identity | Complete compiler, immediate and settled | `d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b` | Advisory 1; error 2 | `USER;784d4d7bae88467ca477a5098589f91e` / `1.0` | NOT-APPLICABLE-LIBRARY |
+| [3](v87-v5-library-duplicate-method-order-p4250m-v1/attempt-v3/observation-v1.json) | `6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86` | COMPILE-ERROR | Save/new 23301 HTTP 200; distinct new identity | Complete compiler, immediate and settled | `d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b` | Advisory 1; error 2 | `USER;387ecdf3ed1e4f9f8d989c5cff88142a` / `1.0` | NOT-APPLICABLE-LIBRARY |
+
+## Independent evidence channels
+
+All three complete full compiler bodies report `success:false` and expose one `reason2.errors` entry: “The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.” Its native start is line 4 column 19 and end line 4 column 30. The raw ordered error arrays agree across the three fresh Saves. `reason2.warnings` is **not exposed**; it is recorded as unexposed/null. `result.metaInfo.warnings` is exposed and empty. No `PINE_VERSION_OUTDATED` code or outdated-version text occurs anywhere in any complete full body. Three source-matched background `translate_light` responses are also retained independently.
+
+The editor's first marker has severity `4`, code `PINE_VERSION_OUTDATED`, site line 1 columns 3–12 and exact text “Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.” The second has severity `8` and the duplicate-method error above. The version advisory is **editor-only in these observed channels**, not reconstructed as a compiler diagnostic. Complete marker arrays preserve owner/resource, exposed codes, all sites and occurrence order. Save-shortcut, immediate-after-Save, Save-settled and later settled samples are separately timestamped; the immediate-after-Save and settled lists agree for every attempt.
+
+The comparison tuple is severity, exact text, start line/column and exposed code value. No duplicated semantic UI representations were collapsed; raw indices 0 and 1 remain advisory then error. Resource URI differences across fresh drafts remain in the raw evidence and do not change the ordered semantic result. See [compiler/editor comparison](compiler-editor-comparison-v1.json).
+
+## Account actions and integrity
+
+Each repetition created a separate native Library draft, pasted the exact requested bytes, and Saved privately under `v87-v5-library-duplicate-method-order-p4250m-v1-attempt-v1`, `-attempt-v2` or `-attempt-v3`. Those account Save names distinguish evidence without editing the library declaration or source. Each new identity and source-matched POST demonstrates a new Save evaluation; there is no cached/no-op Save substituted for any of the three captures.
+
+Add to chart was recorded **NOT-APPLICABLE-LIBRARY** and never invoked. No wrapper, importing consumer, publication, Share, visibility change, new layout, alert or library IMPORT occurred. No study was added or removed; initial, per-attempt restored and final chart identities/properties match exactly. All three private unpublished Saves remain on the account. The pre-existing `sours-lat/P425PrivateV79v1/1` library was not changed or deleted; rank2 private-import work stays held.
+
+[Attempt inventory](attempt-inventory-v1.json) binds exact sources, private identities, transaction IDs, HTTP status, timestamps and raw evidence paths. [Audit](audit-v1.json): PASS for all three independent fresh private Saves, complete channels, ordered comparisons and unchanged chart context. All four request `SHA256SUMS` entries pass. [Integrity inventory](integrity-v1.json) records each evidence artifact's bytes and SHA-256, excluding itself. No runtime/data export, extra source or engine change was made.

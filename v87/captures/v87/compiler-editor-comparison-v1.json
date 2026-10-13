@@ -1,0 +1,613 @@
+{
+  "revision": 1,
+  "semanticTuple": [
+    "severity",
+    "exact message",
+    "start line",
+    "start column",
+    "exposed code value"
+  ],
+  "codeTargetAndRawOwnerResourcePreserved": true,
+  "rawArraysNotSortedOrDeduplicated": true,
+  "comparisonDuplicateCollapseOnlyByFirstOccurrence": true,
+  "attempts": [
+    {
+      "attemptId": "attempt-v1",
+      "settledTimestamp": "2026-10-13T00:50:46.985Z",
+      "settledRawMarkers": [
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine?placement%3Ddialog",
+            "path": "/a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "code": "PINE_VERSION_OUTDATED",
+          "severity": 4,
+          "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+          "startLineNumber": 1,
+          "startColumn": 3,
+          "endLineNumber": 1,
+          "endColumn": 12
+        },
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine?placement%3Ddialog",
+            "path": "/a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "severity": 8,
+          "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "startLineNumber": 4,
+          "startColumn": 19,
+          "endLineNumber": 4,
+          "endColumn": 31
+        }
+      ],
+      "settledComparison": {
+        "orderedSemanticTuples": [
+          {
+            "severity": 4,
+            "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "code": "PINE_VERSION_OUTDATED"
+          },
+          {
+            "severity": 8,
+            "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+            "startLineNumber": 4,
+            "startColumn": 19,
+            "code": null
+          }
+        ],
+        "firstOccurrenceRawIndices": [
+          0,
+          1
+        ],
+        "collapsedDuplicateUiRepresentations": [],
+        "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b"
+      },
+      "immediateChannel": "OBSERVED",
+      "immediateTimestamp": "2026-10-13T00:50:39.047Z",
+      "immediateRawMarkers": [
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine?placement%3Ddialog",
+            "path": "/a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "code": "PINE_VERSION_OUTDATED",
+          "severity": 4,
+          "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+          "startLineNumber": 1,
+          "startColumn": 3,
+          "endLineNumber": 1,
+          "endColumn": 12
+        },
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine?placement%3Ddialog",
+            "path": "/a10d849e-2ad1-4bb3-83e3-8831d91292ac.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "severity": 8,
+          "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "startLineNumber": 4,
+          "startColumn": 19,
+          "endLineNumber": 4,
+          "endColumn": 31
+        }
+      ],
+      "immediateComparison": {
+        "orderedSemanticTuples": [
+          {
+            "severity": 4,
+            "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "code": "PINE_VERSION_OUTDATED"
+          },
+          {
+            "severity": 8,
+            "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+            "startLineNumber": 4,
+            "startColumn": 19,
+            "code": null
+          }
+        ],
+        "firstOccurrenceRawIndices": [
+          0,
+          1
+        ],
+        "collapsedDuplicateUiRepresentations": [],
+        "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b"
+      },
+      "editorErrorRawIndices": [
+        1
+      ],
+      "editorWarningRawIndices": [
+        0
+      ],
+      "compilerResponses": [
+        {
+          "requestId": 23249,
+          "captureTimestamp": "2026-10-13T00:50:47.974Z",
+          "httpStatus": 200,
+          "responseSha256": "f00715c02a8e19556b750d42ccbd244870c5b7cadcf63bb2a0afd56c113b9195",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;c7e024054f5a4930b8946444cf969003",
+            "version": "1.0"
+          },
+          "compilerReason": "line 4: The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "warningsArrayExposed": false,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": true,
+          "errorsOrderedArraySha256": "81edd254d4e4eadb2825c7dbbfd0cb2c199b6c766dd70939e56c44814993a29f",
+          "warningsOrderedArraySha256": null
+        }
+      ],
+      "backgroundResponses": [
+        {
+          "requestId": 23235,
+          "captureTimestamp": "2026-10-13T00:50:47.560Z",
+          "httpStatus": 200,
+          "responseSha256": "63966d7670dda141312e6164e3a4f5d65cfd2d0cddd5a81732400d8e4736fc78",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "errorsOrderedArraySha256": "81edd254d4e4eadb2825c7dbbfd0cb2c199b6c766dd70939e56c44814993a29f",
+          "warningsOrderedArraySha256": null
+        }
+      ]
+    },
+    {
+      "attemptId": "attempt-v2",
+      "settledTimestamp": "2026-10-13T00:51:12.539Z",
+      "settledRawMarkers": [
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///dca1db0f-9b8e-4869-a131-6f46166cee69.pine?placement%3Ddialog",
+            "path": "/dca1db0f-9b8e-4869-a131-6f46166cee69.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "code": "PINE_VERSION_OUTDATED",
+          "severity": 4,
+          "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+          "startLineNumber": 1,
+          "startColumn": 3,
+          "endLineNumber": 1,
+          "endColumn": 12
+        },
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///dca1db0f-9b8e-4869-a131-6f46166cee69.pine?placement%3Ddialog",
+            "path": "/dca1db0f-9b8e-4869-a131-6f46166cee69.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "severity": 8,
+          "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "startLineNumber": 4,
+          "startColumn": 19,
+          "endLineNumber": 4,
+          "endColumn": 31
+        }
+      ],
+      "settledComparison": {
+        "orderedSemanticTuples": [
+          {
+            "severity": 4,
+            "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "code": "PINE_VERSION_OUTDATED"
+          },
+          {
+            "severity": 8,
+            "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+            "startLineNumber": 4,
+            "startColumn": 19,
+            "code": null
+          }
+        ],
+        "firstOccurrenceRawIndices": [
+          0,
+          1
+        ],
+        "collapsedDuplicateUiRepresentations": [],
+        "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b"
+      },
+      "immediateChannel": "OBSERVED",
+      "immediateTimestamp": "2026-10-13T00:51:05.092Z",
+      "immediateRawMarkers": [
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///dca1db0f-9b8e-4869-a131-6f46166cee69.pine?placement%3Ddialog",
+            "path": "/dca1db0f-9b8e-4869-a131-6f46166cee69.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "code": "PINE_VERSION_OUTDATED",
+          "severity": 4,
+          "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+          "startLineNumber": 1,
+          "startColumn": 3,
+          "endLineNumber": 1,
+          "endColumn": 12
+        },
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///dca1db0f-9b8e-4869-a131-6f46166cee69.pine?placement%3Ddialog",
+            "path": "/dca1db0f-9b8e-4869-a131-6f46166cee69.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "severity": 8,
+          "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "startLineNumber": 4,
+          "startColumn": 19,
+          "endLineNumber": 4,
+          "endColumn": 31
+        }
+      ],
+      "immediateComparison": {
+        "orderedSemanticTuples": [
+          {
+            "severity": 4,
+            "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "code": "PINE_VERSION_OUTDATED"
+          },
+          {
+            "severity": 8,
+            "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+            "startLineNumber": 4,
+            "startColumn": 19,
+            "code": null
+          }
+        ],
+        "firstOccurrenceRawIndices": [
+          0,
+          1
+        ],
+        "collapsedDuplicateUiRepresentations": [],
+        "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b"
+      },
+      "editorErrorRawIndices": [
+        1
+      ],
+      "editorWarningRawIndices": [
+        0
+      ],
+      "compilerResponses": [
+        {
+          "requestId": 23276,
+          "captureTimestamp": "2026-10-13T00:51:13.411Z",
+          "httpStatus": 200,
+          "responseSha256": "1588ecdb6684b8687e78599c2a01fca3bf81d6fee7ff83948427cf2985007b3a",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;784d4d7bae88467ca477a5098589f91e",
+            "version": "1.0"
+          },
+          "compilerReason": "line 4: The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "warningsArrayExposed": false,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": true,
+          "errorsOrderedArraySha256": "81edd254d4e4eadb2825c7dbbfd0cb2c199b6c766dd70939e56c44814993a29f",
+          "warningsOrderedArraySha256": null
+        }
+      ],
+      "backgroundResponses": [
+        {
+          "requestId": 23263,
+          "captureTimestamp": "2026-10-13T00:51:13.015Z",
+          "httpStatus": 200,
+          "responseSha256": "63966d7670dda141312e6164e3a4f5d65cfd2d0cddd5a81732400d8e4736fc78",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "errorsOrderedArraySha256": "81edd254d4e4eadb2825c7dbbfd0cb2c199b6c766dd70939e56c44814993a29f",
+          "warningsOrderedArraySha256": null
+        }
+      ]
+    },
+    {
+      "attemptId": "attempt-v3",
+      "settledTimestamp": "2026-10-13T00:51:29.510Z",
+      "settledRawMarkers": [
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///69f3f215-895e-4588-9044-7d7e867116e6.pine?placement%3Ddialog",
+            "path": "/69f3f215-895e-4588-9044-7d7e867116e6.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "code": "PINE_VERSION_OUTDATED",
+          "severity": 4,
+          "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+          "startLineNumber": 1,
+          "startColumn": 3,
+          "endLineNumber": 1,
+          "endColumn": 12
+        },
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///69f3f215-895e-4588-9044-7d7e867116e6.pine?placement%3Ddialog",
+            "path": "/69f3f215-895e-4588-9044-7d7e867116e6.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "severity": 8,
+          "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "startLineNumber": 4,
+          "startColumn": 19,
+          "endLineNumber": 4,
+          "endColumn": 31
+        }
+      ],
+      "settledComparison": {
+        "orderedSemanticTuples": [
+          {
+            "severity": 4,
+            "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "code": "PINE_VERSION_OUTDATED"
+          },
+          {
+            "severity": 8,
+            "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+            "startLineNumber": 4,
+            "startColumn": 19,
+            "code": null
+          }
+        ],
+        "firstOccurrenceRawIndices": [
+          0,
+          1
+        ],
+        "collapsedDuplicateUiRepresentations": [],
+        "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b"
+      },
+      "immediateChannel": "OBSERVED",
+      "immediateTimestamp": "2026-10-13T00:51:21.202Z",
+      "immediateRawMarkers": [
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///69f3f215-895e-4588-9044-7d7e867116e6.pine?placement%3Ddialog",
+            "path": "/69f3f215-895e-4588-9044-7d7e867116e6.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "code": "PINE_VERSION_OUTDATED",
+          "severity": 4,
+          "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+          "startLineNumber": 1,
+          "startColumn": 3,
+          "endLineNumber": 1,
+          "endColumn": 12
+        },
+        {
+          "resource": {
+            "$mid": 1,
+            "external": "file:///69f3f215-895e-4588-9044-7d7e867116e6.pine?placement%3Ddialog",
+            "path": "/69f3f215-895e-4588-9044-7d7e867116e6.pine",
+            "scheme": "file",
+            "query": "placement=dialog"
+          },
+          "owner": "_generated_diagnostic_collection_name_#0",
+          "severity": 8,
+          "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "startLineNumber": 4,
+          "startColumn": 19,
+          "endLineNumber": 4,
+          "endColumn": 31
+        }
+      ],
+      "immediateComparison": {
+        "orderedSemanticTuples": [
+          {
+            "severity": 4,
+            "message": "Version 5 of Pine Script® is outdated. We recommend using the current version, which is 6.",
+            "startLineNumber": 1,
+            "startColumn": 3,
+            "code": "PINE_VERSION_OUTDATED"
+          },
+          {
+            "severity": 8,
+            "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+            "startLineNumber": 4,
+            "startColumn": 19,
+            "code": null
+          }
+        ],
+        "firstOccurrenceRawIndices": [
+          0,
+          1
+        ],
+        "collapsedDuplicateUiRepresentations": [],
+        "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b"
+      },
+      "editorErrorRawIndices": [
+        1
+      ],
+      "editorWarningRawIndices": [
+        0
+      ],
+      "compilerResponses": [
+        {
+          "requestId": 23301,
+          "captureTimestamp": "2026-10-13T00:51:30.415Z",
+          "httpStatus": 200,
+          "responseSha256": "b9aa8fa613601d8b944e80ea2bc9a12ad7f91a5ddf8b379ce29f6a23c9983ab6",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;387ecdf3ed1e4f9f8d989c5cff88142a",
+            "version": "1.0"
+          },
+          "compilerReason": "line 4: The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "warningsArrayExposed": false,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": true,
+          "errorsOrderedArraySha256": "81edd254d4e4eadb2825c7dbbfd0cb2c199b6c766dd70939e56c44814993a29f",
+          "warningsOrderedArraySha256": null
+        }
+      ],
+      "backgroundResponses": [
+        {
+          "requestId": 23288,
+          "captureTimestamp": "2026-10-13T00:51:29.999Z",
+          "httpStatus": 200,
+          "responseSha256": "63966d7670dda141312e6164e3a4f5d65cfd2d0cddd5a81732400d8e4736fc78",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "errorsOrderedArraySha256": "81edd254d4e4eadb2825c7dbbfd0cb2c199b6c766dd70939e56c44814993a29f",
+          "warningsOrderedArraySha256": null
+        }
+      ]
+    }
+  ],
+  "observedSettledSemanticListsEqual": true,
+  "classification": "STABLE-ADVISORY-FIRST",
+  "freshRepeatedStabilityCredit": true,
+  "engineChange": false
+}

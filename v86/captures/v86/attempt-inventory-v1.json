@@ -1,0 +1,3182 @@
+{
+  "revision": 1,
+  "round": "v86",
+  "governingHandoff": "HANDOFF-v86-v1.md",
+  "source": {
+    "probe": "v86-mixed-error-order-1x-v1",
+    "path": "v86-mixed-error-order-1x-v1.pine",
+    "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+    "sourceBytes": 155567,
+    "owner": "codex-1xjtos",
+    "root": "census-v6-rank11-mixed-error-order",
+    "pineVersion": 6,
+    "indicatorOnly": true,
+    "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+    "instructionsSha256": "88faac15faf0099d776a647ae8497c2d1e1fc07143dc8d4cf631255f19912486",
+    "nativeStatus": "UNOBSERVED",
+    "expectedOutcome": {
+      "status": "UNSPECIFIED",
+      "order": "UNSPECIFIED",
+      "runtime": "NOT REQUESTED"
+    },
+    "repetitions": 3,
+    "originalAttempt": "v9/captures/v9/outcomes-v9.json#30",
+    "originalSourcePath": "v9/w8-exact-source-compile-corpus-v56-494-v1.pine",
+    "historicalObservationSha256": "43cf9618afc2e1c2ec69ff5681dccf93ae5b92db723cdb4f79b0d19245682970"
+  },
+  "historicalSourceByteExact": true,
+  "attempts": [
+    {
+      "attemptId": "attempt-v1",
+      "repetition": 1,
+      "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+      "sourceBytes": 155567,
+      "status": "COMPILE-ERROR",
+      "captureCompleteness": "INCOMPLETE-IMMEDIATE-SAMPLES",
+      "fullCompilerResponses": [
+        {
+          "requestId": 23020,
+          "captureTimestamp": "2026-10-13T00:47:48.871Z",
+          "httpStatus": 200,
+          "responseSha256": "3986a05c2bf32086c7182c1ac8b6acc5cfb0ae40af33c52f79ff3788a2cc3403",
+          "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;42d15eb57bfe4936a52d85c752492c5a",
+            "version": "1.0"
+          },
+          "compilerReason": "{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1255,\"column\":34},\"end\":{\"line\":1255,\"column\":45},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1283,\"column\":38},\"end\":{\"line\":1283,\"column\":49},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1291,\"column\":8},\"end\":{\"line\":1291,\"column\":17},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"showZigZag\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":36},\"end\":{\"line\":1298,\"column\":42},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorUp\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":46},\"end\":{\"line\":1298,\"column\":54},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorDown\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1391,\"column\":12},\"end\":{\"line\":1391,\"column\":23},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1392,\"column\":25},\"end\":{\"line\":1392,\"column\":33},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"rsiSeries\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1393,\"column\":17},\"end\":{\"line\":1393,\"column\":28},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1394,\"column\":25},\"end\":{\"line\":1394,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"macdHist\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1404,\"column\":16},\"end\":{\"line\":1404,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1406,\"column\":21},\"end\":{\"line\":1406,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1409,\"column\":16},\"end\":{\"line\":1409,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1411,\"column\":21},\"end\":{\"line\":1411,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Could not find {kind} '{fullName}'\",\"start\":{\"line\":1724,\"column\":17},\"end\":{\"line\":1724,\"column\":40},\"code\":\"CE10271\",\"ctx\":{\"kind\":\"function or function reference\",\"fullName\":\"f_update_impulse_drawing\"}}",
+          "errors": [
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 45,
+                "line": 1255
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 34,
+                "line": 1255
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 49,
+                "line": 1283
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 38,
+                "line": 1283
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "showZigZag"
+              },
+              "end": {
+                "column": 17,
+                "line": 1291
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 8,
+                "line": 1291
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorUp"
+              },
+              "end": {
+                "column": 42,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorDown"
+              },
+              "end": {
+                "column": 54,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 46,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 23,
+                "line": 1391
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 12,
+                "line": 1391
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "rsiSeries"
+              },
+              "end": {
+                "column": 33,
+                "line": 1392
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1392
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 28,
+                "line": 1393
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 17,
+                "line": 1393
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "macdHist"
+              },
+              "end": {
+                "column": 32,
+                "line": 1394
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1394
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1404
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1404
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1406
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1406
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1409
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1409
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1411
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1411
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 40,
+                "line": 1724
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1724
+              }
+            }
+          ],
+          "warnings": [],
+          "warningsArrayExposed": true,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": true
+        },
+        {
+          "requestId": 23084,
+          "captureTimestamp": "2026-10-13T00:47:48.976Z",
+          "httpStatus": 200,
+          "responseSha256": "54f972af57560cee3ed999278f9df24c27f40e1086a2bfd7a95c6ad02cb207eb",
+          "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+          "responseComplete": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;42d15eb57bfe4936a52d85c752492c5a",
+            "version": "1.0"
+          },
+          "compilerReason": "{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1255,\"column\":34},\"end\":{\"line\":1255,\"column\":45},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1283,\"column\":38},\"end\":{\"line\":1283,\"column\":49},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1291,\"column\":8},\"end\":{\"line\":1291,\"column\":17},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"showZigZag\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":36},\"end\":{\"line\":1298,\"column\":42},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorUp\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":46},\"end\":{\"line\":1298,\"column\":54},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorDown\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1391,\"column\":12},\"end\":{\"line\":1391,\"column\":23},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1392,\"column\":25},\"end\":{\"line\":1392,\"column\":33},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"rsiSeries\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1393,\"column\":17},\"end\":{\"line\":1393,\"column\":28},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1394,\"column\":25},\"end\":{\"line\":1394,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"macdHist\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1404,\"column\":16},\"end\":{\"line\":1404,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1406,\"column\":21},\"end\":{\"line\":1406,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1409,\"column\":16},\"end\":{\"line\":1409,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1411,\"column\":21},\"end\":{\"line\":1411,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Could not find {kind} '{fullName}'\",\"start\":{\"line\":1724,\"column\":17},\"end\":{\"line\":1724,\"column\":40},\"code\":\"CE10271\",\"ctx\":{\"kind\":\"function or function reference\",\"fullName\":\"f_update_impulse_drawing\"}}",
+          "errors": [
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 45,
+                "line": 1255
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 34,
+                "line": 1255
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 49,
+                "line": 1283
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 38,
+                "line": 1283
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "showZigZag"
+              },
+              "end": {
+                "column": 17,
+                "line": 1291
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 8,
+                "line": 1291
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorUp"
+              },
+              "end": {
+                "column": 42,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorDown"
+              },
+              "end": {
+                "column": 54,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 46,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 23,
+                "line": 1391
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 12,
+                "line": 1391
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "rsiSeries"
+              },
+              "end": {
+                "column": 33,
+                "line": 1392
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1392
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 28,
+                "line": 1393
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 17,
+                "line": 1393
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "macdHist"
+              },
+              "end": {
+                "column": 32,
+                "line": 1394
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1394
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1404
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1404
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1406
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1406
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1409
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1409
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1411
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1411
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 40,
+                "line": 1724
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1724
+              }
+            }
+          ],
+          "warnings": [],
+          "warningsArrayExposed": true,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": false
+        }
+      ],
+      "backgroundCompilerResponses": [
+        {
+          "requestId": 23006,
+          "captureTimestamp": "2026-10-13T00:47:46.067Z",
+          "httpStatus": 200,
+          "responseSha256": "f2578ec811d0f0a7cf72eaa349d594515a7eb98621a743ecf23f97306483c976",
+          "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 45,
+                "line": 1255
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 34,
+                "line": 1255
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 49,
+                "line": 1283
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 38,
+                "line": 1283
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "showZigZag"
+              },
+              "end": {
+                "column": 17,
+                "line": 1291
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 8,
+                "line": 1291
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorUp"
+              },
+              "end": {
+                "column": 42,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorDown"
+              },
+              "end": {
+                "column": 54,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 46,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 23,
+                "line": 1391
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 12,
+                "line": 1391
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "rsiSeries"
+              },
+              "end": {
+                "column": 33,
+                "line": 1392
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1392
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 28,
+                "line": 1393
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 17,
+                "line": 1393
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "macdHist"
+              },
+              "end": {
+                "column": 32,
+                "line": 1394
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1394
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1404
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1404
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1406
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1406
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1409
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1409
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1411
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1411
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 40,
+                "line": 1724
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1724
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_correction_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 43,
+                "line": 1740
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1740
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_diagonal_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 41,
+                "line": 1755
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1755
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_flat_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 37,
+                "line": 1766
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1766
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 34,
+                "line": 1773
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1773
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_correction_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 37,
+                "line": 1779
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1779
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_diagonal_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 35,
+                "line": 1786
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1786
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_flat_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 31,
+                "line": 1793
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1793
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_flat_correction",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 86,
+                "line": 1837
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 64,
+                "line": 1837
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave2_retracement",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 63,
+                "line": 2115
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 39,
+                "line": 2115
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave4_retracement",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 63,
+                "line": 2116
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 39,
+                "line": 2116
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave3_extension",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2122
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 43,
+                "line": 2122
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave5_extension",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2123
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 43,
+                "line": 2123
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave3_not_shortest",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2125
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 40,
+                "line": 2125
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "thrAbs"
+              },
+              "end": {
+                "column": 44,
+                "line": 2206
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2206
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "barsSince"
+              },
+              "end": {
+                "column": 47,
+                "line": 2208
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2208
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "retracement"
+              },
+              "end": {
+                "column": 49,
+                "line": 2210
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2210
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 24,
+                "line": 2473
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 22,
+                "line": 2473
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 24,
+                "line": 2475
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 22,
+                "line": 2475
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 26,
+                "line": 2480
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 24,
+                "line": 2480
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2481
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2481
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 26,
+                "line": 2485
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 24,
+                "line": 2485
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2486
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2486
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 32,
+                "line": 2491
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 30,
+                "line": 2491
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "thrAbs"
+              },
+              "end": {
+                "column": 41,
+                "line": 2493
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 2493
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2507
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2507
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2509
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2509
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_detect_3_wave_patterns",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 32,
+                "line": 2515
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 9,
+                "line": 2515
+              }
+            }
+          ],
+          "warnings": [
+            {
+              "code": "CW10003",
+              "ctx": {
+                "functionName": "pivotHigh"
+              },
+              "end": {
+                "column": 54,
+                "line": 129
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+              "start": {
+                "column": 20,
+                "line": 129
+              }
+            },
+            {
+              "code": "CW10003",
+              "ctx": {
+                "functionName": "pivotLow"
+              },
+              "end": {
+                "column": 53,
+                "line": 134
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+              "start": {
+                "column": 20,
+                "line": 134
+              }
+            },
+            {
+              "code": "CW10004",
+              "ctx": {
+                "functionName": "ta.pivothigh"
+              },
+              "end": {
+                "column": 46,
+                "line": 943
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from the ternary operator or from the scope",
+              "start": {
+                "column": 26,
+                "line": 943
+              }
+            },
+            {
+              "code": "CW10004",
+              "ctx": {
+                "functionName": "ta.pivotlow"
+              },
+              "end": {
+                "column": 69,
+                "line": 943
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from the ternary operator or from the scope",
+              "start": {
+                "column": 50,
+                "line": 943
+              }
+            }
+          ]
+        }
+      ],
+      "settledMarkerCount": 45,
+      "editorErrorCount": 41,
+      "editorWarningCount": 4,
+      "warningRawIndices": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "orderedListSha256": "9a23c5f75d1dca8e442882bd1d5bebdaa746bcb15430fc9e2552efbbaa89d066",
+      "immediateChannel": "UNOBSERVED",
+      "freshNewPrivateSave": true,
+      "cachedFullResponse": false,
+      "addToChart": "NATIVE-ADD",
+      "nativeIdentity": {
+        "scriptIdPart": "USER;42d15eb57bfe4936a52d85c752492c5a",
+        "version": "1.0"
+      },
+      "observationPath": "v86-mixed-error-order-1x-v1/attempt-v1/observation-v1.json",
+      "chartRestored": true
+    },
+    {
+      "attemptId": "attempt-v2",
+      "repetition": 2,
+      "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+      "sourceBytes": 155567,
+      "status": "COMPILE-ERROR",
+      "captureCompleteness": "INCOMPLETE-IMMEDIATE-SAMPLES",
+      "fullCompilerResponses": [
+        {
+          "requestId": 23154,
+          "captureTimestamp": "2026-10-13T00:49:24.290Z",
+          "httpStatus": 304,
+          "responseSha256": "54f972af57560cee3ed999278f9df24c27f40e1086a2bfd7a95c6ad02cb207eb",
+          "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+          "responseComplete": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;42d15eb57bfe4936a52d85c752492c5a",
+            "version": "1.0"
+          },
+          "compilerReason": "{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1255,\"column\":34},\"end\":{\"line\":1255,\"column\":45},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1283,\"column\":38},\"end\":{\"line\":1283,\"column\":49},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1291,\"column\":8},\"end\":{\"line\":1291,\"column\":17},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"showZigZag\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":36},\"end\":{\"line\":1298,\"column\":42},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorUp\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":46},\"end\":{\"line\":1298,\"column\":54},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorDown\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1391,\"column\":12},\"end\":{\"line\":1391,\"column\":23},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1392,\"column\":25},\"end\":{\"line\":1392,\"column\":33},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"rsiSeries\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1393,\"column\":17},\"end\":{\"line\":1393,\"column\":28},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1394,\"column\":25},\"end\":{\"line\":1394,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"macdHist\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1404,\"column\":16},\"end\":{\"line\":1404,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1406,\"column\":21},\"end\":{\"line\":1406,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1409,\"column\":16},\"end\":{\"line\":1409,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1411,\"column\":21},\"end\":{\"line\":1411,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Could not find {kind} '{fullName}'\",\"start\":{\"line\":1724,\"column\":17},\"end\":{\"line\":1724,\"column\":40},\"code\":\"CE10271\",\"ctx\":{\"kind\":\"function or function reference\",\"fullName\":\"f_update_impulse_drawing\"}}",
+          "errors": [
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 45,
+                "line": 1255
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 34,
+                "line": 1255
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 49,
+                "line": 1283
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 38,
+                "line": 1283
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "showZigZag"
+              },
+              "end": {
+                "column": 17,
+                "line": 1291
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 8,
+                "line": 1291
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorUp"
+              },
+              "end": {
+                "column": 42,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorDown"
+              },
+              "end": {
+                "column": 54,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 46,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 23,
+                "line": 1391
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 12,
+                "line": 1391
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "rsiSeries"
+              },
+              "end": {
+                "column": 33,
+                "line": 1392
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1392
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 28,
+                "line": 1393
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 17,
+                "line": 1393
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "macdHist"
+              },
+              "end": {
+                "column": 32,
+                "line": 1394
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1394
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1404
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1404
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1406
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1406
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1409
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1409
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1411
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1411
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 40,
+                "line": 1724
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1724
+              }
+            }
+          ],
+          "warnings": [],
+          "warningsArrayExposed": true,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": true,
+          "freshNewPrivateSave": false
+        }
+      ],
+      "backgroundCompilerResponses": [
+        {
+          "requestId": 23106,
+          "captureTimestamp": "2026-10-13T00:49:20.776Z",
+          "httpStatus": 200,
+          "responseSha256": "f2578ec811d0f0a7cf72eaa349d594515a7eb98621a743ecf23f97306483c976",
+          "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 45,
+                "line": 1255
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 34,
+                "line": 1255
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 49,
+                "line": 1283
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 38,
+                "line": 1283
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "showZigZag"
+              },
+              "end": {
+                "column": 17,
+                "line": 1291
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 8,
+                "line": 1291
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorUp"
+              },
+              "end": {
+                "column": 42,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorDown"
+              },
+              "end": {
+                "column": 54,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 46,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 23,
+                "line": 1391
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 12,
+                "line": 1391
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "rsiSeries"
+              },
+              "end": {
+                "column": 33,
+                "line": 1392
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1392
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 28,
+                "line": 1393
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 17,
+                "line": 1393
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "macdHist"
+              },
+              "end": {
+                "column": 32,
+                "line": 1394
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1394
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1404
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1404
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1406
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1406
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1409
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1409
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1411
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1411
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 40,
+                "line": 1724
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1724
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_correction_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 43,
+                "line": 1740
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1740
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_diagonal_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 41,
+                "line": 1755
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1755
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_flat_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 37,
+                "line": 1766
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1766
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 34,
+                "line": 1773
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1773
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_correction_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 37,
+                "line": 1779
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1779
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_diagonal_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 35,
+                "line": 1786
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1786
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_flat_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 31,
+                "line": 1793
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1793
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_flat_correction",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 86,
+                "line": 1837
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 64,
+                "line": 1837
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave2_retracement",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 63,
+                "line": 2115
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 39,
+                "line": 2115
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave4_retracement",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 63,
+                "line": 2116
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 39,
+                "line": 2116
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave3_extension",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2122
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 43,
+                "line": 2122
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave5_extension",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2123
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 43,
+                "line": 2123
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave3_not_shortest",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2125
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 40,
+                "line": 2125
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "thrAbs"
+              },
+              "end": {
+                "column": 44,
+                "line": 2206
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2206
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "barsSince"
+              },
+              "end": {
+                "column": 47,
+                "line": 2208
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2208
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "retracement"
+              },
+              "end": {
+                "column": 49,
+                "line": 2210
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2210
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 24,
+                "line": 2473
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 22,
+                "line": 2473
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 24,
+                "line": 2475
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 22,
+                "line": 2475
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 26,
+                "line": 2480
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 24,
+                "line": 2480
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2481
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2481
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 26,
+                "line": 2485
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 24,
+                "line": 2485
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2486
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2486
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 32,
+                "line": 2491
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 30,
+                "line": 2491
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "thrAbs"
+              },
+              "end": {
+                "column": 41,
+                "line": 2493
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 2493
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2507
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2507
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2509
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2509
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_detect_3_wave_patterns",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 32,
+                "line": 2515
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 9,
+                "line": 2515
+              }
+            }
+          ],
+          "warnings": [
+            {
+              "code": "CW10003",
+              "ctx": {
+                "functionName": "pivotHigh"
+              },
+              "end": {
+                "column": 54,
+                "line": 129
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+              "start": {
+                "column": 20,
+                "line": 129
+              }
+            },
+            {
+              "code": "CW10003",
+              "ctx": {
+                "functionName": "pivotLow"
+              },
+              "end": {
+                "column": 53,
+                "line": 134
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+              "start": {
+                "column": 20,
+                "line": 134
+              }
+            },
+            {
+              "code": "CW10004",
+              "ctx": {
+                "functionName": "ta.pivothigh"
+              },
+              "end": {
+                "column": 46,
+                "line": 943
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from the ternary operator or from the scope",
+              "start": {
+                "column": 26,
+                "line": 943
+              }
+            },
+            {
+              "code": "CW10004",
+              "ctx": {
+                "functionName": "ta.pivotlow"
+              },
+              "end": {
+                "column": 69,
+                "line": 943
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from the ternary operator or from the scope",
+              "start": {
+                "column": 50,
+                "line": 943
+              }
+            }
+          ]
+        }
+      ],
+      "settledMarkerCount": 45,
+      "editorErrorCount": 41,
+      "editorWarningCount": 4,
+      "warningRawIndices": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "orderedListSha256": "9a23c5f75d1dca8e442882bd1d5bebdaa746bcb15430fc9e2552efbbaa89d066",
+      "immediateChannel": "UNOBSERVED",
+      "freshNewPrivateSave": false,
+      "cachedFullResponse": true,
+      "addToChart": "NATIVE-ADD",
+      "nativeIdentity": {
+        "scriptIdPart": "USER;42d15eb57bfe4936a52d85c752492c5a",
+        "version": "1.0"
+      },
+      "observationPath": "v86-mixed-error-order-1x-v1/attempt-v2/observation-v1.json",
+      "chartRestored": true
+    },
+    {
+      "attemptId": "attempt-v3",
+      "repetition": 3,
+      "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+      "sourceBytes": 155567,
+      "status": "COMPILE-ERROR",
+      "captureCompleteness": "COMPLETE",
+      "fullCompilerResponses": [
+        {
+          "requestId": 23219,
+          "captureTimestamp": "2026-10-13T00:49:55.298Z",
+          "httpStatus": 304,
+          "responseSha256": "54f972af57560cee3ed999278f9df24c27f40e1086a2bfd7a95c6ad02cb207eb",
+          "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+          "responseComplete": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;42d15eb57bfe4936a52d85c752492c5a",
+            "version": "1.0"
+          },
+          "compilerReason": "{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1255,\"column\":34},\"end\":{\"line\":1255,\"column\":45},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1283,\"column\":38},\"end\":{\"line\":1283,\"column\":49},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"pivotsToKeep\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1291,\"column\":8},\"end\":{\"line\":1291,\"column\":17},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"showZigZag\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":36},\"end\":{\"line\":1298,\"column\":42},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorUp\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1298,\"column\":46},\"end\":{\"line\":1298,\"column\":54},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"colorDown\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1391,\"column\":12},\"end\":{\"line\":1391,\"column\":23},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1392,\"column\":25},\"end\":{\"line\":1392,\"column\":33},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"rsiSeries\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1393,\"column\":17},\"end\":{\"line\":1393,\"column\":28},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1394,\"column\":25},\"end\":{\"line\":1394,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"macdHist\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1404,\"column\":16},\"end\":{\"line\":1404,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1406,\"column\":21},\"end\":{\"line\":1406,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1409,\"column\":16},\"end\":{\"line\":1409,\"column\":27},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Undeclared identifier \\\"{identifier}\\\"\",\"start\":{\"line\":1411,\"column\":21},\"end\":{\"line\":1411,\"column\":32},\"code\":\"CE10272\",\"ctx\":{\"identifier\":\"momentumType\"}}\n{\"message\":\"Could not find {kind} '{fullName}'\",\"start\":{\"line\":1724,\"column\":17},\"end\":{\"line\":1724,\"column\":40},\"code\":\"CE10271\",\"ctx\":{\"kind\":\"function or function reference\",\"fullName\":\"f_update_impulse_drawing\"}}",
+          "errors": [
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 45,
+                "line": 1255
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 34,
+                "line": 1255
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 49,
+                "line": 1283
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 38,
+                "line": 1283
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "showZigZag"
+              },
+              "end": {
+                "column": 17,
+                "line": 1291
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 8,
+                "line": 1291
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorUp"
+              },
+              "end": {
+                "column": 42,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorDown"
+              },
+              "end": {
+                "column": 54,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 46,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 23,
+                "line": 1391
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 12,
+                "line": 1391
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "rsiSeries"
+              },
+              "end": {
+                "column": 33,
+                "line": 1392
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1392
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 28,
+                "line": 1393
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 17,
+                "line": 1393
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "macdHist"
+              },
+              "end": {
+                "column": 32,
+                "line": 1394
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1394
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1404
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1404
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1406
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1406
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1409
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1409
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1411
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1411
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 40,
+                "line": 1724
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1724
+              }
+            }
+          ],
+          "warnings": [],
+          "warningsArrayExposed": true,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": true,
+          "freshNewPrivateSave": false
+        }
+      ],
+      "backgroundCompilerResponses": [
+        {
+          "requestId": 23172,
+          "captureTimestamp": "2026-10-13T00:49:55.196Z",
+          "httpStatus": 200,
+          "responseSha256": "f2578ec811d0f0a7cf72eaa349d594515a7eb98621a743ecf23f97306483c976",
+          "sourceSha256": "55cccc9a7b55364a6bd129d4dd7fddd8949c3fc6b467cff708a58bbe966d9961",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 45,
+                "line": 1255
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 34,
+                "line": 1255
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "pivotsToKeep"
+              },
+              "end": {
+                "column": 49,
+                "line": 1283
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 38,
+                "line": 1283
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "showZigZag"
+              },
+              "end": {
+                "column": 17,
+                "line": 1291
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 8,
+                "line": 1291
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorUp"
+              },
+              "end": {
+                "column": 42,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "colorDown"
+              },
+              "end": {
+                "column": 54,
+                "line": 1298
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 46,
+                "line": 1298
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 23,
+                "line": 1391
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 12,
+                "line": 1391
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "rsiSeries"
+              },
+              "end": {
+                "column": 33,
+                "line": 1392
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1392
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 28,
+                "line": 1393
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 17,
+                "line": 1393
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "macdHist"
+              },
+              "end": {
+                "column": 32,
+                "line": 1394
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 25,
+                "line": 1394
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1404
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1404
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1406
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1406
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 27,
+                "line": 1409
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 16,
+                "line": 1409
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "momentumType"
+              },
+              "end": {
+                "column": 32,
+                "line": 1411
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 21,
+                "line": 1411
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 40,
+                "line": 1724
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1724
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_correction_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 43,
+                "line": 1740
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1740
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_diagonal_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 41,
+                "line": 1755
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1755
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_update_flat_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 37,
+                "line": 1766
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 17,
+                "line": 1766
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_impulse_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 34,
+                "line": 1773
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1773
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_correction_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 37,
+                "line": 1779
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1779
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_diagonal_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 35,
+                "line": 1786
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1786
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_hide_flat_drawing",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 31,
+                "line": 1793
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 13,
+                "line": 1793
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_flat_correction",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 86,
+                "line": 1837
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 64,
+                "line": 1837
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave2_retracement",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 63,
+                "line": 2115
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 39,
+                "line": 2115
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave4_retracement",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 63,
+                "line": 2116
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 39,
+                "line": 2116
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave3_extension",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2122
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 43,
+                "line": 2122
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave5_extension",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2123
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 43,
+                "line": 2123
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_check_wave3_not_shortest",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 65,
+                "line": 2125
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 40,
+                "line": 2125
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "thrAbs"
+              },
+              "end": {
+                "column": 44,
+                "line": 2206
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2206
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "barsSince"
+              },
+              "end": {
+                "column": 47,
+                "line": 2208
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2208
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "retracement"
+              },
+              "end": {
+                "column": 49,
+                "line": 2210
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 39,
+                "line": 2210
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 24,
+                "line": 2473
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 22,
+                "line": 2473
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 24,
+                "line": 2475
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 22,
+                "line": 2475
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 26,
+                "line": 2480
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 24,
+                "line": 2480
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2481
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2481
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 26,
+                "line": 2485
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 24,
+                "line": 2485
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2486
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2486
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 32,
+                "line": 2491
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 30,
+                "line": 2491
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "thrAbs"
+              },
+              "end": {
+                "column": 41,
+                "line": 2493
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 36,
+                "line": 2493
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2507
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2507
+              }
+            },
+            {
+              "code": "CE10272",
+              "ctx": {
+                "identifier": "src"
+              },
+              "end": {
+                "column": 25,
+                "line": 2509
+              },
+              "message": "Undeclared identifier \"{identifier}\"",
+              "start": {
+                "column": 23,
+                "line": 2509
+              }
+            },
+            {
+              "code": "CE10271",
+              "ctx": {
+                "fullName": "f_detect_3_wave_patterns",
+                "kind": "function or function reference"
+              },
+              "end": {
+                "column": 32,
+                "line": 2515
+              },
+              "message": "Could not find {kind} '{fullName}'",
+              "start": {
+                "column": 9,
+                "line": 2515
+              }
+            }
+          ],
+          "warnings": [
+            {
+              "code": "CW10003",
+              "ctx": {
+                "functionName": "pivotHigh"
+              },
+              "end": {
+                "column": 54,
+                "line": 129
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+              "start": {
+                "column": 20,
+                "line": 129
+              }
+            },
+            {
+              "code": "CW10003",
+              "ctx": {
+                "functionName": "pivotLow"
+              },
+              "end": {
+                "column": 53,
+                "line": 134
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+              "start": {
+                "column": 20,
+                "line": 134
+              }
+            },
+            {
+              "code": "CW10004",
+              "ctx": {
+                "functionName": "ta.pivothigh"
+              },
+              "end": {
+                "column": 46,
+                "line": 943
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from the ternary operator or from the scope",
+              "start": {
+                "column": 26,
+                "line": 943
+              }
+            },
+            {
+              "code": "CW10004",
+              "ctx": {
+                "functionName": "ta.pivotlow"
+              },
+              "end": {
+                "column": 69,
+                "line": 943
+              },
+              "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from the ternary operator or from the scope",
+              "start": {
+                "column": 50,
+                "line": 943
+              }
+            }
+          ]
+        }
+      ],
+      "settledMarkerCount": 45,
+      "editorErrorCount": 41,
+      "editorWarningCount": 4,
+      "warningRawIndices": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "orderedListSha256": "9a23c5f75d1dca8e442882bd1d5bebdaa746bcb15430fc9e2552efbbaa89d066",
+      "immediateChannel": "OBSERVED",
+      "freshNewPrivateSave": false,
+      "cachedFullResponse": true,
+      "addToChart": "NATIVE-ADD",
+      "nativeIdentity": {
+        "scriptIdPart": "USER;42d15eb57bfe4936a52d85c752492c5a",
+        "version": "1.0"
+      },
+      "observationPath": "v86-mixed-error-order-1x-v1/attempt-v3/observation-v1.json",
+      "chartRestored": true
+    }
+  ],
+  "classification": "UNRESOLVED",
+  "observedSettledSemanticListsEqual": true,
+  "engineChange": false,
+  "numericCredit": false
+}

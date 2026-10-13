@@ -1,0 +1,306 @@
+{
+  "revision": 1,
+  "round": "v87",
+  "governingHandoff": "HANDOFF-v87-v1.md",
+  "source": {
+    "probe": "v87-v5-library-duplicate-method-order-p4250m-v1",
+    "path": "v87-v5-library-duplicate-method-order-p4250m-v1.pine",
+    "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+    "sourceBytes": 123,
+    "owner": "codex-p4250m",
+    "root": "census-v7-rank4-v5-exported-duplicate-method-advisory-order",
+    "pineVersion": 5,
+    "sourceKind": "library source saved privately; NOT a published library",
+    "indicatorOnly": false,
+    "captureMethod": "native PRIVATE unpublished Save",
+    "addToChart": "NOT-APPLICABLE-LIBRARY",
+    "instructionsPath": "instructions/INSTRUCTIONS-v1.md",
+    "instructionsSha256": "ad345540902b4771859516fa473e01515ff12ae575ffeef6f2631e449fe0fb26",
+    "nativeStatus": "UNOBSERVED",
+    "expectedOutcome": {
+      "status": "UNSPECIFIED",
+      "markerPresence": "UNSPECIFIED",
+      "count": "UNSPECIFIED",
+      "order": "UNSPECIFIED",
+      "runtime": "NOT REQUESTED"
+    },
+    "repetitions": 3,
+    "originalAttempt": "v58/captures/v58/prerequisites/root2-library-02604ebe1288-v58-v1/attempt-v1",
+    "originalSourcePath": "v58/captures/v58/prerequisites/root2-library-02604ebe1288-v58-v1/attempt-v1/executed-v1.pine",
+    "historicalObservationSha256": "8a950417b160aa0287502b9de3ee8a89201fc6aa4fcd980f9595c65fd9e4f06e"
+  },
+  "historicalSourceByteExact": true,
+  "attempts": [
+    {
+      "attemptId": "attempt-v1",
+      "repetition": 1,
+      "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+      "sourceBytes": 123,
+      "status": "COMPILE-ERROR",
+      "captureCompleteness": "COMPLETE",
+      "fullCompilerResponses": [
+        {
+          "requestId": 23249,
+          "captureTimestamp": "2026-10-13T00:50:47.974Z",
+          "httpStatus": 200,
+          "responseSha256": "f00715c02a8e19556b750d42ccbd244870c5b7cadcf63bb2a0afd56c113b9195",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;c7e024054f5a4930b8946444cf969003",
+            "version": "1.0"
+          },
+          "compilerReason": "line 4: The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "warningsArrayExposed": false,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": true
+        }
+      ],
+      "backgroundCompilerResponses": [
+        {
+          "requestId": 23235,
+          "captureTimestamp": "2026-10-13T00:50:47.560Z",
+          "httpStatus": 200,
+          "responseSha256": "63966d7670dda141312e6164e3a4f5d65cfd2d0cddd5a81732400d8e4736fc78",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null
+        }
+      ],
+      "settledMarkerCount": 2,
+      "editorErrorCount": 1,
+      "editorWarningCount": 1,
+      "warningRawIndices": [
+        0
+      ],
+      "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b",
+      "immediateChannel": "OBSERVED",
+      "freshNewPrivateSave": true,
+      "cachedFullResponse": false,
+      "addToChart": "NOT-APPLICABLE-LIBRARY",
+      "nativeIdentity": {
+        "scriptIdPart": "USER;c7e024054f5a4930b8946444cf969003",
+        "version": "1.0"
+      },
+      "observationPath": "v87-v5-library-duplicate-method-order-p4250m-v1/attempt-v1/observation-v1.json",
+      "chartRestored": true
+    },
+    {
+      "attemptId": "attempt-v2",
+      "repetition": 2,
+      "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+      "sourceBytes": 123,
+      "status": "COMPILE-ERROR",
+      "captureCompleteness": "COMPLETE",
+      "fullCompilerResponses": [
+        {
+          "requestId": 23276,
+          "captureTimestamp": "2026-10-13T00:51:13.411Z",
+          "httpStatus": 200,
+          "responseSha256": "1588ecdb6684b8687e78599c2a01fca3bf81d6fee7ff83948427cf2985007b3a",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;784d4d7bae88467ca477a5098589f91e",
+            "version": "1.0"
+          },
+          "compilerReason": "line 4: The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "warningsArrayExposed": false,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": true
+        }
+      ],
+      "backgroundCompilerResponses": [
+        {
+          "requestId": 23263,
+          "captureTimestamp": "2026-10-13T00:51:13.015Z",
+          "httpStatus": 200,
+          "responseSha256": "63966d7670dda141312e6164e3a4f5d65cfd2d0cddd5a81732400d8e4736fc78",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null
+        }
+      ],
+      "settledMarkerCount": 2,
+      "editorErrorCount": 1,
+      "editorWarningCount": 1,
+      "warningRawIndices": [
+        0
+      ],
+      "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b",
+      "immediateChannel": "OBSERVED",
+      "freshNewPrivateSave": true,
+      "cachedFullResponse": false,
+      "addToChart": "NOT-APPLICABLE-LIBRARY",
+      "nativeIdentity": {
+        "scriptIdPart": "USER;784d4d7bae88467ca477a5098589f91e",
+        "version": "1.0"
+      },
+      "observationPath": "v87-v5-library-duplicate-method-order-p4250m-v1/attempt-v2/observation-v1.json",
+      "chartRestored": true
+    },
+    {
+      "attemptId": "attempt-v3",
+      "repetition": 3,
+      "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+      "sourceBytes": 123,
+      "status": "COMPILE-ERROR",
+      "captureCompleteness": "COMPLETE",
+      "fullCompilerResponses": [
+        {
+          "requestId": 23301,
+          "captureTimestamp": "2026-10-13T00:51:30.415Z",
+          "httpStatus": 200,
+          "responseSha256": "b9aa8fa613601d8b944e80ea2bc9a12ad7f91a5ddf8b379ce29f6a23c9983ab6",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-full-compiler",
+          "success": false,
+          "nativeIdentity": {
+            "scriptIdPart": "USER;387ecdf3ed1e4f9f8d989c5cff88142a",
+            "version": "1.0"
+          },
+          "compilerReason": "line 4: The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null,
+          "warningsArrayExposed": false,
+          "metaInfoWarnings": [],
+          "advisoryPresence": "ABSENT-FROM-COMPLETE-RESPONSE",
+          "cached": false,
+          "freshNewPrivateSave": true
+        }
+      ],
+      "backgroundCompilerResponses": [
+        {
+          "requestId": 23288,
+          "captureTimestamp": "2026-10-13T00:51:29.999Z",
+          "httpStatus": 200,
+          "responseSha256": "63966d7670dda141312e6164e3a4f5d65cfd2d0cddd5a81732400d8e4736fc78",
+          "sourceSha256": "6534235978261522d77f6244fb96bc7c6c3c7479e040909297d7f17191f5cb86",
+          "responseComplete": true,
+          "requestSourceByteExact": true,
+          "channel": "native-background-translate-light",
+          "success": true,
+          "errors": [
+            {
+              "end": {
+                "column": 30,
+                "line": 4
+              },
+              "message": "The 'pick' function has overloads with the same parameters. The type of parameters must be different in overloaded versions of functions.",
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          ],
+          "warnings": null
+        }
+      ],
+      "settledMarkerCount": 2,
+      "editorErrorCount": 1,
+      "editorWarningCount": 1,
+      "warningRawIndices": [
+        0
+      ],
+      "orderedListSha256": "d457fdf3da0f42f8e0b9c2a6f9bad9682e96cf37de8e10594ba597fbb6f67b6b",
+      "immediateChannel": "OBSERVED",
+      "freshNewPrivateSave": true,
+      "cachedFullResponse": false,
+      "addToChart": "NOT-APPLICABLE-LIBRARY",
+      "nativeIdentity": {
+        "scriptIdPart": "USER;387ecdf3ed1e4f9f8d989c5cff88142a",
+        "version": "1.0"
+      },
+      "observationPath": "v87-v5-library-duplicate-method-order-p4250m-v1/attempt-v3/observation-v1.json",
+      "chartRestored": true
+    }
+  ],
+  "classification": "STABLE-ADVISORY-FIRST",
+  "observedSettledSemanticListsEqual": true,
+  "engineChange": false,
+  "numericCredit": false
+}
