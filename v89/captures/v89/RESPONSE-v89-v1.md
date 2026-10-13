@@ -1,0 +1,48 @@
+# Oracle v89 response v1
+
+**Both v5 and v6 record first requested daily change=false, missing mask `0`, and counter `0`.** All four fresh native private Save/Add captures **RUNS**. Their carried first-evaluation snapshots are identical: `FIRST_REQUEST_TIME=1502928000000` (**2017-08-17 00:00 UTC**), requested bar index `0`, isfirst `1`, change `0`, counter `0`, change-is-na `0`. Neither version records a missing first change in this discriminator.
+
+Both repeats and both v5/v6 comparisons agree exactly on **4,469 common confirmed 2-minute chart rows whose requested daily bars are closed**. The comparison preserves raw strings in native chart OHLCV and all 16 requested observer columns; counts are never shifted or calibrated. These minimal sources omit the original pivot array, so the observations do not certify complete original-program historical/provider equivalence or confer engine/parity credit.
+
+| Source / attempt | Freshness / native identity (version 1.0) | Chart CSV earliest UTC | Carried requested first time / index / isfirst / change / missing / counter | First-evaluated marker visible | Export rows / closed-daily eligible / developing-daily rows | Repeat agreement |
+| --- | --- | --- | --- | --- | --- | --- |
+| [v5 / 1](v89-v5-requested-daily-counter-p4250m-v1/attempt-v1/frontier-observation-v1.json) | Fresh Save/new 23395 + Add translate 23400, both HTTP 200; `USER;171a654cc0cf47a5ab86934f2cb46489` | 2026-10-06 19:02 | 2017-08-17 00:00 / `0` / `1` / `0` / `0` / `0` | No; carried snapshot observed | 4621 / 4469 / 152 | Exact on common eligible rows |
+| [v6 / 1](v89-v6-requested-daily-counter-p4250m-v1/attempt-v1/frontier-observation-v1.json) | Fresh Save/new 23441 + Add translate 23446, both HTTP 200; `USER;69cfafa35eb34919b1535ba8e821879a` | 2026-10-06 19:02 | 2017-08-17 00:00 / `0` / `1` / `0` / `0` / `0` | No; carried snapshot observed | 4622 / 4469 / 153 | Exact on common eligible rows |
+| [v5 / 2](v89-v5-requested-daily-counter-p4250m-v1/attempt-v2/frontier-observation-v1.json) | Fresh Save/new 23490 + Add translate 23495, both HTTP 200; `USER;96ee623187ca4242ae4385d7582059ae` | 2026-10-06 19:02 | 2017-08-17 00:00 / `0` / `1` / `0` / `0` / `0` | No; carried snapshot observed | 4623 / 4469 / 154 | Exact on common eligible rows |
+| [v6 / 2](v89-v6-requested-daily-counter-p4250m-v1/attempt-v2/frontier-observation-v1.json) | Fresh Save/new 23532 + Add translate 23537, both HTTP 200; `USER;0a86804599224db5ad9f796ce290ee1c` | 2026-10-06 19:02 | 2017-08-17 00:00 / `0` / `1` / `0` / `0` / `0` | No; carried snapshot observed | 4623 / 4469 / 154 | Exact on common eligible rows |
+
+## Native calculation and history boundaries
+
+The already-open **basic** chart, layout ID **xlvYwHdH**, remained **BINANCE:BTCUSDT, 2 minutes, Etc/UTC**. The native chart model confirmed its actual interval; the stale URL interval was not used. Both exact sources perform their explicit BINANCE:BTCUSDT/1D calculation internally with lookahead_on and the requested omitted calc_bars_count/max_bars_back.
+
+Every export starts at `1791313320` chart seconds, **2026-10-06 19:02 UTC**, with CHART_BAR_INDEX `16411`. The request-added study's available native plot buffer starts earlier, **2026-10-06 12:46 UTC**, at chart index `16223`. Those nonzero indices identify cropped available chart histories; the actual chart calculation origin is unobserved and is not inferred from either buffer start.
+
+The first exported daily frame is **2026-10-06 00:00 UTC**, requested index `3337`, isfirst `0`, first-evaluated `0`, change `1`, counter `3337`, missing mask `0`. The latest exported requested frame is **2026-10-13 00:00 UTC**, index/counter `3344`, change `1`, missing mask `0`. Daily tuples repeat over merged 2m rows; those repetitions are not additional daily calculations or counter increments.
+
+The actual requested first evaluation precedes all available chart rows. No exported REQUEST_FIRST_EVALUATED is `1`, but every row carries the same six first-evaluation fields assigned inside f_observers. Their 2017 time, index `0`, isfirst `1`, false/nonmissing change and counter `0` are observed source outputs, not guessed from the late count. No earlier daily OHLCV was reconstructed.
+
+## Closure, raw exports and repeat comparisons
+
+Capture/export clocks are **2026-10-13 05:03:25.220Z**, **05:05:06.175Z**, **05:06:57.818Z** and **05:07:44.672Z** in chronological order. All Oct 13 requested daily intervals are developing and remain unscored, including rows whose CHART_ISCONFIRMED is already `1`. Each raw export retains its final unconfirmed chart row and all developing requested-daily rows.
+
+Each `row-closure-mask-v1.csv` identifies the original CSV row, chart timestamp, requested daily timestamp, observed native daily closing boundary, chart confirmation and comparison eligibility. Native `D_TIME`/`D_TIME_CLOSE` columns from the untouched original study corroborate the requested time and its UTC daily closing boundary. They are retained as original export columns, without synthesized daily OHLCV. The common eligible chart interval is **2026-10-06 19:02 through 2026-10-12 23:58 UTC**, covering seven closed requested dates, Oct 6–12. Oct 6's available chart coverage is partial; no missing earlier rows were invented.
+
+[Repeat/version comparison](repeat-version-comparison-v1.json) records all four pairwise comparisons, their aligned REQUEST_TIME frames, raw-string columns, common-row counts and zero differences. The first-frontier fields agree separately across all four attempts. Preserved full native CSVs include original-study columns and the additional 16 observer columns; duplicate `CHART_TIME` headers are preserved, and observer column positions are explicitly indexed. No export is falsely labeled source-isolated. Empty cells and numeric strings remain unchanged.
+
+## Independent diagnostics and native actions
+
+Eight complete full compiler bodies report `success:true`, with 16 observer plots per native script; four complete exact-source background translate_light bodies are retained separately. No full compiler response exposes a reason2 array; missing arrays are recorded as unexposed/null, while observed metaInfo warnings are preserved. The v5 editor contains the native outdated-version advisory; v6 has no editor marker after settling. Immediate/settled raw editor arrays, owners/resources, timestamps and compiler bodies remain separate.
+
+Four separate native Indicator drafts were privately Saved under the probe basename plus `-attempt-v1` or `-attempt-v2`. Exact source hashes are **v5 `348244d550c9a9b867654f98620f07da23ad79e96d5734c7097dcfcfa90486f2` (2638 bytes)** and **v6 `eb286a21a27c5a6f369f20c9daf192f993338e78253e969ce6bede12008f88ea` (2617 bytes)**. No declaration, symbol, timeframe, lookahead, source byte or input was repaired or changed. Distinct private identities, fresh Save/new transactions, distinct added-study IDs and populated native plot buffers establish the four independent captures.
+
+Native Download chart data generated each retained CSV. The previously installed native download-blob observer copied those exact Blob bytes through Chrome MCP; there was no replacement compiler/data API or raw CDP. Export used the existing UNIX timestamp option without changing its preference. Only request-added studies were removed; original studies were never removed or hidden for export.
+
+The initial screenshots did not show the lower Data Window fields. Each same round-created private script was subsequently reopened for **inspection only**, Added within the same authorized chart scope, and its Data Window scrolled to show all 16 fields. `data-window-frontier-v1.jpg`, its full accessible snapshot, and `data-window-inspection-v1.json` retain that separate timestamped inspection. The scroll position was restored and each inspection-added study removed. Those four supplementary inspections receive no additional fresh-capture or CSV credit. Three local helper setup/selector failures preceded any supplementary Add and are retained in the environment receipt; they did not affect the four captures.
+
+Initial, each restored capture, each restored inspection and final chart identity agree on symbol, interval, timezone, style, full main-series/other-study properties and original Pine study IDs/inputs. No layout, symbol, interval or setting change, publication, Share, visibility change, alert, library action or private-script deletion occurred. Four private unpublished Saves remain on the account.
+
+The original Pine study's full properties after this round also match its preceding committed v88 native context exactly. [Property comparison](environment-v1/original-pine-property-comparison-v1.json) binds that prior commit and timestamp to the new post-round observation; the older context is not relabeled as a v89 before-capture sample. The preceding native saved/autosave state is retained as provenance, and no save/layout preference was changed during v89.
+
+## Evidence integrity
+
+[Attempt inventory](attempt-inventory-v1.json) binds exact sources, identities, fresh transactions, CSV headers/hashes, clocks, both available history boundaries, carried frontier observations, closure counts and screenshots. [Audit](audit-v1.json): PASS for four exact executed sources, eight full compiler bodies, four background bodies, four native exports, 16 observer columns each, complete Data Window evidence, comparisons and restoration. All five request SHA256SUMS entries pass. [Integrity inventory](integrity-v1.json) records every artifact's bytes and SHA-256, excluding itself. No engine change, guessed initialization, shifted count, runtime-provider synthesis or numeric parity credit is made by the capture agent.
