@@ -1,0 +1,59 @@
+{
+  "version": "v1",
+  "observedAtUtc": "2026-10-14T04:59:13.429838+00:00",
+  "status": "BLOCKED-TOOLING",
+  "chromeMcpToolsExposedInActiveSession": 0,
+  "configuredChromeMcpEndpoint": "http://127.0.0.1:9223/mcp",
+  "commands": [
+    {
+      "command": [
+        "codex",
+        "mcp",
+        "list"
+      ],
+      "observedAtUtc": "2026-10-14T04:59:13.644085+00:00",
+      "exitCode": 0,
+      "stdout": "Name                 Url                                Bearer Token Env Var  Status   Auth       \nchrome-devtools      http://127.0.0.1:9223/mcp          -                     enabled  Unknown    \nopenaiDeveloperDocs  https://developers.openai.com/mcp  -                     enabled  Unsupported\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lsof",
+        "-nP",
+        "-iTCP:9222",
+        "-sTCP:LISTEN"
+      ],
+      "observedAtUtc": "2026-10-14T04:59:15.557630+00:00",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lsof",
+        "-nP",
+        "-iTCP:9223",
+        "-sTCP:LISTEN"
+      ],
+      "observedAtUtc": "2026-10-14T04:59:15.604632+00:00",
+      "exitCode": 1,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "canaryObservedProcess": {
+    "pid": 518,
+    "command": "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",
+    "debuggingArgumentPresent": false,
+    "observation": "Earlier native process listing; no current browser state inferred"
+  },
+  "launcherLogObservation": {
+    "path": "/tmp/chrome-mcp-canary.log",
+    "text": "A different Canary instance is running \u2014 quit it first (it will block CDP on the debug profile)."
+  },
+  "browserRelaunchApproval": "PENDING",
+  "browserRelaunchPerformed": false,
+  "mcpCallsAttempted": 0,
+  "nativeChannels": "UNOBSERVED",
+  "accountActions": []
+}

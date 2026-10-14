@@ -1,0 +1,106 @@
+{
+  "version": "v1",
+  "requiredFields": [
+    "attemptId",
+    "sourcePath",
+    "executedSourceSha256",
+    "exactExecutedSourcePath",
+    "symbol",
+    "provider",
+    "timeframe",
+    "chartTimezone",
+    "exchangeTimezone",
+    "session",
+    "feedStatus",
+    "addedAtUtc",
+    "initialMode",
+    "targetBarTimeMs",
+    "targetBarIndex",
+    "historicalPrefix",
+    "events",
+    "exports",
+    "columnBindings",
+    "accountActions",
+    "contextStatus",
+    "missingFacets"
+  ],
+  "initialModeEnum": [
+    "SCRIPT_ATTACH_FIRST_LAST_EVALUATION",
+    "LATER_BAR_FIRST_EVALUATION"
+  ],
+  "contextStatusEnum": [
+    "CONTEXT-MET",
+    "CONTEXT-UNMET",
+    "COMPILE-ERROR",
+    "RUNTIME-ERROR"
+  ],
+  "eventOrder": [
+    "INITIAL_OPEN",
+    "UPDATE1",
+    "UPDATE2",
+    "BAR_CLOSE"
+  ],
+  "eventFields": [
+    "phase",
+    "holderCsvSha256",
+    "holderCsvRowOrdinal",
+    "framePrefix",
+    "barTimeMsRaw",
+    "barIndexRaw",
+    "clockMsRaw",
+    "executionRaw",
+    "ohlcvRawStrings",
+    "flagsRaw",
+    "decodedFlags",
+    "physicalOpenOrCloseEvidencePath",
+    "captureUtc",
+    "exportUtc",
+    "sourceSessionId"
+  ],
+  "exportFields": [
+    "path",
+    "sha256",
+    "bytes",
+    "capturedAtUtc",
+    "exportedAtUtc",
+    "sourceStudyIds",
+    "rawHeadersByOrdinal",
+    "observedCurrentPhase",
+    "reloadDetected"
+  ],
+  "historicalPrefixFields": [
+    "parentCsvSha256",
+    "rowOrdinals",
+    "physicallyConfirmedCutoff",
+    "excludesTargetT",
+    "availablePrecedingBars",
+    "firstScriptIndexRaw"
+  ],
+  "accountActions": {
+    "permitted": [
+      "chart view/navigation",
+      "paste unsaved draft",
+      "Add to chart",
+      "Data Window inspection",
+      "chart-data export"
+    ],
+    "prohibited": [
+      "save script",
+      "save layout",
+      "publish",
+      "share",
+      "alerts",
+      "library publication",
+      "account/preference/subscription changes"
+    ],
+    "mustRecordActualActions": true
+  },
+  "missingValuePolicy": "original string + NA flag; never zero-fill",
+  "unobservedFields": "omit or null plus missing-facet reason; never fabricated",
+  "volumeFacets": [
+    "historicalPrefixMissingVolume",
+    "initialOpenMissingVolume",
+    "liveZeroVolumeRecoveryObserved"
+  ],
+  "controlPolicy": "independent session; match only identical native contexts; no substitution of missing primary events"
+}
