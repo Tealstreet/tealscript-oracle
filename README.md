@@ -6,6 +6,10 @@ See [MIGRATION.md](MIGRATION.md) for the application cutover, verification and o
 
 ## Capture and handoff
 
+The active v90 request is [v90/HANDOFF-v90-v1.md](v90/HANDOFF-v90-v1.md): DXY live2m, daily1D and2m provider binding, full-prefix custom-cum and footprint-provider presence on NEW throwaway layouts. PRIVATE unpublished Save/Add/remove is allowed. Existing layouts and the retained private library must not change; publication/share/visibility/alerts/library actions remain forbidden. The exact owner-authorized method and per-family evidence rules are in the handoff.
+
+Earlier request notices below are historical; their old account restrictions/publication steps do not govern or authorize new v90 actions.
+
 The v89 request is [v89/HANDOFF-v89-v1.md](v89/HANDOFF-v89-v1.md): v5/v6 explicit daily request discriminators on the **existing basic BTCUSDT 2m UTC chart**, two PRIVATE Save/Add/export/remove captures each. No chart, symbol, interval or layout changes. This replaces the blocked v88 chart prerequisite.
 
 The v88 request is [v88/HANDOFF-v88-v1.md](v88/HANDOFF-v88-v1.md): v5/v6 requested daily first-change/counter probes, two fresh private Save/Add captures each on an authorized BINANCE:BTCUSDT1D context. No saved-layout symbol/interval changes or library actions.

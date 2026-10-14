@@ -1,0 +1,56 @@
+[
+  {
+    "hold": "v81-dxy-live-input-context",
+    "requestId": "v90-dxy-live",
+    "status": "RETRY-AUTHORIZED-NEW-LAYOUT",
+    "limitation": "Exact2m entitlement and genuine physical-open/update/close sequence still required."
+  },
+  {
+    "hold": "v88-daily-chart-context",
+    "requestId": "v90-daily-context",
+    "status": "RETRY-AUTHORIZED-NEW-LAYOUT",
+    "limitation": "v89 already closed original counter; new1D chart evidence is a separate context."
+  },
+  {
+    "hold": "census-context-01/02",
+    "requestId": "v90-daily-context",
+    "status": "FRESH-PROVIDER-INPUTS-REQUESTED; ORIGINALS-STILL-HELD",
+    "limitation": "Old developing as-of history is irrecoverable from today; imported originals remain outside authorized method."
+  },
+  {
+    "hold": "census-context-07/08",
+    "requestId": "v90-cum-prefix",
+    "status": "FRESH-COMPLETE-PREFIX-REQUESTED",
+    "limitation": "Only native full physical prefix with matching calculation frontier permits fresh replay; old seed is not calibrated."
+  },
+  {
+    "hold": "census-context-13/14",
+    "requestId": null,
+    "status": "HISTORIC-CLOCK-UNRECOVERABLE",
+    "limitation": "New layouts cannot recreate original per-evaluation execution-clock schedules; no target-derived input."
+  },
+  {
+    "hold": "census-context-21",
+    "requestId": "v90-footprint-presence",
+    "status": "FRESH-PROVIDER-PRESENCE-REQUESTED",
+    "limitation": "Entitlement/actual provider fields and exact timestamps required; no OHLCV fabrication."
+  },
+  {
+    "hold": "two private-v5 marker-order attempts / census-v7 rank2",
+    "requestId": null,
+    "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+    "limitation": "Library IMPORT remains forbidden. Keep sours-lat/P425PrivateV79v1/1 untouched."
+  },
+  {
+    "hold": "91 advisory-order / advisory-presence instability",
+    "requestId": null,
+    "status": "ORDER/PRESENCE-UNSTABLE-NO-CREDIT",
+    "limitation": "Recorded instability, not a layout prerequisite; no redundant repeat round."
+  },
+  {
+    "hold": "seven v58 runtime-payload/context-held observations",
+    "requestId": null,
+    "status": "UNCHANGED-PAYLOAD/REMOTE-CONTEXT-HOLD",
+    "limitation": "Missing old remote runtime payload/provider evidence is not a layout-only blocker; no REMOTE substitution or source repair."
+  }
+]
