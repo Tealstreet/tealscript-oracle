@@ -1,0 +1,80 @@
+
+------WebKitFormBoundaryv9TQBcusS50TfmiE
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("V81 DXY live input observer", precision=16)
+
+retainFrame(array<float> frame, int stateMask, int execution) =>
+    array.set(frame, 0, open)
+        array.set(frame, 1, high)
+            array.set(frame, 2, low)
+                array.set(frame, 3, close)
+                    array.set(frame, 4, volume)
+                        array.set(frame, 5, float(time))
+                            array.set(frame, 6, float(time_close))
+                                array.set(frame, 7, float(timenow))
+                                    array.set(frame, 8, float(bar_index))
+                                        array.set(frame, 9, float(stateMask))
+                                            array.set(frame, 10, float(execution))
+                                                0
+
+                                                varip int trackedTime = na
+                                                varip int attachTime = na
+                                                varip int executionCount = 0
+                                                varip int savedUpdates = 0
+                                                varip bool closeSaved = false
+                                                varip array<float> initialFrame = array.new<float>(11, na)
+                                                varip array<float> updateOneFrame = array.new<float>(11, na)
+                                                varip array<float> updateTwoFrame = array.new<float>(11, na)
+                                                varip array<float> closeFrame = array.new<float>(11, na)
+
+                                                stateMask = (barstate.isnew ? 1 : 0) + (barstate.isrealtime ? 2 : 0) + (barstate.isconfirmed ? 4 : 0) + (barstate.ishistory ? 8 : 0) + (barstate.islast ? 16 : 0) + (barstate.islastconfirmedhistory ? 32 : 0) + (barstate.isfirst ? 64 : 0) + (na(volume) ? 128 : 0) + (na(open) ? 256 : 0) + (na(high) ? 512 : 0) + (na(low) ? 1024 : 0) + (na(close) ? 2048 : 0)
+                                                newTrackedBar = barstate.islast and (na(trackedTime) or trackedTime != time)
+
+                                                if newTrackedBar
+                                                    trackedTime := time
+                                                        if na(attachTime)
+                                                                attachTime := time
+                                                                    executionCount := 0
+                                                                        savedUpdates := 0
+                                                                            closeSaved := false
+                                                                                array.fill(initialFrame, na)
+                                                                                    array.fill(updateOneFrame, na)
+                                                                                        array.fill(updateTwoFrame, na)
+                                                                                            array.fill(closeFrame, na)
+
+                                                                                            // Time-key reset preserves an initial historical-looking open frame across isnew.
+                                                                                            if barstate.islast
+                                                                                                executionCount += 1
+                                                                                                    if newTrackedBar
+                                                                                                            retainFrame(initialFrame, stateMask, executionCount)
+                                                                                                                else if barstate.isrealtime and not barstate.isconfirmed and savedUpdates < 2
+                                                                                                                        if savedUpdates == 0
+                                                                                                                                    retainFrame(updateOneFrame, stateMask, executionCount)
+                                                                                                                                            else
+                                                                                                                                                        retainFrame(updateTwoFrame, stateMask, executionCount)
+                                                                                                                                                                savedUpdates += 1
+                                                                                                                                                                    if barstate.isrealtime and barstate.isconfirmed and not closeSaved
+                                                                                                                                                                            retainFrame(closeFrame, stateMask, executionCount)
+                                                                                                                                                                                    closeSaved := true
+
+                                                                                                                                                                                    plot(open, "CURRENT_OPEN")
+                                                                                                                                                                                    plot(high, "CURRENT_HIGH")
+                                                                                                                                                                                    plot(low, "CURRENT_LOW")
+                                                                                                                                                                                    plot(close, "CURRENT_CLOSE")
+                                                                                                                                                                                    plot(volume, "CURRENT_VOLUME")
+                                                                                                                                                                                    plot(time, "CURRENT_BAR_TIME_MS")
+                                                                                                                                                                                    plot(time_close, "CURRENT_TIME_CLOSE_MS")
+                                                                                                                                                                                    plot(timenow, "CURRENT_CLOCK_MS")
+                                                                                                                                                                                    plot(bar_index, "CURRENT_BAR_INDEX")
+                                                                                                                                                                                    plot(stateMask, "CURRENT_FLAGS")
+                                                                                                                                                                                    plot(executionCount, "CURRENT_EXECUTION")
+                                                                                                                                                                                    plot(na(volume) ? 1 : 0, "CURRENT_VOLUME_NA")
+                                                                                                                                                                                    plot(barstate.isnew ? 1 : 0, "CURRENT_ISNEW")
+                                                                                                                                                                                    plot(barstate.isrealtime ? 1 : 0, "CURRENT_ISREALTIME")
+                                                                                                                                                                                    plot(barstate.isconfirmed ? 1 : 0, "CURRENT_ISCONFIRMED")
+                                                                                                                                                                                    plot(barstate.ishistory ? 1 : 0, "CURRENT_ISHISTORY")
+                                                                                                                                                                                    plot((not na(array.get(initialFrame, 5)) ? 1 : 0) + (savedUpdates >= 1 ? 2 : 0) + (savedUpdates >= 2 ? 4 : 0) + (closeSaved ? 8 : 0), "STAGES_PRESENT")
+                                                                                                                                                                                    plot(attachTime, "ATTACH_BAR_TIME_MS")
+                                                                                                                                                                                    plot(not na(attachTime) and time == attachTim... <truncated>

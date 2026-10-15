@@ -1,0 +1,37 @@
+{
+  "version": "v1",
+  "status": "COMPILE-ERROR; SOURCE-TRANSPORT-FAILURE-NO-CREDIT",
+  "nativeRequestId": 1051,
+  "privateScriptId": "USER;b315fd2a10c04f6dbe95e589c9cf01ee",
+  "scriptVersion": "1.0",
+  "requestedSourceSha256": "a603888e4cdbfddbcddda898400c5058b55c9fd691c5a0b3246b678cace3d60e",
+  "actualExecutedSourceSha256": "762a076556350952d1c6acca3b8558a840f10114ef69f5acd1b02a48771fcf31",
+  "sourceMatchesRequest": false,
+  "cause": "Native typing auto-indented subsequent lines; this altered source was saved before the source mismatch was detected. No Add was performed.",
+  "nativeCompilerSuccess": false,
+  "nativeReason2": {
+    "errors": [
+      {
+        "code": "CE10013",
+        "ctx": {
+          "expecting": "\"end of line without line continuation\"",
+          "unexpectedToken": "\"array\""
+        },
+        "end": {
+          "column": 13,
+          "line": 6
+        },
+        "message": "Mismatched input {unexpectedToken} expecting set {expecting}",
+        "start": {
+          "column": 9,
+          "line": 6
+        }
+      }
+    ]
+  },
+  "immediateMarkerArray": null,
+  "settledMarkerArray": null,
+  "csv": null,
+  "accountAction": "PRIVATE unpublished Save/new only",
+  "nativeProbeOutcomeCredit": 0
+}

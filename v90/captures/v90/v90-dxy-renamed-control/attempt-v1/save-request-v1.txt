@@ -1,0 +1,125 @@
+------WebKitFormBoundarymNg5P4nALaq22HJa
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("V81 DXY renamed input observer", precision=16)
+
+recordSample(array<float> sampleBuffer, int observedBits, int sampleOrdinal) =>
+    array.set(sampleBuffer, 0, open)
+    array.set(sampleBuffer, 1, high)
+    array.set(sampleBuffer, 2, low)
+    array.set(sampleBuffer, 3, close)
+    array.set(sampleBuffer, 4, volume)
+    array.set(sampleBuffer, 5, float(time))
+    array.set(sampleBuffer, 6, float(time_close))
+    array.set(sampleBuffer, 7, float(timenow))
+    array.set(sampleBuffer, 8, float(bar_index))
+    array.set(sampleBuffer, 9, float(observedBits))
+    array.set(sampleBuffer, 10, float(sampleOrdinal))
+    0
+
+varip int observedBarTime = na
+varip int firstAttachedTime = na
+varip int lastBarExecutions = 0
+varip int recordedUpdates = 0
+varip bool closingRecorded = false
+varip array<float> startupSample = array.new<float>(11, na)
+varip array<float> firstUpdateSample = array.new<float>(11, na)
+varip array<float> secondUpdateSample = array.new<float>(11, na)
+varip array<float> closingSample = array.new<float>(11, na)
+
+observedBits = (barstate.isnew ? 1 : 0) + (barstate.isrealtime ? 2 : 0) + (barstate.isconfirmed ? 4 : 0) + (barstate.ishistory ? 8 : 0) + (barstate.islast ? 16 : 0) + (barstate.islastconfirmedhistory ? 32 : 0) + (barstate.isfirst ? 64 : 0) + (na(volume) ? 128 : 0) + (na(open) ? 256 : 0) + (na(high) ? 512 : 0) + (na(low) ? 1024 : 0) + (na(close) ? 2048 : 0)
+changedObservedBar = barstate.islast and (na(observedBarTime) or observedBarTime != time)
+
+if changedObservedBar
+    observedBarTime := time
+    if na(firstAttachedTime)
+        firstAttachedTime := time
+    lastBarExecutions := 0
+    recordedUpdates := 0
+    closingRecorded := false
+    array.fill(startupSample, na)
+    array.fill(firstUpdateSample, na)
+    array.fill(secondUpdateSample, na)
+    array.fill(closingSample, na)
+
+// Time-key reset preserves an initial historical-looking open sampleBuffer across isnew.
+if barstate.islast
+    lastBarExecutions += 1
+    if changedObservedBar
+        recordSample(startupSample, observedBits, lastBarExecutions)
+    else if barstate.isrealtime and not barstate.isconfirmed and recordedUpdates < 2
+        if recordedUpdates == 0
+            recordSample(firstUpdateSample, observedBits, lastBarExecutions)
+        else
+            recordSample(secondUpdateSample, observedBits, lastBarExecutions)
+        recordedUpdates += 1
+    if barstate.isrealtime and barstate.isconfirmed and not closingRecorded
+        recordSample(closingSample, observedBits, lastBarExecutions)
+        closingRecorded := true
+
+plot(open, "CURRENT_OPEN")
+plot(high, "CURRENT_HIGH")
+plot(low, "CURRENT_LOW")
+plot(close, "CURRENT_CLOSE")
+plot(volume, "CURRENT_VOLUME")
+plot(time, "CURRENT_BAR_TIME_MS")
+plot(time_close, "CURRENT_TIME_CLOSE_MS")
+plot(timenow, "CURRENT_CLOCK_MS")
+plot(bar_index, "CURRENT_BAR_INDEX")
+plot(observedBits, "CURRENT_FLAGS")
+plot(lastBarExecutions, "CURRENT_EXECUTION")
+plot(na(volume) ? 1 : 0, "CURRENT_VOLUME_NA")
+plot(barstate.isnew ? 1 : 0, "CURRENT_ISNEW")
+plot(barstate.isrealtime ? 1 : 0, "CURRENT_ISREALTIME")
+plot(barstate.isconfirmed ? 1 : 0, "CURRENT_ISCONFIRMED")
+plot(barstate.ishistory ? 1 : 0, "CURRENT_ISHISTORY")
+plot((not na(array.get(startupSample, 5)) ? 1 : 0) + (recordedUpdates >= 1 ? 2 : 0) + (recordedUpdates >= 2 ? 4 : 0) + (closingRecorded ? 8 : 0), "STAGES_PRESENT")
+plot(firstAttachedTime, "ATTACH_BAR_TIME_MS")
+plot(not na(firstAttachedTime) and time == firstAttachedTime ? 1 : 0, "IS_ATTACH_BAR")
+plot(array.get(startupSample, 0), "INITIAL_OPEN")
+plot(array.get(startupSample, 1), "INITIAL_HIGH")
+plot(array.get(startupSample, 2), "INITIAL_LOW")
+plot(array.get(startupSample, 3), "INITIAL_CLOSE")
+plot(array.get(startupSample, 4), "INITIAL_VOLUME")
+plot(array.get(startupSample, 5), "INITIAL_BAR_TIME_MS")
+plot(array.get(startupSample, 6), "INITIAL_TIME_CLOSE_MS")
+plot(array.get(startupSample, 7), "INITIAL_CLOCK_MS")
+plot(array.get(startupSample, 8), "INITIAL_BAR_INDEX")
+plot(array.get(startupSample, 9), "INITIAL_FLAGS")
+plot(array.get(startupSample, 10), "INITIAL_EXECUTION")
+plot(array.get(firstUpdateSample, 0), "UPDATE1_OPEN")
+plot(array.get(firstUpdateSample, 1), "UPDATE1_HIGH")
+plot(array.get(firstUpdateSample, 2), "UPDATE1_LOW")
+plot(array.get(firstUpdateSample, 3), "UPDATE1_CLOSE")
+plot(array.get(firstUpdateSample, 4), "UPDATE1_VOLUME")
+plot(array.get(firstUpdateSample, 5), "UPDATE1_BAR_TIME_MS")
+plot(array.get(firstUpdateSample, 6), "UPDATE1_TIME_CLOSE_MS")
+plot(array.get(firstUpdateSample, 7), "UPDATE1_CLOCK_MS")
+plot(array.get(firstUpdateSample, 8), "UPDATE1_BAR_INDEX")
+plot(array.get(firstUpdateSample, 9), "UPDATE1_FLAGS")
+plot(array.get(firstUpdateSample, 10), "UPDATE1_EXECUTION")
+plot(array.get(secondUpdateSample, 0), "UPDATE2_OPEN")
+plot(array.get(secondUpdateSample, 1), "UPDATE2_HIGH")
+plot(array.get(secondUpdateSample, 2), "UPDATE2_LOW")
+plot(array.get(secondUpdateSample, 3), "UPDATE2_CLOSE")
+plot(array.get(secondUpdateSample, 4), "UPDATE2_VOLUME")
+plot(array.get(secondUpdateSample, 5), "UPDATE2_BAR_TIME_MS")
+plot(array.get(secondUpdateSample, 6), "UPDATE2_TIME_CLOSE_MS")
+plot(array.get(secondUpdateSample, 7), "UPDATE2_CLOCK_MS")
+plot(array.get(secondUpdateSample, 8), "UPDATE2_BAR_INDEX")
+plot(array.get(secondUpdateSample, 9), "UPDATE2_FLAGS")
+plot(array.get(secondUpdateSample, 10), "UPDATE2_EXECUTION")
+plot(array.get(closingSample, 0), "CLOSE_OPEN")
+plot(array.get(closingSample, 1), "CLOSE_HIGH")
+plot(array.get(closingSample, 2), "CLOSE_LOW")
+plot(array.get(closingSample, 3), "CLOSE_CLOSE")
+plot(array.get(closingSample, 4), "CLOSE_VOLUME")
+plot(array.get(closingSample, 5), "CLOSE_BAR_TIME_MS")
+plot(array.get(closingSample, 6), "CLOSE_TIME_CLOSE_MS")
+plot(array.get(closingSample, 7), "CLOSE_CLOCK_MS")
+plot(array.get(closingSample, 8), "CLOSE_BAR_INDEX")
+plot(array.get(closingSample, 9), "CLOSE_FLAGS")
+plot(array.get(closingSample, 10), "CLOSE_EXECUTION")
+
+------WebKitFormBoundarymNg5P4nALaq22HJa--

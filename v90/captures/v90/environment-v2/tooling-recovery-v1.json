@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "observedAtUtc": "2026-10-15T14:04:46.616251+00:00",
+  "nativeToolsRestored": true,
+  "firstNativeListPages": "Could not connect to Chrome. Cause: Unexpected server response: 404",
+  "repair": "Restarted existing io.tealstreet.chrome-devtools-mcp LaunchAgent; browser not restarted by this agent.",
+  "afterRepair": "Native list_pages succeeded; initially one New Tab.",
+  "nativeFileOutputFailures": [
+    "Snapshot/screenshot repo paths rejected by MCP workspace root policy.",
+    "Network body /tmp path rejected; actual Darwin user temp path accepted.",
+    "Inline network body is truncated at 10000 characters; raw truncated copies retained and superseded by complete native response files."
+  ],
+  "inputFailures": [
+    "Native typing auto-indented first DXY source; one rejected Save retained without credit.",
+    "OS clipboard experiments did not change Monaco content; clipboard equality was not a valid editor-byte proof and earns no credit.",
+    "Native keyboard line entry removed automatic indentation before inserting each exact requested line; native multipart Save source verified after form CRLF normalization."
+  ],
+  "captureMethod": "Only native Chrome MCP UI and native network inspection; no injected browser code, direct compiler/provider calls, replay or synthetic ticks.",
+  "sourceValidationAuthority": "Complete native Save request bodies, independent expected-source SHA256 checks."
+}
