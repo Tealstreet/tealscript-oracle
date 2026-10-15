@@ -1,0 +1,23 @@
+------WebKitFormBoundaryNlQ8ouB0ZVpBV8t9
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("TA custom boundary cum")
+type Holder
+    int value
+method cum(Holder self, int n) =>
+    self.value + n
+f(Holder ta) =>
+    ta.cum(13) * 2 + 1
+plot(f(Holder.new(7)))
+var int first_chart_time = time
+var int first_chart_index = bar_index
+plot(time, "CHART_TIME", display=display.data_window)
+plot(time_close, "CHART_TIME_CLOSE", display=display.data_window)
+plot(bar_index, "CHART_BAR_INDEX", display=display.data_window)
+plot(barstate.isfirst ? 1 : 0, "CHART_ISFIRST", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_ISCONFIRMED", display=display.data_window)
+plot(first_chart_time, "FIRST_CHART_TIME", display=display.data_window)
+plot(first_chart_index, "FIRST_CHART_INDEX", display=display.data_window)
+
+------WebKitFormBoundaryNlQ8ouB0ZVpBV8t9--

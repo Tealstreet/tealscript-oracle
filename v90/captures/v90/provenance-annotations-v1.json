@@ -1,0 +1,36 @@
+{
+  "version": "v1",
+  "recordedAtUtc": "2026-10-15T14:37:33.858273+00:00",
+  "priorArtifactsUnmodified": true,
+  "annotations": [
+    {
+      "path": "v90/captures/v90/v90-dxy-natural/attempt-v2/post-save-immediate-snapshot-v1.txt",
+      "sha256": "0edb6487b0e5d8dcd11a53ff21957f10fb3c2b4c65d6c203a854a945b381dd49",
+      "status": "STALE-UI-FROM-FAILED-PRIOR-SAVE; NOT-FRESH-MARKERS-FOR-EXACT-SOURCE",
+      "meaning": "Captured after unsuccessful clipboard entry while prior auto-indented private version1.0 and CE10013 remained in editor. Exact native keyboard source entry and successful private version2.0 Save/Add were later captured independently.",
+      "useInstead": [
+        "v90-dxy-natural/attempt-v2/post-save-keyboard-entry-v1.txt",
+        "v90-dxy-natural/attempt-v2/save-response-v1.txt",
+        "v90-dxy-natural/attempt-v2/add-response-v1.json"
+      ]
+    },
+    {
+      "paths": [
+        "v90-dxy-natural/attempt-v2/post-remove-v1.txt",
+        "v90-dxy-natural/attempt-v2/post-remove-v2.txt"
+      ],
+      "meaning": "Earlier legend-remove clicks did not establish study removal. Native Object tree selection/Delete is evidenced by post-remove-v3.txt."
+    },
+    {
+      "path": "v90-footprint-provider/attempt-v1/chart-native-v1.csv",
+      "meaning": "All study cells blank despite successful exact Save/Add and visible UI Plot1.00. Native export reason is unobserved; do not classify provider availability from these blank cells or silently substitute attempt2/3 values."
+    },
+    {
+      "paths": [
+        "v90-daily-chart-v5/attempt-v1/history-native-v1.csv",
+        "v90-cum-prefix-v5/attempt-v1/viewport-native-v1.csv"
+      ],
+      "meaning": "Early cropped exports and failed native calendar navigation are preserved. Full frontier exports are separate captures with independent UTC/CSV identity, never a splice."
+    }
+  ]
+}

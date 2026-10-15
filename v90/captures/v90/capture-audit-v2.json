@@ -1,0 +1,40 @@
+{
+  "version": "v2",
+  "observedAtUtc": "2026-10-15T14:39:58.153091+00:00",
+  "supersedes": "capture-audit-v1.json",
+  "status": "PASS WITH RECORDED CONTEXT HOLDS",
+  "requestChecksums": "19/19 PASS via sha256sum -c SHA256SUMS",
+  "previousIntegrityFilesUnmodified": 120,
+  "nativeContextAudit": "context-family-audit-v1.json",
+  "validationCommand": "python3 v90/captures/v90/validate-context-evidence-v1.py",
+  "validation": {
+    "status": "PASS",
+    "checks": {
+      "exactNativeMultipartSourceBindings": 25,
+      "completeSuccessfulCompilerBodies": 50,
+      "shaRowKeyedClosureMasks": 403345,
+      "nativeCsvShapeTimestampAndDownloadFreshness": 28,
+      "dailyProviderRowDerivations": 106441,
+      "chart2m-inputs-v1.jsonRowDerivations": 93053,
+      "prefix-table-v1.jsonRowDerivations": 182019,
+      "footprintProviderRawCellDerivations": 113772,
+      "publicTextFilesWithoutAuthenticationHeaderLines": 766
+    }
+  },
+  "diagnosticLimitations": [
+    "Complete raw immediate/settled editor marker arrays UNOBSERVED",
+    "Exchange timezone UNOBSERVED",
+    "Internal study instance IDs UNOBSERVED",
+    "Original cumulative-source native before/after indexes UNOBSERVED"
+  ],
+  "heldProviderFacet": "Footprint getter numeric stability:3 closed native keys drift; all raw strings preserved",
+  "originalWhitespacePreserved": "Raw CSV and multipart CRLF, exact source EOF and failed typing whitespace preserved; generated metadata checked separately",
+  "accountActions": "environment-v2/account-actions-v1.json",
+  "provenanceAnnotations": "provenance-annotations-v1.json",
+  "engineParityCredit": false,
+  "metadataWhitespaceCheck": {
+    "command": "git diff --cached --check -- <298 generated .json/.md/.py files>",
+    "exitCode": 0,
+    "files": 298
+  }
+}

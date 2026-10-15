@@ -1,0 +1,122 @@
+{
+  "version": "v1",
+  "status": "PRESENCE-OBSERVED; NUMERIC-SUMMARY-STABILITY-HELD",
+  "presenceCommonClosedRows": 22753,
+  "presenceValueRaw": "1",
+  "getterBearingRepeats": [
+    "attempt-v2",
+    "attempt-v3"
+  ],
+  "allBlankUnobservedRepeat": "attempt-v1",
+  "closedGetterDriftKeys": [
+    {
+      "timeRaw": "1791966600",
+      "observations": [
+        {
+          "sourceCsv": "v90/captures/v90/v90-footprint-provider/attempt-v2/chart-native-v1.csv",
+          "csvSha256": "032db7a261a2f4c1ff1428cbfcf6fb7a9b763211f0a9128773db5f83f6d9f162",
+          "dataRowOrdinal": 21856,
+          "observedAtUtc": "2026-10-15T14:27:35.451Z",
+          "valuesRaw": [
+            "1",
+            "27.198850000000014",
+            "3.08338",
+            "24.115469999999995",
+            "-21.032089999999997"
+          ],
+          "closedEligible": true
+        },
+        {
+          "sourceCsv": "v90/captures/v90/v90-footprint-provider/attempt-v3/chart-native-v1.csv",
+          "csvSha256": "7bb781ae801d16c76ac131db0be1d88eb8688808659b810211116eb7b9b3fffd",
+          "dataRowOrdinal": 21856,
+          "observedAtUtc": "2026-10-15T14:31:44.761Z",
+          "valuesRaw": [
+            "1",
+            "27.198850000000004",
+            "5.0659",
+            "22.13295",
+            "-17.067050000000002"
+          ],
+          "closedEligible": true
+        }
+      ]
+    },
+    {
+      "timeRaw": "1791966720",
+      "observations": [
+        {
+          "sourceCsv": "v90/captures/v90/v90-footprint-provider/attempt-v2/chart-native-v1.csv",
+          "csvSha256": "032db7a261a2f4c1ff1428cbfcf6fb7a9b763211f0a9128773db5f83f6d9f162",
+          "dataRowOrdinal": 21857,
+          "observedAtUtc": "2026-10-15T14:27:35.451Z",
+          "valuesRaw": [
+            "1",
+            "16.28291",
+            "11.93609",
+            "4.346819999999999",
+            "7.589270000000001"
+          ],
+          "closedEligible": true
+        },
+        {
+          "sourceCsv": "v90/captures/v90/v90-footprint-provider/attempt-v3/chart-native-v1.csv",
+          "csvSha256": "7bb781ae801d16c76ac131db0be1d88eb8688808659b810211116eb7b9b3fffd",
+          "dataRowOrdinal": 21857,
+          "observedAtUtc": "2026-10-15T14:31:44.761Z",
+          "valuesRaw": [
+            "1",
+            "16.28291000000002",
+            "16.282910000000005",
+            "0",
+            "16.282910000000005"
+          ],
+          "closedEligible": true
+        }
+      ]
+    },
+    {
+      "timeRaw": "1791966840",
+      "observations": [
+        {
+          "sourceCsv": "v90/captures/v90/v90-footprint-provider/attempt-v2/chart-native-v1.csv",
+          "csvSha256": "032db7a261a2f4c1ff1428cbfcf6fb7a9b763211f0a9128773db5f83f6d9f162",
+          "dataRowOrdinal": 21858,
+          "observedAtUtc": "2026-10-15T14:27:35.451Z",
+          "valuesRaw": [
+            "1",
+            "5.126680000000007",
+            "2.1303900000000002",
+            "2.996290000000001",
+            "-0.8659000000000008"
+          ],
+          "closedEligible": true
+        },
+        {
+          "sourceCsv": "v90/captures/v90/v90-footprint-provider/attempt-v3/chart-native-v1.csv",
+          "csvSha256": "7bb781ae801d16c76ac131db0be1d88eb8688808659b810211116eb7b9b3fffd",
+          "dataRowOrdinal": 21858,
+          "observedAtUtc": "2026-10-15T14:31:44.761Z",
+          "valuesRaw": [
+            "1",
+            "5.12668",
+            "0",
+            "5.126679999999997",
+            "-5.126679999999997"
+          ],
+          "closedEligible": true
+        }
+      ]
+    }
+  ],
+  "driftUtcTimes": [
+    "2026-10-14T08:30:00+00:00",
+    "2026-10-14T08:32:00+00:00",
+    "2026-10-14T08:34:00+00:00"
+  ],
+  "noToleranceOrColumnOmission": true,
+  "unavailableObjectsObserved": 0,
+  "availableZeroVolumeObjectsObserved": 0,
+  "zeroVolumeCountMeaning": "Both getter-bearing exports have nonzero FP_TOTAL_VOLUME on every record; zero buy or zero sell is preserved separately and is not an unavailable object.",
+  "historic1934KeyClosure": "UNASSESSED; fresh table does not map or overwrite the historic receipt"
+}

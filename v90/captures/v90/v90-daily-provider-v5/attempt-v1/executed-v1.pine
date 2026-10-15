@@ -1,0 +1,22 @@
+//@version=5
+indicator("V90 daily provider")
+f_daily() =>
+    var int first_time = time
+    var int first_index = bar_index
+    [time, time_close, open, high, low, close, volume, bar_index, barstate.isfirst ? 1 : 0, first_time, first_index]
+[d_time, d_close_time, d_open, d_high, d_low, d_close, d_volume, d_index, d_first, d_first_time, d_first_index] = request.security("BINANCE:BTCUSDT", "1D", f_daily(), lookahead=barmerge.lookahead_on)
+plot(time, "CHART_TIME", display=display.data_window)
+plot(time_close, "CHART_TIME_CLOSE", display=display.data_window)
+plot(bar_index, "CHART_BAR_INDEX", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_ISCONFIRMED", display=display.data_window)
+plot(d_time, "D_TIME", display=display.data_window)
+plot(d_close_time, "D_CLOSE_TIME", display=display.data_window)
+plot(d_open, "D_OPEN", display=display.data_window)
+plot(d_high, "D_HIGH", display=display.data_window)
+plot(d_low, "D_LOW", display=display.data_window)
+plot(d_close, "D_CLOSE", display=display.data_window)
+plot(d_volume, "D_VOLUME", display=display.data_window)
+plot(d_index, "D_INDEX", display=display.data_window)
+plot(d_first, "D_FIRST", display=display.data_window)
+plot(d_first_time, "D_FIRST_TIME", display=display.data_window)
+plot(d_first_index, "D_FIRST_INDEX", display=display.data_window)

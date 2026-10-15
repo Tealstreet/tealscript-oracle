@@ -1,0 +1,48 @@
+------WebKitFormBoundaryPNcjW3aPdC2aBu2N
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("V88 v6 requested daily counter")
+f_counter(bool changed) =>
+    var count = 0
+    if changed
+        count += 1
+    count
+f_observers() =>
+    changed = timeframe.change("1D")
+    count = f_counter(changed)
+    change_value = changed ? 1.0 : 0.0
+    change_missing = na(change_value) ? 1 : 0
+    first_flag = barstate.isfirst ? 1 : 0
+    var int first_time = na
+    var int first_index = na
+    var int first_isfirst = na
+    var float first_change = na
+    var int first_count = na
+    var int first_change_missing = na
+    if na(first_time)
+        first_time := time
+        first_index := bar_index
+        first_isfirst := first_flag
+        first_change := change_value
+        first_count := count
+        first_change_missing := change_missing
+    [time, bar_index, first_flag, change_value, count, change_missing, first_time, first_index, first_isfirst, first_change, first_count, first_change_missing]
+[requested_time, requested_index, requested_isfirst, requested_change, requested_count, requested_change_missing, first_requested_time, first_requested_index, first_requested_isfirst, first_requested_change, first_requested_count, first_requested_change_missing] = request.security(syminfo.tickerid, "1D", f_observers(), lookahead=barmerge.lookahead_on)
+plot(time, "CHART_TIME", display=display.data_window)
+plot(bar_index, "CHART_BAR_INDEX", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_ISCONFIRMED", display=display.data_window)
+plot(requested_time, "REQUEST_TIME", display=display.data_window)
+plot(requested_index, "REQUEST_BAR_INDEX", display=display.data_window)
+plot(requested_isfirst, "REQUEST_ISFIRST", display=display.data_window)
+plot(requested_change, "REQUEST_CHANGE", display=display.data_window)
+plot(requested_count, "REQUEST_COUNTER", display=display.data_window)
+plot(requested_change_missing, "REQUEST_CHANGE_IS_NA", display=display.data_window)
+plot(first_requested_time, "FIRST_REQUEST_TIME", display=display.data_window)
+plot(first_requested_index, "FIRST_REQUEST_BAR_INDEX", display=display.data_window)
+plot(first_requested_isfirst, "FIRST_REQUEST_ISFIRST", display=display.data_window)
+plot(first_requested_change, "FIRST_REQUEST_CHANGE", display=display.data_window)
+plot(first_requested_count, "FIRST_REQUEST_COUNTER", display=display.data_window)
+plot(first_requested_change_missing, "FIRST_REQUEST_CHANGE_IS_NA", display=display.data_window)
+
+------WebKitFormBoundaryPNcjW3aPdC2aBu2N--
