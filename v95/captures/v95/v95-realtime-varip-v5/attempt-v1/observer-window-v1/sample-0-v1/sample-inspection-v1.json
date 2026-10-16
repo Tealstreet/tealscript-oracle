@@ -1,0 +1,673 @@
+{
+  "version": "v1",
+  "sourceId": "v95-realtime-varip-v5",
+  "sourceSha256": "6e445c0cfa72513789e9afdf9493c3e1177ba7bfb836933aa6a50885c5b500f9",
+  "privateId": "USER;9d8b7bd6d59d4dbd903ab8cf915e7c06",
+  "privateVersion": "1.0",
+  "sourceSessionIdentity": "Single unchanged source/private-version/input session; native execution identity UNOBSERVED",
+  "sampleOrdinal": 0,
+  "requestedKind": "INITIAL_OPEN",
+  "targetInputTimeRationalMs": "1792191480000",
+  "window": {
+    "declaredAtUtc": "2026-10-16T22:56:44.021Z",
+    "settledAtUtc": "2026-10-16T22:56:41.937Z",
+    "settledAtEpochMs": 1792191401937,
+    "barOpenEpochMs": 1792191480000,
+    "barOpenUtc": "2026-10-16T22:58:00.000Z",
+    "barCloseEpochMs": 1792191600000,
+    "barCloseUtc": "2026-10-16T23:00:00.000Z",
+    "nextOpenEpochMs": 1792191600000,
+    "deadlineEpochMs": 1792191615000,
+    "deadlineUtc": "2026-10-16T23:00:15.000Z",
+    "sourceId": "v95-realtime-varip-v5",
+    "sourceSha256": "6e445c0cfa72513789e9afdf9493c3e1177ba7bfb836933aa6a50885c5b500f9",
+    "privateId": "USER;9d8b7bd6d59d4dbd903ab8cf915e7c06",
+    "privateVersion": "1.0",
+    "maximumCsvs": 6,
+    "maximumWindows": 1,
+    "inputChanges": 0,
+    "sourceRetries": 0,
+    "sourceSpecificExecutionId": null,
+    "sourceSpecificExecutionIdStatus": "UNOBSERVED",
+    "declarationBasis": {
+      "startedAtUtc": "2026-10-16T22:56:43.676Z",
+      "completedAtUtc": "2026-10-16T22:56:43.895Z",
+      "sourceId": "v95-realtime-varip-v5",
+      "sourceSha256": "6e445c0cfa72513789e9afdf9493c3e1177ba7bfb836933aa6a50885c5b500f9",
+      "nativeSnapshotPath": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/initial-data-window-v1.txt",
+      "nativeObservationPath": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/initial-ui-observation-v1.json",
+      "rawNativeStrings": {
+        "INPUT_INDEX": "23,728.0000000000000000",
+        "INPUT_TIME": "1,792,191,360,000.0000000000000000",
+        "CHART_CONFIRMED": "0",
+        "IS_FIRST": "0",
+        "FIRST_INDEX": "0",
+        "FIRST_TIME": "1,789,344,000,000.0000000000000000",
+        "PHASE": "0",
+        "CLOCK": "1,792,191,400,874.0000000000000000",
+        "SEEN_TIME": "1,792,191,360,000.0000000000000000",
+        "TICKS": "3.0000000000000000",
+        "COMMITTED": "23,729.0000000000000000",
+        "PREVIOUS_COMMITTED": "23,728.0000000000000000",
+        "COMMITTED_DELTA": "1.0000000000000000",
+        "UDT_ORDINARY": "23,729.0000000000000000",
+        "PREVIOUS_ORDINARY": "23,728.0000000000000000",
+        "UDT_DELTA": "1.0000000000000000",
+        "UDT_STICKY": "3.0000000000000000",
+        "IS_NEW": "0",
+        "IS_REALTIME": "1.0000000000000000",
+        "IS_HISTORY": "0",
+        "IS_LAST": "1.0000000000000000"
+      },
+      "integerValues": {
+        "INPUT_INDEX": 23728,
+        "INPUT_TIME": 1792191360000,
+        "CHART_CONFIRMED": 0,
+        "IS_FIRST": 0,
+        "FIRST_INDEX": 0,
+        "FIRST_TIME": 1789344000000,
+        "PHASE": 0,
+        "CLOCK": 1792191400874,
+        "SEEN_TIME": 1792191360000,
+        "TICKS": 3,
+        "COMMITTED": 23729,
+        "PREVIOUS_COMMITTED": 23728,
+        "COMMITTED_DELTA": 1,
+        "UDT_ORDINARY": 23729,
+        "PREVIOUS_ORDINARY": 23728,
+        "UDT_DELTA": 1,
+        "UDT_STICKY": 3,
+        "IS_NEW": 0,
+        "IS_REALTIME": 1,
+        "IS_HISTORY": 0,
+        "IS_LAST": 1
+      },
+      "uiCsvSameExecution": null,
+      "uiCsvSameExecutionStatus": "UNOBSERVED; independent native frames are never equated by bar key"
+    }
+  },
+  "nativeExportUtc": "2026-10-16T22:58:04.243Z",
+  "csv": {
+    "path": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/sample-0-v1/chart-native-v1.csv",
+    "bytes": 64406,
+    "sha256": "019d38d939f369c00e5cc50429fb7422089f6e77fd339f506f9a7b0ac4766ade"
+  },
+  "columnBindings": {
+    "path": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/sample-0-v1/column-bindings-v1.json",
+    "bytes": 10689,
+    "sha256": "82c90ceb3f3f9b8b5f208a6e229ba7d0ec3c1375492540146b559ea8a7dfdbc5"
+  },
+  "closureMask": {
+    "path": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/sample-0-v1/row-closure-mask-v1.csv",
+    "bytes": 61735,
+    "sha256": "00d3ae23152c638e6aea8d6635fa17cd79482c0012012e80c1100466e985011a"
+  },
+  "originalDataRows": 392,
+  "originalColumnCount": 27,
+  "first32ClosedBaselineDataRowOrdinals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "historicalClockWitnesses": [
+    {
+      "rowOrdinal": 1,
+      "timeRaw": "1792144560",
+      "inputIndexRaw": "23338",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 2,
+      "timeRaw": "1792144680",
+      "inputIndexRaw": "23339",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 3,
+      "timeRaw": "1792144800",
+      "inputIndexRaw": "23340",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 4,
+      "timeRaw": "1792144920",
+      "inputIndexRaw": "23341",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 5,
+      "timeRaw": "1792145040",
+      "inputIndexRaw": "23342",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 6,
+      "timeRaw": "1792145160",
+      "inputIndexRaw": "23343",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 7,
+      "timeRaw": "1792145280",
+      "inputIndexRaw": "23344",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 8,
+      "timeRaw": "1792145400",
+      "inputIndexRaw": "23345",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 9,
+      "timeRaw": "1792145520",
+      "inputIndexRaw": "23346",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 10,
+      "timeRaw": "1792145640",
+      "inputIndexRaw": "23347",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 11,
+      "timeRaw": "1792145760",
+      "inputIndexRaw": "23348",
+      "clockRaw": "1792191396226"
+    },
+    {
+      "rowOrdinal": 12,
+      "timeRaw": "1792145880",
+      "inputIndexRaw": "23349",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 13,
+      "timeRaw": "1792146000",
+      "inputIndexRaw": "23350",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 14,
+      "timeRaw": "1792146120",
+      "inputIndexRaw": "23351",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 15,
+      "timeRaw": "1792146240",
+      "inputIndexRaw": "23352",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 16,
+      "timeRaw": "1792146360",
+      "inputIndexRaw": "23353",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 17,
+      "timeRaw": "1792146480",
+      "inputIndexRaw": "23354",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 18,
+      "timeRaw": "1792146600",
+      "inputIndexRaw": "23355",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 19,
+      "timeRaw": "1792146720",
+      "inputIndexRaw": "23356",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 20,
+      "timeRaw": "1792146840",
+      "inputIndexRaw": "23357",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 21,
+      "timeRaw": "1792146960",
+      "inputIndexRaw": "23358",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 22,
+      "timeRaw": "1792147080",
+      "inputIndexRaw": "23359",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 23,
+      "timeRaw": "1792147200",
+      "inputIndexRaw": "23360",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 24,
+      "timeRaw": "1792147320",
+      "inputIndexRaw": "23361",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 25,
+      "timeRaw": "1792147440",
+      "inputIndexRaw": "23362",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 26,
+      "timeRaw": "1792147560",
+      "inputIndexRaw": "23363",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 27,
+      "timeRaw": "1792147680",
+      "inputIndexRaw": "23364",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 28,
+      "timeRaw": "1792147800",
+      "inputIndexRaw": "23365",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 29,
+      "timeRaw": "1792147920",
+      "inputIndexRaw": "23366",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 30,
+      "timeRaw": "1792148040",
+      "inputIndexRaw": "23367",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 31,
+      "timeRaw": "1792148160",
+      "inputIndexRaw": "23368",
+      "clockRaw": "1792191396227"
+    },
+    {
+      "rowOrdinal": 32,
+      "timeRaw": "1792148280",
+      "inputIndexRaw": "23369",
+      "clockRaw": "1792191396227"
+    }
+  ],
+  "targetTuples": [
+    {
+      "rowOrdinal": 392,
+      "timeRaw": "1792191480",
+      "valuesRaw": {
+        "INPUT_INDEX": "23729",
+        "INPUT_TIME": "1792191480000",
+        "CHART_CONFIRMED": "0",
+        "IS_FIRST": "0",
+        "FIRST_INDEX": "0",
+        "FIRST_TIME": "1789344000000",
+        "PHASE": "1",
+        "CLOCK": "1792191484893",
+        "SEEN_TIME": "1792191480000",
+        "TICKS": "4",
+        "COMMITTED": "23730",
+        "PREVIOUS_COMMITTED": "23729",
+        "COMMITTED_DELTA": "1",
+        "UDT_ORDINARY": "23730",
+        "PREVIOUS_ORDINARY": "23729",
+        "UDT_DELTA": "1",
+        "UDT_STICKY": "4",
+        "IS_NEW": "0",
+        "IS_REALTIME": "1",
+        "IS_HISTORY": "0",
+        "IS_LAST": "1"
+      },
+      "nativeCellPointers": {
+        "INPUT_INDEX": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23729"
+        },
+        "INPUT_TIME": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792191480000"
+        },
+        "CHART_CONFIRMED": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "0"
+        },
+        "IS_FIRST": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 10,
+          "headerRaw": "IS_FIRST",
+          "valueRaw": "0"
+        },
+        "FIRST_INDEX": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 11,
+          "headerRaw": "FIRST_INDEX",
+          "valueRaw": "0"
+        },
+        "FIRST_TIME": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 12,
+          "headerRaw": "FIRST_TIME",
+          "valueRaw": "1789344000000"
+        },
+        "PHASE": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 13,
+          "headerRaw": "PHASE",
+          "valueRaw": "1"
+        },
+        "CLOCK": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 14,
+          "headerRaw": "CLOCK",
+          "valueRaw": "1792191484893"
+        },
+        "SEEN_TIME": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 15,
+          "headerRaw": "SEEN_TIME",
+          "valueRaw": "1792191480000"
+        },
+        "TICKS": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 16,
+          "headerRaw": "TICKS",
+          "valueRaw": "4"
+        },
+        "COMMITTED": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 17,
+          "headerRaw": "COMMITTED",
+          "valueRaw": "23730"
+        },
+        "PREVIOUS_COMMITTED": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 18,
+          "headerRaw": "PREVIOUS_COMMITTED",
+          "valueRaw": "23729"
+        },
+        "COMMITTED_DELTA": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 19,
+          "headerRaw": "COMMITTED_DELTA",
+          "valueRaw": "1"
+        },
+        "UDT_ORDINARY": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 20,
+          "headerRaw": "UDT_ORDINARY",
+          "valueRaw": "23730"
+        },
+        "PREVIOUS_ORDINARY": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 21,
+          "headerRaw": "PREVIOUS_ORDINARY",
+          "valueRaw": "23729"
+        },
+        "UDT_DELTA": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 22,
+          "headerRaw": "UDT_DELTA",
+          "valueRaw": "1"
+        },
+        "UDT_STICKY": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 23,
+          "headerRaw": "UDT_STICKY",
+          "valueRaw": "4"
+        },
+        "IS_NEW": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 24,
+          "headerRaw": "IS_NEW",
+          "valueRaw": "0"
+        },
+        "IS_REALTIME": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 25,
+          "headerRaw": "IS_REALTIME",
+          "valueRaw": "1"
+        },
+        "IS_HISTORY": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 26,
+          "headerRaw": "IS_HISTORY",
+          "valueRaw": "0"
+        },
+        "IS_LAST": {
+          "rowOrdinal": 392,
+          "columnOrdinal": 27,
+          "headerRaw": "IS_LAST",
+          "valueRaw": "1"
+        }
+      },
+      "actualClassification": "OPEN_REALTIME_SAMPLE",
+      "physicalCloseBoundMet": false,
+      "ownTimeAgreesWithNativeChartTime": true,
+      "presentCellStatus": "OBSERVED / EXCLUDED FROM CLOSED SCORING",
+      "sameExecutionAsUiScreenshot": null,
+      "sameExecutionAsUiStatus": "UNOBSERVED; UI/CSV are not equated merely because they share a bar key",
+      "rawWithinTupleComparisons": [
+        {
+          "property": "COMMITTED_DELTA",
+          "captureStatus": "CAPTURED",
+          "nativeCell": {
+            "rowOrdinal": 392,
+            "columnOrdinal": 19,
+            "headerRaw": "COMMITTED_DELTA",
+            "valueRaw": "1"
+          },
+          "inputCells": [
+            {
+              "rowOrdinal": 392,
+              "columnOrdinal": 18,
+              "headerRaw": "PREVIOUS_COMMITTED",
+              "valueRaw": "23729"
+            }
+          ],
+          "predictedRational": "1",
+          "rawRelationshipVerdict": "SUPPORTED",
+          "eventCertificateCredit": "PENDING / continuity and full window requirements are checked independently"
+        },
+        {
+          "property": "UDT_DELTA",
+          "captureStatus": "CAPTURED",
+          "nativeCell": {
+            "rowOrdinal": 392,
+            "columnOrdinal": 22,
+            "headerRaw": "UDT_DELTA",
+            "valueRaw": "1"
+          },
+          "inputCells": [
+            {
+              "rowOrdinal": 392,
+              "columnOrdinal": 21,
+              "headerRaw": "PREVIOUS_ORDINARY",
+              "valueRaw": "23729"
+            }
+          ],
+          "predictedRational": "1",
+          "rawRelationshipVerdict": "SUPPORTED",
+          "eventCertificateCredit": "PENDING / continuity and full window requirements are checked independently"
+        },
+        {
+          "property": "UDT_STICKY",
+          "captureStatus": "CAPTURED",
+          "nativeCell": {
+            "rowOrdinal": 392,
+            "columnOrdinal": 23,
+            "headerRaw": "UDT_STICKY",
+            "valueRaw": "4"
+          },
+          "inputCells": [
+            {
+              "rowOrdinal": 392,
+              "columnOrdinal": 16,
+              "headerRaw": "TICKS",
+              "valueRaw": "4"
+            }
+          ],
+          "predictedRational": "4",
+          "rawRelationshipVerdict": "SUPPORTED",
+          "eventCertificateCredit": "PENDING / continuity and full window requirements are checked independently"
+        },
+        {
+          "property": "SEEN_TIME",
+          "captureStatus": "CAPTURED",
+          "nativeCell": {
+            "rowOrdinal": 392,
+            "columnOrdinal": 15,
+            "headerRaw": "SEEN_TIME",
+            "valueRaw": "1792191480000"
+          },
+          "inputCells": [
+            {
+              "rowOrdinal": 392,
+              "columnOrdinal": 8,
+              "headerRaw": "INPUT_TIME",
+              "valueRaw": "1792191480000"
+            }
+          ],
+          "predictedRational": "1792191480000",
+          "rawRelationshipVerdict": "SUPPORTED",
+          "eventCertificateCredit": "PENDING / continuity and full window requirements are checked independently"
+        }
+      ]
+    }
+  ],
+  "requiredGetterBindingStatus": "CAPTURED",
+  "eventTargetTupleStatus": "CAPTURED",
+  "sampleConfig": {
+    "directory": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/sample-0-v1",
+    "sourceId": "v95-realtime-varip-v5",
+    "privateId": "USER;9d8b7bd6d59d4dbd903ab8cf915e7c06",
+    "sourceSessionIdentity": "Single unchanged source/private-version/input session; native execution identity UNOBSERVED",
+    "window": {
+      "declaredAtUtc": "2026-10-16T22:56:44.021Z",
+      "settledAtUtc": "2026-10-16T22:56:41.937Z",
+      "settledAtEpochMs": 1792191401937,
+      "barOpenEpochMs": 1792191480000,
+      "barOpenUtc": "2026-10-16T22:58:00.000Z",
+      "barCloseEpochMs": 1792191600000,
+      "barCloseUtc": "2026-10-16T23:00:00.000Z",
+      "nextOpenEpochMs": 1792191600000,
+      "deadlineEpochMs": 1792191615000,
+      "deadlineUtc": "2026-10-16T23:00:15.000Z",
+      "sourceId": "v95-realtime-varip-v5",
+      "sourceSha256": "6e445c0cfa72513789e9afdf9493c3e1177ba7bfb836933aa6a50885c5b500f9",
+      "privateId": "USER;9d8b7bd6d59d4dbd903ab8cf915e7c06",
+      "privateVersion": "1.0",
+      "maximumCsvs": 6,
+      "maximumWindows": 1,
+      "inputChanges": 0,
+      "sourceRetries": 0,
+      "sourceSpecificExecutionId": null,
+      "sourceSpecificExecutionIdStatus": "UNOBSERVED",
+      "declarationBasis": {
+        "startedAtUtc": "2026-10-16T22:56:43.676Z",
+        "completedAtUtc": "2026-10-16T22:56:43.895Z",
+        "sourceId": "v95-realtime-varip-v5",
+        "sourceSha256": "6e445c0cfa72513789e9afdf9493c3e1177ba7bfb836933aa6a50885c5b500f9",
+        "nativeSnapshotPath": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/initial-data-window-v1.txt",
+        "nativeObservationPath": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/observer-window-v1/initial-ui-observation-v1.json",
+        "rawNativeStrings": {
+          "INPUT_INDEX": "23,728.0000000000000000",
+          "INPUT_TIME": "1,792,191,360,000.0000000000000000",
+          "CHART_CONFIRMED": "0",
+          "IS_FIRST": "0",
+          "FIRST_INDEX": "0",
+          "FIRST_TIME": "1,789,344,000,000.0000000000000000",
+          "PHASE": "0",
+          "CLOCK": "1,792,191,400,874.0000000000000000",
+          "SEEN_TIME": "1,792,191,360,000.0000000000000000",
+          "TICKS": "3.0000000000000000",
+          "COMMITTED": "23,729.0000000000000000",
+          "PREVIOUS_COMMITTED": "23,728.0000000000000000",
+          "COMMITTED_DELTA": "1.0000000000000000",
+          "UDT_ORDINARY": "23,729.0000000000000000",
+          "PREVIOUS_ORDINARY": "23,728.0000000000000000",
+          "UDT_DELTA": "1.0000000000000000",
+          "UDT_STICKY": "3.0000000000000000",
+          "IS_NEW": "0",
+          "IS_REALTIME": "1.0000000000000000",
+          "IS_HISTORY": "0",
+          "IS_LAST": "1.0000000000000000"
+        },
+        "integerValues": {
+          "INPUT_INDEX": 23728,
+          "INPUT_TIME": 1792191360000,
+          "CHART_CONFIRMED": 0,
+          "IS_FIRST": 0,
+          "FIRST_INDEX": 0,
+          "FIRST_TIME": 1789344000000,
+          "PHASE": 0,
+          "CLOCK": 1792191400874,
+          "SEEN_TIME": 1792191360000,
+          "TICKS": 3,
+          "COMMITTED": 23729,
+          "PREVIOUS_COMMITTED": 23728,
+          "COMMITTED_DELTA": 1,
+          "UDT_ORDINARY": 23729,
+          "PREVIOUS_ORDINARY": 23728,
+          "UDT_DELTA": 1,
+          "UDT_STICKY": 3,
+          "IS_NEW": 0,
+          "IS_REALTIME": 1,
+          "IS_HISTORY": 0,
+          "IS_LAST": 1
+        },
+        "uiCsvSameExecution": null,
+        "uiCsvSameExecutionStatus": "UNOBSERVED; independent native frames are never equated by bar key"
+      }
+    },
+    "requestedKind": "INITIAL_OPEN",
+    "sampleOrdinal": 0
+  },
+  "residualScope": "Own-source sampled relationships only. No intervening-event completeness, old clocks, requested-provider as-of identity, original execution or generic live parity."
+}

@@ -1,0 +1,48 @@
+------WebKitFormBoundarya6BY0rfQAmQb6q3v
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("v95-realtime-varip-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+type Counter
+    int ordinary = 0
+    varip int sticky = 0
+var Counter state = Counter.new()
+var int committed = 0
+varip int ticks = 0
+varip int seenTime = na
+if na(seenTime) or seenTime != time
+    ticks := 0
+    state.sticky := 0
+    seenTime := time
+ticks += 1
+committed += 1
+state.ordinary += 1
+state.sticky += 1
+ordinary = state.ordinary
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(timenow, title="CLOCK")
+plot(seenTime, title="SEEN_TIME")
+plot(ticks, title="TICKS")
+plot(committed, title="COMMITTED")
+plot(committed[1], title="PREVIOUS_COMMITTED")
+plot(committed - committed[1], title="COMMITTED_DELTA")
+plot(ordinary, title="UDT_ORDINARY")
+plot(ordinary[1], title="PREVIOUS_ORDINARY")
+plot(ordinary - ordinary[1], title="UDT_DELTA")
+plot(state.sticky, title="UDT_STICKY")
+plot(barstate.isnew ? 1 : 0, title="IS_NEW")
+plot(barstate.isrealtime ? 1 : 0, title="IS_REALTIME")
+plot(barstate.ishistory ? 1 : 0, title="IS_HISTORY")
+plot(barstate.islast ? 1 : 0, title="IS_LAST")
+
+------WebKitFormBoundarya6BY0rfQAmQb6q3v--
