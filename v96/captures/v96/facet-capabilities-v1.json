@@ -1,0 +1,1735 @@
+{
+  "version": "v1",
+  "numericEvidence": {
+    "path": "v96/captures/v96/numeric-controls-v1.json",
+    "bytes": 5424760,
+    "sha256": "acf6501f0da29bfd97328de2332e845a07b6c4059d5f1d5bb3daacee9829f57f"
+  },
+  "sources": [
+    {
+      "sourceId": "v96-gradient-alpha-v5",
+      "sourceSha256": "0a9101528b9d5c5069d4f3f81c93f1e2d66e145d6421b3437689ff80c2fbbca7",
+      "captureStatus": "NATIVE ADMISSION OBSERVED / numeric prerequisites evaluated separately",
+      "nativeCompileSuccess": true,
+      "propertyVerdicts": [
+        {
+          "model": "BOTH_ALPHA_LITERAL_CANDIDATES_CAN_SHOW_T50",
+          "property": "CLAMP_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "BOTH_ALPHA_LITERAL_CANDIDATES_CAN_SHOW_T50",
+          "property": "MISSING_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ENDPOINT_ALPHA_MIDPOINT_CONTINUOUS_T_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ENDPOINT_ALPHA_MIDPOINT_CONTINUOUS_T_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ENDPOINT_ALPHA_MIDPOINT_CONTINUOUS_T_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FLOOR_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FLOOR_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FLOOR_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "CTOR12_5_EQ_DF",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "CTOR50_EQ_80",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "EQ_DISTINCT",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "EQ_SELF",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "MISSING_LOWER_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "HALF_UP_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "HALF_UP_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "HALF_UP_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_CONTINUOUS_T_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_CONTINUOUS_T_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_CONTINUOUS_T_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "CLAMP_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "CLAMP_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G12_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G12_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G22_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G22_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G32_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G32_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "MISSING_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "CTOR12_5_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "LITERAL_DE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "LITERAL_DF_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "LITERAL_E0_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#0000007F",
+          "property": "CLAMP_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#00000080",
+          "property": "CLAMP_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263AB",
+          "property": "G32_EQ_PRE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263AC",
+          "property": "G32_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263AD",
+          "property": "G32_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263C4",
+          "property": "G22_EQ_PRE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263C5",
+          "property": "G22_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263C6",
+          "property": "G22_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263DE",
+          "property": "G12_EQ_PRE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263DF",
+          "property": "G12_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263E0",
+          "property": "G12_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#FF00007F",
+          "property": "MISSING_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#FF000080",
+          "property": "MISSING_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORIGINAL_COLORED_LINE_CLOSE_VALUE",
+          "property": "gradient12_5",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        }
+      ],
+      "facets": [
+        {
+          "facet": "First32 consecutive source-bound independently closed rows",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null
+        },
+        {
+          "facet": "Hidden packed color representation and universal alpha quantizer",
+          "captureStatus": "NOT OBSERVED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "Only ordinary literal equality and numeric getters are authorized; no packed decoder, tolerance fitting or generic algorithm certificate"
+        }
+      ],
+      "selectedDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "comparisonCounts": {
+        "SUPPORTED": 1312,
+        "REFUTED": 672,
+        "UNDECIDED": 128
+      }
+    },
+    {
+      "sourceId": "v96-gradient-alpha-v6",
+      "sourceSha256": "6a3e6587c2fbedc2e9e1f32a2f982bbb5288942bd7e48f9570bee31de8cd3468",
+      "captureStatus": "NATIVE ADMISSION OBSERVED / numeric prerequisites evaluated separately",
+      "nativeCompileSuccess": true,
+      "propertyVerdicts": [
+        {
+          "model": "BOTH_ALPHA_LITERAL_CANDIDATES_CAN_SHOW_T50",
+          "property": "CLAMP_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "BOTH_ALPHA_LITERAL_CANDIDATES_CAN_SHOW_T50",
+          "property": "MISSING_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ENDPOINT_ALPHA_MIDPOINT_CONTINUOUS_T_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ENDPOINT_ALPHA_MIDPOINT_CONTINUOUS_T_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ENDPOINT_ALPHA_MIDPOINT_CONTINUOUS_T_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FLOOR_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FLOOR_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FLOOR_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "CTOR12_5_EQ_DF",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "CTOR50_EQ_80",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "EQ_DISTINCT",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "EQ_SELF",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_EQUALITY_OR_CONSTRUCTOR_CONTROL",
+          "property": "MISSING_LOWER_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "CLAMP_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G12_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G22_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "G32_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_B",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_G",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_NA",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_LITERAL_RGB_AND_PRESENT_CANDIDATE",
+          "property": "MISSING_R",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "HALF_UP_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "HALF_UP_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "HALF_UP_ALPHA_NEAREST_PERCENT_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_CONTINUOUS_T_GETTER",
+          "property": "G12_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_CONTINUOUS_T_GETTER",
+          "property": "G22_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_CONTINUOUS_T_GETTER",
+          "property": "G32_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "CLAMP_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "CLAMP_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G12_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G12_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G22_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G22_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G32_LOWER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "G32_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NOMINAL_ENDPOINT_T_GETTER_CANDIDATE",
+          "property": "MISSING_UPPER_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "CTOR12_5_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "LITERAL_DE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "LITERAL_DF_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OPEN_NATIVE_CALIBRATION_GETTER_TARGET",
+          "property": "LITERAL_E0_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "UNDECIDED": 32
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#0000007F",
+          "property": "CLAMP_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#00000080",
+          "property": "CLAMP_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263AB",
+          "property": "G32_EQ_PRE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263AC",
+          "property": "G32_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263AD",
+          "property": "G32_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263C4",
+          "property": "G22_EQ_PRE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263C5",
+          "property": "G22_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263C6",
+          "property": "G22_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263DE",
+          "property": "G12_EQ_PRE_T",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263DF",
+          "property": "G12_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#214263E0",
+          "property": "G12_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#FF00007F",
+          "property": "MISSING_EQ_FLOOR",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ORDINARY_COLOR_LITERAL_EQUALITY/#FF000080",
+          "property": "MISSING_EQ_HALF_UP",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ORIGINAL_COLORED_LINE_CLOSE_VALUE",
+          "property": "gradient12_5",
+          "captureStatus": "CAPTURED",
+          "rawCaptureStatusCounts": {
+            "CAPTURED": 32
+          },
+          "counts": {
+            "SUPPORTED": 32
+          },
+          "verdict": "SUPPORTED"
+        }
+      ],
+      "facets": [
+        {
+          "facet": "First32 consecutive source-bound independently closed rows",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null
+        },
+        {
+          "facet": "Hidden packed color representation and universal alpha quantizer",
+          "captureStatus": "NOT OBSERVED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "Only ordinary literal equality and numeric getters are authorized; no packed decoder, tolerance fitting or generic algorithm certificate"
+        }
+      ],
+      "selectedDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "comparisonCounts": {
+        "SUPPORTED": 1376,
+        "UNDECIDED": 128,
+        "REFUTED": 608
+      }
+    }
+  ],
+  "compilerDiagnostics": [
+    {
+      "path": "v96/captures/v96/v96-gradient-alpha-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1533,
+      "sha256": "2f26a257f235ebe1275a81d117e28dedf5c490ca19ae109e6424c48b7f311462"
+    },
+    {
+      "path": "v96/captures/v96/v96-gradient-alpha-v6/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1533,
+      "sha256": "cbfb8ec2f7f441862c4ad328b79d5ab82e51d39e85f3dde73eaf4afb68da33ce"
+    }
+  ],
+  "residualHolds": {
+    "hiddenPackedRepresentation": "UNOBSERVED; only ordinary Pine literal equality/getters",
+    "universalQuantizer": "UNDECIDED; no post-capture fitting or normalization",
+    "nativeExecutionIdsAndMarkerArrays": "UNOBSERVED",
+    "rasterParity": "NOT REQUESTED",
+    "engineApprovalAndHistoricalHolds": "UNCHANGED / NO APPROVAL"
+  }
+}
