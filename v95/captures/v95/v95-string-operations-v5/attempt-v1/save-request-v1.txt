@@ -1,0 +1,64 @@
+------WebKitFormBoundary1TD5n7iaxfs2EKwQ
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("v95-string-operations-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+f_code(string s, int k) =>
+    alphabet = "0123456789.-:+/ ABXYZabcxyzNn"
+    k < str.length(s) ? nz(str.pos(alphabet, str.substring(s, k, k + 1)), -2) : -1
+a = str.replace("ABAB", "AB", "xy", 1)
+b = str.replace_all("ABAB", "AB", "xy")
+c = str.repeat("x", 3, "-")
+d = str.substring("ABxyz", 1, 4)
+parts = str.split("a,,b", ",")
+part0 = array.size(parts) > 0 ? array.get(parts, 0) : ""
+part1 = array.size(parts) > 1 ? array.get(parts, 1) : ""
+part2 = array.size(parts) > 2 ? array.get(parts, 2) : ""
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(str.length(a), title="REPLACE_LEN")
+plot(str.length(b), title="ALL_LEN")
+plot(str.length(c), title="REPEAT_LEN")
+plot(str.length(d), title="SUBSTRING_LEN")
+plot(f_code(a, 0), title="REPLACE_C0")
+plot(f_code(a, 1), title="REPLACE_C1")
+plot(f_code(a, 2), title="REPLACE_C2")
+plot(f_code(a, 3), title="REPLACE_C3")
+plot(f_code(b, 0), title="ALL_C0")
+plot(f_code(b, 1), title="ALL_C1")
+plot(f_code(b, 2), title="ALL_C2")
+plot(f_code(b, 3), title="ALL_C3")
+plot(f_code(c, 0), title="REPEAT_C0")
+plot(f_code(c, 1), title="REPEAT_C1")
+plot(f_code(c, 2), title="REPEAT_C2")
+plot(f_code(c, 3), title="REPEAT_C3")
+plot(f_code(c, 4), title="REPEAT_C4")
+plot(f_code(d, 0), title="SUBSTRING_C0")
+plot(f_code(d, 1), title="SUBSTRING_C1")
+plot(f_code(d, 2), title="SUBSTRING_C2")
+plot(f_code("0", 0), title="ENCODER_0")
+plot(f_code("A", 0), title="ENCODER_A")
+plot(array.size(parts), title="PARTS")
+plot(str.length(part0), title="PART0_LEN")
+plot(str.length(part1), title="PART1_LEN")
+plot(str.length(part2), title="PART2_LEN")
+plot(f_code(part0, 0), title="PART0_CODE")
+plot(f_code(part1, 0), title="PART1_CODE")
+plot(f_code(part2, 0), title="PART2_CODE")
+plot(str.pos("AB", "x"), title="NO_MATCH_POS")
+plot(na(str.pos("AB", "x")) ? 1 : 0, title="NO_MATCH_NA")
+plot(str.trim(" AB ") == "AB" ? 1 : 0, title="TRIM_EQ")
+plot(str.upper("ab") == "AB" ? 1 : 0, title="UPPER_EQ")
+plot(str.lower("AB") == "ab" ? 1 : 0, title="LOWER_EQ")
+plot(str.tonumber("-2.50"), title="TONUMBER")
+
+------WebKitFormBoundary1TD5n7iaxfs2EKwQ--
