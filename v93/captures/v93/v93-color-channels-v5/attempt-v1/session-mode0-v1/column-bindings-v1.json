@@ -1,0 +1,325 @@
+{
+  "version": "v1",
+  "csv": {
+    "path": "v93/captures/v93/v93-color-channels-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 41904,
+    "sha256": "589af79afb8a6be6e28e583f3691eee349a5f53dea556aaf5d4bb584233d54c7"
+  },
+  "source": {
+    "version": "v1",
+    "sourceId": "v93-color-channels-v5",
+    "item": 3,
+    "pineVersion": 5,
+    "requestSource": "v93/sources/v93-color-channels-v5.pine",
+    "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+    "executed": {
+      "path": "v93/captures/v93/v93-color-channels-v5/attempt-v1/executed-v1.pine",
+      "bytes": 1736,
+      "sha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210"
+    },
+    "nativeCompileSuccess": true,
+    "privateScriptId": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+    "privateVersion": "1.0",
+    "nativeStudyInstanceId": null,
+    "nativeStudyInstanceStatus": "UNOBSERVED",
+    "nativeWarningChannel": [],
+    "nativeWarningChannelPath": "result.metaInfo.warnings",
+    "separateMarkerArrays": null,
+    "markerStatus": "UNOBSERVED; full immediate/settled native UI evidence retained separately",
+    "saveBody": {
+      "path": "v93/captures/v93/v93-color-channels-v5/attempt-v1/save-response-v1.json",
+      "bytes": 13513,
+      "sha256": "2e4dd9fee4d4c317fe31b3a12622e7e8baf13e24c0408751e4b3a6f00e8afb7e"
+    },
+    "addBody": {
+      "path": "v93/captures/v93/v93-color-channels-v5/attempt-v1/add-response-v1.json",
+      "bytes": 13513,
+      "sha256": "5d2b0372524a2226a54ba662e2345c7c60fe58693477f56fbfb5d5973ee10ac9"
+    },
+    "settings": {
+      "symbol": "BINANCE:BTCUSDT",
+      "interval": "2 minutes",
+      "chartStyle": "Candles",
+      "timezone": "UTC",
+      "feedStatus": "Native Market open; genuine quote changes",
+      "namedSession": null,
+      "namedSessionStatus": "UNOBSERVED; native default unchanged"
+    },
+    "nativeLayoutId": 208205418,
+    "nativeLayoutImage": "gV8NSfsJ",
+    "nativeExportTimeUnit": "UNIX seconds; INPUT_TIME plot is milliseconds",
+    "receipt": {
+      "path": "v93/captures/v93/v93-color-channels-v5/attempt-v1/capture-receipt-v1.json",
+      "bytes": 2428,
+      "sha256": "02f26cceddad0d4180510f4047c8774df2e2272ddace4a99718454c942a86ba7"
+    }
+  },
+  "sourceIsolation": "Only this request study attached; no other indicator or built-in volume columns in this native CSV",
+  "inputMode": 0,
+  "inputName": null,
+  "nativePrivateVersion": "1.0",
+  "nativeMetaInfoId": "Script$USER;d4cbf261013146e58ce26f1ff1b0677f@tv-scripting-101",
+  "columns": [
+    {
+      "columnOrdinal": 1,
+      "originalHeader": "time",
+      "owner": "Native main chart",
+      "field": "time"
+    },
+    {
+      "columnOrdinal": 2,
+      "originalHeader": "open",
+      "owner": "Native main chart",
+      "field": "open"
+    },
+    {
+      "columnOrdinal": 3,
+      "originalHeader": "high",
+      "owner": "Native main chart",
+      "field": "high"
+    },
+    {
+      "columnOrdinal": 4,
+      "originalHeader": "low",
+      "owner": "Native main chart",
+      "field": "low"
+    },
+    {
+      "columnOrdinal": 5,
+      "originalHeader": "close",
+      "owner": "Native main chart",
+      "field": "close"
+    },
+    {
+      "columnOrdinal": 6,
+      "originalHeader": "PHASE",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "PHASE"
+    },
+    {
+      "columnOrdinal": 7,
+      "originalHeader": "GRADIENT_X",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_1",
+      "nativePlotTitle": "GRADIENT_X"
+    },
+    {
+      "columnOrdinal": 8,
+      "originalHeader": "A_R",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_2",
+      "nativePlotTitle": "A_R"
+    },
+    {
+      "columnOrdinal": 9,
+      "originalHeader": "A_G",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_3",
+      "nativePlotTitle": "A_G"
+    },
+    {
+      "columnOrdinal": 10,
+      "originalHeader": "A_B",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_4",
+      "nativePlotTitle": "A_B"
+    },
+    {
+      "columnOrdinal": 11,
+      "originalHeader": "A_T",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_5",
+      "nativePlotTitle": "A_T"
+    },
+    {
+      "columnOrdinal": 12,
+      "originalHeader": "A_NA",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_6",
+      "nativePlotTitle": "A_NA"
+    },
+    {
+      "columnOrdinal": 13,
+      "originalHeader": "C_R",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_7",
+      "nativePlotTitle": "C_R"
+    },
+    {
+      "columnOrdinal": 14,
+      "originalHeader": "C_G",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_8",
+      "nativePlotTitle": "C_G"
+    },
+    {
+      "columnOrdinal": 15,
+      "originalHeader": "C_B",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_9",
+      "nativePlotTitle": "C_B"
+    },
+    {
+      "columnOrdinal": 16,
+      "originalHeader": "C_T",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_10",
+      "nativePlotTitle": "C_T"
+    },
+    {
+      "columnOrdinal": 17,
+      "originalHeader": "C_NA",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_11",
+      "nativePlotTitle": "C_NA"
+    },
+    {
+      "columnOrdinal": 18,
+      "originalHeader": "D_R",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_12",
+      "nativePlotTitle": "D_R"
+    },
+    {
+      "columnOrdinal": 19,
+      "originalHeader": "D_G",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_13",
+      "nativePlotTitle": "D_G"
+    },
+    {
+      "columnOrdinal": 20,
+      "originalHeader": "D_B",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_14",
+      "nativePlotTitle": "D_B"
+    },
+    {
+      "columnOrdinal": 21,
+      "originalHeader": "D_T",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_15",
+      "nativePlotTitle": "D_T"
+    },
+    {
+      "columnOrdinal": 22,
+      "originalHeader": "D_NA",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_16",
+      "nativePlotTitle": "D_NA"
+    },
+    {
+      "columnOrdinal": 23,
+      "originalHeader": "E_R",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_17",
+      "nativePlotTitle": "E_R"
+    },
+    {
+      "columnOrdinal": 24,
+      "originalHeader": "E_G",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_18",
+      "nativePlotTitle": "E_G"
+    },
+    {
+      "columnOrdinal": 25,
+      "originalHeader": "E_B",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_19",
+      "nativePlotTitle": "E_B"
+    },
+    {
+      "columnOrdinal": 26,
+      "originalHeader": "E_T",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_20",
+      "nativePlotTitle": "E_T"
+    },
+    {
+      "columnOrdinal": 27,
+      "originalHeader": "E_NA",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_21",
+      "nativePlotTitle": "E_NA"
+    },
+    {
+      "columnOrdinal": 28,
+      "originalHeader": "INPUT_INDEX",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_22",
+      "nativePlotTitle": "INPUT_INDEX"
+    },
+    {
+      "columnOrdinal": 29,
+      "originalHeader": "INPUT_TIME",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_23",
+      "nativePlotTitle": "INPUT_TIME"
+    },
+    {
+      "columnOrdinal": 30,
+      "originalHeader": "CHART_CONFIRMED",
+      "owner": "USER;d4cbf261013146e58ce26f1ff1b0677f",
+      "privateVersion": "1.0",
+      "sourceSha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "nativePlotId": "plot_24",
+      "nativePlotTitle": "CHART_CONFIRMED"
+    }
+  ],
+  "chartVolumeColumn": null,
+  "chartVolumeStatus": "UNOBSERVED; not included by native exporter; no value invented",
+  "duplicateHeadersPreservedByOrdinal": true,
+  "stringsAndBlanksPreserved": true,
+  "executionFeedAsOfId": null,
+  "executionFeedAsOfStatus": "UNOBSERVED; local deterministic source contract does not transfer another source execution identity"
+}

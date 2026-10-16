@@ -1,0 +1,39 @@
+------WebKitFormBoundary1U2SRQe1FWwwkzBN
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("V93 color-channels v5", overlay=false, precision=16)
+phase = bar_index % 5
+x = phase == 0 ? -1.0 : phase == 1 ? 0.0 : phase == 2 ? 0.5 : phase == 3 ? 1.0 : 2.0
+a = color.rgb(10, 20, 30, 40)
+b = color.rgb(210, 120, 230, 80)
+c = color.new(a, phase * 25)
+d = color.from_gradient(x, 0, 1, a, b)
+e = color.from_gradient(x, 0, 1, color(na), b)
+plot(phase, "PHASE", display=display.data_window)
+plot(x, "GRADIENT_X", display=display.data_window)
+plot(color.r(a), "A_R", display=display.data_window)
+plot(color.g(a), "A_G", display=display.data_window)
+plot(color.b(a), "A_B", display=display.data_window)
+plot(color.t(a), "A_T", display=display.data_window)
+plot(na(a) ? 1 : 0, "A_NA", display=display.data_window)
+plot(color.r(c), "C_R", display=display.data_window)
+plot(color.g(c), "C_G", display=display.data_window)
+plot(color.b(c), "C_B", display=display.data_window)
+plot(color.t(c), "C_T", display=display.data_window)
+plot(na(c) ? 1 : 0, "C_NA", display=display.data_window)
+plot(color.r(d), "D_R", display=display.data_window)
+plot(color.g(d), "D_G", display=display.data_window)
+plot(color.b(d), "D_B", display=display.data_window)
+plot(color.t(d), "D_T", display=display.data_window)
+plot(na(d) ? 1 : 0, "D_NA", display=display.data_window)
+plot(color.r(e), "E_R", display=display.data_window)
+plot(color.g(e), "E_G", display=display.data_window)
+plot(color.b(e), "E_B", display=display.data_window)
+plot(color.t(e), "E_T", display=display.data_window)
+plot(na(e) ? 1 : 0, "E_NA", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundary1U2SRQe1FWwwkzBN--
