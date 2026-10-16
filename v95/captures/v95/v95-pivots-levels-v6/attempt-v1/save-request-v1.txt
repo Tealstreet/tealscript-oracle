@@ -1,0 +1,65 @@
+------WebKitFormBoundaryhepWIV4xl5LwIpF4
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("v95-pivots-levels-v6", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+left = 1 + phase % 3
+right = 1 + phase % 2
+x = float(phase <= 7 ? int(math.floor(phase / 2.0)) : int(math.floor((15 - phase) / 2.0)))
+ph = ta.pivothigh(x, left, right)
+pl = ta.pivotlow(x, left, right)
+hi = ta.pivothigh(2, 2)
+lo = ta.pivotlow(2, 2)
+levels = ta.pivot_point_levels("Traditional", phase == 0, false)
+dev = ta.pivot_point_levels("Traditional", phase == 0, true)
+f_slot(array<float> a, int k) => array.size(a) > k ? array.get(a, k) : na
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(x, title="X")
+plot(left, title="LEFT")
+plot(right, title="RIGHT")
+plot(ph, title="PIVOT_HIGH")
+plot(pl, title="PIVOT_LOW")
+plot(na(ph) ? 1 : 0, title="HIGH_NA")
+plot(na(pl) ? 1 : 0, title="LOW_NA")
+plot(hi, title="IMPLICIT_HIGH")
+plot(lo, title="IMPLICIT_LOW")
+plot(high, title="INPUT_HIGH")
+plot(low, title="INPUT_LOW")
+plot(close, title="INPUT_CLOSE")
+plot(phase == 0 ? 1 : 0, title="ANCHOR")
+plot(array.size(levels), title="LEVEL_COUNT")
+plot(array.size(dev), title="DEV_COUNT")
+plot(f_slot(levels, 0), title="LEVEL_0")
+plot(f_slot(levels, 1), title="LEVEL_1")
+plot(f_slot(levels, 2), title="LEVEL_2")
+plot(f_slot(levels, 3), title="LEVEL_3")
+plot(f_slot(levels, 4), title="LEVEL_4")
+plot(f_slot(levels, 5), title="LEVEL_5")
+plot(f_slot(levels, 6), title="LEVEL_6")
+plot(f_slot(levels, 7), title="LEVEL_7")
+plot(f_slot(levels, 8), title="LEVEL_8")
+plot(f_slot(levels, 9), title="LEVEL_9")
+plot(f_slot(levels, 10), title="LEVEL_10")
+plot(f_slot(dev, 0), title="DEV_0")
+plot(f_slot(dev, 1), title="DEV_1")
+plot(f_slot(dev, 2), title="DEV_2")
+plot(f_slot(dev, 3), title="DEV_3")
+plot(f_slot(dev, 4), title="DEV_4")
+plot(f_slot(dev, 5), title="DEV_5")
+plot(f_slot(dev, 6), title="DEV_6")
+plot(f_slot(dev, 7), title="DEV_7")
+plot(f_slot(dev, 8), title="DEV_8")
+plot(f_slot(dev, 9), title="DEV_9")
+plot(f_slot(dev, 10), title="DEV_10")
+
+------WebKitFormBoundaryhepWIV4xl5LwIpF4--
