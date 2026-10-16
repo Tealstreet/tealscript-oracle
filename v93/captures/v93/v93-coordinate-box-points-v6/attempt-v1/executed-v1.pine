@@ -1,0 +1,18 @@
+//@version=6
+indicator("V93 coordinate-box-points v6", overlay=false, precision=8)
+a = box.new(bar_index, 8, bar_index + 1, 2)
+p = chart.point.from_index(bar_index + 2, 10)
+q = chart.point.from_index(bar_index + 3, 4)
+box.set_top_left_point(a, p)
+box.set_bottom_right_point(a, q)
+p.index := bar_index + 4
+p.price := 100
+q.price := 40
+plot(box.get_left(a) - bar_index, "POINT_LEFT_REL", display=display.data_window)
+plot(box.get_top(a), "POINT_TOP", display=display.data_window)
+plot(box.get_right(a) - bar_index, "POINT_RIGHT_REL", display=display.data_window)
+plot(box.get_bottom(a), "POINT_BOTTOM", display=display.data_window)
+box.delete(a)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)

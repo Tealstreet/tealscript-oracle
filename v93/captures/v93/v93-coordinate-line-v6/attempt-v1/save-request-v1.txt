@@ -1,0 +1,31 @@
+------WebKitFormBoundaryiz9PEPvgSdhannrA
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("V93 coordinate-line v6", overlay=false, precision=8)
+a = line.new(bar_index, 1, bar_index + 1, 2)
+line.set_xloc(a, time, time + 120000, xloc.bar_time)
+timeX = line.get_x1(a)
+timeX2 = line.get_x2(a)
+line.set_xloc(a, bar_index, bar_index + 1, xloc.bar_index)
+backX = line.get_x1(a)
+p = chart.point.from_index(bar_index + 2, 7)
+q = chart.point.from_index(bar_index + 3, 9)
+line.set_first_point(a, p)
+line.set_second_point(a, q)
+p.index := bar_index + 4
+p.price := 70
+q.price := 90
+plot(timeX - time, "TIME_X1_DELTA", display=display.data_window)
+plot(timeX2 - time, "TIME_X2_DELTA", display=display.data_window)
+plot(backX - bar_index, "RETURN_X1_REL", display=display.data_window)
+plot(line.get_x1(a) - bar_index, "POINT_X1_REL", display=display.data_window)
+plot(line.get_y1(a), "POINT_Y1", display=display.data_window)
+plot(line.get_x2(a) - bar_index, "POINT_X2_REL", display=display.data_window)
+plot(line.get_y2(a), "POINT_Y2", display=display.data_window)
+line.delete(a)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundaryiz9PEPvgSdhannrA--
