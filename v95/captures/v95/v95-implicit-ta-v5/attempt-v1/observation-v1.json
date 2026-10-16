@@ -1,0 +1,299 @@
+{
+  "version": "v1",
+  "sourceId": "v95-implicit-ta-v5",
+  "item": 5,
+  "pineVersion": 5,
+  "requestCommit": "325b86491f8310806ac214914479d217ea3bb7e4",
+  "requestSource": "v95/sources/v95-implicit-ta-v5.pine",
+  "sourceSha256": "949a7940f2f08a0e597958ec78cdb262b5b8d706fc17ebe6acce9dfd7bad0e25",
+  "executed": {
+    "path": "v95/captures/v95/v95-implicit-ta-v5/attempt-v1/executed-v1.pine",
+    "bytes": 995,
+    "sha256": "949a7940f2f08a0e597958ec78cdb262b5b8d706fc17ebe6acce9dfd7bad0e25"
+  },
+  "nativeCompileSuccess": true,
+  "privateScriptId": "USER;a2b6c2fb5b984d559a850628f55e0d7e",
+  "privateVersion": "1.0",
+  "nativeStudyInstanceId": null,
+  "nativeStudyInstanceStatus": "UNOBSERVED",
+  "nativeWarningChannel": [],
+  "nativeWarningChannelPath": "result.metaInfo.warnings",
+  "editorMarkerArrays": null,
+  "editorMarkerStatus": "UNOBSERVED; separate native immediate/settled UI retained",
+  "saveBody": {
+    "path": "v95/captures/v95/v95-implicit-ta-v5/attempt-v1/save-response-v1.json",
+    "bytes": 10654,
+    "sha256": "52d3d4036ed766aaf457f8a0d5eb35e7c528a96cf844bc6102ac516aa870f1e1"
+  },
+  "addBody": {
+    "path": "v95/captures/v95/v95-implicit-ta-v5/attempt-v1/add-response-v1.json",
+    "bytes": 10654,
+    "sha256": "9db99c2863b73103f1cb544af53225c1e09045d575f201604ac1605dd399e4ef"
+  },
+  "nativeInputsMetadata": [
+    {
+      "defval": "bmI9Ks46_dqlaK34ig3nG7FRzaCADNg==_LEvNUvM/VlZc48tCoxKtnY7OsamN7JWe4jSwgPRM7Q71qUsYbumsCvdd+9st8l7Yx5YC3toPFk31dhJc7E/lu4417NJ67gynTxDwXyzX9xUiBAEDGkq3u8S4AxG9fm+r6D7SrvzogJo8HazTC07qY+KnMPCviwizS8uAhItue1boY1EiVPU8Xugqrgk5oAwSHAHWmpOzD72AolZI7pVyE1s1SFHEGj0i46wY6thNjQRC/th8VGL6QyFnF7zv3lHR8QcSpqSjJkF2FVflhda4JLw6vKiHYWMteO1nOfp1T6fnYi/7W9dr7FE1winI0eE3QP9bC4AuYX1ZgLtw1StN+7bx+W6b9eCkGPLBI4Gjx0YIaeoFWZE2Oi4BEYsSawehvebMa0oKSiTpaUENoUizWisGeN5fh+8hU/keWaCit1ZIMHZyYRR8B2ViY19HYHBz72IfV/e1NAXQM4rlV6fUqd2HKDavm+/sY+vNXRl3hqjTc1jbOBCsKg7qkGc4EQpndviWFofpVpXRoJVyaZMXIbLXm/2Ek+74da4N1nsbrWjnyGyQQ77WDf6PHMvSqgodEsFEMC5WjMBZmytXQc3XjMgNTJxhNbf7uhWptcceRy6Zps8kiRVA3pmVRg0fnKvCcaQNRqOoTWRWgFH9QjYx3kuKXm7/e/e3fHCPrxy8uwuMUCcqnbUCkyUe1wQIjmiXphbNW3s2e1W/dOeZqEhULYLIf5AkxUsguh73JmpDsmkL0ud0iiqM9fVVM0HXP/gjp3cypwZTxM8aLRVTPNBtzp0wKWfdP/5k6SuCwGFLPpLrKvur+GYgfzllmRVo1MAeQWSXu4XGS52+jIdJgiugIZRiRwUkQUp3xWCP3pCdTcKhnhW/2jBumlGNwEKd/CKXkXg3PuvC5kzRoXMVe1iOPGrsiKFd8W6N7ccRDtRjaNKev9Ddye1GPLOxsbqu0mAoPvVr3qMe8Pcvu/RHRNOUNgVRoMYyQ0N2dCWDcoCr5X34OgrdHNYk1zug3GH2DaUw+vOODkEgsnY=",
+      "id": "text",
+      "isHidden": true,
+      "name": "ILScript",
+      "type": "text"
+    },
+    {
+      "defval": "",
+      "id": "pineId",
+      "isHidden": true,
+      "name": "pineId",
+      "type": "text"
+    },
+    {
+      "defval": "",
+      "id": "pineVersion",
+      "isHidden": true,
+      "name": "pineVersion",
+      "type": "text"
+    },
+    {
+      "defval": "{\"indicator\":1,\"plot\":1,\"ta\":1}",
+      "id": "pineFeatures",
+      "isFake": true,
+      "isHidden": true,
+      "name": "pineFeatures",
+      "type": "text"
+    },
+    {
+      "defval": false,
+      "group": "Calculation",
+      "id": "__fast_calc",
+      "isFake": true,
+      "isHidden": true,
+      "migrate": true,
+      "name": "Fast calculation",
+      "tooltip": "Limits script calculation to the last 2K bars. Turns off automatically when chart loads more historical data.",
+      "type": "bool"
+    },
+    {
+      "defval": false,
+      "id": "__profile",
+      "isFake": true,
+      "isHidden": true,
+      "migrate": true,
+      "name": "",
+      "type": "bool"
+    }
+  ],
+  "nativeDefaultsMetadata": {
+    "inputs": {
+      "__fast_calc": false,
+      "__profile": false,
+      "pineFeatures": "{\"indicator\":1,\"plot\":1,\"ta\":1}",
+      "pineId": "",
+      "pineVersion": "",
+      "text": "bmI9Ks46_dqlaK34ig3nG7FRzaCADNg==_LEvNUvM/VlZc48tCoxKtnY7OsamN7JWe4jSwgPRM7Q71qUsYbumsCvdd+9st8l7Yx5YC3toPFk31dhJc7E/lu4417NJ67gynTxDwXyzX9xUiBAEDGkq3u8S4AxG9fm+r6D7SrvzogJo8HazTC07qY+KnMPCviwizS8uAhItue1boY1EiVPU8Xugqrgk5oAwSHAHWmpOzD72AolZI7pVyE1s1SFHEGj0i46wY6thNjQRC/th8VGL6QyFnF7zv3lHR8QcSpqSjJkF2FVflhda4JLw6vKiHYWMteO1nOfp1T6fnYi/7W9dr7FE1winI0eE3QP9bC4AuYX1ZgLtw1StN+7bx+W6b9eCkGPLBI4Gjx0YIaeoFWZE2Oi4BEYsSawehvebMa0oKSiTpaUENoUizWisGeN5fh+8hU/keWaCit1ZIMHZyYRR8B2ViY19HYHBz72IfV/e1NAXQM4rlV6fUqd2HKDavm+/sY+vNXRl3hqjTc1jbOBCsKg7qkGc4EQpndviWFofpVpXRoJVyaZMXIbLXm/2Ek+74da4N1nsbrWjnyGyQQ77WDf6PHMvSqgodEsFEMC5WjMBZmytXQc3XjMgNTJxhNbf7uhWptcceRy6Zps8kiRVA3pmVRg0fnKvCcaQNRqOoTWRWgFH9QjYx3kuKXm7/e/e3fHCPrxy8uwuMUCcqnbUCkyUe1wQIjmiXphbNW3s2e1W/dOeZqEhULYLIf5AkxUsguh73JmpDsmkL0ud0iiqM9fVVM0HXP/gjp3cypwZTxM8aLRVTPNBtzp0wKWfdP/5k6SuCwGFLPpLrKvur+GYgfzllmRVo1MAeQWSXu4XGS52+jIdJgiugIZRiRwUkQUp3xWCP3pCdTcKhnhW/2jBumlGNwEKd/CKXkXg3PuvC5kzRoXMVe1iOPGrsiKFd8W6N7ccRDtRjaNKev9Ddye1GPLOxsbqu0mAoPvVr3qMe8Pcvu/RHRNOUNgVRoMYyQ0N2dCWDcoCr5X34OgrdHNYk1zug3GH2DaUw+vOODkEgsnY="
+    },
+    "styles": {
+      "plot_0": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_1": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_10": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_11": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_12": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_13": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_14": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_15": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_16": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_17": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_18": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_19": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_2": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_20": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_3": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_4": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_5": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_6": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_7": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_8": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_9": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      }
+    }
+  },
+  "nativeLayoutId": 208224726,
+  "nativeLayoutImage": "q38mQ4Nz",
+  "settings": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "style": "Candles",
+    "timezone": "UTC",
+    "feed": "Native live market; no original per-execution as-of ID inferred"
+  },
+  "receipt": {
+    "path": "v95/captures/v95/v95-implicit-ta-v5/attempt-v1/capture-receipt-v1.json",
+    "bytes": 2608,
+    "sha256": "7b3c26e7a549dd56d017f02a71d21955798a4cec9a6d3dca484fca4132b44f04"
+  }
+}
