@@ -1,0 +1,113 @@
+{
+  "version": "v1",
+  "sourceId": "v95-conditional-clock-v6",
+  "sourceSha256": "a3a05e1fb4656b39de2b4d8acf0676c618f8614f87b8f11cf031aa0093e35174",
+  "transports": [
+    {
+      "kind": "saveBody",
+      "body": {
+        "path": "v95/captures/v95/v95-conditional-clock-v6/attempt-v1/save-response-v1.json",
+        "bytes": 10441,
+        "sha256": "6de4a624a37a95298b77565a9e650e4731e16b1f6b7b59fe87e15db461a0e63e"
+      },
+      "nativeSuccess": true,
+      "nativeReason": null,
+      "nativeReason2": {
+        "warnings": [
+          {
+            "code": "CW10003",
+            "ctx": {
+              "functionName": "ta.sma"
+            },
+            "end": {
+              "column": 29,
+              "line": 13
+            },
+            "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 13
+            }
+          },
+          {
+            "code": "CW10003",
+            "ctx": {
+              "functionName": "ta.ema"
+            },
+            "end": {
+              "column": 29,
+              "line": 14
+            },
+            "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 14
+            }
+          }
+        ]
+      },
+      "nativeStructuredErrors": null,
+      "structuredErrorChannelStatus": "UNOBSERVED / no independent structured error array exposed",
+      "nativeWarnings": [
+        "{\"message\":\"The function \\\"{functionName}\\\" should be called on each calculation for consistency. It is recommended to extract the call from this scope\",\"start\":{\"line\":13,\"column\":18},\"end\":{\"line\":13,\"column\":29},\"code\":\"CW10003\",\"ctx\":{\"functionName\":\"ta.sma\"}}",
+        "{\"message\":\"The function \\\"{functionName}\\\" should be called on each calculation for consistency. It is recommended to extract the call from this scope\",\"start\":{\"line\":14,\"column\":18},\"end\":{\"line\":14,\"column\":29},\"code\":\"CW10003\",\"ctx\":{\"functionName\":\"ta.ema\"}}"
+      ],
+      "warningChannelStatus": "EXPOSED",
+      "nativeEditorMarkerArrays": null,
+      "nativeEditorMarkerArrayStatus": "UNOBSERVED; raw immediate/settled UI retained separately"
+    },
+    {
+      "kind": "addBody",
+      "body": {
+        "path": "v95/captures/v95/v95-conditional-clock-v6/attempt-v1/add-response-v1.json",
+        "bytes": 10441,
+        "sha256": "66468122a0fe5d07c0d1674fb125b9c2798ee75f74cc8f205add0097b614819b"
+      },
+      "nativeSuccess": true,
+      "nativeReason": null,
+      "nativeReason2": {
+        "warnings": [
+          {
+            "code": "CW10003",
+            "ctx": {
+              "functionName": "ta.sma"
+            },
+            "end": {
+              "column": 29,
+              "line": 13
+            },
+            "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 13
+            }
+          },
+          {
+            "code": "CW10003",
+            "ctx": {
+              "functionName": "ta.ema"
+            },
+            "end": {
+              "column": 29,
+              "line": 14
+            },
+            "message": "The function \"{functionName}\" should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 14
+            }
+          }
+        ]
+      },
+      "nativeStructuredErrors": null,
+      "structuredErrorChannelStatus": "UNOBSERVED / no independent structured error array exposed",
+      "nativeWarnings": [
+        "{\"message\":\"The function \\\"{functionName}\\\" should be called on each calculation for consistency. It is recommended to extract the call from this scope\",\"start\":{\"line\":13,\"column\":18},\"end\":{\"line\":13,\"column\":29},\"code\":\"CW10003\",\"ctx\":{\"functionName\":\"ta.sma\"}}",
+        "{\"message\":\"The function \\\"{functionName}\\\" should be called on each calculation for consistency. It is recommended to extract the call from this scope\",\"start\":{\"line\":14,\"column\":18},\"end\":{\"line\":14,\"column\":29},\"code\":\"CW10003\",\"ctx\":{\"functionName\":\"ta.ema\"}}"
+      ],
+      "warningChannelStatus": "EXPOSED",
+      "nativeEditorMarkerArrays": null,
+      "nativeEditorMarkerArrayStatus": "UNOBSERVED; raw immediate/settled UI retained separately"
+    }
+  ]
+}

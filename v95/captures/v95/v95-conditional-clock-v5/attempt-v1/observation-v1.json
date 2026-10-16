@@ -1,0 +1,248 @@
+{
+  "version": "v1",
+  "sourceId": "v95-conditional-clock-v5",
+  "item": 2,
+  "pineVersion": 5,
+  "requestCommit": "325b86491f8310806ac214914479d217ea3bb7e4",
+  "requestSource": "v95/sources/v95-conditional-clock-v5.pine",
+  "sourceSha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9",
+  "executed": {
+    "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/executed-v1.pine",
+    "bytes": 949,
+    "sha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9"
+  },
+  "nativeCompileSuccess": true,
+  "privateScriptId": "USER;b6309671a9fd420f8983fcff9b2c2306",
+  "privateVersion": "1.0",
+  "nativeStudyInstanceId": null,
+  "nativeStudyInstanceStatus": "UNOBSERVED",
+  "nativeWarningChannel": [
+    "line 13: The function 'ta.sma' should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+    "line 14: The function 'ta.ema' should be called on each calculation for consistency. It is recommended to extract the call from this scope"
+  ],
+  "nativeWarningChannelPath": "result.metaInfo.warnings",
+  "editorMarkerArrays": null,
+  "editorMarkerStatus": "UNOBSERVED; separate native immediate/settled UI retained",
+  "saveBody": {
+    "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/save-response-v1.json",
+    "bytes": 10073,
+    "sha256": "53bd3db38d590dac5931e28fef5039c03d91b3352b296024fc986661c148fe08"
+  },
+  "addBody": {
+    "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/add-response-v1.json",
+    "bytes": 10073,
+    "sha256": "46eb1ea48996cba16ab625ee5292809043ca61cf4a05498ff9bd0b2dc2acc089"
+  },
+  "nativeInputsMetadata": [
+    {
+      "defval": "bmI9Ks46_dLFFxbxCIFGTwYHcZBu6bQ==_YE9m2QGeAtsA7YaWHsTx74+p5Ii0INASQlEdtEu9igJB8eYHENNL5F6+JYT3EKbCxmUEeLoukRtFm9NEBS2as5E1RbVJGB4FtoVLW3vDfdfco56x9Qcuhv50Lu6yo2XqJmbcWW0T6uDMwMs+sHJGjXW2yBwwac/vKBgEuIvkB/71Y4y4ALOGruLo55GhajLDpOnC1O5rEIzIt7cmoBOotWpPODM6FdmStW0xV/xT9XUUkp6kNjD9Iz0QnxesTegYo/RQAV2sl9++LJDWgo579ghQ7P7ykCRwthQII2gSfjPnEs843Zi1fkmjJdK1xSv4QyHKiDeDNIwlol7AanR1BE9fcLOPsNyKYFm24tCZwU31/pv1qxiCpdUWZCm/jV1RoRuswGh1D4j2cfSj9TVjrVhhQSXr/ls9pQb7WwCj8RSn+veh38cR7afwg8tCi5EFD/gezsKKTs9TPYT8jKOkdkSRqJqRR1apgQBX55FFGPliQOKThuSHIeZGmm3l83zG6fJ8WJpzKtAdwWLqfrWQ/bzBO91HJpOs8JE/7qFOyBTORgZWKbnOwCxA5fSAdL36oJPOlbrUMFuB5VwF+7jp//0qzxU/dkT7+1t7Yxp3FL58OVEB2PEmboajnd7xtD4n7Wrj6ilYhGiZnciYOE6VE7XJLmbWnpD/NzSq7eeD8pfb/sHRNkoj6OuWcpC41wC3LNDC4YPN9tYM/9vhrjtZlrpd+bAtDkPS0QzpyFzdDt5K0Oah2ri6V0MczImwf1sRTTonCoBWuRTO10ZOXjN8SvouoR+fpyB5tJvfPKLxGCD3FDvSrPEX4v1BiKgoOA+CgKb32OkruNuTZvffG/0eUNbtjuxvMwzqluqDKSeNLgWdKBiX53a4wLZg0jGXmOQJxkN2rS20nzRZb5x37dMTBst8jUtnbTdKFKLWbB+2s5/ZdjG9gJkp8p0jubBhtmmrGVXZvOHo3vYJdhLeG7ieWGneAnnNi2jw9eE3nTenH8jHwSd41t3wfJph92C4C7JM97AWZN8ZFO/iI6VRpXTUEc/6ZNc=",
+      "id": "text",
+      "isHidden": true,
+      "name": "ILScript",
+      "type": "text"
+    },
+    {
+      "defval": "",
+      "id": "pineId",
+      "isHidden": true,
+      "name": "pineId",
+      "type": "text"
+    },
+    {
+      "defval": "",
+      "id": "pineVersion",
+      "isHidden": true,
+      "name": "pineVersion",
+      "type": "text"
+    },
+    {
+      "defval": "{\"indicator\":1,\"plot\":1,\"ta\":1}",
+      "id": "pineFeatures",
+      "isFake": true,
+      "isHidden": true,
+      "name": "pineFeatures",
+      "type": "text"
+    },
+    {
+      "defval": false,
+      "group": "Calculation",
+      "id": "__fast_calc",
+      "isFake": true,
+      "isHidden": true,
+      "migrate": true,
+      "name": "Fast calculation",
+      "tooltip": "Limits script calculation to the last 2K bars. Turns off automatically when chart loads more historical data.",
+      "type": "bool"
+    },
+    {
+      "defval": false,
+      "id": "__profile",
+      "isFake": true,
+      "isHidden": true,
+      "migrate": true,
+      "name": "",
+      "type": "bool"
+    }
+  ],
+  "nativeDefaultsMetadata": {
+    "inputs": {
+      "__fast_calc": false,
+      "__profile": false,
+      "pineFeatures": "{\"indicator\":1,\"plot\":1,\"ta\":1}",
+      "pineId": "",
+      "pineVersion": "",
+      "text": "bmI9Ks46_dLFFxbxCIFGTwYHcZBu6bQ==_YE9m2QGeAtsA7YaWHsTx74+p5Ii0INASQlEdtEu9igJB8eYHENNL5F6+JYT3EKbCxmUEeLoukRtFm9NEBS2as5E1RbVJGB4FtoVLW3vDfdfco56x9Qcuhv50Lu6yo2XqJmbcWW0T6uDMwMs+sHJGjXW2yBwwac/vKBgEuIvkB/71Y4y4ALOGruLo55GhajLDpOnC1O5rEIzIt7cmoBOotWpPODM6FdmStW0xV/xT9XUUkp6kNjD9Iz0QnxesTegYo/RQAV2sl9++LJDWgo579ghQ7P7ykCRwthQII2gSfjPnEs843Zi1fkmjJdK1xSv4QyHKiDeDNIwlol7AanR1BE9fcLOPsNyKYFm24tCZwU31/pv1qxiCpdUWZCm/jV1RoRuswGh1D4j2cfSj9TVjrVhhQSXr/ls9pQb7WwCj8RSn+veh38cR7afwg8tCi5EFD/gezsKKTs9TPYT8jKOkdkSRqJqRR1apgQBX55FFGPliQOKThuSHIeZGmm3l83zG6fJ8WJpzKtAdwWLqfrWQ/bzBO91HJpOs8JE/7qFOyBTORgZWKbnOwCxA5fSAdL36oJPOlbrUMFuB5VwF+7jp//0qzxU/dkT7+1t7Yxp3FL58OVEB2PEmboajnd7xtD4n7Wrj6ilYhGiZnciYOE6VE7XJLmbWnpD/NzSq7eeD8pfb/sHRNkoj6OuWcpC41wC3LNDC4YPN9tYM/9vhrjtZlrpd+bAtDkPS0QzpyFzdDt5K0Oah2ri6V0MczImwf1sRTTonCoBWuRTO10ZOXjN8SvouoR+fpyB5tJvfPKLxGCD3FDvSrPEX4v1BiKgoOA+CgKb32OkruNuTZvffG/0eUNbtjuxvMwzqluqDKSeNLgWdKBiX53a4wLZg0jGXmOQJxkN2rS20nzRZb5x37dMTBst8jUtnbTdKFKLWbB+2s5/ZdjG9gJkp8p0jubBhtmmrGVXZvOHo3vYJdhLeG7ieWGneAnnNi2jw9eE3nTenH8jHwSd41t3wfJph92C4C7JM97AWZN8ZFO/iI6VRpXTUEc/6ZNc="
+    },
+    "styles": {
+      "plot_0": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_1": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_10": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_11": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_12": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_13": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_14": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_2": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_3": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_4": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_5": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_6": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_7": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_8": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      },
+      "plot_9": {
+        "color": null,
+        "display": 15,
+        "linestyle": 0,
+        "linewidth": 1,
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0
+      }
+    }
+  },
+  "nativeLayoutId": 208224726,
+  "nativeLayoutImage": "q38mQ4Nz",
+  "settings": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "style": "Candles",
+    "timezone": "UTC",
+    "feed": "Native live market; no original per-execution as-of ID inferred"
+  },
+  "receipt": {
+    "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/capture-receipt-v1.json",
+    "bytes": 2632,
+    "sha256": "178f467faf5df0a100222da423d43e8270bc37078df7dc70ba74e3f9e2e41cad"
+  }
+}

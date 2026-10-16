@@ -1,0 +1,97 @@
+{
+  "version": "v1",
+  "sourceId": "v95-conditional-clock-v5",
+  "sourceSha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9",
+  "transports": [
+    {
+      "kind": "saveBody",
+      "body": {
+        "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/save-response-v1.json",
+        "bytes": 10073,
+        "sha256": "53bd3db38d590dac5931e28fef5039c03d91b3352b296024fc986661c148fe08"
+      },
+      "nativeSuccess": true,
+      "nativeReason": null,
+      "nativeReason2": {
+        "warnings": [
+          {
+            "end": {
+              "column": 29,
+              "line": 13
+            },
+            "message": "The function 'ta.sma' should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 13
+            }
+          },
+          {
+            "end": {
+              "column": 29,
+              "line": 14
+            },
+            "message": "The function 'ta.ema' should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 14
+            }
+          }
+        ]
+      },
+      "nativeStructuredErrors": null,
+      "structuredErrorChannelStatus": "UNOBSERVED / no independent structured error array exposed",
+      "nativeWarnings": [
+        "line 13: The function 'ta.sma' should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+        "line 14: The function 'ta.ema' should be called on each calculation for consistency. It is recommended to extract the call from this scope"
+      ],
+      "warningChannelStatus": "EXPOSED",
+      "nativeEditorMarkerArrays": null,
+      "nativeEditorMarkerArrayStatus": "UNOBSERVED; raw immediate/settled UI retained separately"
+    },
+    {
+      "kind": "addBody",
+      "body": {
+        "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/add-response-v1.json",
+        "bytes": 10073,
+        "sha256": "46eb1ea48996cba16ab625ee5292809043ca61cf4a05498ff9bd0b2dc2acc089"
+      },
+      "nativeSuccess": true,
+      "nativeReason": null,
+      "nativeReason2": {
+        "warnings": [
+          {
+            "end": {
+              "column": 29,
+              "line": 13
+            },
+            "message": "The function 'ta.sma' should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 13
+            }
+          },
+          {
+            "end": {
+              "column": 29,
+              "line": 14
+            },
+            "message": "The function 'ta.ema' should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+            "start": {
+              "column": 18,
+              "line": 14
+            }
+          }
+        ]
+      },
+      "nativeStructuredErrors": null,
+      "structuredErrorChannelStatus": "UNOBSERVED / no independent structured error array exposed",
+      "nativeWarnings": [
+        "line 13: The function 'ta.sma' should be called on each calculation for consistency. It is recommended to extract the call from this scope",
+        "line 14: The function 'ta.ema' should be called on each calculation for consistency. It is recommended to extract the call from this scope"
+      ],
+      "warningChannelStatus": "EXPOSED",
+      "nativeEditorMarkerArrays": null,
+      "nativeEditorMarkerArrayStatus": "UNOBSERVED; raw immediate/settled UI retained separately"
+    }
+  ]
+}
