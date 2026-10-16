@@ -1,0 +1,28 @@
+# Native computational capture response v95 v9
+
+Twenty-four-source progress return for request325b86491f8310806ac214914479d217ea3bb7e4: items1..12, independently v5/v6. This supersedes v8 while preserving every earlier artifact.16 slots remain, including both unstarted finite observers. V96 then v97 stay queued, each with independent layouts/budgets; v97 navigation permission never expands v95. Maximum40 Save/40 Add/50 CSV, one unchanged session per source and zero retries/input changes remain intact.
+
+All twenty-four exact new PRIVATE unpublished sources passed one Save/Add/export each and their twenty-four own studies were removed. Forty-eight complete native compiler bodies, ordered diagnostic channels and separate immediate/settled UI are retained. No included Save/Add refusal occurred. Unavailable independent editor marker arrays and native study-instance IDs remain UNOBSERVED. Exact source form/executed bytes, unique private version1.0 IDs, native plot metadata, own-study UI and fresh download clocks bind actual CSV columns independently of title equality.
+
+Item11 slice/copy/typed-container results, independently per version across32 consecutive closed rows:
+
+- A_SIZE5, A=[1,20,3,9,4]; B_SIZE4, B=[1,2,3,4]; VIEW_SIZE3, VIEW=[20,3,9]; LAST4. All complete bounded vectors are exposed by individual slots.
+- The frozen SHARED_SLICE_WINDOW candidate matches every slot/count. ISOLATED_SLICE is REFUTED in A_SIZE/A_1/A_3/A_4 on all32 rows,128 scalar refutations per version. Agreement of other shared controls does not certify the contradicted whole candidate.
+- BOX_ARRAY_SIZE2/BOX0_NA1 and TABLE_ARRAY_SIZE1/TABLE0_NA1 match throughout. These are arrays of missing IDs; no drawing/table object or rendering experiment was created.
+- Each version has1024 supported comparisons and128 refutations, with complete shapes within all exported caps. This does not certify all reference types or arbitrary slice operations.
+
+Item12 missing-element search/order/reductions, independently per version across32 closed rows:
+
+- INCLUDES_NA0, INDEX_NA−1 and LASTINDEX_NA−1 support the frozen no-match candidate and refute equal-to-missing search for this literal array.
+- SIZE4; sorted slots are[1,3,3,blank], with NA flags[0,0,0,1]. ORDER=[0,2,3,1] supports NA-last with forward equal-key order for this pair of equal3 values. Other frozen placement/order candidates are independently contradicted; no universal stability claim follows.
+- SUM7, MEDIAN3, MIN1 and MAX3 match the finite skip-NA candidate. Finite outputs refute the propagate-NA candidate. AVG is exactly the raw string2.3333333333333335, VARIANCE0.8888888888888875 and STDEV0.9428090415820626. Mathematical7/3,8/9 and sqrt(8/9) references remain separate; fractional precision is UNDECIDED without output rounding or tolerance fitting.
+- PERCENTILE is an observed blank from the exact unchanged original call. It is not replaced with0 or described as an unavailable provider. Every original slot, missing flag and contrary candidate cell is retained.
+- Each version has832 supported comparisons,768 scalar refutations and128 open/precision-dependent native target records. Counts refer to named model comparisons, not unique native cells.
+
+Earlier bounded results remain independently archived: lower-TF tuple/expression matches; conditional SMA clock refutations and fractional/EMA holds; UDF/reset matches with first-reach hold; recursive/implicit TA suffix vectors with startup holds and observed direction transitions; rightmost dynamic/implicit-low pivot handling plus bounded anchor arrays; shallow UDT payload-copy/history matches and pre-origin hold; fixed DST conversions with unobserved naturally loaded transitions; anchored VWAP zero-multiplier matches and source-hole poisoning; typed-NA versioned Boolean/cast/fixnan behavior with origin holds. No earlier hold is silently waived by a new pointwise result.
+
+Twenty-four original CSVs contain7774 data rows,7750 independently closed. Original bytes, all headers/ordinals/raw strings, blanks, signed zeros and residues remain preserved. Every export begins at own index23338/IS_FIRST0; FIRST_INDEX0/FIRST_TIME1789344000000 do not fill omitted inputs. SHA-keyed masks require physical2m close plus native confirmation;24 developing rows remain OBSERVED / EXCLUDED. Property-specific startup/anchor exclusions retain explicit zero-credit causes. Comparison scopes: all closed item1 rows;128-row blocks for2/4/5;64 for3/7/8/10;96 for6/9;32 for11/12. No prefix stitching, result-presence filtering or sampling completeness is claimed.
+
+Evidence: `attempt-inventory-v9.json`, `numeric-controls-v9.json`, `facet-capabilities-v9.json`, `account-actions-v9.json`, `artifact-integrity-v9.json`, with immutable per-source `numeric-results-v1.json`/`compiler-diagnostics-v1.json` and actual output/input/dependency pointers. Read-only validation: `python3 v95/captures/v95/validate-evidence-v2.py 9`, including all prior integrity manifests.
+
+Only new native layout208224726/q38mQ4Nz is used, BINANCE:BTCUSDT2m Candles UTC, retaining default Vol · BTC. Ten pre-existing saved records have an explicit immutable v94-end/v95-before baseline. End-of-round preservation comparison remains pending; an independent later source may currently be attached and is excluded from this twenty-four-source return. No old-layout save/edit, publication/share/visibility change, alert, import, reconnect, account/entitlement action, history navigation, source repair or retry occurred. Both observer windows remain unstarted; the private library stays unchanged. No engine approval, fixture promotion, held color merge, original MTF developing identity or historical hold closure follows.

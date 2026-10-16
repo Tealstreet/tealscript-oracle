@@ -1,0 +1,45 @@
+------WebKitFormBoundary80m7bBcsa7DsfnGE
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("v95-array-alias-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+a = array.from(1.0, 2.0, 3.0, 4.0)
+b = array.copy(a)
+view = array.slice(a, 1, 3)
+array.set(view, 0, 20.0)
+array.push(view, 9.0)
+boxes = array.new_box(2)
+tables = array.new_table(1)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(array.size(a), title="A_SIZE")
+plot(array.size(b), title="B_SIZE")
+plot(array.size(view), title="VIEW_SIZE")
+plot(array.size(a) > 0 ? array.get(a, 0) : na, title="A_0")
+plot(array.size(a) > 1 ? array.get(a, 1) : na, title="A_1")
+plot(array.size(a) > 2 ? array.get(a, 2) : na, title="A_2")
+plot(array.size(a) > 3 ? array.get(a, 3) : na, title="A_3")
+plot(array.size(a) > 4 ? array.get(a, 4) : na, title="A_4")
+plot(array.get(b, 0), title="B_0")
+plot(array.get(b, 1), title="B_1")
+plot(array.get(b, 2), title="B_2")
+plot(array.get(b, 3), title="B_3")
+plot(array.size(view) > 0 ? array.get(view, 0) : na, title="VIEW_0")
+plot(array.size(view) > 1 ? array.get(view, 1) : na, title="VIEW_1")
+plot(array.size(view) > 2 ? array.get(view, 2) : na, title="VIEW_2")
+plot(array.last(a), title="LAST")
+plot(array.size(boxes), title="BOX_ARRAY_SIZE")
+plot(na(array.get(boxes, 0)) ? 1 : 0, title="BOX0_NA")
+plot(array.size(tables), title="TABLE_ARRAY_SIZE")
+plot(na(array.get(tables, 0)) ? 1 : 0, title="TABLE0_NA")
+
+------WebKitFormBoundary80m7bBcsa7DsfnGE--
