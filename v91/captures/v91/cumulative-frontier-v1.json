@@ -1,0 +1,610 @@
+{
+  "version": "v1",
+  "exports": [
+    {
+      "path": "v91/captures/v91/cumulative-pair-v5/session-v1/viewport-native-v1.csv",
+      "sha256": "c2967f69649499d5382b6f6f7e8f4abd5ecda8c40c0f71d1ad8a4d6c627d8f43",
+      "bytes": 249096,
+      "headers": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "Volume",
+        "Plot",
+        "FRONTIER_TIME",
+        "FRONTIER_TIME_CLOSE",
+        "FRONTIER_BAR_INDEX",
+        "FRONTIER_ISFIRST",
+        "FRONTIER_ISCONFIRMED",
+        "FIRST_CHART_TIME",
+        "FIRST_CHART_INDEX",
+        "FRONTIER_OPEN",
+        "FRONTIER_HIGH",
+        "FRONTIER_LOW",
+        "FRONTIER_CLOSE",
+        "FRONTIER_VOLUME"
+      ],
+      "rows": 1593,
+      "observedAtUtc": "2026-10-16T01:30:33.853Z",
+      "firstTimeRaw": "1791923160",
+      "lastTimeRaw": "1792114200",
+      "nativeFirstPhysicalRowRaw": [
+        "1791923160",
+        "83244.01",
+        "83244.01",
+        "83226.76",
+        "83226.77",
+        "5.94017",
+        "558845",
+        "1791923160000",
+        "1791923280000",
+        "21493",
+        "0",
+        "1",
+        "1789344000000",
+        "0",
+        "83244.01",
+        "83244.01",
+        "83226.76",
+        "83226.77",
+        "5.94017"
+      ],
+      "nativeLastPhysicalRowRaw": [
+        "1792114200",
+        "82196.01",
+        "82218.17",
+        "82196",
+        "82218.17",
+        "3.14408",
+        "600237",
+        "1792114200000",
+        "1792114320000",
+        "23085",
+        "0",
+        "0",
+        "1789344000000",
+        "0",
+        "82196.01",
+        "82218.17",
+        "82196",
+        "82218.17",
+        "3.14408"
+      ],
+      "companionFrontierStatus": "CONTEXT-UNMET-CROPPED-EXPORT",
+      "missingPrefixBarsInThisExportRaw": "21493",
+      "companionOwnedFields": {
+        "FRONTIER_TIME": {
+          "firstRaw": "1791923160000",
+          "lastRaw": "1792114200000",
+          "columnOrdinal": 8
+        },
+        "FRONTIER_TIME_CLOSE": {
+          "firstRaw": "1791923280000",
+          "lastRaw": "1792114320000",
+          "columnOrdinal": 9
+        },
+        "FRONTIER_BAR_INDEX": {
+          "firstRaw": "21493",
+          "lastRaw": "23085",
+          "columnOrdinal": 10
+        },
+        "FRONTIER_ISFIRST": {
+          "firstRaw": "0",
+          "lastRaw": "0",
+          "columnOrdinal": 11
+        },
+        "FRONTIER_ISCONFIRMED": {
+          "firstRaw": "1",
+          "lastRaw": "0",
+          "columnOrdinal": 12
+        },
+        "FIRST_CHART_TIME": {
+          "firstRaw": "1789344000000",
+          "lastRaw": "1789344000000",
+          "columnOrdinal": 13
+        },
+        "FIRST_CHART_INDEX": {
+          "firstRaw": "0",
+          "lastRaw": "0",
+          "columnOrdinal": 14
+        },
+        "FRONTIER_OPEN": {
+          "firstRaw": "83244.01",
+          "lastRaw": "82196.01",
+          "columnOrdinal": 15
+        },
+        "FRONTIER_HIGH": {
+          "firstRaw": "83244.01",
+          "lastRaw": "82218.17",
+          "columnOrdinal": 16
+        },
+        "FRONTIER_LOW": {
+          "firstRaw": "83226.76",
+          "lastRaw": "82196",
+          "columnOrdinal": 17
+        },
+        "FRONTIER_CLOSE": {
+          "firstRaw": "83226.77",
+          "lastRaw": "82218.17",
+          "columnOrdinal": 18
+        },
+        "FRONTIER_VOLUME": {
+          "firstRaw": "5.94017",
+          "lastRaw": "3.14408",
+          "columnOrdinal": 19
+        }
+      },
+      "originalOwnedFrontierFields": null,
+      "originalNativeBeforeAddFrontier": null,
+      "originalNativeAfterAddFrontier": null,
+      "originalVerdict": "SAME-SESSION-TARGET-CELLS-OBSERVED; ORIGINAL-EXECUTION-FRONTIER-CONTEXT-UNMET",
+      "reason": "Independent companion owns the exported frontier metadata. Shared chart/export and matching inputs do not independently expose the unchanged original execution frontier.",
+      "targetColumnOrdinal": 7,
+      "targetSource": "USER;0b701dcf317f48c889d218e8875ca894",
+      "companionSource": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "firstRowProvenance": {
+        "csv": "v91/captures/v91/cumulative-pair-v5/session-v1/viewport-native-v1.csv",
+        "sha256": "c2967f69649499d5382b6f6f7e8f4abd5ecda8c40c0f71d1ad8a4d6c627d8f43",
+        "dataRowOrdinal": 1,
+        "columnOrdinals": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "observedAtUtc": "2026-10-16T01:30:33.853Z"
+      },
+      "allRowsProvenance": {
+        "csvSha256": "c2967f69649499d5382b6f6f7e8f4abd5ecda8c40c0f71d1ad8a4d6c627d8f43",
+        "dataRowOrdinalRangeInclusive": [
+          1,
+          1593
+        ],
+        "originalColumnOrdinals": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "historySessionsNeverSpliced": true,
+      "noSeedInferred": true
+    },
+    {
+      "path": "v91/captures/v91/cumulative-pair-v5/session-v2/frontier-native-v1.csv",
+      "sha256": "a5dcf1ee9c68b6f5fd0559111125627dc2a3ffc83e0fc5ca5064d666a02ba266",
+      "bytes": 3584063,
+      "headers": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "Volume",
+        "Plot",
+        "FRONTIER_TIME",
+        "FRONTIER_TIME_CLOSE",
+        "FRONTIER_BAR_INDEX",
+        "FRONTIER_ISFIRST",
+        "FRONTIER_ISCONFIRMED",
+        "FIRST_CHART_TIME",
+        "FIRST_CHART_INDEX",
+        "FRONTIER_OPEN",
+        "FRONTIER_HIGH",
+        "FRONTIER_LOW",
+        "FRONTIER_CLOSE",
+        "FRONTIER_VOLUME"
+      ],
+      "rows": 23086,
+      "observedAtUtc": "2026-10-16T01:31:00.835Z",
+      "firstTimeRaw": "1789344000",
+      "lastTimeRaw": "1792114200",
+      "nativeFirstPhysicalRowRaw": [
+        "1789344000",
+        "76842.01",
+        "76892.01",
+        "76842",
+        "76858.01",
+        "7.31916",
+        "27",
+        "1789344000000",
+        "1789344120000",
+        "0",
+        "1",
+        "1",
+        "1789344000000",
+        "0",
+        "76842.01",
+        "76892.01",
+        "76842",
+        "76858.01",
+        "7.31916"
+      ],
+      "nativeLastPhysicalRowRaw": [
+        "1792114200",
+        "82196.01",
+        "82218.17",
+        "82196",
+        "82208.2",
+        "4.64914",
+        "600237",
+        "1792114200000",
+        "1792114320000",
+        "23085",
+        "0",
+        "0",
+        "1789344000000",
+        "0",
+        "82196.01",
+        "82218.17",
+        "82196",
+        "82208.2",
+        "4.64914"
+      ],
+      "companionFrontierStatus": "COMPLETE-INDEX0-OBSERVED",
+      "missingPrefixBarsInThisExportRaw": "0",
+      "companionOwnedFields": {
+        "FRONTIER_TIME": {
+          "firstRaw": "1789344000000",
+          "lastRaw": "1792114200000",
+          "columnOrdinal": 8
+        },
+        "FRONTIER_TIME_CLOSE": {
+          "firstRaw": "1789344120000",
+          "lastRaw": "1792114320000",
+          "columnOrdinal": 9
+        },
+        "FRONTIER_BAR_INDEX": {
+          "firstRaw": "0",
+          "lastRaw": "23085",
+          "columnOrdinal": 10
+        },
+        "FRONTIER_ISFIRST": {
+          "firstRaw": "1",
+          "lastRaw": "0",
+          "columnOrdinal": 11
+        },
+        "FRONTIER_ISCONFIRMED": {
+          "firstRaw": "1",
+          "lastRaw": "0",
+          "columnOrdinal": 12
+        },
+        "FIRST_CHART_TIME": {
+          "firstRaw": "1789344000000",
+          "lastRaw": "1789344000000",
+          "columnOrdinal": 13
+        },
+        "FIRST_CHART_INDEX": {
+          "firstRaw": "0",
+          "lastRaw": "0",
+          "columnOrdinal": 14
+        },
+        "FRONTIER_OPEN": {
+          "firstRaw": "76842.01",
+          "lastRaw": "82196.01",
+          "columnOrdinal": 15
+        },
+        "FRONTIER_HIGH": {
+          "firstRaw": "76892.01",
+          "lastRaw": "82218.17",
+          "columnOrdinal": 16
+        },
+        "FRONTIER_LOW": {
+          "firstRaw": "76842",
+          "lastRaw": "82196",
+          "columnOrdinal": 17
+        },
+        "FRONTIER_CLOSE": {
+          "firstRaw": "76858.01",
+          "lastRaw": "82208.2",
+          "columnOrdinal": 18
+        },
+        "FRONTIER_VOLUME": {
+          "firstRaw": "7.31916",
+          "lastRaw": "4.64914",
+          "columnOrdinal": 19
+        }
+      },
+      "originalOwnedFrontierFields": null,
+      "originalNativeBeforeAddFrontier": null,
+      "originalNativeAfterAddFrontier": null,
+      "originalVerdict": "SAME-SESSION-TARGET-CELLS-OBSERVED; ORIGINAL-EXECUTION-FRONTIER-CONTEXT-UNMET",
+      "reason": "Independent companion owns the exported frontier metadata. Shared chart/export and matching inputs do not independently expose the unchanged original execution frontier.",
+      "targetColumnOrdinal": 7,
+      "targetSource": "USER;0b701dcf317f48c889d218e8875ca894",
+      "companionSource": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "firstRowProvenance": {
+        "csv": "v91/captures/v91/cumulative-pair-v5/session-v2/frontier-native-v1.csv",
+        "sha256": "a5dcf1ee9c68b6f5fd0559111125627dc2a3ffc83e0fc5ca5064d666a02ba266",
+        "dataRowOrdinal": 1,
+        "columnOrdinals": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "observedAtUtc": "2026-10-16T01:31:00.835Z"
+      },
+      "allRowsProvenance": {
+        "csvSha256": "a5dcf1ee9c68b6f5fd0559111125627dc2a3ffc83e0fc5ca5064d666a02ba266",
+        "dataRowOrdinalRangeInclusive": [
+          1,
+          23086
+        ],
+        "originalColumnOrdinals": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "historySessionsNeverSpliced": true,
+      "noSeedInferred": true
+    },
+    {
+      "path": "v91/captures/v91/cumulative-pair-v6/session-v1/frontier-native-v1.csv",
+      "sha256": "339f261d507e2634bdb270c27d945b8348b1d98fbb5a2e0d649218f699c622f6",
+      "bytes": 3584065,
+      "headers": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "Volume",
+        "Plot",
+        "FRONTIER_TIME",
+        "FRONTIER_TIME_CLOSE",
+        "FRONTIER_BAR_INDEX",
+        "FRONTIER_ISFIRST",
+        "FRONTIER_ISCONFIRMED",
+        "FIRST_CHART_TIME",
+        "FIRST_CHART_INDEX",
+        "FRONTIER_OPEN",
+        "FRONTIER_HIGH",
+        "FRONTIER_LOW",
+        "FRONTIER_CLOSE",
+        "FRONTIER_VOLUME"
+      ],
+      "rows": 23086,
+      "observedAtUtc": "2026-10-16T01:31:56.283Z",
+      "firstTimeRaw": "1789344000",
+      "lastTimeRaw": "1792114200",
+      "nativeFirstPhysicalRowRaw": [
+        "1789344000",
+        "76842.01",
+        "76892.01",
+        "76842",
+        "76858.01",
+        "7.31916",
+        "27",
+        "1789344000000",
+        "1789344120000",
+        "0",
+        "1",
+        "1",
+        "1789344000000",
+        "0",
+        "76842.01",
+        "76892.01",
+        "76842",
+        "76858.01",
+        "7.31916"
+      ],
+      "nativeLastPhysicalRowRaw": [
+        "1792114200",
+        "82196.01",
+        "82257.67",
+        "82196",
+        "82257.14",
+        "8.53982",
+        "600237",
+        "1792114200000",
+        "1792114320000",
+        "23085",
+        "0",
+        "0",
+        "1789344000000",
+        "0",
+        "82196.01",
+        "82257.67",
+        "82196",
+        "82257.14",
+        "8.53982"
+      ],
+      "companionFrontierStatus": "COMPLETE-INDEX0-OBSERVED",
+      "missingPrefixBarsInThisExportRaw": "0",
+      "companionOwnedFields": {
+        "FRONTIER_TIME": {
+          "firstRaw": "1789344000000",
+          "lastRaw": "1792114200000",
+          "columnOrdinal": 8
+        },
+        "FRONTIER_TIME_CLOSE": {
+          "firstRaw": "1789344120000",
+          "lastRaw": "1792114320000",
+          "columnOrdinal": 9
+        },
+        "FRONTIER_BAR_INDEX": {
+          "firstRaw": "0",
+          "lastRaw": "23085",
+          "columnOrdinal": 10
+        },
+        "FRONTIER_ISFIRST": {
+          "firstRaw": "1",
+          "lastRaw": "0",
+          "columnOrdinal": 11
+        },
+        "FRONTIER_ISCONFIRMED": {
+          "firstRaw": "1",
+          "lastRaw": "0",
+          "columnOrdinal": 12
+        },
+        "FIRST_CHART_TIME": {
+          "firstRaw": "1789344000000",
+          "lastRaw": "1789344000000",
+          "columnOrdinal": 13
+        },
+        "FIRST_CHART_INDEX": {
+          "firstRaw": "0",
+          "lastRaw": "0",
+          "columnOrdinal": 14
+        },
+        "FRONTIER_OPEN": {
+          "firstRaw": "76842.01",
+          "lastRaw": "82196.01",
+          "columnOrdinal": 15
+        },
+        "FRONTIER_HIGH": {
+          "firstRaw": "76892.01",
+          "lastRaw": "82257.67",
+          "columnOrdinal": 16
+        },
+        "FRONTIER_LOW": {
+          "firstRaw": "76842",
+          "lastRaw": "82196",
+          "columnOrdinal": 17
+        },
+        "FRONTIER_CLOSE": {
+          "firstRaw": "76858.01",
+          "lastRaw": "82257.14",
+          "columnOrdinal": 18
+        },
+        "FRONTIER_VOLUME": {
+          "firstRaw": "7.31916",
+          "lastRaw": "8.53982",
+          "columnOrdinal": 19
+        }
+      },
+      "originalOwnedFrontierFields": null,
+      "originalNativeBeforeAddFrontier": null,
+      "originalNativeAfterAddFrontier": null,
+      "originalVerdict": "SAME-SESSION-TARGET-CELLS-OBSERVED; ORIGINAL-EXECUTION-FRONTIER-CONTEXT-UNMET",
+      "reason": "Independent companion owns the exported frontier metadata. Shared chart/export and matching inputs do not independently expose the unchanged original execution frontier.",
+      "targetColumnOrdinal": 7,
+      "targetSource": "USER;154295623faa4b75a5e8edf8a2b3a6bc",
+      "companionSource": "USER;6a75ad50b1c14100821c69780f9bb041",
+      "firstRowProvenance": {
+        "csv": "v91/captures/v91/cumulative-pair-v6/session-v1/frontier-native-v1.csv",
+        "sha256": "339f261d507e2634bdb270c27d945b8348b1d98fbb5a2e0d649218f699c622f6",
+        "dataRowOrdinal": 1,
+        "columnOrdinals": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "observedAtUtc": "2026-10-16T01:31:56.283Z"
+      },
+      "allRowsProvenance": {
+        "csvSha256": "339f261d507e2634bdb270c27d945b8348b1d98fbb5a2e0d649218f699c622f6",
+        "dataRowOrdinalRangeInclusive": [
+          1,
+          23086
+        ],
+        "originalColumnOrdinals": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "historySessionsNeverSpliced": true,
+      "noSeedInferred": true
+    }
+  ],
+  "oldHolds7and8": "HELD; original historical frontier/620335 not recreated or used as input",
+  "sourceOwnedAndCompanionOwnedMetadataKeptSeparate": true
+}

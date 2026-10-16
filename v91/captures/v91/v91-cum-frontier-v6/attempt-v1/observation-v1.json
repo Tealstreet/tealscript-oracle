@@ -1,0 +1,93 @@
+{
+  "version": "v1",
+  "probe": "v91-cum-frontier-v6",
+  "attempt": "attempt-v1",
+  "status": "RUNS; NATIVE-PLOT-VALUES-OBSERVED",
+  "sourceMatchesRequest": true,
+  "requestedSourceSha256": "88868e5b6280317c53fc5f46360de5c049afd91a5f80ec29540d99c62914b697",
+  "executedSourceSha256": "88868e5b6280317c53fc5f46360de5c049afd91a5f80ec29540d99c62914b697",
+  "executedSourcePath": "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/executed-v1.pine",
+  "nativeMultipartSourceSha256": "2a39f4a2b64c6da9f07bca4ab348047577e498af9d79a7c6fbc5311ce9e2f773",
+  "lineEndingNormalizationOnly": true,
+  "privateScriptId": "USER;6a75ad50b1c14100821c69780f9bb041",
+  "scriptVersion": "1.0",
+  "privateSaveName": "v91-cum-frontier-v6-attempt-v1",
+  "studyTitle": "V91 independent cumulative frontier v6",
+  "studyInstanceId": null,
+  "saveRequestId": 1700,
+  "addRequestId": 1705,
+  "saveCompilerSuccess": true,
+  "addCompilerSuccess": true,
+  "compilerResponses": [
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/save-response-v1.json",
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/add-response-v1.json"
+  ],
+  "nativeCompilerReason": null,
+  "nativeCompilerReason2": null,
+  "immediateMarkers": null,
+  "settledMarkers": null,
+  "markerArraysStatus": "UNOBSERVED; independent native UI snapshots preserved",
+  "uiSnapshots": [
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/context-before-v1.txt",
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/post-add-immediate-v1.txt",
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/post-add-settled-v1.txt",
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/post-remove-v1.txt",
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/post-save-immediate-v1.txt",
+    "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/pre-add-v1.txt"
+  ],
+  "nativeContext": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2",
+    "chartStyle": "Candles",
+    "chartTimezone": "Etc/UTC",
+    "exchangeTimezone": null,
+    "session": "Native default; no session selector changed",
+    "feedStatus": "Market open; genuine native updates",
+    "layoutName": "oracle-v91-v1",
+    "nativeLayoutCreationId": 208124251,
+    "nativeLayoutImageUrl": "RRvYItzu"
+  },
+  "sourceIsolated": false,
+  "retainedBuiltinStudy": "Vol · BTC",
+  "studyRemoved": true,
+  "removalProof": "v91/captures/v91/v91-cum-frontier-v6/attempt-v1/post-remove-v1.txt",
+  "nativeBeforeAddSourceOwnedFrontier": null,
+  "beforeAddFrontierStatus": "UNOBSERVED; native UI snapshots do not expose/bind original execution frontier",
+  "exactExecutionAsOfIdentity": null,
+  "replayInputContextStatus": "See group facet table; present exported values remain OBSERVED even when replay context is held",
+  "exportPaths": [
+    "v91/captures/v91/cumulative-pair-v6/session-v1/frontier-native-v1.csv"
+  ],
+  "exports": [
+    {
+      "path": "v91/captures/v91/cumulative-pair-v6/session-v1/frontier-native-v1.csv",
+      "sha256": "339f261d507e2634bdb270c27d945b8348b1d98fbb5a2e0d649218f699c622f6",
+      "bytes": 3584065,
+      "headers": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "Volume",
+        "Plot",
+        "FRONTIER_TIME",
+        "FRONTIER_TIME_CLOSE",
+        "FRONTIER_BAR_INDEX",
+        "FRONTIER_ISFIRST",
+        "FRONTIER_ISCONFIRMED",
+        "FIRST_CHART_TIME",
+        "FIRST_CHART_INDEX",
+        "FRONTIER_OPEN",
+        "FRONTIER_HIGH",
+        "FRONTIER_LOW",
+        "FRONTIER_CLOSE",
+        "FRONTIER_VOLUME"
+      ],
+      "rows": 23086,
+      "observedAtUtc": "2026-10-16T01:31:56.283Z",
+      "firstTimeRaw": "1789344000",
+      "lastTimeRaw": "1792114200"
+    }
+  ]
+}

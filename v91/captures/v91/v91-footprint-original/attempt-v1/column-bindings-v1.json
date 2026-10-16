@@ -1,0 +1,135 @@
+{
+  "version": "v1",
+  "path": "v91/captures/v91/v91-footprint-original/attempt-v1/chart-native-v1.csv",
+  "sha256": "18cd524838d0de4edf832dfb0140216f3e297437d0e2dfe21910a44268cebfb6",
+  "bytes": 87612,
+  "headers": [
+    "time",
+    "open",
+    "high",
+    "low",
+    "close",
+    "Volume",
+    "Plot"
+  ],
+  "rows": 1589,
+  "observedAtUtc": "2026-10-16T01:23:17.550Z",
+  "firstTimeRaw": "1791923160",
+  "lastTimeRaw": "1792113720",
+  "dataRowOrdinalBase": "1 excluding header",
+  "columnOrdinalBase": 1,
+  "chartColumns": [
+    {
+      "ordinal": 1,
+      "headerRaw": "time",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 2,
+      "headerRaw": "open",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 3,
+      "headerRaw": "high",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 4,
+      "headerRaw": "low",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 5,
+      "headerRaw": "close",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 6,
+      "headerRaw": "Volume",
+      "origin": "retained built-in Vol · BTC"
+    }
+  ],
+  "plotBindings": [
+    {
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "Plot",
+      "columnOrdinal": 7,
+      "sourceProbe": "v91-footprint-original",
+      "executedSourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+      "privateScriptId": "USER;14ceb0bcf02947f3b10fe01ec0806846",
+      "privateScriptVersion": "1.0"
+    }
+  ],
+  "rowClosureMask": "v91/captures/v91/v91-footprint-original/attempt-v1/chart-row-closure-mask-v1.csv",
+  "closureReasonCounts": {
+    "INDEPENDENT_NATIVE_CONFIRMED_TIME_OHLCV_MATCH; OWN_CONFIRMATION_UNOBSERVED": 1588,
+    "OWN_CONFIRMATION_UNOBSERVED_OR_PHYSICAL_OPEN; OUTPUT_VALUES_REMAIN_OBSERVED": 1
+  },
+  "independentConfirmationReferences": {
+    "v91/captures/v91/v91-footprint-price-rows/attempt-v1/chart-native-v1.csv": {
+      "path": "v91/captures/v91/v91-footprint-price-rows/attempt-v1/chart-native-v1.csv",
+      "sha256": "c1e4c7259c3faf8c08a271ab5f883424149537bd7a3dc2c3e26c401054c1b7d7",
+      "bytes": 382450,
+      "headers": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "Volume",
+        "ROW_LOWEST_DOWN_PRICE",
+        "ROW_LOWEST_UP_PRICE",
+        "ROW_LOWEST_TOTAL",
+        "ROW_LOWEST_BUY",
+        "ROW_LOWEST_SELL",
+        "ROW_LOWEST_DELTA",
+        "ROW_LOWEST_BUY_IMBALANCE",
+        "ROW_LOWEST_SELL_IMBALANCE",
+        "ROW_POC_DOWN_PRICE",
+        "ROW_POC_UP_PRICE",
+        "ROW_POC_TOTAL",
+        "ROW_POC_BUY",
+        "ROW_POC_SELL",
+        "ROW_POC_DELTA",
+        "ROW_POC_BUY_IMBALANCE",
+        "ROW_POC_SELL_IMBALANCE",
+        "ROW_HIGHEST_DOWN_PRICE",
+        "ROW_HIGHEST_UP_PRICE",
+        "ROW_HIGHEST_TOTAL",
+        "ROW_HIGHEST_BUY",
+        "ROW_HIGHEST_SELL",
+        "ROW_HIGHEST_DELTA",
+        "ROW_HIGHEST_BUY_IMBALANCE",
+        "ROW_HIGHEST_SELL_IMBALANCE",
+        "CHART_TIME",
+        "CHART_TIME_CLOSE",
+        "CHART_BAR_INDEX",
+        "CHART_ISCONFIRMED",
+        "OBSERVATION_CLOCK",
+        "CHART_OPEN",
+        "CHART_HIGH",
+        "CHART_LOW",
+        "CHART_CLOSE",
+        "CHART_VOLUME",
+        "TARGET_KEY",
+        "FP_AVAILABLE",
+        "FP_AVAILABLE_ZERO_TOTAL",
+        "FP_ROW_COUNT",
+        "FP_TOTAL_VOLUME",
+        "FP_BUY_VOLUME",
+        "FP_SELL_VOLUME",
+        "FP_DELTA"
+      ],
+      "rows": 1590,
+      "observedAtUtc": "2026-10-16T01:25:42.032Z",
+      "firstTimeRaw": "1791923160",
+      "lastTimeRaw": "1792113840"
+    }
+  },
+  "allPresentMaskedCells": "OBSERVED; closed-mask exclusion is not missing output",
+  "dailyObservationCutoffMs": null,
+  "executionBinding": "Source-specific native export",
+  "sourceOwnedExecutionFrontier": null,
+  "exactAsOfInputBinding": null
+}

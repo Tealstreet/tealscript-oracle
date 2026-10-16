@@ -1,0 +1,9 @@
+------WebKitFormBoundaryewlgZNMVkmAxAv1k
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("v77 footprint request-call")
+fp = request.footprint(100, 70, 300)
+plot(na(fp) ? 0 : 1)
+
+------WebKitFormBoundaryewlgZNMVkmAxAv1k--

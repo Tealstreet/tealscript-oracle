@@ -1,0 +1,67 @@
+------WebKitFormBoundaryTLMdedjeUYvajppe
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("V91 native footprint row facets", precision=16)
+f_row(volume_row row) =>
+    [na(row) ? na : volume_row.down_price(row), na(row) ? na : volume_row.up_price(row), na(row) ? na : volume_row.total_volume(row), na(row) ? na : volume_row.buy_volume(row), na(row) ? na : volume_row.sell_volume(row), na(row) ? na : volume_row.delta(row), na(row) ? na : (volume_row.has_buy_imbalance(row) ? 1.0 : 0.0), na(row) ? na : (volume_row.has_sell_imbalance(row) ? 1.0 : 0.0)]
+fp = request.footprint(100, 70, 300)
+target = time == 1791966600000 or time == 1791966720000 or time == 1791966840000
+int rowCount = na
+volume_row lowest = na
+volume_row pointOfControl = na
+volume_row highest = na
+if target and not na(fp)
+    rows = footprint.rows(fp)
+    rowCount := array.size(rows)
+    if rowCount > 0
+        lowest := array.get(rows, 0)
+        highest := array.get(rows, rowCount - 1)
+        pointOfControl := footprint.poc(fp)
+[lowest0, lowest1, lowest2, lowest3, lowest4, lowest5, lowest6, lowest7] = f_row(lowest)
+plot(lowest0, "ROW_LOWEST_DOWN_PRICE", display=display.data_window)
+plot(lowest1, "ROW_LOWEST_UP_PRICE", display=display.data_window)
+plot(lowest2, "ROW_LOWEST_TOTAL", display=display.data_window)
+plot(lowest3, "ROW_LOWEST_BUY", display=display.data_window)
+plot(lowest4, "ROW_LOWEST_SELL", display=display.data_window)
+plot(lowest5, "ROW_LOWEST_DELTA", display=display.data_window)
+plot(lowest6, "ROW_LOWEST_BUY_IMBALANCE", display=display.data_window)
+plot(lowest7, "ROW_LOWEST_SELL_IMBALANCE", display=display.data_window)
+[poc0, poc1, poc2, poc3, poc4, poc5, poc6, poc7] = f_row(pointOfControl)
+plot(poc0, "ROW_POC_DOWN_PRICE", display=display.data_window)
+plot(poc1, "ROW_POC_UP_PRICE", display=display.data_window)
+plot(poc2, "ROW_POC_TOTAL", display=display.data_window)
+plot(poc3, "ROW_POC_BUY", display=display.data_window)
+plot(poc4, "ROW_POC_SELL", display=display.data_window)
+plot(poc5, "ROW_POC_DELTA", display=display.data_window)
+plot(poc6, "ROW_POC_BUY_IMBALANCE", display=display.data_window)
+plot(poc7, "ROW_POC_SELL_IMBALANCE", display=display.data_window)
+[highest0, highest1, highest2, highest3, highest4, highest5, highest6, highest7] = f_row(highest)
+plot(highest0, "ROW_HIGHEST_DOWN_PRICE", display=display.data_window)
+plot(highest1, "ROW_HIGHEST_UP_PRICE", display=display.data_window)
+plot(highest2, "ROW_HIGHEST_TOTAL", display=display.data_window)
+plot(highest3, "ROW_HIGHEST_BUY", display=display.data_window)
+plot(highest4, "ROW_HIGHEST_SELL", display=display.data_window)
+plot(highest5, "ROW_HIGHEST_DELTA", display=display.data_window)
+plot(highest6, "ROW_HIGHEST_BUY_IMBALANCE", display=display.data_window)
+plot(highest7, "ROW_HIGHEST_SELL_IMBALANCE", display=display.data_window)
+plot(time, "CHART_TIME", display=display.data_window)
+plot(time_close, "CHART_TIME_CLOSE", display=display.data_window)
+plot(bar_index, "CHART_BAR_INDEX", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_ISCONFIRMED", display=display.data_window)
+plot(timenow, "OBSERVATION_CLOCK", display=display.data_window)
+plot(open, "CHART_OPEN", display=display.data_window)
+plot(high, "CHART_HIGH", display=display.data_window)
+plot(low, "CHART_LOW", display=display.data_window)
+plot(close, "CHART_CLOSE", display=display.data_window)
+plot(volume, "CHART_VOLUME", display=display.data_window)
+plot(target ? 1 : 0, "TARGET_KEY", display=display.data_window)
+plot(na(fp) ? 0 : 1, "FP_AVAILABLE", display=display.data_window)
+plot(na(fp) ? na : (footprint.total_volume(fp) == 0 ? 1 : 0), "FP_AVAILABLE_ZERO_TOTAL", display=display.data_window)
+plot(rowCount, "FP_ROW_COUNT", display=display.data_window)
+plot(na(fp) ? na : footprint.total_volume(fp), "FP_TOTAL_VOLUME", display=display.data_window)
+plot(na(fp) ? na : footprint.buy_volume(fp), "FP_BUY_VOLUME", display=display.data_window)
+plot(na(fp) ? na : footprint.sell_volume(fp), "FP_SELL_VOLUME", display=display.data_window)
+plot(na(fp) ? na : footprint.delta(fp), "FP_DELTA", display=display.data_window)
+
+------WebKitFormBoundaryTLMdedjeUYvajppe--

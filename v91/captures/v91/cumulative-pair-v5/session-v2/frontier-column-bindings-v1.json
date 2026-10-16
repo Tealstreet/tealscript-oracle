@@ -1,0 +1,195 @@
+{
+  "version": "v1",
+  "path": "v91/captures/v91/cumulative-pair-v5/session-v2/frontier-native-v1.csv",
+  "sha256": "a5dcf1ee9c68b6f5fd0559111125627dc2a3ffc83e0fc5ca5064d666a02ba266",
+  "bytes": 3584063,
+  "headers": [
+    "time",
+    "open",
+    "high",
+    "low",
+    "close",
+    "Volume",
+    "Plot",
+    "FRONTIER_TIME",
+    "FRONTIER_TIME_CLOSE",
+    "FRONTIER_BAR_INDEX",
+    "FRONTIER_ISFIRST",
+    "FRONTIER_ISCONFIRMED",
+    "FIRST_CHART_TIME",
+    "FIRST_CHART_INDEX",
+    "FRONTIER_OPEN",
+    "FRONTIER_HIGH",
+    "FRONTIER_LOW",
+    "FRONTIER_CLOSE",
+    "FRONTIER_VOLUME"
+  ],
+  "rows": 23086,
+  "observedAtUtc": "2026-10-16T01:31:00.835Z",
+  "firstTimeRaw": "1789344000",
+  "lastTimeRaw": "1792114200",
+  "dataRowOrdinalBase": "1 excluding header",
+  "columnOrdinalBase": 1,
+  "chartColumns": [
+    {
+      "ordinal": 1,
+      "headerRaw": "time",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 2,
+      "headerRaw": "open",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 3,
+      "headerRaw": "high",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 4,
+      "headerRaw": "low",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 5,
+      "headerRaw": "close",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 6,
+      "headerRaw": "Volume",
+      "origin": "retained built-in Vol · BTC"
+    }
+  ],
+  "plotBindings": [
+    {
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "Plot",
+      "columnOrdinal": 7,
+      "sourceProbe": "v91-cum-original-v5",
+      "executedSourceSha256": "532c4b8445d7057db408070ee96803b51d47a05475b3cd98d026f4138077e2e4",
+      "privateScriptId": "USER;0b701dcf317f48c889d218e8875ca894",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "FRONTIER_TIME",
+      "columnOrdinal": 8,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_1",
+      "nativePlotTitle": "FRONTIER_TIME_CLOSE",
+      "columnOrdinal": 9,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_2",
+      "nativePlotTitle": "FRONTIER_BAR_INDEX",
+      "columnOrdinal": 10,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_3",
+      "nativePlotTitle": "FRONTIER_ISFIRST",
+      "columnOrdinal": 11,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_4",
+      "nativePlotTitle": "FRONTIER_ISCONFIRMED",
+      "columnOrdinal": 12,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_5",
+      "nativePlotTitle": "FIRST_CHART_TIME",
+      "columnOrdinal": 13,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_6",
+      "nativePlotTitle": "FIRST_CHART_INDEX",
+      "columnOrdinal": 14,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_7",
+      "nativePlotTitle": "FRONTIER_OPEN",
+      "columnOrdinal": 15,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_8",
+      "nativePlotTitle": "FRONTIER_HIGH",
+      "columnOrdinal": 16,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_9",
+      "nativePlotTitle": "FRONTIER_LOW",
+      "columnOrdinal": 17,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_10",
+      "nativePlotTitle": "FRONTIER_CLOSE",
+      "columnOrdinal": 18,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_11",
+      "nativePlotTitle": "FRONTIER_VOLUME",
+      "columnOrdinal": 19,
+      "sourceProbe": "v91-cum-frontier-v5",
+      "executedSourceSha256": "eb754ebca0f9795fb123ac6b632f6aea5fa9b7b6602616f52c0fbd25c3b621d7",
+      "privateScriptId": "USER;1dca2808c10d4e0d9fc000d606fa4d3e",
+      "privateScriptVersion": "1.0"
+    }
+  ],
+  "rowClosureMask": "v91/captures/v91/cumulative-pair-v5/session-v2/frontier-row-closure-mask-v1.csv",
+  "closureReasonCounts": {
+    "NATIVE_CHART_CONFIRMED": 23085,
+    "PHYSICAL_OPEN_OR_NATIVE_CONFIRMATION_UNOBSERVED; PRESENT_VALUES_OBSERVED": 1
+  },
+  "independentConfirmationReferences": {},
+  "allPresentMaskedCells": "OBSERVED; closed-mask exclusion is not missing output",
+  "dailyObservationCutoffMs": null,
+  "executionBinding": "SAME-SESSION-ONLY",
+  "sourceOwnedExecutionFrontier": "UNOBSERVED for unchanged cumulative original; companion fields are separately owned",
+  "exactAsOfInputBinding": null
+}

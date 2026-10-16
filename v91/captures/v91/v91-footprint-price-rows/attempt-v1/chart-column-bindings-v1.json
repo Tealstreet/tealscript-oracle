@@ -1,0 +1,485 @@
+{
+  "version": "v1",
+  "path": "v91/captures/v91/v91-footprint-price-rows/attempt-v1/chart-native-v1.csv",
+  "sha256": "c1e4c7259c3faf8c08a271ab5f883424149537bd7a3dc2c3e26c401054c1b7d7",
+  "bytes": 382450,
+  "headers": [
+    "time",
+    "open",
+    "high",
+    "low",
+    "close",
+    "Volume",
+    "ROW_LOWEST_DOWN_PRICE",
+    "ROW_LOWEST_UP_PRICE",
+    "ROW_LOWEST_TOTAL",
+    "ROW_LOWEST_BUY",
+    "ROW_LOWEST_SELL",
+    "ROW_LOWEST_DELTA",
+    "ROW_LOWEST_BUY_IMBALANCE",
+    "ROW_LOWEST_SELL_IMBALANCE",
+    "ROW_POC_DOWN_PRICE",
+    "ROW_POC_UP_PRICE",
+    "ROW_POC_TOTAL",
+    "ROW_POC_BUY",
+    "ROW_POC_SELL",
+    "ROW_POC_DELTA",
+    "ROW_POC_BUY_IMBALANCE",
+    "ROW_POC_SELL_IMBALANCE",
+    "ROW_HIGHEST_DOWN_PRICE",
+    "ROW_HIGHEST_UP_PRICE",
+    "ROW_HIGHEST_TOTAL",
+    "ROW_HIGHEST_BUY",
+    "ROW_HIGHEST_SELL",
+    "ROW_HIGHEST_DELTA",
+    "ROW_HIGHEST_BUY_IMBALANCE",
+    "ROW_HIGHEST_SELL_IMBALANCE",
+    "CHART_TIME",
+    "CHART_TIME_CLOSE",
+    "CHART_BAR_INDEX",
+    "CHART_ISCONFIRMED",
+    "OBSERVATION_CLOCK",
+    "CHART_OPEN",
+    "CHART_HIGH",
+    "CHART_LOW",
+    "CHART_CLOSE",
+    "CHART_VOLUME",
+    "TARGET_KEY",
+    "FP_AVAILABLE",
+    "FP_AVAILABLE_ZERO_TOTAL",
+    "FP_ROW_COUNT",
+    "FP_TOTAL_VOLUME",
+    "FP_BUY_VOLUME",
+    "FP_SELL_VOLUME",
+    "FP_DELTA"
+  ],
+  "rows": 1590,
+  "observedAtUtc": "2026-10-16T01:25:42.032Z",
+  "firstTimeRaw": "1791923160",
+  "lastTimeRaw": "1792113840",
+  "dataRowOrdinalBase": "1 excluding header",
+  "columnOrdinalBase": 1,
+  "chartColumns": [
+    {
+      "ordinal": 1,
+      "headerRaw": "time",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 2,
+      "headerRaw": "open",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 3,
+      "headerRaw": "high",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 4,
+      "headerRaw": "low",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 5,
+      "headerRaw": "close",
+      "origin": "native chart"
+    },
+    {
+      "ordinal": 6,
+      "headerRaw": "Volume",
+      "origin": "retained built-in Vol · BTC"
+    }
+  ],
+  "plotBindings": [
+    {
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "ROW_LOWEST_DOWN_PRICE",
+      "columnOrdinal": 7,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_1",
+      "nativePlotTitle": "ROW_LOWEST_UP_PRICE",
+      "columnOrdinal": 8,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_2",
+      "nativePlotTitle": "ROW_LOWEST_TOTAL",
+      "columnOrdinal": 9,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_3",
+      "nativePlotTitle": "ROW_LOWEST_BUY",
+      "columnOrdinal": 10,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_4",
+      "nativePlotTitle": "ROW_LOWEST_SELL",
+      "columnOrdinal": 11,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_5",
+      "nativePlotTitle": "ROW_LOWEST_DELTA",
+      "columnOrdinal": 12,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_6",
+      "nativePlotTitle": "ROW_LOWEST_BUY_IMBALANCE",
+      "columnOrdinal": 13,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_7",
+      "nativePlotTitle": "ROW_LOWEST_SELL_IMBALANCE",
+      "columnOrdinal": 14,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_8",
+      "nativePlotTitle": "ROW_POC_DOWN_PRICE",
+      "columnOrdinal": 15,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_9",
+      "nativePlotTitle": "ROW_POC_UP_PRICE",
+      "columnOrdinal": 16,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_10",
+      "nativePlotTitle": "ROW_POC_TOTAL",
+      "columnOrdinal": 17,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_11",
+      "nativePlotTitle": "ROW_POC_BUY",
+      "columnOrdinal": 18,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_12",
+      "nativePlotTitle": "ROW_POC_SELL",
+      "columnOrdinal": 19,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_13",
+      "nativePlotTitle": "ROW_POC_DELTA",
+      "columnOrdinal": 20,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_14",
+      "nativePlotTitle": "ROW_POC_BUY_IMBALANCE",
+      "columnOrdinal": 21,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_15",
+      "nativePlotTitle": "ROW_POC_SELL_IMBALANCE",
+      "columnOrdinal": 22,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_16",
+      "nativePlotTitle": "ROW_HIGHEST_DOWN_PRICE",
+      "columnOrdinal": 23,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_17",
+      "nativePlotTitle": "ROW_HIGHEST_UP_PRICE",
+      "columnOrdinal": 24,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_18",
+      "nativePlotTitle": "ROW_HIGHEST_TOTAL",
+      "columnOrdinal": 25,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_19",
+      "nativePlotTitle": "ROW_HIGHEST_BUY",
+      "columnOrdinal": 26,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_20",
+      "nativePlotTitle": "ROW_HIGHEST_SELL",
+      "columnOrdinal": 27,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_21",
+      "nativePlotTitle": "ROW_HIGHEST_DELTA",
+      "columnOrdinal": 28,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_22",
+      "nativePlotTitle": "ROW_HIGHEST_BUY_IMBALANCE",
+      "columnOrdinal": 29,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_23",
+      "nativePlotTitle": "ROW_HIGHEST_SELL_IMBALANCE",
+      "columnOrdinal": 30,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_24",
+      "nativePlotTitle": "CHART_TIME",
+      "columnOrdinal": 31,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_25",
+      "nativePlotTitle": "CHART_TIME_CLOSE",
+      "columnOrdinal": 32,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_26",
+      "nativePlotTitle": "CHART_BAR_INDEX",
+      "columnOrdinal": 33,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_27",
+      "nativePlotTitle": "CHART_ISCONFIRMED",
+      "columnOrdinal": 34,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_28",
+      "nativePlotTitle": "OBSERVATION_CLOCK",
+      "columnOrdinal": 35,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_29",
+      "nativePlotTitle": "CHART_OPEN",
+      "columnOrdinal": 36,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_30",
+      "nativePlotTitle": "CHART_HIGH",
+      "columnOrdinal": 37,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_31",
+      "nativePlotTitle": "CHART_LOW",
+      "columnOrdinal": 38,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_32",
+      "nativePlotTitle": "CHART_CLOSE",
+      "columnOrdinal": 39,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_33",
+      "nativePlotTitle": "CHART_VOLUME",
+      "columnOrdinal": 40,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_34",
+      "nativePlotTitle": "TARGET_KEY",
+      "columnOrdinal": 41,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_35",
+      "nativePlotTitle": "FP_AVAILABLE",
+      "columnOrdinal": 42,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_36",
+      "nativePlotTitle": "FP_AVAILABLE_ZERO_TOTAL",
+      "columnOrdinal": 43,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_37",
+      "nativePlotTitle": "FP_ROW_COUNT",
+      "columnOrdinal": 44,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_38",
+      "nativePlotTitle": "FP_TOTAL_VOLUME",
+      "columnOrdinal": 45,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_39",
+      "nativePlotTitle": "FP_BUY_VOLUME",
+      "columnOrdinal": 46,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_40",
+      "nativePlotTitle": "FP_SELL_VOLUME",
+      "columnOrdinal": 47,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    },
+    {
+      "nativePlotId": "plot_41",
+      "nativePlotTitle": "FP_DELTA",
+      "columnOrdinal": 48,
+      "sourceProbe": "v91-footprint-price-rows",
+      "executedSourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;cb11778b33f543859cb835b0db71eb3e",
+      "privateScriptVersion": "1.0"
+    }
+  ],
+  "rowClosureMask": "v91/captures/v91/v91-footprint-price-rows/attempt-v1/chart-row-closure-mask-v1.csv",
+  "closureReasonCounts": {
+    "NATIVE_CHART_CONFIRMED": 1589,
+    "PHYSICAL_OPEN_OR_NATIVE_CONFIRMATION_UNOBSERVED; PRESENT_VALUES_OBSERVED": 1
+  },
+  "independentConfirmationReferences": {},
+  "allPresentMaskedCells": "OBSERVED; closed-mask exclusion is not missing output",
+  "dailyObservationCutoffMs": null,
+  "executionBinding": "Source-specific native export",
+  "sourceOwnedExecutionFrontier": null,
+  "exactAsOfInputBinding": null
+}

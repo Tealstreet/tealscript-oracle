@@ -1,0 +1,78 @@
+{
+  "version": "v1",
+  "probe": "v91-developing-original-v6",
+  "attempt": "attempt-v2",
+  "status": "COMPILE-ERROR; SOURCE-TRANSPORT-MISMATCH; NO-EXACT-SOURCE-CREDIT",
+  "sourceMatchesRequest": false,
+  "requestedSourceSha256": "5177d6d738e1f4bdf9339c6fc0374826b76ebc877de78b386f053537a983021b",
+  "executedSourceSha256": "5a79b6b7030e42dd42f61172aaaf773c7cfa07d34fe37ab5843c51afadf97a23",
+  "executedSourcePath": "v91/captures/v91/v91-developing-original-v6/attempt-v2/executed-v1.pine",
+  "nativeMultipartSourceSha256": "d4ee6ddee4b91edddf3270af0ad019ce589b32a6acbb20c854837a3fb99b61c6",
+  "lineEndingNormalizationOnly": true,
+  "privateScriptId": "USER;6be6c6af1b7648db90d7f680c8cbd4fa",
+  "scriptVersion": "1.0",
+  "privateSaveName": "v91-developing-original-v6-attempt-v2",
+  "studyTitle": "v91-developing-original-v6-attempt-v2",
+  "studyInstanceId": null,
+  "saveRequestId": 2178,
+  "addRequestId": null,
+  "saveCompilerSuccess": false,
+  "addCompilerSuccess": null,
+  "compilerResponses": [
+    "v91/captures/v91/v91-developing-original-v6/attempt-v2/save-response-v1.json"
+  ],
+  "nativeCompilerReason": "{\"message\":\"Mismatched input {unexpectedToken} expecting set {expecting}\",\"start\":{\"line\":17,\"column\":9},\"end\":{\"line\":17,\"column\":11},\"code\":\"CE10013\",\"ctx\":{\"unexpectedToken\":\"\\\"var\\\"\",\"expecting\":\"\\\"end of line without line continuation\\\"\"}}",
+  "nativeCompilerReason2": {
+    "errors": [
+      {
+        "code": "CE10013",
+        "ctx": {
+          "expecting": "\"end of line without line continuation\"",
+          "unexpectedToken": "\"var\""
+        },
+        "end": {
+          "column": 11,
+          "line": 17
+        },
+        "message": "Mismatched input {unexpectedToken} expecting set {expecting}",
+        "start": {
+          "column": 9,
+          "line": 17
+        }
+      }
+    ]
+  },
+  "immediateMarkers": null,
+  "settledMarkers": null,
+  "markerArraysStatus": "UNOBSERVED; independent native UI snapshots preserved",
+  "uiSnapshots": [
+    "v91/captures/v91/v91-developing-original-v6/attempt-v2/context-before-v1.txt",
+    "v91/captures/v91/v91-developing-original-v6/attempt-v2/post-save-immediate-v1.txt",
+    "v91/captures/v91/v91-developing-original-v6/attempt-v2/post-save-settled-v1.txt",
+    "v91/captures/v91/v91-developing-original-v6/attempt-v2/pre-save-entry-v1.txt"
+  ],
+  "nativeContext": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2",
+    "chartStyle": "Candles",
+    "chartTimezone": "Etc/UTC",
+    "exchangeTimezone": null,
+    "session": "Native default; no session selector changed",
+    "feedStatus": "Market open; genuine native updates",
+    "layoutName": "oracle-v91-v1",
+    "nativeLayoutCreationId": 208124251,
+    "nativeLayoutImageUrl": "RRvYItzu"
+  },
+  "sourceIsolated": false,
+  "retainedBuiltinStudy": "Vol · BTC",
+  "studyRemoved": false,
+  "removalProof": null,
+  "nativeBeforeAddSourceOwnedFrontier": null,
+  "beforeAddFrontierStatus": "UNOBSERVED; native UI snapshots do not expose/bind original execution frontier",
+  "exactExecutionAsOfIdentity": null,
+  "replayInputContextStatus": "See group facet table; present exported values remain OBSERVED even when replay context is held",
+  "exportPaths": [],
+  "addPerformed": false,
+  "sourceTransportFailure": "Native keyboard entry omitted or indented lines. Mismatch detected in complete Save payload before Add. Script retained unchanged; fresh private script used for exact request.",
+  "nativeSaveObservationClock": null
+}

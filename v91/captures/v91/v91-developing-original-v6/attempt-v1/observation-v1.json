@@ -1,0 +1,77 @@
+{
+  "version": "v1",
+  "probe": "v91-developing-original-v6",
+  "attempt": "attempt-v1",
+  "status": "COMPILE-ERROR; SOURCE-TRANSPORT-MISMATCH; NO-EXACT-SOURCE-CREDIT",
+  "sourceMatchesRequest": false,
+  "requestedSourceSha256": "5177d6d738e1f4bdf9339c6fc0374826b76ebc877de78b386f053537a983021b",
+  "executedSourceSha256": "19aa725750df0e7d82cdb48f9e2706181ec1aafa2443efc6d32620f3fc894ced",
+  "executedSourcePath": "v91/captures/v91/v91-developing-original-v6/attempt-v1/executed-v1.pine",
+  "nativeMultipartSourceSha256": "5c4fa63b19a79aa5dae79d5a8b29357b551b2145f8c0a3e54bbb5a1b998cca12",
+  "lineEndingNormalizationOnly": true,
+  "privateScriptId": "USER;d3cdb6599706451c95f197863ed9c7d2",
+  "scriptVersion": "1.0",
+  "privateSaveName": "v91-developing-original-v6-attempt-v1",
+  "studyTitle": "v91-developing-original-v6-attempt-v1",
+  "studyInstanceId": null,
+  "saveRequestId": 2071,
+  "addRequestId": null,
+  "saveCompilerSuccess": false,
+  "addCompilerSuccess": null,
+  "compilerResponses": [
+    "v91/captures/v91/v91-developing-original-v6/attempt-v1/save-response-v1.json"
+  ],
+  "nativeCompilerReason": "{\"message\":\"\\\"{variableName}\\\" is already defined\",\"start\":{\"line\":8,\"column\":5},\"end\":{\"line\":8,\"column\":36},\"code\":\"CE10095\",\"ctx\":{\"variableName\":\"changed\"}}",
+  "nativeCompilerReason2": {
+    "errors": [
+      {
+        "code": "CE10095",
+        "ctx": {
+          "variableName": "changed"
+        },
+        "end": {
+          "column": 36,
+          "line": 8
+        },
+        "message": "\"{variableName}\" is already defined",
+        "start": {
+          "column": 5,
+          "line": 8
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "immediateMarkers": null,
+  "settledMarkers": null,
+  "markerArraysStatus": "UNOBSERVED; independent native UI snapshots preserved",
+  "uiSnapshots": [
+    "v91/captures/v91/v91-developing-original-v6/attempt-v1/context-before-v1.txt",
+    "v91/captures/v91/v91-developing-original-v6/attempt-v1/post-save-immediate-v1.txt",
+    "v91/captures/v91/v91-developing-original-v6/attempt-v1/post-save-settled-v1.txt"
+  ],
+  "nativeContext": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2",
+    "chartStyle": "Candles",
+    "chartTimezone": "Etc/UTC",
+    "exchangeTimezone": null,
+    "session": "Native default; no session selector changed",
+    "feedStatus": "Market open; genuine native updates",
+    "layoutName": "oracle-v91-v1",
+    "nativeLayoutCreationId": 208124251,
+    "nativeLayoutImageUrl": "RRvYItzu"
+  },
+  "sourceIsolated": false,
+  "retainedBuiltinStudy": "Vol · BTC",
+  "studyRemoved": false,
+  "removalProof": null,
+  "nativeBeforeAddSourceOwnedFrontier": null,
+  "beforeAddFrontierStatus": "UNOBSERVED; native UI snapshots do not expose/bind original execution frontier",
+  "exactExecutionAsOfIdentity": null,
+  "replayInputContextStatus": "See group facet table; present exported values remain OBSERVED even when replay context is held",
+  "exportPaths": [],
+  "addPerformed": false,
+  "sourceTransportFailure": "Native keyboard entry omitted or indented lines. Mismatch detected in complete Save payload before Add. Script retained unchanged; fresh private script used for exact request.",
+  "nativeSaveObservationClock": null
+}

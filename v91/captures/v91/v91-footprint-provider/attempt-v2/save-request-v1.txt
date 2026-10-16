@@ -1,0 +1,17 @@
+------WebKitFormBoundaryHB24JFmecnHmc7x6
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("v77 footprint request-call")
+fp = request.footprint(100, 70, 300)
+plot(na(fp) ? 0 : 1)
+plot(time, "CHART_TIME", display=display.data_window)
+plot(time_close, "CHART_TIME_CLOSE", display=display.data_window)
+plot(bar_index, "CHART_BAR_INDEX", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_ISCONFIRMED", display=display.data_window)
+plot(na(fp) ? na : footprint.total_volume(fp), "FP_TOTAL_VOLUME", display=display.data_window)
+plot(na(fp) ? na : footprint.buy_volume(fp), "FP_BUY_VOLUME", display=display.data_window)
+plot(na(fp) ? na : footprint.sell_volume(fp), "FP_SELL_VOLUME", display=display.data_window)
+plot(na(fp) ? na : footprint.delta(fp), "FP_DELTA", display=display.data_window)
+
+------WebKitFormBoundaryHB24JFmecnHmc7x6--

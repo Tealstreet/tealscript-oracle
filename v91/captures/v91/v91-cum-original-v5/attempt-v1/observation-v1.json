@@ -1,0 +1,72 @@
+{
+  "version": "v1",
+  "probe": "v91-cum-original-v5",
+  "attempt": "attempt-v1",
+  "status": "COMPILE-ERROR; SOURCE-TRANSPORT-MISMATCH; NO-EXACT-SOURCE-CREDIT",
+  "sourceMatchesRequest": false,
+  "requestedSourceSha256": "532c4b8445d7057db408070ee96803b51d47a05475b3cd98d026f4138077e2e4",
+  "executedSourceSha256": "d88883cbd3595d47c9c62e1c450b98a13f29cf1a632de92747830dd519c7ac17",
+  "executedSourcePath": "v91/captures/v91/v91-cum-original-v5/attempt-v1/executed-v1.pine",
+  "nativeMultipartSourceSha256": "418f7488164700c2ebf5c7add1d706978d0ba111d214c13ab1a1ff9386845cbe",
+  "lineEndingNormalizationOnly": true,
+  "privateScriptId": "USER;67e8c29b6bbb44579e9139680f9f2d67",
+  "scriptVersion": "1.0",
+  "privateSaveName": "v91-cum-original-v5-attempt-v1",
+  "studyTitle": "v91-cum-original-v5-attempt-v1",
+  "studyInstanceId": null,
+  "saveRequestId": 1449,
+  "addRequestId": null,
+  "saveCompilerSuccess": false,
+  "addCompilerSuccess": null,
+  "compilerResponses": [
+    "v91/captures/v91/v91-cum-original-v5/attempt-v1/save-response-v1.json"
+  ],
+  "nativeCompilerReason": "line 5: Syntax error at input '+'",
+  "nativeCompilerReason2": {
+    "errors": [
+      {
+        "end": {
+          "column": 16,
+          "line": 5
+        },
+        "message": "Syntax error at input '+'",
+        "start": {
+          "column": 16,
+          "line": 5
+        }
+      }
+    ]
+  },
+  "immediateMarkers": null,
+  "settledMarkers": null,
+  "markerArraysStatus": "UNOBSERVED; independent native UI snapshots preserved",
+  "uiSnapshots": [
+    "v91/captures/v91/v91-cum-original-v5/attempt-v1/context-before-v1.txt",
+    "v91/captures/v91/v91-cum-original-v5/attempt-v1/post-save-immediate-v1.txt",
+    "v91/captures/v91/v91-cum-original-v5/attempt-v1/post-save-settled-v1.txt"
+  ],
+  "nativeContext": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2",
+    "chartStyle": "Candles",
+    "chartTimezone": "Etc/UTC",
+    "exchangeTimezone": null,
+    "session": "Native default; no session selector changed",
+    "feedStatus": "Market open; genuine native updates",
+    "layoutName": "oracle-v91-v1",
+    "nativeLayoutCreationId": 208124251,
+    "nativeLayoutImageUrl": "RRvYItzu"
+  },
+  "sourceIsolated": false,
+  "retainedBuiltinStudy": "Vol · BTC",
+  "studyRemoved": false,
+  "removalProof": null,
+  "nativeBeforeAddSourceOwnedFrontier": null,
+  "beforeAddFrontierStatus": "UNOBSERVED; native UI snapshots do not expose/bind original execution frontier",
+  "exactExecutionAsOfIdentity": null,
+  "replayInputContextStatus": "See group facet table; present exported values remain OBSERVED even when replay context is held",
+  "exportPaths": [],
+  "addPerformed": false,
+  "sourceTransportFailure": "Native keyboard entry omitted or indented lines. Mismatch detected in complete Save payload before Add. Script retained unchanged; fresh private script used for exact request.",
+  "nativeSaveObservationClock": null
+}

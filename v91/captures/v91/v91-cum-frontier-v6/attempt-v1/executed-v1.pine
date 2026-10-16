@@ -1,0 +1,16 @@
+//@version=6
+indicator("V91 independent cumulative frontier v6", precision=16)
+var int firstTime = time
+var int firstIndex = bar_index
+plot(time, "FRONTIER_TIME", display=display.data_window)
+plot(time_close, "FRONTIER_TIME_CLOSE", display=display.data_window)
+plot(bar_index, "FRONTIER_BAR_INDEX", display=display.data_window)
+plot(barstate.isfirst ? 1 : 0, "FRONTIER_ISFIRST", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "FRONTIER_ISCONFIRMED", display=display.data_window)
+plot(firstTime, "FIRST_CHART_TIME", display=display.data_window)
+plot(firstIndex, "FIRST_CHART_INDEX", display=display.data_window)
+plot(open, "FRONTIER_OPEN", display=display.data_window)
+plot(high, "FRONTIER_HIGH", display=display.data_window)
+plot(low, "FRONTIER_LOW", display=display.data_window)
+plot(close, "FRONTIER_CLOSE", display=display.data_window)
+plot(volume, "FRONTIER_VOLUME", display=display.data_window)

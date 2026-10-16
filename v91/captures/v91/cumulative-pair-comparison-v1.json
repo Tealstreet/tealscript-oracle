@@ -1,0 +1,59 @@
+{
+  "version": "v1",
+  "status": "OBSERVATION ONLY; no original execution-frontier closure",
+  "closedCommonRows": 23085,
+  "closedFirstTimeRaw": "1789344000",
+  "closedLastTimeRaw": "1792114080",
+  "differingClosedKeys": 0,
+  "allDifferencesIncludingExcluded": [
+    {
+      "timeRaw": "1792114200",
+      "closedAtBoth": false,
+      "observations": [
+        {
+          "csv": "v91/captures/v91/cumulative-pair-v5/session-v2/frontier-native-v1.csv",
+          "sha256": "a5dcf1ee9c68b6f5fd0559111125627dc2a3ffc83e0fc5ca5064d666a02ba266",
+          "dataRowOrdinal": 23086,
+          "columnOrdinals": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "rawOhlcvAndTarget": [
+            "82196.01",
+            "82218.17",
+            "82196",
+            "82208.2",
+            "4.64914",
+            "600237"
+          ]
+        },
+        {
+          "csv": "v91/captures/v91/cumulative-pair-v6/session-v1/frontier-native-v1.csv",
+          "sha256": "339f261d507e2634bdb270c27d945b8348b1d98fbb5a2e0d649218f699c622f6",
+          "dataRowOrdinal": 23086,
+          "columnOrdinals": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "rawOhlcvAndTarget": [
+            "82196.01",
+            "82257.67",
+            "82196",
+            "82257.14",
+            "8.53982",
+            "600237"
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison": "Exact raw OHLCV and target strings, timestamp join; no inferred seeds"
+}

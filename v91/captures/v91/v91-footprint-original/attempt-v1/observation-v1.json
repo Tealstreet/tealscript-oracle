@@ -1,0 +1,85 @@
+{
+  "version": "v1",
+  "probe": "v91-footprint-original",
+  "attempt": "attempt-v1",
+  "status": "RUNS; NATIVE-PLOT-VALUES-OBSERVED",
+  "sourceMatchesRequest": true,
+  "requestedSourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+  "executedSourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+  "executedSourcePath": "v91/captures/v91/v91-footprint-original/attempt-v1/executed-v1.pine",
+  "nativeMultipartSourceSha256": "2d9a9a3b7f0c553056ca91f0125f26c1ed26f45672f90d87663375aab1b7b366",
+  "lineEndingNormalizationOnly": true,
+  "privateScriptId": "USER;14ceb0bcf02947f3b10fe01ec0806846",
+  "scriptVersion": "1.0",
+  "privateSaveName": "v91-footprint-original-attempt-v1",
+  "studyTitle": "v77 footprint request-call",
+  "studyInstanceId": null,
+  "saveRequestId": 875,
+  "addRequestId": 879,
+  "saveCompilerSuccess": true,
+  "addCompilerSuccess": true,
+  "compilerResponses": [
+    "v91/captures/v91/v91-footprint-original/attempt-v1/save-response-v1.json",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/add-response-v1.json"
+  ],
+  "nativeCompilerReason": null,
+  "nativeCompilerReason2": null,
+  "immediateMarkers": null,
+  "settledMarkers": null,
+  "markerArraysStatus": "UNOBSERVED; independent native UI snapshots preserved",
+  "uiSnapshots": [
+    "v91/captures/v91/v91-footprint-original/attempt-v1/chart-export-dialog-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/chart-post-export-snapshot-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/context-before-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/existing-layout-after-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/post-add-delayed-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/post-add-immediate-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/post-add-settled-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/post-remove-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/post-save-immediate-v1.txt",
+    "v91/captures/v91/v91-footprint-original/attempt-v1/pre-add-v1.txt"
+  ],
+  "nativeContext": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2",
+    "chartStyle": "Candles",
+    "chartTimezone": "Etc/UTC",
+    "exchangeTimezone": null,
+    "session": "Native default; no session selector changed",
+    "feedStatus": "Market open; genuine native updates",
+    "layoutName": "oracle-v91-v1",
+    "nativeLayoutCreationId": 208124251,
+    "nativeLayoutImageUrl": "RRvYItzu"
+  },
+  "sourceIsolated": false,
+  "retainedBuiltinStudy": "Vol · BTC",
+  "studyRemoved": true,
+  "removalProof": "v91/captures/v91/v91-footprint-original/attempt-v1/post-remove-v1.txt",
+  "nativeBeforeAddSourceOwnedFrontier": null,
+  "beforeAddFrontierStatus": "UNOBSERVED; native UI snapshots do not expose/bind original execution frontier",
+  "exactExecutionAsOfIdentity": null,
+  "replayInputContextStatus": "See group facet table; present exported values remain OBSERVED even when replay context is held",
+  "exportPaths": [
+    "v91/captures/v91/v91-footprint-original/attempt-v1/chart-native-v1.csv"
+  ],
+  "exports": [
+    {
+      "path": "v91/captures/v91/v91-footprint-original/attempt-v1/chart-native-v1.csv",
+      "sha256": "18cd524838d0de4edf832dfb0140216f3e297437d0e2dfe21910a44268cebfb6",
+      "bytes": 87612,
+      "headers": [
+        "time",
+        "open",
+        "high",
+        "low",
+        "close",
+        "Volume",
+        "Plot"
+      ],
+      "rows": 1589,
+      "observedAtUtc": "2026-10-16T01:23:17.550Z",
+      "firstTimeRaw": "1791923160",
+      "lastTimeRaw": "1792113720"
+    }
+  ]
+}

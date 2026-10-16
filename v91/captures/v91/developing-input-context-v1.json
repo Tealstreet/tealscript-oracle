@@ -1,0 +1,62 @@
+{
+  "version": "v1",
+  "contexts": [
+    {
+      "pineVersion": 5,
+      "targetChartTimeSecondsRaw": "1792114440",
+      "nativeChartClocksRaw": [
+        "1792114486427",
+        "1792114494186",
+        "1792114502478",
+        "1792114560828"
+      ],
+      "nativeChartConfirmationRaw": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "originalTargetCounterValuesRaw": [
+        "3302",
+        "3302",
+        "3302",
+        "3302"
+      ],
+      "sameExecutionAsOfInputs": "CONTEXT-UNMET",
+      "missingField": "Native source-specific execution/feed/as-of identifier binding the companion request inputs to the unchanged counter execution",
+      "observedInputs": "All companion daily time/time_close/OHLCV/index/clock/flags and chart time/time_close/OHLCV/index/clock/flags are OBSERVED when present; owned by companion only",
+      "originalInputChannelLimit": "Original exposes requested time/index/change/counter/FIRST fields, not its requested OHLCV/as-of clock or feed identity",
+      "oldDevelopingSnapshots": "Not recreated; imported nested originals not executed; no historical clock reconstruction"
+    },
+    {
+      "pineVersion": 6,
+      "targetChartTimeSecondsRaw": "1792115160",
+      "nativeChartClocksRaw": [
+        "1792115202737",
+        "1792115211539",
+        "1792115219799",
+        "1792115280492"
+      ],
+      "nativeChartConfirmationRaw": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "originalTargetCounterValuesRaw": [
+        "3302",
+        "3302",
+        "3302",
+        "3302"
+      ],
+      "sameExecutionAsOfInputs": "CONTEXT-UNMET",
+      "missingField": "Native source-specific execution/feed/as-of identifier binding the companion request inputs to the unchanged counter execution",
+      "observedInputs": "All companion daily time/time_close/OHLCV/index/clock/flags and chart time/time_close/OHLCV/index/clock/flags are OBSERVED when present; owned by companion only",
+      "originalInputChannelLimit": "Original exposes requested time/index/change/counter/FIRST fields, not its requested OHLCV/as-of clock or feed identity",
+      "oldDevelopingSnapshots": "Not recreated; imported nested originals not executed; no historical clock reconstruction"
+    }
+  ],
+  "maskedOutputPolicy": "Present masked values remain OBSERVED. Replay/input identity gaps remain separately held.",
+  "globalObservationCutoffMs": 1792114486529.0,
+  "importedDailyOriginals": "FORBIDDEN; not executed; holds1/2 HELD"
+}

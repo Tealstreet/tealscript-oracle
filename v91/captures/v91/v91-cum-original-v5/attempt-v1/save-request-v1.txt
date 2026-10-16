@@ -1,0 +1,13 @@
+------WebKitFormBoundarygoFWHCKuXbJfTvI5
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("TA custom boundary cum")
+type Holder
+    int value
+    self.value + n
+f(Holder ta) =>
+    ta.cum(13) * 2 + 1
+plot(f(Holder.new(7)))
+
+------WebKitFormBoundarygoFWHCKuXbJfTvI5--

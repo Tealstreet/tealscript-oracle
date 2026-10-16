@@ -1,0 +1,47 @@
+{
+  "version": "v1",
+  "auditedAtUtc": "2026-10-16T01:54:03.459114+00:00",
+  "status": "PASS WITH EXPLICIT CONTEXT HOLDS",
+  "exactSourceBindings": 15,
+  "failedEntrySavesRetained": 3,
+  "completeCompilerBodies": 33,
+  "csvExports": 18,
+  "rowMasks": 243625,
+  "footprintRepeatKeyRecords": 21,
+  "boundedNativePriceRoleRecords": 27,
+  "summaryRawVariantCountByKey": {
+    "1791966600": 1,
+    "1791966720": 1,
+    "1791966840": 1
+  },
+  "developingEvents": 8,
+  "completeCompanionFrontierExports": 2,
+  "allRawPresentCellsRemainObserved": true,
+  "noOriginalFrontierOrAsOfExecutionInference": true,
+  "allStudiesRemoved": true,
+  "independentValidation": {
+    "status": "PASS",
+    "checks": {
+      "exactSourceCompilerBodies": 30,
+      "exactSourceSaveAddRuns": 15,
+      "failedEntrySavesRetainedWithoutAdd": 3,
+      "independentMaskRowsVerified": 243625,
+      "nativeCsvDownloadsBindingsAndShapes": 18,
+      "derivedRawCellReferences": 678,
+      "perKeyCrossRepeatVariantReferences": 18,
+      "boundedNativePriceRoles": 27,
+      "completeCompanionFrontiers": 2,
+      "developingRawTargetInputCells": 312,
+      "developingEvents": 8,
+      "publicTextAuthenticationHeaderScans": 470
+    }
+  },
+  "validationCommand": "python3 v91/captures/v91/validate-evidence-v1.py",
+  "originalWhitespacePolicy": "Preserve raw native CSV CRLF, multipart CRLF and exact executed source bytes. Only generated metadata is whitespace checked.",
+  "metadataWhitespaceCheck": {
+    "files": 211,
+    "command": "git diff --cached --check -- <staged .json/.md/.py artifacts>",
+    "exitCode": 0
+  },
+  "previousTrackedFilesModified": 0
+}
