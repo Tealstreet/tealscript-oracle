@@ -1,0 +1,71 @@
+{
+  "version": "v1",
+  "source": "v97-udf-state-v6",
+  "originalSource": "v95-udf-state-v6",
+  "sourceSha256": "ab60c72fe7dc2b8f8eb537e800dc5fe07904f5fddb8d22f29b3be2db63e648a1",
+  "frontier": "initial",
+  "startedAtUtc": "2026-10-16T23:56:46.017Z",
+  "completedAtUtc": "2026-10-16T23:56:54.019Z",
+  "csv": {
+    "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/chart-native-v1.csv",
+    "rows": 23759,
+    "columns": 20,
+    "firstTimeRaw": "1789344000",
+    "lastTimeRaw": "1792194960"
+  },
+  "frontierInspection": {
+    "version": "v1",
+    "csvPath": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/chart-native-v1.csv",
+    "dataRows": 23759,
+    "originalHeaders": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "INPUT_INDEX",
+      "INPUT_TIME",
+      "CHART_CONFIRMED",
+      "IS_FIRST",
+      "FIRST_INDEX",
+      "FIRST_TIME",
+      "PHASE",
+      "A",
+      "B",
+      "NESTED",
+      "GATED",
+      "LOCAL_FIRST",
+      "GATED_NA",
+      "LOCAL_FIRST_NA"
+    ],
+    "firstFrontierRaw": {
+      "INPUT_INDEX": "0",
+      "INPUT_TIME": "1789344000000",
+      "CHART_CONFIRMED": "1",
+      "IS_FIRST": "1",
+      "FIRST_INDEX": "0",
+      "FIRST_TIME": "1789344000000"
+    },
+    "lastFrontierRaw": {
+      "INPUT_INDEX": "23758",
+      "INPUT_TIME": "1792194960000",
+      "CHART_CONFIRMED": "0",
+      "IS_FIRST": "0",
+      "FIRST_INDEX": "0",
+      "FIRST_TIME": "1789344000000"
+    },
+    "firstTimeRawSeconds": "1789344000",
+    "lastTimeRawSeconds": "1792194960",
+    "preliminaryContiguousOwnIndexZeroCandidate": true,
+    "candidateCause": null,
+    "observedOwnFirstTimeDateUtc": "2026-09-14",
+    "scope": "Capture navigation decision only. Final source/private metadata ownership, raw pointers and independent closure are separately validated; this preliminary inspection grants no numeric credit."
+  },
+  "nativeContext": "BINANCE:BTCUSDT2m Candles UTC; new layout208236729/euz5a92K",
+  "inputChanges": 0,
+  "sourceChanges": 0,
+  "sourceSpecificExecutionIdentity": null,
+  "actualNativeCalculationSessionId": null,
+  "sessionIdentity": "Initial naturally loaded source frontier"
+}
