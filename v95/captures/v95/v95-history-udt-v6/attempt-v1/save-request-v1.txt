@@ -1,0 +1,44 @@
+------WebKitFormBoundaryAPeNV2ShsNqsXkMh
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("v95-history-udt-v6", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+type Sample
+    float x
+    array<float> payload
+x = float(phase)
+max_bars_back(x, 8)
+lag = phase % 5
+rec = Sample.new(x, array.from(x, x + 10.0))
+copy = rec.copy()
+alias = rec
+alias.x += 100.0
+copy.x += 200.0
+array.set(copy.payload, 0, x + 300.0)
+prior = rec[1]
+priorX = na(prior) ? na : prior.x
+priorPayload = na(prior) ? na : array.get(prior.payload, 0)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(x, title="X")
+plot(lag, title="LAG")
+plot(x[lag], title="DYNAMIC")
+plot(na(x[lag]) ? 1 : 0, title="DYNAMIC_NA")
+plot(rec.x, title="REC_X")
+plot(copy.x, title="COPY_X")
+plot(array.get(rec.payload, 0), title="REC_PAYLOAD")
+plot(array.get(copy.payload, 0), title="COPY_PAYLOAD")
+plot(priorX, title="PRIOR_X")
+plot(priorPayload, title="PRIOR_PAYLOAD")
+plot(na(prior) ? 1 : 0, title="PRIOR_NA")
+
+------WebKitFormBoundaryAPeNV2ShsNqsXkMh--
