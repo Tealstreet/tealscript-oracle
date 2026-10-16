@@ -1,0 +1,2266 @@
+{
+  "version": "v2",
+  "states": [
+    {
+      "facet": "b-unavailable",
+      "criterionChecked": "Successful exact-source execution exposes an actual missing footprint object for a bound bar/request; absent output or failed execution does not qualify.",
+      "missingFields": [
+        "actual successful exact-source unavailable-object occurrence; all retained flags are available1"
+      ],
+      "remainingHold": "UNAVAILABLE semantic case remains HELD.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "OBSERVED wherever native raw cells are present; blanks retained separately",
+      "sourceSessions": [
+        {
+          "probe": "v92-footprint-original",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-original.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+            "bytes": 111,
+            "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+          },
+          "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+          "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+            "bytes": 4021,
+            "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+            "bytes": 4021,
+            "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+          },
+          "saveRequestId": 1065,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-provider",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-provider.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+            "bytes": 740,
+            "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+          },
+          "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+          "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+            "bytes": 7473,
+            "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+            "bytes": 7473,
+            "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+          },
+          "saveRequestId": 1166,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-price-rows",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-price-rows.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+            "bytes": 4018,
+            "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+          },
+          "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+          "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+          "privateVersion": "1.0",
+          "studyTitle": "V91 native footprint row facets",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+            "bytes": 22305,
+            "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+            "bytes": 22305,
+            "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+          },
+          "saveRequestId": 1396,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        }
+      ],
+      "reason": "Full row export/count/POC binding not exposed. Fixed window and naturally loaded getter observations contain only available nonzero objects; neither requested semantic state observed.",
+      "availabilityEvents": "availability-events-v1.jsonl"
+    },
+    {
+      "facet": "b-available-zero-total",
+      "criterionChecked": "Same exact execution/bar exposes an available footprint object and native total exactly0, with raw defining flags/getters.",
+      "missingFields": [
+        "actual same-execution available-object total0 occurrence; retained totals are positive"
+      ],
+      "remainingHold": "AVAILABLE_ZERO_TOTAL semantic case remains HELD.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "OBSERVED wherever native raw cells are present; blanks retained separately",
+      "sourceSessions": [
+        {
+          "probe": "v92-footprint-original",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-original.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+            "bytes": 111,
+            "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+          },
+          "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+          "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+            "bytes": 4021,
+            "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+            "bytes": 4021,
+            "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+          },
+          "saveRequestId": 1065,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-provider",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-provider.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+            "bytes": 740,
+            "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+          },
+          "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+          "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+            "bytes": 7473,
+            "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+            "bytes": 7473,
+            "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+          },
+          "saveRequestId": 1166,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-price-rows",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-price-rows.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+            "bytes": 4018,
+            "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+          },
+          "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+          "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+          "privateVersion": "1.0",
+          "studyTitle": "V91 native footprint row facets",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+            "bytes": 22305,
+            "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+            "bytes": 22305,
+            "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+          },
+          "saveRequestId": 1396,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        }
+      ],
+      "reason": "Full row export/count/POC binding not exposed. Fixed window and naturally loaded getter observations contain only available nonzero objects; neither requested semantic state observed.",
+      "availabilityEvents": "availability-events-v1.jsonl"
+    }
+  ],
+  "window": {
+    "version": "v1",
+    "declaredAtUtc": "2026-10-16T14:10:15.900083+00:00",
+    "nativeBarTimeRaw": "1792159800",
+    "nativeBarOpenUtc": "2026-10-16T14:10:00+00:00",
+    "nativeBarCloseUtc": "2026-10-16T14:12:00+00:00",
+    "nativeBarCloseEpoch": 1792159920,
+    "preAddCsv": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/pre-window-native-v1.csv",
+    "preAddCsvSha256": "086be9f9de03f3a15dd86dec8fd9b3ca7f87eb061d341abfca68a680edc4f819",
+    "preAddRowOrdinal": 307,
+    "window": "Remainder of this naturally open bar through actual close; no restart if missed",
+    "settingsFrozen": true
+  },
+  "actualAddUtc": "2026-10-16T14:10:16.975Z",
+  "windowEndNativeClockRaw": "1792159920356",
+  "windowBarConfirmedAtEnd": true,
+  "events": [
+    {
+      "version": "v1",
+      "stage": "initial",
+      "source": {
+        "probe": "v92-footprint-price-rows",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-price-rows.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+          "bytes": 4018,
+          "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+        },
+        "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+        "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+        "privateVersion": "1.0",
+        "studyTitle": "V91 native footprint row facets",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+          "bytes": 22305,
+          "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+          "bytes": 22305,
+          "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+        },
+        "saveRequestId": 1396,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/initial-native-v1.csv",
+        "bytes": 75583,
+        "sha256": "16f102e8026b8377370e190b49e2cb77ae43dcaf5ba985347101d023a4d29400"
+      },
+      "rowOrdinal": 307,
+      "timeRaw": "1792159800",
+      "nativeClockRaw": "1792159821464",
+      "nativeIsConfirmedRaw": "0",
+      "fpAvailableRaw": "1",
+      "fpZeroTotalRaw": "0",
+      "fpTotalRaw": "3.3540800000000033",
+      "allRawCells": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792159800",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "81907.27",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "81907.28",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "3.19943",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "ROW_LOWEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 8,
+          "header": "ROW_LOWEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 9,
+          "header": "ROW_LOWEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 10,
+          "header": "ROW_LOWEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 11,
+          "header": "ROW_LOWEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 12,
+          "header": "ROW_LOWEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 13,
+          "header": "ROW_LOWEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 14,
+          "header": "ROW_LOWEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 15,
+          "header": "ROW_POC_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 16,
+          "header": "ROW_POC_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 17,
+          "header": "ROW_POC_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 18,
+          "header": "ROW_POC_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 19,
+          "header": "ROW_POC_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 20,
+          "header": "ROW_POC_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 21,
+          "header": "ROW_POC_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 22,
+          "header": "ROW_POC_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 23,
+          "header": "ROW_HIGHEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 24,
+          "header": "ROW_HIGHEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 25,
+          "header": "ROW_HIGHEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 26,
+          "header": "ROW_HIGHEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 27,
+          "header": "ROW_HIGHEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 28,
+          "header": "ROW_HIGHEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 29,
+          "header": "ROW_HIGHEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 30,
+          "header": "ROW_HIGHEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 31,
+          "header": "CHART_TIME",
+          "raw": "1792159800000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 32,
+          "header": "CHART_TIME_CLOSE",
+          "raw": "1792159920000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 33,
+          "header": "CHART_BAR_INDEX",
+          "raw": "23465",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 34,
+          "header": "CHART_ISCONFIRMED",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 35,
+          "header": "OBSERVATION_CLOCK",
+          "raw": "1792159821464",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 36,
+          "header": "CHART_OPEN",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 37,
+          "header": "CHART_HIGH",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 38,
+          "header": "CHART_LOW",
+          "raw": "81907.27",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 39,
+          "header": "CHART_CLOSE",
+          "raw": "81907.28",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 40,
+          "header": "CHART_VOLUME",
+          "raw": "3.19943",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 41,
+          "header": "TARGET_KEY",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 42,
+          "header": "FP_AVAILABLE",
+          "raw": "1",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 43,
+          "header": "FP_AVAILABLE_ZERO_TOTAL",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 44,
+          "header": "FP_ROW_COUNT",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 45,
+          "header": "FP_TOTAL_VOLUME",
+          "raw": "3.3540800000000033",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 46,
+          "header": "FP_BUY_VOLUME",
+          "raw": "0.41103",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 47,
+          "header": "FP_SELL_VOLUME",
+          "raw": "2.9430500000000017",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 48,
+          "header": "FP_DELTA",
+          "raw": "-2.532020000000002",
+          "valueStatus": "OBSERVED"
+        }
+      ],
+      "eventStatus": "OBSERVED",
+      "requestedStateCredit": 0,
+      "coverageLimit": "Sampled genuine native updates; no assertion that every intrabar execution was retained"
+    },
+    {
+      "version": "v1",
+      "stage": "update",
+      "source": {
+        "probe": "v92-footprint-price-rows",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-price-rows.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+          "bytes": 4018,
+          "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+        },
+        "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+        "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+        "privateVersion": "1.0",
+        "studyTitle": "V91 native footprint row facets",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+          "bytes": 22305,
+          "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+          "bytes": 22305,
+          "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+        },
+        "saveRequestId": 1396,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/update-native-v1.csv",
+        "bytes": 75577,
+        "sha256": "2c90594a652fc0ce838f1e8cebf2d8c71f1efcbe1a73a35d70dcff0ebf676207"
+      },
+      "rowOrdinal": 307,
+      "timeRaw": "1792159800",
+      "nativeClockRaw": "1792159847254",
+      "nativeIsConfirmedRaw": "0",
+      "fpAvailableRaw": "1",
+      "fpZeroTotalRaw": "0",
+      "fpTotalRaw": "5.727669999999999",
+      "allRawCells": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792159800",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "81904",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "81916.25",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "5.72767",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "ROW_LOWEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 8,
+          "header": "ROW_LOWEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 9,
+          "header": "ROW_LOWEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 10,
+          "header": "ROW_LOWEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 11,
+          "header": "ROW_LOWEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 12,
+          "header": "ROW_LOWEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 13,
+          "header": "ROW_LOWEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 14,
+          "header": "ROW_LOWEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 15,
+          "header": "ROW_POC_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 16,
+          "header": "ROW_POC_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 17,
+          "header": "ROW_POC_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 18,
+          "header": "ROW_POC_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 19,
+          "header": "ROW_POC_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 20,
+          "header": "ROW_POC_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 21,
+          "header": "ROW_POC_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 22,
+          "header": "ROW_POC_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 23,
+          "header": "ROW_HIGHEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 24,
+          "header": "ROW_HIGHEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 25,
+          "header": "ROW_HIGHEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 26,
+          "header": "ROW_HIGHEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 27,
+          "header": "ROW_HIGHEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 28,
+          "header": "ROW_HIGHEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 29,
+          "header": "ROW_HIGHEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 30,
+          "header": "ROW_HIGHEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 31,
+          "header": "CHART_TIME",
+          "raw": "1792159800000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 32,
+          "header": "CHART_TIME_CLOSE",
+          "raw": "1792159920000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 33,
+          "header": "CHART_BAR_INDEX",
+          "raw": "23465",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 34,
+          "header": "CHART_ISCONFIRMED",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 35,
+          "header": "OBSERVATION_CLOCK",
+          "raw": "1792159847254",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 36,
+          "header": "CHART_OPEN",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 37,
+          "header": "CHART_HIGH",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 38,
+          "header": "CHART_LOW",
+          "raw": "81904",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 39,
+          "header": "CHART_CLOSE",
+          "raw": "81916.25",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 40,
+          "header": "CHART_VOLUME",
+          "raw": "5.72767",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 41,
+          "header": "TARGET_KEY",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 42,
+          "header": "FP_AVAILABLE",
+          "raw": "1",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 43,
+          "header": "FP_AVAILABLE_ZERO_TOTAL",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 44,
+          "header": "FP_ROW_COUNT",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 45,
+          "header": "FP_TOTAL_VOLUME",
+          "raw": "5.727669999999999",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 46,
+          "header": "FP_BUY_VOLUME",
+          "raw": "2.09104",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 47,
+          "header": "FP_SELL_VOLUME",
+          "raw": "3.6366300000000016",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 48,
+          "header": "FP_DELTA",
+          "raw": "-1.5455900000000016",
+          "valueStatus": "OBSERVED"
+        }
+      ],
+      "eventStatus": "OBSERVED",
+      "requestedStateCredit": 0,
+      "coverageLimit": "Sampled genuine native updates; no assertion that every intrabar execution was retained"
+    },
+    {
+      "version": "v1",
+      "stage": "update2",
+      "source": {
+        "probe": "v92-footprint-price-rows",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-price-rows.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+          "bytes": 4018,
+          "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+        },
+        "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+        "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+        "privateVersion": "1.0",
+        "studyTitle": "V91 native footprint row facets",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+          "bytes": 22305,
+          "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+          "bytes": 22305,
+          "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+        },
+        "saveRequestId": 1396,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/update2-native-v1.csv",
+        "bytes": 75581,
+        "sha256": "ae0fa2846bde3f3ae61cb88bb938c590104e720fb2ffdbef0582bc60e7ef39e7"
+      },
+      "rowOrdinal": 307,
+      "timeRaw": "1792159800",
+      "nativeClockRaw": "1792159870588",
+      "nativeIsConfirmedRaw": "0",
+      "fpAvailableRaw": "1",
+      "fpZeroTotalRaw": "0",
+      "fpTotalRaw": "8.853890000000002",
+      "allRawCells": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792159800",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "8.64793",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "ROW_LOWEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 8,
+          "header": "ROW_LOWEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 9,
+          "header": "ROW_LOWEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 10,
+          "header": "ROW_LOWEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 11,
+          "header": "ROW_LOWEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 12,
+          "header": "ROW_LOWEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 13,
+          "header": "ROW_LOWEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 14,
+          "header": "ROW_LOWEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 15,
+          "header": "ROW_POC_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 16,
+          "header": "ROW_POC_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 17,
+          "header": "ROW_POC_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 18,
+          "header": "ROW_POC_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 19,
+          "header": "ROW_POC_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 20,
+          "header": "ROW_POC_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 21,
+          "header": "ROW_POC_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 22,
+          "header": "ROW_POC_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 23,
+          "header": "ROW_HIGHEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 24,
+          "header": "ROW_HIGHEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 25,
+          "header": "ROW_HIGHEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 26,
+          "header": "ROW_HIGHEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 27,
+          "header": "ROW_HIGHEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 28,
+          "header": "ROW_HIGHEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 29,
+          "header": "ROW_HIGHEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 30,
+          "header": "ROW_HIGHEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 31,
+          "header": "CHART_TIME",
+          "raw": "1792159800000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 32,
+          "header": "CHART_TIME_CLOSE",
+          "raw": "1792159920000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 33,
+          "header": "CHART_BAR_INDEX",
+          "raw": "23465",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 34,
+          "header": "CHART_ISCONFIRMED",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 35,
+          "header": "OBSERVATION_CLOCK",
+          "raw": "1792159870588",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 36,
+          "header": "CHART_OPEN",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 37,
+          "header": "CHART_HIGH",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 38,
+          "header": "CHART_LOW",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 39,
+          "header": "CHART_CLOSE",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 40,
+          "header": "CHART_VOLUME",
+          "raw": "8.64793",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 41,
+          "header": "TARGET_KEY",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 42,
+          "header": "FP_AVAILABLE",
+          "raw": "1",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 43,
+          "header": "FP_AVAILABLE_ZERO_TOTAL",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 44,
+          "header": "FP_ROW_COUNT",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 45,
+          "header": "FP_TOTAL_VOLUME",
+          "raw": "8.853890000000002",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 46,
+          "header": "FP_BUY_VOLUME",
+          "raw": "2.5605200000000004",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 47,
+          "header": "FP_SELL_VOLUME",
+          "raw": "6.2933699999999995",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 48,
+          "header": "FP_DELTA",
+          "raw": "-3.732849999999999",
+          "valueStatus": "OBSERVED"
+        }
+      ],
+      "eventStatus": "OBSERVED",
+      "requestedStateCredit": 0,
+      "coverageLimit": "Sampled genuine native updates; no assertion that every intrabar execution was retained"
+    },
+    {
+      "version": "v1",
+      "stage": "update3",
+      "source": {
+        "probe": "v92-footprint-price-rows",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-price-rows.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+          "bytes": 4018,
+          "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+        },
+        "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+        "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+        "privateVersion": "1.0",
+        "studyTitle": "V91 native footprint row facets",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+          "bytes": 22305,
+          "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+          "bytes": 22305,
+          "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+        },
+        "saveRequestId": 1396,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/update3-native-v1.csv",
+        "bytes": 75577,
+        "sha256": "e9dfcedeb27ba753046a627d0c49d80cc0eb50efdc9c36bce3d94e810fbd3faf"
+      },
+      "rowOrdinal": 307,
+      "timeRaw": "1792159800",
+      "nativeClockRaw": "1792159895299",
+      "nativeIsConfirmedRaw": "0",
+      "fpAvailableRaw": "1",
+      "fpZeroTotalRaw": "0",
+      "fpTotalRaw": "14.798180000000007",
+      "allRawCells": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792159800",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "81969.95",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "81969.95",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "14.83564",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "ROW_LOWEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 8,
+          "header": "ROW_LOWEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 9,
+          "header": "ROW_LOWEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 10,
+          "header": "ROW_LOWEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 11,
+          "header": "ROW_LOWEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 12,
+          "header": "ROW_LOWEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 13,
+          "header": "ROW_LOWEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 14,
+          "header": "ROW_LOWEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 15,
+          "header": "ROW_POC_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 16,
+          "header": "ROW_POC_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 17,
+          "header": "ROW_POC_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 18,
+          "header": "ROW_POC_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 19,
+          "header": "ROW_POC_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 20,
+          "header": "ROW_POC_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 21,
+          "header": "ROW_POC_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 22,
+          "header": "ROW_POC_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 23,
+          "header": "ROW_HIGHEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 24,
+          "header": "ROW_HIGHEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 25,
+          "header": "ROW_HIGHEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 26,
+          "header": "ROW_HIGHEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 27,
+          "header": "ROW_HIGHEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 28,
+          "header": "ROW_HIGHEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 29,
+          "header": "ROW_HIGHEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 30,
+          "header": "ROW_HIGHEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 31,
+          "header": "CHART_TIME",
+          "raw": "1792159800000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 32,
+          "header": "CHART_TIME_CLOSE",
+          "raw": "1792159920000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 33,
+          "header": "CHART_BAR_INDEX",
+          "raw": "23465",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 34,
+          "header": "CHART_ISCONFIRMED",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 35,
+          "header": "OBSERVATION_CLOCK",
+          "raw": "1792159895299",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 36,
+          "header": "CHART_OPEN",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 37,
+          "header": "CHART_HIGH",
+          "raw": "81969.95",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 38,
+          "header": "CHART_LOW",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 39,
+          "header": "CHART_CLOSE",
+          "raw": "81969.95",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 40,
+          "header": "CHART_VOLUME",
+          "raw": "14.83564",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 41,
+          "header": "TARGET_KEY",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 42,
+          "header": "FP_AVAILABLE",
+          "raw": "1",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 43,
+          "header": "FP_AVAILABLE_ZERO_TOTAL",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 44,
+          "header": "FP_ROW_COUNT",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 45,
+          "header": "FP_TOTAL_VOLUME",
+          "raw": "14.798180000000007",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 46,
+          "header": "FP_BUY_VOLUME",
+          "raw": "8.457070000000002",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 47,
+          "header": "FP_SELL_VOLUME",
+          "raw": "6.34111",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 48,
+          "header": "FP_DELTA",
+          "raw": "2.115960000000002",
+          "valueStatus": "OBSERVED"
+        }
+      ],
+      "eventStatus": "OBSERVED",
+      "requestedStateCredit": 0,
+      "coverageLimit": "Sampled genuine native updates; no assertion that every intrabar execution was retained"
+    },
+    {
+      "version": "v1",
+      "stage": "close",
+      "source": {
+        "probe": "v92-footprint-price-rows",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-price-rows.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+          "bytes": 4018,
+          "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+        },
+        "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+        "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+        "privateVersion": "1.0",
+        "studyTitle": "V91 native footprint row facets",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+          "bytes": 22305,
+          "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+          "bytes": 22305,
+          "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+        },
+        "saveRequestId": 1396,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/close-native-v1.csv",
+        "bytes": 75809,
+        "sha256": "d692d22638ae1660b2c7c6d5eebf39954e909ba8f47484e89123a46c9e6a0ec5"
+      },
+      "rowOrdinal": 307,
+      "timeRaw": "1792159800",
+      "nativeClockRaw": "1792159920356",
+      "nativeIsConfirmedRaw": "1",
+      "fpAvailableRaw": "1",
+      "fpZeroTotalRaw": "0",
+      "fpTotalRaw": "18.85462000000001",
+      "allRawCells": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792159800",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "82002.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "82002.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "18.86154",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "ROW_LOWEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 8,
+          "header": "ROW_LOWEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 9,
+          "header": "ROW_LOWEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 10,
+          "header": "ROW_LOWEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 11,
+          "header": "ROW_LOWEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 12,
+          "header": "ROW_LOWEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 13,
+          "header": "ROW_LOWEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 14,
+          "header": "ROW_LOWEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 15,
+          "header": "ROW_POC_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 16,
+          "header": "ROW_POC_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 17,
+          "header": "ROW_POC_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 18,
+          "header": "ROW_POC_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 19,
+          "header": "ROW_POC_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 20,
+          "header": "ROW_POC_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 21,
+          "header": "ROW_POC_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 22,
+          "header": "ROW_POC_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 23,
+          "header": "ROW_HIGHEST_DOWN_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 24,
+          "header": "ROW_HIGHEST_UP_PRICE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 25,
+          "header": "ROW_HIGHEST_TOTAL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 26,
+          "header": "ROW_HIGHEST_BUY",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 27,
+          "header": "ROW_HIGHEST_SELL",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 28,
+          "header": "ROW_HIGHEST_DELTA",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 29,
+          "header": "ROW_HIGHEST_BUY_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 30,
+          "header": "ROW_HIGHEST_SELL_IMBALANCE",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 31,
+          "header": "CHART_TIME",
+          "raw": "1792159800000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 32,
+          "header": "CHART_TIME_CLOSE",
+          "raw": "1792159920000",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 33,
+          "header": "CHART_BAR_INDEX",
+          "raw": "23465",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 34,
+          "header": "CHART_ISCONFIRMED",
+          "raw": "1",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 35,
+          "header": "OBSERVATION_CLOCK",
+          "raw": "1792159920356",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 36,
+          "header": "CHART_OPEN",
+          "raw": "81956.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 37,
+          "header": "CHART_HIGH",
+          "raw": "82002.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 38,
+          "header": "CHART_LOW",
+          "raw": "81868",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 39,
+          "header": "CHART_CLOSE",
+          "raw": "82002.01",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 40,
+          "header": "CHART_VOLUME",
+          "raw": "18.86154",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 41,
+          "header": "TARGET_KEY",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 42,
+          "header": "FP_AVAILABLE",
+          "raw": "1",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 43,
+          "header": "FP_AVAILABLE_ZERO_TOTAL",
+          "raw": "0",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 44,
+          "header": "FP_ROW_COUNT",
+          "raw": "",
+          "valueStatus": "BLANK; conditional role/count channel not emitted"
+        },
+        {
+          "columnOrdinal": 45,
+          "header": "FP_TOTAL_VOLUME",
+          "raw": "18.85462000000001",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 46,
+          "header": "FP_BUY_VOLUME",
+          "raw": "11.321140000000007",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 47,
+          "header": "FP_SELL_VOLUME",
+          "raw": "7.533480000000001",
+          "valueStatus": "OBSERVED"
+        },
+        {
+          "columnOrdinal": 48,
+          "header": "FP_DELTA",
+          "raw": "3.787660000000006",
+          "valueStatus": "OBSERVED"
+        }
+      ],
+      "eventStatus": "OBSERVED",
+      "requestedStateCredit": 0,
+      "coverageLimit": "Sampled genuine native updates; no assertion that every intrabar execution was retained"
+    }
+  ],
+  "naturalLoadedRowStateCountsAcrossExports": [
+    {
+      "availableRaw": "1",
+      "zeroTotalRaw": "0",
+      "totalClass": "POSITIVE",
+      "rowObservations": 1536
+    }
+  ],
+  "observedNonzeroObjects": "Every getter-bearing row observer cell has available1 / zeroTotal0 / positive native total; records retained by original row/column",
+  "rareStateWaitingOrWindowRestart": false,
+  "stateInducingActions": 0,
+  "settingsHistorySymbolIntervalFrozenUntilWindowEnd": true,
+  "afterWindowSymbolChange": "TVC:DXY for independent capability inspection only; F study removed first",
+  "intrabarSamplingLimit": "Only actual retained observations are asserted; unseen intermediate states remain unknown",
+  "actionLog": "environment-resumed-v1/account-actions-v2.json"
+}

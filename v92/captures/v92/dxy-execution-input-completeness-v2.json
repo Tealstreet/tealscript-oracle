@@ -1,0 +1,94 @@
+{
+  "version": "v2",
+  "facet": "d",
+  "criterionChecked": "Exactly N original complete input frames at ordinals1..N cover attachment through actual confirmed close with no gaps or duplicates.",
+  "missingFields": [
+    "source-bound retained complete input frame at every ordinal1..N",
+    "actual attachment-to-confirmed-close counter N and preceding32-bar prefix"
+  ],
+  "remainingHold": "COMPLETE-INPUT-FRAMES NOT OBSERVED; execution-count parity CONTEXT-UNMET; historical missing input updates unchanged.",
+  "facetVerdict": "NOT OBSERVED",
+  "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+  "evidence": [
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+      "bytes": 6998,
+      "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+      "bytes": 8451,
+      "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+      "bytes": 12041,
+      "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+      "bytes": 8832,
+      "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+      "bytes": 8056,
+      "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+      "bytes": 7380,
+      "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+      "bytes": 6630,
+      "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+      "bytes": 7987,
+      "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+    }
+  ],
+  "closedScoreCredit": 0,
+  "sourceSpecificExecutionFeedAsOfId": null,
+  "capabilityAbsentConclusion": false,
+  "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+  "observedValueStatus": "UNOBSERVED for unexecuted C/D/E sources; existing F values remain OBSERVED",
+  "sourceSessions": null,
+  "reason": "Pre-execution capability gate: chart export offers chart/UTC time format only; Data window shows current selected-bar plots; study menu and editor tools expose no requested original-owned prefix, every-execution raw input archive, or execution-to-requested-input binding. No C/D/E source Save/Add attempted.",
+  "sourceSpecificAttemptStatus": "NOT STARTED; no original-specific metadata claimed from the F study inspection",
+  "context": {
+    "symbol": "TVC:DXY",
+    "interval": "2",
+    "style": "Candles",
+    "timezone": "UTC",
+    "feedStatus": "Market open; genuine quote changes visible",
+    "session": "Native default; separate named regular-session setting not exposed; no source session scored"
+  },
+  "sources": [
+    {
+      "source": "v90-dxy-natural",
+      "saveAddAttempts": 0,
+      "sourceSession": null,
+      "nativeFinalN": null,
+      "witnessedExecutionOrdinals": [],
+      "precedingPrefix": null,
+      "missingOrdinalAssessment": "UNKNOWN; no source execution started"
+    },
+    {
+      "source": "v90-dxy-renamed-control",
+      "saveAddAttempts": 0,
+      "sourceSession": null,
+      "nativeFinalN": null,
+      "witnessedExecutionOrdinals": [],
+      "precedingPrefix": null,
+      "missingOrdinalAssessment": "UNKNOWN; no source execution started"
+    }
+  ],
+  "completePerExecutionRawInputRetention": "NOT OBSERVED in inspected UI/export",
+  "eventsFile": "realtime-events-v2.jsonl",
+  "eventCount": 0,
+  "noCounterOrSyntheticFrameInference": true
+}

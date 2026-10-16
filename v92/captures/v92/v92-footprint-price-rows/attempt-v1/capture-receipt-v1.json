@@ -1,0 +1,62 @@
+{
+  "version": "v1",
+  "probe": "v92-footprint-price-rows",
+  "repetition": 1,
+  "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+  "savedReceipt": {
+    "requestId": 1396,
+    "observedAtUtc": "2026-10-16T14:09:55.540Z",
+    "success": true,
+    "responseBytes": 22305,
+    "responseSha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919",
+    "nativeMetaInfoId": "Script$USER;fff1b85e815147009dee044b955daa55@tv-scripting-101",
+    "sourceBinding": {
+      "expectedSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "executedSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "nativeFormSourceSha256": "67ff6b349f071b6999a2b0059cf7cbfaf864cee6cd3280770fd9d43c383f4ce8",
+      "nativeFormLineEndingNormalizationOnly": true,
+      "exact": true
+    }
+  },
+  "addReceipt": {
+    "requestId": 1407,
+    "observedAtUtc": "2026-10-16T14:10:17.987Z",
+    "success": true,
+    "responseBytes": 22305,
+    "responseSha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537",
+    "nativeMetaInfoId": "Script$USER;fff1b85e815147009dee044b955daa55@tv-scripting-101",
+    "sourceBinding": null
+  },
+  "addedAtUtc": "2026-10-16T14:10:16.975Z",
+  "completedAtUtc": "2026-10-16T14:12:22.393Z",
+  "studyTitle": "V91 native footprint row facets",
+  "privateSaveName": "v92-footprint-price-rows-attempt-v1",
+  "removed": true,
+  "window": {
+    "version": "v1",
+    "declaredAtUtc": "2026-10-16T14:10:15.900083+00:00",
+    "nativeBarTimeRaw": "1792159800",
+    "nativeBarOpenUtc": "2026-10-16T14:10:00+00:00",
+    "nativeBarCloseUtc": "2026-10-16T14:12:00+00:00",
+    "nativeBarCloseEpoch": 1792159920,
+    "preAddCsv": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/pre-window-native-v1.csv",
+    "preAddCsvSha256": "086be9f9de03f3a15dd86dec8fd9b3ca7f87eb061d341abfca68a680edc4f819",
+    "preAddRowOrdinal": 307,
+    "window": "Remainder of this naturally open bar through actual close; no restart if missed",
+    "settingsFrozen": true
+  },
+  "csvStages": [
+    "pre-window",
+    "initial",
+    "update",
+    "update2",
+    "update3",
+    "close"
+  ],
+  "sourceIsolated": true,
+  "markerArrays": {
+    "immediate": null,
+    "settled": null,
+    "status": "UNOBSERVED"
+  }
+}

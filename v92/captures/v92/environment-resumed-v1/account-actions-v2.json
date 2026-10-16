@@ -1,0 +1,257 @@
+{
+  "version": "v2",
+  "ownerApprovedReconnect": {
+    "path": "v92/captures/v92/reconnect-v1/owner-authorization-v1.json",
+    "bytes": 194,
+    "sha256": "b0586ceedf351a9fa7f65d2cbe228621d72c7f9f42580c2dbdefbed091bd7202"
+  },
+  "nativeConnect": {
+    "pageId": 3,
+    "clicked": true,
+    "before": {
+      "path": "v92/captures/v92/reconnect-v1/before-v1.txt",
+      "bytes": 8607,
+      "sha256": "ae397e9bfe5116d5ce0870623d6557388214d80c30711d650435f9dc4fc494fa"
+    },
+    "immediate": {
+      "path": "v92/captures/v92/reconnect-v1/immediate-v1.txt",
+      "bytes": 6595,
+      "sha256": "5e2a4d925b1c65f94e03e97a7e83a66f0a3b460d1c17d931aeef203885577385"
+    }
+  },
+  "newLayout": {
+    "name": "oracle-v92-v1",
+    "nativeId": 208188529,
+    "imageUrl": "EPoTcWl1",
+    "nativeCreateRequest": {
+      "pageId": 3,
+      "requestId": 2645,
+      "status": 201
+    },
+    "nativeCreateBody": {
+      "path": "v92/captures/v92/environment-resumed-v1/native-layout-create-response-v1.json",
+      "bytes": 66,
+      "sha256": "948bbb7c7e0d4aeb8b9587e664fa0f0ed5e352ba76260fc153dde85207aefad1"
+    }
+  },
+  "actions": [
+    {
+      "action": "Owner-authorized native Connect",
+      "pageId": 3
+    },
+    {
+      "action": "Passive Manage layouts menu to expose before-layout records",
+      "pageId": 3,
+      "requestId": 2635
+    },
+    {
+      "action": "Create one new layout in new tab",
+      "pageId": 3,
+      "name": "oracle-v92-v1"
+    },
+    {
+      "action": "New layout starts BYBIT:BTCUSDT.P2m; close competition ad; set BINANCE:BTCUSDT and UTC",
+      "pageId": 4
+    },
+    {
+      "action": "Native baseline chart CSV; declare closed13:56 bar before any history navigation",
+      "pageId": 4
+    },
+    {
+      "action": "Original F source: new PRIVATE1.0 Save/Add/export/remove",
+      "pageId": 4,
+      "source": {
+        "probe": "v92-footprint-original",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-original.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+          "bytes": 111,
+          "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+        },
+        "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+        "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+        "privateVersion": "1.0",
+        "studyTitle": "v77 footprint request-call",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+          "bytes": 4021,
+          "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+          "bytes": 4021,
+          "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+        },
+        "saveRequestId": 1065,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      }
+    },
+    {
+      "action": "Provider F source: new PRIVATE1.0 Save/Add/export/remove",
+      "pageId": 4,
+      "source": {
+        "probe": "v92-footprint-provider",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-provider.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+          "bytes": 740,
+          "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+        },
+        "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+        "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+        "privateVersion": "1.0",
+        "studyTitle": "v77 footprint request-call",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+          "bytes": 7473,
+          "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+          "bytes": 7473,
+          "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+        },
+        "saveRequestId": 1166,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      }
+    },
+    {
+      "action": "Row F source: new PRIVATE1.0 Save; pre-Add CSV; declare14:10-14:12 window; Add; initial/three updates/close exports; remove",
+      "pageId": 4,
+      "source": {
+        "probe": "v92-footprint-price-rows",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-price-rows.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+          "bytes": 4018,
+          "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+        },
+        "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+        "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+        "privateVersion": "1.0",
+        "studyTitle": "V91 native footprint row facets",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+          "bytes": 22305,
+          "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+          "bytes": 22305,
+          "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+        },
+        "saveRequestId": 1396,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      }
+    },
+    {
+      "action": "Inspect native study menu, Data window, editor More; do not enable Profiler, Pine logs, alerts or change source",
+      "pageId": 4
+    },
+    {
+      "action": "After F window/cleanup, change only new layout to TVC:DXY2m; inspect native export/settings; cancel dialogs",
+      "pageId": 4
+    },
+    {
+      "action": "Save only new layout; inspect after-layout records and existing tabs passively",
+      "pageId": 4,
+      "afterListRequestId": 1601
+    }
+  ],
+  "existingLayoutsAllFieldsMatch": true,
+  "existingLayoutsComparison": {
+    "path": "v92/captures/v92/environment-resumed-v1/existing-layout-comparison-v1.json",
+    "bytes": 4000,
+    "sha256": "97af9217882af40d86042e48e5162a812d663271b569ee918df2ef188e4d2d96"
+  },
+  "historyNavigationActions": 0,
+  "sourceRetriesOrVariants": 0,
+  "newPrivateScripts": 3,
+  "allRequestStudiesRemoved": true,
+  "retainedBuiltinStudy": "Vol (native no-volume-data label on DXY)",
+  "libraryActions": 0,
+  "libraryIdentity": "sours-lat/P425PrivateV79v1/1",
+  "publicationSharingVisibilityAlertsImportsAccountUpgradeActions": 0,
+  "scriptsOrLayoutsDeleted": 0,
+  "existingScriptsOverwritten": 0,
+  "barReplayInjectedCodeHiddenObjectsDirectApiSyntheticTicksSourceRepair": 0,
+  "accountSessionChangeException": "Only native Connect, expressly approved by owner"
+}

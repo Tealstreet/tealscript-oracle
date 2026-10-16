@@ -1,0 +1,835 @@
+{
+  "version": "v2",
+  "supersedesForResumedAttempt": "facet-capabilities-v1.json",
+  "observedAtUtc": "2026-10-16T14:17:03.636272+00:00",
+  "ownerReconnectApproved": true,
+  "facets": [
+    {
+      "facet": "a",
+      "criterionChecked": "One unchanged F execution/request/bar binds all raw native rows1..N, count N, POC row and every requested getter field.",
+      "missingFields": [
+        "same-source/request/bar complete native footprint row export",
+        "native full count and POC-to-retained-row identity",
+        "all exact row ordinals and getter fields"
+      ],
+      "remainingHold": "FULL-DISTRIBUTION and historic hold21 remain HELD; v91 role records/counts and v90 drift unchanged.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "OBSERVED wherever native raw cells are present; blanks retained separately",
+      "sourceSessions": [
+        {
+          "probe": "v92-footprint-original",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-original.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+            "bytes": 111,
+            "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+          },
+          "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+          "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+            "bytes": 4021,
+            "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+            "bytes": 4021,
+            "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+          },
+          "saveRequestId": 1065,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-provider",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-provider.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+            "bytes": 740,
+            "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+          },
+          "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+          "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+            "bytes": 7473,
+            "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+            "bytes": 7473,
+            "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+          },
+          "saveRequestId": 1166,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-price-rows",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-price-rows.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+            "bytes": 4018,
+            "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+          },
+          "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+          "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+          "privateVersion": "1.0",
+          "studyTitle": "V91 native footprint row facets",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+            "bytes": 22305,
+            "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+            "bytes": 22305,
+            "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+          },
+          "saveRequestId": 1396,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        }
+      ],
+      "reason": "Full row export/count/POC binding not exposed. Fixed window and naturally loaded getter observations contain only available nonzero objects; neither requested semantic state observed.",
+      "availabilityEvents": "availability-events-v1.jsonl"
+    },
+    {
+      "facet": "b-unavailable",
+      "criterionChecked": "Successful exact-source execution exposes an actual missing footprint object for a bound bar/request; absent output or failed execution does not qualify.",
+      "missingFields": [
+        "actual successful exact-source unavailable-object occurrence; all retained flags are available1"
+      ],
+      "remainingHold": "UNAVAILABLE semantic case remains HELD.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "OBSERVED wherever native raw cells are present; blanks retained separately",
+      "sourceSessions": [
+        {
+          "probe": "v92-footprint-original",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-original.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+            "bytes": 111,
+            "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+          },
+          "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+          "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+            "bytes": 4021,
+            "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+            "bytes": 4021,
+            "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+          },
+          "saveRequestId": 1065,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-provider",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-provider.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+            "bytes": 740,
+            "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+          },
+          "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+          "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+            "bytes": 7473,
+            "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+            "bytes": 7473,
+            "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+          },
+          "saveRequestId": 1166,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-price-rows",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-price-rows.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+            "bytes": 4018,
+            "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+          },
+          "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+          "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+          "privateVersion": "1.0",
+          "studyTitle": "V91 native footprint row facets",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+            "bytes": 22305,
+            "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+            "bytes": 22305,
+            "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+          },
+          "saveRequestId": 1396,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        }
+      ],
+      "reason": "Full row export/count/POC binding not exposed. Fixed window and naturally loaded getter observations contain only available nonzero objects; neither requested semantic state observed.",
+      "availabilityEvents": "availability-events-v1.jsonl"
+    },
+    {
+      "facet": "b-available-zero-total",
+      "criterionChecked": "Same exact execution/bar exposes an available footprint object and native total exactly0, with raw defining flags/getters.",
+      "missingFields": [
+        "actual same-execution available-object total0 occurrence; retained totals are positive"
+      ],
+      "remainingHold": "AVAILABLE_ZERO_TOTAL semantic case remains HELD.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "OBSERVED wherever native raw cells are present; blanks retained separately",
+      "sourceSessions": [
+        {
+          "probe": "v92-footprint-original",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-original.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+            "bytes": 111,
+            "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+          },
+          "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+          "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+            "bytes": 4021,
+            "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+            "bytes": 4021,
+            "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+          },
+          "saveRequestId": 1065,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-provider",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-provider.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+            "bytes": 740,
+            "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+          },
+          "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+          "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+          "privateVersion": "1.0",
+          "studyTitle": "v77 footprint request-call",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+            "bytes": 7473,
+            "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+            "bytes": 7473,
+            "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+          },
+          "saveRequestId": 1166,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        },
+        {
+          "probe": "v92-footprint-price-rows",
+          "attempt": 1,
+          "source": "v91/sources/v91-footprint-price-rows.pine",
+          "executed": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+            "bytes": 4018,
+            "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+          },
+          "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+          "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+          "privateVersion": "1.0",
+          "studyTitle": "V91 native footprint row facets",
+          "nativeStudyInstanceId": null,
+          "save": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+            "bytes": 22305,
+            "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+          },
+          "add": {
+            "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+            "bytes": 22305,
+            "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+          },
+          "saveRequestId": 1396,
+          "compilerSuccess": true,
+          "nativeWarnings": [],
+          "nativeWarningsPath": "result.metaInfo.warnings",
+          "errorListChannel": null,
+          "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+          "markerArrays": null,
+          "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+          "removed": true,
+          "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+          "historyNavigation": 0,
+          "request": {
+            "footprint": [
+              100,
+              70,
+              300
+            ]
+          },
+          "settings": {
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "2",
+            "chartStyle": "Candles",
+            "timezone": "UTC",
+            "session": "Native default; named session unexposed",
+            "feedStatus": "Market open; live updates observed"
+          }
+        }
+      ],
+      "reason": "Full row export/count/POC binding not exposed. Fixed window and naturally loaded getter observations contain only available nonzero objects; neither requested semantic state observed.",
+      "availabilityEvents": "availability-events-v1.jsonl"
+    },
+    {
+      "facet": "c",
+      "criterionChecked": "Each unchanged original owns native index0/start and its complete ordered calculation prefix; first physical export row independently matches that start.",
+      "missingFields": [
+        "original-owned calculation start/index0/isfirst",
+        "original-owned complete ordered input prefix and execution binding"
+      ],
+      "remainingHold": "ORIGINAL-FRONTIER CONTEXT-UNMET; old holds7/8 remain HELD.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "UNOBSERVED for unexecuted C/D/E sources; existing F values remain OBSERVED",
+      "sourceSessions": null,
+      "reason": "Pre-execution capability gate: chart export offers chart/UTC time format only; Data window shows current selected-bar plots; study menu and editor tools expose no requested original-owned prefix, every-execution raw input archive, or execution-to-requested-input binding. No C/D/E source Save/Add attempted.",
+      "sourceSpecificAttemptStatus": "NOT STARTED; no original-specific metadata claimed from the F study inspection"
+    },
+    {
+      "facet": "d",
+      "criterionChecked": "Exactly N original complete input frames at ordinals1..N cover attachment through actual confirmed close with no gaps or duplicates.",
+      "missingFields": [
+        "source-bound retained complete input frame at every ordinal1..N",
+        "actual attachment-to-confirmed-close counter N and preceding32-bar prefix"
+      ],
+      "remainingHold": "COMPLETE-INPUT-FRAMES NOT OBSERVED; execution-count parity CONTEXT-UNMET; historical missing input updates unchanged.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "UNOBSERVED for unexecuted C/D/E sources; existing F values remain OBSERVED",
+      "sourceSessions": null,
+      "reason": "Pre-execution capability gate: chart export offers chart/UTC time format only; Data window shows current selected-bar plots; study menu and editor tools expose no requested original-owned prefix, every-execution raw input archive, or execution-to-requested-input binding. No C/D/E source Save/Add attempted.",
+      "sourceSpecificAttemptStatus": "NOT STARTED; no original-specific metadata claimed from the F study inspection"
+    },
+    {
+      "facet": "e",
+      "criterionChecked": "Each event has an explicit native original-execution-to-requested-input/feed/as-of linkage; same-session companion metadata is insufficient.",
+      "missingFields": [
+        "original-owned execution/feed/as-of identifiers",
+        "native binding from original target execution to its requested daily OHLCV/input snapshot"
+      ],
+      "remainingHold": "EXACT-AS-OF-INPUT CONTEXT-UNMET; imported holds1/2 and historical snapshots/clocks unchanged.",
+      "facetVerdict": "NOT OBSERVED",
+      "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+      "evidence": [
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+          "bytes": 6998,
+          "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+          "bytes": 8451,
+          "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+          "bytes": 12041,
+          "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+          "bytes": 8832,
+          "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+          "bytes": 8056,
+          "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+          "bytes": 7380,
+          "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+          "bytes": 6630,
+          "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+        },
+        {
+          "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+          "bytes": 7987,
+          "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+        }
+      ],
+      "closedScoreCredit": 0,
+      "sourceSpecificExecutionFeedAsOfId": null,
+      "capabilityAbsentConclusion": false,
+      "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+      "observedValueStatus": "UNOBSERVED for unexecuted C/D/E sources; existing F values remain OBSERVED",
+      "sourceSessions": null,
+      "reason": "Pre-execution capability gate: chart export offers chart/UTC time format only; Data window shows current selected-bar plots; study menu and editor tools expose no requested original-owned prefix, every-execution raw input archive, or execution-to-requested-input binding. No C/D/E source Save/Add attempted.",
+      "sourceSpecificAttemptStatus": "NOT STARTED; no original-specific metadata claimed from the F study inspection"
+    }
+  ]
+}

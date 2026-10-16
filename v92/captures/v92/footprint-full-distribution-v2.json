@@ -1,0 +1,791 @@
+{
+  "version": "v2",
+  "facet": "a",
+  "criterionChecked": "One unchanged F execution/request/bar binds all raw native rows1..N, count N, POC row and every requested getter field.",
+  "missingFields": [
+    "same-source/request/bar complete native footprint row export",
+    "native full count and POC-to-retained-row identity",
+    "all exact row ordinals and getter fields"
+  ],
+  "remainingHold": "FULL-DISTRIBUTION and historic hold21 remain HELD; v91 role records/counts and v90 drift unchanged.",
+  "facetVerdict": "NOT OBSERVED",
+  "workflowStatus": "CAPABILITY INSPECTION COMPLETE; HELD",
+  "evidence": [
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/baseline-export-dialog-v1.txt",
+      "bytes": 6998,
+      "sha256": "d0d79b6857513b3463edd7ce68e04e50336d4123df600f80eea5262ff05d86d8"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/study-more-menu-v3.txt",
+      "bytes": 8451,
+      "sha256": "2737c6560cfe654cb615716179bf71b360c7b7998a77c8418db7c90bb31f6be0"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/data-window-v1.txt",
+      "bytes": 12041,
+      "sha256": "84ac963904d4c98eaa462d2843e1bacd34d32d8adf9f342739ece9a3a8d517ad"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/editor-more-v1.txt",
+      "bytes": 8832,
+      "sha256": "07e2c0cf664c2af64fac3b83da04d5ea04a09a144aebb6749afaab68f6b11661"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/btc-symbol-settings-v1.txt",
+      "bytes": 8056,
+      "sha256": "a776dc2e2b619d2114e0b8735458849b86c5f95139faed959d5eda230ce49d86"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/dxy-export-affordances-v1.txt",
+      "bytes": 7380,
+      "sha256": "b9dd4fcd65953753f5db42e46118f2a4b9f9a38e4a9fb1c30f4623f0d206cbff"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/dxy-context-settled-v1.txt",
+      "bytes": 6630,
+      "sha256": "636cbee6211c708f6a4374700012f20ee4974e32a7f0c86626b9bd08fc5e116e"
+    },
+    {
+      "path": "v92/captures/v92/capability-inspection-v1/dxy-symbol-settings-v1.txt",
+      "bytes": 7987,
+      "sha256": "2796354787457879730239fad34396e19b81e6d6288a83133cf408b8cce05357"
+    }
+  ],
+  "closedScoreCredit": 0,
+  "sourceSpecificExecutionFeedAsOfId": null,
+  "capabilityAbsentConclusion": false,
+  "inspectionLimits": "Result is limited to observed authorized UI/export affordances; no claim of global impossibility or hidden capability absence",
+  "observedValueStatus": "OBSERVED wherever native raw cells are present; blanks retained separately",
+  "sourceSessions": [
+    {
+      "probe": "v92-footprint-original",
+      "attempt": 1,
+      "source": "v91/sources/v91-footprint-original.pine",
+      "executed": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+        "bytes": 111,
+        "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+      },
+      "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+      "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+      "privateVersion": "1.0",
+      "studyTitle": "v77 footprint request-call",
+      "nativeStudyInstanceId": null,
+      "save": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+        "bytes": 4021,
+        "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+      },
+      "add": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+        "bytes": 4021,
+        "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+      },
+      "saveRequestId": 1065,
+      "compilerSuccess": true,
+      "nativeWarnings": [],
+      "nativeWarningsPath": "result.metaInfo.warnings",
+      "errorListChannel": null,
+      "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+      "markerArrays": null,
+      "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+      "removed": true,
+      "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+      "historyNavigation": 0,
+      "request": {
+        "footprint": [
+          100,
+          70,
+          300
+        ]
+      },
+      "settings": {
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "2",
+        "chartStyle": "Candles",
+        "timezone": "UTC",
+        "session": "Native default; named session unexposed",
+        "feedStatus": "Market open; live updates observed"
+      }
+    },
+    {
+      "probe": "v92-footprint-provider",
+      "attempt": 1,
+      "source": "v91/sources/v91-footprint-provider.pine",
+      "executed": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+        "bytes": 740,
+        "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+      },
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "studyTitle": "v77 footprint request-call",
+      "nativeStudyInstanceId": null,
+      "save": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+        "bytes": 7473,
+        "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+      },
+      "add": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+        "bytes": 7473,
+        "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+      },
+      "saveRequestId": 1166,
+      "compilerSuccess": true,
+      "nativeWarnings": [],
+      "nativeWarningsPath": "result.metaInfo.warnings",
+      "errorListChannel": null,
+      "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+      "markerArrays": null,
+      "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+      "removed": true,
+      "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+      "historyNavigation": 0,
+      "request": {
+        "footprint": [
+          100,
+          70,
+          300
+        ]
+      },
+      "settings": {
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "2",
+        "chartStyle": "Candles",
+        "timezone": "UTC",
+        "session": "Native default; named session unexposed",
+        "feedStatus": "Market open; live updates observed"
+      }
+    },
+    {
+      "probe": "v92-footprint-price-rows",
+      "attempt": 1,
+      "source": "v91/sources/v91-footprint-price-rows.pine",
+      "executed": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+        "bytes": 4018,
+        "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+      },
+      "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+      "privateVersion": "1.0",
+      "studyTitle": "V91 native footprint row facets",
+      "nativeStudyInstanceId": null,
+      "save": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+        "bytes": 22305,
+        "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+      },
+      "add": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+        "bytes": 22305,
+        "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+      },
+      "saveRequestId": 1396,
+      "compilerSuccess": true,
+      "nativeWarnings": [],
+      "nativeWarningsPath": "result.metaInfo.warnings",
+      "errorListChannel": null,
+      "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+      "markerArrays": null,
+      "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+      "removed": true,
+      "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+      "historyNavigation": 0,
+      "request": {
+        "footprint": [
+          100,
+          70,
+          300
+        ]
+      },
+      "settings": {
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "2",
+        "chartStyle": "Candles",
+        "timezone": "UTC",
+        "session": "Native default; named session unexposed",
+        "feedStatus": "Market open; live updates observed"
+      }
+    }
+  ],
+  "reason": "Full row export/count/POC binding not exposed. Fixed window and naturally loaded getter observations contain only available nonzero objects; neither requested semantic state observed.",
+  "availabilityEvents": "availability-events-v1.jsonl",
+  "chosenClosedBar": {
+    "version": "v1",
+    "chosenAtUtc": "2026-10-16T13:58:28.026519+00:00",
+    "method": "Last independently closed chart row in naturally loaded native baseline CSV before any history navigation",
+    "csvSha256": "216252bd22b6abfedfc8a8474abf358a9d493f0f80c6fb2d68e39f585d5f0cd0",
+    "csv": "v92/captures/v92/capability-inspection-v1/baseline-native-v1.csv",
+    "rowOrdinal": 300,
+    "barTimeRaw": "1792158960",
+    "barTimeUtc": "2026-10-16T13:56:00+00:00",
+    "barTimeCloseEpoch": 1792159080,
+    "exportObservationUtc": "2026-10-16T13:58:06.440Z",
+    "rawRow": [
+      "1792158960",
+      "82111.8",
+      "82111.81",
+      "82014",
+      "82014.01",
+      "11.706"
+    ],
+    "historyNavigationBeforeSelection": 0,
+    "settingsFrozenForFootprint": "BINANCE:BTCUSDT 2m Candles UTC; request.footprint(100,70,300); no navigation/reload/settings changes until F cleanup"
+  },
+  "chosenBarIndependentSourceRecords": [
+    {
+      "source": {
+        "probe": "v92-footprint-original",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-original.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+          "bytes": 111,
+          "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+        },
+        "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+        "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+        "privateVersion": "1.0",
+        "studyTitle": "v77 footprint request-call",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+          "bytes": 4021,
+          "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+          "bytes": 4021,
+          "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+        },
+        "saveRequestId": 1065,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/chart-native-v1.csv",
+        "bytes": 16491,
+        "sha256": "97953b944882bd17ede2406c2c7b5849068ae508376c93cf115e2f177076353a"
+      },
+      "rowOrdinal": 300,
+      "timeRaw": "1792158960",
+      "columns": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792158960"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "82111.8"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "82111.81"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "82014"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "82014.01"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "11.706"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "Plot",
+          "raw": "1"
+        }
+      ],
+      "ownershipStatus": "Private source/version and plot ownership OBSERVED; no cross-execution identity inferred"
+    },
+    {
+      "source": {
+        "probe": "v92-footprint-provider",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-provider.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+          "bytes": 740,
+          "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+        },
+        "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+        "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+        "privateVersion": "1.0",
+        "studyTitle": "v77 footprint request-call",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+          "bytes": 7473,
+          "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+          "bytes": 7473,
+          "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+        },
+        "saveRequestId": 1166,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/chart-native-v1.csv",
+        "bytes": 48211,
+        "sha256": "af786fe3cbb8672972fab4fa2ff2d7f866e51540a7c021e54bf75ca0313b7023"
+      },
+      "rowOrdinal": 300,
+      "timeRaw": "1792158960",
+      "columns": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792158960"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "82111.8"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "82111.81"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "82014"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "82014.01"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "11.706"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "Plot",
+          "raw": "1"
+        },
+        {
+          "columnOrdinal": 8,
+          "header": "CHART_TIME",
+          "raw": "1792158960000"
+        },
+        {
+          "columnOrdinal": 9,
+          "header": "CHART_TIME_CLOSE",
+          "raw": "1792159080000"
+        },
+        {
+          "columnOrdinal": 10,
+          "header": "CHART_BAR_INDEX",
+          "raw": "23458"
+        },
+        {
+          "columnOrdinal": 11,
+          "header": "CHART_ISCONFIRMED",
+          "raw": "1"
+        },
+        {
+          "columnOrdinal": 12,
+          "header": "FP_TOTAL_VOLUME",
+          "raw": "11.706000000000008"
+        },
+        {
+          "columnOrdinal": 13,
+          "header": "FP_BUY_VOLUME",
+          "raw": "2.575240000000001"
+        },
+        {
+          "columnOrdinal": 14,
+          "header": "FP_SELL_VOLUME",
+          "raw": "9.130760000000006"
+        },
+        {
+          "columnOrdinal": 15,
+          "header": "FP_DELTA",
+          "raw": "-6.555520000000005"
+        }
+      ],
+      "ownershipStatus": "Private source/version and plot ownership OBSERVED; no cross-execution identity inferred"
+    },
+    {
+      "source": {
+        "probe": "v92-footprint-price-rows",
+        "attempt": 1,
+        "source": "v91/sources/v91-footprint-price-rows.pine",
+        "executed": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+          "bytes": 4018,
+          "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+        },
+        "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+        "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+        "privateVersion": "1.0",
+        "studyTitle": "V91 native footprint row facets",
+        "nativeStudyInstanceId": null,
+        "save": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+          "bytes": 22305,
+          "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+        },
+        "add": {
+          "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+          "bytes": 22305,
+          "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+        },
+        "saveRequestId": 1396,
+        "compilerSuccess": true,
+        "nativeWarnings": [],
+        "nativeWarningsPath": "result.metaInfo.warnings",
+        "errorListChannel": null,
+        "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+        "markerArrays": null,
+        "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+        "removed": true,
+        "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+        "historyNavigation": 0,
+        "request": {
+          "footprint": [
+            100,
+            70,
+            300
+          ]
+        },
+        "settings": {
+          "symbol": "BINANCE:BTCUSDT",
+          "interval": "2",
+          "chartStyle": "Candles",
+          "timezone": "UTC",
+          "session": "Native default; named session unexposed",
+          "feedStatus": "Market open; live updates observed"
+        }
+      },
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/initial-native-v1.csv",
+        "bytes": 75583,
+        "sha256": "16f102e8026b8377370e190b49e2cb77ae43dcaf5ba985347101d023a4d29400"
+      },
+      "rowOrdinal": 300,
+      "timeRaw": "1792158960",
+      "columns": [
+        {
+          "columnOrdinal": 1,
+          "header": "time",
+          "raw": "1792158960"
+        },
+        {
+          "columnOrdinal": 2,
+          "header": "open",
+          "raw": "82111.8"
+        },
+        {
+          "columnOrdinal": 3,
+          "header": "high",
+          "raw": "82111.81"
+        },
+        {
+          "columnOrdinal": 4,
+          "header": "low",
+          "raw": "82014"
+        },
+        {
+          "columnOrdinal": 5,
+          "header": "close",
+          "raw": "82014.01"
+        },
+        {
+          "columnOrdinal": 6,
+          "header": "Volume",
+          "raw": "11.706"
+        },
+        {
+          "columnOrdinal": 7,
+          "header": "ROW_LOWEST_DOWN_PRICE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 8,
+          "header": "ROW_LOWEST_UP_PRICE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 9,
+          "header": "ROW_LOWEST_TOTAL",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 10,
+          "header": "ROW_LOWEST_BUY",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 11,
+          "header": "ROW_LOWEST_SELL",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 12,
+          "header": "ROW_LOWEST_DELTA",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 13,
+          "header": "ROW_LOWEST_BUY_IMBALANCE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 14,
+          "header": "ROW_LOWEST_SELL_IMBALANCE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 15,
+          "header": "ROW_POC_DOWN_PRICE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 16,
+          "header": "ROW_POC_UP_PRICE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 17,
+          "header": "ROW_POC_TOTAL",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 18,
+          "header": "ROW_POC_BUY",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 19,
+          "header": "ROW_POC_SELL",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 20,
+          "header": "ROW_POC_DELTA",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 21,
+          "header": "ROW_POC_BUY_IMBALANCE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 22,
+          "header": "ROW_POC_SELL_IMBALANCE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 23,
+          "header": "ROW_HIGHEST_DOWN_PRICE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 24,
+          "header": "ROW_HIGHEST_UP_PRICE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 25,
+          "header": "ROW_HIGHEST_TOTAL",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 26,
+          "header": "ROW_HIGHEST_BUY",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 27,
+          "header": "ROW_HIGHEST_SELL",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 28,
+          "header": "ROW_HIGHEST_DELTA",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 29,
+          "header": "ROW_HIGHEST_BUY_IMBALANCE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 30,
+          "header": "ROW_HIGHEST_SELL_IMBALANCE",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 31,
+          "header": "CHART_TIME",
+          "raw": "1792158960000"
+        },
+        {
+          "columnOrdinal": 32,
+          "header": "CHART_TIME_CLOSE",
+          "raw": "1792159080000"
+        },
+        {
+          "columnOrdinal": 33,
+          "header": "CHART_BAR_INDEX",
+          "raw": "23458"
+        },
+        {
+          "columnOrdinal": 34,
+          "header": "CHART_ISCONFIRMED",
+          "raw": "1"
+        },
+        {
+          "columnOrdinal": 35,
+          "header": "OBSERVATION_CLOCK",
+          "raw": "1792159819044"
+        },
+        {
+          "columnOrdinal": 36,
+          "header": "CHART_OPEN",
+          "raw": "82111.8"
+        },
+        {
+          "columnOrdinal": 37,
+          "header": "CHART_HIGH",
+          "raw": "82111.81"
+        },
+        {
+          "columnOrdinal": 38,
+          "header": "CHART_LOW",
+          "raw": "82014"
+        },
+        {
+          "columnOrdinal": 39,
+          "header": "CHART_CLOSE",
+          "raw": "82014.01"
+        },
+        {
+          "columnOrdinal": 40,
+          "header": "CHART_VOLUME",
+          "raw": "11.706"
+        },
+        {
+          "columnOrdinal": 41,
+          "header": "TARGET_KEY",
+          "raw": "0"
+        },
+        {
+          "columnOrdinal": 42,
+          "header": "FP_AVAILABLE",
+          "raw": "1"
+        },
+        {
+          "columnOrdinal": 43,
+          "header": "FP_AVAILABLE_ZERO_TOTAL",
+          "raw": "0"
+        },
+        {
+          "columnOrdinal": 44,
+          "header": "FP_ROW_COUNT",
+          "raw": ""
+        },
+        {
+          "columnOrdinal": 45,
+          "header": "FP_TOTAL_VOLUME",
+          "raw": "11.706000000000008"
+        },
+        {
+          "columnOrdinal": 46,
+          "header": "FP_BUY_VOLUME",
+          "raw": "2.575240000000001"
+        },
+        {
+          "columnOrdinal": 47,
+          "header": "FP_SELL_VOLUME",
+          "raw": "9.130760000000006"
+        },
+        {
+          "columnOrdinal": 48,
+          "header": "FP_DELTA",
+          "raw": "-6.555520000000005"
+        }
+      ],
+      "ownershipStatus": "Private source/version and plot ownership OBSERVED; no cross-execution identity inferred"
+    }
+  ],
+  "nativeCompleteRowExport": null,
+  "nativeCountForChosenBar": null,
+  "nativePocIdentityForChosenBar": null,
+  "completeNativeRowOrdinals": null,
+  "rowObserverTargetPredicate": "Exact unchanged source targets Oct14 keys1791966600/1791966720/1791966840, not chosen Oct16 key",
+  "targetKeyOnChosenBar": "0",
+  "conditionalRoleAndCountCells": "BLANK; not proof of unavailable object or native row count0",
+  "fullRowCompletenessCheck": "NOT OBSERVED",
+  "sameSourceFullRowBinding": "NOT OBSERVED",
+  "privateSourceAndExportPlotOwnership": "OBSERVED independently for each F source",
+  "historicRowsAndCountsUnchanged": true
+}

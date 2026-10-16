@@ -1,0 +1,327 @@
+{
+  "version": "v2",
+  "observedAtUtc": "2026-10-16T14:17:03.636272+00:00",
+  "requestCommit": "77addce99b4dd7f80551872f441daf3dbd63c1d3",
+  "earlierSessionGate": "RESPONSE-v92-v1.md",
+  "ownerApproval": {
+    "path": "v92/captures/v92/reconnect-v1/owner-authorization-v1.json",
+    "bytes": 194,
+    "sha256": "b0586ceedf351a9fa7f65d2cbe228621d72c7f9f42580c2dbdefbed091bd7202"
+  },
+  "saveAddBudget": 13,
+  "saveAttempts": 3,
+  "addAttempts": 3,
+  "exactSourceRuns": 3,
+  "failedOrCorruptNativeEntryAttempts": 0,
+  "completeCompilerBodies": 6,
+  "nativeCsvExports": 9,
+  "attempts": [
+    {
+      "probe": "v92-footprint-original",
+      "attempt": 1,
+      "source": "v91/sources/v91-footprint-original.pine",
+      "executed": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/executed-v1.pine",
+        "bytes": 111,
+        "sha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203"
+      },
+      "sourceSha256": "de1d7e2a863b01667c408d6c492444104fa81c52ceef13a972934ba13ab25203",
+      "privateScriptId": "USER;f9a67df2546e4bbdb6689050c0482bbf",
+      "privateVersion": "1.0",
+      "studyTitle": "v77 footprint request-call",
+      "nativeStudyInstanceId": null,
+      "save": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/save-response-v1.json",
+        "bytes": 4021,
+        "sha256": "dccd51d2d50723001ec2e08267f1064bcd201077cd0fb13b512d14a02ac4ec60"
+      },
+      "add": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/add-response-v1.json",
+        "bytes": 4021,
+        "sha256": "95ded4aa2297d003865c4cd258881feb490f1e2eb4b7e609d0ff82212ff629a3"
+      },
+      "saveRequestId": 1065,
+      "compilerSuccess": true,
+      "nativeWarnings": [],
+      "nativeWarningsPath": "result.metaInfo.warnings",
+      "errorListChannel": null,
+      "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+      "markerArrays": null,
+      "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+      "removed": true,
+      "directory": "v92/captures/v92/v92-footprint-original/attempt-v1",
+      "historyNavigation": 0,
+      "request": {
+        "footprint": [
+          100,
+          70,
+          300
+        ]
+      },
+      "settings": {
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "2",
+        "chartStyle": "Candles",
+        "timezone": "UTC",
+        "session": "Native default; named session unexposed",
+        "feedStatus": "Market open; live updates observed"
+      }
+    },
+    {
+      "probe": "v92-footprint-provider",
+      "attempt": 1,
+      "source": "v91/sources/v91-footprint-provider.pine",
+      "executed": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+        "bytes": 740,
+        "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+      },
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "studyTitle": "v77 footprint request-call",
+      "nativeStudyInstanceId": null,
+      "save": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+        "bytes": 7473,
+        "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+      },
+      "add": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+        "bytes": 7473,
+        "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+      },
+      "saveRequestId": 1166,
+      "compilerSuccess": true,
+      "nativeWarnings": [],
+      "nativeWarningsPath": "result.metaInfo.warnings",
+      "errorListChannel": null,
+      "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+      "markerArrays": null,
+      "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+      "removed": true,
+      "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+      "historyNavigation": 0,
+      "request": {
+        "footprint": [
+          100,
+          70,
+          300
+        ]
+      },
+      "settings": {
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "2",
+        "chartStyle": "Candles",
+        "timezone": "UTC",
+        "session": "Native default; named session unexposed",
+        "feedStatus": "Market open; live updates observed"
+      }
+    },
+    {
+      "probe": "v92-footprint-price-rows",
+      "attempt": 1,
+      "source": "v91/sources/v91-footprint-price-rows.pine",
+      "executed": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/executed-v1.pine",
+        "bytes": 4018,
+        "sha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63"
+      },
+      "sourceSha256": "c75136308573ce0e00dd190ad6ec8b79aa80e733395a6ccc7f7ed6be4b020e63",
+      "privateScriptId": "USER;fff1b85e815147009dee044b955daa55",
+      "privateVersion": "1.0",
+      "studyTitle": "V91 native footprint row facets",
+      "nativeStudyInstanceId": null,
+      "save": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/save-response-v1.json",
+        "bytes": 22305,
+        "sha256": "6b1ded54ff07e78b95363b89f4e026e6da9fe5cb0bc6bfbfa07ae441c1403919"
+      },
+      "add": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/add-response-v1.json",
+        "bytes": 22305,
+        "sha256": "fad81c97b8153a67fac29b37edd472de5ae13502035c4828acdbc5b4b052c537"
+      },
+      "saveRequestId": 1396,
+      "compilerSuccess": true,
+      "nativeWarnings": [],
+      "nativeWarningsPath": "result.metaInfo.warnings",
+      "errorListChannel": null,
+      "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+      "markerArrays": null,
+      "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+      "removed": true,
+      "directory": "v92/captures/v92/v92-footprint-price-rows/attempt-v1",
+      "historyNavigation": 0,
+      "request": {
+        "footprint": [
+          100,
+          70,
+          300
+        ]
+      },
+      "settings": {
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "2",
+        "chartStyle": "Candles",
+        "timezone": "UTC",
+        "session": "Native default; named session unexposed",
+        "feedStatus": "Market open; live updates observed"
+      }
+    }
+  ],
+  "csvInventory": [
+    {
+      "csv": {
+        "path": "v92/captures/v92/capability-inspection-v1/baseline-native-v1.csv",
+        "bytes": 15883,
+        "sha256": "216252bd22b6abfedfc8a8474abf358a9d493f0f80c6fb2d68e39f585d5f0cd0"
+      },
+      "rows": 301,
+      "columns": 6,
+      "stage": "baseline",
+      "binding": "capability-inspection-v1/baseline-column-bindings-v1.json",
+      "closureMask": "capability-inspection-v1/baseline-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T13:58:06.440Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159080",
+      "sourcePrivateId": null
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-original/attempt-v1/chart-native-v1.csv",
+        "bytes": 16491,
+        "sha256": "97953b944882bd17ede2406c2c7b5849068ae508376c93cf115e2f177076353a"
+      },
+      "rows": 301,
+      "columns": 7,
+      "stage": "chart",
+      "binding": "v92-footprint-original/attempt-v1/chart-column-bindings-v1.json",
+      "closureMask": "v92-footprint-original/attempt-v1/chart-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T13:59:15.540Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159080",
+      "sourcePrivateId": "USER;f9a67df2546e4bbdb6689050c0482bbf"
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/close-native-v1.csv",
+        "bytes": 75809,
+        "sha256": "d692d22638ae1660b2c7c6d5eebf39954e909ba8f47484e89123a46c9e6a0ec5"
+      },
+      "rows": 308,
+      "columns": 48,
+      "stage": "close",
+      "binding": "v92-footprint-price-rows/attempt-v1/close-column-bindings-v1.json",
+      "closureMask": "v92-footprint-price-rows/attempt-v1/close-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T14:12:18.378Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159920",
+      "sourcePrivateId": "USER;fff1b85e815147009dee044b955daa55"
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/initial-native-v1.csv",
+        "bytes": 75583,
+        "sha256": "16f102e8026b8377370e190b49e2cb77ae43dcaf5ba985347101d023a4d29400"
+      },
+      "rows": 307,
+      "columns": 48,
+      "stage": "initial",
+      "binding": "v92-footprint-price-rows/attempt-v1/initial-column-bindings-v1.json",
+      "closureMask": "v92-footprint-price-rows/attempt-v1/initial-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T14:10:21.260Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159800",
+      "sourcePrivateId": "USER;fff1b85e815147009dee044b955daa55"
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/pre-window-native-v1.csv",
+        "bytes": 16189,
+        "sha256": "086be9f9de03f3a15dd86dec8fd9b3ca7f87eb061d341abfca68a680edc4f819"
+      },
+      "rows": 307,
+      "columns": 6,
+      "stage": "pre-window",
+      "binding": "v92-footprint-price-rows/attempt-v1/pre-window-column-bindings-v1.json",
+      "closureMask": "v92-footprint-price-rows/attempt-v1/pre-window-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T14:10:13.239Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159800",
+      "sourcePrivateId": null
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/update-native-v1.csv",
+        "bytes": 75577,
+        "sha256": "2c90594a652fc0ce838f1e8cebf2d8c71f1efcbe1a73a35d70dcff0ebf676207"
+      },
+      "rows": 307,
+      "columns": 48,
+      "stage": "update",
+      "binding": "v92-footprint-price-rows/attempt-v1/update-column-bindings-v1.json",
+      "closureMask": "v92-footprint-price-rows/attempt-v1/update-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T14:10:47.202Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159800",
+      "sourcePrivateId": "USER;fff1b85e815147009dee044b955daa55"
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/update2-native-v1.csv",
+        "bytes": 75581,
+        "sha256": "ae0fa2846bde3f3ae61cb88bb938c590104e720fb2ffdbef0582bc60e7ef39e7"
+      },
+      "rows": 307,
+      "columns": 48,
+      "stage": "update2",
+      "binding": "v92-footprint-price-rows/attempt-v1/update2-column-bindings-v1.json",
+      "closureMask": "v92-footprint-price-rows/attempt-v1/update2-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T14:11:10.548Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159800",
+      "sourcePrivateId": "USER;fff1b85e815147009dee044b955daa55"
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-price-rows/attempt-v1/update3-native-v1.csv",
+        "bytes": 75577,
+        "sha256": "e9dfcedeb27ba753046a627d0c49d80cc0eb50efdc9c36bce3d94e810fbd3faf"
+      },
+      "rows": 307,
+      "columns": 48,
+      "stage": "update3",
+      "binding": "v92-footprint-price-rows/attempt-v1/update3-column-bindings-v1.json",
+      "closureMask": "v92-footprint-price-rows/attempt-v1/update3-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T14:11:35.085Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159800",
+      "sourcePrivateId": "USER;fff1b85e815147009dee044b955daa55"
+    },
+    {
+      "csv": {
+        "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/chart-native-v1.csv",
+        "bytes": 48211,
+        "sha256": "af786fe3cbb8672972fab4fa2ff2d7f866e51540a7c021e54bf75ca0313b7023"
+      },
+      "rows": 302,
+      "columns": 15,
+      "stage": "chart",
+      "binding": "v92-footprint-provider/attempt-v1/chart-column-bindings-v1.json",
+      "closureMask": "v92-footprint-provider/attempt-v1/chart-row-closure-mask-v1.csv",
+      "observationUtc": "2026-10-16T14:01:16.075Z",
+      "firstTimeRaw": "1792123080",
+      "lastTimeRaw": "1792159200",
+      "sourcePrivateId": "USER;e568716555fc4035ac2344a2491526a1"
+    }
+  ],
+  "maskRows": 2747,
+  "capabilityOnlyUnexecutedSourceGroups": [
+    "C:v5/v6 originals and companions",
+    "D:natural and renamed control",
+    "E:v5/v6 originals and companions"
+  ],
+  "unexposedDiagnosticChannels": "Raw full compiler bodies are retained; separate marker arrays/error-list channel UNOBSERVED",
+  "unexecutedDiagnostics": null
+}

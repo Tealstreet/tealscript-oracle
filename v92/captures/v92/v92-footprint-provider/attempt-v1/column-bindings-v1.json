@@ -1,0 +1,187 @@
+{
+  "version": "v1",
+  "csv": {
+    "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/chart-native-v1.csv",
+    "bytes": 48211,
+    "sha256": "af786fe3cbb8672972fab4fa2ff2d7f866e51540a7c021e54bf75ca0313b7023"
+  },
+  "observationUtc": "2026-10-16T14:01:16.075Z",
+  "sourceExecution": {
+    "probe": "v92-footprint-provider",
+    "attempt": 1,
+    "source": "v91/sources/v91-footprint-provider.pine",
+    "executed": {
+      "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/executed-v1.pine",
+      "bytes": 740,
+      "sha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee"
+    },
+    "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+    "privateScriptId": "USER;e568716555fc4035ac2344a2491526a1",
+    "privateVersion": "1.0",
+    "studyTitle": "v77 footprint request-call",
+    "nativeStudyInstanceId": null,
+    "save": {
+      "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/save-response-v1.json",
+      "bytes": 7473,
+      "sha256": "8a5ee818705e1858f782290cfc2adba141dbc1fd4c6141f17f65f7f1b8588b39"
+    },
+    "add": {
+      "path": "v92/captures/v92/v92-footprint-provider/attempt-v1/add-response-v1.json",
+      "bytes": 7473,
+      "sha256": "f2b4fb8576890034cf18b4433de34b25dac30a65de1f017ce01be1bbe84692b4"
+    },
+    "saveRequestId": 1166,
+    "compilerSuccess": true,
+    "nativeWarnings": [],
+    "nativeWarningsPath": "result.metaInfo.warnings",
+    "errorListChannel": null,
+    "errorListChannelStatus": "UNOBSERVED; success true and complete raw body retained; no separate list invented",
+    "markerArrays": null,
+    "markerArrayStatus": "UNOBSERVED; raw immediate/settled UI snapshots retained separately",
+    "removed": true,
+    "directory": "v92/captures/v92/v92-footprint-provider/attempt-v1",
+    "historyNavigation": 0,
+    "request": {
+      "footprint": [
+        100,
+        70,
+        300
+      ]
+    },
+    "settings": {
+      "symbol": "BINANCE:BTCUSDT",
+      "interval": "2",
+      "chartStyle": "Candles",
+      "timezone": "UTC",
+      "session": "Native default; named session unexposed",
+      "feedStatus": "Market open; live updates observed"
+    }
+  },
+  "columns": [
+    {
+      "columnOrdinal": 1,
+      "originalHeader": "time",
+      "owner": "Native chart",
+      "field": "time"
+    },
+    {
+      "columnOrdinal": 2,
+      "originalHeader": "open",
+      "owner": "Native chart",
+      "field": "open"
+    },
+    {
+      "columnOrdinal": 3,
+      "originalHeader": "high",
+      "owner": "Native chart",
+      "field": "high"
+    },
+    {
+      "columnOrdinal": 4,
+      "originalHeader": "low",
+      "owner": "Native chart",
+      "field": "low"
+    },
+    {
+      "columnOrdinal": 5,
+      "originalHeader": "close",
+      "owner": "Native chart",
+      "field": "close"
+    },
+    {
+      "columnOrdinal": 6,
+      "originalHeader": "Volume",
+      "owner": "Built-in Vol; candle volume, not footprint inference",
+      "field": "Volume"
+    },
+    {
+      "columnOrdinal": 7,
+      "originalHeader": "Plot",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "Plot"
+    },
+    {
+      "columnOrdinal": 8,
+      "originalHeader": "CHART_TIME",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_1",
+      "nativePlotTitle": "CHART_TIME"
+    },
+    {
+      "columnOrdinal": 9,
+      "originalHeader": "CHART_TIME_CLOSE",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_2",
+      "nativePlotTitle": "CHART_TIME_CLOSE"
+    },
+    {
+      "columnOrdinal": 10,
+      "originalHeader": "CHART_BAR_INDEX",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_3",
+      "nativePlotTitle": "CHART_BAR_INDEX"
+    },
+    {
+      "columnOrdinal": 11,
+      "originalHeader": "CHART_ISCONFIRMED",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_4",
+      "nativePlotTitle": "CHART_ISCONFIRMED"
+    },
+    {
+      "columnOrdinal": 12,
+      "originalHeader": "FP_TOTAL_VOLUME",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_5",
+      "nativePlotTitle": "FP_TOTAL_VOLUME"
+    },
+    {
+      "columnOrdinal": 13,
+      "originalHeader": "FP_BUY_VOLUME",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_6",
+      "nativePlotTitle": "FP_BUY_VOLUME"
+    },
+    {
+      "columnOrdinal": 14,
+      "originalHeader": "FP_SELL_VOLUME",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_7",
+      "nativePlotTitle": "FP_SELL_VOLUME"
+    },
+    {
+      "columnOrdinal": 15,
+      "originalHeader": "FP_DELTA",
+      "owner": "USER;e568716555fc4035ac2344a2491526a1",
+      "privateVersion": "1.0",
+      "sourceSha256": "dbd2ce13d612f9ff5c97ee3c5b0302da2347adc6c51f8f458117d6fadb7355ee",
+      "nativePlotId": "plot_8",
+      "nativePlotTitle": "FP_DELTA"
+    }
+  ],
+  "duplicateHeadersPreservedByOrdinal": true,
+  "numericStringsAndBlanksPreserved": true,
+  "sourceSpecificExecutionFeedAsOfId": null,
+  "sourceSpecificBindingStatus": "UNOBSERVED; private script/version/compiler plots bind ownership, not a hidden execution/feed/as-of snapshot",
+  "baseline": false,
+  "otherStageBindings": [
+    "v92-footprint-provider/attempt-v1/chart-column-bindings-v1.json"
+  ]
+}
