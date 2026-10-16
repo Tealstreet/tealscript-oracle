@@ -1,0 +1,114 @@
+{
+  "id": "v97-udf-state-v5",
+  "sourceSha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93",
+  "sourceExact": true,
+  "save": {
+    "requestId": 1079,
+    "observedAtUtc": "2026-10-16T23:53:11.825Z",
+    "success": true,
+    "responseBytes": 9895,
+    "responseSha256": "78db63e8200dee0423f3ee4a177e3984819d58ffad9471c41979b7d7869df05e",
+    "nativeMetaInfoId": "Script$USER;8baee5e698634e378f21bf3485a5da6b@tv-scripting-101",
+    "sourceBinding": {
+      "expectedSha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93",
+      "executedSha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93",
+      "nativeFormSourceSha256": "22b45d611ce91b6af15c10e40663240227b6ab8f3213df1a433a95036b04b0df",
+      "nativeFormLineEndingNormalizationOnly": true,
+      "exact": true
+    }
+  },
+  "add": {
+    "requestId": 1084,
+    "observedAtUtc": "2026-10-16T23:53:18.296Z",
+    "success": true,
+    "responseBytes": 9895,
+    "responseSha256": "ec5c1a528adea4afda3056c6f15a43bdd856586f3bf3cc52dbd88282c8b60991",
+    "nativeMetaInfoId": "Script$USER;8baee5e698634e378f21bf3485a5da6b@tv-scripting-101",
+    "sourceBinding": null
+  },
+  "privateId": "USER;8baee5e698634e378f21bf3485a5da6b",
+  "privateVersion": "1.0",
+  "studyTitle": "v95-udf-state-v5",
+  "addedAtUtc": "2026-10-16T23:53:14.564Z",
+  "sourceEntered": true,
+  "studyAdded": true,
+  "removed": true,
+  "markers": null,
+  "markerStatus": "UNOBSERVED; raw immediate/settled UI/body retained",
+  "sessions": [
+    {
+      "version": "v1",
+      "source": "v97-udf-state-v5",
+      "originalSource": "v95-udf-state-v5",
+      "sourceSha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93",
+      "frontier": "initial",
+      "startedAtUtc": "2026-10-16T23:53:23.977Z",
+      "completedAtUtc": "2026-10-16T23:53:31.956Z",
+      "csv": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/chart-native-v1.csv",
+        "rows": 23757,
+        "columns": 20,
+        "firstTimeRaw": "1789344000",
+        "lastTimeRaw": "1792194720"
+      },
+      "frontierInspection": {
+        "version": "v1",
+        "csvPath": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/chart-native-v1.csv",
+        "dataRows": 23757,
+        "originalHeaders": [
+          "time",
+          "open",
+          "high",
+          "low",
+          "close",
+          "Volume",
+          "INPUT_INDEX",
+          "INPUT_TIME",
+          "CHART_CONFIRMED",
+          "IS_FIRST",
+          "FIRST_INDEX",
+          "FIRST_TIME",
+          "PHASE",
+          "A",
+          "B",
+          "NESTED",
+          "GATED",
+          "LOCAL_FIRST",
+          "GATED_NA",
+          "LOCAL_FIRST_NA"
+        ],
+        "firstFrontierRaw": {
+          "INPUT_INDEX": "0",
+          "INPUT_TIME": "1789344000000",
+          "CHART_CONFIRMED": "1",
+          "IS_FIRST": "1",
+          "FIRST_INDEX": "0",
+          "FIRST_TIME": "1789344000000"
+        },
+        "lastFrontierRaw": {
+          "INPUT_INDEX": "23756",
+          "INPUT_TIME": "1792194720000",
+          "CHART_CONFIRMED": "0",
+          "IS_FIRST": "0",
+          "FIRST_INDEX": "0",
+          "FIRST_TIME": "1789344000000"
+        },
+        "firstTimeRawSeconds": "1789344000",
+        "lastTimeRawSeconds": "1792194720",
+        "preliminaryContiguousOwnIndexZeroCandidate": true,
+        "candidateCause": null,
+        "observedOwnFirstTimeDateUtc": "2026-09-14",
+        "scope": "Capture navigation decision only. Final source/private metadata ownership, raw pointers and independent closure are separately validated; this preliminary inspection grants no numeric credit."
+      },
+      "nativeContext": "BINANCE:BTCUSDT2m Candles UTC; new layout208236729/euz5a92K",
+      "inputChanges": 0,
+      "sourceChanges": 0,
+      "sourceSpecificExecutionIdentity": null,
+      "actualNativeCalculationSessionId": null,
+      "sessionIdentity": "Initial naturally loaded source frontier"
+    }
+  ],
+  "status": "NATIVE CAPTURES RETAINED; OWN PREFIX AND PROPERTY AUDIT PENDING",
+  "calendarSelections": 0,
+  "completedAtUtc": "2026-10-16T23:53:35.353Z"
+}

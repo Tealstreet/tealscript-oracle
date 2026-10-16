@@ -1,0 +1,43 @@
+------WebKitFormBoundary1jydkj12HihJAdwD
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("v95-udf-state-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+f_acc(float x) =>
+    var float total = 0.0
+    if bar_index % 16 == 0
+        total := 0.0
+    total += x
+    total
+f_nested() =>
+    f_acc(2.0) + f_acc(3.0)
+a = f_acc(1.0)
+b = f_acc(10.0)
+c = f_nested()
+float gated = na
+if phase % 2 == 0
+    gated := f_acc(100.0)
+float localFirst = na
+if phase >= 5
+    var int firstReached = bar_index
+    localFirst := float(firstReached)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(a, title="A")
+plot(b, title="B")
+plot(c, title="NESTED")
+plot(gated, title="GATED")
+plot(localFirst, title="LOCAL_FIRST")
+plot(na(gated) ? 1 : 0, title="GATED_NA")
+plot(na(localFirst) ? 1 : 0, title="LOCAL_FIRST_NA")
+
+------WebKitFormBoundary1jydkj12HihJAdwD--
