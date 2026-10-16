@@ -1,0 +1,48 @@
+------WebKitFormBoundaryyThiCEPRmaUOayuB
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("V93 linefill-state v5", overlay=false, precision=8)
+mode = input.int(0, "FILL_MODE", minval=0, maxval=2)
+var line a = na
+var line b = na
+var linefill f = na
+if not na(f)
+    linefill.delete(f)
+if not na(a)
+    line.delete(a)
+if not na(b)
+    line.delete(b)
+baseline = array.size(linefill.all)
+a := line.new(bar_index, 10, bar_index + 1, 10, extend=extend.both, color=color.black)
+b := line.new(bar_index, 20, bar_index + 1, 20, extend=extend.both, color=color.black)
+f := linefill.new(a, b, color.red)
+created = array.size(linefill.all)
+identity1 = linefill.get_line1(f) == a
+identity2 = linefill.get_line2(f) == b
+if mode >= 1
+    line.set_y1(a, 20)
+    line.set_y2(a, 20)
+    line.set_y1(b, 30)
+    line.set_y2(b, 30)
+    linefill.set_color(f, color.blue)
+y1 = line.get_y1(linefill.get_line1(f))
+y2 = line.get_y1(linefill.get_line2(f))
+if mode == 2
+    line.delete(a)
+retained = array.size(linefill.all)
+plot(mode, "FILL_MODE", display=display.data_window)
+plot(baseline, "BASELINE_COUNT", display=display.data_window)
+plot(created, "CREATED_COUNT", display=display.data_window)
+plot(identity1 ? 1 : 0, "LINE1_IDENTITY", display=display.data_window)
+plot(identity2 ? 1 : 0, "LINE2_IDENTITY", display=display.data_window)
+plot(y1, "FOLLOW_Y1", display=display.data_window)
+plot(y2, "FOLLOW_Y2", display=display.data_window)
+plot(retained, "RETAINED_COUNT", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(40, "SCALE_FORTY", color=color.gray)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundaryyThiCEPRmaUOayuB--
