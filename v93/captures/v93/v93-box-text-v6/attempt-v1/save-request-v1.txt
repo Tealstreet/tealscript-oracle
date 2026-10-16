@@ -1,0 +1,24 @@
+------WebKitFormBoundaryLnZyGmx2986NMWg6
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("V93 box-text v6", overlay=false, precision=8)
+if barstate.islast and bar_index >= 30
+    box.new(bar_index - 28, 90, bar_index - 20, 10, text="WRAP ME ALPHA BETA GAMMA DELTA EPSILON ZETA ETA THETA IOTA KAPPA LAMBDA MU", text_size=size.normal, text_color=color.blue, text_halign=text.align_left, text_valign=text.align_top, text_wrap=text.wrap_auto, text_font_family=font.family_monospace, bgcolor=color.white, text_formatting=text.format_bold + text.format_italic)
+    changed = box.new(bar_index - 18, 90, bar_index - 10, 10, text="OLD", bgcolor=color.white)
+    box.set_text(changed, "WRAP ME ALPHA BETA GAMMA DELTA EPSILON ZETA ETA THETA IOTA KAPPA LAMBDA MU")
+    box.set_text_color(changed, color.blue)
+    box.set_text_size(changed, size.normal)
+    box.set_text_halign(changed, text.align_left)
+    box.set_text_valign(changed, text.align_top)
+    box.set_text_wrap(changed, text.wrap_auto)
+    box.set_text_font_family(changed, font.family_monospace)
+    box.set_text_formatting(changed, text.format_bold + text.format_italic)
+    box.new(bar_index - 8, 90, bar_index, 10, text="WRAP ME ALPHA BETA GAMMA DELTA EPSILON ZETA ETA THETA IOTA KAPPA LAMBDA MU", text_size=size.normal, text_color=color.red, text_wrap=text.wrap_none, text_halign=text.align_left, text_valign=text.align_top, text_font_family=font.family_monospace, bgcolor=color.white)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundaryLnZyGmx2986NMWg6--

@@ -1,0 +1,306 @@
+{
+  "version": "v1",
+  "sourceId": "v93-box-text-v5",
+  "sourceSha256": "bc85638fed2517d78bf6f14b679d7f02263a1b195161b55101ab69b5262d87e6",
+  "privateScriptId": "USER;a0df136850af43b195999fecadd86475",
+  "privateVersion": "1.0",
+  "inputMode": 0,
+  "screenshot": {
+    "path": "v93/captures/v93/v93-box-text-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 142793,
+    "sha256": "4bcf4e7ef2273eb80bfee98df2e3b5218478607a9d4f2adf3a459a95e4dea8f5",
+    "dimensionsPixels": [
+      1706,
+      993
+    ]
+  },
+  "csv": {
+    "path": "v93/captures/v93/v93-box-text-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 25731,
+    "sha256": "71810a01fe385d78fe216365eb965936478c0de402cce1e2ea82e35ae38b9e49"
+  },
+  "sessionReceipt": {
+    "path": "v93/captures/v93/v93-box-text-v5/attempt-v1/session-mode0-v1/session-receipt-v3.json",
+    "bytes": 1531,
+    "sha256": "c05f8adaaad83015fedf01fbcbd43f2919d76e31e10696a86ccb567ca3994e94"
+  },
+  "screenshotAtUtc": "2026-10-16T18:10:33.006Z",
+  "screenshotCompletedAtUtc": "2026-10-16T18:10:34.052Z",
+  "nativeContext": "BINANCE:BTCUSDT2m Candles UTC; only new layout208205418/gV8NSfsJ",
+  "paneBoundariesXYXY": {
+    "mainChart": [
+      0,
+      40,
+      1356,
+      632
+    ],
+    "indicatorPane": [
+      0,
+      633,
+      1356,
+      925
+    ],
+    "indicatorPlot": [
+      0,
+      633,
+      1251,
+      925
+    ],
+    "indicatorScale": [
+      1251,
+      633,
+      1356,
+      925
+    ]
+  },
+  "axisMapping": {
+    "SCALE_ZERO": {
+      "raw": "0",
+      "yApproxPixel": 901
+    },
+    "SCALE_HUNDRED": {
+      "raw": "100",
+      "yApproxPixel": 662
+    },
+    "barSpacingApproxPixels": 6,
+    "manualPixelUncertainty": 2
+  },
+  "currentSourceBar": {
+    "csvRowOrdinal": 354,
+    "timeRawSeconds": "1792174200",
+    "inputIndexRaw": "23585",
+    "nativeConfirmedRaw": "0",
+    "strictClosedNumericCredit": 0,
+    "presentStatus": "OBSERVED / EXCLUDED from strict closed numeric scoring; current bar geometry used only as rendering context"
+  },
+  "currentFrontBoxes": [
+    {
+      "role": "constructor wrapped blue",
+      "pixelRegionXYXY": [
+        1019,
+        685,
+        1068,
+        879
+      ],
+      "leftTimeRawSeconds": 1792170840,
+      "rightTimeRawSeconds": 1792171800,
+      "sourceYBounds": [
+        90,
+        10
+      ]
+    },
+    {
+      "role": "setter wrapped blue",
+      "pixelRegionXYXY": [
+        1079,
+        685,
+        1128,
+        879
+      ],
+      "leftTimeRawSeconds": 1792172040,
+      "rightTimeRawSeconds": 1792173000,
+      "sourceYBounds": [
+        90,
+        10
+      ]
+    },
+    {
+      "role": "unwrapped red sentinel",
+      "pixelRegionXYXY": [
+        1139,
+        685,
+        1188,
+        879
+      ],
+      "leftTimeRawSeconds": 1792173240,
+      "rightTimeRawSeconds": 1792174200,
+      "sourceYBounds": [
+        90,
+        10
+      ]
+    }
+  ],
+  "visibleClosed32BarRun": {
+    "rowOrdinals": [
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "firstTimeRaw": "1792166400",
+    "lastTimeRaw": "1792170120",
+    "xRangeApproxPixels": [
+      797,
+      983
+    ]
+  },
+  "properties": [
+    {
+      "property": "Full literal set_text string",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "NOT OBSERVED",
+      "hypothesis": "UNDECIDED",
+      "pixelRegionXYXY": [
+        1019,
+        685,
+        1128,
+        879
+      ],
+      "nativeVisualObservation": "Both blue boxes show the same readable prefix and thirteen complete wrapped lines; lower LAMBDA is partial and MU is clipped. The complete literal rendered string is not observed. No text getter is available."
+    },
+    {
+      "property": "Visible OLD replacement",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1079,
+        685,
+        1128,
+        728
+      ],
+      "nativeVisualObservation": "The middle current-front box begins WRAP / ME; it no longer displays OLD. This is a visible-prefix observation, not a full-string certificate."
+    },
+    {
+      "property": "set_text_color local control agreement",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1022,
+        688,
+        1125,
+        868
+      ],
+      "nativeVisualObservation": "Visible current-front text in left and middle boxes is blue on white; both are distinct from the red sentinel. No exact RGB/theme equivalence is inferred."
+    },
+    {
+      "property": "set_text_size local control agreement",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1022,
+        688,
+        1125,
+        868
+      ],
+      "nativeVisualObservation": "Corresponding visible glyphs and line baselines in left and middle boxes have the same size/advance. This is a local raster comparison, not a named font-size getter or cross-version pixel equality."
+    },
+    {
+      "property": "set_text_halign left alignment",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1019,
+        685,
+        1128,
+        728
+      ],
+      "nativeVisualObservation": "Both current-front blue strings start about5px inside the left edge of their own equal-width box and have matching ragged right ends."
+    },
+    {
+      "property": "set_text_valign top alignment",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1019,
+        685,
+        1128,
+        714
+      ],
+      "nativeVisualObservation": "Both blue first lines start about5px below their own top border. The middle box matches the constructor top alignment."
+    },
+    {
+      "property": "set_text_wrap visible line breaks",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1019,
+        685,
+        1128,
+        879
+      ],
+      "nativeVisualObservation": "The blue controls share the visible line sequence WRAP / ME / ALPHA / BETA / GAMMA / DELTA / EPSIL / ON / ZETA / ETA / THETA / IOTA / KAPPA, followed by a partial lower line. Agreement is bounded to these visible breaks; clipped tail behavior stays unobserved."
+    },
+    {
+      "property": "wrap_auto versus wrap_none contrast",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1019,
+        685,
+        1250,
+        879
+      ],
+      "nativeVisualObservation": "Both blue strings continue vertically over many lines. The red sentinel remains on its first horizontal line, extending beyond its own right border until pane clipping; no red continuation appears below it."
+    },
+    {
+      "property": "set_text_font_family local monospace control agreement",
+      "criterion": "Compare independently identified current-front constructor and setter boxes within this same native screenshot; record every clipped component separately",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1022,
+        688,
+        1125,
+        868
+      ],
+      "nativeVisualObservation": "Visible glyph advances and the complete visible line breaks agree with the same-shot monospace constructor control. The native resolved OS font family is not exposed; no generic font parity is claimed."
+    }
+  ],
+  "clipping": "Complete box borders are visible; lower wrapped text is clipped at its own box bottom, and the red unwrapped string is horizontally clipped by the pane. Full rendered literal strings remain NOT OBSERVED.",
+  "priorObjectFragments": "Measured v5 shot contains narrow older left strips adjacent to the current-front boxes after a natural bar transition. Exclude strips x1013..1019,1073..1079,1133..1139 from local text comparisons.",
+  "viewportActions": [
+    {
+      "atUtc": "2026-10-16T18:10:26.106Z",
+      "method": "One native Control+ArrowUp chart zoom-in shortcut on the new layout",
+      "reason": "Initial native preview clips lower wrapped text; one ordinary horizontal scaling action before measured screenshot",
+      "shortcutReference": "https://www.tradingview.com/charting-library-docs/latest/getting_started/Shortcuts/",
+      "observedOutcome": "Native shortcut invoked once; before/after bar spacing remains approximately6px. An actual zoom increase is UNOBSERVED; no second scaling or resize attempted."
+    }
+  ],
+  "namedNativeFontFamily": null,
+  "namedNativeFontStatus": "UNOBSERVED; source-bound local monospace constructor comparison only",
+  "zoomDpiTheme": {
+    "namedZoom": null,
+    "namedDpi": null,
+    "namedTheme": null,
+    "status": "UNOBSERVED; native dark UI visually present; no account preference change"
+  },
+  "nativeFeedFrameAsOfClock": null,
+  "nativeFeedFrameAsOfStatus": "UNOBSERVED; capture UTC is not a provider frame identity",
+  "originalImageAltered": false
+}

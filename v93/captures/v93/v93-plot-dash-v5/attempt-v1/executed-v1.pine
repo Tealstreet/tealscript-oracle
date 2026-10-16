@@ -1,0 +1,8 @@
+//@version=5
+indicator("V93 plot-dash v5", overlay=false, precision=8)
+plot(10, "SOLID", color=color.blue, linewidth=3, linestyle=plot.linestyle_solid)
+plot(20, "DASHED", color=color.red, linewidth=3, linestyle=plot.linestyle_dashed)
+plot(30, "DOTTED", color=color.lime, linewidth=3, linestyle=plot.linestyle_dotted)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)

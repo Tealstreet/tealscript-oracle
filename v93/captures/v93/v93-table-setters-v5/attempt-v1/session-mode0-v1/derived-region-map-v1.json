@@ -1,0 +1,304 @@
+{
+  "version": "v1",
+  "sourceId": "v93-table-setters-v5",
+  "sourceSha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+  "privateScriptId": "USER;33776c83d97e4fd39c104ad27adda38b",
+  "privateVersion": "1.0",
+  "inputMode": 0,
+  "screenshot": {
+    "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 130702,
+    "sha256": "5a6ceb6b6adfc3254305de4dbdfa63c5e00e74595599f372d84011cf6590a391",
+    "dimensionsPixels": [
+      1706,
+      993
+    ]
+  },
+  "csv": {
+    "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 25726,
+    "sha256": "c2cde8fc489815969dfc743cd3315a6ce55e6f44cd9153e3226ee4f986b859a7"
+  },
+  "sessionReceipt": {
+    "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/session-mode0-v1/session-receipt-v1.json",
+    "bytes": 962,
+    "sha256": "a70178a84737df92bb3cd9d2ec2bba2360a0ff92873dfd92359cb3ff38a6df50"
+  },
+  "screenshotAtUtc": "2026-10-16T18:20:06.532Z",
+  "screenshotCompletedAtUtc": "2026-10-16T18:20:07.537Z",
+  "nativeContext": "BINANCE:BTCUSDT2m Candles UTC; new native layout208205418/gV8NSfsJ",
+  "paneBoundariesXYXY": {
+    "mainChart": [
+      0,
+      40,
+      1356,
+      632
+    ],
+    "indicatorPane": [
+      0,
+      633,
+      1356,
+      925
+    ],
+    "indicatorPlot": [
+      0,
+      633,
+      1257,
+      925
+    ],
+    "indicatorScale": [
+      1257,
+      633,
+      1356,
+      925
+    ]
+  },
+  "axisMapping": {
+    "PANE_ZERO": {
+      "raw": "0",
+      "yApproxPixel": 901
+    },
+    "PANE_TEN": {
+      "raw": "10",
+      "yApproxPixel": 662
+    },
+    "tablesUsePaneCornersRatherThanPriceY": true,
+    "barSpacingApproxPixels": 6,
+    "manualPixelUncertainty": 1
+  },
+  "tableRegions": {
+    "constructor": {
+      "outerFrame": [
+        5,
+        637,
+        116,
+        710
+      ],
+      "bottomBlueFrame": [
+        5,
+        705,
+        116,
+        710
+      ],
+      "bottomLeftYellowInterior": [
+        10,
+        675,
+        59,
+        705
+      ],
+      "bottomRightYellowInterior": [
+        62,
+        675,
+        111,
+        705
+      ],
+      "redVerticalSeparator": [
+        59,
+        642,
+        62,
+        705
+      ],
+      "redHorizontalSeparator": [
+        10,
+        672,
+        111,
+        675
+      ]
+    },
+    "setter": {
+      "outerFrame": [
+        1142,
+        637,
+        1253,
+        710
+      ],
+      "bottomBlueFrame": [
+        1142,
+        705,
+        1253,
+        710
+      ],
+      "bottomLeftYellowInterior": [
+        1147,
+        675,
+        1196,
+        705
+      ],
+      "bottomRightYellowInterior": [
+        1199,
+        675,
+        1248,
+        705
+      ],
+      "redVerticalSeparator": [
+        1196,
+        642,
+        1199,
+        705
+      ],
+      "redHorizontalSeparator": [
+        1147,
+        672,
+        1248,
+        675
+      ]
+    }
+  },
+  "captionOverlapLimit": "The native source caption overlays part of the constructor first-row CELL text. Do not claim full first-row text readability; frame, border and unobscured bottom-cell background comparisons use separately identified regions.",
+  "visibleClosed32BarRun": {
+    "rowOrdinals": [
+      289,
+      290,
+      291,
+      292,
+      293,
+      294,
+      295,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "firstTimeRaw": "1792166400",
+    "lastTimeRaw": "1792170120",
+    "xRangeApproxPixels": [
+      773,
+      959
+    ]
+  },
+  "properties": [
+    {
+      "property": "constructor top_left anchor",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        5,
+        637,
+        116,
+        710
+      ],
+      "nativeVisualObservation": "Complete outer frame at the indicator pane top-left corner; approximately5px pane margins. Native caption overlaps part of the first-row cell text, not the measured outer-frame/bottom-cell regions."
+    },
+    {
+      "property": "table.set_position final top_right",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1142,
+        637,
+        1253,
+        710
+      ],
+      "nativeVisualObservation": "Setter table is at the top-right corner of the indicator plot, with about4px right margin and5px top margin."
+    },
+    {
+      "property": "no residual middle_center or bottom_right table",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        120,
+        711,
+        1257,
+        925
+      ],
+      "nativeVisualObservation": "The full indicator pane shows only the top-left constructor and top-right setter tables. Center and bottom-right contain no residual CELL table. No rendered intermediate position is claimed."
+    },
+    {
+      "property": "table.set_bgcolor yellow",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        10,
+        675,
+        1248,
+        705
+      ],
+      "nativeVisualObservation": "Unobscured bottom-cell interiors in both tables show the same yellow background through the explicitly missing cell backgrounds. No color getter or exact cross-version RGB equality is inferred."
+    },
+    {
+      "property": "table.set_frame_color blue",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        5,
+        637,
+        1253,
+        710
+      ],
+      "nativeVisualObservation": "Both tables have blue external perimeters; bottom and side strips are unoccluded."
+    },
+    {
+      "property": "table.set_frame_width local control agreement",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        5,
+        705,
+        1253,
+        710
+      ],
+      "nativeVisualObservation": "Bottom external blue strips and side strips agree with the constructor width5 control, approximately5 native PNG pixels thick. This is same-shot raster agreement, not a resolved CSS/DPI claim."
+    },
+    {
+      "property": "table.set_border_color red",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        59,
+        672,
+        1199,
+        705
+      ],
+      "nativeVisualObservation": "Both tables have red internal horizontal and vertical separators, distinct from blue outer frames."
+    },
+    {
+      "property": "table.set_border_width local control agreement",
+      "criterion": "Independently identify both same-source 2x2 tables and compare final pane anchor/background/external-frame/internal-border properties within this exact native screenshot",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        59,
+        672,
+        1199,
+        705
+      ],
+      "nativeVisualObservation": "Internal separator strips agree with the constructor width3 control, approximately3 native PNG pixels thick and visibly narrower than the external frame."
+    }
+  ],
+  "viewportActions": [],
+  "crossVersionPixelOrRgbEqualityClaim": false,
+  "nativeTableGetterClaim": false,
+  "namedDpiZoomTheme": null,
+  "namedDpiZoomThemeStatus": "UNOBSERVED; no account preference change",
+  "nativeFeedFrameAsOfClock": null,
+  "nativeFeedFrameAsOfStatus": "UNOBSERVED; screenshot capture window does not establish a provider frame identity",
+  "originalImageAltered": false
+}

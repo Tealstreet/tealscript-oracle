@@ -1,0 +1,21 @@
+//@version=6
+indicator("V93 table-setters v6", overlay=false, precision=8)
+var table control = table.new(position.top_left, 2, 2, bgcolor=color.yellow, frame_color=color.blue, frame_width=5, border_color=color.red, border_width=3)
+var table changed = table.new(position.middle_center, 2, 2)
+if barstate.islast
+    for col = 0 to 1
+        for row = 0 to 1
+            table.cell(control, col, row, "CELL", text_color=color.black, bgcolor=na)
+            table.cell(changed, col, row, "CELL", text_color=color.black, bgcolor=na)
+    table.set_position(changed, position.bottom_right)
+    table.set_position(changed, position.top_right)
+    table.set_bgcolor(changed, color.yellow)
+    table.set_frame_color(changed, color.blue)
+    table.set_frame_width(changed, 5)
+    table.set_border_color(changed, color.red)
+    table.set_border_width(changed, 3)
+plot(0, "PANE_ZERO", color=color.gray)
+plot(10, "PANE_TEN", color=color.gray)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)

@@ -1,0 +1,145 @@
+{
+  "version": "v1",
+  "csv": {
+    "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 25726,
+    "sha256": "c2cde8fc489815969dfc743cd3315a6ce55e6f44cd9153e3226ee4f986b859a7"
+  },
+  "source": {
+    "version": "v1",
+    "sourceId": "v93-table-setters-v5",
+    "item": 7,
+    "pineVersion": 5,
+    "requestSource": "v93/sources/v93-table-setters-v5.pine",
+    "sourceSha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+    "executed": {
+      "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/executed-v1.pine",
+      "bytes": 1126,
+      "sha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138"
+    },
+    "nativeCompileSuccess": true,
+    "privateScriptId": "USER;33776c83d97e4fd39c104ad27adda38b",
+    "privateVersion": "1.0",
+    "nativeStudyInstanceId": null,
+    "nativeStudyInstanceStatus": "UNOBSERVED",
+    "nativeWarningChannel": [],
+    "nativeWarningChannelPath": "result.metaInfo.warnings",
+    "separateMarkerArrays": null,
+    "markerStatus": "UNOBSERVED; full immediate/settled native UI evidence retained separately",
+    "saveBody": {
+      "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/save-response-v1.json",
+      "bytes": 9509,
+      "sha256": "2c6c87d3cca87d5489653a7641766428dfcf1e92ee55b8a67085893f52438be5"
+    },
+    "addBody": {
+      "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/add-response-v1.json",
+      "bytes": 9509,
+      "sha256": "4fb7d0ddbf84c049fb3b37d4308f4f33df5d7f3b3e165db0d4380a54238ff8e1"
+    },
+    "settings": {
+      "symbol": "BINANCE:BTCUSDT",
+      "interval": "2 minutes",
+      "chartStyle": "Candles",
+      "timezone": "UTC",
+      "feedStatus": "Native Market open; genuine quote changes",
+      "namedSession": null,
+      "namedSessionStatus": "UNOBSERVED; native default unchanged"
+    },
+    "nativeLayoutId": 208205418,
+    "nativeLayoutImage": "gV8NSfsJ",
+    "nativeExportTimeUnit": "UNIX seconds; INPUT_TIME plot is milliseconds",
+    "receipt": {
+      "path": "v93/captures/v93/v93-table-setters-v5/attempt-v1/capture-receipt-v1.json",
+      "bytes": 2658,
+      "sha256": "27a84bb4ec6a5cc6f49bef33bd3cc66e3654ed07014ad28fc391e86b3b17196e"
+    }
+  },
+  "sourceIsolation": "Only this request study attached; no other indicator or built-in volume columns in this native CSV",
+  "inputMode": 0,
+  "inputName": null,
+  "nativePrivateVersion": "1.0",
+  "nativeMetaInfoId": "Script$USER;33776c83d97e4fd39c104ad27adda38b@tv-scripting-101",
+  "columns": [
+    {
+      "columnOrdinal": 1,
+      "originalHeader": "time",
+      "owner": "Native main chart",
+      "field": "time"
+    },
+    {
+      "columnOrdinal": 2,
+      "originalHeader": "open",
+      "owner": "Native main chart",
+      "field": "open"
+    },
+    {
+      "columnOrdinal": 3,
+      "originalHeader": "high",
+      "owner": "Native main chart",
+      "field": "high"
+    },
+    {
+      "columnOrdinal": 4,
+      "originalHeader": "low",
+      "owner": "Native main chart",
+      "field": "low"
+    },
+    {
+      "columnOrdinal": 5,
+      "originalHeader": "close",
+      "owner": "Native main chart",
+      "field": "close"
+    },
+    {
+      "columnOrdinal": 6,
+      "originalHeader": "PANE_ZERO",
+      "owner": "USER;33776c83d97e4fd39c104ad27adda38b",
+      "privateVersion": "1.0",
+      "sourceSha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "PANE_ZERO"
+    },
+    {
+      "columnOrdinal": 7,
+      "originalHeader": "PANE_TEN",
+      "owner": "USER;33776c83d97e4fd39c104ad27adda38b",
+      "privateVersion": "1.0",
+      "sourceSha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+      "nativePlotId": "plot_1",
+      "nativePlotTitle": "PANE_TEN"
+    },
+    {
+      "columnOrdinal": 8,
+      "originalHeader": "INPUT_INDEX",
+      "owner": "USER;33776c83d97e4fd39c104ad27adda38b",
+      "privateVersion": "1.0",
+      "sourceSha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+      "nativePlotId": "plot_2",
+      "nativePlotTitle": "INPUT_INDEX"
+    },
+    {
+      "columnOrdinal": 9,
+      "originalHeader": "INPUT_TIME",
+      "owner": "USER;33776c83d97e4fd39c104ad27adda38b",
+      "privateVersion": "1.0",
+      "sourceSha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+      "nativePlotId": "plot_3",
+      "nativePlotTitle": "INPUT_TIME"
+    },
+    {
+      "columnOrdinal": 10,
+      "originalHeader": "CHART_CONFIRMED",
+      "owner": "USER;33776c83d97e4fd39c104ad27adda38b",
+      "privateVersion": "1.0",
+      "sourceSha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+      "nativePlotId": "plot_4",
+      "nativePlotTitle": "CHART_CONFIRMED"
+    }
+  ],
+  "chartVolumeColumn": null,
+  "chartVolumeStatus": "UNOBSERVED; not included by native exporter; no value invented",
+  "duplicateHeadersPreservedByOrdinal": true,
+  "stringsAndBlanksPreserved": true,
+  "executionFeedAsOfId": null,
+  "executionFeedAsOfStatus": "UNOBSERVED; local deterministic source contract does not transfer another source execution identity"
+}
