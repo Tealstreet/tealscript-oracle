@@ -1,0 +1,51 @@
+------WebKitFormBoundaryA44ZG4QwQW44yagK
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("v95-matrix-numerics-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+a = matrix.new<float>(2, 2, 0.0)
+matrix.set(a, 0, 0, 4.0)
+matrix.set(a, 0, 1, 1.0)
+matrix.set(a, 1, 0, 1.0)
+matrix.set(a, 1, 1, 3.0)
+b = matrix.new<float>(2, 2, 0.0)
+matrix.set(b, 0, 0, 1.0)
+matrix.set(b, 0, 1, 2.0)
+matrix.set(b, 1, 0, 2.0)
+matrix.set(b, 1, 1, 4.0)
+inv = matrix.inv(a)
+pinv = matrix.pinv(b)
+evals = matrix.eigenvalues(a)
+evec = matrix.eigenvectors(a)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(matrix.det(a), title="A_DET")
+plot(matrix.rank(a), title="A_RANK")
+plot(matrix.det(b), title="B_DET")
+plot(matrix.rank(b), title="B_RANK")
+plot(array.size(evals), title="EIGEN_COUNT")
+plot(array.size(evals) > 0 ? array.get(evals, 0) : na, title="EIGEN_0")
+plot(array.size(evals) > 1 ? array.get(evals, 1) : na, title="EIGEN_1")
+plot(matrix.get(inv, 0, 0), title="INV_0_0")
+plot(matrix.get(inv, 0, 1), title="INV_0_1")
+plot(matrix.get(inv, 1, 0), title="INV_1_0")
+plot(matrix.get(inv, 1, 1), title="INV_1_1")
+plot(matrix.get(pinv, 0, 0), title="PINV_0_0")
+plot(matrix.get(pinv, 0, 1), title="PINV_0_1")
+plot(matrix.get(pinv, 1, 0), title="PINV_1_0")
+plot(matrix.get(pinv, 1, 1), title="PINV_1_1")
+plot(matrix.get(evec, 0, 0), title="EVEC_0_0")
+plot(matrix.get(evec, 0, 1), title="EVEC_0_1")
+plot(matrix.get(evec, 1, 0), title="EVEC_1_0")
+plot(matrix.get(evec, 1, 1), title="EVEC_1_1")
+
+------WebKitFormBoundaryA44ZG4QwQW44yagK--
