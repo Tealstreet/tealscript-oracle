@@ -1,0 +1,216 @@
+{
+  "version": "v1",
+  "observedAtUtc": "2026-10-16T13:51:38.004485+00:00",
+  "actions": [
+    {
+      "action": "Chrome MCP passive snapshot and screenshot",
+      "pageId": 1,
+      "name": "basic",
+      "mutation": false,
+      "snapshot": {
+        "path": "v92/captures/v92/environment-v1/basic-layout-passive-v1.txt",
+        "bytes": 18646,
+        "sha256": "3321dcdf13eed6e049c7a885603b162d29edf3e4bdd798a27ab369355a32cdc6"
+      }
+    },
+    {
+      "action": "Chrome MCP passive snapshot and screenshot",
+      "pageId": 2,
+      "name": "oracle-v90-v1",
+      "mutation": false,
+      "snapshot": {
+        "path": "v92/captures/v92/environment-v1/oracle-v90-layout-passive-v1.txt",
+        "bytes": 8142,
+        "sha256": "82bb0a53ad2a3309c15d0ed560acbd75216435b24d1a264abc8a2ffe2f13e03f"
+      }
+    },
+    {
+      "action": "Chrome MCP passive snapshot and screenshot",
+      "pageId": 3,
+      "name": "oracle-v91-v1",
+      "mutation": false,
+      "snapshot": {
+        "path": "v92/captures/v92/environment-v1/oracle-v91-layout-session-gate-v1.txt",
+        "bytes": 8607,
+        "sha256": "ae397e9bfe5116d5ce0870623d6557388214d80c30711d650435f9dc4fc494fa"
+      }
+    },
+    {
+      "action": "Chrome MCP passive after-snapshot",
+      "pageId": 1,
+      "mutation": false,
+      "evidence": "v92/captures/v92/environment-v1/basic-layout-after-v1.txt"
+    },
+    {
+      "action": "Chrome MCP passive after-snapshot",
+      "pageId": 2,
+      "mutation": false,
+      "evidence": "v92/captures/v92/environment-v1/oracle-v90-layout-after-v1.txt"
+    },
+    {
+      "action": "Chrome MCP passive after-snapshot",
+      "pageId": 3,
+      "mutation": false,
+      "evidence": "v92/captures/v92/environment-v1/oracle-v91-layout-after-v1.txt"
+    },
+    {
+      "action": "Chrome MCP passive after-screenshot",
+      "pageId": 3,
+      "mutation": false,
+      "evidence": "v92/captures/v92/environment-v1/session-gate-after-v1.jpg"
+    }
+  ],
+  "layouts": [
+    {
+      "pageId": 1,
+      "name": "basic",
+      "visibleChartSymbol": "BYBIT:BTCUSDT.P",
+      "visibleChartInterval": "1 hour",
+      "visibleChartStyle": "Candles",
+      "url": "https://www.tradingview.com/chart/xlvYwHdH/",
+      "nativeIdFreshObservation": null,
+      "nativeIdStatus": "UNOBSERVED; URL is not independent creation identity",
+      "freshTimezoneSessionSettings": null,
+      "settingsStatus": "Only passively visible fields recorded; no settings dialog opened",
+      "feedStatus": "SESSION DISCONNECTED; cached Market open label does not establish live feed",
+      "valueStatus": "Visible cached chart strings OBSERVED, without current-feed or target-execution credit",
+      "snapshot": {
+        "path": "v92/captures/v92/environment-v1/basic-layout-passive-v1.txt",
+        "bytes": 18646,
+        "sha256": "3321dcdf13eed6e049c7a885603b162d29edf3e4bdd798a27ab369355a32cdc6"
+      },
+      "mutationsInV92": 0
+    },
+    {
+      "pageId": 2,
+      "name": "oracle-v90-v1",
+      "visibleChartSymbol": "BINANCE:BTCUSDT",
+      "visibleChartInterval": "2 minutes",
+      "visibleChartStyle": "Candles",
+      "url": "https://www.tradingview.com/chart/BOm2w4Gm/",
+      "nativeIdFreshObservation": null,
+      "nativeIdStatus": "UNOBSERVED; URL is not independent creation identity",
+      "freshTimezoneSessionSettings": null,
+      "settingsStatus": "Only passively visible fields recorded; no settings dialog opened",
+      "feedStatus": "SESSION DISCONNECTED; cached Market open label does not establish live feed",
+      "valueStatus": "Visible cached chart strings OBSERVED, without current-feed or target-execution credit",
+      "snapshot": {
+        "path": "v92/captures/v92/environment-v1/oracle-v90-layout-passive-v1.txt",
+        "bytes": 8142,
+        "sha256": "82bb0a53ad2a3309c15d0ed560acbd75216435b24d1a264abc8a2ffe2f13e03f"
+      },
+      "mutationsInV92": 0
+    },
+    {
+      "pageId": 3,
+      "name": "oracle-v91-v1",
+      "visibleChartSymbol": "BINANCE:BTCUSDT",
+      "visibleChartInterval": "2 minutes",
+      "visibleChartStyle": "Candles",
+      "url": "https://www.tradingview.com/chart/RRvYItzu/",
+      "nativeIdFreshObservation": null,
+      "nativeIdStatus": "UNOBSERVED; URL is not independent creation identity",
+      "freshTimezoneSessionSettings": null,
+      "settingsStatus": "Only passively visible fields recorded; no settings dialog opened",
+      "feedStatus": "SESSION DISCONNECTED; cached Market open label does not establish live feed",
+      "valueStatus": "Visible cached chart strings OBSERVED, without current-feed or target-execution credit",
+      "snapshot": {
+        "path": "v92/captures/v92/environment-v1/oracle-v91-layout-session-gate-v1.txt",
+        "bytes": 8607,
+        "sha256": "ae397e9bfe5116d5ce0870623d6557388214d80c30711d650435f9dc4fc494fa"
+      },
+      "mutationsInV92": 0
+    }
+  ],
+  "newThrowawayLayoutCreated": false,
+  "newLayoutReason": "Stopped at active-session prerequisite before dismissing modal or attempting creation; no native creation identity exposed.",
+  "connectClicked": false,
+  "modalDismissed": false,
+  "sessionSettingsOpened": false,
+  "savedLayoutMutations": 0,
+  "scriptMutations": 0,
+  "studiesAdded": 0,
+  "studiesRemoved": 0,
+  "cleanupRequired": false,
+  "library": {
+    "identity": "sours-lat/P425PrivateV79v1/1",
+    "actions": 0
+  },
+  "forbiddenActionsTaken": [],
+  "requestedApproval": "Permit native Connect to resume the signed-in TradingView market-data session despite the Mac/Electron session displacement, or restore that session manually.",
+  "authorizationConstraintSource": "v92/REQUEST-v92-v1.md: no account-global change; stop forbidden prerequisite as BLOCKED-NEEDS-OWNER-APPROVAL",
+  "beforeAfterVisibleContext": [
+    {
+      "name": "basic",
+      "beforeVisibleContext": {
+        "layout": "basic",
+        "chart": "Chart for BYBIT:BTCUSDT.P, 1 hour",
+        "candles": true,
+        "disconnected": true,
+        "connectButton": true
+      },
+      "afterVisibleContext": {
+        "layout": "basic",
+        "chart": "Chart for BYBIT:BTCUSDT.P, 1 hour",
+        "candles": true,
+        "disconnected": true,
+        "connectButton": true
+      },
+      "sameVisibleContext": true,
+      "after": {
+        "path": "v92/captures/v92/environment-v1/basic-layout-after-v1.txt",
+        "sha256": "9a0cd568e953b6d6e7f48dbb1718aae7ab5932f36be4bd61ae467151586b3ddd",
+        "bytes": 18644
+      },
+      "serverRecordComparison": "UNOBSERVED; no new native list response requested"
+    },
+    {
+      "name": "oracle-v90-v1",
+      "beforeVisibleContext": {
+        "layout": "oracle-v90-v1",
+        "chart": "Chart for BINANCE:BTCUSDT, 2 minutes",
+        "candles": true,
+        "disconnected": true,
+        "connectButton": true
+      },
+      "afterVisibleContext": {
+        "layout": "oracle-v90-v1",
+        "chart": "Chart for BINANCE:BTCUSDT, 2 minutes",
+        "candles": true,
+        "disconnected": true,
+        "connectButton": true
+      },
+      "sameVisibleContext": true,
+      "after": {
+        "path": "v92/captures/v92/environment-v1/oracle-v90-layout-after-v1.txt",
+        "sha256": "82bb0a53ad2a3309c15d0ed560acbd75216435b24d1a264abc8a2ffe2f13e03f",
+        "bytes": 8142
+      },
+      "serverRecordComparison": "UNOBSERVED; no new native list response requested"
+    },
+    {
+      "name": "oracle-v91-v1",
+      "beforeVisibleContext": {
+        "layout": "oracle-v91-v1",
+        "chart": "Chart for BINANCE:BTCUSDT, 2 minutes",
+        "candles": true,
+        "disconnected": true,
+        "connectButton": true
+      },
+      "afterVisibleContext": {
+        "layout": "oracle-v91-v1",
+        "chart": "Chart for BINANCE:BTCUSDT, 2 minutes",
+        "candles": true,
+        "disconnected": true,
+        "connectButton": true
+      },
+      "sameVisibleContext": true,
+      "after": {
+        "path": "v92/captures/v92/environment-v1/oracle-v91-layout-after-v1.txt",
+        "sha256": "ae397e9bfe5116d5ce0870623d6557388214d80c30711d650435f9dc4fc494fa",
+        "bytes": 8607
+      },
+      "serverRecordComparison": "UNOBSERVED; no new native list response requested"
+    }
+  ]
+}

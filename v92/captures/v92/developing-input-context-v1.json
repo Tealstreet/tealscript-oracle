@@ -1,0 +1,74 @@
+{
+  "version": "v1",
+  "facet": "e",
+  "criterionChecked": "Each event has an explicit native original-execution-to-requested-input/feed/as-of linkage; same-session companion metadata is insufficient.",
+  "facetVerdict": "NOT OBSERVED",
+  "workflowStatus": "BLOCKED-NEEDS-OWNER-APPROVAL",
+  "inspectionExtent": "Account-session prerequisite only; new-layout source/export capability inspection not reached",
+  "capabilityAbsentConclusion": false,
+  "reason": "All three existing tabs expose Session disconnected after Mac/Electron access. Native Connect would switch the account active market-data session; v92 forbids account-global changes. Connect was not clicked.",
+  "requestedValueStatus": "UNOBSERVED; no v92 source executed; no native target values invented",
+  "cachedVisibleValueStatus": "OBSERVED only as cached visible UI, not fresh requested source/execution evidence",
+  "sourceSessionIdentity": null,
+  "newLayoutIdentity": null,
+  "missingFields": [
+    "original-owned execution/feed/as-of identifiers",
+    "native binding from original target execution to its requested daily OHLCV/input snapshot"
+  ],
+  "evidence": [
+    {
+      "path": "v92/captures/v92/environment-v1/basic-layout-passive-v1.txt",
+      "bytes": 18646,
+      "sha256": "3321dcdf13eed6e049c7a885603b162d29edf3e4bdd798a27ab369355a32cdc6"
+    },
+    {
+      "path": "v92/captures/v92/environment-v1/basic-layout-passive-v1.jpg",
+      "bytes": 200994,
+      "sha256": "14c3ea8731c5e2011aa9d95e086de42e3fcd98aea8e3f704bcb545dcbae94920"
+    },
+    {
+      "path": "v92/captures/v92/environment-v1/oracle-v90-layout-passive-v1.txt",
+      "bytes": 8142,
+      "sha256": "82bb0a53ad2a3309c15d0ed560acbd75216435b24d1a264abc8a2ffe2f13e03f"
+    },
+    {
+      "path": "v92/captures/v92/environment-v1/oracle-v90-layout-passive-v1.jpg",
+      "bytes": 183005,
+      "sha256": "0b421993c63398e8843a99b30e77eac1a9cfb3d5dbd22a63093f4766ad38a6b0"
+    },
+    {
+      "path": "v92/captures/v92/environment-v1/oracle-v91-layout-session-gate-v1.txt",
+      "bytes": 8607,
+      "sha256": "ae397e9bfe5116d5ce0870623d6557388214d80c30711d650435f9dc4fc494fa"
+    },
+    {
+      "path": "v92/captures/v92/environment-v1/oracle-v91-layout-session-gate-v1.jpg",
+      "bytes": 190717,
+      "sha256": "ba2943daf861c00831fae955dd3ad05ffca71511d3ec8a3384b5b47bbc2053b9"
+    }
+  ],
+  "closedScoreCredit": 0,
+  "remainingHold": "EXACT-AS-OF-INPUT CONTEXT-UNMET; imported holds1/2 and historical snapshots/clocks unchanged.",
+  "eventCount": 0,
+  "versions": [
+    {
+      "pineVersion": 5,
+      "originalOwnedInputs": null,
+      "companionOnlyObservations": null,
+      "actualExecutionBindings": null,
+      "session": null,
+      "exactAsOfInputVerdict": "NOT OBSERVED / CONTEXT-UNMET"
+    },
+    {
+      "pineVersion": 6,
+      "originalOwnedInputs": null,
+      "companionOnlyObservations": null,
+      "actualExecutionBindings": null,
+      "session": null,
+      "exactAsOfInputVerdict": "NOT OBSERVED / CONTEXT-UNMET"
+    }
+  ],
+  "perEventAcceptance": [],
+  "strictClosedScoreCredit": 0,
+  "requestedDayClosure": "UNOBSERVED; no source event or CSV"
+}
