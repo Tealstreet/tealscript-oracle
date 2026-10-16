@@ -1,0 +1,598 @@
+{
+  "version": "v1",
+  "round": "v96",
+  "baselineOracle": "07b0e564c1f8fc25f1f0c6ceb5c7c6f9aadef85f",
+  "priorEvidence": "f40d62583419f4aa811ee0bd6c7faa9eb9ab0108",
+  "purpose": "Exact alpha half-byte ties; do not infer byte identity from integer-T getters",
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "style": "Candles",
+    "timezone": "Etc/UTC",
+    "layout": "One NEW v96 throwaway layout only"
+  },
+  "budget": {
+    "sources": 2,
+    "maxSaves": 2,
+    "maxAdds": 2,
+    "maxCSVs": 2,
+    "maxSessions": 2,
+    "retries": 0,
+    "inputVariants": 0
+  },
+  "sources": [
+    {
+      "item": 1,
+      "sourceId": "v96-gradient-alpha-v5",
+      "pineVersion": 5,
+      "path": "v96/sources/v96-gradient-alpha-v5.pine",
+      "bytes": 4818,
+      "sha256": "0a9101528b9d5c5069d4f3f81c93f1e2d66e145d6421b3437689ff80c2fbbca7",
+      "inputStates": [],
+      "plotCalls": 60,
+      "maxPlotCounts": 61,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "gradient12_5"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "G12_R"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "G12_G"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "G12_B"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "G12_T"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "G12_NA"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "G12_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "G12_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "G12_EQ_PRE_T"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "G12_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "G12_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "G22_R"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "G22_G"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "G22_B"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "G22_T"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "G22_NA"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "G22_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "G22_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "G22_EQ_PRE_T"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "G22_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "G22_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "G32_R"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "G32_G"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "G32_B"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "G32_T"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "G32_NA"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "G32_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "G32_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "G32_EQ_PRE_T"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "G32_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "G32_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "CLAMP_R"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "CLAMP_G"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "CLAMP_B"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "CLAMP_T"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "CLAMP_NA"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "CLAMP_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "CLAMP_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "CLAMP_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "CLAMP_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "MISSING_R"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "MISSING_G"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "MISSING_B"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "MISSING_T"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "MISSING_NA"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "MISSING_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "MISSING_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "MISSING_LOWER_NA"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "MISSING_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "CTOR12_5_T"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "CTOR12_5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "LITERAL_DF_T"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "LITERAL_E0_T"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "LITERAL_DE_T"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "EQ_DISTINCT"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "CTOR50_EQ_80"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "CHART_CONFIRMED"
+        }
+      ]
+    },
+    {
+      "item": 1,
+      "sourceId": "v96-gradient-alpha-v6",
+      "pineVersion": 6,
+      "path": "v96/sources/v96-gradient-alpha-v6.pine",
+      "bytes": 4818,
+      "sha256": "6a3e6587c2fbedc2e9e1f32a2f982bbb5288942bd7e48f9570bee31de8cd3468",
+      "inputStates": [],
+      "plotCalls": 60,
+      "maxPlotCounts": 61,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "gradient12_5"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "G12_R"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "G12_G"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "G12_B"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "G12_T"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "G12_NA"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "G12_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "G12_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "G12_EQ_PRE_T"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "G12_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "G12_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "G22_R"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "G22_G"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "G22_B"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "G22_T"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "G22_NA"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "G22_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "G22_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "G22_EQ_PRE_T"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "G22_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "G22_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "G32_R"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "G32_G"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "G32_B"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "G32_T"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "G32_NA"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "G32_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "G32_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "G32_EQ_PRE_T"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "G32_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "G32_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "CLAMP_R"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "CLAMP_G"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "CLAMP_B"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "CLAMP_T"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "CLAMP_NA"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "CLAMP_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "CLAMP_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "CLAMP_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "CLAMP_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "MISSING_R"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "MISSING_G"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "MISSING_B"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "MISSING_T"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "MISSING_NA"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "MISSING_EQ_FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "MISSING_EQ_HALF_UP"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "MISSING_LOWER_NA"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "MISSING_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "CTOR12_5_T"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "CTOR12_5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "LITERAL_DF_T"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "LITERAL_E0_T"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "LITERAL_DE_T"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "EQ_DISTINCT"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "CTOR50_EQ_80"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "CHART_CONFIRMED"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "G12",
+      "expression": "color.from_gradient(1, 0, 2, color.rgb(33, 66, 99, 10), color.rgb(33, 66, 99, 15))",
+      "floor": "#214263DF",
+      "halfUp": "#214263E0",
+      "preT": "#214263DE",
+      "endpointAlpha": [
+        230,
+        217
+      ],
+      "alpha": "447/2",
+      "nominalT": "25/2"
+    },
+    {
+      "id": "G22",
+      "expression": "color.from_gradient(1, 0, 2, color.rgb(33, 66, 99, 20), color.rgb(33, 66, 99, 25))",
+      "floor": "#214263C5",
+      "halfUp": "#214263C6",
+      "preT": "#214263C4",
+      "endpointAlpha": [
+        204,
+        191
+      ],
+      "alpha": "395/2",
+      "nominalT": "45/2"
+    },
+    {
+      "id": "G32",
+      "expression": "color.from_gradient(1, 0, 2, color.rgb(33, 66, 99, 30), color.rgb(33, 66, 99, 35))",
+      "floor": "#214263AC",
+      "halfUp": "#214263AD",
+      "preT": "#214263AB",
+      "endpointAlpha": [
+        179,
+        166
+      ],
+      "alpha": "345/2",
+      "nominalT": "65/2"
+    },
+    {
+      "id": "CLAMP",
+      "expression": "color.from_gradient(5, 0, 10, color.rgb(0, 0, 0, 0), color.rgb(100, 200, 50, 100))",
+      "floor": "#0000007F",
+      "halfUp": "#00000080",
+      "preT": null,
+      "endpointAlpha": [
+        255,
+        0
+      ],
+      "alpha": "255/2",
+      "nominalT": "50"
+    },
+    {
+      "id": "MISSING",
+      "expression": "color.from_gradient(5, 0, 10, na, #FF0000)",
+      "floor": "#FF00007F",
+      "halfUp": "#FF000080",
+      "preT": null,
+      "endpointAlpha": [
+        0,
+        255
+      ],
+      "alpha": "255/2",
+      "nominalT": "50"
+    }
+  ]
+}
