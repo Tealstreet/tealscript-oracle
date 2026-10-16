@@ -1,0 +1,59 @@
+------WebKitFormBoundaryEIU6WqdxytwfPSXO
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("v95-string-format-v6", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+f_code(string s, int k) =>
+    alphabet = "0123456789.-:+/ ABXYZabcxyzNn"
+    k < str.length(s) ? nz(str.pos(alphabet, str.substring(s, k, k + 1)), -2) : -1
+x = phase % 4 == 0 ? -2.5 : phase % 4 == 1 ? 0.0 : phase % 4 == 2 ? 1.25 : 12.5
+t = phase % 2 == 0 ? timestamp("UTC", 2026, 3, 8, 6, 30) : timestamp("UTC", 2026, 3, 8, 7, 30)
+a = str.tostring(x, "0.00")
+b = str.format("{0,number,0.0}", x)
+c = str.format_time(t, "HH:mm", "America/New_York")
+d = str.tostring(float(na))
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(x, title="X")
+plot(t, title="FIXED_TIME")
+plot(f_code("0", 0), title="ENCODER_0")
+plot(f_code("A", 0), title="ENCODER_A")
+plot(f_code("-", 0), title="ENCODER_DASH")
+plot(str.length(a), title="TOSTRING_LEN")
+plot(str.length(b), title="FORMAT_LEN")
+plot(str.length(c), title="TIME_LEN")
+plot(str.length(d), title="MISSING_LEN")
+plot(f_code(a, 0), title="TOSTRING_C0")
+plot(f_code(a, 1), title="TOSTRING_C1")
+plot(f_code(a, 2), title="TOSTRING_C2")
+plot(f_code(a, 3), title="TOSTRING_C3")
+plot(f_code(a, 4), title="TOSTRING_C4")
+plot(f_code(a, 5), title="TOSTRING_C5")
+plot(f_code(b, 0), title="FORMAT_C0")
+plot(f_code(b, 1), title="FORMAT_C1")
+plot(f_code(b, 2), title="FORMAT_C2")
+plot(f_code(b, 3), title="FORMAT_C3")
+plot(f_code(b, 4), title="FORMAT_C4")
+plot(f_code(b, 5), title="FORMAT_C5")
+plot(f_code(c, 0), title="TIME_C0")
+plot(f_code(c, 1), title="TIME_C1")
+plot(f_code(c, 2), title="TIME_C2")
+plot(f_code(c, 3), title="TIME_C3")
+plot(f_code(c, 4), title="TIME_C4")
+plot(f_code(d, 0), title="MISSING_C0")
+plot(f_code(d, 1), title="MISSING_C1")
+plot(f_code(d, 2), title="MISSING_C2")
+plot(f_code(d, 3), title="MISSING_C3")
+plot(f_code(d, 4), title="MISSING_C4")
+plot(f_code(d, 5), title="MISSING_C5")
+
+------WebKitFormBoundaryEIU6WqdxytwfPSXO--
