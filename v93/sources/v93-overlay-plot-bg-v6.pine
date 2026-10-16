@@ -1,0 +1,9 @@
+//@version=6
+indicator("V93 overlay-plot-bg v6", overlay=false, precision=8)
+plot(10, "PANE_BLUE", color=color.blue, linewidth=4, force_overlay=false)
+plot(close, "MAIN_RED", color=color.red, linewidth=4, force_overlay=true)
+bgcolor(color.new(color.blue, 88), title="PANE_BG", force_overlay=false)
+bgcolor(color.new(color.red, 88), title="MAIN_BG", force_overlay=true)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)

@@ -6,11 +6,13 @@ See [MIGRATION.md](MIGRATION.md) for the application cutover, verification and o
 
 ## Capture and handoff
 
-The active v91 request is [v91/HANDOFF-v91-v1.md](v91/HANDOFF-v91-v1.md): footprint summary/price-row repeats at the three drift keys, a complete cumulative calculation frontier, and conditional contemporaneous developing inputs. PRIVATE unpublished Save/Add/export/remove on NEW throwaway layouts only. Executing an imported script counts as the forbidden import action: imported nested daily v5/v6 originals are excluded and holds1/2 remain held. Publication/share/visibility, existing-layout edits, alerts and library publication/import stay forbidden. Exact authorization and per-family limits are in the handoff.
+The active v93 request is [v93/REQUEST-v93-v1.md](v93/REQUEST-v93-v1.md): 38 fresh import-free Pine v5/v6 sources for drawn-indicator coverage gaps1–9 (z-order, force_overlay, colors, copies, coordinates, box text, table setters, plot styles and linefill). One NEW throwaway layout only; at most one PRIVATE unpublished Save/Add per source, with the two explicit three-state input sequences. Native plot CSVs expose getter/channel values; screenshots cover actual rendering. Every facet has a falsifiable criterion and NOT OBSERVED branch. Item10 provider requests are omitted. No TradingView publication/share/visibility, existing-layout edit, alert, account/entitlement change or library publication/import. Keep layout P425PrivateV79v1 and sours-lat/P425PrivateV79v1/1 unchanged. Exact authorization, source hashes, budgets and evidence requirements are in the request.
+
+V92 evidence is [v92 response v2](v92/captures/v92/RESPONSE-v92-v2.md): captured observations; all requested capability/semantic facets remain NOT OBSERVED / HELD. The [v91 request](v91/HANDOFF-v91-v1.md) and [v91 response](v91/captures/v91/RESPONSE-v91-v1.md) remain historical bounded evidence. V93 does not recreate earlier as-of inputs or close old holds.
 
 V90 evidence remains [v90/captures/v90/RESPONSE-v90-v3.md](v90/captures/v90/RESPONSE-v90-v3.md): CAPTURED WITH EXPLICIT CONTEXT HOLDS. V91 does not overwrite or recreate its earlier as-of observations.
 
-Earlier request notices below are historical; their old account restrictions/publication steps do not govern or authorize new v91 actions.
+Earlier request notices below are historical; their old account restrictions/publication steps do not govern or authorize new v93 actions.
 
 The v89 request is [v89/HANDOFF-v89-v1.md](v89/HANDOFF-v89-v1.md): v5/v6 explicit daily request discriminators on the **existing basic BTCUSDT 2m UTC chart**, two PRIVATE Save/Add/export/remove captures each. No chart, symbol, interval or layout changes. This replaces the blocked v88 chart prerequisite.
 

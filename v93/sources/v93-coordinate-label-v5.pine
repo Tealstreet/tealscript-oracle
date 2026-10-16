@@ -1,0 +1,28 @@
+//@version=5
+indicator("V93 coordinate-label v5", overlay=true, precision=8)
+mode = input.int(0, "YLOC_MODE", minval=0, maxval=2)
+var label a = na
+if not na(a)
+    label.delete(a)
+a := label.new(bar_index - 1, close[1], "ANCHOR", style=label.style_label_center)
+label.set_xloc(a, time, xloc.bar_time)
+timeX = label.get_x(a)
+label.set_xloc(a, bar_index - 1, xloc.bar_index)
+backX = label.get_x(a)
+p = chart.point.from_index(bar_index - 1, close[1])
+label.set_point(a, p)
+p.index := bar_index + 2
+p.price := close[1] + 100
+label.set_yloc(a, mode == 0 ? yloc.price : mode == 1 ? yloc.abovebar : yloc.belowbar)
+plot(mode, "YLOC_MODE", display=display.data_window)
+plot(timeX - time, "TIME_X_DELTA", display=display.data_window)
+plot(backX - bar_index, "RETURN_X_REL", display=display.data_window)
+plot(label.get_x(a) - bar_index, "POINT_X_REL", display=display.data_window)
+plot(label.get_y(a), "LABEL_GET_Y", display=display.data_window)
+plot(close[1], "INPUT_CLOSE", display=display.data_window)
+plot(time[1], "ANCHOR_TIME", display=display.data_window)
+plot(high[1], "ANCHOR_HIGH", display=display.data_window)
+plot(low[1], "ANCHOR_LOW", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)

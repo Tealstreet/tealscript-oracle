@@ -1,0 +1,2170 @@
+{
+  "schemaVersion": 1,
+  "round": 93,
+  "baselineOracle": "b190ede52a57f1105cc5ff55a06f268d8d05e4df",
+  "scope": "Drawn indicators only; source/manifest authoring is not a native acceptance or engine parity result",
+  "sourceCount": 38,
+  "maximumSaveAttempts": 38,
+  "maximumAddAttempts": 38,
+  "maximumSourceSessions": 46,
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2m",
+    "timezone": "Etc/UTC",
+    "chartStyle": "ordinary Candles",
+    "layout": "one NEW throwaway v93 layout only"
+  },
+  "item10": {
+    "status": "OMITTED",
+    "attempts": 0,
+    "reason": "No entitlement-independent positive event/fundamental provider context established; no provider/account action requested."
+  },
+  "sources": [
+    {
+      "id": "v93-zorder-false-v5",
+      "item": 1,
+      "pineVersion": 5,
+      "path": "sources/v93-zorder-false-v5.pine",
+      "bytes": 605,
+      "sha256": "c353cd46f8a0da654c92394d07ab398403addf8449f6cc6b303f94fad58dab90",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_SEVEN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 8,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-zorder-false-v6",
+      "item": 1,
+      "pineVersion": 6,
+      "path": "sources/v93-zorder-false-v6.pine",
+      "bytes": 605,
+      "sha256": "120212c001ce74153b1fb31dbf6607989f17b17e46118aeec37c0e031e4ac17a",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_SEVEN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 8,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-zorder-true-v5",
+      "item": 1,
+      "pineVersion": 5,
+      "path": "sources/v93-zorder-true-v5.pine",
+      "bytes": 603,
+      "sha256": "3739cfc2ef3bfdf02a1c163329d8483e0e700eb8c82236c0bac595ea33101412",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_SEVEN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 8,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-zorder-true-v6",
+      "item": 1,
+      "pineVersion": 6,
+      "path": "sources/v93-zorder-true-v6.pine",
+      "bytes": 603,
+      "sha256": "c3c686a65f8c8639a0258bccb95c8f6cf318a1465c065011a5ab7a9d7bf070d9",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_SEVEN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 8,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-zorder-groups-v5",
+      "item": 1,
+      "pineVersion": 5,
+      "path": "sources/v93-zorder-groups-v5.pine",
+      "bytes": 1330,
+      "sha256": "7988f177e1cef9cbfcd99afaf2872c214d640fa66e60288b46f1d2ef5f77d4b6",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "RED_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "RED_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "BLUE_PLOT"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LOWER_PLOT"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "SCALE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 9,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-zorder-groups-v6",
+      "item": 1,
+      "pineVersion": 6,
+      "path": "sources/v93-zorder-groups-v6.pine",
+      "bytes": 1330,
+      "sha256": "c81a14013dcf79c42805adc0acdf26a7c2fe6b9aee06322fd2858f45153b9d4c",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "RED_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "RED_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "BLUE_PLOT"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LOWER_PLOT"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "SCALE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 9,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-overlay-plot-bg-v5",
+      "item": 2,
+      "pineVersion": 5,
+      "path": "sources/v93-overlay-plot-bg-v5.pine",
+      "bytes": 566,
+      "sha256": "bbb2d94b1de5d10241501b9c243bb58cecfd682deba970116a12a796a61557e1",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_BLUE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "MAIN_RED"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 5,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-overlay-plot-bg-v6",
+      "item": 2,
+      "pineVersion": 6,
+      "path": "sources/v93-overlay-plot-bg-v6.pine",
+      "bytes": 566,
+      "sha256": "6e144d69bc0f0b1c7f06338050969132f898b25a374085d39290f5df4516e578",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_BLUE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "MAIN_RED"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 5,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-overlay-objects-v5",
+      "item": 2,
+      "pineVersion": 5,
+      "path": "sources/v93-overlay-objects-v5.pine",
+      "bytes": 1182,
+      "sha256": "a2709a8288ecf97944ab6d47b59cbe93ceed1f81b7c54f05e36158b156ed451c",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PANE_TWENTY"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "ANCHOR_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-overlay-objects-v6",
+      "item": 2,
+      "pineVersion": 6,
+      "path": "sources/v93-overlay-objects-v6.pine",
+      "bytes": 1182,
+      "sha256": "651157f6e4107625c99e7912dfd2035a6e852f0917dd35be3ff867d9426a7624",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PANE_TWENTY"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "ANCHOR_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-overlay-table-polyline-v5",
+      "item": 2,
+      "pineVersion": 5,
+      "path": "sources/v93-overlay-table-polyline-v5.pine",
+      "bytes": 1369,
+      "sha256": "bf230c95f49da347e87cd867652b470c498985f31cdb1aefb8f57541c9c69470",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PANE_TWENTY"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "ANCHOR_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-overlay-table-polyline-v6",
+      "item": 2,
+      "pineVersion": 6,
+      "path": "sources/v93-overlay-table-polyline-v6.pine",
+      "bytes": 1369,
+      "sha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PANE_TWENTY"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "ANCHOR_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-color-channels-v5",
+      "item": 3,
+      "pineVersion": 5,
+      "path": "sources/v93-color-channels-v5.pine",
+      "bytes": 1736,
+      "sha256": "ad51f7f4d1b2d8d2fd62f7eeae166a4b2504432b14bcb35ec039ee4b40f30210",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "GRADIENT_X"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "A_R"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "A_G"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "A_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "A_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "A_NA"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "C_R"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "C_G"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "C_B"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "C_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "C_NA"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "D_R"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "D_G"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "D_B"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "D_T"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "D_NA"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "E_R"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "E_G"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "E_B"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "E_T"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "E_NA"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 25,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-color-channels-v6",
+      "item": 3,
+      "pineVersion": 6,
+      "path": "sources/v93-color-channels-v6.pine",
+      "bytes": 1736,
+      "sha256": "bc7a3fc82f69c4f058f64b73f8201bb79453959761eb8634171e4cea8785b18a",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "GRADIENT_X"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "A_R"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "A_G"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "A_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "A_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "A_NA"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "C_R"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "C_G"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "C_B"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "C_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "C_NA"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "D_R"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "D_G"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "D_B"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "D_T"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "D_NA"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "E_R"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "E_G"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "E_B"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "E_T"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "E_NA"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 25,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-copy-line-v5",
+      "item": 4,
+      "pineVersion": 5,
+      "path": "sources/v93-copy-line-v5.pine",
+      "bytes": 905,
+      "sha256": "02baa30a5f90c90d2ce798e0cf78cf8ce2ee240981ac9f8158631e790fc92afb",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INITIAL_COPY_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "SOURCE_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "SOURCE_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SOURCE_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "COPY_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "COPY_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "COPY_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 10,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-copy-line-v6",
+      "item": 4,
+      "pineVersion": 6,
+      "path": "sources/v93-copy-line-v6.pine",
+      "bytes": 905,
+      "sha256": "3d4c03f4a76d79581105c92d891219bfd9136e4fd7a64af2d0dc4b511fc82c15",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INITIAL_COPY_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "SOURCE_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "SOURCE_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SOURCE_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "COPY_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "COPY_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "COPY_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 10,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-copy-box-v5",
+      "item": 4,
+      "pineVersion": 5,
+      "path": "sources/v93-copy-box-v5.pine",
+      "bytes": 956,
+      "sha256": "0b2675c0c9d29cbdd53d7f854a6b46bc8d4f2dc1f4e3e12aa627db13d631d2af",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INITIAL_COPY_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "SOURCE_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "SOURCE_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SOURCE_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "COPY_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "COPY_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "COPY_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 10,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-copy-box-v6",
+      "item": 4,
+      "pineVersion": 6,
+      "path": "sources/v93-copy-box-v6.pine",
+      "bytes": 956,
+      "sha256": "6d7563a5ac45e8a960490fd0ad838236462a2cc93aeae88046cfeb4c8a69b068",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INITIAL_COPY_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "SOURCE_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "SOURCE_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SOURCE_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "COPY_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "COPY_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "COPY_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 10,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-copy-label-v5",
+      "item": 4,
+      "pineVersion": 5,
+      "path": "sources/v93-copy-label-v5.pine",
+      "bytes": 1295,
+      "sha256": "f8350db81a54b784d53c4690e9f3844a4b240fc61f1666a52040c5c7a468b7ce",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INITIAL_COPY_TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INITIAL_COPY_TEXT_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "SOURCE_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SOURCE_Y"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SOURCE_TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "SOURCE_TEXT_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "COPY_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "COPY_Y"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "COPY_TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "COPY_TEXT_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 13,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-copy-label-v6",
+      "item": 4,
+      "pineVersion": 6,
+      "path": "sources/v93-copy-label-v6.pine",
+      "bytes": 1295,
+      "sha256": "ed4a1e8a775df528f6496447a7456e8f55eb36b015a937db19812be4ebaec293",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INITIAL_COPY_TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INITIAL_COPY_TEXT_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "SOURCE_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SOURCE_Y"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SOURCE_TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "SOURCE_TEXT_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "COPY_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "COPY_Y"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "COPY_TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "COPY_TEXT_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 13,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-line-v5",
+      "item": 5,
+      "pineVersion": 5,
+      "path": "sources/v93-coordinate-line-v5.pine",
+      "bytes": 1195,
+      "sha256": "1688a377701cbac5cfc3dc49329d2c804fc5f0eb71dfc10f2d3124639adc9f4e",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "TIME_X1_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "TIME_X2_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RETURN_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "POINT_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "POINT_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "POINT_X2_REL"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "POINT_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 10,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-line-v6",
+      "item": 5,
+      "pineVersion": 6,
+      "path": "sources/v93-coordinate-line-v6.pine",
+      "bytes": 1195,
+      "sha256": "4fe76d2db747f6e041c1d14e28cc24e07832ac91ccd8c6cc344f5902e4cf0000",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "TIME_X1_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "TIME_X2_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RETURN_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "POINT_X1_REL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "POINT_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "POINT_X2_REL"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "POINT_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 10,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-box-xloc-v5",
+      "item": 5,
+      "pineVersion": 5,
+      "path": "sources/v93-coordinate-box-xloc-v5.pine",
+      "bytes": 814,
+      "sha256": "381127d42d77579308078fb2073ed62b1c279069f6599716e9bd18045541b3c8",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "TIME_LEFT_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "TIME_RIGHT_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RETURN_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "RETURN_RIGHT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-box-xloc-v6",
+      "item": 5,
+      "pineVersion": 6,
+      "path": "sources/v93-coordinate-box-xloc-v6.pine",
+      "bytes": 814,
+      "sha256": "d866b8a1452e1bb4c684a26b1f57f4516e309b3ee25fd4b0fc1a5211d3ae0069",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "TIME_LEFT_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "TIME_RIGHT_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RETURN_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "RETURN_RIGHT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-box-points-v5",
+      "item": 5,
+      "pineVersion": 5,
+      "path": "sources/v93-coordinate-box-points-v5.pine",
+      "bytes": 841,
+      "sha256": "e47c26b210a28629626daadce65c834ce1dc25781ab5eb5f85c0058a3d2d5c41",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "POINT_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "POINT_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "POINT_RIGHT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "POINT_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-box-points-v6",
+      "item": 5,
+      "pineVersion": 6,
+      "path": "sources/v93-coordinate-box-points-v6.pine",
+      "bytes": 841,
+      "sha256": "2e2b07b469d8e60add6edd1724b6037e0e1839721dc79afbf9f6bb384f85ac11",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "POINT_LEFT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "POINT_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "POINT_RIGHT_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "POINT_BOTTOM"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 7,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-label-v5",
+      "item": 5,
+      "pineVersion": 5,
+      "path": "sources/v93-coordinate-label-v5.pine",
+      "bytes": 1363,
+      "sha256": "72245f4969aa2b8c61c992495e8fa6f1f3e918c905c1558d3ddcf0ab7c7c223d",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {
+        "YLOC_MODE": [
+          0,
+          1,
+          2
+        ]
+      },
+      "sessionCount": 3,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "YLOC_MODE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "TIME_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RETURN_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "POINT_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "LABEL_GET_Y"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "ANCHOR_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "ANCHOR_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 12,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-coordinate-label-v6",
+      "item": 5,
+      "pineVersion": 6,
+      "path": "sources/v93-coordinate-label-v6.pine",
+      "bytes": 1363,
+      "sha256": "5f61d016d85ee16245c7249556ad80de161fa1d294111979857c79dd74c3e759",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {
+        "YLOC_MODE": [
+          0,
+          1,
+          2
+        ]
+      },
+      "sessionCount": 3,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "YLOC_MODE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "TIME_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RETURN_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "POINT_X_REL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "LABEL_GET_Y"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "ANCHOR_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "ANCHOR_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 12,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-box-text-v5",
+      "item": 6,
+      "pineVersion": 5,
+      "path": "sources/v93-box-text-v5.pine",
+      "bytes": 1528,
+      "sha256": "bc85638fed2517d78bf6f14b679d7f02263a1b195161b55101ab69b5262d87e6",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "SCALE_HUNDRED"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 5,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-box-text-v6",
+      "item": 6,
+      "pineVersion": 6,
+      "path": "sources/v93-box-text-v6.pine",
+      "bytes": 1659,
+      "sha256": "a107fe03aaa0101fed761ca3a6292cc223e922d448717ad538755077ca35e873",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "SCALE_HUNDRED"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 5,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-table-setters-v5",
+      "item": 7,
+      "pineVersion": 5,
+      "path": "sources/v93-table-setters-v5.pine",
+      "bytes": 1126,
+      "sha256": "5c4d93ef4d4ef09d2399e331769757bd78319d593394927149403afe5761b138",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PANE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 5,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-table-setters-v6",
+      "item": 7,
+      "pineVersion": 6,
+      "path": "sources/v93-table-setters-v6.pine",
+      "bytes": 1126,
+      "sha256": "e5f5adf950e89a72dcbce78a1bc7943875a1dadad1eb287572d1d7a1a1808aa6",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PANE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PANE_TEN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 5,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-plot-dash-v5",
+      "item": 8,
+      "pineVersion": 5,
+      "path": "sources/v93-plot-dash-v5.pine",
+      "bytes": 514,
+      "sha256": "cf1a295445fecfd4ed0d1205ac0877c48cd6ef8b8f4a52d22e19fadceb4e1589",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "SOLID"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "DASHED"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "DOTTED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 6,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-plot-dash-v6",
+      "item": 8,
+      "pineVersion": 6,
+      "path": "sources/v93-plot-dash-v6.pine",
+      "bytes": 514,
+      "sha256": "2a3c40d586654f8b59e951832dd36d1db12ec4df52de2fc89a1fffa7d96693c5",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "SOLID"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "DASHED"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "DOTTED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 6,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-plot-gaps-v5",
+      "item": 8,
+      "pineVersion": 5,
+      "path": "sources/v93-plot-gaps-v5.pine",
+      "bytes": 667,
+      "sha256": "9c9cc639445216a1293796f72bd6685e1c4abdb9113748136c27c4b3026b7736",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "STEP_BR"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "AREA_BR"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "GAP_PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_THIRTY"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 8,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-plot-gaps-v6",
+      "item": 8,
+      "pineVersion": 6,
+      "path": "sources/v93-plot-gaps-v6.pine",
+      "bytes": 667,
+      "sha256": "700d0a5c2d085afb08c0498ce418bb7417d393442571eb19e5eb827fa3ad3344",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "STEP_BR"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "AREA_BR"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "GAP_PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "SCALE_THIRTY"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 8,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-linefill-state-v5",
+      "item": 9,
+      "pineVersion": 5,
+      "path": "sources/v93-linefill-state-v5.pine",
+      "bytes": 1690,
+      "sha256": "2c88706b1da7faf5cfa3e1bcd4fd7ac0dae9567c91e0dde8c8f2788261dfeb25",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {
+        "FILL_MODE": [
+          0,
+          1,
+          2
+        ]
+      },
+      "sessionCount": 3,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "FILL_MODE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "BASELINE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CREATED_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LINE1_IDENTITY"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "LINE2_IDENTITY"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FOLLOW_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "FOLLOW_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RETAINED_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_FORTY"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 13,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    },
+    {
+      "id": "v93-linefill-state-v6",
+      "item": 9,
+      "pineVersion": 6,
+      "path": "sources/v93-linefill-state-v6.pine",
+      "bytes": 1690,
+      "sha256": "20d80a56933979471945d5152aaf7be317baa10a30fcf0bf51c0375ba327e870",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {
+        "FILL_MODE": [
+          0,
+          1,
+          2
+        ]
+      },
+      "sessionCount": 3,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": true,
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "FILL_MODE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "BASELINE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CREATED_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LINE1_IDENTITY"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "LINE2_IDENTITY"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FOLLOW_Y1"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "FOLLOW_Y2"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RETAINED_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_ZERO"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_FORTY"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 13,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/hline/duplicate columns separately by original native CSV ordinal; never infer ownership from count or title alone."
+    }
+  ]
+}
