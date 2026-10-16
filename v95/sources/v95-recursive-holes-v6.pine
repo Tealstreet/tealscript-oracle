@@ -1,0 +1,41 @@
+//@version=6
+indicator("v95-recursive-holes-v6", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+cycle = bar_index % 64
+clean = float(bar_index % 11 - 5)
+hole = bar_index < 3 or cycle == 12 or cycle == 13 or cycle == 32 or cycle == 33 or cycle == 34
+x = hole ? na : clean
+emaClean = ta.ema(clean, 3)
+emaHole = ta.ema(x, 3)
+rmaClean = ta.rma(clean, 3)
+rmaHole = ta.rma(x, 3)
+rsiClean = ta.rsi(clean, 3)
+rsiHole = ta.rsi(x, 3)
+tsiClean = ta.tsi(clean, 3, 5)
+tsiHole = ta.tsi(x, 3, 5)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(cycle, title="CYCLE")
+plot(clean, title="CLEAN")
+plot(x, title="X")
+plot(na(x) ? 1 : 0, title="X_NA")
+plot(emaClean, title="EMA_CLEAN")
+plot(emaHole, title="EMA_HOLE")
+plot(rmaClean, title="RMA_CLEAN")
+plot(rmaHole, title="RMA_HOLE")
+plot(rsiClean, title="RSI_CLEAN")
+plot(rsiHole, title="RSI_HOLE")
+plot(tsiClean, title="TSI_CLEAN")
+plot(tsiHole, title="TSI_HOLE")
+plot(na(emaHole) ? 1 : 0, title="EMA_HOLE_NA")
+plot(na(rmaHole) ? 1 : 0, title="RMA_HOLE_NA")
+plot(na(rsiHole) ? 1 : 0, title="RSI_HOLE_NA")
+plot(na(tsiHole) ? 1 : 0, title="TSI_HOLE_NA")
