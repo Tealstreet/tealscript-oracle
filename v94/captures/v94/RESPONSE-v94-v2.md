@@ -1,0 +1,24 @@
+# Native gradient capture response v94 v2
+
+Six-source return for request28187da7b790218c77e2808ce1c21bb4117b5781. This supersedes the four-source progress response v1; all prior artifacts remain unchanged. Canonical evidence: `attempt-inventory-v3.json`, `numeric-controls-v2.json`, `facet-capabilities-v2.json`, `account-actions-v2.json`, `artifact-integrity-v2.json` and the read-only `validate-evidence-v2.py`.
+
+All six exact new PRIVATE unpublished sources passed Save and Add. The12 separate complete native compiler bodies are retained, each with exposed `metaInfo.warnings=[]`. No compilation refusal occurred. Independently exposed editor marker arrays and native study-instance IDs remain UNOBSERVED; immediate and settled native UI observations are separately retained. Each source used one Add/export/session, no input changes or retries, and its own study was removed afterward.
+
+| Family, independently v5 and v6 | Captured result over first32 independently closed rows |
+|---|---|
+| Original clamp | P SUPPORTED; S REFUTED. Midpoint0/0/0/T50/NA0; above-clamp0/0/0/T100/NA0. Upper constructor independently100/200/50/T100. All11 X/endpoint controls and all6 original plots scored. |
+| RSI RGB | All32 distinct interior ratios separate the frozen S/P RGB sets. P/128of255/floor matches32/32, nominal/floor29/32,127of255/floor25/32. All S alternatives and P identity/nearest alternatives match0/32 RGB tuples. |
+| RSI full RGBA | All18 frozen submodels REFUTED. Every32 transparency cells disagrees with every continuous-alpha hypothesis. RGB-only agreement does not certify RGBA. |
+| Unequal partial opacity | P SUPPORTED; S REFUTED. X1/4 gives30/30/50/T50, X1/2 gives60/45/80/T60, X3/4 gives110/70/130/T70. All result NA flags0. |
+| Present colored transparent lower | P SUPPORTED; S REFUTED. At/below lower clamp0/0/0/T100/NA0; every positive interior ratio retains upper RGB210/120/230, with T80/60/40. Input lower remains10/20/30/T100. |
+| Opaque control | S and P both SUPPORTED; agreement does not discriminate families. |
+
+For the first RSI row, actual input38.759821737559854 yields193/61/0/T20/NA0 in each independent version. Nominal predicted T is19379910868779927/1000000000000000, and the two packed-opacity alternatives also disagree. Exact rational RGB/T/NA predictions for every named submodel and every selected row are retained beside raw cell pointers. No transparency quantizer, replacement interpolation algorithm, rounding tolerance or engine output was fitted. RESULT_NA and blank outputs were assertions, never eligibility filters. Native `RATIO_UNCLAMPED` strings are independently retained; no infinite-precision equality to the exported RSI decimal is asserted.
+
+All1867 original CSV data rows and1861 independently closed rows are retained with SHA-bound closure masks. CSV time is UNIX seconds; INPUT_TIME is milliseconds. Eligibility requires physical2m close by export trigger plus CHART_CONFIRMED1. Developing present cells remain OBSERVED / EXCLUDED with zero scoring credit. Numeric comparisons cover an explicit32-row block per source,192 rows total; other retained rows are outside this comparison block, with no sampling-completeness claim. Discriminator blocks contain allPHASE0..6 and all24 endpoint controls.
+
+Ownership binds exact Save form/executed bytes, source hash, unique native private version1.0, native plot metadata, pre-export own-study UI and fresh native download clocks. Source plot ordinals and actual CSV ordinals are separate. The default builtin Volume is retained at column6 in clamps/discriminators and column27 in RSI. RSI exposes a native dynamic colorer definition but no separate CSV colorer column; no column is invented. No private getter or chart OHLCV column is silently discarded.
+
+The new layout has independently observed native creation208221739/u8vemUuW, name oracle-v94-v1, BINANCE:BTCUSDT2m Candles UTC. It was saved after removing all six own studies; its default builtin Volume remains. All9 pre-existing saved native records, including v93, and all5 pre-existing open-tab URL/symbol/interval/style/layout signatures compare unchanged. The v91 saved/open symbol discrepancy predates this round and remains unchanged. P425PrivateV79v1 is not named in the exposed full layout list; neither it nor its private library received an action. Raw before/after records and their chronology are explicit.
+
+No source repair/retry, import, old-layout save/edit, publication/share/visibility change, alert, sign-in/reconnect or account change occurred. Native instance IDs, independent editor marker arrays, internal precision, original provider-frame/frontier identity and RSI primitive/seed remain explicit limits. This return does not certify a universal gradient algorithm, approve an engine fix, merge014002b3, promote a fixture or close any historical hold. V95 may proceed on its separate new layout.
