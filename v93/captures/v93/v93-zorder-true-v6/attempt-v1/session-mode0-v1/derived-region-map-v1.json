@@ -1,0 +1,97 @@
+{
+  "version": "v1",
+  "artifactKind": "DERIVED annotated pixel region map; original PNG unchanged",
+  "source": "v93-zorder-true-v6",
+  "sourceSha256": "c3c686a65f8c8639a0258bccb95c8f6cf318a1465c065011a5ab7a9d7bf070d9",
+  "privateScriptId": "USER;a2e3311545ea4626a49a75a4242dee01",
+  "privateVersion": "1.0",
+  "inputMode": 0,
+  "screenshot": {
+    "path": "v93/captures/v93/v93-zorder-true-v6/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 130514,
+    "sha256": "395ac3258cd2f433fffdfe56f0797468fe74b126ddd90769503eb2fc25005248",
+    "dimensionsPixels": [
+      1706,
+      993
+    ]
+  },
+  "screenshotAtUtc": "2026-10-16T16:32:08.323Z",
+  "csv": {
+    "path": "v93/captures/v93/v93-zorder-true-v6/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 23710,
+    "sha256": "a20aca6079de3084b4da54b3bfe48137cab96c0736d53570646eba8ab292c767"
+  },
+  "nativeLayout": {
+    "id": 208205418,
+    "imageUrl": "gV8NSfsJ"
+  },
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "chartStyle": "Candles",
+    "timezone": "UTC",
+    "feedStatus": "Native Market open; genuine quote changes",
+    "namedSession": null,
+    "namedSessionStatus": "UNOBSERVED; native default unchanged"
+  },
+  "paneBoundsPixels": {
+    "main": [
+      0,
+      40,
+      1356,
+      633
+    ],
+    "indicator": [
+      0,
+      633,
+      1356,
+      926
+    ],
+    "note": "Plot versus scale boundary varies with native price-label width; individual regions avoid scale labels"
+  },
+  "viewport": {
+    "timeAxis": "Native half-hour labels roughly10:00/10:30 through16:30/17:00 UTC; each source screenshot preserves its own range",
+    "atLeast32NaturallyLoadedBarsVisible": true,
+    "atLeast16ClosedBarsInBroadCollisionRegions": true,
+    "pixelsPerBarApprox": 6,
+    "horizontalOrVerticalScalingActions": 0,
+    "paneResizingActions": 0,
+    "zoom": null,
+    "dpi": null,
+    "zoomDpiStatus": "UNOBSERVED; no browser evaluation or account preference changes",
+    "theme": "Visibly dark native UI; named theme setting UNOBSERVED"
+  },
+  "regions": [
+    {
+      "label": "y7 collision, closed-bar interior",
+      "xyxy": [
+        100,
+        705,
+        1100,
+        760
+      ],
+      "sourceY": 7,
+      "axisMapping": {
+        "y0Pixel": 901,
+        "y10Pixel": 662
+      },
+      "timeMapping": "Interior of roughly10:20-15:55 UTC using native half-hour ticks; exact per-bar centers UNOBSERVED"
+    }
+  ],
+  "properties": [
+    {
+      "property": "later fill over earlier plot/hline at y7",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        100,
+        726,
+        1100,
+        741
+      ],
+      "nativeVisualObservation": "Opaque red band covers the earlier blue/green collision within the closed-bar interior; current-edge extensions are excluded."
+    }
+  ],
+  "precisionLimit": "Region bounds and axis-to-pixel maps are human-derived approximate annotations, not official object bounds or generic pixel parity; native raw PNG retains exact pixels",
+  "currentBarLimit": "Last-bar drawings are visual live observations; physically open rows remain excluded from strict closed numeric scoring; no recovery of missing intrabar inputs claimed"
+}

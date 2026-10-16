@@ -1,0 +1,163 @@
+{
+  "version": "v1",
+  "csv": {
+    "path": "v93/captures/v93/v93-overlay-table-polyline-v6/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 29820,
+    "sha256": "c2c481db02e2481adb51af8fdd411cd8fc9a63accf57e38a4ee8c5817ad9f5c4"
+  },
+  "source": {
+    "version": "v1",
+    "sourceId": "v93-overlay-table-polyline-v6",
+    "item": 2,
+    "pineVersion": 6,
+    "requestSource": "v93/sources/v93-overlay-table-polyline-v6.pine",
+    "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+    "executed": {
+      "path": "v93/captures/v93/v93-overlay-table-polyline-v6/attempt-v1/executed-v1.pine",
+      "bytes": 1369,
+      "sha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0"
+    },
+    "nativeCompileSuccess": true,
+    "privateScriptId": "USER;2bc0d58b865445e6929234390c6834e7",
+    "privateVersion": "1.0",
+    "nativeStudyInstanceId": null,
+    "nativeStudyInstanceStatus": "UNOBSERVED",
+    "nativeWarningChannel": [],
+    "nativeWarningChannelPath": "result.metaInfo.warnings",
+    "separateMarkerArrays": null,
+    "markerStatus": "UNOBSERVED; full immediate/settled native UI evidence retained separately",
+    "saveBody": {
+      "path": "v93/captures/v93/v93-overlay-table-polyline-v6/attempt-v1/save-response-v1.json",
+      "bytes": 11297,
+      "sha256": "2a09f5ee9c651897c589f9258e8c4cbac1d9bdec91ce7fc5fd0900f70244fb07"
+    },
+    "addBody": {
+      "path": "v93/captures/v93/v93-overlay-table-polyline-v6/attempt-v1/add-response-v1.json",
+      "bytes": 11297,
+      "sha256": "671379fbc4521afe9d42447a404caf1303d661ffdce3356c1437a3275fa64d85"
+    },
+    "settings": {
+      "symbol": "BINANCE:BTCUSDT",
+      "interval": "2 minutes",
+      "chartStyle": "Candles",
+      "timezone": "UTC",
+      "feedStatus": "Native Market open; genuine quote changes",
+      "namedSession": null,
+      "namedSessionStatus": "UNOBSERVED; native default unchanged"
+    },
+    "nativeLayoutId": 208205418,
+    "nativeLayoutImage": "gV8NSfsJ",
+    "nativeExportTimeUnit": "UNIX seconds; INPUT_TIME plot is milliseconds",
+    "receipt": {
+      "path": "v93/captures/v93/v93-overlay-table-polyline-v6/attempt-v1/capture-receipt-v1.json",
+      "bytes": 2482,
+      "sha256": "665d2229defb6192e858f52792a00a96c2a6cb7455b6376086c7761d209d9683"
+    }
+  },
+  "sourceIsolation": "Only this request study attached; no other indicator or built-in volume columns in this native CSV",
+  "inputMode": 0,
+  "inputName": null,
+  "nativePrivateVersion": "1.0",
+  "nativeMetaInfoId": "Script$USER;2bc0d58b865445e6929234390c6834e7@tv-scripting-101",
+  "columns": [
+    {
+      "columnOrdinal": 1,
+      "originalHeader": "time",
+      "owner": "Native main chart",
+      "field": "time"
+    },
+    {
+      "columnOrdinal": 2,
+      "originalHeader": "open",
+      "owner": "Native main chart",
+      "field": "open"
+    },
+    {
+      "columnOrdinal": 3,
+      "originalHeader": "high",
+      "owner": "Native main chart",
+      "field": "high"
+    },
+    {
+      "columnOrdinal": 4,
+      "originalHeader": "low",
+      "owner": "Native main chart",
+      "field": "low"
+    },
+    {
+      "columnOrdinal": 5,
+      "originalHeader": "close",
+      "owner": "Native main chart",
+      "field": "close"
+    },
+    {
+      "columnOrdinal": 6,
+      "originalHeader": "PANE_ZERO",
+      "owner": "USER;2bc0d58b865445e6929234390c6834e7",
+      "privateVersion": "1.0",
+      "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "nativePlotId": "plot_0",
+      "nativePlotTitle": "PANE_ZERO"
+    },
+    {
+      "columnOrdinal": 7,
+      "originalHeader": "PANE_TWENTY",
+      "owner": "USER;2bc0d58b865445e6929234390c6834e7",
+      "privateVersion": "1.0",
+      "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "nativePlotId": "plot_1",
+      "nativePlotTitle": "PANE_TWENTY"
+    },
+    {
+      "columnOrdinal": 8,
+      "originalHeader": "ANCHOR_CLOSE",
+      "owner": "USER;2bc0d58b865445e6929234390c6834e7",
+      "privateVersion": "1.0",
+      "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "nativePlotId": "plot_2",
+      "nativePlotTitle": "ANCHOR_CLOSE"
+    },
+    {
+      "columnOrdinal": 9,
+      "originalHeader": "ANCHOR_TIME",
+      "owner": "USER;2bc0d58b865445e6929234390c6834e7",
+      "privateVersion": "1.0",
+      "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "nativePlotId": "plot_3",
+      "nativePlotTitle": "ANCHOR_TIME"
+    },
+    {
+      "columnOrdinal": 10,
+      "originalHeader": "INPUT_INDEX",
+      "owner": "USER;2bc0d58b865445e6929234390c6834e7",
+      "privateVersion": "1.0",
+      "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "nativePlotId": "plot_4",
+      "nativePlotTitle": "INPUT_INDEX"
+    },
+    {
+      "columnOrdinal": 11,
+      "originalHeader": "INPUT_TIME",
+      "owner": "USER;2bc0d58b865445e6929234390c6834e7",
+      "privateVersion": "1.0",
+      "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "nativePlotId": "plot_5",
+      "nativePlotTitle": "INPUT_TIME"
+    },
+    {
+      "columnOrdinal": 12,
+      "originalHeader": "CHART_CONFIRMED",
+      "owner": "USER;2bc0d58b865445e6929234390c6834e7",
+      "privateVersion": "1.0",
+      "sourceSha256": "cd5efd5e7d511efc38821ffb0a0e0cf48cced3abfc5fbf2f2b25c94d5d7dccf0",
+      "nativePlotId": "plot_6",
+      "nativePlotTitle": "CHART_CONFIRMED"
+    }
+  ],
+  "chartVolumeColumn": null,
+  "chartVolumeStatus": "UNOBSERVED; not included by native exporter; no value invented",
+  "duplicateHeadersPreservedByOrdinal": true,
+  "stringsAndBlanksPreserved": true,
+  "executionFeedAsOfId": null,
+  "executionFeedAsOfStatus": "UNOBSERVED; local deterministic source contract does not transfer another source execution identity"
+}

@@ -1,0 +1,29 @@
+------WebKitFormBoundarypoGdOz1SMlJPdWTj
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("V93 zorder-groups v5", overlay=false, precision=8)
+bgcolor(color.black)
+u = plot(9, "RED_TOP", color=na)
+l = plot(1, "RED_BOTTOM", color=na)
+fill(u, l, color=color.red, title="RED_FILL")
+plot(8, "BLUE_PLOT", color=color.blue, linewidth=12)
+hline(8, "GREEN_HLINE", color=color.lime, linewidth=6)
+plot(6, "LOWER_PLOT", color=color.blue, linewidth=12)
+hline(6, "LOWER_HLINE", color=color.lime, linewidth=6)
+if barstate.islast and bar_index >= 30
+    label.new(bar_index - 12, 6.5, "LABEL", color=color.black, textcolor=color.white, style=label.style_label_center)
+    box.new(bar_index - 18, 7, bar_index - 6, 6, bgcolor=color.orange, border_color=color.orange)
+    line.new(bar_index - 28, 6.5, bar_index, 6.5, color=color.fuchsia, width=12)
+    a = line.new(bar_index - 28, 7.5, bar_index, 7.5, color=na)
+    b = line.new(bar_index - 28, 5.5, bar_index, 5.5, color=na)
+    linefill.new(a, b, color.aqua)
+    t = table.new(position.middle_center, 1, 1, bgcolor=color.white)
+    table.cell(t, 0, 0, "TABLE", text_color=color.black)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(10, "SCALE_TEN", color=color.gray)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundarypoGdOz1SMlJPdWTj--

@@ -1,0 +1,145 @@
+{
+  "version": "v1",
+  "artifactKind": "DERIVED annotated pixel region map; original PNG unchanged",
+  "source": "v93-overlay-plot-bg-v5",
+  "sourceSha256": "bbb2d94b1de5d10241501b9c243bb58cecfd682deba970116a12a796a61557e1",
+  "privateScriptId": "USER;079ab8adaf2942ccb2e13edb327beb55",
+  "privateVersion": "1.0",
+  "inputMode": 0,
+  "screenshot": {
+    "path": "v93/captures/v93/v93-overlay-plot-bg-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 147779,
+    "sha256": "4fbc35d2dfb8b12ef55e89cb7705c58f6d0249e44da702ad53d8cbd80880188e",
+    "dimensionsPixels": [
+      1706,
+      993
+    ]
+  },
+  "screenshotAtUtc": "2026-10-16T16:42:17.039Z",
+  "csv": {
+    "path": "v93/captures/v93/v93-overlay-plot-bg-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 24177,
+    "sha256": "678c46426c2b4bb44cec09783d4ec4c580d755d72d78b48b6de7a290eeab3087"
+  },
+  "nativeLayout": {
+    "id": 208205418,
+    "imageUrl": "gV8NSfsJ"
+  },
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "chartStyle": "Candles",
+    "timezone": "UTC",
+    "feedStatus": "Native Market open; genuine quote changes",
+    "namedSession": null,
+    "namedSessionStatus": "UNOBSERVED; native default unchanged"
+  },
+  "paneBoundsPixels": {
+    "main": [
+      0,
+      40,
+      1356,
+      633
+    ],
+    "indicator": [
+      0,
+      633,
+      1356,
+      926
+    ],
+    "note": "Plot versus scale boundary varies with native price-label width; individual regions avoid scale labels"
+  },
+  "viewport": {
+    "timeAxis": "Native half-hour labels roughly10:00/10:30 through16:30/17:00 UTC; each source screenshot preserves its own range",
+    "atLeast32NaturallyLoadedBarsVisible": true,
+    "atLeast16ClosedBarsInBroadCollisionRegions": true,
+    "pixelsPerBarApprox": 6,
+    "horizontalOrVerticalScalingActions": 0,
+    "paneResizingActions": 0,
+    "zoom": null,
+    "dpi": null,
+    "zoomDpiStatus": "UNOBSERVED; no browser evaluation or account preference changes",
+    "theme": "Visibly dark native UI; named theme setting UNOBSERVED"
+  },
+  "regions": [
+    {
+      "label": "main chart price scale and red members",
+      "xyxy": [
+        0,
+        40,
+        1224,
+        632
+      ],
+      "visiblePriceScaleApprox": [
+        81200,
+        83000
+      ]
+    },
+    {
+      "label": "indicator pane, blue members",
+      "xyxy": [
+        0,
+        633,
+        1224,
+        925
+      ],
+      "visibleYScaleApprox": [
+        9.94,
+        10.06
+      ],
+      "blueLineY": 10
+    }
+  ],
+  "properties": [
+    {
+      "property": "plot force_overlay=false",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        100,
+        776,
+        1100,
+        787
+      ],
+      "nativeVisualObservation": "Blue constant10 line is in the indicator pane."
+    },
+    {
+      "property": "plot force_overlay=true",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        100,
+        150,
+        1172,
+        590
+      ],
+      "nativeVisualObservation": "Red close-tracking stroke follows main-chart candles."
+    },
+    {
+      "property": "bgcolor force_overlay=false",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        100,
+        665,
+        1100,
+        920
+      ],
+      "nativeVisualObservation": "Blue tinted background fills the indicator pane."
+    },
+    {
+      "property": "bgcolor force_overlay=true",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        100,
+        150,
+        1100,
+        600
+      ],
+      "nativeVisualObservation": "Red tinted background fills main-chart bar space."
+    }
+  ],
+  "precisionLimit": "Region bounds and axis-to-pixel maps are human-derived approximate annotations, not official object bounds or generic pixel parity; native raw PNG retains exact pixels",
+  "currentBarLimit": "Last-bar drawings are visual live observations; physically open rows remain excluded from strict closed numeric scoring; no recovery of missing intrabar inputs claimed"
+}

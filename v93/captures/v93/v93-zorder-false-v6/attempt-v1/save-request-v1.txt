@@ -1,0 +1,17 @@
+------WebKitFormBoundary59MGVVYJ016bTkhC
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("V93 zorder-false v6", overlay=false, explicit_plot_zorder=false, precision=8)
+plot(7, "BLUE_SEVEN", color=color.blue, linewidth=12)
+hline(7, "GREEN_SEVEN", color=color.lime, linewidth=6)
+u = plot(8, "FILL_TOP", color=na)
+l = plot(6, "FILL_BOTTOM", color=na)
+fill(u, l, color=color.red, title="RED_BAND")
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(10, "SCALE_TEN", color=color.gray)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundary59MGVVYJ016bTkhC--

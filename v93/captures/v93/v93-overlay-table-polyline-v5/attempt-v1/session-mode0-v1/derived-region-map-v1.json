@@ -1,0 +1,159 @@
+{
+  "version": "v1",
+  "artifactKind": "DERIVED annotated pixel region map; original PNG unchanged",
+  "source": "v93-overlay-table-polyline-v5",
+  "sourceSha256": "bf230c95f49da347e87cd867652b470c498985f31cdb1aefb8f57541c9c69470",
+  "privateScriptId": "USER;8c1759585af540be9fce72dccc697942",
+  "privateVersion": "1.0",
+  "inputMode": 0,
+  "screenshot": {
+    "path": "v93/captures/v93/v93-overlay-table-polyline-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 138965,
+    "sha256": "4dbbafce7beb4fa006a98371a0ccb5d4fe6c00985e0796d6df8f79716d2433e9",
+    "dimensionsPixels": [
+      1706,
+      993
+    ]
+  },
+  "screenshotAtUtc": "2026-10-16T16:53:54.105Z",
+  "csv": {
+    "path": "v93/captures/v93/v93-overlay-table-polyline-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 29629,
+    "sha256": "88bc5e4d16160364e4fe9eebc3f3e21b03e6752d47cad4f4ed01a6f2e8c214d9"
+  },
+  "nativeLayout": {
+    "id": 208205418,
+    "imageUrl": "gV8NSfsJ"
+  },
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "chartStyle": "Candles",
+    "timezone": "UTC",
+    "feedStatus": "Native Market open; genuine quote changes",
+    "namedSession": null,
+    "namedSessionStatus": "UNOBSERVED; native default unchanged"
+  },
+  "paneBoundsPixels": {
+    "main": [
+      0,
+      40,
+      1356,
+      633
+    ],
+    "indicator": [
+      0,
+      633,
+      1356,
+      926
+    ],
+    "note": "Plot versus scale boundary varies with native price-label width; individual regions avoid scale labels"
+  },
+  "viewport": {
+    "timeAxis": "Native half-hour labels roughly10:00/10:30 through16:30/17:00 UTC; each source screenshot preserves its own range",
+    "atLeast32NaturallyLoadedBarsVisible": true,
+    "atLeast16ClosedBarsInBroadCollisionRegions": true,
+    "pixelsPerBarApprox": 6,
+    "horizontalOrVerticalScalingActions": 0,
+    "paneResizingActions": 0,
+    "zoom": null,
+    "dpi": null,
+    "zoomDpiStatus": "UNOBSERVED; no browser evaluation or account preference changes",
+    "theme": "Visibly dark native UI; named theme setting UNOBSERVED"
+  },
+  "regions": [
+    {
+      "label": "pane polyline",
+      "xyxy": [
+        1084,
+        714,
+        1162,
+        844
+      ],
+      "syntheticYRange": [
+        5,
+        15
+      ]
+    },
+    {
+      "label": "main polyline",
+      "xyxy": [
+        1084,
+        510,
+        1162,
+        573
+      ],
+      "anchorBinding": "ANCHOR_CLOSE/ANCHOR_TIME last source row; exact point prices in source; screenshot raster separate"
+    },
+    {
+      "label": "PANE table fragment and caption overlap",
+      "xyxy": [
+        8,
+        641,
+        320,
+        669
+      ]
+    },
+    {
+      "label": "MAIN table caption region, routing unobserved",
+      "xyxy": [
+        0,
+        40,
+        320,
+        110
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "polyline force_overlay=false",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1084,
+        714,
+        1162,
+        844
+      ],
+      "nativeVisualObservation": "Blue three-point polyline is visible in indicator pane at synthetic5/15/5."
+    },
+    {
+      "property": "polyline force_overlay=true",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1084,
+        510,
+        1162,
+        573
+      ],
+      "nativeVisualObservation": "Red three-point polyline appears on main price chart around preceding close."
+    },
+    {
+      "property": "table force_overlay=false",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        8,
+        641,
+        58,
+        669
+      ],
+      "nativeVisualObservation": "Blue PANE table fragment is visibly located in indicator pane top-left, overlapping the native indicator caption; full table raster is not measured."
+    },
+    {
+      "property": "table force_overlay=true",
+      "criterionVerdict": "NOT OBSERVED",
+      "hypothesis": "UNDECIDED",
+      "pixelRegionXYXY": [
+        0,
+        40,
+        320,
+        110
+      ],
+      "nativeVisualObservation": "Red MAIN table is not independently visible in the main-chart top-left caption region. Compilation and the pane fragment do not establish its routing."
+    }
+  ],
+  "precisionLimit": "Region bounds and axis-to-pixel maps are human-derived approximate annotations, not official object bounds or generic pixel parity; native raw PNG retains exact pixels",
+  "currentBarLimit": "Last-bar drawings are visual live observations; physically open rows remain excluded from strict closed numeric scoring; no recovery of missing intrabar inputs claimed"
+}

@@ -1,0 +1,185 @@
+{
+  "version": "v1",
+  "artifactKind": "DERIVED annotated pixel region map; original PNG unchanged",
+  "source": "v93-zorder-groups-v5",
+  "sourceSha256": "7988f177e1cef9cbfcd99afaf2872c214d640fa66e60288b46f1d2ef5f77d4b6",
+  "privateScriptId": "USER;eaddcd23630349c3aba04b84be235ee7",
+  "privateVersion": "1.0",
+  "inputMode": 0,
+  "screenshot": {
+    "path": "v93/captures/v93/v93-zorder-groups-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 134964,
+    "sha256": "7c26dbc8725c2291d2e0e9a4f4dc3958e6d218a600b1e2b83b946ab8d2dce81e",
+    "dimensionsPixels": [
+      1706,
+      993
+    ]
+  },
+  "screenshotAtUtc": "2026-10-16T16:35:42.256Z",
+  "csv": {
+    "path": "v93/captures/v93/v93-zorder-groups-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 24410,
+    "sha256": "118b8d18279987e9627be733092f5db2d8d3151a498eca03c4c4f3a0dad25632"
+  },
+  "nativeLayout": {
+    "id": 208205418,
+    "imageUrl": "gV8NSfsJ"
+  },
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "chartStyle": "Candles",
+    "timezone": "UTC",
+    "feedStatus": "Native Market open; genuine quote changes",
+    "namedSession": null,
+    "namedSessionStatus": "UNOBSERVED; native default unchanged"
+  },
+  "paneBoundsPixels": {
+    "main": [
+      0,
+      40,
+      1356,
+      633
+    ],
+    "indicator": [
+      0,
+      633,
+      1356,
+      926
+    ],
+    "note": "Plot versus scale boundary varies with native price-label width; individual regions avoid scale labels"
+  },
+  "viewport": {
+    "timeAxis": "Native half-hour labels roughly10:00/10:30 through16:30/17:00 UTC; each source screenshot preserves its own range",
+    "atLeast32NaturallyLoadedBarsVisible": true,
+    "atLeast16ClosedBarsInBroadCollisionRegions": true,
+    "pixelsPerBarApprox": 6,
+    "horizontalOrVerticalScalingActions": 0,
+    "paneResizingActions": 0,
+    "zoom": null,
+    "dpi": null,
+    "zoomDpiStatus": "UNOBSERVED; no browser evaluation or account preference changes",
+    "theme": "Visibly dark native UI; named theme setting UNOBSERVED"
+  },
+  "regions": [
+    {
+      "label": "red fill and hline lanes",
+      "xyxy": [
+        100,
+        695,
+        1000,
+        869
+      ],
+      "axisMapping": {
+        "y0Pixel": 889,
+        "y10Pixel": 674
+      }
+    },
+    {
+      "label": "last-bar-created object overlap cluster",
+      "xyxy": [
+        1027,
+        727,
+        1196,
+        771
+      ],
+      "sourceYRange": [
+        5.5,
+        7.5
+      ],
+      "barMapping": "Objects span source last index-28 through last index; exact source indexes/time keys retained in CSV. Pixel endpoints approximate from native plot."
+    },
+    {
+      "label": "TABLE over red fill only",
+      "xyxy": [
+        602,
+        767,
+        656,
+        793
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "hline over plot/fill",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        100,
+        710,
+        950,
+        725
+      ],
+      "nativeVisualObservation": "Green y8 dash segments appear above the blue plot and red fill."
+    },
+    {
+      "property": "linefill over lower hline",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1030,
+        754,
+        1080,
+        768
+      ],
+      "nativeVisualObservation": "Aqua fill covers the lower y6 green/blue lane within its object span."
+    },
+    {
+      "property": "line over linefill",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1030,
+        742,
+        1080,
+        754
+      ],
+      "nativeVisualObservation": "Magenta horizontal stroke is visible in front of aqua away from the box."
+    },
+    {
+      "property": "box over line",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1087,
+        739,
+        1160,
+        761
+      ],
+      "nativeVisualObservation": "Orange box covers the magenta stroke within the box; stroke remains visible immediately outside."
+    },
+    {
+      "property": "label over box",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1095,
+        737,
+        1152,
+        762
+      ],
+      "nativeVisualObservation": "Dark LABEL rectangle and white text appear in front of orange box."
+    },
+    {
+      "property": "table over intersected fill",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        602,
+        767,
+        656,
+        793
+      ],
+      "nativeVisualObservation": "White TABLE rectangle covers red fill at its actual center position."
+    },
+    {
+      "property": "table versus label/box/line/linefill",
+      "criterionVerdict": "NOT OBSERVED",
+      "hypothesis": "UNDECIDED",
+      "pixelRegionXYXY": null,
+      "nativeVisualObservation": "Table at x602-656 does not intersect the object cluster at x1027-1195; intended generic ordering cannot be inferred."
+    }
+  ],
+  "precisionLimit": "Region bounds and axis-to-pixel maps are human-derived approximate annotations, not official object bounds or generic pixel parity; native raw PNG retains exact pixels",
+  "currentBarLimit": "Last-bar drawings are visual live observations; physically open rows remain excluded from strict closed numeric scoring; no recovery of missing intrabar inputs claimed"
+}

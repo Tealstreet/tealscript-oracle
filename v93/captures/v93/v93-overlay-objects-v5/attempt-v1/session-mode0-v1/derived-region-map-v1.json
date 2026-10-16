@@ -1,0 +1,165 @@
+{
+  "version": "v1",
+  "artifactKind": "DERIVED annotated pixel region map; original PNG unchanged",
+  "source": "v93-overlay-objects-v5",
+  "sourceSha256": "a2709a8288ecf97944ab6d47b59cbe93ceed1f81b7c54f05e36158b156ed451c",
+  "privateScriptId": "USER;105b9fc5fde544ddbb33c976fbcc9a1f",
+  "privateVersion": "1.0",
+  "inputMode": 0,
+  "screenshot": {
+    "path": "v93/captures/v93/v93-overlay-objects-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 131625,
+    "sha256": "85d2f3b4cea6ee661c2486ca64b7fa4dfa7a23eec2f7abdf4a19ccbc085a84da",
+    "dimensionsPixels": [
+      1706,
+      993
+    ]
+  },
+  "screenshotAtUtc": "2026-10-16T16:47:11.662Z",
+  "csv": {
+    "path": "v93/captures/v93/v93-overlay-objects-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 29350,
+    "sha256": "8a4c467dea87537f9fa14cfbb84b55a106c39c5e64b57a0279f94e0e8eb433f0"
+  },
+  "nativeLayout": {
+    "id": 208205418,
+    "imageUrl": "gV8NSfsJ"
+  },
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "chartStyle": "Candles",
+    "timezone": "UTC",
+    "feedStatus": "Native Market open; genuine quote changes",
+    "namedSession": null,
+    "namedSessionStatus": "UNOBSERVED; native default unchanged"
+  },
+  "paneBoundsPixels": {
+    "main": [
+      0,
+      40,
+      1356,
+      633
+    ],
+    "indicator": [
+      0,
+      633,
+      1356,
+      926
+    ],
+    "note": "Plot versus scale boundary varies with native price-label width; individual regions avoid scale labels"
+  },
+  "viewport": {
+    "timeAxis": "Native half-hour labels roughly10:00/10:30 through16:30/17:00 UTC; each source screenshot preserves its own range",
+    "atLeast32NaturallyLoadedBarsVisible": true,
+    "atLeast16ClosedBarsInBroadCollisionRegions": true,
+    "pixelsPerBarApprox": 6,
+    "horizontalOrVerticalScalingActions": 0,
+    "paneResizingActions": 0,
+    "zoom": null,
+    "dpi": null,
+    "zoomDpiStatus": "UNOBSERVED; no browser evaluation or account preference changes",
+    "theme": "Visibly dark native UI; named theme setting UNOBSERVED"
+  },
+  "regions": [
+    {
+      "label": "main object cluster",
+      "xyxy": [
+        1085,
+        450,
+        1205,
+        565
+      ],
+      "anchorBinding": "ANCHOR_CLOSE and ANCHOR_TIME raw last source row; preceding candle itself retained in original CSV"
+    },
+    {
+      "label": "pane object cluster",
+      "xyxy": [
+        1085,
+        730,
+        1205,
+        848
+      ],
+      "syntheticYRange": [
+        5,
+        15
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "line force_overlay=false",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1085,
+        784,
+        1125,
+        793
+      ],
+      "nativeVisualObservation": "Blue horizontal line in indicator pane at synthetic10."
+    },
+    {
+      "property": "line force_overlay=true",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1085,
+        486,
+        1125,
+        496
+      ],
+      "nativeVisualObservation": "Red horizontal line in main chart around the preceding closed candle anchor."
+    },
+    {
+      "property": "box force_overlay=false",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1134,
+        730,
+        1162,
+        848
+      ],
+      "nativeVisualObservation": "Blue outlined/translucent box in indicator pane."
+    },
+    {
+      "property": "box force_overlay=true",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1134,
+        469,
+        1162,
+        517
+      ],
+      "nativeVisualObservation": "Red outlined/translucent box in main chart."
+    },
+    {
+      "property": "label force_overlay=false",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1152,
+        754,
+        1204,
+        791
+      ],
+      "nativeVisualObservation": "Blue PANE label in indicator pane."
+    },
+    {
+      "property": "label force_overlay=true",
+      "criterionVerdict": "CAPTURED",
+      "hypothesis": "SUPPORTED",
+      "pixelRegionXYXY": [
+        1152,
+        457,
+        1204,
+        491
+      ],
+      "nativeVisualObservation": "Red MAIN label in main chart."
+    }
+  ],
+  "precisionLimit": "Region bounds and axis-to-pixel maps are human-derived approximate annotations, not official object bounds or generic pixel parity; native raw PNG retains exact pixels",
+  "currentBarLimit": "Last-bar drawings are visual live observations; physically open rows remain excluded from strict closed numeric scoring; no recovery of missing intrabar inputs claimed"
+}

@@ -1,0 +1,22 @@
+------WebKitFormBoundarybLUCBWqjbdypjxPe
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("V93 overlay-objects v5", overlay=false, precision=8)
+anchor = close[1]
+plot(0, "PANE_ZERO", color=color.gray)
+plot(20, "PANE_TWENTY", color=color.gray)
+if barstate.islast and bar_index >= 20
+    line.new(bar_index - 18, 10, bar_index - 12, 10, color=color.blue, width=4, force_overlay=false)
+    line.new(bar_index - 18, anchor, bar_index - 12, anchor, color=color.red, width=4, force_overlay=true)
+    box.new(bar_index - 10, 15, bar_index - 6, 5, border_color=color.blue, bgcolor=color.new(color.blue, 50), force_overlay=false)
+    box.new(bar_index - 10, anchor * 1.001, bar_index - 6, anchor * 0.999, border_color=color.red, bgcolor=color.new(color.red, 50), force_overlay=true)
+    label.new(bar_index - 3, 10, "PANE", color=color.blue, force_overlay=false)
+    label.new(bar_index - 3, anchor, "MAIN", color=color.red, force_overlay=true)
+plot(anchor, "ANCHOR_CLOSE", display=display.data_window)
+plot(time[1], "ANCHOR_TIME", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundarybLUCBWqjbdypjxPe--
