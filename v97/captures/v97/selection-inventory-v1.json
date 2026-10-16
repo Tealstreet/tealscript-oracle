@@ -1,0 +1,1321 @@
+{
+  "version": "v1",
+  "frozenAtUtc": "2026-10-16T23:41:21.843285Z",
+  "repositoryCommitAtSelection": "03fbfca3e1f01a22b965aa66f52b90f1da546fc5",
+  "requestCommit": "b8803b5c985d2b415bf2d6f9c5c5f8f3ddb5b260",
+  "publishedV95Response": {
+    "path": "v95/captures/v95/RESPONSE-v95-v24.md",
+    "bytes": 12759,
+    "sha256": "1ca524809baf27858bab3981556863cb0b65b0dcdf6e9af07c25183d5e3a1f6b"
+  },
+  "publishedV95ResponseCommit": "c7790f48d913a0736606af6bb94a2f2ee011f309",
+  "publishedV95ResponseOriginSection": "\n\nThe actual missing-own-origin facets remain explicit, independently in v5/v6:\n\n- Item7: \"Own origin for pre-origin dynamic/history missingness\" \u2014 \"Own index-zero row omitted; no pre-origin behavior inferred\". See both v95-history-udt-v*/attempt-v1/numeric-results-v1.json.\n- Item10: \"Own origin for pre-origin Boolean/fixnan startup\" \u2014 \"Own first input row absent; repeated FIRST fields do not recover startup\". See both v95-typed-na-v*/attempt-v1/numeric-results-v1.json.\n- Item14: \"Own index-zero prefix for seeded random stream replay\" \u2014 \"Own startup input prefix omitted; sampled random values do not establish the full seed/stream identity\". See both v95-math-vectors-v*/attempt-v1/numeric-results-v1.json.\n\nItems2\u20135 separately retain their actual startup/first-reach/seed holds as detailed in their immutable reports. In contrast, the incomplete preceding anchor in6, natural transition opportunity in8, old unanchored original outside9, unplotted merged count in17, runtime failure in18, precision/orientation in19 and missed first live events in20 are not missing-own-zero seed holds. A generic false row-set prefix flag does not activate a conditional v97 reservation. No original clock/frontier, old daily/MTF developing input identity or historical hold1/2/7/8/13/14/21 is recovered or closed.\n\n",
+  "v96CompletedReturn": {
+    "path": "v96/captures/v96/RESPONSE-v96-v1.md",
+    "bytes": 5071,
+    "sha256": "9cbecb7b51cf62fab1877db8ee6c549539f26661ee6fd8b71c55d719c270d73c"
+  },
+  "v96CompletedReturnCommit": "03fbfca3e1f01a22b965aa66f52b90f1da546fc5",
+  "mandatorySlots": 8,
+  "activatedConditionalSlots": 6,
+  "skippedConditionalReservations": 24,
+  "selectedSourceSlots": 14,
+  "maximumSaves": 14,
+  "maximumAdds": 14,
+  "maximumCalendarSelections": 14,
+  "maximumOriginalCsvs": 28,
+  "maximumCalculationSessions": 28,
+  "sourceRetries": 0,
+  "inputVariants": 0,
+  "newPineSources": 0,
+  "records": [
+    {
+      "sourceId": "v97-conditional-clock-v5",
+      "originalSourceId": "v95-conditional-clock-v5",
+      "v95Item": 2,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-conditional-clock-v5.pine",
+        "bytes": 949,
+        "sha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/numeric-results-v1.json",
+            "bytes": 585518,
+            "sha256": "bc806bf176992e2b10c7e306699a24ee7e6c038aed2082d175098659e6820c03"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own index-zero prefix for recursive EMA startup/first-call seed",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "The own index-zero input rows are absent; no seed reconstructed from suffix outputs",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-conditional-clock-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 585518,
+        "sha256": "bc806bf176992e2b10c7e306699a24ee7e6c038aed2082d175098659e6820c03"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 2,
+        "exactText": "### (2) Conditional rolling clocks\n\nSources: `sources/v95-conditional-clock-v5.pine`, `sources/v95-conditional-clock-v6.pine`. Survey rank(s): 4. 15 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze competing clocks: branch call advances only on gate1 executions versus advancing on every chart bar with output masked on gate0. After three gated finite inputs these predict distinct SMA_BRANCH values; require at least three discriminating gated rows and retain both EMA trajectories from the complete source prefix. Gate0 blanks must match the explicit output mask. Pin both unconditional controls, with all per-bar X/GATE inputs, rather than declaring all conditional TA functions equivalent.\n\n**NOT OBSERVED branch:** Absent discriminating rows, truncated source prefix for recursive EMA/first-call seed, missing gate/input/output binding or native refusal leaves the corresponding clock/seed contract NOT OBSERVED. A present masked blank is observed masking. Warnings are retained separately from refusal. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-conditional-clock-v6",
+      "originalSourceId": "v95-conditional-clock-v6",
+      "v95Item": 2,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-conditional-clock-v6.pine",
+        "bytes": 949,
+        "sha256": "a3a05e1fb4656b39de2b4d8acf0676c618f8614f87b8f11cf031aa0093e35174"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-conditional-clock-v6/attempt-v1/numeric-results-v1.json",
+            "bytes": 585518,
+            "sha256": "e505b6ec56fd5635e795e57aaae73fc53abda6d14d306c58ab6ee50e67811f05"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own index-zero prefix for recursive EMA startup/first-call seed",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "The own index-zero input rows are absent; no seed reconstructed from suffix outputs",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-conditional-clock-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 585518,
+        "sha256": "e505b6ec56fd5635e795e57aaae73fc53abda6d14d306c58ab6ee50e67811f05"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 2,
+        "exactText": "### (2) Conditional rolling clocks\n\nSources: `sources/v95-conditional-clock-v5.pine`, `sources/v95-conditional-clock-v6.pine`. Survey rank(s): 4. 15 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze competing clocks: branch call advances only on gate1 executions versus advancing on every chart bar with output masked on gate0. After three gated finite inputs these predict distinct SMA_BRANCH values; require at least three discriminating gated rows and retain both EMA trajectories from the complete source prefix. Gate0 blanks must match the explicit output mask. Pin both unconditional controls, with all per-bar X/GATE inputs, rather than declaring all conditional TA functions equivalent.\n\n**NOT OBSERVED branch:** Absent discriminating rows, truncated source prefix for recursive EMA/first-call seed, missing gate/input/output binding or native refusal leaves the corresponding clock/seed contract NOT OBSERVED. A present masked blank is observed masking. Warnings are retained separately from refusal. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-udf-state-v5",
+      "originalSourceId": "v95-udf-state-v5",
+      "v95Item": 3,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-udf-state-v5.pine",
+        "bytes": 1048,
+        "sha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-udf-state-v5/attempt-v1/numeric-results-v1.json",
+            "bytes": 230608,
+            "sha256": "4428eb5d4816aa33dfe93682a326a64e39a41a6470afb37e30b5cedadc9321a3"
+          },
+          "jsonPointer": "/facets/2",
+          "exactFacet": {
+            "facet": "First-reach local var initialization from own index-zero prefix",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own source prefix absent; LOCAL_FIRST retained without reconstructing its initialization",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-udf-state-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 230608,
+        "sha256": "4428eb5d4816aa33dfe93682a326a64e39a41a6470afb37e30b5cedadc9321a3"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 3,
+        "exactText": "### (3) UDF call-site state and first-reach var\n\nSources: `sources/v95-udf-state-v5.pine`, `sources/v95-udf-state-v6.pine`. Survey rank(s): 4,7. 14 literal plots per source.\n\n**Falsifiable acceptance criterion:** For a full reset block phase 0..15, independent textual call-site state predicts A=p+1, B=10*(p+1), NESTED=5*(p+1), and GATED=100*(p/2+1) at even p with odd rows explicitly blank. A shared accumulator differs. With own index 0 prefix, LOCAL_FIRST is blank before index 5 and 5 thereafter whenever phase>=5: local var initializes at first reach, not each block. Test each column separately.\n\n**NOT OBSERVED branch:** No complete reset block or unbound source phases leaves call-site/reset contracts NOT OBSERVED. Missing index 0 or a source prefix gap leaves only first-reach initialization HELD, not the observed local values. No live varip or imported method identity follows. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-udf-state-v6",
+      "originalSourceId": "v95-udf-state-v6",
+      "v95Item": 3,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-udf-state-v6.pine",
+        "bytes": 1048,
+        "sha256": "ab60c72fe7dc2b8f8eb537e800dc5fe07904f5fddb8d22f29b3be2db63e648a1"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-udf-state-v6/attempt-v1/numeric-results-v1.json",
+            "bytes": 230608,
+            "sha256": "da89faeefd60c84214d932a38de814f323b7029df24b8b6e4352d9fcb0e38d14"
+          },
+          "jsonPointer": "/facets/2",
+          "exactFacet": {
+            "facet": "First-reach local var initialization from own index-zero prefix",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own source prefix absent; LOCAL_FIRST retained without reconstructing its initialization",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-udf-state-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 230608,
+        "sha256": "da89faeefd60c84214d932a38de814f323b7029df24b8b6e4352d9fcb0e38d14"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 3,
+        "exactText": "### (3) UDF call-site state and first-reach var\n\nSources: `sources/v95-udf-state-v5.pine`, `sources/v95-udf-state-v6.pine`. Survey rank(s): 4,7. 14 literal plots per source.\n\n**Falsifiable acceptance criterion:** For a full reset block phase 0..15, independent textual call-site state predicts A=p+1, B=10*(p+1), NESTED=5*(p+1), and GATED=100*(p/2+1) at even p with odd rows explicitly blank. A shared accumulator differs. With own index 0 prefix, LOCAL_FIRST is blank before index 5 and 5 thereafter whenever phase>=5: local var initializes at first reach, not each block. Test each column separately.\n\n**NOT OBSERVED branch:** No complete reset block or unbound source phases leaves call-site/reset contracts NOT OBSERVED. Missing index 0 or a source prefix gap leaves only first-reach initialization HELD, not the observed local values. No live varip or imported method identity follows. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-recursive-holes-v5",
+      "originalSourceId": "v95-recursive-holes-v5",
+      "v95Item": 4,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-recursive-holes-v5.pine",
+        "bytes": 1399,
+        "sha256": "f964228f035a4d4824654fcb116cb6dc07086ace2534638b257a58fbdc41f8ec"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-recursive-holes-v5/attempt-v1/numeric-results-v1.json",
+            "bytes": 1109714,
+            "sha256": "0153c6313622214a2d74a0cabd6c4ad4be5073296814b78c4b676941ea3a0e1e"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own contiguous index0..127 startup and all hole/recovery dependencies",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own index-zero input prefix absent; no recursive seed or startup/recovery rule fitted",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-recursive-holes-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 1109714,
+        "sha256": "0153c6313622214a2d74a0cabd6c4ad4be5073296814b78c4b676941ea3a0e1e"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 4,
+        "exactText": "### (4) Explicit-source recursive startup, holes and recovery\n\nSources: `sources/v95-recursive-holes-v5.pine`, `sources/v95-recursive-holes-v6.pine`. Survey rank(s): 5. 23 literal plots per source.\n\n**Falsifiable acceptance criterion:** Own contiguous native index 0..127 supplies literal-source input history. Discriminate per function between skipping missing observations, consuming missing chart slots, and poisoning through a hole; compare each actual NA mask and first finite recovery row after leading 3, interior 2 and interior 3 holes. Freeze EMA recurrence alpha=2/(3+1) with first finite seed versus SMA3 seed, RMA alpha=1/3 with SMA3 seed versus first finite seed; RSI/TSI outputs are native vectors, not assumed consequences of EMA agreement. Preserve clean controls and every contrary raw value.\n\n**NOT OBSERVED branch:** No index 0 prefix, any ordinal/index gap, fewer than128 closed rows, incomplete hole/recovery windows, lost precision or refusal leaves that startup/recovery subfacet NOT OBSERVED. Do not seed from the first exported value or fit a new rule during capture; suffix values remain OBSERVED. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-recursive-holes-v6",
+      "originalSourceId": "v95-recursive-holes-v6",
+      "v95Item": 4,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-recursive-holes-v6.pine",
+        "bytes": 1399,
+        "sha256": "b1a5aefe9200c6077be710ad31f1461856f0579d2313748e2a98288541dedacc"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-recursive-holes-v6/attempt-v1/numeric-results-v1.json",
+            "bytes": 1109714,
+            "sha256": "d5848d41ba98352312ea8ae76b95eb3cd1c3bf9920a2562a3c789fb5a171a8ba"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own contiguous index0..127 startup and all hole/recovery dependencies",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own index-zero input prefix absent; no recursive seed or startup/recovery rule fitted",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-recursive-holes-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 1109714,
+        "sha256": "d5848d41ba98352312ea8ae76b95eb3cd1c3bf9920a2562a3c789fb5a171a8ba"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 4,
+        "exactText": "### (4) Explicit-source recursive startup, holes and recovery\n\nSources: `sources/v95-recursive-holes-v5.pine`, `sources/v95-recursive-holes-v6.pine`. Survey rank(s): 5. 23 literal plots per source.\n\n**Falsifiable acceptance criterion:** Own contiguous native index 0..127 supplies literal-source input history. Discriminate per function between skipping missing observations, consuming missing chart slots, and poisoning through a hole; compare each actual NA mask and first finite recovery row after leading 3, interior 2 and interior 3 holes. Freeze EMA recurrence alpha=2/(3+1) with first finite seed versus SMA3 seed, RMA alpha=1/3 with SMA3 seed versus first finite seed; RSI/TSI outputs are native vectors, not assumed consequences of EMA agreement. Preserve clean controls and every contrary raw value.\n\n**NOT OBSERVED branch:** No index 0 prefix, any ordinal/index gap, fewer than128 closed rows, incomplete hole/recovery windows, lost precision or refusal leaves that startup/recovery subfacet NOT OBSERVED. Do not seed from the first exported value or fit a new rule during capture; suffix values remain OBSERVED. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-implicit-ta-v5",
+      "originalSourceId": "v95-implicit-ta-v5",
+      "v95Item": 5,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-implicit-ta-v5.pine",
+        "bytes": 995,
+        "sha256": "949a7940f2f08a0e597958ec78cdb262b5b8d706fc17ebe6acce9dfd7bad0e25"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-implicit-ta-v5/attempt-v1/numeric-results-v1.json",
+            "bytes": 1006444,
+            "sha256": "1a06a33ec561e2bbf03611663e72370e49ec56237914683a5f37306950830dc5"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own OHLC index0..127 prefix for ATR/DMI/Supertrend startup",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own OHLC prefix omitted; seed-dependent target vectors have zero startup scoring credit",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-implicit-ta-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 1006444,
+        "sha256": "1a06a33ec561e2bbf03611663e72370e49ec56237914683a5f37306950830dc5"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 5,
+        "exactText": "### (5) Native OHLC ATR, DMI and Supertrend\n\nSources: `sources/v95-implicit-ta-v5.pine`, `sources/v95-implicit-ta-v6.pine`. Survey rank(s): 5. 21 literal plots per source.\n\n**Falsifiable acceptance criterion:** Bind all own OHLC rows from index 0 through at least 127 and every native target/NA column. Freeze true-range max(H-L,abs(H-prevC),abs(L-prevC)) with first-bar H-L control; ATR RMA3 with SMA seed versus first-TR seed predicts different startup/recovery values. DMI3/3 and Supertrend2/3 are separate full captured vectors with observed first finite rows and direction transitions. Their exact closed vectors can falsify an engine replay using these same complete OHLC inputs; no generic TA inference follows.\n\n**NOT OBSERVED branch:** Missing/truncated OHLC prefix, absent input fields, no witnessed direction transition for that transition facet, insufficient closed rows, version refusal or unresolved precision leaves that facet NOT OBSERVED. Do not manufacture high/low gaps or missing market bars. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-implicit-ta-v6",
+      "originalSourceId": "v95-implicit-ta-v6",
+      "v95Item": 5,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-implicit-ta-v6.pine",
+        "bytes": 995,
+        "sha256": "39db60cb152030602463067e2c1bd873db978a1c26096a5989791127af424fc4"
+      },
+      "eligible": true,
+      "selectionReason": "REQUIRED / explicit v97 items2\u20135 mandate and own-prefix hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-implicit-ta-v6/attempt-v1/numeric-results-v1.json",
+            "bytes": 1006444,
+            "sha256": "076cfb08d10b04a6824e81c269f9884cff1e3a8e40b292776c41de24686ade45"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own OHLC index0..127 prefix for ATR/DMI/Supertrend startup",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own OHLC prefix omitted; seed-dependent target vectors have zero startup scoring credit",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-implicit-ta-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 1006444,
+        "sha256": "076cfb08d10b04a6824e81c269f9884cff1e3a8e40b292776c41de24686ade45"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 5,
+        "exactText": "### (5) Native OHLC ATR, DMI and Supertrend\n\nSources: `sources/v95-implicit-ta-v5.pine`, `sources/v95-implicit-ta-v6.pine`. Survey rank(s): 5. 21 literal plots per source.\n\n**Falsifiable acceptance criterion:** Bind all own OHLC rows from index 0 through at least 127 and every native target/NA column. Freeze true-range max(H-L,abs(H-prevC),abs(L-prevC)) with first-bar H-L control; ATR RMA3 with SMA seed versus first-TR seed predicts different startup/recovery values. DMI3/3 and Supertrend2/3 are separate full captured vectors with observed first finite rows and direction transitions. Their exact closed vectors can falsify an engine replay using these same complete OHLC inputs; no generic TA inference follows.\n\n**NOT OBSERVED branch:** Missing/truncated OHLC prefix, absent input fields, no witnessed direction transition for that transition facet, insufficient closed rows, version refusal or unresolved precision leaves that facet NOT OBSERVED. Do not manufacture high/low gaps or missing market bars. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-pivots-levels-v5",
+      "originalSourceId": "v95-pivots-levels-v5",
+      "v95Item": 6,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-pivots-levels-v5.pine",
+        "bytes": 2239,
+        "sha256": "b399465c9f980adf3747ce6493f730c048347c85e65063fe4c943fd3f2dd25bc"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Incomplete preceding anchor and fractional math are distinct from own-origin seed holds",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-pivots-levels-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 4818573,
+        "sha256": "2a789d5cb3d148b34e0e75246233c684943e98057386bb0da9b9924448a50937"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 6,
+        "exactText": "### (6) Dynamic pivot strengths, plateau ties and levels\n\nSources: `sources/v95-pivots-levels-v5.pine`, `sources/v95-pivots-levels-v6.pine`. Survey rank(s): 6. 44 literal plots per source.\n\n**Falsifiable acceptance criterion:** Require three complete 16-bar blocks plus preceding confirmation context. Plateau X makes leftmost/rightmost tie handling and current confirmation-row placement discriminate; compare PH/PL with the exact series LEFT/RIGHT in the source, not retrospectively moved markers. Both implicit 2/2 outputs use actual plotted H/L. Traditional level arrays have all 11 positional slots and counts exposed; nondeveloping levels should remain fixed between anchors, while developing levels can follow the current anchor window. Frozen Traditional P=(H+L+C)/3 and R1=2P-L, S1=2P-H use the separately bound completed anchor interval; other 8 slots remain exact native targets. No other pivot type is certified.\n\n**NOT OBSERVED branch:** Absent ties/confirmations, incomplete prior anchor window, missing strengths/OHLC/array slots, unexpected count>11, no developing/nondeveloping discriminator or refusal leaves only that bounded property NOT OBSERVED. Unexpected existing cells/counts remain contrary observations, not an unavailable array. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-pivots-levels-v6",
+      "originalSourceId": "v95-pivots-levels-v6",
+      "v95Item": 6,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-pivots-levels-v6.pine",
+        "bytes": 2239,
+        "sha256": "a275be0f87a9422b177045379f36c590b4290d7bba7ee359e1f814867a1c9011"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Incomplete preceding anchor and fractional math are distinct from own-origin seed holds",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-pivots-levels-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 4818573,
+        "sha256": "acece51d90c230c48754ea5b3e7686d3a551ad3a995eb9bb9cbfce1519edef83"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 6,
+        "exactText": "### (6) Dynamic pivot strengths, plateau ties and levels\n\nSources: `sources/v95-pivots-levels-v5.pine`, `sources/v95-pivots-levels-v6.pine`. Survey rank(s): 6. 44 literal plots per source.\n\n**Falsifiable acceptance criterion:** Require three complete 16-bar blocks plus preceding confirmation context. Plateau X makes leftmost/rightmost tie handling and current confirmation-row placement discriminate; compare PH/PL with the exact series LEFT/RIGHT in the source, not retrospectively moved markers. Both implicit 2/2 outputs use actual plotted H/L. Traditional level arrays have all 11 positional slots and counts exposed; nondeveloping levels should remain fixed between anchors, while developing levels can follow the current anchor window. Frozen Traditional P=(H+L+C)/3 and R1=2P-L, S1=2P-H use the separately bound completed anchor interval; other 8 slots remain exact native targets. No other pivot type is certified.\n\n**NOT OBSERVED branch:** Absent ties/confirmations, incomplete prior anchor window, missing strengths/OHLC/array slots, unexpected count>11, no developing/nondeveloping discriminator or refusal leaves only that bounded property NOT OBSERVED. Unexpected existing cells/counts remain contrary observations, not an unavailable array. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-history-udt-v5",
+      "originalSourceId": "v95-history-udt-v5",
+      "v95Item": 7,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-history-udt-v5.pine",
+        "bytes": 1203,
+        "sha256": "b5153b93c6cfa524ad71439213419f8f418ff87179d54ed4ddbf1f05a763117c"
+      },
+      "eligible": true,
+      "selectionReason": "ACTIVATED / exact completed v95 own-origin hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-history-udt-v5/attempt-v1/numeric-results-v1.json",
+            "bytes": 444315,
+            "sha256": "c3bb25666930b7a60061a2e4b0312876bbbb49b3a80ce1aeeee1fc3e664461c9"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own origin for pre-origin dynamic/history missingness",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own index-zero row omitted; no pre-origin behavior inferred",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-history-udt-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 444315,
+        "sha256": "c3bb25666930b7a60061a2e4b0312876bbbb49b3a80ce1aeeee1fc3e664461c9"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 7,
+        "exactText": "### (7) Dynamic history, shallow UDT copy and reference history\n\nSources: `sources/v95-history-udt-v5.pine`, `sources/v95-history-udt-v6.pine`. Survey rank(s): 7,4. 18 literal plots per source.\n\n**Falsifiable acceptance criterion:** On closed rows with witnessed dependency rows, X[lag] must equal the exact exported X at native index i-lag, including lag0 and pre-origin NA when index 0 is present. Alias mutation predicts REC_X=X+100, COPY_X=X+200; a shallow reference-field copy predicts both payload0=X+300, unlike deep copy. Distinct per-bar instances predict PRIOR_X=previous X+100 and prior payload=previous X+300. All integer-valued facets discriminate exactly; native contrary copy/history semantics are retained.\n\n**NOT OBSERVED branch:** No complete dependency indices, no index 0 for pre-origin behavior, missing object/array outputs, refusal or lost precision leaves that property NOT OBSERVED. Never transfer a new object frontier to a historical original, or infer live rollback from these closed rows. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-history-udt-v6",
+      "originalSourceId": "v95-history-udt-v6",
+      "v95Item": 7,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-history-udt-v6.pine",
+        "bytes": 1203,
+        "sha256": "86cfd167dddb421bba4079615c0d62dd6e833f1b0edbc2943ef0ab282c36e3b2"
+      },
+      "eligible": true,
+      "selectionReason": "ACTIVATED / exact completed v95 own-origin hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-history-udt-v6/attempt-v1/numeric-results-v1.json",
+            "bytes": 444315,
+            "sha256": "3f77b07e18635104da21489c171b4867a93e302cb2f666ddf4e2094bf76dad83"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own origin for pre-origin dynamic/history missingness",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own index-zero row omitted; no pre-origin behavior inferred",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-history-udt-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 444315,
+        "sha256": "3f77b07e18635104da21489c171b4867a93e302cb2f666ddf4e2094bf76dad83"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 7,
+        "exactText": "### (7) Dynamic history, shallow UDT copy and reference history\n\nSources: `sources/v95-history-udt-v5.pine`, `sources/v95-history-udt-v6.pine`. Survey rank(s): 7,4. 18 literal plots per source.\n\n**Falsifiable acceptance criterion:** On closed rows with witnessed dependency rows, X[lag] must equal the exact exported X at native index i-lag, including lag0 and pre-origin NA when index 0 is present. Alias mutation predicts REC_X=X+100, COPY_X=X+200; a shallow reference-field copy predicts both payload0=X+300, unlike deep copy. Distinct per-bar instances predict PRIOR_X=previous X+100 and prior payload=previous X+300. All integer-valued facets discriminate exactly; native contrary copy/history semantics are retained.\n\n**NOT OBSERVED branch:** No complete dependency indices, no index 0 for pre-origin behavior, missing object/array outputs, refusal or lost precision leaves that property NOT OBSERVED. Never transfer a new object frontier to a historical original, or infer live rollback from these closed rows. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-session-calendar-v5",
+      "originalSourceId": "v95-session-calendar-v5",
+      "v95Item": 8,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-session-calendar-v5.pine",
+        "bytes": 1582,
+        "sha256": "0e1320fc0f6c761c05d3750f8d92607ac8cf9efefac69effac17087ac788f03d"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Missing natural transitions/DST-date opportunity; not an omitted-own-zero seed facet",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-session-calendar-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 528441,
+        "sha256": "2655e5c778be970c5e68065d809ab6d6c7b0ca7393f8dd777a06bc9de849f9ee"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 8,
+        "exactText": "### (8) Overnight session membership and fixed DST conversions\n\nSources: `sources/v95-session-calendar-v5.pine`, `sources/v95-session-calendar-v6.pine`. Survey rank(s): 8. 23 literal plots per source.\n\n**Falsifiable acceptance criterion:** Four fixed UTC instants predict NY hours1,3,1,1 and minutes30 across US2026 DST spring/fall boundaries. This tests Pine conversion of source literals, not market bars at those dates. On actually loaded closed 2m bars, overnight membership should be hour>=23 or hour<2 in the exported NY local clock; session open/close and daily/week boundary values remain separately bound native targets. Require both inside/outside rows and a real membership transition for the transition facet. No IANA offset, session-day or boundary result is inferred from a blank alone.\n\n**NOT OBSERVED branch:** Unavailable fixed phases, no naturally loaded membership transition/day/week boundary, missing clock/session columns, no inside/outside rows or refusal leaves the corresponding facet NOT OBSERVED. Fixed-date conversion does not observe a market session on a DST transition; that calendar/session domain remains deferred. No history navigation or date substitution. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-session-calendar-v6",
+      "originalSourceId": "v95-session-calendar-v6",
+      "v95Item": 8,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-session-calendar-v6.pine",
+        "bytes": 1582,
+        "sha256": "317f695e7ea61e3984188b63b1f5250f041b89854036d6726736f86c6eb6d6db"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Missing natural transitions/DST-date opportunity; not an omitted-own-zero seed facet",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-session-calendar-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 528441,
+        "sha256": "b0dcde4fd9c6715805ac693aef2fd37c32df6267d184b0701148da23c043ba7b"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 8,
+        "exactText": "### (8) Overnight session membership and fixed DST conversions\n\nSources: `sources/v95-session-calendar-v5.pine`, `sources/v95-session-calendar-v6.pine`. Survey rank(s): 8. 23 literal plots per source.\n\n**Falsifiable acceptance criterion:** Four fixed UTC instants predict NY hours1,3,1,1 and minutes30 across US2026 DST spring/fall boundaries. This tests Pine conversion of source literals, not market bars at those dates. On actually loaded closed 2m bars, overnight membership should be hour>=23 or hour<2 in the exported NY local clock; session open/close and daily/week boundary values remain separately bound native targets. Require both inside/outside rows and a real membership transition for the transition facet. No IANA offset, session-day or boundary result is inferred from a blank alone.\n\n**NOT OBSERVED branch:** Unavailable fixed phases, no naturally loaded membership transition/day/week boundary, missing clock/session columns, no inside/outside rows or refusal leaves the corresponding facet NOT OBSERVED. Fixed-date conversion does not observe a market session on a DST transition; that calendar/session domain remains deferred. No history navigation or date substitution. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-vwap-bands-v5",
+      "originalSourceId": "v95-vwap-bands-v5",
+      "v95Item": 9,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-vwap-bands-v5.pine",
+        "bytes": 1312,
+        "sha256": "9a6b101ff47bbb3720b5300e1429fe09527b887b7d7b9509ad7856b15648e1d6"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Old unanchored original frontier is outside this fresh anchored-source contract",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-vwap-bands-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 2329156,
+        "sha256": "c6b7e3818f29250da0f67b691f26a0e0fc4d55ec7b0f56e8e37e3235a9b675ec"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 9,
+        "exactText": "### (9) Anchored VWAP bands, multipliers and source holes\n\nSources: `sources/v95-vwap-bands-v5.pine`, `sources/v95-vwap-bands-v6.pine`. Survey rank(s): 9. 25 literal plots per source.\n\n**Falsifiable acceptance criterion:** For each complete anchor interval, compute W=sum(volume), mean=sum(volume*close)/W and weighted population deviation sqrt(sum(volume*(close-mean)^2)/W) from the exact native inputs as a frozen candidate. Compare all 3 fixed1.5-band outputs and series0/1/2 multiplier outputs; zero multiplier predicts upper=lower=VWAP, with nonzero variance required to discriminate the other multipliers. Compare skip-hole versus poison-until-anchor hypotheses on phase 5..15 and the next reset; two-arg output is an independent control. Preserve raw binary64/residue and any inadequate precision as UNDECIDED.\n\n**NOT OBSERVED branch:** No full anchor interval, no nonzero variance/positive W, missing raw Volume/close/anchor/multiplier or array-independent columns, incomplete recovery block, refusal or insufficient precision leaves that property NOT OBSERVED. Zero/missing volume states require actual occurrence; do not induce or infer them. No unanchored original-prefix or footprint claim. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-vwap-bands-v6",
+      "originalSourceId": "v95-vwap-bands-v6",
+      "v95Item": 9,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-vwap-bands-v6.pine",
+        "bytes": 1312,
+        "sha256": "c32346e960702bc47be27fa2bf78ece89167ca402849fd5054900e48adb4a78b"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Old unanchored original frontier is outside this fresh anchored-source contract",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-vwap-bands-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 2329156,
+        "sha256": "4c741d516199858c6ab883a20bb8f867aeeba91503dc1552f7bc4da1161e0dd2"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 9,
+        "exactText": "### (9) Anchored VWAP bands, multipliers and source holes\n\nSources: `sources/v95-vwap-bands-v5.pine`, `sources/v95-vwap-bands-v6.pine`. Survey rank(s): 9. 25 literal plots per source.\n\n**Falsifiable acceptance criterion:** For each complete anchor interval, compute W=sum(volume), mean=sum(volume*close)/W and weighted population deviation sqrt(sum(volume*(close-mean)^2)/W) from the exact native inputs as a frozen candidate. Compare all 3 fixed1.5-band outputs and series0/1/2 multiplier outputs; zero multiplier predicts upper=lower=VWAP, with nonzero variance required to discriminate the other multipliers. Compare skip-hole versus poison-until-anchor hypotheses on phase 5..15 and the next reset; two-arg output is an independent control. Preserve raw binary64/residue and any inadequate precision as UNDECIDED.\n\n**NOT OBSERVED branch:** No full anchor interval, no nonzero variance/positive W, missing raw Volume/close/anchor/multiplier or array-independent columns, incomplete recovery block, refusal or insufficient precision leaves that property NOT OBSERVED. Zero/missing volume states require actual occurrence; do not induce or infer them. No unanchored original-prefix or footprint claim. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-typed-na-v5",
+      "originalSourceId": "v95-typed-na-v5",
+      "v95Item": 10,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-typed-na-v5.pine",
+        "bytes": 1205,
+        "sha256": "09dc2c71bea35af54d527d923eec7c1e5ef1f388ba56fe4cc413732001e76c3a"
+      },
+      "eligible": true,
+      "selectionReason": "ACTIVATED / exact completed v95 own-origin hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-typed-na-v5/attempt-v1/numeric-results-v1.json",
+            "bytes": 488451,
+            "sha256": "a811efcf0147d48552adeda620e5114bd28bf6928d7174e78e2a226196febd73"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own origin for pre-origin Boolean/fixnan startup",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own first input row absent; repeated FIRST fields do not recover startup",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-typed-na-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 488451,
+        "sha256": "a811efcf0147d48552adeda620e5114bd28bf6928d7174e78e2a226196febd73"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 10,
+        "exactText": "### (10) Typed NA, versioned boolean history and casts\n\nSources: `sources/v95-typed-na-v5.pine`, `sources/v95-typed-na-v6.pine`. Survey rank(s): 10. 21 literal plots per source.\n\n**Falsifiable acceptance criterion:** Numeric missing rows must stay raw blank with their NA witness; nz replacement candidate17 and int truncation candidates-2/0/2 discriminate rounding/sign semantics. Compare fixnan carry-forward against slot propagation, with first-row missing kept separate. v5 encodes bool NA as-1 and false/true0/1; v6 encodes its bool domain0/1 without calling forbidden na(bool). At own index 0 compare out-of-history boolean NA(-1) versus false(0), independently per version. Missing-string length/empty/NA and numeric parse are captured targets, not normalized representations.\n\n**NOT OBSERVED branch:** No index 0 leaves pre-origin bool/fixnan startup NOT OBSERVED; no full four-phase/previous-finite dependencies, absent NA witnesses/columns, version refusal or lost precision leaves that individual facet NOT OBSERVED. v6 bool representation never proves that v5 accepts the same domain. A witnessed blank is not unavailable input. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-typed-na-v6",
+      "originalSourceId": "v95-typed-na-v6",
+      "v95Item": 10,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-typed-na-v6.pine",
+        "bytes": 1169,
+        "sha256": "cab1e72c2a713ee435a307214c588f7c9e16fc48b788ebb98e85d8edbe9018c3"
+      },
+      "eligible": true,
+      "selectionReason": "ACTIVATED / exact completed v95 own-origin hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-typed-na-v6/attempt-v1/numeric-results-v1.json",
+            "bytes": 488419,
+            "sha256": "40aa17c1d0c8939ee72dfc1fa58d25808e2f4df9ca8cc4d3f3cf050a3e7df1cb"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own origin for pre-origin Boolean/fixnan startup",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own first input row absent; repeated FIRST fields do not recover startup",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-typed-na-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 488419,
+        "sha256": "40aa17c1d0c8939ee72dfc1fa58d25808e2f4df9ca8cc4d3f3cf050a3e7df1cb"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 10,
+        "exactText": "### (10) Typed NA, versioned boolean history and casts\n\nSources: `sources/v95-typed-na-v5.pine`, `sources/v95-typed-na-v6.pine`. Survey rank(s): 10. 21 literal plots per source.\n\n**Falsifiable acceptance criterion:** Numeric missing rows must stay raw blank with their NA witness; nz replacement candidate17 and int truncation candidates-2/0/2 discriminate rounding/sign semantics. Compare fixnan carry-forward against slot propagation, with first-row missing kept separate. v5 encodes bool NA as-1 and false/true0/1; v6 encodes its bool domain0/1 without calling forbidden na(bool). At own index 0 compare out-of-history boolean NA(-1) versus false(0), independently per version. Missing-string length/empty/NA and numeric parse are captured targets, not normalized representations.\n\n**NOT OBSERVED branch:** No index 0 leaves pre-origin bool/fixnan startup NOT OBSERVED; no full four-phase/previous-finite dependencies, absent NA witnesses/columns, version refusal or lost precision leaves that individual facet NOT OBSERVED. v6 bool representation never proves that v5 accepts the same domain. A witnessed blank is not unavailable input. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-array-alias-v5",
+      "originalSourceId": "v95-array-alias-v5",
+      "v95Item": 11,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-array-alias-v5.pine",
+        "bytes": 1639,
+        "sha256": "9f139a4fe048fe79135181cb005ab4a193cb84ac30873eff4c0fc5a4a1986740"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Bounded alias/copy controls captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-array-alias-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 499488,
+        "sha256": "eb575ff4285d9371a19d620d2d541d241ec1d592c5be0a793538560500a89d19"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 11,
+        "exactText": "### (11) Numeric array copy, slice mutation and reference constructors\n\nSources: `sources/v95-array-alias-v5.pine`, `sources/v95-array-alias-v6.pine`. Survey rank(s): 11. 27 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze shared-slice/shallow numeric copy candidate: A=[1,20,3,9,4], B=[1,2,3,4], VIEW=[20,3,9], sizes5/4/3 and LAST4. An isolated slice predicts a different A. Typed box/table arrays should expose sizes2/1 and actual missing-ID flags; these are containers, no drawing/table objects are created. Every slot is independently exported with guarded bounds.\n\n**NOT OBSERVED branch:** Refusal, runtime halt or missing source/size/slot/NA binding leaves that constructor/slice/copy facet NOT OBSERVED. Unexpected sizes and present slots remain observed; no generic object-copy or all reference-kind claim follows. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-array-alias-v6",
+      "originalSourceId": "v95-array-alias-v6",
+      "v95Item": 11,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-array-alias-v6.pine",
+        "bytes": 1639,
+        "sha256": "ab3737df2e8a191106979a21889ddac0b77af73f43b86cf8bd1ddbbe0f3159bb"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Bounded alias/copy controls captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-array-alias-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 499488,
+        "sha256": "ef7b3432d0d8d35eb19a0aa00c645078132dd7903dd7ee0ac9dbc5f41b944dab"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 11,
+        "exactText": "### (11) Numeric array copy, slice mutation and reference constructors\n\nSources: `sources/v95-array-alias-v5.pine`, `sources/v95-array-alias-v6.pine`. Survey rank(s): 11. 27 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze shared-slice/shallow numeric copy candidate: A=[1,20,3,9,4], B=[1,2,3,4], VIEW=[20,3,9], sizes5/4/3 and LAST4. An isolated slice predicts a different A. Typed box/table arrays should expose sizes2/1 and actual missing-ID flags; these are containers, no drawing/table objects are created. Every slot is independently exported with guarded bounds.\n\n**NOT OBSERVED branch:** Refusal, runtime halt or missing source/size/slot/NA binding leaves that constructor/slice/copy facet NOT OBSERVED. Unexpected sizes and present slots remain observed; no generic object-copy or all reference-kind claim follows. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-array-missing-v5",
+      "originalSourceId": "v95-array-missing-v5",
+      "v95Item": 12,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-array-missing-v5.pine",
+        "bytes": 1691,
+        "sha256": "bb82db62a74e1660d0310e979630a87af234c2b4c05e903711806c40a6288a19"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Fractional precision and observed missing percentile are not own-origin holds",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-array-missing-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 754588,
+        "sha256": "eca5eb7db4b0639f267409d709034a57c84810e343e50aafffc753596dafe570"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 12,
+        "exactText": "### (12) Missing-element search, order and reductions\n\nSources: `sources/v95-array-missing-v5.pine`, `sources/v95-array-missing-v6.pine`. Survey rank(s): 11,10. 31 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze separate candidates: missing search is equal-to-missing versus never matches; reductions skip NA versus propagate NA; ascending order puts the NA first versus last and sort_indices must describe the actual stable/tie ordering. Under skip semantics finite sum7/avg7/3/median3/min1/max3/population variance 8/9 and stdev sqrt(8/9) are predictions, not prescribed output. All slots and per-slot NA flags expose the complete four-element sorted result.\n\n**NOT OBSERVED branch:** No source-bound search/reduction/order slots, insufficient precision or refusal leaves that property NOT OBSERVED. A returned NA with a witness is an observed result. Empty arrays, every reduction flag variant and arbitrary NA/key/reference types are outside this one valid nonempty numeric case. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-array-missing-v6",
+      "originalSourceId": "v95-array-missing-v6",
+      "v95Item": 12,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-array-missing-v6.pine",
+        "bytes": 1691,
+        "sha256": "f56094c0e138f584c3b0948aa96ba1402f2a235dbcc128d8ff29d09cffe10820"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Fractional precision and observed missing percentile are not own-origin holds",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-array-missing-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 754588,
+        "sha256": "0b484d22c95fade6cf49b5e4f58b18cb8c40daa912474b13dbe3f41422861c33"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 12,
+        "exactText": "### (12) Missing-element search, order and reductions\n\nSources: `sources/v95-array-missing-v5.pine`, `sources/v95-array-missing-v6.pine`. Survey rank(s): 11,10. 31 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze separate candidates: missing search is equal-to-missing versus never matches; reductions skip NA versus propagate NA; ascending order puts the NA first versus last and sort_indices must describe the actual stable/tie ordering. Under skip semantics finite sum7/avg7/3/median3/min1/max3/population variance 8/9 and stdev sqrt(8/9) are predictions, not prescribed output. All slots and per-slot NA flags expose the complete four-element sorted result.\n\n**NOT OBSERVED branch:** No source-bound search/reduction/order slots, insufficient precision or refusal leaves that property NOT OBSERVED. A returned NA with a witness is an observed result. Empty arrays, every reduction flag variant and arbitrary NA/key/reference types are outside this one valid nonempty numeric case. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-input-defaults-v5",
+      "originalSourceId": "v95-input-defaults-v5",
+      "v95Item": 13,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-input-defaults-v5.pine",
+        "bytes": 2024,
+        "sha256": "89004b4365cf68ea6460214e536dcd8569af1dc9acf82b86c00523dc26e44ca5"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Declared defaults captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-input-defaults-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 341107,
+        "sha256": "1b22cbd1d5a26ae616af9b33fc10c968cbf57f51ea49b109afe3acd418ac2559"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 13,
+        "exactText": "### (13) Native default values without settings mutation\n\nSources: `sources/v95-input-defaults-v5.pine`, `sources/v95-input-defaults-v6.pine`. Survey rank(s): 12. 30 literal plots per source.\n\n**Falsifiable acceptance criterion:** Defaults predict I7,F1.25,B1, S length 3/exact1, enum A1, session length 9/exact1, TF length 1/exact1, symbol length 15/exact1, SOURCE equal same-row native close, PRICE12.5, TIME1767225600000, color10/20/30/T40, generic2 and text length 4/exact1. Length plus exact-literal membership flags are hash-free numeric discriminators, not full decoding of arbitrary contrary strings. Record native settings/default metadata passively if exposed; no input is changed. A false exact flag refutes the default even when length matches.\n\n**NOT OBSERVED branch:** Missing default/setting/column ownership or refusal leaves that field NOT OBSERVED. An exact flag0 is a captured contradiction, not unavailable data. Options/range/step/confirm interaction, active/display changes and external input.source selections are explicitly deferred because this request performs no settings changes. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-input-defaults-v6",
+      "originalSourceId": "v95-input-defaults-v6",
+      "v95Item": 13,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-input-defaults-v6.pine",
+        "bytes": 2024,
+        "sha256": "500c32bf6701daefd7e95c967760b78e7f9ef9ccb1fcfdec046f43ff8e6f9d2b"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Declared defaults captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-input-defaults-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 341107,
+        "sha256": "6b075fdf8c169b192117ea3588aedf7242a4ac1721d65da36f55d0e69d144641"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 13,
+        "exactText": "### (13) Native default values without settings mutation\n\nSources: `sources/v95-input-defaults-v5.pine`, `sources/v95-input-defaults-v6.pine`. Survey rank(s): 12. 30 literal plots per source.\n\n**Falsifiable acceptance criterion:** Defaults predict I7,F1.25,B1, S length 3/exact1, enum A1, session length 9/exact1, TF length 1/exact1, symbol length 15/exact1, SOURCE equal same-row native close, PRICE12.5, TIME1767225600000, color10/20/30/T40, generic2 and text length 4/exact1. Length plus exact-literal membership flags are hash-free numeric discriminators, not full decoding of arbitrary contrary strings. Record native settings/default metadata passively if exposed; no input is changed. A false exact flag refutes the default even when length matches.\n\n**NOT OBSERVED branch:** Missing default/setting/column ownership or refusal leaves that field NOT OBSERVED. An exact flag0 is a captured contradiction, not unavailable data. Options/range/step/confirm interaction, active/display changes and external input.source selections are explicitly deferred because this request performs no settings changes. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-math-vectors-v5",
+      "originalSourceId": "v95-math-vectors-v5",
+      "v95Item": 14,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-math-vectors-v5.pine",
+        "bytes": 1391,
+        "sha256": "eafeca9e8e26af07794c54c1664ecfbc0acdd8eeec5e82ef5fda0dbee400d40b"
+      },
+      "eligible": true,
+      "selectionReason": "ACTIVATED / exact completed v95 own-origin hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-math-vectors-v5/attempt-v1/numeric-results-v1.json",
+            "bytes": 860933,
+            "sha256": "c6ce75cec9f82016a61915eb42035109e1d80e49a743f906aae2ca3e486da5ab"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own index-zero prefix for seeded random stream replay",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own startup input prefix omitted; sampled random values do not establish the full seed/stream identity",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-math-vectors-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 860933,
+        "sha256": "c6ce75cec9f82016a61915eb42035109e1d80e49a743f906aae2ca3e486da5ab"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 14,
+        "exactText": "### (14) Rounding, scalar vectors and seeded call sites\n\nSources: `sources/v95-math-vectors-v5.pine`, `sources/v95-math-vectors-v6.pine`. Survey rank(s): 13. 27 literal plots per source.\n\n**Falsifiable acceptance criterion:** Six half-ties discriminate ties-up, ties-away and ties-even rounding; floor/ceil/int and round1 are separate controls. Bind actual tickInput/mintick binary64 strings for tick rounding; do not treat decimal source text as an exact native binary value. Min/max/avg variadic values are rationally computable and scalar exp/log/pow remain raw native vectors. Require native index 0 prefix for random stream replay: two seed 7 call sites discriminate equal independent streams versus shared/different streams, without prescribing a PRNG algorithm. SUM3 compares only rows with all 3 X dependencies.\n\n**NOT OBSERVED branch:** Missing six-value phases, tick/input/precision loss or refusal leaves that scalar property NOT OBSERVED. Missing index 0 leaves random stream identity HELD while raw random values stay observed; finite source samples never certify all seeds, ranges, overflow or every qualifier overload. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-math-vectors-v6",
+      "originalSourceId": "v95-math-vectors-v6",
+      "v95Item": 14,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-math-vectors-v6.pine",
+        "bytes": 1391,
+        "sha256": "e0f211b6db5ab1cfe86872ceecb9d042ea5e0d7ef0da3e09ba47813b4cb809d5"
+      },
+      "eligible": true,
+      "selectionReason": "ACTIVATED / exact completed v95 own-origin hold",
+      "holdCitations": [
+        {
+          "artifact": {
+            "path": "v95/captures/v95/v95-math-vectors-v6/attempt-v1/numeric-results-v1.json",
+            "bytes": 860933,
+            "sha256": "9ea081a9dd07c26fdf6c886dcfeda579f097f22f2216d9cd3ada0d8fe2cd50df"
+          },
+          "jsonPointer": "/facets/1",
+          "exactFacet": {
+            "facet": "Own index-zero prefix for seeded random stream replay",
+            "captureStatus": "NOT OBSERVED",
+            "hypothesisVerdict": "UNDECIDED",
+            "cause": "Own startup input prefix omitted; sampled random values do not establish the full seed/stream identity",
+            "details": null
+          }
+        }
+      ],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-math-vectors-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 860933,
+        "sha256": "9ea081a9dd07c26fdf6c886dcfeda579f097f22f2216d9cd3ada0d8fe2cd50df"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 14,
+        "exactText": "### (14) Rounding, scalar vectors and seeded call sites\n\nSources: `sources/v95-math-vectors-v5.pine`, `sources/v95-math-vectors-v6.pine`. Survey rank(s): 13. 27 literal plots per source.\n\n**Falsifiable acceptance criterion:** Six half-ties discriminate ties-up, ties-away and ties-even rounding; floor/ceil/int and round1 are separate controls. Bind actual tickInput/mintick binary64 strings for tick rounding; do not treat decimal source text as an exact native binary value. Min/max/avg variadic values are rationally computable and scalar exp/log/pow remain raw native vectors. Require native index 0 prefix for random stream replay: two seed 7 call sites discriminate equal independent streams versus shared/different streams, without prescribing a PRNG algorithm. SUM3 compares only rows with all 3 X dependencies.\n\n**NOT OBSERVED branch:** Missing six-value phases, tick/input/precision loss or refusal leaves that scalar property NOT OBSERVED. Missing index 0 leaves random stream identity HELD while raw random values stay observed; finite source samples never certify all seeds, ranges, overflow or every qualifier overload. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-string-format-v5",
+      "originalSourceId": "v95-string-format-v5",
+      "v95Item": 15,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-string-format-v5.pine",
+        "bytes": 2142,
+        "sha256": "9a14b039e7cddc0865c60b9ca1bbe7933f5e9ade0c54b8df32a75287c8bafab9"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Bounded formatting captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-string-format-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 1913739,
+        "sha256": "981c50b2f83a653b1a1d1fd996056b4f02e8cdc567511ecb08b4426319c8a550"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 15,
+        "exactText": "### (15) Bounded numeric/time formatting with positional encodings\n\nSources: `sources/v95-string-format-v5.pine`, `sources/v95-string-format-v6.pine`. Survey rank(s): 14,8. 39 literal plots per source.\n\n**Falsifiable acceptance criterion:** Reconstruct each bounded string from length plus positional alphabet ordinals; padding=-1, unknown-character=-2. Alphabet is literal and has unique characters; export controls0/A/dash test the encoder independently. Freeze tostring candidates-2.50,0.00,1.25,12.50 and time01:30/03:30; compare format one-decimal half-tie alternatives separately. Missing numeric stringify is an open native string target, not assumed empty/NaN. Full decoding requires length<=cap, no unknown codes and adequate integer precision; length alone cannot certify identity.\n\n**NOT OBSERVED branch:** Any missing code/length/control, length>cap, unknown character or numeric precision loss leaves full-string identity NOT OBSERVED but preserves every observed encoding. Failure of encoding controls prevents attributing a result solely to formatting. No runtime source edit expands a string cap. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-string-format-v6",
+      "originalSourceId": "v95-string-format-v6",
+      "v95Item": 15,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-string-format-v6.pine",
+        "bytes": 2142,
+        "sha256": "790ff7d503fe7ce73feb82b02449358b0865a50895da81ed5a75fa66a08f93a1"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Bounded formatting captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-string-format-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 1913739,
+        "sha256": "615e9c8d793f5431ec81d40abf047fbc902b7969ab859b1b54281108b223c32d"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 15,
+        "exactText": "### (15) Bounded numeric/time formatting with positional encodings\n\nSources: `sources/v95-string-format-v5.pine`, `sources/v95-string-format-v6.pine`. Survey rank(s): 14,8. 39 literal plots per source.\n\n**Falsifiable acceptance criterion:** Reconstruct each bounded string from length plus positional alphabet ordinals; padding=-1, unknown-character=-2. Alphabet is literal and has unique characters; export controls0/A/dash test the encoder independently. Freeze tostring candidates-2.50,0.00,1.25,12.50 and time01:30/03:30; compare format one-decimal half-tie alternatives separately. Missing numeric stringify is an open native string target, not assumed empty/NaN. Full decoding requires length<=cap, no unknown codes and adequate integer precision; length alone cannot certify identity.\n\n**NOT OBSERVED branch:** Any missing code/length/control, length>cap, unknown character or numeric precision loss leaves full-string identity NOT OBSERVED but preserves every observed encoding. Failure of encoding controls prevents attributing a result solely to formatting. No runtime source edit expands a string cap. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-string-operations-v5",
+      "originalSourceId": "v95-string-operations-v5",
+      "v95Item": 16,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-string-operations-v5.pine",
+        "bytes": 2422,
+        "sha256": "22be1d300af9fec5c191e49f20cc5a57325a9f8ec74ce7dfbc1ac2c96794b2f8"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Bounded string operations captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-string-operations-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 950098,
+        "sha256": "57a2b8867ef7c6fd503c3c6eb3673aa1ed4ee2dd40e7044eacf37f883850f3fb"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 16,
+        "exactText": "### (16) Replacement, repeat, split and no-match encodings\n\nSources: `sources/v95-string-operations-v5.pine`, `sources/v95-string-operations-v6.pine`. Survey rank(s): 14,10. 42 literal plots per source.\n\n**Falsifiable acceptance criterion:** Positional encodings discriminate occurrence1 zero-based replacement ABxy versus first-occurrence xyAB; replace_all predicts xyxy, repeat x-x-x and substring Bxy. Split candidates retaining versus dropping an empty middle field predict different sizes/lengths; all 3 bounded slots are exported. Capture no-match position and NA witness without substituting-1/0. Literal trim/upper/lower equality flags and numeric parse are separate controls; an exact flag0 is a contradiction.\n\n**NOT OBSERVED branch:** Missing/refused operations, ambiguous slot/code ownership, encoding control failure or cap/unknown/precision failure leaves only that operation identity NOT OBSERVED. Split size>3 keeps full distribution held; do not invent unknown string characters or Unicode coverage. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-string-operations-v6",
+      "originalSourceId": "v95-string-operations-v6",
+      "v95Item": 16,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-string-operations-v6.pine",
+        "bytes": 2422,
+        "sha256": "7d9a69c03e062185199474852a06b2bd740f029c510216ee667dc7aa44ef8712"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Bounded string operations captured; no explicit own-origin hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-string-operations-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 950098,
+        "sha256": "727e5441af270f991ef2634241dad1cb8639958a78cd5b41c5d27d18a2443faf"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 16,
+        "exactText": "### (16) Replacement, repeat, split and no-match encodings\n\nSources: `sources/v95-string-operations-v5.pine`, `sources/v95-string-operations-v6.pine`. Survey rank(s): 14,10. 42 literal plots per source.\n\n**Falsifiable acceptance criterion:** Positional encodings discriminate occurrence1 zero-based replacement ABxy versus first-occurrence xyAB; replace_all predicts xyxy, repeat x-x-x and substring Bxy. Split candidates retaining versus dropping an empty middle field predict different sizes/lengths; all 3 bounded slots are exported. Capture no-match position and NA witness without substituting-1/0. Literal trim/upper/lower equality flags and numeric parse are separate controls; an exact flag0 is a contradiction.\n\n**NOT OBSERVED branch:** Missing/refused operations, ambiguous slot/code ownership, encoding control failure or cap/unknown/precision failure leaves only that operation identity NOT OBSERVED. Split size>3 keeps full distribution held; do not invent unknown string characters or Unicode coverage. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-map-mutations-v5",
+      "originalSourceId": "v95-map-mutations-v5",
+      "v95Item": 17,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-map-mutations-v5.pine",
+        "bytes": 1870,
+        "sha256": "a46784a307efbf5a2e5615b390e33598916e0dac3a4cf1d65730c039a7d32976"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Unplotted merged-array full count cannot be supplied by an origin load",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-map-mutations-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 257134,
+        "sha256": "2e2299f222ecf78718642ebde9aa169e94ff40946406fa5e445515f66e4ac3f1"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 17,
+        "exactText": "### (17) Map overwrite order, merge, clear and reference aliases\n\nSources: `sources/v95-map-mutations-v5.pine`, `sources/v95-map-mutations-v6.pine`. Survey rank(s): 15. 22 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze insertion-order merge candidate: merged values[1,20,30], remove returns1, then reinserted keys[B,C,A] encode[2,3,1] with values[20,30,100]. Clearing the numeric copy predicts COPY_SIZE0 while original M_SIZE3 and donor size2. Shallow reference-value copying predicts REF_ORIGINAL=REF_COPY=6 rather than original1. Named key codes are exact candidate membership flags, not hashes. All3 final key/value slots are exported.\n\n**NOT OBSERVED branch:** No exact-source merge/clear/slot binding, unknown key code, unexpected size>3, runtime failure or refusal leaves the affected order/copy facet NOT OBSERVED. Existing unexpected values stay observed. Arbitrary key/value types and missing keys are not certified. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-map-mutations-v6",
+      "originalSourceId": "v95-map-mutations-v6",
+      "v95Item": 17,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-map-mutations-v6.pine",
+        "bytes": 1870,
+        "sha256": "598f34b8e285af167545fdea1ab17c1623aa001dee5eaf030f0023d9b75847b5"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Unplotted merged-array full count cannot be supplied by an origin load",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-map-mutations-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 257134,
+        "sha256": "37d99a1fe1332846eef55ae48394e46ac1f8ab94b8095e4a273009755b630c29"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 17,
+        "exactText": "### (17) Map overwrite order, merge, clear and reference aliases\n\nSources: `sources/v95-map-mutations-v5.pine`, `sources/v95-map-mutations-v6.pine`. Survey rank(s): 15. 22 literal plots per source.\n\n**Falsifiable acceptance criterion:** Freeze insertion-order merge candidate: merged values[1,20,30], remove returns1, then reinserted keys[B,C,A] encode[2,3,1] with values[20,30,100]. Clearing the numeric copy predicts COPY_SIZE0 while original M_SIZE3 and donor size2. Shallow reference-value copying predicts REF_ORIGINAL=REF_COPY=6 rather than original1. Named key codes are exact candidate membership flags, not hashes. All3 final key/value slots are exported.\n\n**NOT OBSERVED branch:** No exact-source merge/clear/slot binding, unknown key code, unexpected size>3, runtime failure or refusal leaves the affected order/copy facet NOT OBSERVED. Existing unexpected values stay observed. Arbitrary key/value types and missing keys are not certified. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-matrix-mutations-v5",
+      "originalSourceId": "v95-matrix-mutations-v5",
+      "v95Item": 18,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-matrix-mutations-v5.pine",
+        "bytes": 2170,
+        "sha256": "9834eaad48a4b717fa492c74b33cbebe2f22abed9473be2d1b211b0ed033d1cc"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Runtime RE10094 and blank source plots; not an own-origin seed hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-matrix-mutations-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 3482,
+        "sha256": "a8a1c1d810b33f5fbc2610bc797d67c0f3ab19a82ce6172e992b2e4b7c5f09d1"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 18,
+        "exactText": "### (18) Matrix fill, submatrix, reverse, reshape and concat\n\nSources: `sources/v95-matrix-mutations-v5.pine`, `sources/v95-matrix-mutations-v6.pine`. Survey rank(s): 15. 25 literal plots per source.\n\n**Falsifiable acceptance criterion:** Frozen exclusive fill bounds give original[[1,9,9],[1,1,1]], numeric submatrix mutation leaves source/copy01=9 and SUB00=77. Reverse both axes, swap rows and row-major reshape then concatenate an8 column predicts joined[[9,9,8],[1,1,8],[1,1,8]], size3x3/elements9. Also retain m dimensions to determine concat mutation versus isolated return. Alternative bounds/reverse/reshape/alias semantics change specific exported cells; compare every slot, not only a checksum.\n\n**NOT OBSERVED branch:** Refusal/runtime halt, missing operation/size/slot controls, dimensions beyond exported3x3 or insufficient precision leaves that transformation NOT OBSERVED. Unexpected dimensions/cells remain observed and do not justify out-of-bounds repair. No matrix<UDT> alias or generic numeric decomposition claim. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-matrix-mutations-v6",
+      "originalSourceId": "v95-matrix-mutations-v6",
+      "v95Item": 18,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-matrix-mutations-v6.pine",
+        "bytes": 2170,
+        "sha256": "79b468c23b6e6b2ec1c451dd1a37db1e88179ca9404af12fe3d6a7e3dcb93299"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Runtime RE10094 and blank source plots; not an own-origin seed hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-matrix-mutations-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 3355,
+        "sha256": "3c67b51f338a10b3ee548056361799ccfeaa75e5ad9edf91736e3edd7a0e46ca"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 18,
+        "exactText": "### (18) Matrix fill, submatrix, reverse, reshape and concat\n\nSources: `sources/v95-matrix-mutations-v5.pine`, `sources/v95-matrix-mutations-v6.pine`. Survey rank(s): 15. 25 literal plots per source.\n\n**Falsifiable acceptance criterion:** Frozen exclusive fill bounds give original[[1,9,9],[1,1,1]], numeric submatrix mutation leaves source/copy01=9 and SUB00=77. Reverse both axes, swap rows and row-major reshape then concatenate an8 column predicts joined[[9,9,8],[1,1,8],[1,1,8]], size3x3/elements9. Also retain m dimensions to determine concat mutation versus isolated return. Alternative bounds/reverse/reshape/alias semantics change specific exported cells; compare every slot, not only a checksum.\n\n**NOT OBSERVED branch:** Refusal/runtime halt, missing operation/size/slot controls, dimensions beyond exported3x3 or insufficient precision leaves that transformation NOT OBSERVED. Unexpected dimensions/cells remain observed and do not justify out-of-bounds repair. No matrix<UDT> alias or generic numeric decomposition claim. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-matrix-numerics-v5",
+      "originalSourceId": "v95-matrix-numerics-v5",
+      "v95Item": 19,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-matrix-numerics-v5.pine",
+        "bytes": 1712,
+        "sha256": "774022fcb02ed36def9bf7c32181c4fe1f3b94d30fffd13a299fd8b1cd1c1e3c"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Precision and nondiscriminating orientation; not an own-origin seed hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-matrix-numerics-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 494179,
+        "sha256": "88f0eecc150fe24b623befe21be550ebfb359e33649f8ad3f7cabd74213db45d"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 19,
+        "exactText": "### (19) Matrix inverse, singular pinv and eigenvector residuals\n\nSources: `sources/v95-matrix-numerics-v5.pine`, `sources/v95-matrix-numerics-v6.pine`. Survey rank(s): 15. 26 literal plots per source.\n\n**Falsifiable acceptance criterion:** Literal A=[[4,1],[1,3]], B=[[1,2],[2,4]] freeze det/rank 11/2 and 0/1; inv(A)=[[3,-1],[-1,4]]/11; Moore-Penrose pinv(B)=B/25. Eigenvalues are the unordered set{(7+sqrt5)/2,(7-sqrt5)/2}. Preserve vector signs/order and discriminate column versus row association using A*v-lambda*v residuals; do not force a particular eigenvector sign or reorder the native matrix. Exact rational predictions and numeric residual precision are separate derived fields, not post-capture tolerances.\n\n**NOT OBSERVED branch:** No full inverse/pinv/eigen tuple, ambiguous orientation/precision or refusal leaves that property NOT OBSERVED/UNDECIDED. Contrary adequately precise values refute the named candidate. Singular inverse is deliberately not called; near-singular cutoffs and algorithm-wide equivalence remain deferred. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-matrix-numerics-v6",
+      "originalSourceId": "v95-matrix-numerics-v6",
+      "v95Item": 19,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-matrix-numerics-v6.pine",
+        "bytes": 1712,
+        "sha256": "e79c95a00d415eecb1c9f16475c7bda8c5803459532422f3646e68a335a22602"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Precision and nondiscriminating orientation; not an own-origin seed hold",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-matrix-numerics-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 494179,
+        "sha256": "937520f181ef78fabc83bf447cd86418bc93508c394e6ee0dfff653a959285df"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 19,
+        "exactText": "### (19) Matrix inverse, singular pinv and eigenvector residuals\n\nSources: `sources/v95-matrix-numerics-v5.pine`, `sources/v95-matrix-numerics-v6.pine`. Survey rank(s): 15. 26 literal plots per source.\n\n**Falsifiable acceptance criterion:** Literal A=[[4,1],[1,3]], B=[[1,2],[2,4]] freeze det/rank 11/2 and 0/1; inv(A)=[[3,-1],[-1,4]]/11; Moore-Penrose pinv(B)=B/25. Eigenvalues are the unordered set{(7+sqrt5)/2,(7-sqrt5)/2}. Preserve vector signs/order and discriminate column versus row association using A*v-lambda*v residuals; do not force a particular eigenvector sign or reorder the native matrix. Exact rational predictions and numeric residual precision are separate derived fields, not post-capture tolerances.\n\n**NOT OBSERVED branch:** No full inverse/pinv/eigen tuple, ambiguous orientation/precision or refusal leaves that property NOT OBSERVED/UNDECIDED. Contrary adequately precise values refute the named candidate. Singular inverse is deliberately not called; near-singular cutoffs and algorithm-wide equivalence remain deferred. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-realtime-varip-v5",
+      "originalSourceId": "v95-realtime-varip-v5",
+      "v95Item": 20,
+      "pineVersion": 5,
+      "source": {
+        "path": "v95/sources/v95-realtime-varip-v5.pine",
+        "bytes": 1394,
+        "sha256": "6e445c0cfa72513789e9afdf9493c3e1177ba7bfb836933aa6a50885c5b500f9"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Missed first live events and unobserved execution identity cannot be recreated by closed history",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-realtime-varip-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 203000,
+        "sha256": "6dcc43c51d54a976e0954fc4d7b1d5d881bb14390e114d2206fa87e685140ab5"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 20,
+        "exactText": "### (20) Bounded fresh same-source varip/rollback observer\n\nSources: `sources/v95-realtime-varip-v5.pine`, `sources/v95-realtime-varip-v6.pine`. Survey rank(s): 3. 21 literal plots per source.\n\n**Falsifiable acceptance criterion:** This fresh source uses no requested feed, price input or imported original. In one declared naturally occurring2m window bind initial open sample, up to3 sampled updates, actual close and next-bar initial sample, all from this same unchanged study/private version. Freeze rollback candidate: COMMITTED_DELTA=UDT_DELTA=1 whenever previous commits exist; ordinary counters stay unchanged between same-key updates, while TICKS and UDT_STICKY agree and increase across at least two distinct same-key executions. At the next observed natural bar transition both sticky counters reset to1 only if that first execution is actually witnessed. Exact sampled-clock/confirmation sequence distinguishes historical replay from observed live updates; skipped ticks do not authorize an exact total update count.\n\n**NOT OBSERVED branch:** If the already available UI cannot bind live plots/clock/source ownership, stop the observer without extra actions. No two distinct open updates, missing actual close or missed next-bar first execution leaves only that facet NOT OBSERVED. Preserve all observed/excluded snapshots. No original MTF as-of identity, event-completeness, exact between-sample tick count or generic live parity credit. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    },
+    {
+      "sourceId": "v97-realtime-varip-v6",
+      "originalSourceId": "v95-realtime-varip-v6",
+      "v95Item": 20,
+      "pineVersion": 6,
+      "source": {
+        "path": "v95/sources/v95-realtime-varip-v6.pine",
+        "bytes": 1394,
+        "sha256": "e453f242867f21b1d522d2b97c122d6742024dc7fb0a72850b5ef727a01e94c3"
+      },
+      "eligible": false,
+      "selectionReason": "SKIPPED / Missed first live events and unobserved execution identity cannot be recreated by closed history",
+      "holdCitations": [],
+      "reviewedNumericArtifact": {
+        "path": "v95/captures/v95/v95-realtime-varip-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 202497,
+        "sha256": "8586219a379ac07656d2b5247664f11c015470b7e1d4620b8652c5bab3909e40"
+      },
+      "originalUnchangedCriterion": {
+        "artifact": {
+          "path": "v95/REQUEST-v95-v1.md",
+          "bytes": 53504,
+          "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+        },
+        "item": 20,
+        "exactText": "### (20) Bounded fresh same-source varip/rollback observer\n\nSources: `sources/v95-realtime-varip-v5.pine`, `sources/v95-realtime-varip-v6.pine`. Survey rank(s): 3. 21 literal plots per source.\n\n**Falsifiable acceptance criterion:** This fresh source uses no requested feed, price input or imported original. In one declared naturally occurring2m window bind initial open sample, up to3 sampled updates, actual close and next-bar initial sample, all from this same unchanged study/private version. Freeze rollback candidate: COMMITTED_DELTA=UDT_DELTA=1 whenever previous commits exist; ordinary counters stay unchanged between same-key updates, while TICKS and UDT_STICKY agree and increase across at least two distinct same-key executions. At the next observed natural bar transition both sticky counters reset to1 only if that first execution is actually witnessed. Exact sampled-clock/confirmation sequence distinguishes historical replay from observed live updates; skipped ticks do not authorize an exact total update count.\n\n**NOT OBSERVED branch:** If the already available UI cannot bind live plots/clock/source ownership, stop the observer without extra actions. No two distinct open updates, missing actual close or missed next-bar first execution leaves only that facet NOT OBSERVED. Preserve all observed/excluded snapshots. No original MTF as-of identity, event-completeness, exact between-sample tick count or generic live parity credit. Native admission/value outcomes remain UNSPECIFIED; preserve all actual partial or contrary cells and version-specific diagnostics.\n"
+      }
+    }
+  ]
+}

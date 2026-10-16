@@ -1,0 +1,30 @@
+//@version=5
+indicator("v95-conditional-clock-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+x = float(bar_index % 11 - 5)
+gate = phase % 3 != 0
+allSma = ta.sma(x, 3)
+allEma = ta.ema(x, 3)
+float branchSma = na
+float branchEma = na
+if gate
+    branchSma := ta.sma(x, 3)
+    branchEma := ta.ema(x, 3)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(x, title="X")
+plot(gate ? 1 : 0, title="GATE")
+plot(allSma, title="SMA_ALL")
+plot(allEma, title="EMA_ALL")
+plot(branchSma, title="SMA_BRANCH")
+plot(branchEma, title="EMA_BRANCH")
+plot(na(branchSma) ? 1 : 0, title="BRANCH_SMA_NA")
+plot(na(branchEma) ? 1 : 0, title="BRANCH_EMA_NA")

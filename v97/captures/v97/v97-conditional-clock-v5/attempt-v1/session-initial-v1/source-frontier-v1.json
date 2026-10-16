@@ -1,0 +1,1996 @@
+{
+  "version": "v1",
+  "sourceId": "v97-conditional-clock-v5",
+  "originalSourceId": "v95-conditional-clock-v5",
+  "sourceSha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9",
+  "privateId": "USER;be5c126045894917834e2b0aeffb5cbf",
+  "privateVersion": "1.0",
+  "csv": {
+    "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-initial-v1/chart-native-v1.csv",
+    "bytes": 46355,
+    "sha256": "389e1557db437b02976619acfe302c42bd4a36b887a3f1b8f4a30d72b3bf053d"
+  },
+  "columnBindings": {
+    "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-initial-v1/column-bindings-v1.json",
+    "bytes": 8056,
+    "sha256": "baf8287309f2a6c67966bf2a69f15f37b4d6db1a442a380d7440426c5249d7b4"
+  },
+  "closureMask": {
+    "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-initial-v1/row-closure-mask-v1.csv",
+    "bytes": 47153,
+    "sha256": "4b391636c0fc139f2fad4fe9584f875bc30a4024ad109cc0b3a7a3a7c88999a6"
+  },
+  "dataRows": 302,
+  "physicalFirstRow": {
+    "rowOrdinal": 1,
+    "raw": [
+      "1792158120",
+      "81888.03",
+      "81963.42",
+      "81863.64",
+      "81930.53",
+      "26.56698",
+      "23451",
+      "1792158120000",
+      "1",
+      "0",
+      "0",
+      "1789344000000",
+      "11",
+      "5",
+      "1",
+      "4",
+      "4.005373717635564",
+      "3.6666666666666665",
+      "3.7064020214688354",
+      "0",
+      "0"
+    ],
+    "ownFrontierCells": [
+      {
+        "rowOrdinal": 1,
+        "columnOrdinal": 7,
+        "headerRaw": "INPUT_INDEX",
+        "valueRaw": "23451"
+      },
+      {
+        "rowOrdinal": 1,
+        "columnOrdinal": 8,
+        "headerRaw": "INPUT_TIME",
+        "valueRaw": "1792158120000"
+      },
+      {
+        "rowOrdinal": 1,
+        "columnOrdinal": 9,
+        "headerRaw": "CHART_CONFIRMED",
+        "valueRaw": "1"
+      },
+      {
+        "rowOrdinal": 1,
+        "columnOrdinal": 10,
+        "headerRaw": "IS_FIRST",
+        "valueRaw": "0"
+      },
+      {
+        "rowOrdinal": 1,
+        "columnOrdinal": 11,
+        "headerRaw": "FIRST_INDEX",
+        "valueRaw": "0"
+      },
+      {
+        "rowOrdinal": 1,
+        "columnOrdinal": 12,
+        "headerRaw": "FIRST_TIME",
+        "valueRaw": "1789344000000"
+      }
+    ]
+  },
+  "physicalLastRow": {
+    "rowOrdinal": 302,
+    "raw": [
+      "1792194240",
+      "81642",
+      "81642",
+      "81624.09",
+      "81624.1",
+      "3.7874",
+      "23752",
+      "1792194240000",
+      "0",
+      "0",
+      "0",
+      "1789344000000",
+      "8",
+      "-2",
+      "1",
+      "-3",
+      "-2.3121641426477773",
+      "-3.3333333333333335",
+      "-1.963062906882129",
+      "0",
+      "0"
+    ],
+    "ownFrontierCells": [
+      {
+        "rowOrdinal": 302,
+        "columnOrdinal": 7,
+        "headerRaw": "INPUT_INDEX",
+        "valueRaw": "23752"
+      },
+      {
+        "rowOrdinal": 302,
+        "columnOrdinal": 8,
+        "headerRaw": "INPUT_TIME",
+        "valueRaw": "1792194240000"
+      },
+      {
+        "rowOrdinal": 302,
+        "columnOrdinal": 9,
+        "headerRaw": "CHART_CONFIRMED",
+        "valueRaw": "0"
+      },
+      {
+        "rowOrdinal": 302,
+        "columnOrdinal": 10,
+        "headerRaw": "IS_FIRST",
+        "valueRaw": "0"
+      },
+      {
+        "rowOrdinal": 302,
+        "columnOrdinal": 11,
+        "headerRaw": "FIRST_INDEX",
+        "valueRaw": "0"
+      },
+      {
+        "rowOrdinal": 302,
+        "columnOrdinal": 12,
+        "headerRaw": "FIRST_TIME",
+        "valueRaw": "1789344000000"
+      }
+    ]
+  },
+  "minimumInputIndex": "23451",
+  "maximumInputIndex": "23752",
+  "ownPrefixIndexGapsOrDuplicates": [
+    {
+      "rowOrdinal": 1,
+      "inputIndexRaw": "23451",
+      "expectedOwnPrefixIndex": 0
+    },
+    {
+      "rowOrdinal": 2,
+      "inputIndexRaw": "23452",
+      "expectedOwnPrefixIndex": 1
+    },
+    {
+      "rowOrdinal": 3,
+      "inputIndexRaw": "23453",
+      "expectedOwnPrefixIndex": 2
+    },
+    {
+      "rowOrdinal": 4,
+      "inputIndexRaw": "23454",
+      "expectedOwnPrefixIndex": 3
+    },
+    {
+      "rowOrdinal": 5,
+      "inputIndexRaw": "23455",
+      "expectedOwnPrefixIndex": 4
+    },
+    {
+      "rowOrdinal": 6,
+      "inputIndexRaw": "23456",
+      "expectedOwnPrefixIndex": 5
+    },
+    {
+      "rowOrdinal": 7,
+      "inputIndexRaw": "23457",
+      "expectedOwnPrefixIndex": 6
+    },
+    {
+      "rowOrdinal": 8,
+      "inputIndexRaw": "23458",
+      "expectedOwnPrefixIndex": 7
+    },
+    {
+      "rowOrdinal": 9,
+      "inputIndexRaw": "23459",
+      "expectedOwnPrefixIndex": 8
+    },
+    {
+      "rowOrdinal": 10,
+      "inputIndexRaw": "23460",
+      "expectedOwnPrefixIndex": 9
+    },
+    {
+      "rowOrdinal": 11,
+      "inputIndexRaw": "23461",
+      "expectedOwnPrefixIndex": 10
+    },
+    {
+      "rowOrdinal": 12,
+      "inputIndexRaw": "23462",
+      "expectedOwnPrefixIndex": 11
+    },
+    {
+      "rowOrdinal": 13,
+      "inputIndexRaw": "23463",
+      "expectedOwnPrefixIndex": 12
+    },
+    {
+      "rowOrdinal": 14,
+      "inputIndexRaw": "23464",
+      "expectedOwnPrefixIndex": 13
+    },
+    {
+      "rowOrdinal": 15,
+      "inputIndexRaw": "23465",
+      "expectedOwnPrefixIndex": 14
+    },
+    {
+      "rowOrdinal": 16,
+      "inputIndexRaw": "23466",
+      "expectedOwnPrefixIndex": 15
+    },
+    {
+      "rowOrdinal": 17,
+      "inputIndexRaw": "23467",
+      "expectedOwnPrefixIndex": 16
+    },
+    {
+      "rowOrdinal": 18,
+      "inputIndexRaw": "23468",
+      "expectedOwnPrefixIndex": 17
+    },
+    {
+      "rowOrdinal": 19,
+      "inputIndexRaw": "23469",
+      "expectedOwnPrefixIndex": 18
+    },
+    {
+      "rowOrdinal": 20,
+      "inputIndexRaw": "23470",
+      "expectedOwnPrefixIndex": 19
+    },
+    {
+      "rowOrdinal": 21,
+      "inputIndexRaw": "23471",
+      "expectedOwnPrefixIndex": 20
+    },
+    {
+      "rowOrdinal": 22,
+      "inputIndexRaw": "23472",
+      "expectedOwnPrefixIndex": 21
+    },
+    {
+      "rowOrdinal": 23,
+      "inputIndexRaw": "23473",
+      "expectedOwnPrefixIndex": 22
+    },
+    {
+      "rowOrdinal": 24,
+      "inputIndexRaw": "23474",
+      "expectedOwnPrefixIndex": 23
+    },
+    {
+      "rowOrdinal": 25,
+      "inputIndexRaw": "23475",
+      "expectedOwnPrefixIndex": 24
+    },
+    {
+      "rowOrdinal": 26,
+      "inputIndexRaw": "23476",
+      "expectedOwnPrefixIndex": 25
+    },
+    {
+      "rowOrdinal": 27,
+      "inputIndexRaw": "23477",
+      "expectedOwnPrefixIndex": 26
+    },
+    {
+      "rowOrdinal": 28,
+      "inputIndexRaw": "23478",
+      "expectedOwnPrefixIndex": 27
+    },
+    {
+      "rowOrdinal": 29,
+      "inputIndexRaw": "23479",
+      "expectedOwnPrefixIndex": 28
+    },
+    {
+      "rowOrdinal": 30,
+      "inputIndexRaw": "23480",
+      "expectedOwnPrefixIndex": 29
+    },
+    {
+      "rowOrdinal": 31,
+      "inputIndexRaw": "23481",
+      "expectedOwnPrefixIndex": 30
+    },
+    {
+      "rowOrdinal": 32,
+      "inputIndexRaw": "23482",
+      "expectedOwnPrefixIndex": 31
+    },
+    {
+      "rowOrdinal": 33,
+      "inputIndexRaw": "23483",
+      "expectedOwnPrefixIndex": 32
+    },
+    {
+      "rowOrdinal": 34,
+      "inputIndexRaw": "23484",
+      "expectedOwnPrefixIndex": 33
+    },
+    {
+      "rowOrdinal": 35,
+      "inputIndexRaw": "23485",
+      "expectedOwnPrefixIndex": 34
+    },
+    {
+      "rowOrdinal": 36,
+      "inputIndexRaw": "23486",
+      "expectedOwnPrefixIndex": 35
+    },
+    {
+      "rowOrdinal": 37,
+      "inputIndexRaw": "23487",
+      "expectedOwnPrefixIndex": 36
+    },
+    {
+      "rowOrdinal": 38,
+      "inputIndexRaw": "23488",
+      "expectedOwnPrefixIndex": 37
+    },
+    {
+      "rowOrdinal": 39,
+      "inputIndexRaw": "23489",
+      "expectedOwnPrefixIndex": 38
+    },
+    {
+      "rowOrdinal": 40,
+      "inputIndexRaw": "23490",
+      "expectedOwnPrefixIndex": 39
+    },
+    {
+      "rowOrdinal": 41,
+      "inputIndexRaw": "23491",
+      "expectedOwnPrefixIndex": 40
+    },
+    {
+      "rowOrdinal": 42,
+      "inputIndexRaw": "23492",
+      "expectedOwnPrefixIndex": 41
+    },
+    {
+      "rowOrdinal": 43,
+      "inputIndexRaw": "23493",
+      "expectedOwnPrefixIndex": 42
+    },
+    {
+      "rowOrdinal": 44,
+      "inputIndexRaw": "23494",
+      "expectedOwnPrefixIndex": 43
+    },
+    {
+      "rowOrdinal": 45,
+      "inputIndexRaw": "23495",
+      "expectedOwnPrefixIndex": 44
+    },
+    {
+      "rowOrdinal": 46,
+      "inputIndexRaw": "23496",
+      "expectedOwnPrefixIndex": 45
+    },
+    {
+      "rowOrdinal": 47,
+      "inputIndexRaw": "23497",
+      "expectedOwnPrefixIndex": 46
+    },
+    {
+      "rowOrdinal": 48,
+      "inputIndexRaw": "23498",
+      "expectedOwnPrefixIndex": 47
+    },
+    {
+      "rowOrdinal": 49,
+      "inputIndexRaw": "23499",
+      "expectedOwnPrefixIndex": 48
+    },
+    {
+      "rowOrdinal": 50,
+      "inputIndexRaw": "23500",
+      "expectedOwnPrefixIndex": 49
+    },
+    {
+      "rowOrdinal": 51,
+      "inputIndexRaw": "23501",
+      "expectedOwnPrefixIndex": 50
+    },
+    {
+      "rowOrdinal": 52,
+      "inputIndexRaw": "23502",
+      "expectedOwnPrefixIndex": 51
+    },
+    {
+      "rowOrdinal": 53,
+      "inputIndexRaw": "23503",
+      "expectedOwnPrefixIndex": 52
+    },
+    {
+      "rowOrdinal": 54,
+      "inputIndexRaw": "23504",
+      "expectedOwnPrefixIndex": 53
+    },
+    {
+      "rowOrdinal": 55,
+      "inputIndexRaw": "23505",
+      "expectedOwnPrefixIndex": 54
+    },
+    {
+      "rowOrdinal": 56,
+      "inputIndexRaw": "23506",
+      "expectedOwnPrefixIndex": 55
+    },
+    {
+      "rowOrdinal": 57,
+      "inputIndexRaw": "23507",
+      "expectedOwnPrefixIndex": 56
+    },
+    {
+      "rowOrdinal": 58,
+      "inputIndexRaw": "23508",
+      "expectedOwnPrefixIndex": 57
+    },
+    {
+      "rowOrdinal": 59,
+      "inputIndexRaw": "23509",
+      "expectedOwnPrefixIndex": 58
+    },
+    {
+      "rowOrdinal": 60,
+      "inputIndexRaw": "23510",
+      "expectedOwnPrefixIndex": 59
+    },
+    {
+      "rowOrdinal": 61,
+      "inputIndexRaw": "23511",
+      "expectedOwnPrefixIndex": 60
+    },
+    {
+      "rowOrdinal": 62,
+      "inputIndexRaw": "23512",
+      "expectedOwnPrefixIndex": 61
+    },
+    {
+      "rowOrdinal": 63,
+      "inputIndexRaw": "23513",
+      "expectedOwnPrefixIndex": 62
+    },
+    {
+      "rowOrdinal": 64,
+      "inputIndexRaw": "23514",
+      "expectedOwnPrefixIndex": 63
+    },
+    {
+      "rowOrdinal": 65,
+      "inputIndexRaw": "23515",
+      "expectedOwnPrefixIndex": 64
+    },
+    {
+      "rowOrdinal": 66,
+      "inputIndexRaw": "23516",
+      "expectedOwnPrefixIndex": 65
+    },
+    {
+      "rowOrdinal": 67,
+      "inputIndexRaw": "23517",
+      "expectedOwnPrefixIndex": 66
+    },
+    {
+      "rowOrdinal": 68,
+      "inputIndexRaw": "23518",
+      "expectedOwnPrefixIndex": 67
+    },
+    {
+      "rowOrdinal": 69,
+      "inputIndexRaw": "23519",
+      "expectedOwnPrefixIndex": 68
+    },
+    {
+      "rowOrdinal": 70,
+      "inputIndexRaw": "23520",
+      "expectedOwnPrefixIndex": 69
+    },
+    {
+      "rowOrdinal": 71,
+      "inputIndexRaw": "23521",
+      "expectedOwnPrefixIndex": 70
+    },
+    {
+      "rowOrdinal": 72,
+      "inputIndexRaw": "23522",
+      "expectedOwnPrefixIndex": 71
+    },
+    {
+      "rowOrdinal": 73,
+      "inputIndexRaw": "23523",
+      "expectedOwnPrefixIndex": 72
+    },
+    {
+      "rowOrdinal": 74,
+      "inputIndexRaw": "23524",
+      "expectedOwnPrefixIndex": 73
+    },
+    {
+      "rowOrdinal": 75,
+      "inputIndexRaw": "23525",
+      "expectedOwnPrefixIndex": 74
+    },
+    {
+      "rowOrdinal": 76,
+      "inputIndexRaw": "23526",
+      "expectedOwnPrefixIndex": 75
+    },
+    {
+      "rowOrdinal": 77,
+      "inputIndexRaw": "23527",
+      "expectedOwnPrefixIndex": 76
+    },
+    {
+      "rowOrdinal": 78,
+      "inputIndexRaw": "23528",
+      "expectedOwnPrefixIndex": 77
+    },
+    {
+      "rowOrdinal": 79,
+      "inputIndexRaw": "23529",
+      "expectedOwnPrefixIndex": 78
+    },
+    {
+      "rowOrdinal": 80,
+      "inputIndexRaw": "23530",
+      "expectedOwnPrefixIndex": 79
+    },
+    {
+      "rowOrdinal": 81,
+      "inputIndexRaw": "23531",
+      "expectedOwnPrefixIndex": 80
+    },
+    {
+      "rowOrdinal": 82,
+      "inputIndexRaw": "23532",
+      "expectedOwnPrefixIndex": 81
+    },
+    {
+      "rowOrdinal": 83,
+      "inputIndexRaw": "23533",
+      "expectedOwnPrefixIndex": 82
+    },
+    {
+      "rowOrdinal": 84,
+      "inputIndexRaw": "23534",
+      "expectedOwnPrefixIndex": 83
+    },
+    {
+      "rowOrdinal": 85,
+      "inputIndexRaw": "23535",
+      "expectedOwnPrefixIndex": 84
+    },
+    {
+      "rowOrdinal": 86,
+      "inputIndexRaw": "23536",
+      "expectedOwnPrefixIndex": 85
+    },
+    {
+      "rowOrdinal": 87,
+      "inputIndexRaw": "23537",
+      "expectedOwnPrefixIndex": 86
+    },
+    {
+      "rowOrdinal": 88,
+      "inputIndexRaw": "23538",
+      "expectedOwnPrefixIndex": 87
+    },
+    {
+      "rowOrdinal": 89,
+      "inputIndexRaw": "23539",
+      "expectedOwnPrefixIndex": 88
+    },
+    {
+      "rowOrdinal": 90,
+      "inputIndexRaw": "23540",
+      "expectedOwnPrefixIndex": 89
+    },
+    {
+      "rowOrdinal": 91,
+      "inputIndexRaw": "23541",
+      "expectedOwnPrefixIndex": 90
+    },
+    {
+      "rowOrdinal": 92,
+      "inputIndexRaw": "23542",
+      "expectedOwnPrefixIndex": 91
+    },
+    {
+      "rowOrdinal": 93,
+      "inputIndexRaw": "23543",
+      "expectedOwnPrefixIndex": 92
+    },
+    {
+      "rowOrdinal": 94,
+      "inputIndexRaw": "23544",
+      "expectedOwnPrefixIndex": 93
+    },
+    {
+      "rowOrdinal": 95,
+      "inputIndexRaw": "23545",
+      "expectedOwnPrefixIndex": 94
+    },
+    {
+      "rowOrdinal": 96,
+      "inputIndexRaw": "23546",
+      "expectedOwnPrefixIndex": 95
+    },
+    {
+      "rowOrdinal": 97,
+      "inputIndexRaw": "23547",
+      "expectedOwnPrefixIndex": 96
+    },
+    {
+      "rowOrdinal": 98,
+      "inputIndexRaw": "23548",
+      "expectedOwnPrefixIndex": 97
+    },
+    {
+      "rowOrdinal": 99,
+      "inputIndexRaw": "23549",
+      "expectedOwnPrefixIndex": 98
+    },
+    {
+      "rowOrdinal": 100,
+      "inputIndexRaw": "23550",
+      "expectedOwnPrefixIndex": 99
+    },
+    {
+      "rowOrdinal": 101,
+      "inputIndexRaw": "23551",
+      "expectedOwnPrefixIndex": 100
+    },
+    {
+      "rowOrdinal": 102,
+      "inputIndexRaw": "23552",
+      "expectedOwnPrefixIndex": 101
+    },
+    {
+      "rowOrdinal": 103,
+      "inputIndexRaw": "23553",
+      "expectedOwnPrefixIndex": 102
+    },
+    {
+      "rowOrdinal": 104,
+      "inputIndexRaw": "23554",
+      "expectedOwnPrefixIndex": 103
+    },
+    {
+      "rowOrdinal": 105,
+      "inputIndexRaw": "23555",
+      "expectedOwnPrefixIndex": 104
+    },
+    {
+      "rowOrdinal": 106,
+      "inputIndexRaw": "23556",
+      "expectedOwnPrefixIndex": 105
+    },
+    {
+      "rowOrdinal": 107,
+      "inputIndexRaw": "23557",
+      "expectedOwnPrefixIndex": 106
+    },
+    {
+      "rowOrdinal": 108,
+      "inputIndexRaw": "23558",
+      "expectedOwnPrefixIndex": 107
+    },
+    {
+      "rowOrdinal": 109,
+      "inputIndexRaw": "23559",
+      "expectedOwnPrefixIndex": 108
+    },
+    {
+      "rowOrdinal": 110,
+      "inputIndexRaw": "23560",
+      "expectedOwnPrefixIndex": 109
+    },
+    {
+      "rowOrdinal": 111,
+      "inputIndexRaw": "23561",
+      "expectedOwnPrefixIndex": 110
+    },
+    {
+      "rowOrdinal": 112,
+      "inputIndexRaw": "23562",
+      "expectedOwnPrefixIndex": 111
+    },
+    {
+      "rowOrdinal": 113,
+      "inputIndexRaw": "23563",
+      "expectedOwnPrefixIndex": 112
+    },
+    {
+      "rowOrdinal": 114,
+      "inputIndexRaw": "23564",
+      "expectedOwnPrefixIndex": 113
+    },
+    {
+      "rowOrdinal": 115,
+      "inputIndexRaw": "23565",
+      "expectedOwnPrefixIndex": 114
+    },
+    {
+      "rowOrdinal": 116,
+      "inputIndexRaw": "23566",
+      "expectedOwnPrefixIndex": 115
+    },
+    {
+      "rowOrdinal": 117,
+      "inputIndexRaw": "23567",
+      "expectedOwnPrefixIndex": 116
+    },
+    {
+      "rowOrdinal": 118,
+      "inputIndexRaw": "23568",
+      "expectedOwnPrefixIndex": 117
+    },
+    {
+      "rowOrdinal": 119,
+      "inputIndexRaw": "23569",
+      "expectedOwnPrefixIndex": 118
+    },
+    {
+      "rowOrdinal": 120,
+      "inputIndexRaw": "23570",
+      "expectedOwnPrefixIndex": 119
+    },
+    {
+      "rowOrdinal": 121,
+      "inputIndexRaw": "23571",
+      "expectedOwnPrefixIndex": 120
+    },
+    {
+      "rowOrdinal": 122,
+      "inputIndexRaw": "23572",
+      "expectedOwnPrefixIndex": 121
+    },
+    {
+      "rowOrdinal": 123,
+      "inputIndexRaw": "23573",
+      "expectedOwnPrefixIndex": 122
+    },
+    {
+      "rowOrdinal": 124,
+      "inputIndexRaw": "23574",
+      "expectedOwnPrefixIndex": 123
+    },
+    {
+      "rowOrdinal": 125,
+      "inputIndexRaw": "23575",
+      "expectedOwnPrefixIndex": 124
+    },
+    {
+      "rowOrdinal": 126,
+      "inputIndexRaw": "23576",
+      "expectedOwnPrefixIndex": 125
+    },
+    {
+      "rowOrdinal": 127,
+      "inputIndexRaw": "23577",
+      "expectedOwnPrefixIndex": 126
+    },
+    {
+      "rowOrdinal": 128,
+      "inputIndexRaw": "23578",
+      "expectedOwnPrefixIndex": 127
+    },
+    {
+      "rowOrdinal": 129,
+      "inputIndexRaw": "23579",
+      "expectedOwnPrefixIndex": 128
+    },
+    {
+      "rowOrdinal": 130,
+      "inputIndexRaw": "23580",
+      "expectedOwnPrefixIndex": 129
+    },
+    {
+      "rowOrdinal": 131,
+      "inputIndexRaw": "23581",
+      "expectedOwnPrefixIndex": 130
+    },
+    {
+      "rowOrdinal": 132,
+      "inputIndexRaw": "23582",
+      "expectedOwnPrefixIndex": 131
+    },
+    {
+      "rowOrdinal": 133,
+      "inputIndexRaw": "23583",
+      "expectedOwnPrefixIndex": 132
+    },
+    {
+      "rowOrdinal": 134,
+      "inputIndexRaw": "23584",
+      "expectedOwnPrefixIndex": 133
+    },
+    {
+      "rowOrdinal": 135,
+      "inputIndexRaw": "23585",
+      "expectedOwnPrefixIndex": 134
+    },
+    {
+      "rowOrdinal": 136,
+      "inputIndexRaw": "23586",
+      "expectedOwnPrefixIndex": 135
+    },
+    {
+      "rowOrdinal": 137,
+      "inputIndexRaw": "23587",
+      "expectedOwnPrefixIndex": 136
+    },
+    {
+      "rowOrdinal": 138,
+      "inputIndexRaw": "23588",
+      "expectedOwnPrefixIndex": 137
+    },
+    {
+      "rowOrdinal": 139,
+      "inputIndexRaw": "23589",
+      "expectedOwnPrefixIndex": 138
+    },
+    {
+      "rowOrdinal": 140,
+      "inputIndexRaw": "23590",
+      "expectedOwnPrefixIndex": 139
+    },
+    {
+      "rowOrdinal": 141,
+      "inputIndexRaw": "23591",
+      "expectedOwnPrefixIndex": 140
+    },
+    {
+      "rowOrdinal": 142,
+      "inputIndexRaw": "23592",
+      "expectedOwnPrefixIndex": 141
+    },
+    {
+      "rowOrdinal": 143,
+      "inputIndexRaw": "23593",
+      "expectedOwnPrefixIndex": 142
+    },
+    {
+      "rowOrdinal": 144,
+      "inputIndexRaw": "23594",
+      "expectedOwnPrefixIndex": 143
+    },
+    {
+      "rowOrdinal": 145,
+      "inputIndexRaw": "23595",
+      "expectedOwnPrefixIndex": 144
+    },
+    {
+      "rowOrdinal": 146,
+      "inputIndexRaw": "23596",
+      "expectedOwnPrefixIndex": 145
+    },
+    {
+      "rowOrdinal": 147,
+      "inputIndexRaw": "23597",
+      "expectedOwnPrefixIndex": 146
+    },
+    {
+      "rowOrdinal": 148,
+      "inputIndexRaw": "23598",
+      "expectedOwnPrefixIndex": 147
+    },
+    {
+      "rowOrdinal": 149,
+      "inputIndexRaw": "23599",
+      "expectedOwnPrefixIndex": 148
+    },
+    {
+      "rowOrdinal": 150,
+      "inputIndexRaw": "23600",
+      "expectedOwnPrefixIndex": 149
+    },
+    {
+      "rowOrdinal": 151,
+      "inputIndexRaw": "23601",
+      "expectedOwnPrefixIndex": 150
+    },
+    {
+      "rowOrdinal": 152,
+      "inputIndexRaw": "23602",
+      "expectedOwnPrefixIndex": 151
+    },
+    {
+      "rowOrdinal": 153,
+      "inputIndexRaw": "23603",
+      "expectedOwnPrefixIndex": 152
+    },
+    {
+      "rowOrdinal": 154,
+      "inputIndexRaw": "23604",
+      "expectedOwnPrefixIndex": 153
+    },
+    {
+      "rowOrdinal": 155,
+      "inputIndexRaw": "23605",
+      "expectedOwnPrefixIndex": 154
+    },
+    {
+      "rowOrdinal": 156,
+      "inputIndexRaw": "23606",
+      "expectedOwnPrefixIndex": 155
+    },
+    {
+      "rowOrdinal": 157,
+      "inputIndexRaw": "23607",
+      "expectedOwnPrefixIndex": 156
+    },
+    {
+      "rowOrdinal": 158,
+      "inputIndexRaw": "23608",
+      "expectedOwnPrefixIndex": 157
+    },
+    {
+      "rowOrdinal": 159,
+      "inputIndexRaw": "23609",
+      "expectedOwnPrefixIndex": 158
+    },
+    {
+      "rowOrdinal": 160,
+      "inputIndexRaw": "23610",
+      "expectedOwnPrefixIndex": 159
+    },
+    {
+      "rowOrdinal": 161,
+      "inputIndexRaw": "23611",
+      "expectedOwnPrefixIndex": 160
+    },
+    {
+      "rowOrdinal": 162,
+      "inputIndexRaw": "23612",
+      "expectedOwnPrefixIndex": 161
+    },
+    {
+      "rowOrdinal": 163,
+      "inputIndexRaw": "23613",
+      "expectedOwnPrefixIndex": 162
+    },
+    {
+      "rowOrdinal": 164,
+      "inputIndexRaw": "23614",
+      "expectedOwnPrefixIndex": 163
+    },
+    {
+      "rowOrdinal": 165,
+      "inputIndexRaw": "23615",
+      "expectedOwnPrefixIndex": 164
+    },
+    {
+      "rowOrdinal": 166,
+      "inputIndexRaw": "23616",
+      "expectedOwnPrefixIndex": 165
+    },
+    {
+      "rowOrdinal": 167,
+      "inputIndexRaw": "23617",
+      "expectedOwnPrefixIndex": 166
+    },
+    {
+      "rowOrdinal": 168,
+      "inputIndexRaw": "23618",
+      "expectedOwnPrefixIndex": 167
+    },
+    {
+      "rowOrdinal": 169,
+      "inputIndexRaw": "23619",
+      "expectedOwnPrefixIndex": 168
+    },
+    {
+      "rowOrdinal": 170,
+      "inputIndexRaw": "23620",
+      "expectedOwnPrefixIndex": 169
+    },
+    {
+      "rowOrdinal": 171,
+      "inputIndexRaw": "23621",
+      "expectedOwnPrefixIndex": 170
+    },
+    {
+      "rowOrdinal": 172,
+      "inputIndexRaw": "23622",
+      "expectedOwnPrefixIndex": 171
+    },
+    {
+      "rowOrdinal": 173,
+      "inputIndexRaw": "23623",
+      "expectedOwnPrefixIndex": 172
+    },
+    {
+      "rowOrdinal": 174,
+      "inputIndexRaw": "23624",
+      "expectedOwnPrefixIndex": 173
+    },
+    {
+      "rowOrdinal": 175,
+      "inputIndexRaw": "23625",
+      "expectedOwnPrefixIndex": 174
+    },
+    {
+      "rowOrdinal": 176,
+      "inputIndexRaw": "23626",
+      "expectedOwnPrefixIndex": 175
+    },
+    {
+      "rowOrdinal": 177,
+      "inputIndexRaw": "23627",
+      "expectedOwnPrefixIndex": 176
+    },
+    {
+      "rowOrdinal": 178,
+      "inputIndexRaw": "23628",
+      "expectedOwnPrefixIndex": 177
+    },
+    {
+      "rowOrdinal": 179,
+      "inputIndexRaw": "23629",
+      "expectedOwnPrefixIndex": 178
+    },
+    {
+      "rowOrdinal": 180,
+      "inputIndexRaw": "23630",
+      "expectedOwnPrefixIndex": 179
+    },
+    {
+      "rowOrdinal": 181,
+      "inputIndexRaw": "23631",
+      "expectedOwnPrefixIndex": 180
+    },
+    {
+      "rowOrdinal": 182,
+      "inputIndexRaw": "23632",
+      "expectedOwnPrefixIndex": 181
+    },
+    {
+      "rowOrdinal": 183,
+      "inputIndexRaw": "23633",
+      "expectedOwnPrefixIndex": 182
+    },
+    {
+      "rowOrdinal": 184,
+      "inputIndexRaw": "23634",
+      "expectedOwnPrefixIndex": 183
+    },
+    {
+      "rowOrdinal": 185,
+      "inputIndexRaw": "23635",
+      "expectedOwnPrefixIndex": 184
+    },
+    {
+      "rowOrdinal": 186,
+      "inputIndexRaw": "23636",
+      "expectedOwnPrefixIndex": 185
+    },
+    {
+      "rowOrdinal": 187,
+      "inputIndexRaw": "23637",
+      "expectedOwnPrefixIndex": 186
+    },
+    {
+      "rowOrdinal": 188,
+      "inputIndexRaw": "23638",
+      "expectedOwnPrefixIndex": 187
+    },
+    {
+      "rowOrdinal": 189,
+      "inputIndexRaw": "23639",
+      "expectedOwnPrefixIndex": 188
+    },
+    {
+      "rowOrdinal": 190,
+      "inputIndexRaw": "23640",
+      "expectedOwnPrefixIndex": 189
+    },
+    {
+      "rowOrdinal": 191,
+      "inputIndexRaw": "23641",
+      "expectedOwnPrefixIndex": 190
+    },
+    {
+      "rowOrdinal": 192,
+      "inputIndexRaw": "23642",
+      "expectedOwnPrefixIndex": 191
+    },
+    {
+      "rowOrdinal": 193,
+      "inputIndexRaw": "23643",
+      "expectedOwnPrefixIndex": 192
+    },
+    {
+      "rowOrdinal": 194,
+      "inputIndexRaw": "23644",
+      "expectedOwnPrefixIndex": 193
+    },
+    {
+      "rowOrdinal": 195,
+      "inputIndexRaw": "23645",
+      "expectedOwnPrefixIndex": 194
+    },
+    {
+      "rowOrdinal": 196,
+      "inputIndexRaw": "23646",
+      "expectedOwnPrefixIndex": 195
+    },
+    {
+      "rowOrdinal": 197,
+      "inputIndexRaw": "23647",
+      "expectedOwnPrefixIndex": 196
+    },
+    {
+      "rowOrdinal": 198,
+      "inputIndexRaw": "23648",
+      "expectedOwnPrefixIndex": 197
+    },
+    {
+      "rowOrdinal": 199,
+      "inputIndexRaw": "23649",
+      "expectedOwnPrefixIndex": 198
+    },
+    {
+      "rowOrdinal": 200,
+      "inputIndexRaw": "23650",
+      "expectedOwnPrefixIndex": 199
+    },
+    {
+      "rowOrdinal": 201,
+      "inputIndexRaw": "23651",
+      "expectedOwnPrefixIndex": 200
+    },
+    {
+      "rowOrdinal": 202,
+      "inputIndexRaw": "23652",
+      "expectedOwnPrefixIndex": 201
+    },
+    {
+      "rowOrdinal": 203,
+      "inputIndexRaw": "23653",
+      "expectedOwnPrefixIndex": 202
+    },
+    {
+      "rowOrdinal": 204,
+      "inputIndexRaw": "23654",
+      "expectedOwnPrefixIndex": 203
+    },
+    {
+      "rowOrdinal": 205,
+      "inputIndexRaw": "23655",
+      "expectedOwnPrefixIndex": 204
+    },
+    {
+      "rowOrdinal": 206,
+      "inputIndexRaw": "23656",
+      "expectedOwnPrefixIndex": 205
+    },
+    {
+      "rowOrdinal": 207,
+      "inputIndexRaw": "23657",
+      "expectedOwnPrefixIndex": 206
+    },
+    {
+      "rowOrdinal": 208,
+      "inputIndexRaw": "23658",
+      "expectedOwnPrefixIndex": 207
+    },
+    {
+      "rowOrdinal": 209,
+      "inputIndexRaw": "23659",
+      "expectedOwnPrefixIndex": 208
+    },
+    {
+      "rowOrdinal": 210,
+      "inputIndexRaw": "23660",
+      "expectedOwnPrefixIndex": 209
+    },
+    {
+      "rowOrdinal": 211,
+      "inputIndexRaw": "23661",
+      "expectedOwnPrefixIndex": 210
+    },
+    {
+      "rowOrdinal": 212,
+      "inputIndexRaw": "23662",
+      "expectedOwnPrefixIndex": 211
+    },
+    {
+      "rowOrdinal": 213,
+      "inputIndexRaw": "23663",
+      "expectedOwnPrefixIndex": 212
+    },
+    {
+      "rowOrdinal": 214,
+      "inputIndexRaw": "23664",
+      "expectedOwnPrefixIndex": 213
+    },
+    {
+      "rowOrdinal": 215,
+      "inputIndexRaw": "23665",
+      "expectedOwnPrefixIndex": 214
+    },
+    {
+      "rowOrdinal": 216,
+      "inputIndexRaw": "23666",
+      "expectedOwnPrefixIndex": 215
+    },
+    {
+      "rowOrdinal": 217,
+      "inputIndexRaw": "23667",
+      "expectedOwnPrefixIndex": 216
+    },
+    {
+      "rowOrdinal": 218,
+      "inputIndexRaw": "23668",
+      "expectedOwnPrefixIndex": 217
+    },
+    {
+      "rowOrdinal": 219,
+      "inputIndexRaw": "23669",
+      "expectedOwnPrefixIndex": 218
+    },
+    {
+      "rowOrdinal": 220,
+      "inputIndexRaw": "23670",
+      "expectedOwnPrefixIndex": 219
+    },
+    {
+      "rowOrdinal": 221,
+      "inputIndexRaw": "23671",
+      "expectedOwnPrefixIndex": 220
+    },
+    {
+      "rowOrdinal": 222,
+      "inputIndexRaw": "23672",
+      "expectedOwnPrefixIndex": 221
+    },
+    {
+      "rowOrdinal": 223,
+      "inputIndexRaw": "23673",
+      "expectedOwnPrefixIndex": 222
+    },
+    {
+      "rowOrdinal": 224,
+      "inputIndexRaw": "23674",
+      "expectedOwnPrefixIndex": 223
+    },
+    {
+      "rowOrdinal": 225,
+      "inputIndexRaw": "23675",
+      "expectedOwnPrefixIndex": 224
+    },
+    {
+      "rowOrdinal": 226,
+      "inputIndexRaw": "23676",
+      "expectedOwnPrefixIndex": 225
+    },
+    {
+      "rowOrdinal": 227,
+      "inputIndexRaw": "23677",
+      "expectedOwnPrefixIndex": 226
+    },
+    {
+      "rowOrdinal": 228,
+      "inputIndexRaw": "23678",
+      "expectedOwnPrefixIndex": 227
+    },
+    {
+      "rowOrdinal": 229,
+      "inputIndexRaw": "23679",
+      "expectedOwnPrefixIndex": 228
+    },
+    {
+      "rowOrdinal": 230,
+      "inputIndexRaw": "23680",
+      "expectedOwnPrefixIndex": 229
+    },
+    {
+      "rowOrdinal": 231,
+      "inputIndexRaw": "23681",
+      "expectedOwnPrefixIndex": 230
+    },
+    {
+      "rowOrdinal": 232,
+      "inputIndexRaw": "23682",
+      "expectedOwnPrefixIndex": 231
+    },
+    {
+      "rowOrdinal": 233,
+      "inputIndexRaw": "23683",
+      "expectedOwnPrefixIndex": 232
+    },
+    {
+      "rowOrdinal": 234,
+      "inputIndexRaw": "23684",
+      "expectedOwnPrefixIndex": 233
+    },
+    {
+      "rowOrdinal": 235,
+      "inputIndexRaw": "23685",
+      "expectedOwnPrefixIndex": 234
+    },
+    {
+      "rowOrdinal": 236,
+      "inputIndexRaw": "23686",
+      "expectedOwnPrefixIndex": 235
+    },
+    {
+      "rowOrdinal": 237,
+      "inputIndexRaw": "23687",
+      "expectedOwnPrefixIndex": 236
+    },
+    {
+      "rowOrdinal": 238,
+      "inputIndexRaw": "23688",
+      "expectedOwnPrefixIndex": 237
+    },
+    {
+      "rowOrdinal": 239,
+      "inputIndexRaw": "23689",
+      "expectedOwnPrefixIndex": 238
+    },
+    {
+      "rowOrdinal": 240,
+      "inputIndexRaw": "23690",
+      "expectedOwnPrefixIndex": 239
+    },
+    {
+      "rowOrdinal": 241,
+      "inputIndexRaw": "23691",
+      "expectedOwnPrefixIndex": 240
+    },
+    {
+      "rowOrdinal": 242,
+      "inputIndexRaw": "23692",
+      "expectedOwnPrefixIndex": 241
+    },
+    {
+      "rowOrdinal": 243,
+      "inputIndexRaw": "23693",
+      "expectedOwnPrefixIndex": 242
+    },
+    {
+      "rowOrdinal": 244,
+      "inputIndexRaw": "23694",
+      "expectedOwnPrefixIndex": 243
+    },
+    {
+      "rowOrdinal": 245,
+      "inputIndexRaw": "23695",
+      "expectedOwnPrefixIndex": 244
+    },
+    {
+      "rowOrdinal": 246,
+      "inputIndexRaw": "23696",
+      "expectedOwnPrefixIndex": 245
+    },
+    {
+      "rowOrdinal": 247,
+      "inputIndexRaw": "23697",
+      "expectedOwnPrefixIndex": 246
+    },
+    {
+      "rowOrdinal": 248,
+      "inputIndexRaw": "23698",
+      "expectedOwnPrefixIndex": 247
+    },
+    {
+      "rowOrdinal": 249,
+      "inputIndexRaw": "23699",
+      "expectedOwnPrefixIndex": 248
+    },
+    {
+      "rowOrdinal": 250,
+      "inputIndexRaw": "23700",
+      "expectedOwnPrefixIndex": 249
+    },
+    {
+      "rowOrdinal": 251,
+      "inputIndexRaw": "23701",
+      "expectedOwnPrefixIndex": 250
+    },
+    {
+      "rowOrdinal": 252,
+      "inputIndexRaw": "23702",
+      "expectedOwnPrefixIndex": 251
+    },
+    {
+      "rowOrdinal": 253,
+      "inputIndexRaw": "23703",
+      "expectedOwnPrefixIndex": 252
+    },
+    {
+      "rowOrdinal": 254,
+      "inputIndexRaw": "23704",
+      "expectedOwnPrefixIndex": 253
+    },
+    {
+      "rowOrdinal": 255,
+      "inputIndexRaw": "23705",
+      "expectedOwnPrefixIndex": 254
+    },
+    {
+      "rowOrdinal": 256,
+      "inputIndexRaw": "23706",
+      "expectedOwnPrefixIndex": 255
+    },
+    {
+      "rowOrdinal": 257,
+      "inputIndexRaw": "23707",
+      "expectedOwnPrefixIndex": 256
+    },
+    {
+      "rowOrdinal": 258,
+      "inputIndexRaw": "23708",
+      "expectedOwnPrefixIndex": 257
+    },
+    {
+      "rowOrdinal": 259,
+      "inputIndexRaw": "23709",
+      "expectedOwnPrefixIndex": 258
+    },
+    {
+      "rowOrdinal": 260,
+      "inputIndexRaw": "23710",
+      "expectedOwnPrefixIndex": 259
+    },
+    {
+      "rowOrdinal": 261,
+      "inputIndexRaw": "23711",
+      "expectedOwnPrefixIndex": 260
+    },
+    {
+      "rowOrdinal": 262,
+      "inputIndexRaw": "23712",
+      "expectedOwnPrefixIndex": 261
+    },
+    {
+      "rowOrdinal": 263,
+      "inputIndexRaw": "23713",
+      "expectedOwnPrefixIndex": 262
+    },
+    {
+      "rowOrdinal": 264,
+      "inputIndexRaw": "23714",
+      "expectedOwnPrefixIndex": 263
+    },
+    {
+      "rowOrdinal": 265,
+      "inputIndexRaw": "23715",
+      "expectedOwnPrefixIndex": 264
+    },
+    {
+      "rowOrdinal": 266,
+      "inputIndexRaw": "23716",
+      "expectedOwnPrefixIndex": 265
+    },
+    {
+      "rowOrdinal": 267,
+      "inputIndexRaw": "23717",
+      "expectedOwnPrefixIndex": 266
+    },
+    {
+      "rowOrdinal": 268,
+      "inputIndexRaw": "23718",
+      "expectedOwnPrefixIndex": 267
+    },
+    {
+      "rowOrdinal": 269,
+      "inputIndexRaw": "23719",
+      "expectedOwnPrefixIndex": 268
+    },
+    {
+      "rowOrdinal": 270,
+      "inputIndexRaw": "23720",
+      "expectedOwnPrefixIndex": 269
+    },
+    {
+      "rowOrdinal": 271,
+      "inputIndexRaw": "23721",
+      "expectedOwnPrefixIndex": 270
+    },
+    {
+      "rowOrdinal": 272,
+      "inputIndexRaw": "23722",
+      "expectedOwnPrefixIndex": 271
+    },
+    {
+      "rowOrdinal": 273,
+      "inputIndexRaw": "23723",
+      "expectedOwnPrefixIndex": 272
+    },
+    {
+      "rowOrdinal": 274,
+      "inputIndexRaw": "23724",
+      "expectedOwnPrefixIndex": 273
+    },
+    {
+      "rowOrdinal": 275,
+      "inputIndexRaw": "23725",
+      "expectedOwnPrefixIndex": 274
+    },
+    {
+      "rowOrdinal": 276,
+      "inputIndexRaw": "23726",
+      "expectedOwnPrefixIndex": 275
+    },
+    {
+      "rowOrdinal": 277,
+      "inputIndexRaw": "23727",
+      "expectedOwnPrefixIndex": 276
+    },
+    {
+      "rowOrdinal": 278,
+      "inputIndexRaw": "23728",
+      "expectedOwnPrefixIndex": 277
+    },
+    {
+      "rowOrdinal": 279,
+      "inputIndexRaw": "23729",
+      "expectedOwnPrefixIndex": 278
+    },
+    {
+      "rowOrdinal": 280,
+      "inputIndexRaw": "23730",
+      "expectedOwnPrefixIndex": 279
+    },
+    {
+      "rowOrdinal": 281,
+      "inputIndexRaw": "23731",
+      "expectedOwnPrefixIndex": 280
+    },
+    {
+      "rowOrdinal": 282,
+      "inputIndexRaw": "23732",
+      "expectedOwnPrefixIndex": 281
+    },
+    {
+      "rowOrdinal": 283,
+      "inputIndexRaw": "23733",
+      "expectedOwnPrefixIndex": 282
+    },
+    {
+      "rowOrdinal": 284,
+      "inputIndexRaw": "23734",
+      "expectedOwnPrefixIndex": 283
+    },
+    {
+      "rowOrdinal": 285,
+      "inputIndexRaw": "23735",
+      "expectedOwnPrefixIndex": 284
+    },
+    {
+      "rowOrdinal": 286,
+      "inputIndexRaw": "23736",
+      "expectedOwnPrefixIndex": 285
+    },
+    {
+      "rowOrdinal": 287,
+      "inputIndexRaw": "23737",
+      "expectedOwnPrefixIndex": 286
+    },
+    {
+      "rowOrdinal": 288,
+      "inputIndexRaw": "23738",
+      "expectedOwnPrefixIndex": 287
+    },
+    {
+      "rowOrdinal": 289,
+      "inputIndexRaw": "23739",
+      "expectedOwnPrefixIndex": 288
+    },
+    {
+      "rowOrdinal": 290,
+      "inputIndexRaw": "23740",
+      "expectedOwnPrefixIndex": 289
+    },
+    {
+      "rowOrdinal": 291,
+      "inputIndexRaw": "23741",
+      "expectedOwnPrefixIndex": 290
+    },
+    {
+      "rowOrdinal": 292,
+      "inputIndexRaw": "23742",
+      "expectedOwnPrefixIndex": 291
+    },
+    {
+      "rowOrdinal": 293,
+      "inputIndexRaw": "23743",
+      "expectedOwnPrefixIndex": 292
+    },
+    {
+      "rowOrdinal": 294,
+      "inputIndexRaw": "23744",
+      "expectedOwnPrefixIndex": 293
+    },
+    {
+      "rowOrdinal": 295,
+      "inputIndexRaw": "23745",
+      "expectedOwnPrefixIndex": 294
+    },
+    {
+      "rowOrdinal": 296,
+      "inputIndexRaw": "23746",
+      "expectedOwnPrefixIndex": 295
+    },
+    {
+      "rowOrdinal": 297,
+      "inputIndexRaw": "23747",
+      "expectedOwnPrefixIndex": 296
+    },
+    {
+      "rowOrdinal": 298,
+      "inputIndexRaw": "23748",
+      "expectedOwnPrefixIndex": 297
+    },
+    {
+      "rowOrdinal": 299,
+      "inputIndexRaw": "23749",
+      "expectedOwnPrefixIndex": 298
+    },
+    {
+      "rowOrdinal": 300,
+      "inputIndexRaw": "23750",
+      "expectedOwnPrefixIndex": 299
+    },
+    {
+      "rowOrdinal": 301,
+      "inputIndexRaw": "23751",
+      "expectedOwnPrefixIndex": 300
+    },
+    {
+      "rowOrdinal": 302,
+      "inputIndexRaw": "23752",
+      "expectedOwnPrefixIndex": 301
+    }
+  ],
+  "nonIncreasingOrDuplicateTimes": [],
+  "actualMarketTimestampGaps": [],
+  "originContextViolationRowOrdinals": [
+    1
+  ],
+  "item5OwnOhlcDisagreements": [],
+  "closedOwnPrefixLastIndex": -1,
+  "strictOwnIndexZeroPrefixAvailable": false,
+  "prefixCriterion": "NOT OBSERVED / OWN_INDEX_ZERO_PREFIX_NOT_EXPORTED",
+  "prefixFailureCauses": [
+    "OWN_INDEX_SEQUENCE_UNMET",
+    "OWN_ORIGIN_CONTEXT_UNMET",
+    "FEWER_THAN_128_CLOSED_OWN_PREFIX_ROWS"
+  ],
+  "independentlyClosedRows": 301,
+  "eligibleDataRowOrdinals": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301
+  ],
+  "primaryModelOwnIndices": [
+    0,
+    127
+  ],
+  "primaryModelDataRowOrdinals": [],
+  "timeUnits": {
+    "nativeCsv": "UNIX seconds",
+    "INPUT_TIME": "UNIX milliseconds"
+  },
+  "nativeExportUtc": "2026-10-16T23:45:47.040Z",
+  "noCrossSessionStitching": true,
+  "scope": "One exact-source original CSV only. Own origin and complete dependency-index order are independently required; real market time gaps are archived without synthesizing rows. Every later raw row is retained; no original v95 or live frontier is reconstructed."
+}

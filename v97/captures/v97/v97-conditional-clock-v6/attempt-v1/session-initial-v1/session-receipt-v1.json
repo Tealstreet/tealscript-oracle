@@ -1,0 +1,72 @@
+{
+  "version": "v1",
+  "source": "v97-conditional-clock-v6",
+  "originalSource": "v95-conditional-clock-v6",
+  "sourceSha256": "a3a05e1fb4656b39de2b4d8acf0676c618f8614f87b8f11cf031aa0093e35174",
+  "frontier": "initial",
+  "startedAtUtc": "2026-10-16T23:49:02.121Z",
+  "completedAtUtc": "2026-10-16T23:49:09.922Z",
+  "csv": {
+    "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/chart-native-v1.csv",
+    "rows": 23755,
+    "columns": 21,
+    "firstTimeRaw": "1789344000",
+    "lastTimeRaw": "1792194480"
+  },
+  "frontierInspection": {
+    "version": "v1",
+    "csvPath": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/chart-native-v1.csv",
+    "dataRows": 23755,
+    "originalHeaders": [
+      "time",
+      "open",
+      "high",
+      "low",
+      "close",
+      "Volume",
+      "INPUT_INDEX",
+      "INPUT_TIME",
+      "CHART_CONFIRMED",
+      "IS_FIRST",
+      "FIRST_INDEX",
+      "FIRST_TIME",
+      "PHASE",
+      "X",
+      "GATE",
+      "SMA_ALL",
+      "EMA_ALL",
+      "SMA_BRANCH",
+      "EMA_BRANCH",
+      "BRANCH_SMA_NA",
+      "BRANCH_EMA_NA"
+    ],
+    "firstFrontierRaw": {
+      "INPUT_INDEX": "0",
+      "INPUT_TIME": "1789344000000",
+      "CHART_CONFIRMED": "1",
+      "IS_FIRST": "1",
+      "FIRST_INDEX": "0",
+      "FIRST_TIME": "1789344000000"
+    },
+    "lastFrontierRaw": {
+      "INPUT_INDEX": "23754",
+      "INPUT_TIME": "1792194480000",
+      "CHART_CONFIRMED": "0",
+      "IS_FIRST": "0",
+      "FIRST_INDEX": "0",
+      "FIRST_TIME": "1789344000000"
+    },
+    "firstTimeRawSeconds": "1789344000",
+    "lastTimeRawSeconds": "1792194480",
+    "preliminaryContiguousOwnIndexZeroCandidate": true,
+    "candidateCause": null,
+    "observedOwnFirstTimeDateUtc": "2026-09-14",
+    "scope": "Capture navigation decision only. Final source/private metadata ownership, raw pointers and independent closure are separately validated; this preliminary inspection grants no numeric credit."
+  },
+  "nativeContext": "BINANCE:BTCUSDT2m Candles UTC; new layout208236729/euz5a92K",
+  "inputChanges": 0,
+  "sourceChanges": 0,
+  "sourceSpecificExecutionIdentity": null,
+  "actualNativeCalculationSessionId": null,
+  "sessionIdentity": "Initial naturally loaded source frontier"
+}
