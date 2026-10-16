@@ -1,0 +1,58 @@
+------WebKitFormBoundaryzyQVwtqqdJOf7grS
+Content-Disposition: form-data; name="source"
+
+//@version=6
+indicator("v95-map-mutations-v6", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+type Cell
+    float x
+m = map.new<string, float>()
+map.put(m, "A", 1.0)
+map.put(m, "B", 2.0)
+copy = map.copy(m)
+donor = map.new<string, float>()
+map.put(donor, "B", 20.0)
+map.put(donor, "C", 30.0)
+map.put_all(m, donor)
+merged = map.values(m)
+removed = map.remove(m, "A")
+map.put(m, "A", 100.0)
+keys = map.keys(m)
+values = map.values(m)
+map.clear(copy)
+refs = map.new<string, Cell>()
+map.put(refs, "A", Cell.new(1.0))
+other = map.copy(refs)
+node = map.get(other, "A")
+node.x := 6.0
+original = map.get(refs, "A")
+f_key(array<string> a, int k) =>
+    s = array.size(a) > k ? array.get(a, k) : ""
+    s == "A" ? 1 : s == "B" ? 2 : s == "C" ? 3 : -1
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(map.size(m), title="M_SIZE")
+plot(map.size(copy), title="COPY_SIZE")
+plot(map.size(donor), title="DONOR_SIZE")
+plot(removed, title="REMOVED")
+plot(original.x, title="REF_ORIGINAL")
+plot(node.x, title="REF_COPY")
+plot(array.size(merged) > 0 ? array.get(merged, 0) : na, title="MERGED_0")
+plot(array.size(merged) > 1 ? array.get(merged, 1) : na, title="MERGED_1")
+plot(array.size(merged) > 2 ? array.get(merged, 2) : na, title="MERGED_2")
+plot(f_key(keys, 0), title="KEY_0")
+plot(f_key(keys, 1), title="KEY_1")
+plot(f_key(keys, 2), title="KEY_2")
+plot(array.size(values) > 0 ? array.get(values, 0) : na, title="VALUE_0")
+plot(array.size(values) > 1 ? array.get(values, 1) : na, title="VALUE_1")
+plot(array.size(values) > 2 ? array.get(values, 2) : na, title="VALUE_2")
+
+------WebKitFormBoundaryzyQVwtqqdJOf7grS--
