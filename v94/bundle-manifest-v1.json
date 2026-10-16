@@ -1,0 +1,978 @@
+{
+  "schemaVersion": 1,
+  "round": 94,
+  "baselineOracle": "8069e315083c1e516b9da5771c082431d48f6d81",
+  "priorColorOracle": "4fd1b643c80bdab0ea19a46b1ccf658c5ccb1526",
+  "scope": "Gradient-only native adjudication; publishing this request is not native acceptance or engine parity",
+  "scheduling": "May run after v93 finishes; do not interrupt v93 or reuse/edit its saved layout",
+  "heldColorCommit": "014002b36f98eb15129098ae645b3044a3099dd4",
+  "sourceCount": 6,
+  "maximumSaveAttempts": 6,
+  "maximumAddAttempts": 6,
+  "maximumSourceSessions": 6,
+  "maximumCsvExports": 6,
+  "retryLimit": 0,
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2m",
+    "timezone": "Etc/UTC",
+    "chartStyle": "ordinary Candles",
+    "layout": "one NEW throwaway v94 layout only"
+  },
+  "sources": [
+    {
+      "id": "v94-gradient-clamp-v5",
+      "item": 1,
+      "pineVersion": 5,
+      "path": "sources/v94-gradient-clamp-v5.pine",
+      "bytes": 2423,
+      "sha256": "eb5e751243e6a2b0add5bccc3531afde0b121984ad1d03b463c624615b01c08d",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "minimumConsecutiveClosedRows": 32,
+      "requiresThreeDistinctInteriorRsiRatios": false,
+      "requiredPhases": [],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "Below R"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "Middle G"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "Middle B"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "Middle T"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "Above R"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "Above T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "BELOW_X"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "MIDDLE_X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "ABOVE_X"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "BELOW_R"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "BELOW_G"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "BELOW_B"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "BELOW_T"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "BELOW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "MIDDLE_R"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MIDDLE_G"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "MIDDLE_B"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "MIDDLE_T"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "MIDDLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ABOVE_R"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "ABOVE_G"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "ABOVE_B"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "ABOVE_T"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "ABOVE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 35,
+      "maximumEstimatedPlotCounts": 35,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/plot-colorer/duplicate columns by original native CSV ordinal; title alone is insufficient."
+    },
+    {
+      "id": "v94-gradient-clamp-v6",
+      "item": 1,
+      "pineVersion": 6,
+      "path": "sources/v94-gradient-clamp-v6.pine",
+      "bytes": 2423,
+      "sha256": "695a50a24ddc372db1b929ba21c782e4009e82652089d61f8a290e3ba65c4b97",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "minimumConsecutiveClosedRows": 32,
+      "requiresThreeDistinctInteriorRsiRatios": false,
+      "requiredPhases": [],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "Below R"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "Middle G"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "Middle B"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "Middle T"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "Above R"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "Above T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "BELOW_X"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "MIDDLE_X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "ABOVE_X"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "BELOW_R"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "BELOW_G"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "BELOW_B"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "BELOW_T"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "BELOW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "MIDDLE_R"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MIDDLE_G"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "MIDDLE_B"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "MIDDLE_T"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "MIDDLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ABOVE_R"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "ABOVE_G"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "ABOVE_B"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "ABOVE_T"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "ABOVE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 35,
+      "maximumEstimatedPlotCounts": 35,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/plot-colorer/duplicate columns by original native CSV ordinal; title alone is insufficient."
+    },
+    {
+      "id": "v94-gradient-rsi-v5",
+      "item": 2,
+      "pineVersion": 5,
+      "path": "sources/v94-gradient-rsi-v5.pine",
+      "bytes": 1575,
+      "sha256": "21d8debe8054895734a9d1d9e9ff74a1090f7efd4ece0da708169823f7c22526",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "minimumConsecutiveClosedRows": 32,
+      "requiresThreeDistinctInteriorRsiRatios": true,
+      "requiredPhases": [],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "Signal"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "RSI"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RATIO_UNCLAMPED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "RSI_NA"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "RESULT_R"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "RESULT_G"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RESULT_B"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "RESULT_T"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "RESULT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 21,
+      "maximumEstimatedPlotCounts": 22,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/plot-colorer/duplicate columns by original native CSV ordinal; title alone is insufficient."
+    },
+    {
+      "id": "v94-gradient-rsi-v6",
+      "item": 2,
+      "pineVersion": 6,
+      "path": "sources/v94-gradient-rsi-v6.pine",
+      "bytes": 1575,
+      "sha256": "ee0a77e4a061d59fc9911fdebbb63f762284d5b8562b0071447df8409998a0bc",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "minimumConsecutiveClosedRows": 32,
+      "requiresThreeDistinctInteriorRsiRatios": true,
+      "requiredPhases": [],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "Signal"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "RSI"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RATIO_UNCLAMPED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "RSI_NA"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "RESULT_R"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "RESULT_G"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RESULT_B"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "RESULT_T"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "RESULT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 21,
+      "maximumEstimatedPlotCounts": 22,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/plot-colorer/duplicate columns by original native CSV ordinal; title alone is insufficient."
+    },
+    {
+      "id": "v94-gradient-discriminators-v5",
+      "item": 3,
+      "pineVersion": 5,
+      "path": "sources/v94-gradient-discriminators-v5.pine",
+      "bytes": 3944,
+      "sha256": "9b57f04bb6462f371497ae06bc366dbf2e5cb8d77b7aeb4af7c3656142ab7244",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "minimumConsecutiveClosedRows": 32,
+      "requiresThreeDistinctInteriorRsiRatios": false,
+      "requiredPhases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "GRADIENT_X"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "PARTIAL_R"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "PARTIAL_G"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "PARTIAL_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "PARTIAL_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PARTIAL_NA"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "TRANSPARENT_LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "TRANSPARENT_LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TRANSPARENT_LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "TRANSPARENT_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "TRANSPARENT_LOWER_NA"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "OPAQUE_R"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "OPAQUE_G"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "OPAQUE_B"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "OPAQUE_T"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "OPAQUE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "PARTIAL_LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "PARTIAL_LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "PARTIAL_LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "PARTIAL_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "PARTIAL_UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "PARTIAL_UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "PARTIAL_UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "PARTIAL_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "TRANSPARENT_LOWER_INPUT_R"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "TRANSPARENT_LOWER_INPUT_G"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "TRANSPARENT_LOWER_INPUT_B"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "TRANSPARENT_LOWER_INPUT_T"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "TRANSPARENT_UPPER_INPUT_R"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "TRANSPARENT_UPPER_INPUT_G"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "TRANSPARENT_UPPER_INPUT_B"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "TRANSPARENT_UPPER_INPUT_T"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "OPAQUE_LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "OPAQUE_LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "OPAQUE_LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "OPAQUE_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "OPAQUE_UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "OPAQUE_UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "OPAQUE_UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "OPAQUE_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 44,
+      "maximumEstimatedPlotCounts": 44,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/plot-colorer/duplicate columns by original native CSV ordinal; title alone is insufficient."
+    },
+    {
+      "id": "v94-gradient-discriminators-v6",
+      "item": 3,
+      "pineVersion": 6,
+      "path": "sources/v94-gradient-discriminators-v6.pine",
+      "bytes": 3944,
+      "sha256": "6a952983f7c77bd2cd0cb9106768f3e2f39a4867e7e0636547590c6386a757bb",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "inputStates": {},
+      "sessionCount": 1,
+      "requiresNativeCsv": true,
+      "requiresRenderingScreenshot": false,
+      "minimumConsecutiveClosedRows": 32,
+      "requiresThreeDistinctInteriorRsiRatios": false,
+      "requiredPhases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "GRADIENT_X"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "PARTIAL_R"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "PARTIAL_G"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "PARTIAL_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "PARTIAL_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PARTIAL_NA"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "TRANSPARENT_LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "TRANSPARENT_LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TRANSPARENT_LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "TRANSPARENT_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "TRANSPARENT_LOWER_NA"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "OPAQUE_R"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "OPAQUE_G"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "OPAQUE_B"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "OPAQUE_T"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "OPAQUE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "PARTIAL_LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "PARTIAL_LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "PARTIAL_LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "PARTIAL_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "PARTIAL_UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "PARTIAL_UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "PARTIAL_UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "PARTIAL_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "TRANSPARENT_LOWER_INPUT_R"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "TRANSPARENT_LOWER_INPUT_G"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "TRANSPARENT_LOWER_INPUT_B"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "TRANSPARENT_LOWER_INPUT_T"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "TRANSPARENT_UPPER_INPUT_R"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "TRANSPARENT_UPPER_INPUT_G"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "TRANSPARENT_UPPER_INPUT_B"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "TRANSPARENT_UPPER_INPUT_T"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "OPAQUE_LOWER_R"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "OPAQUE_LOWER_G"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "OPAQUE_LOWER_B"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "OPAQUE_LOWER_T"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "OPAQUE_UPPER_R"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "OPAQUE_UPPER_G"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "OPAQUE_UPPER_B"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "OPAQUE_UPPER_T"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "CHART_CONFIRMED"
+        }
+      ],
+      "plotCount": 44,
+      "maximumEstimatedPlotCounts": 44,
+      "ordinalBase": 0,
+      "otherExportColumns": "Bind actual chart/builtin/plot-colorer/duplicate columns by original native CSV ordinal; title alone is insufficient."
+    }
+  ]
+}
