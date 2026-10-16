@@ -1,0 +1,42 @@
+------WebKitFormBoundaryMczjrRTRjgOQGOhc
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("v95-math-vectors-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+x = phase % 6 == 0 ? -2.5 : phase % 6 == 1 ? -1.5 : phase % 6 == 2 ? -0.5 : phase % 6 == 3 ? 0.5 : phase % 6 == 4 ? 1.5 : 2.5
+tickInput = syminfo.mintick * x
+r0 = math.random(0.0, 1.0, 7)
+r1 = math.random(0.0, 1.0, 7)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(x, title="X")
+plot(syminfo.mintick, title="MINTICK")
+plot(tickInput, title="TICK_INPUT")
+plot(math.round(x), title="ROUND")
+plot(math.round(x, 1), title="ROUND1")
+plot(math.floor(x), title="FLOOR")
+plot(math.ceil(x), title="CEIL")
+plot(int(x), title="INT")
+plot(math.round_to_mintick(tickInput), title="TICK_ROUND")
+plot(math.min(x, 0.0, 1.0), title="MIN")
+plot(math.max(x, 0.0, 1.0), title="MAX")
+plot(math.avg(x, 0.0, 1.0), title="AVG")
+plot(math.abs(x), title="ABS")
+plot(math.pow(2.0, x), title="POW")
+plot(math.exp(x), title="EXP")
+plot(math.abs(x) + 1.0, title="LOG_INPUT")
+plot(math.log(math.abs(x) + 1.0), title="LOG")
+plot(math.sum(x, 3), title="SUM3")
+plot(r0, title="RANDOM_A")
+plot(r1, title="RANDOM_B")
+
+------WebKitFormBoundaryMczjrRTRjgOQGOhc--
