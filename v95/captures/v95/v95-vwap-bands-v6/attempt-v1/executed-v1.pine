@@ -1,0 +1,38 @@
+//@version=6
+indicator("v95-vwap-bands-v6", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+anchor = phase == 0
+mult = phase % 3 == 0 ? 0.0 : phase % 3 == 1 ? 1.0 : 2.0
+[v, upper, lower] = ta.vwap(close, anchor, 1.5)
+[vs, us, ls] = ta.vwap(close, anchor, mult)
+sourceHole = phase == 5 ? na : close
+[vh, uh, lh] = ta.vwap(sourceHole, anchor, 1.5)
+plain = ta.vwap(close, anchor)
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(close, title="INPUT_CLOSE")
+plot(volume, title="INPUT_VOLUME")
+plot(anchor ? 1 : 0, title="ANCHOR")
+plot(mult, title="MULT")
+plot(sourceHole, title="HOLE_SOURCE")
+plot(na(sourceHole) ? 1 : 0, title="HOLE_NA")
+plot(v, title="VWAP")
+plot(upper, title="UPPER")
+plot(lower, title="LOWER")
+plot(vs, title="SERIES_VWAP")
+plot(us, title="SERIES_UPPER")
+plot(ls, title="SERIES_LOWER")
+plot(vh, title="HOLE_VWAP")
+plot(uh, title="HOLE_UPPER")
+plot(lh, title="HOLE_LOWER")
+plot(plain, title="TWO_ARG")
+plot(na(v) ? 1 : 0, title="VWAP_NA")
+plot(na(vh) ? 1 : 0, title="HOLE_VWAP_NA")

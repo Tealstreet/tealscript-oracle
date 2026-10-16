@@ -1,0 +1,37 @@
+------WebKitFormBoundaryANR73HQmjznZpGwe
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("v95-session-calendar-v5", overlay=false, precision=16, max_bars_back=256)
+var int firstIndex = bar_index
+var int firstTime = time
+phase = bar_index % 16
+t = phase % 4 == 0 ? timestamp("UTC", 2026, 3, 8, 6, 30) : phase % 4 == 1 ? timestamp("UTC", 2026, 3, 8, 7, 30) : phase % 4 == 2 ? timestamp("UTC", 2026, 11, 1, 5, 30) : timestamp("UTC", 2026, 11, 1, 6, 30)
+sessionTime = time("2", "2300-0200:1234567", "America/New_York")
+sessionClose = time_close("2", "2300-0200:1234567", "America/New_York")
+
+plot(bar_index, title="INPUT_INDEX")
+plot(time, title="INPUT_TIME")
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED")
+plot(barstate.isfirst ? 1 : 0, title="IS_FIRST")
+plot(firstIndex, title="FIRST_INDEX")
+plot(firstTime, title="FIRST_TIME")
+plot(phase, title="PHASE")
+plot(t, title="FIXED_TIME")
+plot(hour(t, "America/New_York"), title="NY_HOUR")
+plot(minute(t, "America/New_York"), title="NY_MINUTE")
+plot(hour(t, "UTC"), title="UTC_HOUR")
+plot(dayofmonth(t, "America/New_York"), title="NY_DAY")
+plot(month(t, "America/New_York"), title="NY_MONTH")
+plot(dayofweek(t, "America/New_York"), title="NY_WEEKDAY")
+plot(sessionTime, title="SESSION_OPEN")
+plot(sessionClose, title="SESSION_CLOSE")
+plot(na(sessionTime) ? 0 : 1, title="SESSION_IN")
+plot(hour(time, "America/New_York"), title="CHART_NY_HOUR")
+plot(minute(time, "America/New_York"), title="CHART_NY_MINUTE")
+plot(time("1D"), title="DAY_OPEN")
+plot(timeframe.change("1W") ? 1 : 0, title="WEEK_CHANGE")
+plot(timeframe.in_seconds(), title="TF_SECONDS")
+plot(time_close, title="CHART_CLOSE_TIME")
+
+------WebKitFormBoundaryANR73HQmjznZpGwe--
