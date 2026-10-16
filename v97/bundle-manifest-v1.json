@@ -1,0 +1,4908 @@
+{
+  "schemaVersion": 1,
+  "round": 97,
+  "authoringOracleBaseline": "b0c64e9ba8c291325aa5773acaac335c248df4a3",
+  "reuseSourceRequestCommit": "325b86491f8310806ac214914479d217ea3bb7e4",
+  "latestV95ResponseAtAuthoring": "v95/captures/v95/RESPONSE-v95-v4.md",
+  "scheduling": "AFTER v95 AND v96 finish or explicitly complete with capability holds; no interruption or reuse of their layouts",
+  "sourceCount": 38,
+  "mandatorySourceCount": 8,
+  "conditionalReservationCount": 30,
+  "newPineSourceCount": 0,
+  "maximumSaveAttempts": 38,
+  "maximumAddAttempts": 38,
+  "maximumCsvExports": 76,
+  "maximumCalendarNavigationActions": 38,
+  "maximumCalculationSessions": 76,
+  "retryLimit": 0,
+  "selectionRule": "Always item2..5 v5/v6. Before the first v97 Save, freeze highest-numbered published v95 response and its own source artifacts; activate each item6..20/version only for an explicit missing-own-prefix/seed hold in that response or its cited artifacts. Do not infer a hold merely from suffix presence, precision, refusal or unrelated NOT OBSERVED state. No unlisted source, companion, code edit or realtime observer window; item20 reservations permit closed historical prefix facets only.",
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2m",
+    "timezone": "Etc/UTC",
+    "chartStyle": "ordinary Candles",
+    "layout": "one NEW v97 throwaway layout only"
+  },
+  "basisArtifacts": [
+    {
+      "path": "v95/REQUEST-v95-v1.md",
+      "bytes": 53504,
+      "sha256": "e57421e259f56f2dd95344a96e893114d7d78ebb11b99da8c643afbaf1ab59e0"
+    },
+    {
+      "path": "v95/bundle-manifest-v1.json",
+      "bytes": 128750,
+      "sha256": "5d807f3837af0508be5da60dbe097dd9167e77f60bec497162cc7f87ba070da6"
+    },
+    {
+      "path": "v95/captures/v95/RESPONSE-v95-v1.md",
+      "bytes": 3456,
+      "sha256": "d76519e0e2a70d672ac3f0a23833317317fee32451ca677be9ac34679495fa10"
+    },
+    {
+      "path": "v95/captures/v95/RESPONSE-v95-v2.md",
+      "bytes": 3914,
+      "sha256": "9aa80559ae6e4783c9baf45bb3b920971eab4c8e08bbb7fd9bc48b8af6ca5670"
+    },
+    {
+      "path": "v95/captures/v95/RESPONSE-v95-v3.md",
+      "bytes": 4589,
+      "sha256": "55d7c174221d51d3df81d697dc1f2819bbe1628cb65a4cd4f4981ec0c008b32d"
+    },
+    {
+      "path": "v95/captures/v95/RESPONSE-v95-v4.md",
+      "bytes": 5027,
+      "sha256": "fcd2bbb17751abc9aa53e1cab8b70fb9e9b9080233a58bbca12ee6e1339a9b15"
+    },
+    {
+      "path": "v91/instructions/v91-cum-frontier-v1.md",
+      "bytes": 6092,
+      "sha256": "9db540e81534e4561c5d996c1b77bb89d510ce9cf64125677d31de7eb776a7c6"
+    },
+    {
+      "path": "v91/captures/v91/RESPONSE-v91-v1.md",
+      "bytes": 7180,
+      "sha256": "45373907f9f745c79c325190e58964aecfe6151ed0a7f582b812428db853bcd5"
+    },
+    {
+      "path": "v91/captures/v91/cumulative-pair-v5/session-v2/history-navigation-action-v1.json",
+      "bytes": 152,
+      "sha256": "6a83c57187e442cefce130d13b7b280f58c1d1ec6f59c740d441633f3d184a10"
+    },
+    {
+      "path": "v91/captures/v91/cumulative-frontier-v1.json",
+      "bytes": 15696,
+      "sha256": "d712f8a211940cd9cc4860f40c70cc207048cff2e90241edb82ec44d00492a1f"
+    }
+  ],
+  "sources": [
+    {
+      "id": "v95-conditional-clock-v5",
+      "v95Item": 2,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-conditional-clock-v5.pine",
+      "bytes": 949,
+      "sha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "GATE"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SMA_ALL"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "EMA_ALL"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SMA_BRANCH"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "EMA_BRANCH"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "BRANCH_SMA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "BRANCH_EMA_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-conditional-clock-v6",
+      "v95Item": 2,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-conditional-clock-v6.pine",
+      "bytes": 949,
+      "sha256": "a3a05e1fb4656b39de2b4d8acf0676c618f8614f87b8f11cf031aa0093e35174",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "GATE"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SMA_ALL"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "EMA_ALL"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SMA_BRANCH"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "EMA_BRANCH"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "BRANCH_SMA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "BRANCH_EMA_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-udf-state-v5",
+      "v95Item": 3,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-udf-state-v5.pine",
+      "bytes": 1048,
+      "sha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "A"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "B"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NESTED"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "GATED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "LOCAL_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "GATED_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LOCAL_FIRST_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-udf-state-v6",
+      "v95Item": 3,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-udf-state-v6.pine",
+      "bytes": 1048,
+      "sha256": "ab60c72fe7dc2b8f8eb537e800dc5fe07904f5fddb8d22f29b3be2db63e648a1",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "A"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "B"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NESTED"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "GATED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "LOCAL_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "GATED_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LOCAL_FIRST_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-recursive-holes-v5",
+      "v95Item": 4,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-recursive-holes-v5.pine",
+      "bytes": 1399,
+      "sha256": "f964228f035a4d4824654fcb116cb6dc07086ace2534638b257a58fbdc41f8ec",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CYCLE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "X_NA"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "EMA_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "EMA_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "RMA_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "RMA_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "RSI_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "RSI_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "TSI_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "TSI_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "EMA_HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "RMA_HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "RSI_HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "TSI_HOLE_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-recursive-holes-v6",
+      "v95Item": 4,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-recursive-holes-v6.pine",
+      "bytes": 1399,
+      "sha256": "b1a5aefe9200c6077be710ad31f1461856f0579d2313748e2a98288541dedacc",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CYCLE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "X_NA"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "EMA_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "EMA_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "RMA_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "RMA_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "RSI_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "RSI_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "TSI_CLEAN"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "TSI_HOLE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "EMA_HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "RMA_HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "RSI_HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "TSI_HOLE_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-implicit-ta-v5",
+      "v95Item": 5,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-implicit-ta-v5.pine",
+      "bytes": 995,
+      "sha256": "949a7940f2f08a0e597958ec78cdb262b5b8d706fc17ebe6acce9dfd7bad0e25",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_OPEN"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "TR"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "ATR"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "DI_PLUS"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "DI_MINUS"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "ADX"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "SUPERTREND"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "DIRECTION"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ATR_NA"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ADX_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "TREND_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-implicit-ta-v6",
+      "v95Item": 5,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-implicit-ta-v6.pine",
+      "bytes": 995,
+      "sha256": "39db60cb152030602463067e2c1bd873db978a1c26096a5989791127af424fc4",
+      "byteIdenticalReuse": true,
+      "selection": "MANDATORY_V95_V4_PREFIX_HOLD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_OPEN"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "TR"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "ATR"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "DI_PLUS"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "DI_MINUS"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "ADX"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "SUPERTREND"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "DIRECTION"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ATR_NA"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ADX_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "TREND_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-pivots-levels-v5",
+      "v95Item": 6,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-pivots-levels-v5.pine",
+      "bytes": 2239,
+      "sha256": "b399465c9f980adf3747ce6493f730c048347c85e65063fe4c943fd3f2dd25bc",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "LEFT"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "RIGHT"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "PIVOT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "PIVOT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "HIGH_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LOW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "IMPLICIT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "IMPLICIT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "INPUT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "INPUT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ANCHOR"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "LEVEL_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "DEV_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LEVEL_0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "LEVEL_1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "LEVEL_2"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "LEVEL_3"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "LEVEL_4"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "LEVEL_5"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "LEVEL_6"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "LEVEL_7"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "LEVEL_8"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "LEVEL_9"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "LEVEL_10"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "DEV_0"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "DEV_1"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "DEV_2"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "DEV_3"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "DEV_4"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "DEV_5"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "DEV_6"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "DEV_7"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "DEV_8"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "DEV_9"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "DEV_10"
+        }
+      ]
+    },
+    {
+      "id": "v95-pivots-levels-v6",
+      "v95Item": 6,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-pivots-levels-v6.pine",
+      "bytes": 2239,
+      "sha256": "a275be0f87a9422b177045379f36c590b4290d7bba7ee359e1f814867a1c9011",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "LEFT"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "RIGHT"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "PIVOT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "PIVOT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "HIGH_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LOW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "IMPLICIT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "IMPLICIT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "INPUT_HIGH"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "INPUT_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ANCHOR"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "LEVEL_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "DEV_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LEVEL_0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "LEVEL_1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "LEVEL_2"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "LEVEL_3"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "LEVEL_4"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "LEVEL_5"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "LEVEL_6"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "LEVEL_7"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "LEVEL_8"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "LEVEL_9"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "LEVEL_10"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "DEV_0"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "DEV_1"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "DEV_2"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "DEV_3"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "DEV_4"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "DEV_5"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "DEV_6"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "DEV_7"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "DEV_8"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "DEV_9"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "DEV_10"
+        }
+      ]
+    },
+    {
+      "id": "v95-history-udt-v5",
+      "v95Item": 7,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-history-udt-v5.pine",
+      "bytes": 1203,
+      "sha256": "b5153b93c6cfa524ad71439213419f8f418ff87179d54ed4ddbf1f05a763117c",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "LAG"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DYNAMIC"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "DYNAMIC_NA"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "REC_X"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "COPY_X"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "REC_PAYLOAD"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "COPY_PAYLOAD"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "PRIOR_X"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "PRIOR_PAYLOAD"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "PRIOR_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-history-udt-v6",
+      "v95Item": 7,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-history-udt-v6.pine",
+      "bytes": 1203,
+      "sha256": "86cfd167dddb421bba4079615c0d62dd6e833f1b0edbc2943ef0ab282c36e3b2",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "LAG"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DYNAMIC"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "DYNAMIC_NA"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "REC_X"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "COPY_X"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "REC_PAYLOAD"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "COPY_PAYLOAD"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "PRIOR_X"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "PRIOR_PAYLOAD"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "PRIOR_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-session-calendar-v5",
+      "v95Item": 8,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-session-calendar-v5.pine",
+      "bytes": 1582,
+      "sha256": "0e1320fc0f6c761c05d3750f8d92607ac8cf9efefac69effac17087ac788f03d",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "FIXED_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "NY_HOUR"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NY_MINUTE"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "UTC_HOUR"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "NY_DAY"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "NY_MONTH"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "NY_WEEKDAY"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SESSION_OPEN"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SESSION_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "SESSION_IN"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "CHART_NY_HOUR"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "CHART_NY_MINUTE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "DAY_OPEN"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "WEEK_CHANGE"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "TF_SECONDS"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "CHART_CLOSE_TIME"
+        }
+      ]
+    },
+    {
+      "id": "v95-session-calendar-v6",
+      "v95Item": 8,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-session-calendar-v6.pine",
+      "bytes": 1582,
+      "sha256": "317f695e7ea61e3984188b63b1f5250f041b89854036d6726736f86c6eb6d6db",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "FIXED_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "NY_HOUR"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NY_MINUTE"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "UTC_HOUR"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "NY_DAY"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "NY_MONTH"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "NY_WEEKDAY"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SESSION_OPEN"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SESSION_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "SESSION_IN"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "CHART_NY_HOUR"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "CHART_NY_MINUTE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "DAY_OPEN"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "WEEK_CHANGE"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "TF_SECONDS"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "CHART_CLOSE_TIME"
+        }
+      ]
+    },
+    {
+      "id": "v95-vwap-bands-v5",
+      "v95Item": 9,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-vwap-bands-v5.pine",
+      "bytes": 1312,
+      "sha256": "9a6b101ff47bbb3720b5300e1429fe09527b887b7d7b9509ad7856b15648e1d6",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_VOLUME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "ANCHOR"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "MULT"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "HOLE_SOURCE"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VWAP"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "UPPER"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "LOWER"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "SERIES_VWAP"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "SERIES_UPPER"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "SERIES_LOWER"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "HOLE_VWAP"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "HOLE_UPPER"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "HOLE_LOWER"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "TWO_ARG"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "VWAP_NA"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "HOLE_VWAP_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-vwap-bands-v6",
+      "v95Item": 9,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-vwap-bands-v6.pine",
+      "bytes": 1312,
+      "sha256": "c32346e960702bc47be27fa2bf78ece89167ca402849fd5054900e48adb4a78b",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_VOLUME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "ANCHOR"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "MULT"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "HOLE_SOURCE"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "HOLE_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VWAP"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "UPPER"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "LOWER"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "SERIES_VWAP"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "SERIES_UPPER"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "SERIES_LOWER"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "HOLE_VWAP"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "HOLE_UPPER"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "HOLE_LOWER"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "TWO_ARG"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "VWAP_NA"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "HOLE_VWAP_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-typed-na-v5",
+      "v95Item": 10,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-typed-na-v5.pine",
+      "bytes": 1205,
+      "sha256": "09dc2c71bea35af54d527d923eec7c1e5ef1f388ba56fe4cc413732001e76c3a",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "X_NA"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NZ"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "FIXNAN"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "FIXNAN_NA"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "INT_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "INT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "FLOAT_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "BOOL_ENCODE"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "BOOL_HISTORY_ENCODE"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "STRING_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "STRING_EMPTY_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "STRING_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "STRING_NUMERIC_PARSE"
+        }
+      ]
+    },
+    {
+      "id": "v95-typed-na-v6",
+      "v95Item": 10,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-typed-na-v6.pine",
+      "bytes": 1169,
+      "sha256": "cab1e72c2a713ee435a307214c588f7c9e16fc48b788ebb98e85d8edbe9018c3",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "X_NA"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NZ"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "FIXNAN"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "FIXNAN_NA"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "INT_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "INT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "FLOAT_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "BOOL_ENCODE"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "BOOL_HISTORY_ENCODE"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "STRING_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "STRING_EMPTY_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "STRING_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "STRING_NUMERIC_PARSE"
+        }
+      ]
+    },
+    {
+      "id": "v95-array-alias-v5",
+      "v95Item": 11,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-array-alias-v5.pine",
+      "bytes": 1639,
+      "sha256": "9f139a4fe048fe79135181cb005ab4a193cb84ac30873eff4c0fc5a4a1986740",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "A_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "B_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VIEW_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "A_0"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "A_1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "A_2"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "A_3"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "A_4"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "B_0"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "B_1"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "B_2"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "B_3"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "VIEW_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "VIEW_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "VIEW_2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LAST"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "BOX_ARRAY_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "BOX0_NA"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "TABLE_ARRAY_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "TABLE0_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-array-alias-v6",
+      "v95Item": 11,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-array-alias-v6.pine",
+      "bytes": 1639,
+      "sha256": "ab3737df2e8a191106979a21889ddac0b77af73f43b86cf8bd1ddbbe0f3159bb",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "A_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "B_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VIEW_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "A_0"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "A_1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "A_2"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "A_3"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "A_4"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "B_0"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "B_1"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "B_2"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "B_3"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "VIEW_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "VIEW_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "VIEW_2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LAST"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "BOX_ARRAY_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "BOX0_NA"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "TABLE_ARRAY_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "TABLE0_NA"
+        }
+      ]
+    },
+    {
+      "id": "v95-array-missing-v5",
+      "v95Item": 12,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-array-missing-v5.pine",
+      "bytes": 1691,
+      "sha256": "bb82db62a74e1660d0310e979630a87af234c2b4c05e903711806c40a6288a19",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INCLUDES_NA"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INDEX_NA"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "LASTINDEX_NA"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SUM"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "AVG"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "MEDIAN"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "MIN"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MAX"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "STDEV"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "VARIANCE"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "PERCENTILE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "SORTED_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "SORTED_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "SORTED_2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "SORTED_3"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "SORTED_NA_0"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "SORTED_NA_1"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "SORTED_NA_2"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "SORTED_NA_3"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "ORDER_0"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "ORDER_1"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "ORDER_2"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "ORDER_3"
+        }
+      ]
+    },
+    {
+      "id": "v95-array-missing-v6",
+      "v95Item": 12,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-array-missing-v6.pine",
+      "bytes": 1691,
+      "sha256": "f56094c0e138f584c3b0948aa96ba1402f2a235dbcc128d8ff29d09cffe10820",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INCLUDES_NA"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INDEX_NA"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "LASTINDEX_NA"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SUM"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "AVG"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "MEDIAN"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "MIN"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MAX"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "STDEV"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "VARIANCE"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "PERCENTILE"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "SORTED_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "SORTED_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "SORTED_2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "SORTED_3"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "SORTED_NA_0"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "SORTED_NA_1"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "SORTED_NA_2"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "SORTED_NA_3"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "ORDER_0"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "ORDER_1"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "ORDER_2"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "ORDER_3"
+        }
+      ]
+    },
+    {
+      "id": "v95-input-defaults-v5",
+      "v95Item": 13,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-input-defaults-v5.pine",
+      "bytes": 2024,
+      "sha256": "89004b4365cf68ea6460214e536dcd8569af1dc9acf82b86c00523dc26e44ca5",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INT"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "FLOAT"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "BOOL"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "STRING_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "STRING_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "ENUM_A"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "SESSION_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SESSION_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "TF_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "TF_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "SYMBOL_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "SYMBOL_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "SOURCE"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "PRICE"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "TIME"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "COLOR_R"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "COLOR_G"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "COLOR_B"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "COLOR_T"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "GENERIC"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "TEXT_EXACT"
+        }
+      ]
+    },
+    {
+      "id": "v95-input-defaults-v6",
+      "v95Item": 13,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-input-defaults-v6.pine",
+      "bytes": 2024,
+      "sha256": "500c32bf6701daefd7e95c967760b78e7f9ef9ccb1fcfdec046f43ff8e6f9d2b",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INT"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "FLOAT"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "BOOL"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "STRING_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "STRING_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "ENUM_A"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "SESSION_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SESSION_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "TF_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "TF_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "SYMBOL_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "SYMBOL_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "SOURCE"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "INPUT_CLOSE"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "PRICE"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "TIME"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "COLOR_R"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "COLOR_G"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "COLOR_B"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "COLOR_T"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "GENERIC"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "TEXT_LENGTH"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "TEXT_EXACT"
+        }
+      ]
+    },
+    {
+      "id": "v95-math-vectors-v5",
+      "v95Item": 14,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-math-vectors-v5.pine",
+      "bytes": 1391,
+      "sha256": "eafeca9e8e26af07794c54c1664ecfbc0acdd8eeec5e82ef5fda0dbee400d40b",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "MINTICK"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TICK_INPUT"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "ROUND"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "ROUND1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "CEIL"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "INT"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "TICK_ROUND"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "MIN"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "MAX"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "AVG"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ABS"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "POW"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "EXP"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LOG_INPUT"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "LOG"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "SUM3"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "RANDOM_A"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "RANDOM_B"
+        }
+      ]
+    },
+    {
+      "id": "v95-math-vectors-v6",
+      "v95Item": 14,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-math-vectors-v6.pine",
+      "bytes": 1391,
+      "sha256": "e0f211b6db5ab1cfe86872ceecb9d042ea5e0d7ef0da3e09ba47813b4cb809d5",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "MINTICK"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TICK_INPUT"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "ROUND"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "ROUND1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "FLOOR"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "CEIL"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "INT"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "TICK_ROUND"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "MIN"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "MAX"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "AVG"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ABS"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "POW"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "EXP"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LOG_INPUT"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "LOG"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "SUM3"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "RANDOM_A"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "RANDOM_B"
+        }
+      ]
+    },
+    {
+      "id": "v95-string-format-v5",
+      "v95Item": 15,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-string-format-v5.pine",
+      "bytes": 2142,
+      "sha256": "9a14b039e7cddc0865c60b9ca1bbe7933f5e9ade0c54b8df32a75287c8bafab9",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "FIXED_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "ENCODER_0"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "ENCODER_A"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "ENCODER_DASH"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "TOSTRING_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "FORMAT_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "TIME_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MISSING_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "TOSTRING_C0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "TOSTRING_C1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "TOSTRING_C2"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "TOSTRING_C3"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "TOSTRING_C4"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "TOSTRING_C5"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "FORMAT_C0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "FORMAT_C1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "FORMAT_C2"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "FORMAT_C3"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "FORMAT_C4"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "FORMAT_C5"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "TIME_C0"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "TIME_C1"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "TIME_C2"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "TIME_C3"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "TIME_C4"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "MISSING_C0"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "MISSING_C1"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "MISSING_C2"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "MISSING_C3"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "MISSING_C4"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "MISSING_C5"
+        }
+      ]
+    },
+    {
+      "id": "v95-string-format-v6",
+      "v95Item": 15,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-string-format-v6.pine",
+      "bytes": 2142,
+      "sha256": "790ff7d503fe7ce73feb82b02449358b0865a50895da81ed5a75fa66a08f93a1",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "X"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "FIXED_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "ENCODER_0"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "ENCODER_A"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "ENCODER_DASH"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "TOSTRING_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "FORMAT_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "TIME_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MISSING_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "TOSTRING_C0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "TOSTRING_C1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "TOSTRING_C2"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "TOSTRING_C3"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "TOSTRING_C4"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "TOSTRING_C5"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "FORMAT_C0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "FORMAT_C1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "FORMAT_C2"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "FORMAT_C3"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "FORMAT_C4"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "FORMAT_C5"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "TIME_C0"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "TIME_C1"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "TIME_C2"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "TIME_C3"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "TIME_C4"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "MISSING_C0"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "MISSING_C1"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "MISSING_C2"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "MISSING_C3"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "MISSING_C4"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "MISSING_C5"
+        }
+      ]
+    },
+    {
+      "id": "v95-string-operations-v5",
+      "v95Item": 16,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-string-operations-v5.pine",
+      "bytes": 2422,
+      "sha256": "22be1d300af9fec5c191e49f20cc5a57325a9f8ec74ce7dfbc1ac2c96794b2f8",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "REPLACE_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "ALL_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "REPEAT_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SUBSTRING_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "REPLACE_C0"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "REPLACE_C1"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "REPLACE_C2"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "REPLACE_C3"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "ALL_C0"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "ALL_C1"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "ALL_C2"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ALL_C3"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "REPEAT_C0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "REPEAT_C1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "REPEAT_C2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "REPEAT_C3"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "REPEAT_C4"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "SUBSTRING_C0"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "SUBSTRING_C1"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "SUBSTRING_C2"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "ENCODER_0"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "ENCODER_A"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "PARTS"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "PART0_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "PART1_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "PART2_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "PART0_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "PART1_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "PART2_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "NO_MATCH_POS"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "NO_MATCH_NA"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "TRIM_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "UPPER_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "LOWER_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "TONUMBER"
+        }
+      ]
+    },
+    {
+      "id": "v95-string-operations-v6",
+      "v95Item": 16,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-string-operations-v6.pine",
+      "bytes": 2422,
+      "sha256": "7d9a69c03e062185199474852a06b2bd740f029c510216ee667dc7aa44ef8712",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "REPLACE_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "ALL_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "REPEAT_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SUBSTRING_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "REPLACE_C0"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "REPLACE_C1"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "REPLACE_C2"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "REPLACE_C3"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "ALL_C0"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "ALL_C1"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "ALL_C2"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ALL_C3"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "REPEAT_C0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "REPEAT_C1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "REPEAT_C2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "REPEAT_C3"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "REPEAT_C4"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "SUBSTRING_C0"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "SUBSTRING_C1"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "SUBSTRING_C2"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "ENCODER_0"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "ENCODER_A"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "PARTS"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "PART0_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "PART1_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "PART2_LEN"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "PART0_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "PART1_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "PART2_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "NO_MATCH_POS"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "NO_MATCH_NA"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "TRIM_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "UPPER_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "LOWER_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "TONUMBER"
+        }
+      ]
+    },
+    {
+      "id": "v95-map-mutations-v5",
+      "v95Item": 17,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-map-mutations-v5.pine",
+      "bytes": 1870,
+      "sha256": "a46784a307efbf5a2e5615b390e33598916e0dac3a4cf1d65730c039a7d32976",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "M_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "COPY_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DONOR_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "REMOVED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "REF_ORIGINAL"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "REF_COPY"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "MERGED_0"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "MERGED_1"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MERGED_2"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "KEY_0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "KEY_1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "KEY_2"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "VALUE_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "VALUE_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "VALUE_2"
+        }
+      ]
+    },
+    {
+      "id": "v95-map-mutations-v6",
+      "v95Item": 17,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-map-mutations-v6.pine",
+      "bytes": 1870,
+      "sha256": "598f34b8e285af167545fdea1ab17c1623aa001dee5eaf030f0023d9b75847b5",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "M_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "COPY_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DONOR_SIZE"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "REMOVED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "REF_ORIGINAL"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "REF_COPY"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "MERGED_0"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "MERGED_1"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "MERGED_2"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "KEY_0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "KEY_1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "KEY_2"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "VALUE_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "VALUE_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "VALUE_2"
+        }
+      ]
+    },
+    {
+      "id": "v95-matrix-mutations-v5",
+      "v95Item": 18,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-matrix-mutations-v5.pine",
+      "bytes": 2170,
+      "sha256": "9834eaad48a4b717fa492c74b33cbebe2f22abed9473be2d1b211b0ed033d1cc",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "PRE_SUB_SOURCE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "COPY_01"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SUB_00"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "ROWS"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "COLS"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "ELEMENTS"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "JOIN_ROWS"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "JOIN_COLS"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "JOIN_ELEMENTS"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "JOIN_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "JOIN_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "JOIN_0_2"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "JOIN_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "JOIN_1_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "JOIN_1_2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "JOIN_2_0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "JOIN_2_1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "JOIN_2_2"
+        }
+      ]
+    },
+    {
+      "id": "v95-matrix-mutations-v6",
+      "v95Item": 18,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-matrix-mutations-v6.pine",
+      "bytes": 2170,
+      "sha256": "79b468c23b6e6b2ec1c451dd1a37db1e88179ca9404af12fe3d6a7e3dcb93299",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "PRE_SUB_SOURCE"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "COPY_01"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SUB_00"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "ROWS"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "COLS"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "ELEMENTS"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "JOIN_ROWS"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "JOIN_COLS"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "JOIN_ELEMENTS"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "JOIN_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "JOIN_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "JOIN_0_2"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "JOIN_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "JOIN_1_1"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "JOIN_1_2"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "JOIN_2_0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "JOIN_2_1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "JOIN_2_2"
+        }
+      ]
+    },
+    {
+      "id": "v95-matrix-numerics-v5",
+      "v95Item": 19,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-matrix-numerics-v5.pine",
+      "bytes": 1712,
+      "sha256": "774022fcb02ed36def9bf7c32181c4fe1f3b94d30fffd13a299fd8b1cd1c1e3c",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "A_DET"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "A_RANK"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "B_DET"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "B_RANK"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "EIGEN_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "EIGEN_0"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "EIGEN_1"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "INV_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "INV_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "INV_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "INV_1_1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "PINV_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "PINV_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "PINV_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "PINV_1_1"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "EVEC_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "EVEC_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "EVEC_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "EVEC_1_1"
+        }
+      ]
+    },
+    {
+      "id": "v95-matrix-numerics-v6",
+      "v95Item": 19,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-matrix-numerics-v6.pine",
+      "bytes": 1712,
+      "sha256": "e79c95a00d415eecb1c9f16475c7bda8c5803459532422f3646e68a335a22602",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "A_DET"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "A_RANK"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "B_DET"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "B_RANK"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "EIGEN_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "EIGEN_0"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "EIGEN_1"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "INV_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "INV_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "INV_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "INV_1_1"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "PINV_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "PINV_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "PINV_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "PINV_1_1"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "EVEC_0_0"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "EVEC_0_1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "EVEC_1_0"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "EVEC_1_1"
+        }
+      ]
+    },
+    {
+      "id": "v95-realtime-varip-v5",
+      "v95Item": 20,
+      "pineVersion": 5,
+      "path": "v95/sources/v95-realtime-varip-v5.pine",
+      "bytes": 1394,
+      "sha256": "6e445c0cfa72513789e9afdf9493c3e1177ba7bfb836933aa6a50885c5b500f9",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "scope": "Only closed historical prefix/seed facets if explicitly held. No realtime observer window, lost update sequence or varip rollback claim.",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CLOCK"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SEEN_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TICKS"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "COMMITTED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "PREVIOUS_COMMITTED"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "COMMITTED_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "UDT_ORDINARY"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "PREVIOUS_ORDINARY"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "UDT_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "UDT_STICKY"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "IS_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "IS_REALTIME"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "IS_HISTORY"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "IS_LAST"
+        }
+      ]
+    },
+    {
+      "id": "v95-realtime-varip-v6",
+      "v95Item": 20,
+      "pineVersion": 6,
+      "path": "v95/sources/v95-realtime-varip-v6.pine",
+      "bytes": 1394,
+      "sha256": "e453f242867f21b1d522d2b97c122d6742024dc7fb0a72850b5ef727a01e94c3",
+      "byteIdenticalReuse": true,
+      "selection": "RESERVED_ONLY_IF_LATER_V95_RESPONSE_EXPLICITLY_PREFIX_OR_SEED_HELD",
+      "scope": "Only closed historical prefix/seed facets if explicitly held. No realtime observer window, lost update sequence or varip rollback claim.",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 2,
+      "maximumCalendarNavigationActions": 1,
+      "maximumCalculationSessions": 2,
+      "retryLimit": 0,
+      "inputStates": {},
+      "minimumConsecutiveClosedOwnIndexPrefix": [
+        0,
+        127
+      ],
+      "plotColumns": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "IS_FIRST"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FIRST_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "FIRST_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CLOCK"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SEEN_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TICKS"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "COMMITTED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "PREVIOUS_COMMITTED"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "COMMITTED_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "UDT_ORDINARY"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "PREVIOUS_ORDINARY"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "UDT_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "UDT_STICKY"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "IS_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "IS_REALTIME"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "IS_HISTORY"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "IS_LAST"
+        }
+      ]
+    }
+  ]
+}
