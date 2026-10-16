@@ -1,0 +1,15 @@
+# Native gradient capture response v94 v1
+
+Four-source progress return for request28187da7b790218c77e2808ce1c21bb4117b5781. The two discriminator sources remain pending/in progress and are excluded from this return. See `attempt-inventory-v2.json`, `numeric-controls-v1.json`, `facet-capabilities-v1.json` and the read-only `validate-evidence-v1.py`.
+
+Four exact private Save/Add pairs and four original native CSVs are retained. Each own study was removed. All eight full native compiler bodies report success; their exposed `metaInfo.warnings` arrays are empty. Independently exposed editor marker arrays and native study-instance IDs remain UNOBSERVED; immediate/settled UI is retained separately. No compilation refusal occurred in these four slots.
+
+Both clamp versions support P and refute S over their first32 independently closed rows. The midpoint is R/G/B/T/NA=0/0/0/50/0; above-clamp is0/0/0/100/0. The upper constructor still returns100/200/50/T100, distinguishing the gradient result from its input. All eleven endpoint/X controls and the six original result plots are individually bound and scored.
+
+Both RSI versions provide32 distinct interior input ratios in32 consecutive closed rows. Each row separates the frozen S/P RGB sets. Observed RGB fits P/128of255/floor in32/32; P/nominal/floor in29/32; P/127of255/floor in25/32. Every S RGB alternative, and P identity/nearest alternatives, has0/32 RGB tuple matches. This is a bounded RGB observation, not full RGBA certification.
+
+Every one of the18 frozen RSI full-RGBA submodels is REFUTED: all32 transparency cells differ from every continuous-alpha hypothesis. For example the first RSI string38.759821737559854 yields native193/61/0/T20/NA0, while nominal predicted transparency is19379910868779927/1000000000000000. Both packed-opacity T predictions are separately retained too. No transparency quantizer or replacement algorithm is fitted. RESULT_NA and blanks are assertions, never eligibility filters; actual outputs remain observed contradictions.
+
+CSV columns are bound by exact source transport, private version, native plot metadata, own-study UI and fresh native download clocks. Native builtin Volume is retained: column6 in clamps and column27 in RSI. RSI has an exposed dynamic colorer in metadata but no extra exported colorer column; nothing is synthesized. All1231 original data rows and1227 independent closed rows are retained with SHA-bound masks. Numeric comparisons explicitly cover the first32 closed rows per source, not every retained row or sampling completeness. Developing rows stay OBSERVED / EXCLUDED.
+
+New layout native208221739/u8vemUuW uses BINANCE:BTCUSDT2m Candles UTC and retains its default builtin Volume. Existing-layout after-comparison is pending until the six-slot return. No existing layout save/edit, import, publication/share/visibility change, alert, reconnect or account action was taken. The private library remains unchanged. Source-level study IDs, editor arrays, provider-frame/frontier identity and internal precision remain explicit limits. Historical holds remain unchanged; no engine approval, merge of014002b3 or fixture promotion follows.

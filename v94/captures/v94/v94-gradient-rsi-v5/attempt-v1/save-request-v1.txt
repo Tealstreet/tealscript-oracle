@@ -1,0 +1,32 @@
+------WebKitFormBoundary2eUwTcXZggfl42Tt
+Content-Disposition: form-data; name="source"
+
+//@version=5
+indicator("V94 gradient-rsi v5", overlay=true, precision=16)
+signal = ta.rsi(close, 7)
+signalColor = color.from_gradient(signal, 0, 100, color.rgb(255, 0, 0), color.rgb(0, 255, 0, 50))
+plot(signal, title="Signal", color=signalColor)
+lower = color.rgb(255, 0, 0)
+upper = color.rgb(0, 255, 0, 50)
+plot(signal, "RSI", display=display.data_window)
+plot(signal / 100.0, "RATIO_UNCLAMPED", display=display.data_window)
+plot(close, "INPUT_CLOSE", display=display.data_window)
+plot(na(signal) ? 1 : 0, "RSI_NA", display=display.data_window)
+plot(color.r(signalColor), "RESULT_R", display=display.data_window)
+plot(color.g(signalColor), "RESULT_G", display=display.data_window)
+plot(color.b(signalColor), "RESULT_B", display=display.data_window)
+plot(color.t(signalColor), "RESULT_T", display=display.data_window)
+plot(na(signalColor) ? 1 : 0, "RESULT_NA", display=display.data_window)
+plot(color.r(lower), "LOWER_R", display=display.data_window)
+plot(color.g(lower), "LOWER_G", display=display.data_window)
+plot(color.b(lower), "LOWER_B", display=display.data_window)
+plot(color.t(lower), "LOWER_T", display=display.data_window)
+plot(color.r(upper), "UPPER_R", display=display.data_window)
+plot(color.g(upper), "UPPER_G", display=display.data_window)
+plot(color.b(upper), "UPPER_B", display=display.data_window)
+plot(color.t(upper), "UPPER_T", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+
+------WebKitFormBoundary2eUwTcXZggfl42Tt--
