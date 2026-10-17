@@ -1,0 +1,942 @@
+{
+  "version": "v1",
+  "csv": {
+    "path": "v98/captures/v98/v98-color-na-cast-v6/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 67502,
+    "sha256": "ab61db6482a2581e590b04e96db879279947acf81fde6d340d24433306e7a052"
+  },
+  "sourceId": "v98-color-na-cast-v6",
+  "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+  "nativePrivateId": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+  "nativePrivateVersion": "1.0",
+  "nativeMetaInfoId": "Script$USER;7bfa5b1ce45342d2a04fe5ff233a5661@tv-scripting-101",
+  "columns": [
+    {
+      "columnOrdinal": 1,
+      "originalHeader": "time",
+      "owner": "Native main chart",
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 2,
+      "originalHeader": "open",
+      "owner": "Native main chart",
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 3,
+      "originalHeader": "high",
+      "owner": "Native main chart",
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 4,
+      "originalHeader": "low",
+      "owner": "Native main chart",
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 5,
+      "originalHeader": "close",
+      "owner": "Native main chart",
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 6,
+      "originalHeader": "Volume",
+      "owner": "Native builtin Vol \u00b7 BTC",
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 7,
+      "originalHeader": "INPUT_INDEX",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_0",
+      "sourceLiteralPlotOrdinal": 0,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 8,
+      "originalHeader": "INPUT_TIME",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_1",
+      "sourceLiteralPlotOrdinal": 1,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 9,
+      "originalHeader": "CHART_CONFIRMED",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_2",
+      "sourceLiteralPlotOrdinal": 2,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 10,
+      "originalHeader": "CASE_ID",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_3",
+      "sourceLiteralPlotOrdinal": 3,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 11,
+      "originalHeader": "CURRENT_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_4",
+      "sourceLiteralPlotOrdinal": 4,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 12,
+      "originalHeader": "EXACT_NA_CAST_CODE",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_5",
+      "sourceLiteralPlotOrdinal": 5,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 13,
+      "originalHeader": "EXACT_NA_CAST",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_6",
+      "sourceLiteralPlotOrdinal": 6,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 14,
+      "originalHeader": "TYPED_NA_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_7",
+      "sourceLiteralPlotOrdinal": 7,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 15,
+      "originalHeader": "CAST_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_8",
+      "sourceLiteralPlotOrdinal": 8,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 16,
+      "originalHeader": "CAST_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_9",
+      "sourceLiteralPlotOrdinal": 9,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 17,
+      "originalHeader": "CAST_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_10",
+      "sourceLiteralPlotOrdinal": 10,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 18,
+      "originalHeader": "CAST_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_11",
+      "sourceLiteralPlotOrdinal": 11,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 19,
+      "originalHeader": "CAST_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_12",
+      "sourceLiteralPlotOrdinal": 12,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 20,
+      "originalHeader": "VAR_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_13",
+      "sourceLiteralPlotOrdinal": 13,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 21,
+      "originalHeader": "VAR_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_14",
+      "sourceLiteralPlotOrdinal": 14,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 22,
+      "originalHeader": "VAR_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_15",
+      "sourceLiteralPlotOrdinal": 15,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 23,
+      "originalHeader": "VAR_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_16",
+      "sourceLiteralPlotOrdinal": 16,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 24,
+      "originalHeader": "VAR_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_17",
+      "sourceLiteralPlotOrdinal": 17,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 25,
+      "originalHeader": "ARRAY_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_18",
+      "sourceLiteralPlotOrdinal": 18,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 26,
+      "originalHeader": "ARRAY_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_19",
+      "sourceLiteralPlotOrdinal": 19,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 27,
+      "originalHeader": "ARRAY_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_20",
+      "sourceLiteralPlotOrdinal": 20,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 28,
+      "originalHeader": "ARRAY_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_21",
+      "sourceLiteralPlotOrdinal": 21,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 29,
+      "originalHeader": "ARRAY_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_22",
+      "sourceLiteralPlotOrdinal": 22,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 30,
+      "originalHeader": "HISTORY_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_23",
+      "sourceLiteralPlotOrdinal": 23,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 31,
+      "originalHeader": "HISTORY_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_24",
+      "sourceLiteralPlotOrdinal": 24,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 32,
+      "originalHeader": "HISTORY_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_25",
+      "sourceLiteralPlotOrdinal": 25,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 33,
+      "originalHeader": "HISTORY_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_26",
+      "sourceLiteralPlotOrdinal": 26,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 34,
+      "originalHeader": "HISTORY_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_27",
+      "sourceLiteralPlotOrdinal": 27,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 35,
+      "originalHeader": "CAST_HISTORY_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_28",
+      "sourceLiteralPlotOrdinal": 28,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 36,
+      "originalHeader": "CAST_HISTORY_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_29",
+      "sourceLiteralPlotOrdinal": 29,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 37,
+      "originalHeader": "CAST_HISTORY_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_30",
+      "sourceLiteralPlotOrdinal": 30,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 38,
+      "originalHeader": "CAST_HISTORY_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_31",
+      "sourceLiteralPlotOrdinal": 31,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 39,
+      "originalHeader": "CAST_HISTORY_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_32",
+      "sourceLiteralPlotOrdinal": 32,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 40,
+      "originalHeader": "NZ_DEFAULT_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_33",
+      "sourceLiteralPlotOrdinal": 33,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 41,
+      "originalHeader": "NZ_DEFAULT_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_34",
+      "sourceLiteralPlotOrdinal": 34,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 42,
+      "originalHeader": "NZ_DEFAULT_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_35",
+      "sourceLiteralPlotOrdinal": 35,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 43,
+      "originalHeader": "NZ_DEFAULT_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_36",
+      "sourceLiteralPlotOrdinal": 36,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 44,
+      "originalHeader": "NZ_DEFAULT_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_37",
+      "sourceLiteralPlotOrdinal": 37,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 45,
+      "originalHeader": "NZ_REPLACEMENT_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_38",
+      "sourceLiteralPlotOrdinal": 38,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 46,
+      "originalHeader": "NZ_REPLACEMENT_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_39",
+      "sourceLiteralPlotOrdinal": 39,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 47,
+      "originalHeader": "NZ_REPLACEMENT_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_40",
+      "sourceLiteralPlotOrdinal": 40,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 48,
+      "originalHeader": "NZ_REPLACEMENT_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_41",
+      "sourceLiteralPlotOrdinal": 41,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 49,
+      "originalHeader": "NZ_REPLACEMENT_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_42",
+      "sourceLiteralPlotOrdinal": 42,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 50,
+      "originalHeader": "GRAD_CAST_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_43",
+      "sourceLiteralPlotOrdinal": 43,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 51,
+      "originalHeader": "GRAD_CAST_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_44",
+      "sourceLiteralPlotOrdinal": 44,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 52,
+      "originalHeader": "GRAD_CAST_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_45",
+      "sourceLiteralPlotOrdinal": 45,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 53,
+      "originalHeader": "GRAD_CAST_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_46",
+      "sourceLiteralPlotOrdinal": 46,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 54,
+      "originalHeader": "GRAD_CAST_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_47",
+      "sourceLiteralPlotOrdinal": 47,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 55,
+      "originalHeader": "GRAD_NA_R",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_48",
+      "sourceLiteralPlotOrdinal": 48,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 56,
+      "originalHeader": "GRAD_NA_G",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_49",
+      "sourceLiteralPlotOrdinal": 49,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 57,
+      "originalHeader": "GRAD_NA_B",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_50",
+      "sourceLiteralPlotOrdinal": 50,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 58,
+      "originalHeader": "GRAD_NA_T",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_51",
+      "sourceLiteralPlotOrdinal": 51,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 59,
+      "originalHeader": "GRAD_NA_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_52",
+      "sourceLiteralPlotOrdinal": 52,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 60,
+      "originalHeader": "CAST_EQ_SELF",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_53",
+      "sourceLiteralPlotOrdinal": 53,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 61,
+      "originalHeader": "CAST_EQ_TYPED_NA",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_54",
+      "sourceLiteralPlotOrdinal": 54,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 62,
+      "originalHeader": "CAST_EQ_BLACK0",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_55",
+      "sourceLiteralPlotOrdinal": 55,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 63,
+      "originalHeader": "CAST_EQ_BLACK100",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_56",
+      "sourceLiteralPlotOrdinal": 56,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 64,
+      "originalHeader": "CAST_EQ_DF",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_57",
+      "sourceLiteralPlotOrdinal": 57,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 65,
+      "originalHeader": "VAR_EQ_CAST",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_58",
+      "sourceLiteralPlotOrdinal": 58,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 66,
+      "originalHeader": "ARRAY_EQ_CAST",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_59",
+      "sourceLiteralPlotOrdinal": 59,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 67,
+      "originalHeader": "HISTORY_EQ_EXPECTED",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_60",
+      "sourceLiteralPlotOrdinal": 60,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 68,
+      "originalHeader": "EQ_PRESENT_SELF",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_61",
+      "sourceLiteralPlotOrdinal": 61,
+      "bindingStatus": "OBSERVED"
+    },
+    {
+      "columnOrdinal": 69,
+      "originalHeader": "EQ_PRESENT_DISTINCT",
+      "owner": "USER;7bfa5b1ce45342d2a04fe5ff233a5661",
+      "privateVersion": "1.0",
+      "sourceSha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "nativePlotId": "plot_62",
+      "sourceLiteralPlotOrdinal": 62,
+      "bindingStatus": "OBSERVED"
+    }
+  ],
+  "missingOrAmbiguousRequestedPlotTitles": [],
+  "unresolvedColumnOrdinals": [],
+  "nativeExposedPlotMetadata": [
+    {
+      "id": "plot_0",
+      "type": "line"
+    },
+    {
+      "id": "plot_1",
+      "type": "line"
+    },
+    {
+      "id": "plot_2",
+      "type": "line"
+    },
+    {
+      "id": "plot_3",
+      "type": "line"
+    },
+    {
+      "id": "plot_4",
+      "type": "line"
+    },
+    {
+      "id": "plot_5",
+      "type": "line"
+    },
+    {
+      "id": "plot_6",
+      "type": "line"
+    },
+    {
+      "id": "plot_7",
+      "type": "line"
+    },
+    {
+      "id": "plot_8",
+      "type": "line"
+    },
+    {
+      "id": "plot_9",
+      "type": "line"
+    },
+    {
+      "id": "plot_10",
+      "type": "line"
+    },
+    {
+      "id": "plot_11",
+      "type": "line"
+    },
+    {
+      "id": "plot_12",
+      "type": "line"
+    },
+    {
+      "id": "plot_13",
+      "type": "line"
+    },
+    {
+      "id": "plot_14",
+      "type": "line"
+    },
+    {
+      "id": "plot_15",
+      "type": "line"
+    },
+    {
+      "id": "plot_16",
+      "type": "line"
+    },
+    {
+      "id": "plot_17",
+      "type": "line"
+    },
+    {
+      "id": "plot_18",
+      "type": "line"
+    },
+    {
+      "id": "plot_19",
+      "type": "line"
+    },
+    {
+      "id": "plot_20",
+      "type": "line"
+    },
+    {
+      "id": "plot_21",
+      "type": "line"
+    },
+    {
+      "id": "plot_22",
+      "type": "line"
+    },
+    {
+      "id": "plot_23",
+      "type": "line"
+    },
+    {
+      "id": "plot_24",
+      "type": "line"
+    },
+    {
+      "id": "plot_25",
+      "type": "line"
+    },
+    {
+      "id": "plot_26",
+      "type": "line"
+    },
+    {
+      "id": "plot_27",
+      "type": "line"
+    },
+    {
+      "id": "plot_28",
+      "type": "line"
+    },
+    {
+      "id": "plot_29",
+      "type": "line"
+    },
+    {
+      "id": "plot_30",
+      "type": "line"
+    },
+    {
+      "id": "plot_31",
+      "type": "line"
+    },
+    {
+      "id": "plot_32",
+      "type": "line"
+    },
+    {
+      "id": "plot_33",
+      "type": "line"
+    },
+    {
+      "id": "plot_34",
+      "type": "line"
+    },
+    {
+      "id": "plot_35",
+      "type": "line"
+    },
+    {
+      "id": "plot_36",
+      "type": "line"
+    },
+    {
+      "id": "plot_37",
+      "type": "line"
+    },
+    {
+      "id": "plot_38",
+      "type": "line"
+    },
+    {
+      "id": "plot_39",
+      "type": "line"
+    },
+    {
+      "id": "plot_40",
+      "type": "line"
+    },
+    {
+      "id": "plot_41",
+      "type": "line"
+    },
+    {
+      "id": "plot_42",
+      "type": "line"
+    },
+    {
+      "id": "plot_43",
+      "type": "line"
+    },
+    {
+      "id": "plot_44",
+      "type": "line"
+    },
+    {
+      "id": "plot_45",
+      "type": "line"
+    },
+    {
+      "id": "plot_46",
+      "type": "line"
+    },
+    {
+      "id": "plot_47",
+      "type": "line"
+    },
+    {
+      "id": "plot_48",
+      "type": "line"
+    },
+    {
+      "id": "plot_49",
+      "type": "line"
+    },
+    {
+      "id": "plot_50",
+      "type": "line"
+    },
+    {
+      "id": "plot_51",
+      "type": "line"
+    },
+    {
+      "id": "plot_52",
+      "type": "line"
+    },
+    {
+      "id": "plot_53",
+      "type": "line"
+    },
+    {
+      "id": "plot_54",
+      "type": "line"
+    },
+    {
+      "id": "plot_55",
+      "type": "line"
+    },
+    {
+      "id": "plot_56",
+      "type": "line"
+    },
+    {
+      "id": "plot_57",
+      "type": "line"
+    },
+    {
+      "id": "plot_58",
+      "type": "line"
+    },
+    {
+      "id": "plot_59",
+      "type": "line"
+    },
+    {
+      "id": "plot_60",
+      "type": "line"
+    },
+    {
+      "id": "plot_61",
+      "type": "line"
+    },
+    {
+      "id": "plot_62",
+      "type": "line"
+    }
+  ],
+  "nativeColorerDefinitions": [],
+  "actuallyExportedColorerColumns": [],
+  "absentColorerPolicy": "A native colorer definition never creates an absent CSV value",
+  "inputSession": "One unchanged default source/settings session; no input variants",
+  "ownershipBasis": "Exact source/form transport and private version, native metadata, own-study native UI and fresh download clocks; title equality alone is insufficient"
+}
