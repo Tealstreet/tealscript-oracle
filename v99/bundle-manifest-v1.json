@@ -1,0 +1,1987 @@
+{
+  "version": "v1",
+  "round": "v99",
+  "baselineOracle": "913792b5f5c06fcc313cb9f2e1baf6356dafdf34",
+  "purpose": "Immediate constant v5 RGB/NEW comparisons, unchanged v98 constructor-v6 recapture, and bounded v6 cast array/history observations",
+  "authorizedMethod": "Save as PRIVATE unpublished script, Add to chart, remove studies after; MAY create a new throwaway layout and change symbol/interval/settings on it only; STILL FORBIDDEN: publish, share, any visibility change, any change to EXISTING saved layouts, alerts, library publication/import; anything beyond: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+  "handoffSection4Verbatim": "- Repo `Tealstreet/tealscript-oracle`, local `~/cs/tealscript-oracle`. Publish capture requests\n  straight to its `master`; a capture agent polls and answers (`RESPONSE-vNN-*.md` + captures).\n  Head check: `git ls-remote https://github.com/Tealstreet/tealscript-oracle refs/heads/master`.\n- Tests consume a SHA-pinned sparse checkout via `packages/tealscript/oracle-fixtures.json`\n  (`node scripts/oracle-fixtures.mjs fetch`). Never commit raw captures into tealchart or\n  tealstreet-next.\n- **Request rules:** never ask for publication, sharing, visibility changes, alerts, edits to\n  existing layouts, or library publication/import. A new throwaway layout is allowed; keep layout\n  `P425PrivateV79v1` if possible. Reuse the v90 authorized-method text verbatim.",
+  "localAuthoring": "Commit on master locally only; DO NOT push. Owner publication after crossed QA precedes capture.",
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "style": "Candles",
+    "timezone": "Etc/UTC",
+    "layout": "One NEW v99 throwaway layout only",
+    "preserve": [
+      "P425PrivateV79v1",
+      "sours-lat/P425PrivateV79v1/1",
+      "all existing layouts/scripts/tabs including v98"
+    ]
+  },
+  "budget": {
+    "sources": 5,
+    "newSourceFiles": 4,
+    "unchangedReferencedSources": 1,
+    "maxSaves": 5,
+    "maxAdds": 5,
+    "maxCSVs": 5,
+    "maxSessions": 5,
+    "maxHistoryNavigationActions": 0,
+    "retries": 0,
+    "inputVariants": 0
+  },
+  "sources": [
+    {
+      "item": 1,
+      "sourceId": "v99-direct-colors-core-v5",
+      "path": "v99/sources/v99-direct-colors-core-v5.pine",
+      "bytes": 6228,
+      "sha256": "e13c3fb04d2f185317a8b00f23b0221e1ca30bbc274d3751bf399fcc5690551d",
+      "pathFromRound": "sources/v99-direct-colors-core-v5.pine",
+      "reusedUnchanged": false,
+      "pineVersion": 5,
+      "indicatorTitle": "V99 direct colors core v5",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "minimumPrimaryClosedRows": 64,
+      "phaseModulo": null,
+      "requiresOriginalClosedPredecessor": false,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "RGB_12P1_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "RGB_12P1_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "RGB_12P1_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "RGB_12P1_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RGB_12P1_R"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "RGB_12P1_G"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "RGB_12P1_B"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "RGB_12P1_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "NEW_12P1_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "NEW_12P1_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "NEW_12P1_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "NEW_12P1_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "NEW_12P1_R"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "NEW_12P1_G"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "NEW_12P1_B"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "NEW_12P1_T"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "RGB_12P5_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "RGB_12P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "RGB_12P5_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "RGB_12P5_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "RGB_12P5_R"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "RGB_12P5_G"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "RGB_12P5_B"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "RGB_12P5_T"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "NEW_12P5_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "NEW_12P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "NEW_12P5_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "NEW_12P5_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "NEW_12P5_R"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "NEW_12P5_G"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "NEW_12P5_B"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "NEW_12P5_T"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "RGB_12P9_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "RGB_12P9_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "RGB_12P9_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "RGB_12P9_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "RGB_12P9_R"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "RGB_12P9_G"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "RGB_12P9_B"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "RGB_12P9_T"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "NEW_12P9_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "NEW_12P9_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "NEW_12P9_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "NEW_12P9_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "NEW_12P9_R"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "NEW_12P9_G"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "NEW_12P9_B"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "NEW_12P9_T"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "RGB_12P5_NA"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "NEW_12P5_NA"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "LIT_DE_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "LIT_DE_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "LIT_DE_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "LIT_DE_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "LIT_DF_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "LIT_DF_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "LIT_DF_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "LIT_E0_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "LIT_E0_EQ_E1"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "LIT_E1_EQ_E1"
+        }
+      ]
+    },
+    {
+      "item": 1,
+      "sourceId": "v99-direct-colors-edge-v5",
+      "path": "v99/sources/v99-direct-colors-edge-v5.pine",
+      "bytes": 6469,
+      "sha256": "c3abd93c9ec3c40284ffcff595a0337ab9cfc6f9575066a04b009bf47fd1dbd1",
+      "pathFromRound": "sources/v99-direct-colors-edge-v5.pine",
+      "reusedUnchanged": false,
+      "pineVersion": 5,
+      "indicatorTitle": "V99 direct colors edge v5",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "minimumPrimaryClosedRows": 64,
+      "phaseModulo": null,
+      "requiresOriginalClosedPredecessor": false,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "RGB_22P9_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "RGB_22P9_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "RGB_22P9_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "RGB_22P9_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RGB_22P9_EQ_C5"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "RGB_22P9_EQ_C6"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "RGB_22P9_EQ_C7"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "RGB_22P9_T"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "NEW_22P9_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "NEW_22P9_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "NEW_22P9_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "NEW_22P9_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "NEW_22P9_EQ_C5"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "NEW_22P9_EQ_C6"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "NEW_22P9_EQ_C7"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "NEW_22P9_T"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "RGB_0P5_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "RGB_0P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "RGB_0P5_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "RGB_0P5_EQ_FC"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "RGB_0P5_EQ_FD"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "RGB_0P5_EQ_FE"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "RGB_0P5_EQ_FF"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "RGB_0P5_T"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "NEW_0P5_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "NEW_0P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "NEW_0P5_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "NEW_0P5_EQ_FC"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "NEW_0P5_EQ_FD"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "NEW_0P5_EQ_FE"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "NEW_0P5_EQ_FF"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "NEW_0P5_T"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "RGB_99P5_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "RGB_99P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "RGB_99P5_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "RGB_99P5_EQ_00"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "RGB_99P5_EQ_01"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "RGB_99P5_EQ_02"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "RGB_99P5_EQ_03"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "RGB_99P5_T"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "NEW_99P5_EQ_DE"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "NEW_99P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "NEW_99P5_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "NEW_99P5_EQ_00"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "NEW_99P5_EQ_01"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "NEW_99P5_EQ_02"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "NEW_99P5_EQ_03"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "NEW_99P5_T"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "LIT_C4_EQ_C5"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "LIT_C5_EQ_C6"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "LIT_C6_EQ_C7"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "LIT_C4_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "LIT_FC_EQ_FD"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "LIT_FD_EQ_FE"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "LIT_FE_EQ_FF"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "LIT_FC_EQ_FC"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "LIT_00_EQ_01"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "LIT_01_EQ_02"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "LIT_02_EQ_03"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "LIT_00_EQ_00"
+        }
+      ]
+    },
+    {
+      "item": 2,
+      "sourceId": "v98-color-constructors-v6",
+      "path": "v98/sources/v98-color-constructors-v6.pine",
+      "bytes": 8998,
+      "sha256": "fba851172d72dbe8d9bd74b08ea4bc7857f57633294493d81e9b2f8cb87aa245",
+      "pathFromRound": "../v98/sources/v98-color-constructors-v6.pine",
+      "reusedUnchanged": true,
+      "pineVersion": 6,
+      "indicatorTitle": "V98 color constructors v6",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "minimumPrimaryClosedRows": 64,
+      "phaseModulo": 16,
+      "requiresOriginalClosedPredecessor": false,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "TRANSP_INPUT"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "LITERAL_RGB_R"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "LITERAL_RGB_G"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "LITERAL_RGB_B"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "LITERAL_RGB_T"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "LITERAL_RGB_NA"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "LITERAL_RGB_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "LITERAL_RGB_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "LITERAL_RGB_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LITERAL_RGB_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "LITERAL_RGB_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "LITERAL_NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "LITERAL_NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "LITERAL_NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "LITERAL_NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "LITERAL_NEW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "LITERAL_NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "LITERAL_NEW_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LITERAL_NEW_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "LITERAL_NEW_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "LITERAL_NEW_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "SERIES_RGB_R"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "SERIES_RGB_G"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "SERIES_RGB_B"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "SERIES_RGB_T"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "SERIES_RGB_NA"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "SERIES_RGB_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "SERIES_RGB_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "SERIES_RGB_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "SERIES_RGB_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "SERIES_RGB_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "SERIES_NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "SERIES_NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "SERIES_NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "SERIES_NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "SERIES_NEW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "SERIES_NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "SERIES_NEW_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "SERIES_NEW_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "SERIES_NEW_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "SERIES_NEW_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "C0_ALPHA_LABEL"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "C0_T"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "C1_T"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "C2_T"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "C3_T"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "C4_T"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "EQ_C0_C1"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "EQ_C1_C2"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "EQ_C2_C3"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "EQ_C3_C4"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "EQ_LITERAL_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "EQ_LITERAL_DISTINCT"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "RGB_EQ_LITERAL_SERIES"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "NEW_EQ_LITERAL_SERIES"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "LITERAL_EQ_RGB_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "SERIES_EQ_RGB_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "EXACT_RGB12_5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "EXACT_RGB12_5_EQ_DF_CODE"
+        }
+      ]
+    },
+    {
+      "item": 3,
+      "sourceId": "v99-color-na-identity-v6",
+      "path": "v99/sources/v99-color-na-identity-v6.pine",
+      "bytes": 5673,
+      "sha256": "0d971a924a1dd51a52c4c4a9c3f2a8684e3b2a75b3d9a20d7570391154a9367f",
+      "pathFromRound": "sources/v99-color-na-identity-v6.pine",
+      "reusedUnchanged": false,
+      "pineVersion": 6,
+      "indicatorTitle": "V99 color na identity v6",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "minimumPrimaryClosedRows": 64,
+      "phaseModulo": 4,
+      "requiresOriginalClosedPredecessor": true,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CAST_R"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CAST_G"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CAST_B"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CAST_T"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CAST_NA"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VAR_R"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "VAR_G"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "VAR_B"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VAR_T"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VAR_NA"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "ARRAY_R"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "ARRAY_G"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "ARRAY_B"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "ARRAY_T"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ARRAY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "CAST_HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "CAST_HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "CAST_HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "CAST_HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "CAST_HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "TYPED_NA_R"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "TYPED_NA_G"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "TYPED_NA_B"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "TYPED_NA_T"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "TYPED_NA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "DIRECT_CAST_PAIR_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "CAST_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "VAR_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "ARRAY_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "ARRAY_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "INLINE_ARRAY_SELF_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "TWIN0_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "TWINS_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "CAST_HISTORY_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "CAST_HISTORY_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "ARRAY_HISTORY_EQ_ARRAY"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "ARRAY_HISTORY_EQ_CAST_HISTORY"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "ARRAY_HISTORY_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "CURRENT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "HISTORY_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "HISTORY_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "HISTORY_EQ_EXPECTED"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "OBJECT_HISTORY_EQ_CAST_HISTORY"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "OBJECT_HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "TYPED_NA_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "CAST_EQ_TYPED_NA"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "ARRAY_EQ_TYPED_NA"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "CAST_EQ_BLACK100"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "ARRAY_HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "VAR_HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "TWIN0_NA"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "TWIN1_NA"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "EQ_PRESENT_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "EQ_PRESENT_DISTINCT"
+        }
+      ]
+    },
+    {
+      "item": 3,
+      "sourceId": "v99-array-self-v6",
+      "path": "v99/sources/v99-array-self-v6.pine",
+      "bytes": 5663,
+      "sha256": "725b73650e970f028841a63ea3e712a4f40452bf858f71c60f53d7d257700b45",
+      "pathFromRound": "sources/v99-array-self-v6.pine",
+      "reusedUnchanged": false,
+      "pineVersion": 6,
+      "indicatorTitle": "V98 color na-cast v6",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 64,
+      "maxPlotCounts": 64,
+      "minimumPrimaryClosedRows": 64,
+      "phaseModulo": 4,
+      "requiresOriginalClosedPredecessor": true,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CURRENT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "EXACT_NA_CAST_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "EXACT_NA_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "TYPED_NA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CAST_R"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CAST_G"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CAST_B"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CAST_T"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CAST_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VAR_R"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "VAR_G"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "VAR_B"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "VAR_T"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "VAR_NA"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ARRAY_R"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ARRAY_G"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "ARRAY_B"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "ARRAY_T"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "ARRAY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "CAST_HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "CAST_HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "CAST_HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "CAST_HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "CAST_HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "NZ_DEFAULT_R"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "NZ_DEFAULT_G"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "NZ_DEFAULT_B"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "NZ_DEFAULT_T"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "NZ_DEFAULT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "NZ_REPLACEMENT_R"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "NZ_REPLACEMENT_G"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "NZ_REPLACEMENT_B"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "NZ_REPLACEMENT_T"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "NZ_REPLACEMENT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "GRAD_CAST_R"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "GRAD_CAST_G"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "GRAD_CAST_B"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "GRAD_CAST_T"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "GRAD_CAST_NA"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "GRAD_NA_R"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "GRAD_NA_G"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "GRAD_NA_B"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "GRAD_NA_T"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "GRAD_NA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "CAST_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "CAST_EQ_TYPED_NA"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "CAST_EQ_BLACK0"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "CAST_EQ_BLACK100"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "CAST_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "VAR_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "ARRAY_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "HISTORY_EQ_EXPECTED"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "EQ_PRESENT_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "EQ_PRESENT_DISTINCT"
+        },
+        {
+          "sourcePlotOrdinal": 63,
+          "title": "ARRAY_EQ_SELF"
+        }
+      ]
+    }
+  ],
+  "minimalDiscriminator": {
+    "sourceId": "v99-array-self-v6",
+    "originalSourcePath": "v98/sources/v98-color-na-cast-v6.pine",
+    "originalPlotPrefixUnchanged": 63,
+    "proposedSha256": "725b73650e970f028841a63ea3e712a4f40452bf858f71c60f53d7d257700b45",
+    "column": "ARRAY_EQ_SELF",
+    "witnessPredictions": {
+      "STABLE_INITIALIZER_FOLDING_RUNTIME_MISSING": 0,
+      "COPIED_MISSING_CAST_TOKEN": 1
+    },
+    "condition": "Owned closed output plus same-source original controls; changed controls hold extrapolation; no universal semantics"
+  },
+  "comparisonPolicies": {
+    "BYTE_ROUND": "round_half_up((100-t)*255/100)",
+    "BYTE_FLOOR": "floor((100-t)*255/100)",
+    "PERCENT_TRUNC_THEN_BYTE_ROUND": "round_half_up((100-floor(t))*255/100), only nonnegative t tested",
+    "PERCENT_ROUND_THEN_BYTE_ROUND": "round_half_up((100-round_half_up(t))*255/100)",
+    "PERCENT_CEIL_THEN_BYTE_ROUND": "round_half_up((100-ceil(t))*255/100)",
+    "scope": "Frozen finite immediate-comparison predictions, independently for each constructor. Nominal alpha labels name source literal tokens. No hidden payload decoder, cross-context getter prediction or universal quantizer follows."
+  },
+  "comparisonCases": [
+    {
+      "caseId": "12P1",
+      "transparencyRaw": "12.1",
+      "sourceId": "v99-direct-colors-core-v5",
+      "rgbInput": [
+        33,
+        66,
+        99
+      ],
+      "localAlphaLabels": [
+        222,
+        223,
+        224,
+        225
+      ],
+      "comparedSourceLiterals": [
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#214263E1"
+      ],
+      "comparisonPolicyPredictions": {
+        "BYTE_ROUND": {
+          "nominalAlphaLabel": 224,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 1,
+            "#214263E1": 0
+          }
+        },
+        "BYTE_FLOOR": {
+          "nominalAlphaLabel": 224,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 1,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 224,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 1,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_ROUND_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 224,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 1,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_CEIL_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 222,
+          "literalCodes": {
+            "#214263DE": 1,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        }
+      },
+      "scope": "Immediate constant comparison only, independently for RGB and NEW; not stored-byte or getter predictions"
+    },
+    {
+      "caseId": "12P5",
+      "transparencyRaw": "12.5",
+      "sourceId": "v99-direct-colors-core-v5",
+      "rgbInput": [
+        33,
+        66,
+        99
+      ],
+      "localAlphaLabels": [
+        222,
+        223,
+        224,
+        225
+      ],
+      "comparedSourceLiterals": [
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#214263E1"
+      ],
+      "comparisonPolicyPredictions": {
+        "BYTE_ROUND": {
+          "nominalAlphaLabel": 223,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 1,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        },
+        "BYTE_FLOOR": {
+          "nominalAlphaLabel": 223,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 1,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 224,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 1,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_ROUND_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 222,
+          "literalCodes": {
+            "#214263DE": 1,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_CEIL_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 222,
+          "literalCodes": {
+            "#214263DE": 1,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        }
+      },
+      "scope": "Immediate constant comparison only, independently for RGB and NEW; not stored-byte or getter predictions"
+    },
+    {
+      "caseId": "12P9",
+      "transparencyRaw": "12.9",
+      "sourceId": "v99-direct-colors-core-v5",
+      "rgbInput": [
+        33,
+        66,
+        99
+      ],
+      "localAlphaLabels": [
+        222,
+        223,
+        224,
+        225
+      ],
+      "comparedSourceLiterals": [
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#214263E1"
+      ],
+      "comparisonPolicyPredictions": {
+        "BYTE_ROUND": {
+          "nominalAlphaLabel": 222,
+          "literalCodes": {
+            "#214263DE": 1,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        },
+        "BYTE_FLOOR": {
+          "nominalAlphaLabel": 222,
+          "literalCodes": {
+            "#214263DE": 1,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 224,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 1,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_ROUND_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 222,
+          "literalCodes": {
+            "#214263DE": 1,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        },
+        "PERCENT_CEIL_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 222,
+          "literalCodes": {
+            "#214263DE": 1,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263E1": 0
+          }
+        }
+      },
+      "scope": "Immediate constant comparison only, independently for RGB and NEW; not stored-byte or getter predictions"
+    },
+    {
+      "caseId": "22P9",
+      "transparencyRaw": "22.9",
+      "sourceId": "v99-direct-colors-edge-v5",
+      "rgbInput": [
+        33,
+        66,
+        99
+      ],
+      "localAlphaLabels": [
+        196,
+        197,
+        198,
+        199
+      ],
+      "comparedSourceLiterals": [
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#214263C4",
+        "#214263C5",
+        "#214263C6",
+        "#214263C7"
+      ],
+      "comparisonPolicyPredictions": {
+        "BYTE_ROUND": {
+          "nominalAlphaLabel": 197,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263C4": 0,
+            "#214263C5": 1,
+            "#214263C6": 0,
+            "#214263C7": 0
+          }
+        },
+        "BYTE_FLOOR": {
+          "nominalAlphaLabel": 196,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263C4": 1,
+            "#214263C5": 0,
+            "#214263C6": 0,
+            "#214263C7": 0
+          }
+        },
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 199,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263C4": 0,
+            "#214263C5": 0,
+            "#214263C6": 0,
+            "#214263C7": 1
+          }
+        },
+        "PERCENT_ROUND_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 196,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263C4": 1,
+            "#214263C5": 0,
+            "#214263C6": 0,
+            "#214263C7": 0
+          }
+        },
+        "PERCENT_CEIL_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 196,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263C4": 1,
+            "#214263C5": 0,
+            "#214263C6": 0,
+            "#214263C7": 0
+          }
+        }
+      },
+      "scope": "Immediate constant comparison only, independently for RGB and NEW; not stored-byte or getter predictions"
+    },
+    {
+      "caseId": "0P5",
+      "transparencyRaw": "0.5",
+      "sourceId": "v99-direct-colors-edge-v5",
+      "rgbInput": [
+        33,
+        66,
+        99
+      ],
+      "localAlphaLabels": [
+        252,
+        253,
+        254,
+        255
+      ],
+      "comparedSourceLiterals": [
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#214263FC",
+        "#214263FD",
+        "#214263FE",
+        "#214263FF"
+      ],
+      "comparisonPolicyPredictions": {
+        "BYTE_ROUND": {
+          "nominalAlphaLabel": 254,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263FC": 0,
+            "#214263FD": 0,
+            "#214263FE": 1,
+            "#214263FF": 0
+          }
+        },
+        "BYTE_FLOOR": {
+          "nominalAlphaLabel": 253,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263FC": 0,
+            "#214263FD": 1,
+            "#214263FE": 0,
+            "#214263FF": 0
+          }
+        },
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 255,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263FC": 0,
+            "#214263FD": 0,
+            "#214263FE": 0,
+            "#214263FF": 1
+          }
+        },
+        "PERCENT_ROUND_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 252,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263FC": 1,
+            "#214263FD": 0,
+            "#214263FE": 0,
+            "#214263FF": 0
+          }
+        },
+        "PERCENT_CEIL_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 252,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#214263FC": 1,
+            "#214263FD": 0,
+            "#214263FE": 0,
+            "#214263FF": 0
+          }
+        }
+      },
+      "scope": "Immediate constant comparison only, independently for RGB and NEW; not stored-byte or getter predictions"
+    },
+    {
+      "caseId": "99P5",
+      "transparencyRaw": "99.5",
+      "sourceId": "v99-direct-colors-edge-v5",
+      "rgbInput": [
+        33,
+        66,
+        99
+      ],
+      "localAlphaLabels": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "comparedSourceLiterals": [
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#21426300",
+        "#21426301",
+        "#21426302",
+        "#21426303"
+      ],
+      "comparisonPolicyPredictions": {
+        "BYTE_ROUND": {
+          "nominalAlphaLabel": 1,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#21426300": 0,
+            "#21426301": 1,
+            "#21426302": 0,
+            "#21426303": 0
+          }
+        },
+        "BYTE_FLOOR": {
+          "nominalAlphaLabel": 1,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#21426300": 0,
+            "#21426301": 1,
+            "#21426302": 0,
+            "#21426303": 0
+          }
+        },
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 3,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#21426300": 0,
+            "#21426301": 0,
+            "#21426302": 0,
+            "#21426303": 1
+          }
+        },
+        "PERCENT_ROUND_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 0,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#21426300": 1,
+            "#21426301": 0,
+            "#21426302": 0,
+            "#21426303": 0
+          }
+        },
+        "PERCENT_CEIL_THEN_BYTE_ROUND": {
+          "nominalAlphaLabel": 0,
+          "literalCodes": {
+            "#214263DE": 0,
+            "#214263DF": 0,
+            "#214263E0": 0,
+            "#21426300": 1,
+            "#21426301": 0,
+            "#21426302": 0,
+            "#21426303": 0
+          }
+        }
+      },
+      "scope": "Immediate constant comparison only, independently for RGB and NEW; not stored-byte or getter predictions"
+    }
+  ],
+  "booleanEncoding": {
+    "v5": "-1 Boolean NA, 0 false, 1 true; no conflation with numeric blank",
+    "v6": "0 false, 1 true; no na(bool) call"
+  },
+  "primarySelection": {
+    "closedRowsPerSource": 64,
+    "constantSources": "First64 consecutive source-owned independently closed rows, increasing time and consecutive INPUT_INDEX; no phase criterion.",
+    "phaseSources": "First64 such rows starting CASE_ID0. Both cast sources independently retain an original closed index-1 predecessor.",
+    "maximumPlannedPrimaryPlotCells": 20224,
+    "selectionNeverUsesResults": true,
+    "noOwnOriginRequirement": true,
+    "samplingCompleteness": false
+  },
+  "v6CastFacets": [
+    "Five complete RGBA/NA vectors covering all1280 previously contrary getter/self-var fields",
+    "Separate direct, alias, retained, one-slot array, twin element, inline array and self equality",
+    "Scalar value history and guarded array-object history; actual original predecessor pointers",
+    "Full sixth typed-NA tuple and defined literal controls; equal getters never imply equal colors",
+    "Exact minimal batch77 source: original63 expressions plus ARRAY_EQ_SELF; witnesses predict0 versus1, with original controls retained"
+  ],
+  "priorEvidence": [
+    {
+      "path": "v98/REQUEST-v98-v1.md",
+      "bytes": 20945,
+      "sha256": "af378f27680e2943d7ee1a7e0bb240364383434f3dabbf9fd13b5e798c39ebf8"
+    },
+    {
+      "path": "v98/bundle-manifest-v1.json",
+      "bytes": 40403,
+      "sha256": "0dbddcbb58965de363c8d1c38b237249b8e222be3f944436238b6f6018272bf1"
+    },
+    {
+      "path": "v98/captures/v98/RESPONSE-v98-v6.md",
+      "bytes": 12268,
+      "sha256": "e8d726a8547513fb2eece2e7f620c1e7addb1ccf81c0b385cb58c10ba6336f9b"
+    },
+    {
+      "path": "v98/captures/v98/numeric-controls-v6.json",
+      "bytes": 29412311,
+      "sha256": "71bae40791e4dd0b68783442a933ab3e7036de3d1db34443db08186a2f0a8ca4"
+    },
+    {
+      "path": "v98/captures/v98/artifact-integrity-v6.json",
+      "bytes": 47034,
+      "sha256": "1fe8014eed3430b1d343454e5bbff0ed714648dd3039e1b67c41854830cd82bd"
+    },
+    {
+      "path": "v98/captures/v98/validation-result-v6.json",
+      "bytes": 697,
+      "sha256": "f8ba299c082c79617aa685c489e2fd5e6ee54a8715626ea8d854694eb2e47d4c"
+    },
+    {
+      "path": "v98/sources/v98-color-na-cast-v6.pine",
+      "bytes": 5489,
+      "sha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a"
+    },
+    {
+      "path": "v98/captures/v98/v98-color-na-cast-v6/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+      "bytes": 67502,
+      "sha256": "ab61db6482a2581e590b04e96db879279947acf81fde6d340d24433306e7a052"
+    },
+    {
+      "path": "v96/captures/v96/RESPONSE-v96-v1.md",
+      "bytes": 5071,
+      "sha256": "9cbecb7b51cf62fab1877db8ee6c549539f26661ee6fd8b71c55d719c270d73c"
+    },
+    {
+      "path": "v96/captures/v96/numeric-controls-v1.json",
+      "bytes": 5424760,
+      "sha256": "acf6501f0da29bfd97328de2332e845a07b6c4059d5f1d5bb3daacee9829f57f"
+    }
+  ]
+}
