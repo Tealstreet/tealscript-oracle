@@ -1,0 +1,89 @@
+------WebKitFormBoundaryNLnVAeMzWrQcNPWU
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V99 color na identity v6", overlay=false, precision=16)
+f_code(bool value) => value ? 1 : 0
+phase = bar_index % 4
+cast = color(na)
+color typedNa = na
+var color retained = color(na)
+slot = array.from(cast)
+fromArray = array.get(slot, 0)
+twins = array.from(cast, cast)
+twin0 = array.get(twins, 0)
+twin1 = array.get(twins, 1)
+alternating = phase % 2 == 0 ? cast : #214263DF
+prior = alternating[1]
+castPrior = cast[1]
+arrayPrior = fromArray[1]
+retainedPrior = retained[1]
+priorSlot = slot[1]
+objectPrior = bar_index == 0 ? typedNa : array.get(priorSlot, 0)
+expectedPrior = bar_index == 0 ? typedNa : (phase + 3) % 2 == 0 ? cast : #214263DF
+plot(bar_index, title="INPUT_INDEX", display=display.data_window)
+plot(time, title="INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED", display=display.data_window)
+plot(phase, title="CASE_ID", display=display.data_window)
+plot(color.r(cast), title="CAST_R", display=display.data_window)
+plot(color.g(cast), title="CAST_G", display=display.data_window)
+plot(color.b(cast), title="CAST_B", display=display.data_window)
+plot(color.t(cast), title="CAST_T", display=display.data_window)
+plot(f_code(na(cast)), title="CAST_NA", display=display.data_window)
+plot(color.r(retained), title="VAR_R", display=display.data_window)
+plot(color.g(retained), title="VAR_G", display=display.data_window)
+plot(color.b(retained), title="VAR_B", display=display.data_window)
+plot(color.t(retained), title="VAR_T", display=display.data_window)
+plot(f_code(na(retained)), title="VAR_NA", display=display.data_window)
+plot(color.r(fromArray), title="ARRAY_R", display=display.data_window)
+plot(color.g(fromArray), title="ARRAY_G", display=display.data_window)
+plot(color.b(fromArray), title="ARRAY_B", display=display.data_window)
+plot(color.t(fromArray), title="ARRAY_T", display=display.data_window)
+plot(f_code(na(fromArray)), title="ARRAY_NA", display=display.data_window)
+plot(color.r(prior), title="HISTORY_R", display=display.data_window)
+plot(color.g(prior), title="HISTORY_G", display=display.data_window)
+plot(color.b(prior), title="HISTORY_B", display=display.data_window)
+plot(color.t(prior), title="HISTORY_T", display=display.data_window)
+plot(f_code(na(prior)), title="HISTORY_NA", display=display.data_window)
+plot(color.r(castPrior), title="CAST_HISTORY_R", display=display.data_window)
+plot(color.g(castPrior), title="CAST_HISTORY_G", display=display.data_window)
+plot(color.b(castPrior), title="CAST_HISTORY_B", display=display.data_window)
+plot(color.t(castPrior), title="CAST_HISTORY_T", display=display.data_window)
+plot(f_code(na(castPrior)), title="CAST_HISTORY_NA", display=display.data_window)
+plot(color.r(typedNa), title="TYPED_NA_R", display=display.data_window)
+plot(color.g(typedNa), title="TYPED_NA_G", display=display.data_window)
+plot(color.b(typedNa), title="TYPED_NA_B", display=display.data_window)
+plot(color.t(typedNa), title="TYPED_NA_T", display=display.data_window)
+plot(f_code(na(typedNa)), title="TYPED_NA_NA", display=display.data_window)
+plot(f_code(color(na) == color(na)), title="DIRECT_CAST_PAIR_EQ", display=display.data_window)
+plot(f_code(cast == cast), title="CAST_EQ_SELF", display=display.data_window)
+plot(f_code(retained == cast), title="VAR_EQ_CAST", display=display.data_window)
+plot(f_code(fromArray == cast), title="ARRAY_EQ_CAST", display=display.data_window)
+plot(f_code(fromArray == fromArray), title="ARRAY_EQ_SELF", display=display.data_window)
+plot(f_code(array.get(slot, 0) == array.get(slot, 0)), title="INLINE_ARRAY_SELF_EQ", display=display.data_window)
+plot(f_code(twin0 == cast), title="TWIN0_EQ_CAST", display=display.data_window)
+plot(f_code(twin0 == twin1), title="TWINS_EQ", display=display.data_window)
+plot(f_code(castPrior == cast), title="CAST_HISTORY_EQ_CAST", display=display.data_window)
+plot(f_code(castPrior == castPrior), title="CAST_HISTORY_EQ_SELF", display=display.data_window)
+plot(f_code(arrayPrior == fromArray), title="ARRAY_HISTORY_EQ_ARRAY", display=display.data_window)
+plot(f_code(arrayPrior == castPrior), title="ARRAY_HISTORY_EQ_CAST_HISTORY", display=display.data_window)
+plot(f_code(arrayPrior == arrayPrior), title="ARRAY_HISTORY_EQ_SELF", display=display.data_window)
+plot(f_code(na(alternating)), title="CURRENT_NA", display=display.data_window)
+plot(f_code(prior == prior), title="HISTORY_EQ_SELF", display=display.data_window)
+plot(f_code(prior == cast), title="HISTORY_EQ_CAST", display=display.data_window)
+plot(f_code(prior == expectedPrior), title="HISTORY_EQ_EXPECTED", display=display.data_window)
+plot(f_code(objectPrior == castPrior), title="OBJECT_HISTORY_EQ_CAST_HISTORY", display=display.data_window)
+plot(f_code(na(objectPrior)), title="OBJECT_HISTORY_NA", display=display.data_window)
+plot(f_code(typedNa == typedNa), title="TYPED_NA_EQ_SELF", display=display.data_window)
+plot(f_code(cast == typedNa), title="CAST_EQ_TYPED_NA", display=display.data_window)
+plot(f_code(fromArray == typedNa), title="ARRAY_EQ_TYPED_NA", display=display.data_window)
+plot(f_code(cast == #00000000), title="CAST_EQ_BLACK100", display=display.data_window)
+plot(f_code(na(arrayPrior)), title="ARRAY_HISTORY_NA", display=display.data_window)
+plot(f_code(na(retainedPrior)), title="VAR_HISTORY_NA", display=display.data_window)
+plot(f_code(na(twin0)), title="TWIN0_NA", display=display.data_window)
+plot(f_code(na(twin1)), title="TWIN1_NA", display=display.data_window)
+plot(f_code(#214263DF == #214263DF), title="EQ_PRESENT_SELF", display=display.data_window)
+plot(f_code(#214263DF == #214263E0), title="EQ_PRESENT_DISTINCT", display=display.data_window)
+
+------WebKitFormBoundaryNLnVAeMzWrQcNPWU--
