@@ -1,0 +1,228 @@
+------WebKitFormBoundaryFcqBSBNhyQEnBWVd
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V98 color constructors v6", overlay=false, precision=16)
+f_code(bool value) => value ? 1 : 0
+phase = bar_index % 16
+transparency = switch phase
+    0 => 12.1
+    1 => 12.5
+    2 => 12.9
+    3 => 0.4
+    4 => 0.5
+    5 => 99.5
+    6 => 0.0
+    7 => 10.0
+    8 => 15.0
+    9 => 50.0
+    10 => 100.0
+    11 => 22.1
+    12 => 22.5
+    13 => 22.9
+    14 => 32.1
+    => 32.5
+literalRgb = switch phase
+    0 => color.rgb(33, 66, 99, 12.1)
+    1 => color.rgb(33, 66, 99, 12.5)
+    2 => color.rgb(33, 66, 99, 12.9)
+    3 => color.rgb(33, 66, 99, 0.4)
+    4 => color.rgb(33, 66, 99, 0.5)
+    5 => color.rgb(33, 66, 99, 99.5)
+    6 => color.rgb(33, 66, 99, 0.0)
+    7 => color.rgb(33, 66, 99, 10.0)
+    8 => color.rgb(33, 66, 99, 15.0)
+    9 => color.rgb(33, 66, 99, 50.0)
+    10 => color.rgb(33, 66, 99, 100.0)
+    11 => color.rgb(33, 66, 99, 22.1)
+    12 => color.rgb(33, 66, 99, 22.5)
+    13 => color.rgb(33, 66, 99, 22.9)
+    14 => color.rgb(33, 66, 99, 32.1)
+    => color.rgb(33, 66, 99, 32.5)
+literalNew = switch phase
+    0 => color.new(#214263FF, 12.1)
+    1 => color.new(#214263FF, 12.5)
+    2 => color.new(#214263FF, 12.9)
+    3 => color.new(#214263FF, 0.4)
+    4 => color.new(#214263FF, 0.5)
+    5 => color.new(#214263FF, 99.5)
+    6 => color.new(#214263FF, 0.0)
+    7 => color.new(#214263FF, 10.0)
+    8 => color.new(#214263FF, 15.0)
+    9 => color.new(#214263FF, 50.0)
+    10 => color.new(#214263FF, 100.0)
+    11 => color.new(#214263FF, 22.1)
+    12 => color.new(#214263FF, 22.5)
+    13 => color.new(#214263FF, 22.9)
+    14 => color.new(#214263FF, 32.1)
+    => color.new(#214263FF, 32.5)
+seriesRgb = color.rgb(33, 66, 99, transparency)
+seriesNew = color.new(#214263FF, transparency)
+candidate0 = switch phase
+    0 => #214263DE
+    1 => #214263DD
+    2 => #214263DC
+    3 => #214263FB
+    4 => #214263FB
+    5 => #21426300
+    6 => #214263FB
+    7 => #214263E3
+    8 => #214263D6
+    9 => #2142637D
+    10 => #21426300
+    11 => #214263C4
+    12 => #214263C3
+    13 => #214263C2
+    14 => #214263AB
+    => #214263AA
+candidate1 = switch phase
+    0 => #214263DF
+    1 => #214263DE
+    2 => #214263DD
+    3 => #214263FC
+    4 => #214263FC
+    5 => #21426301
+    6 => #214263FC
+    7 => #214263E4
+    8 => #214263D7
+    9 => #2142637E
+    10 => #21426301
+    11 => #214263C5
+    12 => #214263C4
+    13 => #214263C3
+    14 => #214263AC
+    => #214263AB
+candidate2 = switch phase
+    0 => #214263E0
+    1 => #214263DF
+    2 => #214263DE
+    3 => #214263FD
+    4 => #214263FD
+    5 => #21426302
+    6 => #214263FD
+    7 => #214263E5
+    8 => #214263D8
+    9 => #2142637F
+    10 => #21426302
+    11 => #214263C6
+    12 => #214263C5
+    13 => #214263C4
+    14 => #214263AD
+    => #214263AC
+candidate3 = switch phase
+    0 => #214263E1
+    1 => #214263E0
+    2 => #214263DF
+    3 => #214263FE
+    4 => #214263FE
+    5 => #21426303
+    6 => #214263FE
+    7 => #214263E6
+    8 => #214263D9
+    9 => #21426380
+    10 => #21426303
+    11 => #214263C7
+    12 => #214263C6
+    13 => #214263C5
+    14 => #214263AE
+    => #214263AD
+candidate4 = switch phase
+    0 => #214263E2
+    1 => #214263E1
+    2 => #214263E0
+    3 => #214263FF
+    4 => #214263FF
+    5 => #21426304
+    6 => #214263FF
+    7 => #214263E7
+    8 => #214263DA
+    9 => #21426381
+    10 => #21426304
+    11 => #214263C8
+    12 => #214263C7
+    13 => #214263C6
+    14 => #214263AF
+    => #214263AE
+candidateFirstLabel = switch phase
+    0 => 222
+    1 => 221
+    2 => 220
+    3 => 251
+    4 => 251
+    5 => 0
+    6 => 251
+    7 => 227
+    8 => 214
+    9 => 125
+    10 => 0
+    11 => 196
+    12 => 195
+    13 => 194
+    14 => 171
+    => 170
+plot(bar_index, title="INPUT_INDEX", display=display.data_window)
+plot(time, title="INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED", display=display.data_window)
+plot(phase, title="CASE_ID", display=display.data_window)
+plot(transparency, title="TRANSP_INPUT", display=display.data_window)
+plot(color.r(literalRgb), title="LITERAL_RGB_R", display=display.data_window)
+plot(color.g(literalRgb), title="LITERAL_RGB_G", display=display.data_window)
+plot(color.b(literalRgb), title="LITERAL_RGB_B", display=display.data_window)
+plot(color.t(literalRgb), title="LITERAL_RGB_T", display=display.data_window)
+plot(f_code(na(literalRgb)), title="LITERAL_RGB_NA", display=display.data_window)
+plot(f_code(literalRgb == candidate0), title="LITERAL_RGB_EQ_C0", display=display.data_window)
+plot(f_code(literalRgb == candidate1), title="LITERAL_RGB_EQ_C1", display=display.data_window)
+plot(f_code(literalRgb == candidate2), title="LITERAL_RGB_EQ_C2", display=display.data_window)
+plot(f_code(literalRgb == candidate3), title="LITERAL_RGB_EQ_C3", display=display.data_window)
+plot(f_code(literalRgb == candidate4), title="LITERAL_RGB_EQ_C4", display=display.data_window)
+plot(color.r(literalNew), title="LITERAL_NEW_R", display=display.data_window)
+plot(color.g(literalNew), title="LITERAL_NEW_G", display=display.data_window)
+plot(color.b(literalNew), title="LITERAL_NEW_B", display=display.data_window)
+plot(color.t(literalNew), title="LITERAL_NEW_T", display=display.data_window)
+plot(f_code(na(literalNew)), title="LITERAL_NEW_NA", display=display.data_window)
+plot(f_code(literalNew == candidate0), title="LITERAL_NEW_EQ_C0", display=display.data_window)
+plot(f_code(literalNew == candidate1), title="LITERAL_NEW_EQ_C1", display=display.data_window)
+plot(f_code(literalNew == candidate2), title="LITERAL_NEW_EQ_C2", display=display.data_window)
+plot(f_code(literalNew == candidate3), title="LITERAL_NEW_EQ_C3", display=display.data_window)
+plot(f_code(literalNew == candidate4), title="LITERAL_NEW_EQ_C4", display=display.data_window)
+plot(color.r(seriesRgb), title="SERIES_RGB_R", display=display.data_window)
+plot(color.g(seriesRgb), title="SERIES_RGB_G", display=display.data_window)
+plot(color.b(seriesRgb), title="SERIES_RGB_B", display=display.data_window)
+plot(color.t(seriesRgb), title="SERIES_RGB_T", display=display.data_window)
+plot(f_code(na(seriesRgb)), title="SERIES_RGB_NA", display=display.data_window)
+plot(f_code(seriesRgb == candidate0), title="SERIES_RGB_EQ_C0", display=display.data_window)
+plot(f_code(seriesRgb == candidate1), title="SERIES_RGB_EQ_C1", display=display.data_window)
+plot(f_code(seriesRgb == candidate2), title="SERIES_RGB_EQ_C2", display=display.data_window)
+plot(f_code(seriesRgb == candidate3), title="SERIES_RGB_EQ_C3", display=display.data_window)
+plot(f_code(seriesRgb == candidate4), title="SERIES_RGB_EQ_C4", display=display.data_window)
+plot(color.r(seriesNew), title="SERIES_NEW_R", display=display.data_window)
+plot(color.g(seriesNew), title="SERIES_NEW_G", display=display.data_window)
+plot(color.b(seriesNew), title="SERIES_NEW_B", display=display.data_window)
+plot(color.t(seriesNew), title="SERIES_NEW_T", display=display.data_window)
+plot(f_code(na(seriesNew)), title="SERIES_NEW_NA", display=display.data_window)
+plot(f_code(seriesNew == candidate0), title="SERIES_NEW_EQ_C0", display=display.data_window)
+plot(f_code(seriesNew == candidate1), title="SERIES_NEW_EQ_C1", display=display.data_window)
+plot(f_code(seriesNew == candidate2), title="SERIES_NEW_EQ_C2", display=display.data_window)
+plot(f_code(seriesNew == candidate3), title="SERIES_NEW_EQ_C3", display=display.data_window)
+plot(f_code(seriesNew == candidate4), title="SERIES_NEW_EQ_C4", display=display.data_window)
+plot(candidateFirstLabel, title="C0_ALPHA_LABEL", display=display.data_window)
+plot(color.t(candidate0), title="C0_T", display=display.data_window)
+plot(color.t(candidate1), title="C1_T", display=display.data_window)
+plot(color.t(candidate2), title="C2_T", display=display.data_window)
+plot(color.t(candidate3), title="C3_T", display=display.data_window)
+plot(color.t(candidate4), title="C4_T", display=display.data_window)
+plot(f_code(candidate0 == candidate1), title="EQ_C0_C1", display=display.data_window)
+plot(f_code(candidate1 == candidate2), title="EQ_C1_C2", display=display.data_window)
+plot(f_code(candidate2 == candidate3), title="EQ_C2_C3", display=display.data_window)
+plot(f_code(candidate3 == candidate4), title="EQ_C3_C4", display=display.data_window)
+plot(f_code(#214263DF == #214263DF), title="EQ_LITERAL_SELF", display=display.data_window)
+plot(f_code(#214263DF == #214263E0), title="EQ_LITERAL_DISTINCT", display=display.data_window)
+plot(f_code(literalRgb == seriesRgb), title="RGB_EQ_LITERAL_SERIES", display=display.data_window)
+plot(f_code(literalNew == seriesNew), title="NEW_EQ_LITERAL_SERIES", display=display.data_window)
+plot(f_code(literalRgb == literalNew), title="LITERAL_EQ_RGB_NEW", display=display.data_window)
+plot(f_code(seriesRgb == seriesNew), title="SERIES_EQ_RGB_NEW", display=display.data_window)
+plot(color.rgb(33, 66, 99, 12.5) == #214263DF ? 1 : 0, title="EXACT_RGB12_5_EQ_DF", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 12.5) == #214263DF), title="EXACT_RGB12_5_EQ_DF_CODE", display=display.data_window)
+
+------WebKitFormBoundaryFcqBSBNhyQEnBWVd--
