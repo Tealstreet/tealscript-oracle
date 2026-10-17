@@ -1,0 +1,436 @@
+{
+  "version": "v1",
+  "round": "v100",
+  "baselineOracle": "bc913c6cc44b40611f84fabc362975df0aa73574",
+  "purpose": "Discriminate frozen v5 immediate constant color representations/packing and shared v5/v6 materialized constant NEW byte recipes.",
+  "authorizedMethod": "Save as PRIVATE unpublished script, Add to chart, remove studies after; MAY create a new throwaway layout and change symbol/interval/settings on it only; STILL FORBIDDEN: publish, share, any visibility change, any change to EXISTING saved layouts, alerts, library publication/import; anything beyond: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+  "handoffSection4Verbatim": "- Repo `Tealstreet/tealscript-oracle`, local `~/cs/tealscript-oracle`. Publish capture requests\n  straight to its `master`; a capture agent polls and answers (`RESPONSE-vNN-*.md` + captures).\n  Head check: `git ls-remote https://github.com/Tealstreet/tealscript-oracle refs/heads/master`.\n- Tests consume a SHA-pinned sparse checkout via `packages/tealscript/oracle-fixtures.json`\n  (`node scripts/oracle-fixtures.mjs fetch`). Never commit raw captures into tealchart or\n  tealstreet-next.\n- **Request rules:** never ask for publication, sharing, visibility changes, alerts, edits to\n  existing layouts, or library publication/import. A new throwaway layout is allowed; keep layout\n  `P425PrivateV79v1` if possible. Reuse the v90 authorized-method text verbatim.",
+  "localAuthoring": "Commit locally on master only; DO NOT push; owner publication after crossed QA precedes any capture.",
+  "scheduling": "After v99 completion, without interrupting any active round; new layout and independent finite budget.",
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "style": "Candles",
+    "timezone": "Etc/UTC",
+    "layout": "One NEW v100 throwaway layout only",
+    "preserve": [
+      "P425PrivateV79v1",
+      "sours-lat/P425PrivateV79v1/1",
+      "all existing layouts/scripts/tabs/settings/private libraries"
+    ]
+  },
+  "budget": {
+    "sources": 3,
+    "newSourceFiles": 3,
+    "maxSaves": 3,
+    "maxAdds": 3,
+    "maxCSVs": 3,
+    "maxSessions": 3,
+    "maxHistoryNavigationActions": 0,
+    "retries": 0,
+    "inputVariants": 0
+  },
+  "sources": [
+    {
+      "slot": 1,
+      "sourceId": "proposed-v100-immediate-v5-v5",
+      "path": "v100/sources/proposed-v100-immediate-v5-v5.pine",
+      "pathFromRound": "sources/proposed-v100-immediate-v5-v5.pine",
+      "bytes": 4768,
+      "sha256": "43e6eb7eed958867961de5630dce3b36e630d0af20d8e268851ba6740d31db79",
+      "pineVersion": 5,
+      "indicatorTitle": "V100 immediate color discriminator v5",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "DIRECT_RGB_NEW_12P1_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "RGB_50P19607843137255_EQ_7F"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "DIRECT_RGB_NEW_0_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "DIRECT_RGB_NEW_50_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RGB_32P5_EQ_AC"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "NEW_32P1_EQ_AD"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DIRECT_RGB_NEW_15_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "RGB_0_EQ_FF"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "DIRECT_RGB_NEW_32P1_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "DIRECT_RGB_NEW_22P1_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "DIRECT_RGB_NEW_10_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "NEW_15_EQ_D9"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "DIRECT_RGB_NEW_50P19607843137255_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "RGB_32P1_EQ_AD"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "NEW_50_EQ_7F"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "DIRECT_RGB_NEW_22P5_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "RGB_22P5_EQ_C6"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "DIRECT_RGB_NEW_0P5_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "DIRECT_RGB_NEW_100_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "PACK_HIGH_NEW_99P5_EQ_03"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "PACK_BLACK_NEW_99P5_EQ_03"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "PACK_HIGH_RGB_NEW_12P1_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "PACK_BLACK_RGB_99P5_EQ_01"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "PACK_BLACK_RGB_12P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "PACK_HIGH_RGB_99P5_EQ_01"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "PACK_MID_RGB_99P5_EQ_01"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "PACK_MID_NEW_12P5_EQ_E0"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "PACK_MID_NEW_99P5_EQ_03"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "PACK_MID_RGB_NEW_12P1_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "PACK_LOW_RGB_12P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "PACK_LOW_NEW_99P5_EQ_03"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "PACK_MID_RGB_12P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "PACK_BLACK_RGB_NEW_12P1_EQ"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "PACK_HIGH_RGB_12P5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "PACK_LOW_RGB_99P5_EQ_01"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "PACK_HIGH_NEW_12P5_EQ_E0"
+        }
+      ],
+      "plotCalls": 39,
+      "maxPlotCounts": 39,
+      "phaseModulo": null,
+      "minimumPrimaryClosedRows": 64,
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "requiresOriginalClosedPredecessor": false,
+      "proposalFilename": "proposed-v100-immediate-v5-v5.pine",
+      "proposalLedger": "batch78-v5rgb/evidence-v2/proposed-v100-immediate-v5-v5.pine"
+    },
+    {
+      "slot": 2,
+      "sourceId": "proposed-v100-materialized-new-v5-v1",
+      "path": "v100/sources/proposed-v100-materialized-new-v5-v1.pine",
+      "pathFromRound": "sources/proposed-v100-materialized-new-v5-v1.pine",
+      "bytes": 2379,
+      "sha256": "f4a863021f968a3495acbe573f50f3a6194e0638b4a78bfa56d438e544072139",
+      "pineVersion": 5,
+      "indicatorTitle": "V100 materialized NEW v5 v1",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NEW_EQ_C1"
+        }
+      ],
+      "plotCalls": 10,
+      "maxPlotCounts": 10,
+      "phaseModulo": 19,
+      "minimumPrimaryClosedRows": 76,
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "requiresOriginalClosedPredecessor": false,
+      "proposalFilename": "proposed-v100-materialized-new-v5-v1.pine",
+      "proposalLedger": "batch78-v5rgb/evidence-v2/proposed-v100-materialized-new-v5-v1.pine"
+    },
+    {
+      "slot": 3,
+      "sourceId": "proposed-v100-materialized-new-v6-v1",
+      "path": "v100/sources/proposed-v100-materialized-new-v6-v1.pine",
+      "pathFromRound": "sources/proposed-v100-materialized-new-v6-v1.pine",
+      "bytes": 2379,
+      "sha256": "ad7f7b59d4d12601b7df1d41aa3fac8840ed6389204c6cc0506d3973c9604458",
+      "pineVersion": 6,
+      "indicatorTitle": "V100 materialized NEW v6 v1",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "NEW_EQ_C1"
+        }
+      ],
+      "plotCalls": 10,
+      "maxPlotCounts": 10,
+      "phaseModulo": 19,
+      "minimumPrimaryClosedRows": 76,
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "requiresOriginalClosedPredecessor": false,
+      "proposalFilename": "proposed-v100-materialized-new-v6-v1.pine",
+      "proposalLedger": "batch78-v5rgb/evidence-v2/proposed-v100-materialized-new-v6-v1.pine"
+    }
+  ],
+  "predictionMap": "v100/predictions/prediction-map-v1.json",
+  "normativePredictions": [
+    {
+      "path": "v100/predictions/proposed-v100-predictions-v2.json",
+      "pathFromRound": "predictions/proposed-v100-predictions-v2.json",
+      "bytes": 12339843,
+      "sha256": "df24b76c75aefce18bb4c047fc4ffa558d2d6491a6a40b4c4b715869904cddbd",
+      "proposalLedger": "batch78-v5rgb/evidence-v2/proposed-v100-predictions-v2.json",
+      "role": "Normative frozen author-input predictions, copied byte-for-byte; not capture results"
+    },
+    {
+      "path": "v100/predictions/packing-proposed-predictions-v2.json",
+      "pathFromRound": "predictions/packing-proposed-predictions-v2.json",
+      "bytes": 10710680,
+      "sha256": "c01c0da7122667446b0ee1deea17419db1d9b26da92905c57b9c0adf682ce68a",
+      "proposalLedger": "batch78-v5rgb/evidence-v2/packing-proposed-predictions-v2.json",
+      "role": "Normative frozen author-input predictions, copied byte-for-byte; not capture results"
+    },
+    {
+      "path": "v100/predictions/proposed-materialization-predictions-v1.json",
+      "pathFromRound": "predictions/proposed-materialization-predictions-v1.json",
+      "bytes": 363921,
+      "sha256": "271dd1e6ce220fbe0443f70d6cb1d67d1f9e30248ffb0ca06e0f4e71ef4675a5",
+      "proposalLedger": "batch78-v5rgb/evidence-v2/proposed-materialization-predictions-v1.json",
+      "role": "Normative frozen author-input predictions, copied byte-for-byte; not capture results"
+    }
+  ],
+  "primarySelection": {
+    "constantRows": 64,
+    "phaseRows": 76,
+    "phaseModulo": 19,
+    "visitsPerPhase": 4,
+    "maximumPlannedPrimaryPlotCells": 4016,
+    "maximumPlannedColorCells": 3216,
+    "sourceIndexContextCells": 216,
+    "selectionNeverUsesResults": true,
+    "requiresOwnIndexZero": false,
+    "requiresPredecessor": false,
+    "samplingCompleteness": false
+  },
+  "booleanEncoding": {
+    "v5": "The frozen value ? 1 : 0 helper collapses false/Boolean NA to0; do not claim a distinction.",
+    "v6": "Numeric ternary code0/1; no na(bool) call."
+  },
+  "modelScopes": {
+    "scalarRepresentativeModels": 7753,
+    "packingRepresentativeModels": 45769,
+    "byteRecipesPerVersion": 816,
+    "distinctSyntaxAliasesFullySeparated": false,
+    "notObservedBranch": "Per property/source/column/phase; no source or model repair, no absent-output fill, no fitted seventh/nth policy."
+  },
+  "priorEvidence": [
+    {
+      "path": "v99/captures/v99/RESPONSE-v99-v6.md",
+      "sha256": "29c5a59659f31f571274ea058aaf86c01ef2def578c9efc5ff1a4bdde274107b"
+    },
+    {
+      "path": "v99/REQUEST-v99-v1.md",
+      "sha256": "aebebb3b6e66ce25b496a6d6380669e5c2add8dc959736b6de74185fec079b3b"
+    }
+  ],
+  "predictionArtifacts": [
+    {
+      "path": "v100/predictions/packing-proposed-predictions-v2.json",
+      "pathFromRound": "predictions/packing-proposed-predictions-v2.json",
+      "bytes": 10710680,
+      "sha256": "c01c0da7122667446b0ee1deea17419db1d9b26da92905c57b9c0adf682ce68a"
+    },
+    {
+      "path": "v100/predictions/prediction-map-v1.json",
+      "pathFromRound": "predictions/prediction-map-v1.json",
+      "bytes": 1232531,
+      "sha256": "629cebac25810641da0cbe79e5ce2410d6ebd74f0aaa85fc4610231cead9875b"
+    },
+    {
+      "path": "v100/predictions/proposed-materialization-predictions-v1.json",
+      "pathFromRound": "predictions/proposed-materialization-predictions-v1.json",
+      "bytes": 363921,
+      "sha256": "271dd1e6ce220fbe0443f70d6cb1d67d1f9e30248ffb0ca06e0f4e71ef4675a5"
+    },
+    {
+      "path": "v100/predictions/proposed-v100-predictions-v2.json",
+      "pathFromRound": "predictions/proposed-v100-predictions-v2.json",
+      "bytes": 12339843,
+      "sha256": "df24b76c75aefce18bb4c047fc4ffa558d2d6491a6a40b4c4b715869904cddbd"
+    },
+    {
+      "path": "v100/predictions/raw-recipe-definitions-v1.json",
+      "pathFromRound": "predictions/raw-recipe-definitions-v1.json",
+      "bytes": 74394,
+      "sha256": "7be6b2a8fa0e8d6b023ebca0f0e27f64d2ab44082090e721a2590d920f2c5292"
+    }
+  ]
+}
