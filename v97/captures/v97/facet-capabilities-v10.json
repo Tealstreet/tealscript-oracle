@@ -1,0 +1,5710 @@
+{
+  "version": "v10",
+  "completeFiniteRound": false,
+  "selection": {
+    "path": "v97/captures/v97/selection-inventory-v1.json",
+    "bytes": 96970,
+    "sha256": "22d81d171a5b865f26407a50e322d06aa0f497f839dbcd33a3120b46668834be"
+  },
+  "numericEvidence": {
+    "path": "v97/captures/v97/numeric-controls-v10.json",
+    "bytes": 4677918,
+    "sha256": "d913e2168ad58b782ea32cfd4c6c1613d0ab28e3c6969bfb7d0b3662d88f44f1"
+  },
+  "sources": [
+    {
+      "sourceId": "v97-conditional-clock-v5",
+      "sourceSha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9",
+      "item": 2,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-post-navigation-v1/source-frontier-v1.json",
+              "bytes": 255741,
+              "sha256": "2c7bf9aeed4a016775c17738f4944c1b6d8b76a7616962c448878ebdcd622faa"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "At least three finite gated first-seed clock discriminators from own first call",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "dataRowOrdinals": [
+              5,
+              6,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              18,
+              19,
+              21,
+              22,
+              24,
+              25,
+              27,
+              28,
+              30,
+              31,
+              34,
+              35,
+              37,
+              38,
+              40,
+              41,
+              43,
+              44,
+              46,
+              47,
+              50,
+              51,
+              53,
+              54,
+              56,
+              57,
+              59,
+              60,
+              62,
+              63,
+              66,
+              67,
+              69,
+              70,
+              72,
+              73,
+              75,
+              76,
+              78,
+              79,
+              82,
+              83,
+              85,
+              86,
+              88,
+              89,
+              91,
+              92,
+              94,
+              95,
+              98,
+              99,
+              101,
+              102,
+              104,
+              105,
+              107,
+              108,
+              110,
+              111,
+              114,
+              115,
+              117,
+              118,
+              120,
+              121,
+              123,
+              124,
+              126,
+              127
+            ],
+            "scope": "Candidate distinctions are fixed before inspecting native targets; individual numeric precision guards remain separate"
+          }
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "DECLARED_INTEGER_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_PHASE_GATE",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 10,
+            "UNDECIDED": 70
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 16,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 49,
+            "REFUTED": 15,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 50,
+            "UNDECIDED": 78
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127,
+            "REFUTED": 1
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FIRST_FINITE_SEED_BRANCH_PRESENCE_CANDIDATE",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 106,
+            "UNDECIDED": 22
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 58,
+            "UNDECIDED": 70
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_SMA_SEED_OR_GATE_MASK",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 2500,
+        "SUPPORTED": 1403,
+        "REFUTED": 65
+      },
+      "originalSourceId": "v95-conditional-clock-v5",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-post-navigation-v1/source-frontier-v1.json",
+        "bytes": 255741,
+        "sha256": "2c7bf9aeed4a016775c17738f4944c1b6d8b76a7616962c448878ebdcd622faa"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 2510423,
+        "sha256": "4d924110fa221ef9a601df6571c55ef09f3f13d79df7609ce4a4e9426f9aea63"
+      }
+    },
+    {
+      "sourceId": "v97-conditional-clock-v6",
+      "sourceSha256": "a3a05e1fb4656b39de2b4d8acf0676c618f8614f87b8f11cf031aa0093e35174",
+      "item": 2,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255766,
+              "sha256": "02240f3f2e1fa45ace1507f28156a9362bae5f868663032a858c306d16f659fe"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "At least three finite gated first-seed clock discriminators from own first call",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "dataRowOrdinals": [
+              5,
+              6,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              18,
+              19,
+              21,
+              22,
+              24,
+              25,
+              27,
+              28,
+              30,
+              31,
+              34,
+              35,
+              37,
+              38,
+              40,
+              41,
+              43,
+              44,
+              46,
+              47,
+              50,
+              51,
+              53,
+              54,
+              56,
+              57,
+              59,
+              60,
+              62,
+              63,
+              66,
+              67,
+              69,
+              70,
+              72,
+              73,
+              75,
+              76,
+              78,
+              79,
+              82,
+              83,
+              85,
+              86,
+              88,
+              89,
+              91,
+              92,
+              94,
+              95,
+              98,
+              99,
+              101,
+              102,
+              104,
+              105,
+              107,
+              108,
+              110,
+              111,
+              114,
+              115,
+              117,
+              118,
+              120,
+              121,
+              123,
+              124,
+              126,
+              127
+            ],
+            "scope": "Candidate distinctions are fixed before inspecting native targets; individual numeric precision guards remain separate"
+          }
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "DECLARED_INTEGER_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_PHASE_GATE",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 10,
+            "UNDECIDED": 70
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 16,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 49,
+            "REFUTED": 15,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 50,
+            "UNDECIDED": 78
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127,
+            "REFUTED": 1
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FIRST_FINITE_SEED_BRANCH_PRESENCE_CANDIDATE",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 106,
+            "UNDECIDED": 22
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 58,
+            "UNDECIDED": 70
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_SMA_SEED_OR_GATE_MASK",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 2500,
+        "SUPPORTED": 1403,
+        "REFUTED": 65
+      },
+      "originalSourceId": "v95-conditional-clock-v6",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255766,
+        "sha256": "02240f3f2e1fa45ace1507f28156a9362bae5f868663032a858c306d16f659fe"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 2510383,
+        "sha256": "878ec81ddd7d89d56935b99ae78b86fcbcdc161ac7d3afae5da527a0fa637b2a"
+      }
+    },
+    {
+      "sourceId": "v97-udf-state-v5",
+      "sourceSha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93",
+      "item": 3,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255682,
+              "sha256": "0ea779b60d2f6ed0efd4e849a4d9235cb108d346583bbddccecb8b54d4d19efb"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Complete reset blocks for independent textual UDF call sites",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "First-reach local var initialization from own index-zero prefix",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "EXPLICIT_GATED_PRESENCE",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_GATED_CALL_SITE_RESET",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_PHASE_BLOCK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 11,
+            "REFUTED": 77
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_VISIT",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1,
+            "REFUTED": 87
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 1792,
+        "SUPPORTED": 908,
+        "REFUTED": 164
+      },
+      "originalSourceId": "v95-udf-state-v5",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255682,
+        "sha256": "0ea779b60d2f6ed0efd4e849a4d9235cb108d346583bbddccecb8b54d4d19efb"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 1412176,
+        "sha256": "2fc27899dea5546399b70f4a1b99991afeb6b80f1df8377e82cfe71b700f7f1a"
+      }
+    },
+    {
+      "sourceId": "v97-udf-state-v6",
+      "sourceSha256": "ab60c72fe7dc2b8f8eb537e800dc5fe07904f5fddb8d22f29b3be2db63e648a1",
+      "item": 3,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255704,
+              "sha256": "1445b06548162ee2525dd8476783db51ac42bcee330c05120f5e11620539cd1f"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Complete reset blocks for independent textual UDF call sites",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "First-reach local var initialization from own index-zero prefix",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "EXPLICIT_GATED_PRESENCE",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_GATED_CALL_SITE_RESET",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_PHASE_BLOCK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 11,
+            "REFUTED": 77
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_VISIT",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1,
+            "REFUTED": 87
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 1792,
+        "SUPPORTED": 908,
+        "REFUTED": 164
+      },
+      "originalSourceId": "v95-udf-state-v6",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255704,
+        "sha256": "1445b06548162ee2525dd8476783db51ac42bcee330c05120f5e11620539cd1f"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 1412176,
+        "sha256": "49ab80a085bf35a4f0ae844a6fa5050c968feaa3c621ac02725d1af4748dc8db"
+      }
+    },
+    {
+      "sourceId": "v97-recursive-holes-v5",
+      "sourceSha256": "f964228f035a4d4824654fcb116cb6dc07086ace2534638b257a58fbdc41f8ec",
+      "item": 4,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 256089,
+              "sha256": "dda3e66419efb817c579633ebee345985706b3dc4e7ecda0a3d5468986ccdfe3"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "RSI3 and TSI3/5 native trajectories remain independent targets",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "Complete own input vectors and masks are observed; an EMA candidate agreement does not certify RSI/TSI algorithms",
+          "details": null
+        },
+        {
+          "facet": "Generic consume-slot arithmetic beyond the explicit missing-slot output-mask candidate",
+          "captureStatus": "NOT OBSERVED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "No replacement value or repair/seed rule is prescribed for a missing arithmetic operand; no post-capture recurrence is fitted",
+          "details": null
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "RSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "TSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_CLEAN_INTEGER_INPUT",
+          "property": "CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_CYCLE64",
+          "property": "CYCLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 13,
+            "REFUTED": 16,
+            "UNDECIDED": 99
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 116,
+            "REFUTED": 12
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "REFUTED": 26,
+            "UNDECIDED": 99
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 37,
+            "UNDECIDED": 91
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 118,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "REFUTED": 10,
+            "UNDECIDED": 91
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LEADING_AND_INTERIOR_HOLE_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LEADING_AND_INTERIOR_HOLE_MASK",
+          "property": "X_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CYCLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 13,
+            "REFUTED": 2,
+            "UNDECIDED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 116,
+            "REFUTED": 12
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "REFUTED": 12,
+            "UNDECIDED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 16,
+            "UNDECIDED": 112
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 118,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 6,
+            "UNDECIDED": 112,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 5163,
+        "REFUTED": 629,
+        "SUPPORTED": 1760
+      },
+      "originalSourceId": "v95-recursive-holes-v5",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 256089,
+        "sha256": "dda3e66419efb817c579633ebee345985706b3dc4e7ecda0a3d5468986ccdfe3"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 5451611,
+        "sha256": "2e8196997e6298c287384e2dd1d83d2e4b5321639cdcc01d4f1784375b908303"
+      }
+    },
+    {
+      "sourceId": "v97-recursive-holes-v6",
+      "sourceSha256": "b1a5aefe9200c6077be710ad31f1461856f0579d2313748e2a98288541dedacc",
+      "item": 4,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-recursive-holes-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 256103,
+              "sha256": "07b5f9ea67a6bbd514f9a6c0a7e0f6ec70876f91670c2496cbdca6af147092a4"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "RSI3 and TSI3/5 native trajectories remain independent targets",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "Complete own input vectors and masks are observed; an EMA candidate agreement does not certify RSI/TSI algorithms",
+          "details": null
+        },
+        {
+          "facet": "Generic consume-slot arithmetic beyond the explicit missing-slot output-mask candidate",
+          "captureStatus": "NOT OBSERVED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "No replacement value or repair/seed rule is prescribed for a missing arithmetic operand; no post-capture recurrence is fitted",
+          "details": null
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "RSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "TSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_CLEAN_INTEGER_INPUT",
+          "property": "CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_CYCLE64",
+          "property": "CYCLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 13,
+            "REFUTED": 16,
+            "UNDECIDED": 99
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 116,
+            "REFUTED": 12
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "REFUTED": 26,
+            "UNDECIDED": 99
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 37,
+            "UNDECIDED": 91
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 118,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "REFUTED": 10,
+            "UNDECIDED": 91
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LEADING_AND_INTERIOR_HOLE_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LEADING_AND_INTERIOR_HOLE_MASK",
+          "property": "X_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CYCLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 13,
+            "REFUTED": 2,
+            "UNDECIDED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 116,
+            "REFUTED": 12
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "REFUTED": 12,
+            "UNDECIDED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 16,
+            "UNDECIDED": 112
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 118,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 6,
+            "UNDECIDED": 112,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 5163,
+        "REFUTED": 629,
+        "SUPPORTED": 1760
+      },
+      "originalSourceId": "v95-recursive-holes-v6",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-recursive-holes-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 256103,
+        "sha256": "07b5f9ea67a6bbd514f9a6c0a7e0f6ec70876f91670c2496cbdca6af147092a4"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-recursive-holes-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 5451611,
+        "sha256": "67d3ddbb3380c8d3c8494fa61911784c8f408de609293076064bc6f68ee12810"
+      }
+    },
+    {
+      "sourceId": "v97-implicit-ta-v5",
+      "sourceSha256": "949a7940f2f08a0e597958ec78cdb262b5b8d706fc17ebe6acce9dfd7bad0e25",
+      "item": 5,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-implicit-ta-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 256092,
+              "sha256": "236244be03de21b0e20b03628bfb6b44b78410711d2368f47dd64502ebb741a1"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Own OHLC index0..127 prefix for ATR/DMI/Supertrend startup",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "Naturally observed Supertrend direction transitions",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": [
+            {
+              "priorRowOrdinal": 3,
+              "rowOrdinal": 4,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 10,
+              "rowOrdinal": 11,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 16,
+              "rowOrdinal": 17,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 33,
+              "rowOrdinal": 34,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 35,
+              "rowOrdinal": 36,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 38,
+              "rowOrdinal": 39,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 43,
+              "rowOrdinal": 44,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 46,
+              "rowOrdinal": 47,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 49,
+              "rowOrdinal": 50,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 106,
+              "rowOrdinal": 107,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 119,
+              "rowOrdinal": 120,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            }
+          ]
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "ATR3_RMA_ALPHA_1_3/FIRST_FINITE",
+          "property": "ATR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ATR3_RMA_ALPHA_1_3/SMA3_FINITE",
+          "property": "ATR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "ATR3_SEED_MASK/FIRST_FINITE",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "SUPPORTED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ATR3_SEED_MASK/SMA3_FINITE",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FIRST_BAR_HIGH_MINUS_LOW",
+          "property": "TR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 1
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_OUTPUT_PRESENCE_WITNESS",
+          "property": "ADX_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_OUTPUT_PRESENCE_WITNESS",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_OUTPUT_PRESENCE_WITNESS",
+          "property": "TREND_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ADX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ADX_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ATR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DIRECTION",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DI_MINUS",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DI_PLUS",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_CLOSE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_HIGH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_LOW",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_OPEN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SUPERTREND",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TREND_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_CLOSE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_HIGH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_LOW",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_OPEN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PREVIOUS_CLOSE_TRUE_RANGE",
+          "property": "TR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 115,
+            "SUPPORTED": 12
+          },
+          "verdict": "UNDECIDED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 3824,
+        "SUPPORTED": 1164,
+        "REFUTED": 4
+      },
+      "originalSourceId": "v95-implicit-ta-v5",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-implicit-ta-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 256092,
+        "sha256": "236244be03de21b0e20b03628bfb6b44b78410711d2368f47dd64502ebb741a1"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-implicit-ta-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 3908830,
+        "sha256": "61cc4d96c42e7ca5c5f0d791e0448508d544a40eb4d49c580786f3c9804c9896"
+      }
+    },
+    {
+      "sourceId": "v97-implicit-ta-v6",
+      "sourceSha256": "39db60cb152030602463067e2c1bd873db978a1c26096a5989791127af424fc4",
+      "item": 5,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-implicit-ta-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 256101,
+              "sha256": "0db919fe4cb6849e9695b988be09330d38c915c84d6a7dcbe68525c0aeed753f"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Own OHLC index0..127 prefix for ATR/DMI/Supertrend startup",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "Naturally observed Supertrend direction transitions",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": [
+            {
+              "priorRowOrdinal": 3,
+              "rowOrdinal": 4,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 10,
+              "rowOrdinal": 11,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 16,
+              "rowOrdinal": 17,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 33,
+              "rowOrdinal": 34,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 35,
+              "rowOrdinal": 36,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 38,
+              "rowOrdinal": 39,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 43,
+              "rowOrdinal": 44,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 46,
+              "rowOrdinal": 47,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 49,
+              "rowOrdinal": 50,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            },
+            {
+              "priorRowOrdinal": 106,
+              "rowOrdinal": 107,
+              "priorDirectionRaw": "-1",
+              "directionRaw": "1"
+            },
+            {
+              "priorRowOrdinal": 119,
+              "rowOrdinal": 120,
+              "priorDirectionRaw": "1",
+              "directionRaw": "-1"
+            }
+          ]
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "ATR3_RMA_ALPHA_1_3/FIRST_FINITE",
+          "property": "ATR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ATR3_RMA_ALPHA_1_3/SMA3_FINITE",
+          "property": "ATR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "ATR3_SEED_MASK/FIRST_FINITE",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "SUPPORTED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "ATR3_SEED_MASK/SMA3_FINITE",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FIRST_BAR_HIGH_MINUS_LOW",
+          "property": "TR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 1
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_OUTPUT_PRESENCE_WITNESS",
+          "property": "ADX_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_OUTPUT_PRESENCE_WITNESS",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_OUTPUT_PRESENCE_WITNESS",
+          "property": "TREND_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ADX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ADX_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ATR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "ATR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DIRECTION",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DI_MINUS",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DI_PLUS",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_CLOSE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_HIGH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_LOW",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_OPEN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SUPERTREND",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 256
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TREND_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_CLOSE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_HIGH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_LOW",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "OWN_SOURCE_CHART_OHLC_BINDING",
+          "property": "INPUT_OPEN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PREVIOUS_CLOSE_TRUE_RANGE",
+          "property": "TR",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 115,
+            "SUPPORTED": 12
+          },
+          "verdict": "UNDECIDED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 3824,
+        "SUPPORTED": 1164,
+        "REFUTED": 4
+      },
+      "originalSourceId": "v95-implicit-ta-v6",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-implicit-ta-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 256101,
+        "sha256": "0db919fe4cb6849e9695b988be09330d38c915c84d6a7dcbe68525c0aeed753f"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-implicit-ta-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 3908830,
+        "sha256": "8c4eb73a06ef4ddf3af521ed4275be4846e5158f914966387b5e73ea112c9fdd"
+      }
+    },
+    {
+      "sourceId": "v97-history-udt-v5",
+      "sourceSha256": "b5153b93c6cfa524ad71439213419f8f418ff87179d54ed4ddbf1f05a763117c",
+      "item": 7,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-history-udt-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255907,
+              "sha256": "00420af21fa36d5881ff37f81f2faf905e23f2e6a1728f5054ea06ca1137feba"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Own origin for pre-origin dynamic/history missingness",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "Negative dynamic-history dependency before own origin",
+          "captureStatus": "NOT OBSERVED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "This exact source has lag0 at index0 and no primary index<lag opportunity; complete history cannot manufacture a negative dependency. DYNAMIC_NA1 is not inferred.",
+          "details": {
+            "actualOpportunityOwnIndices": [],
+            "ownOriginCells": [
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 7,
+                "headerRaw": "INPUT_INDEX",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 10,
+                "headerRaw": "IS_FIRST",
+                "valueRaw": "1"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 15,
+                "headerRaw": "LAG",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 14,
+                "headerRaw": "X",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 16,
+                "headerRaw": "DYNAMIC",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 17,
+                "headerRaw": "DYNAMIC_NA",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 22,
+                "headerRaw": "PRIOR_X",
+                "valueRaw": ""
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 23,
+                "headerRaw": "PRIOR_PAYLOAD",
+                "valueRaw": ""
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 24,
+                "headerRaw": "PRIOR_NA",
+                "valueRaw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "DECLARED_DYNAMIC_LAG",
+          "property": "LAG",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_PHASE_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DEEP_REFERENCE_FIELD_COPY",
+          "property": "COPY_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DEEP_REFERENCE_FIELD_COPY",
+          "property": "REC_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 128
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "DISTINCT_PER_BAR_REFERENCE_HISTORY",
+          "property": "PRIOR_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DISTINCT_PER_BAR_REFERENCE_HISTORY",
+          "property": "PRIOR_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DISTINCT_SCALAR_COPY_WITH_ORIGINAL_ALIAS",
+          "property": "COPY_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DISTINCT_SCALAR_COPY_WITH_ORIGINAL_ALIAS",
+          "property": "REC_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "COPY_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "COPY_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DYNAMIC",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DYNAMIC_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LAG",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PRIOR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PRIOR_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PRIOR_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "REC_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "REC_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "SHALLOW_REFERENCE_FIELD_COPY",
+          "property": "COPY_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "SHALLOW_REFERENCE_FIELD_COPY",
+          "property": "REC_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_DYNAMIC_HISTORY",
+          "property": "DYNAMIC",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_DYNAMIC_HISTORY",
+          "property": "DYNAMIC_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PREVIOUS_REFERENCE",
+          "property": "PRIOR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PRE_ORIGIN_REFERENCE",
+          "property": "PRIOR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PRE_ORIGIN_REFERENCE",
+          "property": "PRIOR_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PRE_ORIGIN_REFERENCE",
+          "property": "PRIOR_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1
+          },
+          "verdict": "SUPPORTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 2304,
+        "SUPPORTED": 1536,
+        "REFUTED": 128
+      },
+      "originalSourceId": "v95-history-udt-v5",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-history-udt-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255907,
+        "sha256": "00420af21fa36d5881ff37f81f2faf905e23f2e6a1728f5054ea06ca1137feba"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-history-udt-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 1986717,
+        "sha256": "e9afeb02c29fd175694dfe0d0d16981e7b29fdc80bc0c2fdbe281521f00947b1"
+      }
+    },
+    {
+      "sourceId": "v97-history-udt-v6",
+      "sourceSha256": "86cfd167dddb421bba4079615c0d62dd6e833f1b0edbc2943ef0ab282c36e3b2",
+      "item": 7,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-history-udt-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255930,
+              "sha256": "352b704625499eef7ae122cf01e9ade665adcec852239465d6aac4c912cff8af"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Own origin for pre-origin dynamic/history missingness",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "Negative dynamic-history dependency before own origin",
+          "captureStatus": "NOT OBSERVED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "This exact source has lag0 at index0 and no primary index<lag opportunity; complete history cannot manufacture a negative dependency. DYNAMIC_NA1 is not inferred.",
+          "details": {
+            "actualOpportunityOwnIndices": [],
+            "ownOriginCells": [
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 7,
+                "headerRaw": "INPUT_INDEX",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 10,
+                "headerRaw": "IS_FIRST",
+                "valueRaw": "1"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 15,
+                "headerRaw": "LAG",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 14,
+                "headerRaw": "X",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 16,
+                "headerRaw": "DYNAMIC",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 17,
+                "headerRaw": "DYNAMIC_NA",
+                "valueRaw": "0"
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 22,
+                "headerRaw": "PRIOR_X",
+                "valueRaw": ""
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 23,
+                "headerRaw": "PRIOR_PAYLOAD",
+                "valueRaw": ""
+              },
+              {
+                "rowOrdinal": 1,
+                "columnOrdinal": 24,
+                "headerRaw": "PRIOR_NA",
+                "valueRaw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "DECLARED_DYNAMIC_LAG",
+          "property": "LAG",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_PHASE_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DEEP_REFERENCE_FIELD_COPY",
+          "property": "COPY_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DEEP_REFERENCE_FIELD_COPY",
+          "property": "REC_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 128
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "DISTINCT_PER_BAR_REFERENCE_HISTORY",
+          "property": "PRIOR_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DISTINCT_PER_BAR_REFERENCE_HISTORY",
+          "property": "PRIOR_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DISTINCT_SCALAR_COPY_WITH_ORIGINAL_ALIAS",
+          "property": "COPY_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DISTINCT_SCALAR_COPY_WITH_ORIGINAL_ALIAS",
+          "property": "REC_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "COPY_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "COPY_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DYNAMIC",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "DYNAMIC_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LAG",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PRIOR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PRIOR_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PRIOR_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "REC_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "REC_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "SHALLOW_REFERENCE_FIELD_COPY",
+          "property": "COPY_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "SHALLOW_REFERENCE_FIELD_COPY",
+          "property": "REC_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_DYNAMIC_HISTORY",
+          "property": "DYNAMIC",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_DYNAMIC_HISTORY",
+          "property": "DYNAMIC_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PREVIOUS_REFERENCE",
+          "property": "PRIOR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PRE_ORIGIN_REFERENCE",
+          "property": "PRIOR_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PRE_ORIGIN_REFERENCE",
+          "property": "PRIOR_PAYLOAD",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "WITNESSED_PRE_ORIGIN_REFERENCE",
+          "property": "PRIOR_X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1
+          },
+          "verdict": "SUPPORTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 2304,
+        "SUPPORTED": 1536,
+        "REFUTED": 128
+      },
+      "originalSourceId": "v95-history-udt-v6",
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-history-udt-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255930,
+        "sha256": "352b704625499eef7ae122cf01e9ade665adcec852239465d6aac4c912cff8af"
+      },
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-history-udt-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 1986717,
+        "sha256": "0508d731fac34472a972ba2bb59ec5d4afa991c43f0e072fa3e98ac3ecb0bd7d"
+      }
+    }
+  ],
+  "compilerDiagnostics": [
+    {
+      "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 3666,
+      "sha256": "2d7c9f4336c814a96d3eeea274612708bd4e64f2429b3b602116d3ae19253e91"
+    },
+    {
+      "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 4754,
+      "sha256": "2c8b56a93e7bc58a3bcd48e0d63e1a10d4929ddf98c3cb5996a0e91941bad800"
+    },
+    {
+      "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1516,
+      "sha256": "ee867eec03d610c0b26ec891cf9b3302b1363623ed09f2aafb5773c891d2e856"
+    },
+    {
+      "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1516,
+      "sha256": "a40ce41d1bd8701107995103db4885b522793f21fb03f0b54cea2b3c3c1a4db1"
+    },
+    {
+      "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1536,
+      "sha256": "8b2a71ee1230bb63371eb4e18dd055d30eaa148ec858f594951befe060e29ff9"
+    },
+    {
+      "path": "v97/captures/v97/v97-recursive-holes-v6/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1536,
+      "sha256": "5d6e9a771a2ca78f8db324149281ab529da80466f1a4a3bd9ebee1c08255faba"
+    },
+    {
+      "path": "v97/captures/v97/v97-implicit-ta-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1524,
+      "sha256": "aff3d85366b341194483650ae65e36f61a0d6cf936c262d7cace101d2eb37d24"
+    },
+    {
+      "path": "v97/captures/v97/v97-implicit-ta-v6/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1524,
+      "sha256": "a267ec4047482c435f2fa6777b6d151f66531e6a25c09947e72d4e681dc87ce2"
+    },
+    {
+      "path": "v97/captures/v97/v97-history-udt-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1524,
+      "sha256": "cc574daffc837d659869d7998c1ba8aaae104b31301d1e0cac9f5ca7f0f5537e"
+    },
+    {
+      "path": "v97/captures/v97/v97-history-udt-v6/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1524,
+      "sha256": "2522d3e089cd49fbb5a21916890808c8e53f9521802dc03d39d534010b43be0f"
+    }
+  ],
+  "residualHolds": {
+    "nativeExecutionIdsAndMarkerArrays": "UNOBSERVED",
+    "precision": "Individual unresolved native arithmetic/export residues remain UNDECIDED; no tolerance, normalization or seed fitting",
+    "oldV95AndV91Frontiers": "UNCHANGED; these fresh contracts cannot replace their original inputs or clocks",
+    "liveFirstEvents": "NO REPLAY OR OBSERVER WINDOW",
+    "genericPrngAndTaAlgorithms": "No universal certificate from one finite vector",
+    "engineAndFixtureApproval": "NONE"
+  }
+}
