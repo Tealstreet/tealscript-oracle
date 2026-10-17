@@ -1,0 +1,75 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V100 materialized NEW v5 v1", overlay=false, precision=16)
+f_code(bool value) => value ? 1 : 0
+phase = bar_index % 19
+selected = switch phase
+    0 => color.new(#214263FF, 12.1)
+    1 => color.new(#214263FF, 12.5)
+    2 => color.new(#214263FF, 12.9)
+    3 => color.new(#214263FF, 0.4)
+    4 => color.new(#214263FF, 0.5)
+    5 => color.new(#214263FF, 99.5)
+    6 => color.new(#214263FF, 0)
+    7 => color.new(#214263FF, 10)
+    8 => color.new(#214263FF, 15)
+    9 => color.new(#214263FF, 50)
+    10 => color.new(#214263FF, 100)
+    11 => color.new(#214263FF, 22.1)
+    12 => color.new(#214263FF, 22.5)
+    13 => color.new(#214263FF, 22.9)
+    14 => color.new(#214263FF, 32.1)
+    15 => color.new(#214263FF, 32.5)
+    16 => color.new(#214263FF, 12.9999999)
+    17 => color.new(#214263FF, 70)
+    => color.new(#214263FF, 90)
+candidate0 = switch phase
+    0 => #214263E0
+    1 => #214263E0
+    2 => #214263E0
+    3 => #214263FF
+    4 => #214263FF
+    5 => #21426303
+    6 => #214263FF
+    7 => #214263E6
+    8 => #214263D9
+    9 => #21426380
+    10 => #21426300
+    11 => #214263C7
+    12 => #214263C7
+    13 => #214263C7
+    14 => #214263AD
+    15 => #214263AD
+    16 => #214263DE
+    17 => #2142634C
+    => #21426319
+candidate1 = switch phase
+    0 => #214263E0
+    1 => #214263E0
+    2 => #214263E0
+    3 => #214263FF
+    4 => #214263FF
+    5 => #21426303
+    6 => #214263FF
+    7 => #214263E6
+    8 => #214263D9
+    9 => #21426380
+    10 => #21426300
+    11 => #214263C7
+    12 => #214263C7
+    13 => #214263C7
+    14 => #214263AD
+    15 => #214263AD
+    16 => #214263E0
+    17 => #2142634D
+    => #2142631A
+plot(bar_index, title="INPUT_INDEX", display=display.data_window)
+plot(time, title="INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED", display=display.data_window)
+plot(phase, title="CASE_ID", display=display.data_window)
+plot(color.r(selected), title="NEW_R", display=display.data_window)
+plot(color.g(selected), title="NEW_G", display=display.data_window)
+plot(color.b(selected), title="NEW_B", display=display.data_window)
+plot(color.t(selected), title="NEW_T", display=display.data_window)
+plot(f_code(selected == candidate0), title="NEW_EQ_C0", display=display.data_window)
+plot(f_code(selected == candidate1), title="NEW_EQ_C1", display=display.data_window)

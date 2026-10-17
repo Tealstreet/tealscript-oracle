@@ -1,0 +1,48 @@
+------WebKitFormBoundary9aQ6SjrDTeiHhlrQ
+Content-Disposition: form-data; name="source"
+
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V100 immediate color discriminator v5", overlay=false, precision=16)
+f_code(bool value) => value ? 1 : 0
+plot(bar_index, title="INPUT_INDEX", display=display.data_window)
+plot(time, title="INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, title="CHART_CONFIRMED", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 12.1) == color.new(#214263FF, 12.1)), title="DIRECT_RGB_NEW_12P1_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 50.19607843137255) == #2142637F), title="RGB_50P19607843137255_EQ_7F", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 0) == color.new(#214263FF, 0)), title="DIRECT_RGB_NEW_0_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 50) == color.new(#214263FF, 50)), title="DIRECT_RGB_NEW_50_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 32.5) == #214263AC), title="RGB_32P5_EQ_AC", display=display.data_window)
+plot(f_code(color.new(#214263FF, 32.1) == #214263AD), title="NEW_32P1_EQ_AD", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 15) == color.new(#214263FF, 15)), title="DIRECT_RGB_NEW_15_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 0) == #214263FF), title="RGB_0_EQ_FF", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 32.1) == color.new(#214263FF, 32.1)), title="DIRECT_RGB_NEW_32P1_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 22.1) == color.new(#214263FF, 22.1)), title="DIRECT_RGB_NEW_22P1_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 10) == color.new(#214263FF, 10)), title="DIRECT_RGB_NEW_10_EQ", display=display.data_window)
+plot(f_code(color.new(#214263FF, 15) == #214263D9), title="NEW_15_EQ_D9", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 50.19607843137255) == color.new(#214263FF, 50.19607843137255)), title="DIRECT_RGB_NEW_50P19607843137255_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 32.1) == #214263AD), title="RGB_32P1_EQ_AD", display=display.data_window)
+plot(f_code(color.new(#214263FF, 50) == #2142637F), title="NEW_50_EQ_7F", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 22.5) == color.new(#214263FF, 22.5)), title="DIRECT_RGB_NEW_22P5_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 22.5) == #214263C6), title="RGB_22P5_EQ_C6", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 0.5) == color.new(#214263FF, 0.5)), title="DIRECT_RGB_NEW_0P5_EQ", display=display.data_window)
+plot(f_code(color.rgb(33, 66, 99, 100) == color.new(#214263FF, 100)), title="DIRECT_RGB_NEW_100_EQ", display=display.data_window)
+plot(f_code(color.new(#FFFEFDFF, 99.5) == #FFFEFD03), title="PACK_HIGH_NEW_99P5_EQ_03", display=display.data_window)
+plot(f_code(color.new(#000000FF, 99.5) == #00000003), title="PACK_BLACK_NEW_99P5_EQ_03", display=display.data_window)
+plot(f_code(color.rgb(255, 254, 253, 12.1) == color.new(#FFFEFDFF, 12.1)), title="PACK_HIGH_RGB_NEW_12P1_EQ", display=display.data_window)
+plot(f_code(color.rgb(0, 0, 0, 99.5) == #00000001), title="PACK_BLACK_RGB_99P5_EQ_01", display=display.data_window)
+plot(f_code(color.rgb(0, 0, 0, 12.5) == #000000DF), title="PACK_BLACK_RGB_12P5_EQ_DF", display=display.data_window)
+plot(f_code(color.rgb(255, 254, 253, 99.5) == #FFFEFD01), title="PACK_HIGH_RGB_99P5_EQ_01", display=display.data_window)
+plot(f_code(color.rgb(128, 127, 64, 99.5) == #807F4001), title="PACK_MID_RGB_99P5_EQ_01", display=display.data_window)
+plot(f_code(color.new(#807F40FF, 12.5) == #807F40E0), title="PACK_MID_NEW_12P5_EQ_E0", display=display.data_window)
+plot(f_code(color.new(#807F40FF, 99.5) == #807F4003), title="PACK_MID_NEW_99P5_EQ_03", display=display.data_window)
+plot(f_code(color.rgb(128, 127, 64, 12.1) == color.new(#807F40FF, 12.1)), title="PACK_MID_RGB_NEW_12P1_EQ", display=display.data_window)
+plot(f_code(color.rgb(1, 2, 3, 12.5) == #010203DF), title="PACK_LOW_RGB_12P5_EQ_DF", display=display.data_window)
+plot(f_code(color.new(#010203FF, 99.5) == #01020303), title="PACK_LOW_NEW_99P5_EQ_03", display=display.data_window)
+plot(f_code(color.rgb(128, 127, 64, 12.5) == #807F40DF), title="PACK_MID_RGB_12P5_EQ_DF", display=display.data_window)
+plot(f_code(color.rgb(0, 0, 0, 12.1) == color.new(#000000FF, 12.1)), title="PACK_BLACK_RGB_NEW_12P1_EQ", display=display.data_window)
+plot(f_code(color.rgb(255, 254, 253, 12.5) == #FFFEFDDF), title="PACK_HIGH_RGB_12P5_EQ_DF", display=display.data_window)
+plot(f_code(color.rgb(1, 2, 3, 99.5) == #01020301), title="PACK_LOW_RGB_99P5_EQ_01", display=display.data_window)
+plot(f_code(color.new(#FFFEFDFF, 12.5) == #FFFEFDE0), title="PACK_HIGH_NEW_12P5_EQ_E0", display=display.data_window)
+
+------WebKitFormBoundary9aQ6SjrDTeiHhlrQ--
