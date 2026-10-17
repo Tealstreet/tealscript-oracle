@@ -1,0 +1,347 @@
+{
+  "version": "v1",
+  "numericEvidence": {
+    "path": "v98/captures/v98/numeric-controls-v1.json",
+    "bytes": 14074228,
+    "sha256": "14ed2b390af90def9045bc7e678db4e5b64e9343d8ca42ddcdb9e6b3c324770f"
+  },
+  "sources": [
+    {
+      "sourceId": "v98-color-constructors-v5",
+      "sourceSha256": "718cee58cafa93bcf402485fc0bbf8213f8a0c31e1e496019041b63ce8b7d42c",
+      "nativeCompileSuccess": true,
+      "propertyVerdicts": [
+        {
+          "model": "ADJACENT_DISTINCT_STORED_LITERAL_CANDIDATE",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DIRECT_ROUTE_EQUALITY/LITERAL_EQ_RGB_NEW",
+          "counts": {
+            "SUPPORTED": 32,
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "DIRECT_ROUTE_EQUALITY/NEW_EQ_LITERAL_SERIES",
+          "counts": {
+            "SUPPORTED": 32,
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "DIRECT_ROUTE_EQUALITY/RGB_EQ_LITERAL_SERIES",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DIRECT_ROUTE_EQUALITY/SERIES_EQ_RGB_NEW",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FROZEN_INPUT_TRANSPARENCY_AND_PALETTE_LABEL",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LITERAL_NEW/BYTE_FLOOR",
+          "counts": {
+            "SUPPORTED": 16,
+            "REFUTED": 48
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LITERAL_NEW/BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 32,
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LITERAL_NEW/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 44,
+            "SUPPORTED": 20
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LITERAL_NEW/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 36,
+            "REFUTED": 28
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LITERAL_RGB/BYTE_FLOOR",
+          "counts": {
+            "SUPPORTED": 32,
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LITERAL_RGB/BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LITERAL_RGB/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 40,
+            "SUPPORTED": 24
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LITERAL_RGB/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 36,
+            "REFUTED": 28
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "OLD_RGB12_5_DEFINED_EQUALITY_MATCH_DF",
+          "counts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "OLD_RGB12_5_TERNARY_MATCH_DF",
+          "counts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "OLD_TERNARY_VS_NA_PRESERVING_CODE",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "PALETTE_C0_NEAREST_PERCENT_GETTER_CANDIDATE",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "PALETTE_C1_NEAREST_PERCENT_GETTER_CANDIDATE",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "PALETTE_C2_NEAREST_PERCENT_GETTER_CANDIDATE",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "PALETTE_C3_NEAREST_PERCENT_GETTER_CANDIDATE",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "PALETTE_C4_NEAREST_PERCENT_GETTER_CANDIDATE",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "PRESENT_LITERAL_SELF_DISTINCT_CALIBRATION",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "SERIES_NEW/BYTE_FLOOR",
+          "counts": {
+            "SUPPORTED": 32,
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "SERIES_NEW/BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "SERIES_NEW/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 40,
+            "SUPPORTED": 24
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "SERIES_NEW/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 36,
+            "REFUTED": 28
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "SERIES_RGB/BYTE_FLOOR",
+          "counts": {
+            "SUPPORTED": 32,
+            "REFUTED": 32
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "SERIES_RGB/BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "SERIES_RGB/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 40,
+            "SUPPORTED": 24
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "SERIES_RGB/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "SUPPORTED": 36,
+            "REFUTED": 28
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "facets": [
+        {
+          "facet": "Earliest64 phase-zero independently closed consecutive own rows",
+          "captureStatus": "CAPTURED",
+          "verdict": "SUPPORTED",
+          "cause": null
+        },
+        {
+          "facet": "Hidden storage / generic quantizer / cross-recalculation identity",
+          "captureStatus": "NOT OBSERVED",
+          "verdict": "UNDECIDED",
+          "cause": "Native numeric getters and ordinary source literal equality only; no byte decoding, universal model, engine approval or closure of old holds."
+        }
+      ],
+      "selectedDataRowOrdinals": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "historyPredecessorDataRowOrdinal": null,
+      "primaryUniquePlotCells": 4032,
+      "comparisonCounts": {
+        "SUPPORTED": 1340,
+        "REFUTED": 644
+      }
+    }
+  ],
+  "compilerDiagnostics": [
+    {
+      "path": "v98/captures/v98/v98-color-constructors-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1529,
+      "sha256": "4925e0dd2708039b3d177a32dc420f43e9a0c291fa043b9fdd36ed28068eafb2"
+    }
+  ],
+  "residualHolds": [
+    "Hidden stored byte and generic quantizer remain UNOBSERVED/UNDECIDED",
+    "No universal color/gradient/identity, raster, engine approval or fixture promotion",
+    "All historical holds remain unchanged"
+  ]
+}
