@@ -1,0 +1,580 @@
+{
+  "version": "v1",
+  "numericEvidence": {
+    "path": "v99/captures/v99/numeric-controls-v1.json",
+    "bytes": 20534533,
+    "sha256": "6b459c3bc2ada5b37a5809ccff750bda2bf0aa77cb3b6d968a8dc4f9927f8dba"
+  },
+  "sources": [
+    {
+      "sourceId": "v99-direct-colors-core-v5",
+      "sourceSha256": "e13c3fb04d2f185317a8b00f23b0221e1ca30bbc274d3751bf399fcc5690551d",
+      "nativeCompileSuccess": true,
+      "propertyVerdicts": [
+        {
+          "model": "NEW/12P1/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P1/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P1/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P1/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P1/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P5/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P5/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P5/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P5/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P5/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P9/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P9/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P9/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P9/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/12P9/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/SOURCE_QUERY_VECTOR/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/SOURCE_QUERY_VECTOR/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/SOURCE_QUERY_VECTOR/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/SOURCE_QUERY_VECTOR/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "NEW/SOURCE_QUERY_VECTOR/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P1/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P1/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P1/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P1/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P1/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P5/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P5/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P5/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P5/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P5/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P9/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P9/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P9/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P9/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/12P9/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/SOURCE_QUERY_VECTOR/BYTE_FLOOR",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/SOURCE_QUERY_VECTOR/BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/SOURCE_QUERY_VECTOR/PERCENT_CEIL_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/SOURCE_QUERY_VECTOR/PERCENT_ROUND_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RGB/SOURCE_QUERY_VECTOR/PERCENT_TRUNC_THEN_BYTE_ROUND",
+          "counts": {
+            "REFUTED": 64
+          },
+          "applicableCounts": {
+            "REFUTED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "SAME_SOURCE_LITERAL_CALIBRATION_GRAPH",
+          "counts": {
+            "SUPPORTED": 64
+          },
+          "applicableCounts": {
+            "SUPPORTED": 64
+          },
+          "verdict": "SUPPORTED"
+        }
+      ],
+      "facets": [
+        {
+          "facet": "Frozen64-row coverage",
+          "captureStatus": "CAPTURED",
+          "verdict": "SUPPORTED"
+        },
+        {
+          "facet": "Hidden color storage, universal equality, cross-recalculation identity and var own-zero initialization",
+          "captureStatus": "NOT OBSERVED",
+          "verdict": "UNDECIDED",
+          "cause": "Bounded same-source exports only; no decoder, fitted policy, source variant or engine approval"
+        }
+      ],
+      "selectedDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "historyPredecessorDataRowOrdinal": null,
+      "primaryUniquePlotCells": 4032,
+      "comparisonCounts": {
+        "SUPPORTED": 64,
+        "REFUTED": 2560
+      },
+      "routePolicyAdjudications": {
+        "RGB": {
+          "frozenModelVerdicts": {
+            "BYTE_FLOOR": "REFUTED",
+            "BYTE_ROUND": "REFUTED",
+            "PERCENT_CEIL_THEN_BYTE_ROUND": "REFUTED",
+            "PERCENT_ROUND_THEN_BYTE_ROUND": "REFUTED",
+            "PERCENT_TRUNC_THEN_BYTE_ROUND": "REFUTED"
+          },
+          "supportedFrozenModels": [],
+          "observation": "NEITHER_MODEL",
+          "hiddenModel": "UNDECIDED; finite source expressions only"
+        },
+        "NEW": {
+          "frozenModelVerdicts": {
+            "BYTE_FLOOR": "REFUTED",
+            "BYTE_ROUND": "REFUTED",
+            "PERCENT_CEIL_THEN_BYTE_ROUND": "REFUTED",
+            "PERCENT_ROUND_THEN_BYTE_ROUND": "REFUTED",
+            "PERCENT_TRUNC_THEN_BYTE_ROUND": "REFUTED"
+          },
+          "supportedFrozenModels": [],
+          "observation": "NEITHER_MODEL",
+          "hiddenModel": "UNDECIDED; finite source expressions only"
+        }
+      }
+    }
+  ],
+  "sixCaseDirectComparisonPolicies": {
+    "RGB": {
+      "frozenModelVerdicts": {
+        "BYTE_ROUND": "UNDECIDED",
+        "BYTE_FLOOR": "UNDECIDED",
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": "UNDECIDED",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "UNDECIDED",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "UNDECIDED"
+      },
+      "supportedFrozenModels": [],
+      "observation": "UNDECIDED",
+      "hiddenModel": "UNDECIDED; finite source expressions only",
+      "scope": "Complete six-case finite-query vector across two separately owned fixed programs; no row/session stitching, cross-source calibration or getter/hidden-byte prediction"
+    },
+    "NEW": {
+      "frozenModelVerdicts": {
+        "BYTE_ROUND": "UNDECIDED",
+        "BYTE_FLOOR": "UNDECIDED",
+        "PERCENT_TRUNC_THEN_BYTE_ROUND": "UNDECIDED",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "UNDECIDED",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "UNDECIDED"
+      },
+      "supportedFrozenModels": [],
+      "observation": "UNDECIDED",
+      "hiddenModel": "UNDECIDED; finite source expressions only",
+      "scope": "Complete six-case finite-query vector across two separately owned fixed programs; no row/session stitching, cross-source calibration or getter/hidden-byte prediction"
+    }
+  },
+  "compilerDiagnostics": [
+    {
+      "path": "v99/captures/v99/v99-direct-colors-core-v5/attempt-v1/compiler-diagnostics-v1.json",
+      "bytes": 1529,
+      "sha256": "6d1f22be4b65d1e3bdbc6ea7e37c34681137fe9d659bdf588273cbb7c7be25df"
+    }
+  ],
+  "preservation": null,
+  "residualHolds": [
+    "Hidden storage, universal equality/quantizer and unexported channels remain held",
+    "No var own-zero initialization, actual calculation-count, native feed/execution-ID or complete private inventory claim",
+    "V98 consumed slot and old-page3 context hold remain historical and unchanged",
+    "No engine approval or fixture promotion"
+  ]
+}
