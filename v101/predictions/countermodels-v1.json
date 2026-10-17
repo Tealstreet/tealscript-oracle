@@ -1,0 +1,177 @@
+{
+  "version": "v1",
+  "scope": "Two explicit arithmetic/packing countermodels, selected from pre-existing syntax aliases, not installed code or native model facts. Both reproduce all known constant-constructor observations under the declared shared materialization stage; independent full audit follows. Only raw RGB conversion operation order differs. Six first-per-refined-row syntax witnesses are existence results, not a complete count of fitting algorithms.",
+  "priorAlias": {
+    "constructorProfile": 174,
+    "constructorAlias": [
+      "alpha",
+      2,
+      143,
+      "id"
+    ],
+    "rawProfile": 2,
+    "rawA": [
+      "id",
+      0,
+      "round",
+      false
+    ],
+    "rawB": [
+      "id",
+      64,
+      "round",
+      false
+    ]
+  },
+  "models": [
+    {
+      "unit": "A",
+      "rowId": 1536,
+      "route": "scalar",
+      "equality": "fixed1",
+      "literal": [
+        79,
+        0
+      ],
+      "rgb": [
+        174,
+        4
+      ],
+      "new": [
+        3080,
+        2
+      ],
+      "getter": 1,
+      "rgbEncoded": 221,
+      "newEncoded": 3411,
+      "file": "packing-order-gbar-v1.json",
+      "order": [
+        "g",
+        "b",
+        "a",
+        "r"
+      ],
+      "codecs": {
+        "rgb": "sum-i32",
+        "new": "sum-trunc",
+        "literal": "sum"
+      },
+      "recipes": {
+        "rgb": {
+          "raw": [
+            "id",
+            0,
+            "round",
+            false
+          ],
+          "rawExpression": "(((100-x)*255)/100)",
+          "normalizer": "(Math.fround(2.55)*(100-(100*(1-Math.fround((x/255))))))",
+          "outputQ": "id"
+        },
+        "new": {
+          "raw": [
+            "trunc",
+            64,
+            "round",
+            false
+          ],
+          "rawExpression": "(255*(1-(x/100)))",
+          "normalizer": "(Math.fround(2.55)*(100-(100*(1-Math.fround((x/255))))))",
+          "outputQ": "id"
+        },
+        "literal": {
+          "normalizer": "(2.55*(100-(100*Math.fround((1-(x/255))))))",
+          "outputQ": "id"
+        }
+      },
+      "allV100DirectColumnsExact": 36,
+      "materializedV5V6RecipeExact": true,
+      "id": "CM-A",
+      "nextPrediction": {
+        "title": "DIRECT_RGB_NEW_90_EQ",
+        "expectedRawCode": "0",
+        "rgbAlpha": 26,
+        "newAlpha": 25
+      }
+    },
+    {
+      "unit": "A",
+      "rowId": 1536,
+      "route": "scalar",
+      "equality": "fixed1",
+      "literal": [
+        79,
+        0
+      ],
+      "rgb": [
+        174,
+        4
+      ],
+      "new": [
+        3080,
+        2
+      ],
+      "getter": 1,
+      "rgbEncoded": 221,
+      "newEncoded": 3411,
+      "file": "packing-order-gbar-v1.json",
+      "order": [
+        "g",
+        "b",
+        "a",
+        "r"
+      ],
+      "codecs": {
+        "rgb": "sum-i32",
+        "new": "sum-trunc",
+        "literal": "sum"
+      },
+      "recipes": {
+        "rgb": {
+          "raw": [
+            "id",
+            64,
+            "round",
+            false
+          ],
+          "rawExpression": "(255*(1-(x/100)))",
+          "normalizer": "(Math.fround(2.55)*(100-(100*(1-Math.fround((x/255))))))",
+          "outputQ": "id"
+        },
+        "new": {
+          "raw": [
+            "trunc",
+            64,
+            "round",
+            false
+          ],
+          "rawExpression": "(255*(1-(x/100)))",
+          "normalizer": "(Math.fround(2.55)*(100-(100*(1-Math.fround((x/255))))))",
+          "outputQ": "id"
+        },
+        "literal": {
+          "normalizer": "(2.55*(100-(100*Math.fround((1-(x/255))))))",
+          "outputQ": "id"
+        }
+      },
+      "allV100DirectColumnsExact": 36,
+      "materializedV5V6RecipeExact": true,
+      "id": "CM-B",
+      "nextPrediction": {
+        "title": "DIRECT_RGB_NEW_90_EQ",
+        "expectedRawCode": "1",
+        "rgbAlpha": 25,
+        "newAlpha": 25
+      }
+    }
+  ],
+  "source": {
+    "path": "proposed-v101-rgb90-v5-v1.pine",
+    "bytes": 4895,
+    "sha256": "542bdcaf0a1823869f097e65207caed2a2ea7b403b7dd993a11224018a7538f2",
+    "plots": 40,
+    "preservedV100PrefixSha256": "43e6eb7eed958867961de5630dce3b36e630d0af20d8e268851ba6740d31db79"
+  },
+  "criterion": "Retain all39 original source columns independently. One owned physically closed new code0 refutes CM-B; code1 refutes CM-A. Unchanged original controls are required to extrapolate from the old execution; any changed control is observed and holds that extrapolation. Matching a new code does not identify a universal/native algorithm.",
+  "notObserved": "Missing admission/exact source ownership/column/physical closure holds the discriminator; incomplete64-row coverage separately holds the full control certificate. V5 ternary0 still collapses false/Boolean NA. Unexpected/mixed values are observed and refute or hold the frozen finite witness conclusion; never fit. No publication/capture action is authorized by this proposal."
+}

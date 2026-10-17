@@ -1,0 +1,516 @@
+{
+  "version": "v1",
+  "round": "v101",
+  "role": "Normative pre-registered finite author-input hypotheses, never native capture results",
+  "source": {
+    "path": "v101/sources/proposed-v101-rgb90-v5-v1.pine",
+    "bytes": 4895,
+    "sha256": "542bdcaf0a1823869f097e65207caed2a2ea7b403b7dd993a11224018a7538f2"
+  },
+  "recipeFile": {
+    "path": "v101/predictions/countermodels-v1.json",
+    "bytes": 4899,
+    "sha256": "8ea7be547f6be38bad0a45e43331bbf1161e1f127c6ba44a65089d2f563cd4aa"
+  },
+  "scope": {
+    "originalNonContextControls": 36,
+    "newDiscriminatorColumns": 1,
+    "contextColumns": 3,
+    "totalPlotColumns": 40
+  },
+  "contextPredictions": [
+    {
+      "sourcePlotOrdinal": 0,
+      "title": "INPUT_INDEX",
+      "expected": "The source own bar_index: increasing consecutive integers on primary rows; no fixed starting index or own-index-zero requirement"
+    },
+    {
+      "sourcePlotOrdinal": 1,
+      "title": "INPUT_TIME",
+      "expected": "Native chart time in milliseconds; agrees with original chart time and independent physical closure"
+    },
+    {
+      "sourcePlotOrdinal": 2,
+      "title": "CHART_CONFIRMED",
+      "expectedRawCode": "1",
+      "expected": "Requires independent physical closure as well as source confirmation; source code alone does not establish closure"
+    }
+  ],
+  "models": [
+    {
+      "modelId": "CM-A",
+      "expectedNumericCodes": {
+        "DIRECT_RGB_NEW_12P1_EQ": "1",
+        "RGB_50P19607843137255_EQ_7F": "0",
+        "DIRECT_RGB_NEW_0_EQ": "1",
+        "DIRECT_RGB_NEW_50_EQ": "1",
+        "RGB_32P5_EQ_AC": "0",
+        "NEW_32P1_EQ_AD": "0",
+        "DIRECT_RGB_NEW_15_EQ": "1",
+        "RGB_0_EQ_FF": "0",
+        "DIRECT_RGB_NEW_32P1_EQ": "1",
+        "DIRECT_RGB_NEW_22P1_EQ": "1",
+        "DIRECT_RGB_NEW_10_EQ": "1",
+        "NEW_15_EQ_D9": "0",
+        "DIRECT_RGB_NEW_50P19607843137255_EQ": "0",
+        "RGB_32P1_EQ_AD": "0",
+        "NEW_50_EQ_7F": "0",
+        "DIRECT_RGB_NEW_22P5_EQ": "0",
+        "RGB_22P5_EQ_C6": "0",
+        "DIRECT_RGB_NEW_0P5_EQ": "0",
+        "DIRECT_RGB_NEW_100_EQ": "1",
+        "PACK_HIGH_NEW_99P5_EQ_03": "1",
+        "PACK_BLACK_NEW_99P5_EQ_03": "1",
+        "PACK_HIGH_RGB_NEW_12P1_EQ": "0",
+        "PACK_BLACK_RGB_99P5_EQ_01": "1",
+        "PACK_BLACK_RGB_12P5_EQ_DF": "0",
+        "PACK_HIGH_RGB_99P5_EQ_01": "0",
+        "PACK_MID_RGB_99P5_EQ_01": "0",
+        "PACK_MID_NEW_12P5_EQ_E0": "0",
+        "PACK_MID_NEW_99P5_EQ_03": "1",
+        "PACK_MID_RGB_NEW_12P1_EQ": "0",
+        "PACK_LOW_RGB_12P5_EQ_DF": "0",
+        "PACK_LOW_NEW_99P5_EQ_03": "1",
+        "PACK_MID_RGB_12P5_EQ_DF": "0",
+        "PACK_BLACK_RGB_NEW_12P1_EQ": "1",
+        "PACK_HIGH_RGB_12P5_EQ_DF": "0",
+        "PACK_LOW_RGB_99P5_EQ_01": "1",
+        "PACK_HIGH_NEW_12P5_EQ_E0": "0",
+        "DIRECT_RGB_NEW_90_EQ": "0"
+      },
+      "expectedColumns": [
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "DIRECT_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "RGB_50P19607843137255_EQ_7F",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "DIRECT_RGB_NEW_0_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "DIRECT_RGB_NEW_50_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RGB_32P5_EQ_AC",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "NEW_32P1_EQ_AD",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DIRECT_RGB_NEW_15_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "RGB_0_EQ_FF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "DIRECT_RGB_NEW_32P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "DIRECT_RGB_NEW_22P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "DIRECT_RGB_NEW_10_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "NEW_15_EQ_D9",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "DIRECT_RGB_NEW_50P19607843137255_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "RGB_32P1_EQ_AD",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "NEW_50_EQ_7F",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "DIRECT_RGB_NEW_22P5_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "RGB_22P5_EQ_C6",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "DIRECT_RGB_NEW_0P5_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "DIRECT_RGB_NEW_100_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "PACK_HIGH_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "PACK_BLACK_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "PACK_HIGH_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "PACK_BLACK_RGB_99P5_EQ_01",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "PACK_BLACK_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "PACK_HIGH_RGB_99P5_EQ_01",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "PACK_MID_RGB_99P5_EQ_01",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "PACK_MID_NEW_12P5_EQ_E0",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "PACK_MID_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "PACK_MID_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "PACK_LOW_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "PACK_LOW_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "PACK_MID_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "PACK_BLACK_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "PACK_HIGH_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "PACK_LOW_RGB_99P5_EQ_01",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "PACK_HIGH_NEW_12P5_EQ_E0",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "DIRECT_RGB_NEW_90_EQ",
+          "expectedRawCode": "0"
+        }
+      ]
+    },
+    {
+      "modelId": "CM-B",
+      "expectedNumericCodes": {
+        "DIRECT_RGB_NEW_12P1_EQ": "1",
+        "RGB_50P19607843137255_EQ_7F": "0",
+        "DIRECT_RGB_NEW_0_EQ": "1",
+        "DIRECT_RGB_NEW_50_EQ": "1",
+        "RGB_32P5_EQ_AC": "0",
+        "NEW_32P1_EQ_AD": "0",
+        "DIRECT_RGB_NEW_15_EQ": "1",
+        "RGB_0_EQ_FF": "0",
+        "DIRECT_RGB_NEW_32P1_EQ": "1",
+        "DIRECT_RGB_NEW_22P1_EQ": "1",
+        "DIRECT_RGB_NEW_10_EQ": "1",
+        "NEW_15_EQ_D9": "0",
+        "DIRECT_RGB_NEW_50P19607843137255_EQ": "0",
+        "RGB_32P1_EQ_AD": "0",
+        "NEW_50_EQ_7F": "0",
+        "DIRECT_RGB_NEW_22P5_EQ": "0",
+        "RGB_22P5_EQ_C6": "0",
+        "DIRECT_RGB_NEW_0P5_EQ": "0",
+        "DIRECT_RGB_NEW_100_EQ": "1",
+        "PACK_HIGH_NEW_99P5_EQ_03": "1",
+        "PACK_BLACK_NEW_99P5_EQ_03": "1",
+        "PACK_HIGH_RGB_NEW_12P1_EQ": "0",
+        "PACK_BLACK_RGB_99P5_EQ_01": "1",
+        "PACK_BLACK_RGB_12P5_EQ_DF": "0",
+        "PACK_HIGH_RGB_99P5_EQ_01": "0",
+        "PACK_MID_RGB_99P5_EQ_01": "0",
+        "PACK_MID_NEW_12P5_EQ_E0": "0",
+        "PACK_MID_NEW_99P5_EQ_03": "1",
+        "PACK_MID_RGB_NEW_12P1_EQ": "0",
+        "PACK_LOW_RGB_12P5_EQ_DF": "0",
+        "PACK_LOW_NEW_99P5_EQ_03": "1",
+        "PACK_MID_RGB_12P5_EQ_DF": "0",
+        "PACK_BLACK_RGB_NEW_12P1_EQ": "1",
+        "PACK_HIGH_RGB_12P5_EQ_DF": "0",
+        "PACK_LOW_RGB_99P5_EQ_01": "1",
+        "PACK_HIGH_NEW_12P5_EQ_E0": "0",
+        "DIRECT_RGB_NEW_90_EQ": "1"
+      },
+      "expectedColumns": [
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "DIRECT_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "RGB_50P19607843137255_EQ_7F",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "DIRECT_RGB_NEW_0_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "DIRECT_RGB_NEW_50_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "RGB_32P5_EQ_AC",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "NEW_32P1_EQ_AD",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DIRECT_RGB_NEW_15_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "RGB_0_EQ_FF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "DIRECT_RGB_NEW_32P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "DIRECT_RGB_NEW_22P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "DIRECT_RGB_NEW_10_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "NEW_15_EQ_D9",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "DIRECT_RGB_NEW_50P19607843137255_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "RGB_32P1_EQ_AD",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "NEW_50_EQ_7F",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "DIRECT_RGB_NEW_22P5_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "RGB_22P5_EQ_C6",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "DIRECT_RGB_NEW_0P5_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "DIRECT_RGB_NEW_100_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "PACK_HIGH_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "PACK_BLACK_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "PACK_HIGH_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "PACK_BLACK_RGB_99P5_EQ_01",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "PACK_BLACK_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "PACK_HIGH_RGB_99P5_EQ_01",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "PACK_MID_RGB_99P5_EQ_01",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "PACK_MID_NEW_12P5_EQ_E0",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "PACK_MID_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "PACK_MID_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "PACK_LOW_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "PACK_LOW_NEW_99P5_EQ_03",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "PACK_MID_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "PACK_BLACK_RGB_NEW_12P1_EQ",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "PACK_HIGH_RGB_12P5_EQ_DF",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "PACK_LOW_RGB_99P5_EQ_01",
+          "expectedRawCode": "1"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "PACK_HIGH_NEW_12P5_EQ_E0",
+          "expectedRawCode": "0"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "DIRECT_RGB_NEW_90_EQ",
+          "expectedRawCode": "1"
+        }
+      ]
+    }
+  ],
+  "controlReference": {
+    "oracle": "b23c3d71f00e83cb40c4ab3d65be269788605f89",
+    "source": {
+      "path": "v100/sources/proposed-v100-immediate-v5-v5.pine",
+      "bytes": 4768,
+      "sha256": "43e6eb7eed958867961de5630dce3b36e630d0af20d8e268851ba6740d31db79"
+    },
+    "csv": {
+      "path": "v100/captures/v100/proposed-v100-immediate-v5-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+      "bytes": 45541,
+      "sha256": "bb918c6f1aa66ef4ad566eb75bfdc00660505dd77fb0d90ed96ff1b545dd7ef4"
+    },
+    "referenceDataRowOrdinal": 1,
+    "status": "Previous execution reference only; never fills missing v101 controls"
+  },
+  "encoding": "V5 value ? 1 : 0 collapses false and Boolean NA into0; neither numeric code establishes hidden color identity",
+  "notObserved": "Missing exact source admission/running ownership, column binding or physical closure holds affected property; missing64-row block holds full-vector certificate, without discarding partial observed contrary codes"
+}
