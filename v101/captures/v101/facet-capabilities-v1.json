@@ -1,0 +1,1486 @@
+{
+  "version": "v1",
+  "source": {
+    "version": "v1",
+    "sourceId": "proposed-v101-rgb90-v5-v1",
+    "sourceSha256": "542bdcaf0a1823869f097e65207caed2a2ea7b403b7dd993a11224018a7538f2",
+    "pineVersion": 5,
+    "requestSource": "v101/sources/proposed-v101-rgb90-v5-v1.pine",
+    "executed": {
+      "path": "v101/captures/v101/proposed-v101-rgb90-v5-v1/attempt-v1/executed-v1.pine",
+      "bytes": 4895,
+      "sha256": "542bdcaf0a1823869f097e65207caed2a2ea7b403b7dd993a11224018a7538f2"
+    },
+    "sourceForm": {
+      "path": "v101/captures/v101/proposed-v101-rgb90-v5-v1/attempt-v1/save-request-v1.txt",
+      "bytes": 5076,
+      "sha256": "8a7d3cd2fdfc0c09f7a7b45bc1e64c98b465696ba85e2c49b3e933438c60fddc"
+    },
+    "saveBody": {
+      "path": "v101/captures/v101/proposed-v101-rgb90-v5-v1/attempt-v1/save-response-v1.json",
+      "bytes": 15124,
+      "sha256": "c5db38563cb16ad4c6edc7a7be5e9233f305339250bd458ce915c7340f1f06a3"
+    },
+    "addBody": {
+      "path": "v101/captures/v101/proposed-v101-rgb90-v5-v1/attempt-v1/add-response-v1.json",
+      "bytes": 15124,
+      "sha256": "be52bce271feaef8f0f23950466674d3ab84401c93af75150e898df7d4556db5"
+    },
+    "nativeCompileSuccess": true,
+    "privateScriptId": "USER;0d511053a8624ae8a93e60171c2aac70",
+    "privateVersion": "1.0",
+    "nativeStudyInstanceId": null,
+    "nativeStudyInstanceStatus": "UNOBSERVED",
+    "editorMarkerArrays": null,
+    "editorMarkerStatus": "UNOBSERVED; separate immediate/settled native UI retained",
+    "nativeWarningChannel": [],
+    "nativeWarningChannelStatus": "EXPOSED",
+    "nativeLayoutId": 208298661,
+    "nativeLayoutImage": "Wnbp0H0l",
+    "settings": {
+      "symbol": "BINANCE:BTCUSDT",
+      "interval": "2 minutes",
+      "style": "Candles",
+      "timezone": "Etc/UTC",
+      "layout": "One NEW v101 throwaway layout only",
+      "preserve": [
+        "P425PrivateV79v1",
+        "sours-lat/P425PrivateV79v1/1",
+        "all existing layouts/scripts/tabs/settings/private libraries"
+      ]
+    },
+    "receipt": {
+      "path": "v101/captures/v101/proposed-v101-rgb90-v5-v1/attempt-v1/capture-receipt-v1.json",
+      "bytes": 2648,
+      "sha256": "2e5fa771fff9a9d3774f14df1d7915993422dc60e5faf7434dff323da9e9fad3"
+    }
+  },
+  "primaryInputCertificate": true,
+  "contexts": [
+    {
+      "sourcePlotOrdinal": 0,
+      "title": "INPUT_INDEX",
+      "contract": {
+        "sourcePlotOrdinal": 0,
+        "title": "INPUT_INDEX",
+        "expected": "The source own bar_index: increasing consecutive integers on primary rows; no fixed starting index or own-index-zero requirement"
+      },
+      "targets": [
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 1,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23908"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 2,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23909"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 3,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23910"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 4,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23911"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 5,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23912"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 6,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23913"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 7,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23914"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 8,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23915"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 9,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23916"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 10,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23917"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 11,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23918"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 12,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23919"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 13,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23920"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 14,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23921"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 15,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23922"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 16,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23923"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 17,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23924"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 18,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23925"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 19,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23926"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 20,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23927"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 21,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23928"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 22,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23929"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 23,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23930"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 24,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23931"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 25,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23932"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 26,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23933"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 27,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23934"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 28,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23935"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 29,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23936"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 30,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23937"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 31,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23938"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 32,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23939"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 33,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23940"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 34,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23941"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 35,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23942"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 36,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23943"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 37,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23944"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 38,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23945"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 39,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23946"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 40,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23947"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 41,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23948"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 42,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23949"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 43,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23950"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 44,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23951"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 45,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23952"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 46,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23953"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 47,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23954"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 48,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23955"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 49,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23956"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 50,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23957"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 51,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23958"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 52,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23959"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 53,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23960"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 54,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23961"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 55,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23962"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 56,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23963"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 57,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23964"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 58,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23965"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 59,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23966"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 60,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23967"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 61,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23968"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 62,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23969"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 63,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23970"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 64,
+          "columnOrdinal": 7,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "23971"
+        }
+      ],
+      "verdict": "SUPPORTED",
+      "physicalClosureRequiredIndependently": true
+    },
+    {
+      "sourcePlotOrdinal": 1,
+      "title": "INPUT_TIME",
+      "contract": {
+        "sourcePlotOrdinal": 1,
+        "title": "INPUT_TIME",
+        "expected": "Native chart time in milliseconds; agrees with original chart time and independent physical closure"
+      },
+      "targets": [
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 1,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792212960000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 2,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213080000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 3,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213200000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 4,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213320000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 5,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213440000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 6,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213560000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 7,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213680000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 8,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213800000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 9,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792213920000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 10,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214040000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 11,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214160000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 12,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214280000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 13,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214400000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 14,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214520000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 15,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214640000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 16,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214760000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 17,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792214880000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 18,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215000000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 19,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215120000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 20,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215240000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 21,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215360000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 22,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215480000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 23,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215600000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 24,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215720000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 25,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215840000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 26,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792215960000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 27,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216080000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 28,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216200000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 29,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216320000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 30,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216440000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 31,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216560000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 32,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216680000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 33,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216800000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 34,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792216920000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 35,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217040000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 36,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217160000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 37,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217280000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 38,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217400000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 39,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217520000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 40,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217640000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 41,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217760000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 42,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792217880000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 43,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218000000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 44,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218120000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 45,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218240000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 46,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218360000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 47,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218480000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 48,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218600000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 49,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218720000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 50,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218840000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 51,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792218960000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 52,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219080000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 53,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219200000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 54,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219320000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 55,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219440000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 56,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219560000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 57,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219680000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 58,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219800000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 59,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792219920000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 60,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792220040000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 61,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792220160000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 62,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792220280000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 63,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792220400000"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 64,
+          "columnOrdinal": 8,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792220520000"
+        }
+      ],
+      "verdict": "SUPPORTED",
+      "physicalClosureRequiredIndependently": true
+    },
+    {
+      "sourcePlotOrdinal": 2,
+      "title": "CHART_CONFIRMED",
+      "contract": {
+        "sourcePlotOrdinal": 2,
+        "title": "CHART_CONFIRMED",
+        "expectedRawCode": "1",
+        "expected": "Requires independent physical closure as well as source confirmation; source code alone does not establish closure"
+      },
+      "targets": [
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 1,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 2,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 3,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 4,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 5,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 6,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 7,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 8,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 9,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 10,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 11,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 12,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 13,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 14,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 15,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 16,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 17,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 18,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 19,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 20,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 21,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 22,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 23,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 24,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 25,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 26,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 27,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 28,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 29,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 30,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 31,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 32,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 33,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 34,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 35,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 36,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 37,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 38,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 39,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 40,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 41,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 42,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 43,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 44,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 45,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 46,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 47,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 48,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 49,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 50,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 51,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 52,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 53,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 54,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 55,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 56,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 57,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 58,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 59,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 60,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 61,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 62,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 63,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        },
+        {
+          "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+          "rowOrdinal": 64,
+          "columnOrdinal": 9,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        }
+      ],
+      "verdict": "SUPPORTED",
+      "physicalClosureRequiredIndependently": true
+    }
+  ],
+  "newDiscriminator": {
+    "title": "DIRECT_RGB_NEW_90_EQ",
+    "observedRawCounts": {
+      "1": 64
+    },
+    "firstOwnedClosedCell": {
+      "csvSha256": "3c65f52ac2e63a26cafe99a10a00bc2dbf063964855a7c88817bd24ae7201a5c",
+      "rowOrdinal": 1,
+      "columnOrdinal": 46,
+      "headerRaw": "DIRECT_RGB_NEW_90_EQ",
+      "valueRaw": "1"
+    },
+    "perColumnVerdicts": {
+      "CM-A": "REFUTED",
+      "CM-B": "SUPPORTED"
+    },
+    "scope": "A contrary owned closed code refutes its numeric prediction even with partial coverage; full model support requires all37 columns and64 rows"
+  },
+  "completeWitnessVectors": {
+    "CM-A": "REFUTED",
+    "CM-B": "SUPPORTED"
+  },
+  "repeatedControlVerdict": "SUPPORTED",
+  "priorSurfaceExtrapolation": "BOUNDED_REPEATED_CONTROLS_MATCH",
+  "compilerDiagnostics": {
+    "path": "v101/captures/v101/proposed-v101-rgb90-v5-v1/attempt-v1/compiler-diagnostics-v1.json",
+    "bytes": 1527,
+    "sha256": "9e6491eda12afcc5a03a86746865144f6e8effccfe2a5fd40fe4374b50c06869"
+  },
+  "preservation": {
+    "path": "v101/captures/v101/environment-v2/existing-layout-comparison-v1.json",
+    "bytes": 35125,
+    "sha256": "f143db7044f32f04d15ebeca04c6badb4e062d5d34c7b14a1d36e91317a745ac"
+  },
+  "held": [
+    "Hidden native alpha/storage/identity and Boolean-NA distinction",
+    "Generic equality, missing casts, gradients, unqueried inputs and universal algorithm identification",
+    "Independent editor marker arrays, native feed/execution IDs, actual backend calculation count and complete private script inventory"
+  ],
+  "encodingLimit": "V5 value ? 1 : 0 collapses false and Boolean NA into0; neither numeric code establishes hidden color identity",
+  "historicalHolds": "Unchanged; no retroactive capture credit"
+}
