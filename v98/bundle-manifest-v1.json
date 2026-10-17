@@ -1,0 +1,1660 @@
+{
+  "version": "v1",
+  "round": "v98",
+  "baselineOracle": "962bbf90b269e98f26af84d86f7cb83972c11f44",
+  "purpose": "Discriminate native v5 constructor/storage and color(na) predicates without fitting",
+  "context": {
+    "symbol": "BINANCE:BTCUSDT",
+    "interval": "2 minutes",
+    "style": "Candles",
+    "timezone": "Etc/UTC",
+    "layout": "One NEW v98 throwaway layout only"
+  },
+  "budget": {
+    "sources": 4,
+    "maxSaves": 4,
+    "maxAdds": 4,
+    "maxCSVs": 4,
+    "maxSessions": 4,
+    "maxHistoryNavigationActions": 0,
+    "retries": 0,
+    "inputVariants": 0
+  },
+  "constructorCases": [
+    {
+      "caseId": 0,
+      "transparencyRaw": "12.1",
+      "nominalAlphaRational": "44829/200",
+      "literalAlphaLabels": [
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "literals": [
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#214263E1",
+        "#214263E2"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 224,
+        "BYTE_FLOOR": 224,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 224,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 222
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263E0",
+        "BYTE_FLOOR": "#214263E0",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263E0",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263DE"
+      }
+    },
+    {
+      "caseId": 1,
+      "transparencyRaw": "12.5",
+      "nominalAlphaRational": "1785/8",
+      "literalAlphaLabels": [
+        221,
+        222,
+        223,
+        224,
+        225
+      ],
+      "literals": [
+        "#214263DD",
+        "#214263DE",
+        "#214263DF",
+        "#214263E0",
+        "#214263E1"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 223,
+        "BYTE_FLOOR": 223,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 222,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 222
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263DF",
+        "BYTE_FLOOR": "#214263DF",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263DE",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263DE"
+      }
+    },
+    {
+      "caseId": 2,
+      "transparencyRaw": "12.9",
+      "nominalAlphaRational": "44421/200",
+      "literalAlphaLabels": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "literals": [
+        "#214263DC",
+        "#214263DD",
+        "#214263DE",
+        "#214263DF",
+        "#214263E0"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 222,
+        "BYTE_FLOOR": 222,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 222,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 222
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263DE",
+        "BYTE_FLOOR": "#214263DE",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263DE",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263DE"
+      }
+    },
+    {
+      "caseId": 3,
+      "transparencyRaw": "0.4",
+      "nominalAlphaRational": "12699/50",
+      "literalAlphaLabels": [
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "literals": [
+        "#214263FB",
+        "#214263FC",
+        "#214263FD",
+        "#214263FE",
+        "#214263FF"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 254,
+        "BYTE_FLOOR": 253,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 255,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 252
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263FE",
+        "BYTE_FLOOR": "#214263FD",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263FF",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263FC"
+      }
+    },
+    {
+      "caseId": 4,
+      "transparencyRaw": "0.5",
+      "nominalAlphaRational": "10149/40",
+      "literalAlphaLabels": [
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "literals": [
+        "#214263FB",
+        "#214263FC",
+        "#214263FD",
+        "#214263FE",
+        "#214263FF"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 254,
+        "BYTE_FLOOR": 253,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 252,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 252
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263FE",
+        "BYTE_FLOOR": "#214263FD",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263FC",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263FC"
+      }
+    },
+    {
+      "caseId": 5,
+      "transparencyRaw": "99.5",
+      "nominalAlphaRational": "51/40",
+      "literalAlphaLabels": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "literals": [
+        "#21426300",
+        "#21426301",
+        "#21426302",
+        "#21426303",
+        "#21426304"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 1,
+        "BYTE_FLOOR": 1,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 0,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 0
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#21426301",
+        "BYTE_FLOOR": "#21426301",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#21426300",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#21426300"
+      }
+    },
+    {
+      "caseId": 6,
+      "transparencyRaw": "0.0",
+      "nominalAlphaRational": "255",
+      "literalAlphaLabels": [
+        251,
+        252,
+        253,
+        254,
+        255
+      ],
+      "literals": [
+        "#214263FB",
+        "#214263FC",
+        "#214263FD",
+        "#214263FE",
+        "#214263FF"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 255,
+        "BYTE_FLOOR": 255,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 255,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 255
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263FF",
+        "BYTE_FLOOR": "#214263FF",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263FF",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263FF"
+      }
+    },
+    {
+      "caseId": 7,
+      "transparencyRaw": "10.0",
+      "nominalAlphaRational": "459/2",
+      "literalAlphaLabels": [
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
+      "literals": [
+        "#214263E3",
+        "#214263E4",
+        "#214263E5",
+        "#214263E6",
+        "#214263E7"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 230,
+        "BYTE_FLOOR": 229,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 230,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 230
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263E6",
+        "BYTE_FLOOR": "#214263E5",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263E6",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263E6"
+      }
+    },
+    {
+      "caseId": 8,
+      "transparencyRaw": "15.0",
+      "nominalAlphaRational": "867/4",
+      "literalAlphaLabels": [
+        214,
+        215,
+        216,
+        217,
+        218
+      ],
+      "literals": [
+        "#214263D6",
+        "#214263D7",
+        "#214263D8",
+        "#214263D9",
+        "#214263DA"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 217,
+        "BYTE_FLOOR": 216,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 217,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 217
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263D9",
+        "BYTE_FLOOR": "#214263D8",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263D9",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263D9"
+      }
+    },
+    {
+      "caseId": 9,
+      "transparencyRaw": "50.0",
+      "nominalAlphaRational": "255/2",
+      "literalAlphaLabels": [
+        125,
+        126,
+        127,
+        128,
+        129
+      ],
+      "literals": [
+        "#2142637D",
+        "#2142637E",
+        "#2142637F",
+        "#21426380",
+        "#21426381"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 128,
+        "BYTE_FLOOR": 127,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 128,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 128
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#21426380",
+        "BYTE_FLOOR": "#2142637F",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#21426380",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#21426380"
+      }
+    },
+    {
+      "caseId": 10,
+      "transparencyRaw": "100.0",
+      "nominalAlphaRational": "0",
+      "literalAlphaLabels": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "literals": [
+        "#21426300",
+        "#21426301",
+        "#21426302",
+        "#21426303",
+        "#21426304"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 0,
+        "BYTE_FLOOR": 0,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 0,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 0
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#21426300",
+        "BYTE_FLOOR": "#21426300",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#21426300",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#21426300"
+      }
+    },
+    {
+      "caseId": 11,
+      "transparencyRaw": "22.1",
+      "nominalAlphaRational": "39729/200",
+      "literalAlphaLabels": [
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "literals": [
+        "#214263C4",
+        "#214263C5",
+        "#214263C6",
+        "#214263C7",
+        "#214263C8"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 199,
+        "BYTE_FLOOR": 198,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 199,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 196
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263C7",
+        "BYTE_FLOOR": "#214263C6",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263C7",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263C4"
+      }
+    },
+    {
+      "caseId": 12,
+      "transparencyRaw": "22.5",
+      "nominalAlphaRational": "1581/8",
+      "literalAlphaLabels": [
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "literals": [
+        "#214263C3",
+        "#214263C4",
+        "#214263C5",
+        "#214263C6",
+        "#214263C7"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 198,
+        "BYTE_FLOOR": 197,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 196,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 196
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263C6",
+        "BYTE_FLOOR": "#214263C5",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263C4",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263C4"
+      }
+    },
+    {
+      "caseId": 13,
+      "transparencyRaw": "22.9",
+      "nominalAlphaRational": "39321/200",
+      "literalAlphaLabels": [
+        194,
+        195,
+        196,
+        197,
+        198
+      ],
+      "literals": [
+        "#214263C2",
+        "#214263C3",
+        "#214263C4",
+        "#214263C5",
+        "#214263C6"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 197,
+        "BYTE_FLOOR": 196,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 196,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 196
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263C5",
+        "BYTE_FLOOR": "#214263C4",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263C4",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263C4"
+      }
+    },
+    {
+      "caseId": 14,
+      "transparencyRaw": "32.1",
+      "nominalAlphaRational": "34629/200",
+      "literalAlphaLabels": [
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "literals": [
+        "#214263AB",
+        "#214263AC",
+        "#214263AD",
+        "#214263AE",
+        "#214263AF"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 173,
+        "BYTE_FLOOR": 173,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 173,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 171
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263AD",
+        "BYTE_FLOOR": "#214263AD",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263AD",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263AB"
+      }
+    },
+    {
+      "caseId": 15,
+      "transparencyRaw": "32.5",
+      "nominalAlphaRational": "1377/8",
+      "literalAlphaLabels": [
+        170,
+        171,
+        172,
+        173,
+        174
+      ],
+      "literals": [
+        "#214263AA",
+        "#214263AB",
+        "#214263AC",
+        "#214263AD",
+        "#214263AE"
+      ],
+      "candidatePredictedAlphaLabel": {
+        "BYTE_ROUND": 172,
+        "BYTE_FLOOR": 172,
+        "PERCENT_ROUND_THEN_BYTE_ROUND": 171,
+        "PERCENT_CEIL_THEN_BYTE_ROUND": 171
+      },
+      "candidatePredictedLiteral": {
+        "BYTE_ROUND": "#214263AC",
+        "BYTE_FLOOR": "#214263AC",
+        "PERCENT_ROUND_THEN_BYTE_ROUND": "#214263AB",
+        "PERCENT_CEIL_THEN_BYTE_ROUND": "#214263AB"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "item": 1,
+      "sourceId": "v98-color-constructors-v5",
+      "pineVersion": 5,
+      "path": "v98/sources/v98-color-constructors-v5.pine",
+      "bytes": 9015,
+      "sha256": "718cee58cafa93bcf402485fc0bbf8213f8a0c31e1e496019041b63ce8b7d42c",
+      "scope": "16 transparency cases; literal-argument versus series-argument RGB/new; 5 distinct neighboring literal candidates per case",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "phaseModulo": 16,
+      "minimumPrimaryClosedRows": 64,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "TRANSP_INPUT"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "LITERAL_RGB_R"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "LITERAL_RGB_G"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "LITERAL_RGB_B"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "LITERAL_RGB_T"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "LITERAL_RGB_NA"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "LITERAL_RGB_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "LITERAL_RGB_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "LITERAL_RGB_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LITERAL_RGB_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "LITERAL_RGB_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "LITERAL_NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "LITERAL_NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "LITERAL_NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "LITERAL_NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "LITERAL_NEW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "LITERAL_NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "LITERAL_NEW_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LITERAL_NEW_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "LITERAL_NEW_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "LITERAL_NEW_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "SERIES_RGB_R"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "SERIES_RGB_G"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "SERIES_RGB_B"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "SERIES_RGB_T"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "SERIES_RGB_NA"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "SERIES_RGB_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "SERIES_RGB_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "SERIES_RGB_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "SERIES_RGB_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "SERIES_RGB_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "SERIES_NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "SERIES_NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "SERIES_NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "SERIES_NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "SERIES_NEW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "SERIES_NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "SERIES_NEW_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "SERIES_NEW_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "SERIES_NEW_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "SERIES_NEW_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "C0_ALPHA_LABEL"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "C0_T"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "C1_T"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "C2_T"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "C3_T"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "C4_T"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "EQ_C0_C1"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "EQ_C1_C2"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "EQ_C2_C3"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "EQ_C3_C4"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "EQ_LITERAL_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "EQ_LITERAL_DISTINCT"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "RGB_EQ_LITERAL_SERIES"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "NEW_EQ_LITERAL_SERIES"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "LITERAL_EQ_RGB_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "SERIES_EQ_RGB_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "EXACT_RGB12_5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "EXACT_RGB12_5_EQ_DF_CODE"
+        }
+      ]
+    },
+    {
+      "item": 1,
+      "sourceId": "v98-color-constructors-v6",
+      "pineVersion": 6,
+      "path": "v98/sources/v98-color-constructors-v6.pine",
+      "bytes": 8998,
+      "sha256": "fba851172d72dbe8d9bd74b08ea4bc7857f57633294493d81e9b2f8cb87aa245",
+      "scope": "16 transparency cases; literal-argument versus series-argument RGB/new; 5 distinct neighboring literal candidates per case",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "phaseModulo": 16,
+      "minimumPrimaryClosedRows": 64,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "TRANSP_INPUT"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "LITERAL_RGB_R"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "LITERAL_RGB_G"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "LITERAL_RGB_B"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "LITERAL_RGB_T"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "LITERAL_RGB_NA"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "LITERAL_RGB_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "LITERAL_RGB_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "LITERAL_RGB_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "LITERAL_RGB_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "LITERAL_RGB_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "LITERAL_NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "LITERAL_NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "LITERAL_NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "LITERAL_NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "LITERAL_NEW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "LITERAL_NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "LITERAL_NEW_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "LITERAL_NEW_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "LITERAL_NEW_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "LITERAL_NEW_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "SERIES_RGB_R"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "SERIES_RGB_G"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "SERIES_RGB_B"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "SERIES_RGB_T"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "SERIES_RGB_NA"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "SERIES_RGB_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "SERIES_RGB_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "SERIES_RGB_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "SERIES_RGB_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "SERIES_RGB_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "SERIES_NEW_R"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "SERIES_NEW_G"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "SERIES_NEW_B"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "SERIES_NEW_T"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "SERIES_NEW_NA"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "SERIES_NEW_EQ_C0"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "SERIES_NEW_EQ_C1"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "SERIES_NEW_EQ_C2"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "SERIES_NEW_EQ_C3"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "SERIES_NEW_EQ_C4"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "C0_ALPHA_LABEL"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "C0_T"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "C1_T"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "C2_T"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "C3_T"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "C4_T"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "EQ_C0_C1"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "EQ_C1_C2"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "EQ_C2_C3"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "EQ_C3_C4"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "EQ_LITERAL_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "EQ_LITERAL_DISTINCT"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "RGB_EQ_LITERAL_SERIES"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "NEW_EQ_LITERAL_SERIES"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "LITERAL_EQ_RGB_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "SERIES_EQ_RGB_NEW"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "EXACT_RGB12_5_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "EXACT_RGB12_5_EQ_DF_CODE"
+        }
+      ]
+    },
+    {
+      "item": 2,
+      "sourceId": "v98-color-na-cast-v5",
+      "pineVersion": 5,
+      "path": "v98/sources/v98-color-na-cast-v5.pine",
+      "bytes": 5506,
+      "sha256": "5a0b9dae7bbfe1692be0df2ba1738d5d6d1831d8e00b2c9c70616ffa554d4663",
+      "scope": "Direct cast, typed na comparison, immutable var, one-slot array, alternating and constant history[1], nz default/replacement, cast versus bare-na gradient lower endpoint",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "phaseModulo": 4,
+      "minimumPrimaryClosedRows": 64,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CURRENT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "EXACT_NA_CAST_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "EXACT_NA_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "TYPED_NA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CAST_R"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CAST_G"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CAST_B"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CAST_T"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CAST_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VAR_R"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "VAR_G"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "VAR_B"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "VAR_T"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "VAR_NA"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ARRAY_R"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ARRAY_G"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "ARRAY_B"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "ARRAY_T"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "ARRAY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "CAST_HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "CAST_HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "CAST_HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "CAST_HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "CAST_HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "NZ_DEFAULT_R"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "NZ_DEFAULT_G"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "NZ_DEFAULT_B"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "NZ_DEFAULT_T"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "NZ_DEFAULT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "NZ_REPLACEMENT_R"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "NZ_REPLACEMENT_G"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "NZ_REPLACEMENT_B"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "NZ_REPLACEMENT_T"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "NZ_REPLACEMENT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "GRAD_CAST_R"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "GRAD_CAST_G"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "GRAD_CAST_B"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "GRAD_CAST_T"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "GRAD_CAST_NA"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "GRAD_NA_R"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "GRAD_NA_G"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "GRAD_NA_B"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "GRAD_NA_T"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "GRAD_NA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "CAST_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "CAST_EQ_TYPED_NA"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "CAST_EQ_BLACK0"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "CAST_EQ_BLACK100"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "CAST_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "VAR_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "ARRAY_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "HISTORY_EQ_EXPECTED"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "EQ_PRESENT_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "EQ_PRESENT_DISTINCT"
+        }
+      ]
+    },
+    {
+      "item": 2,
+      "sourceId": "v98-color-na-cast-v6",
+      "pineVersion": 6,
+      "path": "v98/sources/v98-color-na-cast-v6.pine",
+      "bytes": 5489,
+      "sha256": "c1b586591b542c8e4efaa35c38d5246ea0ad7acc28ba6ccd5f068dd02331574a",
+      "scope": "Direct cast, typed na comparison, immutable var, one-slot array, alternating and constant history[1], nz default/replacement, cast versus bare-na gradient lower endpoint",
+      "saveAttemptLimit": 1,
+      "addAttemptLimit": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "retryLimit": 0,
+      "inputStates": [],
+      "plotCalls": 63,
+      "maxPlotCounts": 63,
+      "phaseModulo": 4,
+      "minimumPrimaryClosedRows": 64,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CURRENT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "EXACT_NA_CAST_CODE"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "EXACT_NA_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "TYPED_NA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CAST_R"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CAST_G"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CAST_B"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CAST_T"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CAST_NA"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VAR_R"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "VAR_G"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "VAR_B"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "VAR_T"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "VAR_NA"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "ARRAY_R"
+        },
+        {
+          "sourcePlotOrdinal": 19,
+          "title": "ARRAY_G"
+        },
+        {
+          "sourcePlotOrdinal": 20,
+          "title": "ARRAY_B"
+        },
+        {
+          "sourcePlotOrdinal": 21,
+          "title": "ARRAY_T"
+        },
+        {
+          "sourcePlotOrdinal": 22,
+          "title": "ARRAY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 23,
+          "title": "HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 24,
+          "title": "HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 25,
+          "title": "HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 26,
+          "title": "HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 27,
+          "title": "HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 28,
+          "title": "CAST_HISTORY_R"
+        },
+        {
+          "sourcePlotOrdinal": 29,
+          "title": "CAST_HISTORY_G"
+        },
+        {
+          "sourcePlotOrdinal": 30,
+          "title": "CAST_HISTORY_B"
+        },
+        {
+          "sourcePlotOrdinal": 31,
+          "title": "CAST_HISTORY_T"
+        },
+        {
+          "sourcePlotOrdinal": 32,
+          "title": "CAST_HISTORY_NA"
+        },
+        {
+          "sourcePlotOrdinal": 33,
+          "title": "NZ_DEFAULT_R"
+        },
+        {
+          "sourcePlotOrdinal": 34,
+          "title": "NZ_DEFAULT_G"
+        },
+        {
+          "sourcePlotOrdinal": 35,
+          "title": "NZ_DEFAULT_B"
+        },
+        {
+          "sourcePlotOrdinal": 36,
+          "title": "NZ_DEFAULT_T"
+        },
+        {
+          "sourcePlotOrdinal": 37,
+          "title": "NZ_DEFAULT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 38,
+          "title": "NZ_REPLACEMENT_R"
+        },
+        {
+          "sourcePlotOrdinal": 39,
+          "title": "NZ_REPLACEMENT_G"
+        },
+        {
+          "sourcePlotOrdinal": 40,
+          "title": "NZ_REPLACEMENT_B"
+        },
+        {
+          "sourcePlotOrdinal": 41,
+          "title": "NZ_REPLACEMENT_T"
+        },
+        {
+          "sourcePlotOrdinal": 42,
+          "title": "NZ_REPLACEMENT_NA"
+        },
+        {
+          "sourcePlotOrdinal": 43,
+          "title": "GRAD_CAST_R"
+        },
+        {
+          "sourcePlotOrdinal": 44,
+          "title": "GRAD_CAST_G"
+        },
+        {
+          "sourcePlotOrdinal": 45,
+          "title": "GRAD_CAST_B"
+        },
+        {
+          "sourcePlotOrdinal": 46,
+          "title": "GRAD_CAST_T"
+        },
+        {
+          "sourcePlotOrdinal": 47,
+          "title": "GRAD_CAST_NA"
+        },
+        {
+          "sourcePlotOrdinal": 48,
+          "title": "GRAD_NA_R"
+        },
+        {
+          "sourcePlotOrdinal": 49,
+          "title": "GRAD_NA_G"
+        },
+        {
+          "sourcePlotOrdinal": 50,
+          "title": "GRAD_NA_B"
+        },
+        {
+          "sourcePlotOrdinal": 51,
+          "title": "GRAD_NA_T"
+        },
+        {
+          "sourcePlotOrdinal": 52,
+          "title": "GRAD_NA_NA"
+        },
+        {
+          "sourcePlotOrdinal": 53,
+          "title": "CAST_EQ_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 54,
+          "title": "CAST_EQ_TYPED_NA"
+        },
+        {
+          "sourcePlotOrdinal": 55,
+          "title": "CAST_EQ_BLACK0"
+        },
+        {
+          "sourcePlotOrdinal": 56,
+          "title": "CAST_EQ_BLACK100"
+        },
+        {
+          "sourcePlotOrdinal": 57,
+          "title": "CAST_EQ_DF"
+        },
+        {
+          "sourcePlotOrdinal": 58,
+          "title": "VAR_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 59,
+          "title": "ARRAY_EQ_CAST"
+        },
+        {
+          "sourcePlotOrdinal": 60,
+          "title": "HISTORY_EQ_EXPECTED"
+        },
+        {
+          "sourcePlotOrdinal": 61,
+          "title": "EQ_PRESENT_SELF"
+        },
+        {
+          "sourcePlotOrdinal": 62,
+          "title": "EQ_PRESENT_DISTINCT"
+        }
+      ]
+    }
+  ],
+  "priorEvidence": [
+    {
+      "path": "v96/REQUEST-v96-v1.md",
+      "bytes": 9840,
+      "sha256": "243cae83f733d47f81106cb904bc51deab66a92372408319650785d246452db7"
+    },
+    {
+      "path": "v96/captures/v96/RESPONSE-v96-v1.md",
+      "bytes": 5071,
+      "sha256": "9cbecb7b51cf62fab1877db8ee6c549539f26661ee6fd8b71c55d719c270d73c"
+    },
+    {
+      "path": "v96/captures/v96/numeric-controls-v1.json",
+      "bytes": 5424760,
+      "sha256": "acf6501f0da29bfd97328de2332e845a07b6c4059d5f1d5bb3daacee9829f57f"
+    },
+    {
+      "path": "v97/REQUEST-v97-v1.md",
+      "bytes": 24003,
+      "sha256": "ed7305f0c5c0ecec8fcb009294ef348d9971e3690420db128c99962acd8bf420"
+    },
+    {
+      "path": "v97/captures/v97/RESPONSE-v97-v14.md",
+      "bytes": 7622,
+      "sha256": "caa8ca2f3da4f7cb6b4ced10ed6ab9e17b8bb78e4ad0e28dc43c11d6a13cb8fd"
+    }
+  ],
+  "booleanEncoding": {
+    "v5": "-1 if na(bool), else 0 false /1 true",
+    "v6": "0 false /1 true; na(bool) is not invoked",
+    "exactV96TernaryControl": "EXACT_RGB12_5_EQ_DF and EXACT_NA_CAST retain original ?1:0 expressions; corresponding _CODE plots distinguish v5 bool NA"
+  },
+  "candidateDefinitions": {
+    "BYTE_ROUND": "round_half_up((100-t)*255/100)",
+    "BYTE_FLOOR": "floor((100-t)*255/100)",
+    "PERCENT_ROUND_THEN_BYTE_ROUND": "round_half_up((100-round_half_up(t))*255/100)",
+    "PERCENT_CEIL_THEN_BYTE_ROUND": "round_half_up((100-ceil(t))*255/100)",
+    "scope": "Competing pre-capture byte-storage hypotheses only. Conditional integer getter prediction round_half_up(100-alpha*100/255). They do not prescribe native storage."
+  },
+  "primarySelection": {
+    "closedRowsPerSource": 64,
+    "selection": "First 64 contiguous independently closed rows beginning at CASE_ID0; for na-cast additionally require the immediately preceding original row closed, source-owned and INPUT_INDEX predecessor by1. Selection uses ownership/closure/input index only, never output/NA/equality values.",
+    "noCompleteOwnOriginRequired": true,
+    "maximumPlannedPrimaryPlotCells": 16128
+  }
+}
