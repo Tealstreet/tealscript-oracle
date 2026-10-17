@@ -1,0 +1,6521 @@
+{
+  "version": "v5",
+  "requestCommit": "b8803b5c985d2b415bf2d6f9c5c5f8f3ddb5b260",
+  "inventory": "attempt-inventory-v5.json",
+  "precisionPolicy": "Exact source integers and short dyadic candidates require representable intermediates and at most16 significant decimal digits; unresolved native arithmetic/export residues stay UNDECIDED. No tolerance, output-derived seed, binary64 decoding, rounding fit or normalization.",
+  "sourcePrefixPolicy": "Only the selected single original final CSV may certify a complete own prefix; all earlier diagnostic exports remain separate. Present excluded cells and contrary masks are retained.",
+  "sources": [
+    {
+      "sourceId": "v97-conditional-clock-v5",
+      "sourceSha256": "c30debb150d9e350027bb89bf8997026175721fc6fc00343b1a68dbedd9c5ed9",
+      "item": 2,
+      "captureStatus": "CAPTURED",
+      "csv": {
+        "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-post-navigation-v1/chart-native-v1.csv",
+        "bytes": 3609695,
+        "sha256": "cca1326617b67bc250b4a397c2fa3795004f9d2deb2aa803c090dd7629f56f53"
+      },
+      "columnBindings": {
+        "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-post-navigation-v1/column-bindings-v1.json",
+        "bytes": 8066,
+        "sha256": "c2dd005c27bff206f4882334f8f342a94e351474805ade95b35bf16a6d410c2d"
+      },
+      "closureMask": {
+        "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-post-navigation-v1/row-closure-mask-v1.csv",
+        "bytes": 3722300,
+        "sha256": "c22a76086ac41b9b3aa4ca1b86561a753b19e35372ef339b2b28c729dd548d69"
+      },
+      "selectedBlockDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "closedRowsAvailable": 23753,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-post-navigation-v1/source-frontier-v1.json",
+              "bytes": 255741,
+              "sha256": "2c7bf9aeed4a016775c17738f4944c1b6d8b76a7616962c448878ebdcd622faa"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "At least three finite gated first-seed clock discriminators from own first call",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "dataRowOrdinals": [
+              5,
+              6,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              18,
+              19,
+              21,
+              22,
+              24,
+              25,
+              27,
+              28,
+              30,
+              31,
+              34,
+              35,
+              37,
+              38,
+              40,
+              41,
+              43,
+              44,
+              46,
+              47,
+              50,
+              51,
+              53,
+              54,
+              56,
+              57,
+              59,
+              60,
+              62,
+              63,
+              66,
+              67,
+              69,
+              70,
+              72,
+              73,
+              75,
+              76,
+              78,
+              79,
+              82,
+              83,
+              85,
+              86,
+              88,
+              89,
+              91,
+              92,
+              94,
+              95,
+              98,
+              99,
+              101,
+              102,
+              104,
+              105,
+              107,
+              108,
+              110,
+              111,
+              114,
+              115,
+              117,
+              118,
+              120,
+              121,
+              123,
+              124,
+              126,
+              127
+            ],
+            "scope": "Candidate distinctions are fixed before inspecting native targets; individual numeric precision guards remain separate"
+          }
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "DECLARED_INTEGER_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_PHASE_GATE",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 10,
+            "UNDECIDED": 70
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 16,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 49,
+            "REFUTED": 15,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 50,
+            "UNDECIDED": 78
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127,
+            "REFUTED": 1
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FIRST_FINITE_SEED_BRANCH_PRESENCE_CANDIDATE",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 106,
+            "UNDECIDED": 22
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 58,
+            "UNDECIDED": 70
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_SMA_SEED_OR_GATE_MASK",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 2500,
+        "SUPPORTED": 1403,
+        "REFUTED": 65
+      },
+      "scope": "Fresh exact v95 source/private version in v97 only; primary models use independently certified same-source indices0..127. All later native rows remain archived, without old-frontier, live execution, PRNG algorithm, universal parity or engine approval.",
+      "originalSourceId": "v95-conditional-clock-v5",
+      "selectedFinalSession": 1,
+      "earlierSessionsNeverStitched": true,
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/session-post-navigation-v1/source-frontier-v1.json",
+        "bytes": 255741,
+        "sha256": "2c7bf9aeed4a016775c17738f4944c1b6d8b76a7616962c448878ebdcd622faa"
+      },
+      "allOriginalRowsRetained": true,
+      "selectedBlockOwnIndices": [
+        0,
+        127
+      ],
+      "nativeVectorPresenceSummary": [
+        {
+          "property": "INPUT_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "INPUT_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "CHART_CONFIRMED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "IS_FIRST",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 10,
+            "headerRaw": "IS_FIRST",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 11,
+            "headerRaw": "FIRST_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 12,
+            "headerRaw": "FIRST_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "PHASE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 13,
+            "headerRaw": "PHASE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "X",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 14,
+            "headerRaw": "X",
+            "valueRaw": "-5"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "GATE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 15,
+            "headerRaw": "GATE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "SMA_ALL",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 3,
+            "columnOrdinal": 16,
+            "headerRaw": "SMA_ALL",
+            "valueRaw": "-4"
+          },
+          "firstFiniteOwnIndex": "2",
+          "primary128BlankOwnIndices": [
+            0,
+            1
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "EMA_ALL",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 3,
+            "columnOrdinal": 17,
+            "headerRaw": "EMA_ALL",
+            "valueRaw": "-4"
+          },
+          "firstFiniteOwnIndex": "2",
+          "primary128BlankOwnIndices": [
+            0,
+            1
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "SMA_BRANCH",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 5,
+            "columnOrdinal": 18,
+            "headerRaw": "SMA_BRANCH",
+            "valueRaw": "-2.6666666666666665"
+          },
+          "firstFiniteOwnIndex": "4",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            9,
+            12,
+            15,
+            16,
+            19,
+            22,
+            25,
+            28,
+            31,
+            32,
+            35,
+            38,
+            41,
+            44,
+            47,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            64,
+            67,
+            70,
+            73,
+            76,
+            79,
+            80,
+            83,
+            86,
+            89,
+            92,
+            95,
+            96,
+            99,
+            102,
+            105,
+            108,
+            111,
+            112,
+            115,
+            118,
+            121,
+            124,
+            127
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "EMA_BRANCH",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 5,
+            "columnOrdinal": 19,
+            "headerRaw": "EMA_BRANCH",
+            "valueRaw": "-2.6666666666666665"
+          },
+          "firstFiniteOwnIndex": "4",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            9,
+            12,
+            15,
+            16,
+            19,
+            22,
+            25,
+            28,
+            31,
+            32,
+            35,
+            38,
+            41,
+            44,
+            47,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            64,
+            67,
+            70,
+            73,
+            76,
+            79,
+            80,
+            83,
+            86,
+            89,
+            92,
+            95,
+            96,
+            99,
+            102,
+            105,
+            108,
+            111,
+            112,
+            115,
+            118,
+            121,
+            124,
+            127
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "BRANCH_SMA_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 20,
+            "headerRaw": "BRANCH_SMA_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "BRANCH_EMA_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 21,
+            "headerRaw": "BRANCH_EMA_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        }
+      ],
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-conditional-clock-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 2510423,
+        "sha256": "4d924110fa221ef9a601df6571c55ef09f3f13d79df7609ce4a4e9426f9aea63"
+      }
+    },
+    {
+      "sourceId": "v97-conditional-clock-v6",
+      "sourceSha256": "a3a05e1fb4656b39de2b4d8acf0676c618f8614f87b8f11cf031aa0093e35174",
+      "item": 2,
+      "captureStatus": "CAPTURED",
+      "csv": {
+        "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/chart-native-v1.csv",
+        "bytes": 3609862,
+        "sha256": "dc941d0b032b979a34b4788ba49ea1b57534aae2f03f006d00ca652d2d0d651c"
+      },
+      "columnBindings": {
+        "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/column-bindings-v1.json",
+        "bytes": 8058,
+        "sha256": "92c7de5bcd9cd18c8cc7d48be0738cc5d8346d803f8ecb67e15dac56e3870bd0"
+      },
+      "closureMask": {
+        "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/row-closure-mask-v1.csv",
+        "bytes": 3722455,
+        "sha256": "f90098ed12cb5118a58d1ed69f5df1065f0c14866f9590800e26c0d19a88f2ea"
+      },
+      "selectedBlockDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "closedRowsAvailable": 23754,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255766,
+              "sha256": "02240f3f2e1fa45ace1507f28156a9362bae5f868663032a858c306d16f659fe"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "At least three finite gated first-seed clock discriminators from own first call",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "dataRowOrdinals": [
+              5,
+              6,
+              8,
+              9,
+              11,
+              12,
+              14,
+              15,
+              18,
+              19,
+              21,
+              22,
+              24,
+              25,
+              27,
+              28,
+              30,
+              31,
+              34,
+              35,
+              37,
+              38,
+              40,
+              41,
+              43,
+              44,
+              46,
+              47,
+              50,
+              51,
+              53,
+              54,
+              56,
+              57,
+              59,
+              60,
+              62,
+              63,
+              66,
+              67,
+              69,
+              70,
+              72,
+              73,
+              75,
+              76,
+              78,
+              79,
+              82,
+              83,
+              85,
+              86,
+              88,
+              89,
+              91,
+              92,
+              94,
+              95,
+              98,
+              99,
+              101,
+              102,
+              104,
+              105,
+              107,
+              108,
+              110,
+              111,
+              114,
+              115,
+              117,
+              118,
+              120,
+              121,
+              123,
+              124,
+              126,
+              127
+            ],
+            "scope": "Candidate distinctions are fixed before inspecting native targets; individual numeric precision guards remain separate"
+          }
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "DECLARED_INTEGER_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_PHASE_GATE",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 10,
+            "UNDECIDED": 70
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 48,
+            "REFUTED": 16,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 49,
+            "REFUTED": 15,
+            "UNDECIDED": 64
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_ALPHA_1_2/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 50,
+            "UNDECIDED": 78
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/FIRST_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/EVERY_CHART_BAR_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 127,
+            "REFUTED": 1
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3_SEED_AND_CLOCK_PRESENCE/SMA3_FINITE/GATED_CALL_CLOCK",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "FIRST_FINITE_SEED_BRANCH_PRESENCE_CANDIDATE",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 126,
+            "REFUTED": 2
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 106,
+            "UNDECIDED": 22
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_CLOCK_AND_MASK_CONTROL",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 58,
+            "UNDECIDED": 70
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "FROZEN_SMA_SEED_OR_GATE_MASK",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_EMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "BRANCH_SMA_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_ALL",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "SMA_BRANCH",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 2500,
+        "SUPPORTED": 1403,
+        "REFUTED": 65
+      },
+      "scope": "Fresh exact v95 source/private version in v97 only; primary models use independently certified same-source indices0..127. All later native rows remain archived, without old-frontier, live execution, PRNG algorithm, universal parity or engine approval.",
+      "originalSourceId": "v95-conditional-clock-v6",
+      "selectedFinalSession": 0,
+      "earlierSessionsNeverStitched": true,
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255766,
+        "sha256": "02240f3f2e1fa45ace1507f28156a9362bae5f868663032a858c306d16f659fe"
+      },
+      "allOriginalRowsRetained": true,
+      "selectedBlockOwnIndices": [
+        0,
+        127
+      ],
+      "nativeVectorPresenceSummary": [
+        {
+          "property": "INPUT_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "INPUT_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "CHART_CONFIRMED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "IS_FIRST",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 10,
+            "headerRaw": "IS_FIRST",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 11,
+            "headerRaw": "FIRST_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 12,
+            "headerRaw": "FIRST_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "PHASE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 13,
+            "headerRaw": "PHASE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "X",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 14,
+            "headerRaw": "X",
+            "valueRaw": "-5"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "GATE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 15,
+            "headerRaw": "GATE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "SMA_ALL",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 3,
+            "columnOrdinal": 16,
+            "headerRaw": "SMA_ALL",
+            "valueRaw": "-4"
+          },
+          "firstFiniteOwnIndex": "2",
+          "primary128BlankOwnIndices": [
+            0,
+            1
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "EMA_ALL",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 3,
+            "columnOrdinal": 17,
+            "headerRaw": "EMA_ALL",
+            "valueRaw": "-4"
+          },
+          "firstFiniteOwnIndex": "2",
+          "primary128BlankOwnIndices": [
+            0,
+            1
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "SMA_BRANCH",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 5,
+            "columnOrdinal": 18,
+            "headerRaw": "SMA_BRANCH",
+            "valueRaw": "-2.6666666666666665"
+          },
+          "firstFiniteOwnIndex": "4",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            9,
+            12,
+            15,
+            16,
+            19,
+            22,
+            25,
+            28,
+            31,
+            32,
+            35,
+            38,
+            41,
+            44,
+            47,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            64,
+            67,
+            70,
+            73,
+            76,
+            79,
+            80,
+            83,
+            86,
+            89,
+            92,
+            95,
+            96,
+            99,
+            102,
+            105,
+            108,
+            111,
+            112,
+            115,
+            118,
+            121,
+            124,
+            127
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "EMA_BRANCH",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 5,
+            "columnOrdinal": 19,
+            "headerRaw": "EMA_BRANCH",
+            "valueRaw": "-2.6666666666666665"
+          },
+          "firstFiniteOwnIndex": "4",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            9,
+            12,
+            15,
+            16,
+            19,
+            22,
+            25,
+            28,
+            31,
+            32,
+            35,
+            38,
+            41,
+            44,
+            47,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            64,
+            67,
+            70,
+            73,
+            76,
+            79,
+            80,
+            83,
+            86,
+            89,
+            92,
+            95,
+            96,
+            99,
+            102,
+            105,
+            108,
+            111,
+            112,
+            115,
+            118,
+            121,
+            124,
+            127
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "BRANCH_SMA_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 20,
+            "headerRaw": "BRANCH_SMA_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "BRANCH_EMA_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 21,
+            "headerRaw": "BRANCH_EMA_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        }
+      ],
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-conditional-clock-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 2510383,
+        "sha256": "878ec81ddd7d89d56935b99ae78b86fcbcdc161ac7d3afae5da527a0fa637b2a"
+      }
+    },
+    {
+      "sourceId": "v97-udf-state-v5",
+      "sourceSha256": "576a35abb3fca32006750aee7329a0a29587a17212a7147e6318c721f1645e93",
+      "item": 3,
+      "captureStatus": "CAPTURED",
+      "csv": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/chart-native-v1.csv",
+        "bytes": 2657527,
+        "sha256": "4ab11f309b98775924f0a925044e1c38ed1c157f4972b7b5214dea2c035b472a"
+      },
+      "columnBindings": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/column-bindings-v1.json",
+        "bytes": 7608,
+        "sha256": "7fd3a8a49dd83fbe268eb96344294a9b29301c644823a1339b0151af4dd31434"
+      },
+      "closureMask": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/row-closure-mask-v1.csv",
+        "bytes": 3707899,
+        "sha256": "7c464050908b6bf8b917c82225a54f494056dc182dc5dc08b5535d9ee991e3c1"
+      },
+      "selectedBlockDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "closedRowsAvailable": 23756,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255682,
+              "sha256": "0ea779b60d2f6ed0efd4e849a4d9235cb108d346583bbddccecb8b54d4d19efb"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Complete reset blocks for independent textual UDF call sites",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "First-reach local var initialization from own index-zero prefix",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "EXPLICIT_GATED_PRESENCE",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_GATED_CALL_SITE_RESET",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_PHASE_BLOCK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 11,
+            "REFUTED": 77
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_VISIT",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1,
+            "REFUTED": 87
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 1792,
+        "SUPPORTED": 908,
+        "REFUTED": 164
+      },
+      "scope": "Fresh exact v95 source/private version in v97 only; primary models use independently certified same-source indices0..127. All later native rows remain archived, without old-frontier, live execution, PRNG algorithm, universal parity or engine approval.",
+      "originalSourceId": "v95-udf-state-v5",
+      "selectedFinalSession": 0,
+      "earlierSessionsNeverStitched": true,
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255682,
+        "sha256": "0ea779b60d2f6ed0efd4e849a4d9235cb108d346583bbddccecb8b54d4d19efb"
+      },
+      "allOriginalRowsRetained": true,
+      "selectedBlockOwnIndices": [
+        0,
+        127
+      ],
+      "nativeVectorPresenceSummary": [
+        {
+          "property": "INPUT_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "INPUT_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "CHART_CONFIRMED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "IS_FIRST",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 10,
+            "headerRaw": "IS_FIRST",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 11,
+            "headerRaw": "FIRST_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 12,
+            "headerRaw": "FIRST_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "PHASE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 13,
+            "headerRaw": "PHASE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "A",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 14,
+            "headerRaw": "A",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "B",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 15,
+            "headerRaw": "B",
+            "valueRaw": "10"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "NESTED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 16,
+            "headerRaw": "NESTED",
+            "valueRaw": "5"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "GATED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 17,
+            "headerRaw": "GATED",
+            "valueRaw": "100"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31,
+            33,
+            35,
+            37,
+            39,
+            41,
+            43,
+            45,
+            47,
+            49,
+            51,
+            53,
+            55,
+            57,
+            59,
+            61,
+            63,
+            65,
+            67,
+            69,
+            71,
+            73,
+            75,
+            77,
+            79,
+            81,
+            83,
+            85,
+            87,
+            89,
+            91,
+            93,
+            95,
+            97,
+            99,
+            101,
+            103,
+            105,
+            107,
+            109,
+            111,
+            113,
+            115,
+            117,
+            119,
+            121,
+            123,
+            125,
+            127
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "LOCAL_FIRST",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 6,
+            "columnOrdinal": 18,
+            "headerRaw": "LOCAL_FIRST",
+            "valueRaw": "5"
+          },
+          "firstFiniteOwnIndex": "5",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            16,
+            17,
+            18,
+            19,
+            20,
+            32,
+            33,
+            34,
+            35,
+            36,
+            48,
+            49,
+            50,
+            51,
+            52,
+            64,
+            65,
+            66,
+            67,
+            68,
+            80,
+            81,
+            82,
+            83,
+            84,
+            96,
+            97,
+            98,
+            99,
+            100,
+            112,
+            113,
+            114,
+            115,
+            116
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "GATED_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 19,
+            "headerRaw": "GATED_NA",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "LOCAL_FIRST_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 20,
+            "headerRaw": "LOCAL_FIRST_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        }
+      ],
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-udf-state-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 1412176,
+        "sha256": "2fc27899dea5546399b70f4a1b99991afeb6b80f1df8377e82cfe71b700f7f1a"
+      }
+    },
+    {
+      "sourceId": "v97-udf-state-v6",
+      "sourceSha256": "ab60c72fe7dc2b8f8eb537e800dc5fe07904f5fddb8d22f29b3be2db63e648a1",
+      "item": 3,
+      "captureStatus": "CAPTURED",
+      "csv": {
+        "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/chart-native-v1.csv",
+        "bytes": 2657754,
+        "sha256": "506a637b5b5657828573e91992f96fa9c9c1e8e318c330768fd188472205132b"
+      },
+      "columnBindings": {
+        "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/column-bindings-v1.json",
+        "bytes": 7608,
+        "sha256": "f93880bf214ae424828179850fe5d022048633cc81dbb1f1a23fe984571a33ba"
+      },
+      "closureMask": {
+        "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/row-closure-mask-v1.csv",
+        "bytes": 3708211,
+        "sha256": "49331ee0e565c861e6a51989e0c5a6a70597b368eac7533bb41efd959df324c8"
+      },
+      "selectedBlockDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "closedRowsAvailable": 23758,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 255704,
+              "sha256": "1445b06548162ee2525dd8476783db51ac42bcee330c05120f5e11620539cd1f"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "Complete reset blocks for independent textual UDF call sites",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": null
+        },
+        {
+          "facet": "First-reach local var initialization from own index-zero prefix",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": null,
+          "details": null
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "EXPLICIT_GATED_PRESENCE",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EXPLICIT_LOCAL_BRANCH_MASK",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 40
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_GATED_CALL_SITE_RESET",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "INDEPENDENT_TEXTUAL_CALL_SITE_RESET",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LOCAL_VAR_FIRST_REACH_INDEX5",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 88
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "A",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "B",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "GATED_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "LOCAL_FIRST_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "NESTED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_PHASE_BLOCK",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 11,
+            "REFUTED": 77
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "REINITIALIZE_EACH_VISIT",
+          "property": "LOCAL_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 1,
+            "REFUTED": 87
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 1792,
+        "SUPPORTED": 908,
+        "REFUTED": 164
+      },
+      "scope": "Fresh exact v95 source/private version in v97 only; primary models use independently certified same-source indices0..127. All later native rows remain archived, without old-frontier, live execution, PRNG algorithm, universal parity or engine approval.",
+      "originalSourceId": "v95-udf-state-v6",
+      "selectedFinalSession": 0,
+      "earlierSessionsNeverStitched": true,
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 255704,
+        "sha256": "1445b06548162ee2525dd8476783db51ac42bcee330c05120f5e11620539cd1f"
+      },
+      "allOriginalRowsRetained": true,
+      "selectedBlockOwnIndices": [
+        0,
+        127
+      ],
+      "nativeVectorPresenceSummary": [
+        {
+          "property": "INPUT_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "INPUT_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "CHART_CONFIRMED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "IS_FIRST",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 10,
+            "headerRaw": "IS_FIRST",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 11,
+            "headerRaw": "FIRST_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 12,
+            "headerRaw": "FIRST_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "PHASE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 13,
+            "headerRaw": "PHASE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "A",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 14,
+            "headerRaw": "A",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "B",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 15,
+            "headerRaw": "B",
+            "valueRaw": "10"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "NESTED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 16,
+            "headerRaw": "NESTED",
+            "valueRaw": "5"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "GATED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 17,
+            "headerRaw": "GATED",
+            "valueRaw": "100"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            31,
+            33,
+            35,
+            37,
+            39,
+            41,
+            43,
+            45,
+            47,
+            49,
+            51,
+            53,
+            55,
+            57,
+            59,
+            61,
+            63,
+            65,
+            67,
+            69,
+            71,
+            73,
+            75,
+            77,
+            79,
+            81,
+            83,
+            85,
+            87,
+            89,
+            91,
+            93,
+            95,
+            97,
+            99,
+            101,
+            103,
+            105,
+            107,
+            109,
+            111,
+            113,
+            115,
+            117,
+            119,
+            121,
+            123,
+            125,
+            127
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "LOCAL_FIRST",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 6,
+            "columnOrdinal": 18,
+            "headerRaw": "LOCAL_FIRST",
+            "valueRaw": "5"
+          },
+          "firstFiniteOwnIndex": "5",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            16,
+            17,
+            18,
+            19,
+            20,
+            32,
+            33,
+            34,
+            35,
+            36,
+            48,
+            49,
+            50,
+            51,
+            52,
+            64,
+            65,
+            66,
+            67,
+            68,
+            80,
+            81,
+            82,
+            83,
+            84,
+            96,
+            97,
+            98,
+            99,
+            100,
+            112,
+            113,
+            114,
+            115,
+            116
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "GATED_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 19,
+            "headerRaw": "GATED_NA",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "LOCAL_FIRST_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 20,
+            "headerRaw": "LOCAL_FIRST_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        }
+      ],
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-udf-state-v6/attempt-v1/numeric-results-v1.json",
+        "bytes": 1412176,
+        "sha256": "49ab80a085bf35a4f0ae844a6fa5050c968feaa3c621ac02725d1af4748dc8db"
+      }
+    },
+    {
+      "sourceId": "v97-recursive-holes-v5",
+      "sourceSha256": "f964228f035a4d4824654fcb116cb6dc07086ace2534638b257a58fbdc41f8ec",
+      "item": 4,
+      "captureStatus": "CAPTURED",
+      "csv": {
+        "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/session-initial-v1/chart-native-v1.csv",
+        "bytes": 6151958,
+        "sha256": "92ea3c38d4be4fb4cba65b84888694dc85f23d2418ce7bd29fc277df554c04f5"
+      },
+      "columnBindings": {
+        "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/session-initial-v1/column-bindings-v1.json",
+        "bytes": 11370,
+        "sha256": "2a3097753c9ff64b32fc7229d44d4f7567e1dc7785f9025aaa91c91310f80c53"
+      },
+      "closureMask": {
+        "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/session-initial-v1/row-closure-mask-v1.csv",
+        "bytes": 3696049,
+        "sha256": "0eefb955333353ece0836525f40d151a7e9e00d0e854801a418d6c8de9a031b3"
+      },
+      "selectedBlockDataRowOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "closedRowsAvailable": 23760,
+      "strictOwnIndexZeroPrefixAvailable": true,
+      "facets": [
+        {
+          "facet": "One original source-owned complete index-zero export with independently closed0..127",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "SUPPORTED",
+          "cause": null,
+          "details": {
+            "frontier": {
+              "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+              "bytes": 256089,
+              "sha256": "dda3e66419efb817c579633ebee345985706b3dc4e7ecda0a3d5468986ccdfe3"
+            },
+            "primaryDataRowOrdinals": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128
+            ]
+          }
+        },
+        {
+          "facet": "RSI3 and TSI3/5 native trajectories remain independent targets",
+          "captureStatus": "CAPTURED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "Complete own input vectors and masks are observed; an EMA candidate agreement does not certify RSI/TSI algorithms",
+          "details": null
+        },
+        {
+          "facet": "Generic consume-slot arithmetic beyond the explicit missing-slot output-mask candidate",
+          "captureStatus": "NOT OBSERVED",
+          "hypothesisVerdict": "UNDECIDED",
+          "cause": "No replacement value or repair/seed rule is prescribed for a missing arithmetic operand; no post-capture recurrence is fitted",
+          "details": null
+        }
+      ],
+      "propertyVerdicts": [
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "RSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "ACTUAL_NATIVE_TARGET_NA_WITNESS",
+          "property": "TSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_CLEAN_INTEGER_INPUT",
+          "property": "CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "DECLARED_CYCLE64",
+          "property": "CYCLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 13,
+            "REFUTED": 16,
+            "UNDECIDED": 99
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 116,
+            "REFUTED": 12
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 17,
+            "UNDECIDED": 111
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "REFUTED": 26,
+            "UNDECIDED": 99
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 37,
+            "UNDECIDED": 91
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 118,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "UNDECIDED": 101
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "EMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 27,
+            "REFUTED": 10,
+            "UNDECIDED": 91
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "LEADING_AND_INTERIOR_HOLE_INPUT",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "LEADING_AND_INTERIOR_HOLE_MASK",
+          "property": "X_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 128
+          },
+          "verdict": "SUPPORTED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CHART_CONFIRMED",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "CYCLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "EMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "FIRST_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_INDEX",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "INPUT_TIME",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "IS_FIRST",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "PHASE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "RSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "TSI_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "NATIVE_TARGET_VECTOR",
+          "property": "X_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "UNDECIDED": 128
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 13,
+            "REFUTED": 2,
+            "UNDECIDED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 116,
+            "REFUTED": 12
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "REFUTED": 2,
+            "UNDECIDED": 126
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/FIRST_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "REFUTED": 12,
+            "UNDECIDED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/MISSING_SLOT_OUTPUT_MASK",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 16,
+            "UNDECIDED": 112
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/POISON_AFTER_MISSING_INPUT",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 15,
+            "REFUTED": 113
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_NA_MASK",
+          "property": "RMA_HOLE_NA",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 118,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_CLEAN",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 3,
+            "UNDECIDED": 125
+          },
+          "verdict": "UNDECIDED"
+        },
+        {
+          "model": "RMA3/SMA3_FINITE/SKIP_MISSING_OBSERVATIONS",
+          "property": "RMA_HOLE",
+          "captureStatus": "CAPTURED",
+          "counts": {
+            "SUPPORTED": 6,
+            "UNDECIDED": 112,
+            "REFUTED": 10
+          },
+          "verdict": "REFUTED"
+        }
+      ],
+      "comparisonCounts": {
+        "UNDECIDED": 5163,
+        "REFUTED": 629,
+        "SUPPORTED": 1760
+      },
+      "scope": "Fresh exact v95 source/private version in v97 only; primary models use independently certified same-source indices0..127. All later native rows remain archived, without old-frontier, live execution, PRNG algorithm, universal parity or engine approval.",
+      "originalSourceId": "v95-recursive-holes-v5",
+      "selectedFinalSession": 0,
+      "earlierSessionsNeverStitched": true,
+      "sourceFrontier": {
+        "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/session-initial-v1/source-frontier-v1.json",
+        "bytes": 256089,
+        "sha256": "dda3e66419efb817c579633ebee345985706b3dc4e7ecda0a3d5468986ccdfe3"
+      },
+      "allOriginalRowsRetained": true,
+      "selectedBlockOwnIndices": [
+        0,
+        127
+      ],
+      "nativeVectorPresenceSummary": [
+        {
+          "property": "INPUT_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "INPUT_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "CHART_CONFIRMED",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "IS_FIRST",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 10,
+            "headerRaw": "IS_FIRST",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_INDEX",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 11,
+            "headerRaw": "FIRST_INDEX",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "FIRST_TIME",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 12,
+            "headerRaw": "FIRST_TIME",
+            "valueRaw": "1789344000000"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "PHASE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 13,
+            "headerRaw": "PHASE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "CYCLE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 14,
+            "headerRaw": "CYCLE",
+            "valueRaw": "0"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "CLEAN",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 15,
+            "headerRaw": "CLEAN",
+            "valueRaw": "-5"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "X",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 4,
+            "columnOrdinal": 16,
+            "headerRaw": "X",
+            "valueRaw": "-2"
+          },
+          "firstFiniteOwnIndex": "3",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            12,
+            13,
+            32,
+            33,
+            34,
+            76,
+            77,
+            96,
+            97,
+            98
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "X_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 17,
+            "headerRaw": "X_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "EMA_CLEAN",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 3,
+            "columnOrdinal": 18,
+            "headerRaw": "EMA_CLEAN",
+            "valueRaw": "-4"
+          },
+          "firstFiniteOwnIndex": "2",
+          "primary128BlankOwnIndices": [
+            0,
+            1
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "EMA_HOLE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 6,
+            "columnOrdinal": 19,
+            "headerRaw": "EMA_HOLE",
+            "valueRaw": "-1"
+          },
+          "firstFiniteOwnIndex": "5",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            12,
+            13,
+            32,
+            33,
+            34,
+            76,
+            77,
+            96,
+            97,
+            98
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "RMA_CLEAN",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 3,
+            "columnOrdinal": 20,
+            "headerRaw": "RMA_CLEAN",
+            "valueRaw": "-4"
+          },
+          "firstFiniteOwnIndex": "2",
+          "primary128BlankOwnIndices": [
+            0,
+            1
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "RMA_HOLE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 6,
+            "columnOrdinal": 21,
+            "headerRaw": "RMA_HOLE",
+            "valueRaw": "-1"
+          },
+          "firstFiniteOwnIndex": "5",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            12,
+            13,
+            32,
+            33,
+            34,
+            76,
+            77,
+            96,
+            97,
+            98
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "RSI_CLEAN",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 4,
+            "columnOrdinal": 22,
+            "headerRaw": "RSI_CLEAN",
+            "valueRaw": "100"
+          },
+          "firstFiniteOwnIndex": "3",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "RSI_HOLE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 7,
+            "columnOrdinal": 23,
+            "headerRaw": "RSI_HOLE",
+            "valueRaw": "100"
+          },
+          "firstFiniteOwnIndex": "6",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            12,
+            13,
+            14,
+            32,
+            33,
+            34,
+            35,
+            76,
+            77,
+            78,
+            96,
+            97,
+            98,
+            99
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "TSI_CLEAN",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 8,
+            "columnOrdinal": 24,
+            "headerRaw": "TSI_CLEAN",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "7",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "TSI_HOLE",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 11,
+            "columnOrdinal": 25,
+            "headerRaw": "TSI_HOLE",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "10",
+          "primary128BlankOwnIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            12,
+            13,
+            14,
+            32,
+            33,
+            34,
+            35,
+            76,
+            77,
+            78,
+            96,
+            97,
+            98,
+            99
+          ],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "EMA_HOLE_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 26,
+            "headerRaw": "EMA_HOLE_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "RMA_HOLE_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 27,
+            "headerRaw": "RMA_HOLE_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "RSI_HOLE_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 28,
+            "headerRaw": "RSI_HOLE_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        },
+        {
+          "property": "TSI_HOLE_NA",
+          "firstFiniteClosedCell": {
+            "rowOrdinal": 1,
+            "columnOrdinal": 29,
+            "headerRaw": "TSI_HOLE_NA",
+            "valueRaw": "1"
+          },
+          "firstFiniteOwnIndex": "0",
+          "primary128BlankOwnIndices": [],
+          "scope": "Original raw vector/presence summary, not a predicted algorithm"
+        }
+      ],
+      "nativeHoleRecoveryObservations": [
+        {
+          "ownInputHoleIndices": [
+            0,
+            1,
+            2
+          ],
+          "holeInputCells": [
+            {
+              "input": {
+                "rowOrdinal": 1,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 1,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 2,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 2,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 3,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 3,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            }
+          ],
+          "targets": [
+            {
+              "property": "EMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 6,
+                "columnOrdinal": 19,
+                "headerRaw": "EMA_HOLE",
+                "valueRaw": "-1"
+              },
+              "firstFiniteOwnIndex": 5,
+              "recoveryNaWitness": {
+                "rowOrdinal": 6,
+                "columnOrdinal": 26,
+                "headerRaw": "EMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 6,
+                "columnOrdinal": 21,
+                "headerRaw": "RMA_HOLE",
+                "valueRaw": "-1"
+              },
+              "firstFiniteOwnIndex": 5,
+              "recoveryNaWitness": {
+                "rowOrdinal": 6,
+                "columnOrdinal": 27,
+                "headerRaw": "RMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 7,
+                "columnOrdinal": 23,
+                "headerRaw": "RSI_HOLE",
+                "valueRaw": "100"
+              },
+              "firstFiniteOwnIndex": 6,
+              "recoveryNaWitness": {
+                "rowOrdinal": 7,
+                "columnOrdinal": 28,
+                "headerRaw": "RSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "TSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 1,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 2,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 3,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 11,
+                "columnOrdinal": 25,
+                "headerRaw": "TSI_HOLE",
+                "valueRaw": "1"
+              },
+              "firstFiniteOwnIndex": 10,
+              "recoveryNaWitness": {
+                "rowOrdinal": 11,
+                "columnOrdinal": 29,
+                "headerRaw": "TSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            }
+          ],
+          "completePriorInputBlock": {
+            "csvSha256": "92ea3c38d4be4fb4cba65b84888694dc85f23d2418ce7bd29fc277df554c04f5",
+            "firstDataRowOrdinal": 1,
+            "lastDataRowOrdinal": 128,
+            "ownIndexRange": [
+              0,
+              127
+            ],
+            "columns": [
+              {
+                "columnOrdinal": 7,
+                "headerRaw": "INPUT_INDEX"
+              },
+              {
+                "columnOrdinal": 15,
+                "headerRaw": "CLEAN"
+              },
+              {
+                "columnOrdinal": 16,
+                "headerRaw": "X"
+              },
+              {
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA"
+              },
+              {
+                "columnOrdinal": 14,
+                "headerRaw": "CYCLE"
+              }
+            ]
+          },
+          "scope": "Actual missingness and first finite target after each observed input-hole group; a target that stayed finite is explicitly distinguished from a target recovering from missingness. No output supplies a seed."
+        },
+        {
+          "ownInputHoleIndices": [
+            12,
+            13
+          ],
+          "holeInputCells": [
+            {
+              "input": {
+                "rowOrdinal": 13,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 13,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 14,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 14,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            }
+          ],
+          "targets": [
+            {
+              "property": "EMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 15,
+                "columnOrdinal": 19,
+                "headerRaw": "EMA_HOLE",
+                "valueRaw": "-1.25"
+              },
+              "firstFiniteOwnIndex": 14,
+              "recoveryNaWitness": {
+                "rowOrdinal": 15,
+                "columnOrdinal": 26,
+                "headerRaw": "EMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 15,
+                "columnOrdinal": 21,
+                "headerRaw": "RMA_HOLE",
+                "valueRaw": "-0.3859167809785095"
+              },
+              "firstFiniteOwnIndex": 14,
+              "recoveryNaWitness": {
+                "rowOrdinal": 15,
+                "columnOrdinal": 27,
+                "headerRaw": "RMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 16,
+                "columnOrdinal": 23,
+                "headerRaw": "RSI_HOLE",
+                "valueRaw": "25.925925925925924"
+              },
+              "firstFiniteOwnIndex": 15,
+              "recoveryNaWitness": {
+                "rowOrdinal": 16,
+                "columnOrdinal": 28,
+                "headerRaw": "RSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "TSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 13,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 14,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 16,
+                "columnOrdinal": 25,
+                "headerRaw": "TSI_HOLE",
+                "valueRaw": "-0.41414141414141414"
+              },
+              "firstFiniteOwnIndex": 15,
+              "recoveryNaWitness": {
+                "rowOrdinal": 16,
+                "columnOrdinal": 29,
+                "headerRaw": "TSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            }
+          ],
+          "completePriorInputBlock": {
+            "csvSha256": "92ea3c38d4be4fb4cba65b84888694dc85f23d2418ce7bd29fc277df554c04f5",
+            "firstDataRowOrdinal": 1,
+            "lastDataRowOrdinal": 128,
+            "ownIndexRange": [
+              0,
+              127
+            ],
+            "columns": [
+              {
+                "columnOrdinal": 7,
+                "headerRaw": "INPUT_INDEX"
+              },
+              {
+                "columnOrdinal": 15,
+                "headerRaw": "CLEAN"
+              },
+              {
+                "columnOrdinal": 16,
+                "headerRaw": "X"
+              },
+              {
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA"
+              },
+              {
+                "columnOrdinal": 14,
+                "headerRaw": "CYCLE"
+              }
+            ]
+          },
+          "scope": "Actual missingness and first finite target after each observed input-hole group; a target that stayed finite is explicitly distinguished from a target recovering from missingness. No output supplies a seed."
+        },
+        {
+          "ownInputHoleIndices": [
+            32,
+            33,
+            34
+          ],
+          "holeInputCells": [
+            {
+              "input": {
+                "rowOrdinal": 33,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 33,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 34,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 34,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 35,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 35,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            }
+          ],
+          "targets": [
+            {
+              "property": "EMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 36,
+                "columnOrdinal": 19,
+                "headerRaw": "EMA_HOLE",
+                "valueRaw": "0.005377769470214844"
+              },
+              "firstFiniteOwnIndex": 35,
+              "recoveryNaWitness": {
+                "rowOrdinal": 36,
+                "columnOrdinal": 26,
+                "headerRaw": "EMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 36,
+                "columnOrdinal": 21,
+                "headerRaw": "RMA_HOLE",
+                "valueRaw": "0.46294998412272204"
+              },
+              "firstFiniteOwnIndex": 35,
+              "recoveryNaWitness": {
+                "rowOrdinal": 36,
+                "columnOrdinal": 27,
+                "headerRaw": "RMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 37,
+                "columnOrdinal": 23,
+                "headerRaw": "RSI_HOLE",
+                "valueRaw": "94.30194888397223"
+              },
+              "firstFiniteOwnIndex": 36,
+              "recoveryNaWitness": {
+                "rowOrdinal": 37,
+                "columnOrdinal": 28,
+                "headerRaw": "RSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "TSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 33,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 34,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 35,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 37,
+                "columnOrdinal": 25,
+                "headerRaw": "TSI_HOLE",
+                "valueRaw": "0.7912122438555513"
+              },
+              "firstFiniteOwnIndex": 36,
+              "recoveryNaWitness": {
+                "rowOrdinal": 37,
+                "columnOrdinal": 29,
+                "headerRaw": "TSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            }
+          ],
+          "completePriorInputBlock": {
+            "csvSha256": "92ea3c38d4be4fb4cba65b84888694dc85f23d2418ce7bd29fc277df554c04f5",
+            "firstDataRowOrdinal": 1,
+            "lastDataRowOrdinal": 128,
+            "ownIndexRange": [
+              0,
+              127
+            ],
+            "columns": [
+              {
+                "columnOrdinal": 7,
+                "headerRaw": "INPUT_INDEX"
+              },
+              {
+                "columnOrdinal": 15,
+                "headerRaw": "CLEAN"
+              },
+              {
+                "columnOrdinal": 16,
+                "headerRaw": "X"
+              },
+              {
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA"
+              },
+              {
+                "columnOrdinal": 14,
+                "headerRaw": "CYCLE"
+              }
+            ]
+          },
+          "scope": "Actual missingness and first finite target after each observed input-hole group; a target that stayed finite is explicitly distinguished from a target recovering from missingness. No output supplies a seed."
+        },
+        {
+          "ownInputHoleIndices": [
+            76,
+            77
+          ],
+          "holeInputCells": [
+            {
+              "input": {
+                "rowOrdinal": 77,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 77,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 78,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 78,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            }
+          ],
+          "targets": [
+            {
+              "property": "EMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 79,
+                "columnOrdinal": 19,
+                "headerRaw": "EMA_HOLE",
+                "valueRaw": "-0.49462628236324013"
+              },
+              "firstFiniteOwnIndex": 78,
+              "recoveryNaWitness": {
+                "rowOrdinal": 79,
+                "columnOrdinal": 26,
+                "headerRaw": "EMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 79,
+                "columnOrdinal": 21,
+                "headerRaw": "RMA_HOLE",
+                "valueRaw": "0.12865877510436352"
+              },
+              "firstFiniteOwnIndex": 78,
+              "recoveryNaWitness": {
+                "rowOrdinal": 79,
+                "columnOrdinal": 27,
+                "headerRaw": "RMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 80,
+                "columnOrdinal": 23,
+                "headerRaw": "RSI_HOLE",
+                "valueRaw": "94.44430140155632"
+              },
+              "firstFiniteOwnIndex": 79,
+              "recoveryNaWitness": {
+                "rowOrdinal": 80,
+                "columnOrdinal": 28,
+                "headerRaw": "RSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "TSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 77,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 78,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 80,
+                "columnOrdinal": 25,
+                "headerRaw": "TSI_HOLE",
+                "valueRaw": "0.7963844880197178"
+              },
+              "firstFiniteOwnIndex": 79,
+              "recoveryNaWitness": {
+                "rowOrdinal": 80,
+                "columnOrdinal": 29,
+                "headerRaw": "TSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            }
+          ],
+          "completePriorInputBlock": {
+            "csvSha256": "92ea3c38d4be4fb4cba65b84888694dc85f23d2418ce7bd29fc277df554c04f5",
+            "firstDataRowOrdinal": 1,
+            "lastDataRowOrdinal": 128,
+            "ownIndexRange": [
+              0,
+              127
+            ],
+            "columns": [
+              {
+                "columnOrdinal": 7,
+                "headerRaw": "INPUT_INDEX"
+              },
+              {
+                "columnOrdinal": 15,
+                "headerRaw": "CLEAN"
+              },
+              {
+                "columnOrdinal": 16,
+                "headerRaw": "X"
+              },
+              {
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA"
+              },
+              {
+                "columnOrdinal": 14,
+                "headerRaw": "CYCLE"
+              }
+            ]
+          },
+          "scope": "Actual missingness and first finite target after each observed input-hole group; a target that stayed finite is explicitly distinguished from a target recovering from missingness. No output supplies a seed."
+        },
+        {
+          "ownInputHoleIndices": [
+            96,
+            97,
+            98
+          ],
+          "holeInputCells": [
+            {
+              "input": {
+                "rowOrdinal": 97,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 97,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 98,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 98,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            },
+            {
+              "input": {
+                "rowOrdinal": 99,
+                "columnOrdinal": 16,
+                "headerRaw": "X",
+                "valueRaw": ""
+              },
+              "naWitness": {
+                "rowOrdinal": 99,
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA",
+                "valueRaw": "1"
+              }
+            }
+          ],
+          "targets": [
+            {
+              "property": "EMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 19,
+                    "headerRaw": "EMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 26,
+                    "headerRaw": "EMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 100,
+                "columnOrdinal": 19,
+                "headerRaw": "EMA_HOLE",
+                "valueRaw": "-1.9784984383631987"
+              },
+              "firstFiniteOwnIndex": 99,
+              "recoveryNaWitness": {
+                "rowOrdinal": 100,
+                "columnOrdinal": 26,
+                "headerRaw": "EMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RMA_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 21,
+                    "headerRaw": "RMA_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 27,
+                    "headerRaw": "RMA_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 100,
+                "columnOrdinal": 21,
+                "headerRaw": "RMA_HOLE",
+                "valueRaw": "-1.3763845305405598"
+              },
+              "firstFiniteOwnIndex": 99,
+              "recoveryNaWitness": {
+                "rowOrdinal": 100,
+                "columnOrdinal": 27,
+                "headerRaw": "RMA_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "RSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 23,
+                    "headerRaw": "RSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 28,
+                    "headerRaw": "RSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 101,
+                "columnOrdinal": 23,
+                "headerRaw": "RSI_HOLE",
+                "valueRaw": "88.35199969257613"
+              },
+              "firstFiniteOwnIndex": 100,
+              "recoveryNaWitness": {
+                "rowOrdinal": 101,
+                "columnOrdinal": 28,
+                "headerRaw": "RSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            },
+            {
+              "property": "TSI_HOLE",
+              "duringInputHole": [
+                {
+                  "target": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 97,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 98,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                },
+                {
+                  "target": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 25,
+                    "headerRaw": "TSI_HOLE",
+                    "valueRaw": ""
+                  },
+                  "naWitness": {
+                    "rowOrdinal": 99,
+                    "columnOrdinal": 29,
+                    "headerRaw": "TSI_HOLE_NA",
+                    "valueRaw": "1"
+                  }
+                }
+              ],
+              "targetHadMissingCellsDuringInputHole": true,
+              "firstFiniteAfterInputHole": {
+                "rowOrdinal": 101,
+                "columnOrdinal": 25,
+                "headerRaw": "TSI_HOLE",
+                "valueRaw": "0.604302826257521"
+              },
+              "firstFiniteOwnIndex": 100,
+              "recoveryNaWitness": {
+                "rowOrdinal": 101,
+                "columnOrdinal": 29,
+                "headerRaw": "TSI_HOLE_NA",
+                "valueRaw": "0"
+              },
+              "captureStatus": "CAPTURED",
+              "cause": null
+            }
+          ],
+          "completePriorInputBlock": {
+            "csvSha256": "92ea3c38d4be4fb4cba65b84888694dc85f23d2418ce7bd29fc277df554c04f5",
+            "firstDataRowOrdinal": 1,
+            "lastDataRowOrdinal": 128,
+            "ownIndexRange": [
+              0,
+              127
+            ],
+            "columns": [
+              {
+                "columnOrdinal": 7,
+                "headerRaw": "INPUT_INDEX"
+              },
+              {
+                "columnOrdinal": 15,
+                "headerRaw": "CLEAN"
+              },
+              {
+                "columnOrdinal": 16,
+                "headerRaw": "X"
+              },
+              {
+                "columnOrdinal": 17,
+                "headerRaw": "X_NA"
+              },
+              {
+                "columnOrdinal": 14,
+                "headerRaw": "CYCLE"
+              }
+            ]
+          },
+          "scope": "Actual missingness and first finite target after each observed input-hole group; a target that stayed finite is explicitly distinguished from a target recovering from missingness. No output supplies a seed."
+        }
+      ],
+      "numericEvidence": {
+        "path": "v97/captures/v97/v97-recursive-holes-v5/attempt-v1/numeric-results-v1.json",
+        "bytes": 5451611,
+        "sha256": "2e8196997e6298c287384e2dd1d83d2e4b5321639cdcc01d4f1784375b908303"
+      }
+    }
+  ]
+}
