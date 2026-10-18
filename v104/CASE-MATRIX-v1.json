@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "facets": [
+    {
+      "facetId": "v104-box-wrap-v5:wrap-vs-nowrap",
+      "modelA": "auto box contains multiple complete word lines; same-width nowrap box remains a single line/clipped",
+      "modelB": "auto ignored: both narrow boxes remain single-line/clipped",
+      "requiredControls": "lower wide sentinel must show the complete literal ALPHA BETA GAMMA DELTA; all three box outlines readable",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          3,
+          94
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "No complete wide sentinel, unreadable wrapped words, spill from nowrap overlapping subject, or both candidates indistinguishable",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "text_wrap=text.wrap_auto",
+        "new": "text_wrap=text.wrap_none",
+        "occurrences": 1
+      }
+    },
+    {
+      "facetId": "v104-box-align-v5:horizontal-alignment",
+      "modelA": "EDGE ink at left/center/right respectively in upper/middle/lower equal-width boxes",
+      "modelB": "right alignment ignored: lower EDGE stays left while upper/center controls retain their own positions",
+      "requiredControls": "same complete EDGE glyphs and all six side edges readable, same-shot center box control",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          7,
+          98
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Any clipped/unreadable glyph/edge, or placement intervals overlap",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "text_halign=text.align_right",
+        "new": "text_halign=text.align_left",
+        "occurrences": 1
+      }
+    },
+    {
+      "facetId": "v104-glyph-advance-v6:relative-advance",
+      "modelA": "equal outer body widths for eight I/eight W monospace labels, unequal widths for default-font controls",
+      "modelB": "monospace ignored: I/W outer-width inequality remains in both rows",
+      "requiredControls": "all four complete labels, identical style/size/padding recipe; default I/W must visibly differ and every outer body side must be visible",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -35,
+          2
+        ],
+        "y": [
+          15,
+          98
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Any body clipped/overlapping, default control not discriminating, or width intervals overlap; ink bounds alone never measure advance",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "text_font_family=font.family_monospace",
+        "new": "text_font_family=font.family_default",
+        "occurrences": 2
+      }
+    },
+    {
+      "facetId": "v104-alpha-composite-v6:ordered-alpha-composite",
+      "modelA": "both two-layer interiors are blended red/blue and differ from opaque foreground controls",
+      "modelB": "alpha ignored: upper composite is opaque blue, lower composite is opaque red",
+      "requiredControls": "opaque purple128,0,128 and pure foreground blue/red plates; opaque base extends under every sampled composite interior",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          8,
+          93
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Missing opaque controls, color-profile mismatch for exact-byte subclaims, no flat 5x5 interior samples at least5px from edges, or unknown colors outside preregistered candidates",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "bgcolor=blue50",
+        "new": "bgcolor=color.rgb(0, 0, 255)",
+        "occurrences": 1,
+        "additionalReplacement": {
+          "old": "bgcolor=red50",
+          "new": "bgcolor=color.rgb(255, 0, 0)"
+        }
+      },
+      "additionalCandidates": {
+        "encodedChannelBlend": [
+          [
+            127,
+            0,
+            128
+          ],
+          [
+            128,
+            0,
+            127
+          ],
+          [
+            128,
+            0,
+            128
+          ]
+        ],
+        "linearLightBlend": [
+          [
+            187,
+            0,
+            188
+          ],
+          [
+            188,
+            0,
+            187
+          ],
+          [
+            188,
+            0,
+            188
+          ]
+        ],
+        "opaqueOverwrite": {
+          "upper": [
+            0,
+            0,
+            255
+          ],
+          "lower": [
+            255,
+            0,
+            0
+          ]
+        }
+      },
+      "exactColorRule": "No distance tolerance: record every raw flat-patch RGB tuple; exact opaque RGB controls must match first. The listed quantization alternatives are finite hypotheses, not fitted error ranges. Their channel tuples cannot establish universal alpha/storage or distinguish fractional from byte alpha if both select the same tuple. Unlisted or profile-transformed tuples remain CONTRARY/UNDECIDED."
+    },
+    {
+      "facetId": "v104-dash-period-v6:width-period-scaling",
+      "modelA": "dash period stays constant across widths1/4/8",
+      "modelB": "dash period scales proportionally with line width1/4/8",
+      "requiredControls": "all three complete equal-length shafts visible; distinct flat runs/gaps and matching endpoint registration",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          35,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Fewer than three complete interior periods in any lane, clipped endpoints, inaccessible periods or neither constant nor proportional intervals",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "independent geometric candidate",
+        "details": "dash period scales proportionally with line width1/4/8"
+      }
+    },
+    {
+      "facetId": "v104-table-survival-v5:same-position-lifetime",
+      "modelA": "A is absent after B first takes top-left then moves to bottom-right",
+      "modelB": "A reappears at top-left after B moves away",
+      "requiredControls": "complete B bottom-right and C bottom-left, no top-left occluder; OLD_NA/TABLE_COUNT are separate numeric observations",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "B or C unreadable, top-left window occluded, no source-owned build/PNG or layout background inseparable from A",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "independent geometric candidate",
+        "details": "A reappears at top-left after B moves away"
+      },
+      "cornerWindows": {
+        "A": [
+          0,
+          0.25,
+          0,
+          0.25
+        ],
+        "B": [
+          0.75,
+          1,
+          0.75,
+          1
+        ],
+        "C": [
+          0,
+          0.25,
+          0.75,
+          1
+        ]
+      }
+    },
+    {
+      "facetId": "v104-step-turn-v5:step-location",
+      "modelA": "vertical STEP turns align to the new-value bar center X(t)",
+      "modelB": "vertical STEP turns lie half a source bar earlier X(t)-b/2",
+      "requiredControls": "two red rulers at the most recent phase8 and24 closed transitions; exported STEP, PHASE32 and build ruler deltas, actual ticks",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -32,
+          1
+        ],
+        "y": [
+          8,
+          92
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Before Add: b<16px or setup unavailable; after capture: uncertainty above3px, wrong ruler join, clipping, or candidate intervals not strictly disjoint",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "independent geometric candidate",
+        "details": "vertical STEP turns lie half a source bar earlier X(t)-b/2"
+      },
+      "candidateTurnOffsetsBars": [
+        0,
+        -0.5
+      ],
+      "uncertaintyPx": {
+        "axisRegistrationMaximum": 2,
+        "strokeEdgeMaximum": 1,
+        "combinedMaximum": 3
+      }
+    },
+    {
+      "facetId": "v104-step-turn-v6:step-location",
+      "modelA": "vertical STEP turns align to the new-value bar center X(t)",
+      "modelB": "vertical STEP turns lie half a source bar earlier X(t)-b/2",
+      "requiredControls": "two red rulers at the most recent phase8 and24 closed transitions; exported STEP, PHASE32 and build ruler deltas, actual ticks",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -32,
+          1
+        ],
+        "y": [
+          8,
+          92
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Before Add: b<16px or setup unavailable; after capture: uncertainty above3px, wrong ruler join, clipping, or candidate intervals not strictly disjoint",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "independent geometric candidate",
+        "details": "vertical STEP turns lie half a source bar earlier X(t)-b/2"
+      },
+      "candidateTurnOffsetsBars": [
+        0,
+        -0.5
+      ],
+      "uncertaintyPx": {
+        "axisRegistrationMaximum": 2,
+        "strokeEdgeMaximum": 1,
+        "combinedMaximum": 3
+      }
+    },
+    {
+      "facetId": "v104-arrow-direction-v6:sign-tip-direction",
+      "modelA": "positive SIGN arrow tip is at top, negative SIGN arrow tip at bottom",
+      "modelB": "tips inverted: positive at bottom, negative at top",
+      "requiredControls": "SIGN=+1 at phase8, -1 at24; separate U at12 and D at28 identified by CONTROL_SIGN; bodies, shafts and both ends readable, main OHLC ownership",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/ohlc-margin",
+        "x": [
+          -32,
+          1
+        ],
+        "y": [
+          -80,
+          80
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Any arrow tip clipped/overlapping candles or controls, phase ownership missing, inadequate price-axis margin, or morphology unreadable; color alone gives zero direction credit",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "independent geometric candidate",
+        "details": "tips inverted: positive at bottom, negative at top"
+      },
+      "controlRule": "U/D control characters occupy phase12/28, four positions after phase8/24 modulo32; all four phase rows must be owned and closed in the frozen block. They need not be later bars of the same cycle as a particular primary arrow. Direction is scored from tip shape at the SIGN row, never from character/color alone."
+    },
+    {
+      "facetId": "v104-box-vertical-v5:vertical-alignment",
+      "modelA": "EDGE ink at top/center/bottom respectively in left/middle/right equal-height boxes",
+      "modelB": "bottom alignment ignored: right EDGE stays top while left/center controls retain their own positions",
+      "requiredControls": "same complete EDGE glyphs and all top/bottom edges readable, same-shot center box control",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          3,
+          98
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Clipped glyphs, concealed boundaries, horizontal clipping or nonseparated placement intervals",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "text_valign=text.align_bottom",
+        "new": "text_valign=text.align_top",
+        "occurrences": 1
+      }
+    },
+    {
+      "facetId": "v104-table-relocation-v5:final-position",
+      "modelA": "MOVED appears at bottom-right; CONTROL remains bottom-left",
+      "modelB": "position setter ignored: MOVED stays top-left; CONTROL remains bottom-left",
+      "requiredControls": "complete MOVED and CONTROL text with blue/orange bodies; all three corner windows visible",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Missing/occluded MOVED or CONTROL, clipped pane corners or source identity unknown",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "table.set_position(b, position.bottom_right)",
+        "new": "table.set_position(b, position.top_left)",
+        "occurrences": 1
+      }
+    },
+    {
+      "facetId": "v104-table-frame-v5:frame-border-paint",
+      "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+      "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+      "requiredControls": "complete LEFT/RIGHT in both rows, upper blue outer/red inner regions exposed independently; lower body geometry must be visible",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Any frame/divider/background region occluded, control unreadable or colors inseparable; exact universal pixel widths remain held",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "frame_width=6, border_color=color.red, border_width=4",
+        "new": "frame_width=0, border_color=color.red, border_width=0",
+        "occurrences": 1
+      }
+    },
+    {
+      "facetId": "v104-table-merge-v5:merged-row",
+      "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+      "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+      "requiredControls": "lower complete MERGED/HIDDEN and orange right body, upper full external span; no third table over either row",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Unreadable lower HIDDEN/divider, clipped upper full span or third-object occlusion",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "    table.merge_cells(b, 0, 0, 1, 0)\n",
+        "new": "",
+        "occurrences": 1
+      }
+    }
+  ],
+  "nativeOutcome": "UNSPECIFIED"
+}

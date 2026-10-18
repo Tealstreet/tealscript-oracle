@@ -1,0 +1,1882 @@
+{
+  "schemaVersion": 1,
+  "round": "v104",
+  "oracleBaseline": "287ebfc19e282245be4df55fc6a9d0f5b876d817",
+  "engineFrontier": "41368ab18412769f21eb96bd833adcce432c8d49",
+  "proposal": "census-v14 V104-PROPOSALS-v1",
+  "authorization": "local authoring only; crossed QA and owner handoff precede any capture",
+  "sourceCount": 13,
+  "pineVersionCounts": {
+    "5": 8,
+    "6": 5
+  },
+  "visualFacetCount": 13,
+  "primaryClosedRowsPerSource": 32,
+  "originalPredecessorsPerSource": 8,
+  "maximumBudget": {
+    "saves": 13,
+    "adds": 13,
+    "csvExports": 13,
+    "wholeChartPNGs": 13,
+    "sessions": 13,
+    "retries": 0,
+    "variants": 0,
+    "layouts": 1
+  },
+  "viewportPrerequisite": {
+    "initialSetupOnly": true,
+    "studyPaneHeightPx": [
+      240,
+      600
+    ],
+    "pixelsPerBar": [
+      16,
+      24
+    ],
+    "wholePrimaryPlus8PredecessorsVisible": true,
+    "layout": "one new v104 throwaway; unchanged after initial setup",
+    "uncertaintyRule": "register before scoring, axis<=2px plus stroke edge<=1px for step; strictly disjoint candidate intervals or UNDECIDED"
+  },
+  "entries": [
+    {
+      "slot": 1,
+      "sourceId": "v104-box-wrap-v5",
+      "family": "box-wrap",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-box-wrap-v5.pine",
+      "bytes": 1936,
+      "sha256": "d831ee981b81fcd1ddfc6332630a602947bd04a5ec0d9a976e9d9cfa750a958d",
+      "indicatorTitle": "v104-box-wrap-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BOX0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BOX1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BOX2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {
+        "BOX0_SPAN": {
+          "expression": "box.get_right(b0) - box.get_left(b0)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 8
+        },
+        "BOX1_SPAN": {
+          "expression": "box.get_right(b1) - box.get_left(b1)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 8
+        },
+        "BOX2_SPAN": {
+          "expression": "box.get_right(b2) - box.get_left(b2)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 29
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-box-wrap-v5:wrap-vs-nowrap",
+          "modelA": "auto box contains multiple complete word lines; same-width nowrap box remains a single line/clipped",
+          "modelB": "auto ignored: both narrow boxes remain single-line/clipped",
+          "requiredControls": "lower wide sentinel must show the complete literal ALPHA BETA GAMMA DELTA; all three box outlines readable",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              3,
+              94
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "No complete wide sentinel, unreadable wrapped words, spill from nowrap overlapping subject, or both candidates indistinguishable",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "text_wrap=text.wrap_auto",
+            "new": "text_wrap=text.wrap_none",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 2,
+      "sourceId": "v104-box-align-v5",
+      "family": "box-align",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-box-align-v5.pine",
+      "bytes": 1751,
+      "sha256": "4869a975177b42f950b0d317530166575393894fc4f97cf922a8602814edb74b",
+      "indicatorTitle": "v104-box-align-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BOX0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BOX1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BOX2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {
+        "BOX0_SPAN": {
+          "expression": "box.get_right(b0) - box.get_left(b0)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 29
+        },
+        "BOX1_SPAN": {
+          "expression": "box.get_right(b1) - box.get_left(b1)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 29
+        },
+        "BOX2_SPAN": {
+          "expression": "box.get_right(b2) - box.get_left(b2)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 29
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-box-align-v5:horizontal-alignment",
+          "modelA": "EDGE ink at left/center/right respectively in upper/middle/lower equal-width boxes",
+          "modelB": "right alignment ignored: lower EDGE stays left while upper/center controls retain their own positions",
+          "requiredControls": "same complete EDGE glyphs and all six side edges readable, same-shot center box control",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              7,
+              98
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Any clipped/unreadable glyph/edge, or placement intervals overlap",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "text_halign=text.align_right",
+            "new": "text_halign=text.align_left",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 3,
+      "sourceId": "v104-glyph-advance-v6",
+      "family": "glyph-advance",
+      "pineVersion": 6,
+      "path": "v104/sources/v104-glyph-advance-v6.pine",
+      "bytes": 2180,
+      "sha256": "5fe9203d3c6cc777a7952d24de76e783f3d001a050236855daf6b084942991b2",
+      "indicatorTitle": "v104-glyph-advance-v6",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "LABEL0_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "LABEL1_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "LABEL2_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "LABEL3_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "numericWitnesses": {
+        "LABEL0_X_DELTA": {
+          "expression": "label.get_x(l0) - anchorIndex",
+          "role": "build-event position getter; no advance/font credit",
+          "anchorExpected": -26
+        },
+        "LABEL1_X_DELTA": {
+          "expression": "label.get_x(l1) - anchorIndex",
+          "role": "build-event position getter; no advance/font credit",
+          "anchorExpected": -8
+        },
+        "LABEL2_X_DELTA": {
+          "expression": "label.get_x(l2) - anchorIndex",
+          "role": "build-event position getter; no advance/font credit",
+          "anchorExpected": -26
+        },
+        "LABEL3_X_DELTA": {
+          "expression": "label.get_x(l3) - anchorIndex",
+          "role": "build-event position getter; no advance/font credit",
+          "anchorExpected": -8
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-glyph-advance-v6:relative-advance",
+          "modelA": "equal outer body widths for eight I/eight W monospace labels, unequal widths for default-font controls",
+          "modelB": "monospace ignored: I/W outer-width inequality remains in both rows",
+          "requiredControls": "all four complete labels, identical style/size/padding recipe; default I/W must visibly differ and every outer body side must be visible",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -35,
+              2
+            ],
+            "y": [
+              15,
+              98
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Any body clipped/overlapping, default control not discriminating, or width intervals overlap; ink bounds alone never measure advance",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "text_font_family=font.family_monospace",
+            "new": "text_font_family=font.family_default",
+            "occurrences": 2
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 4,
+      "sourceId": "v104-alpha-composite-v6",
+      "family": "alpha-composite",
+      "pineVersion": 6,
+      "path": "v104/sources/v104-alpha-composite-v6.pine",
+      "bytes": 2030,
+      "sha256": "b30dc532bad869957a3299a30afb8300d50f2252d67ef85da5c6510b3a88659b",
+      "indicatorTitle": "v104-alpha-composite-v6",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BLUE50_R"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BLUE50_B"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BLUE50_T"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "RED50_R"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "RED50_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "RED50_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 14,
+      "maximumPlotCounts": 14,
+      "numericWitnesses": {
+        "BLUE50_R": {
+          "expression": "color.r(blue50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 0
+        },
+        "BLUE50_B": {
+          "expression": "color.b(blue50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 255
+        },
+        "BLUE50_T": {
+          "expression": "color.t(blue50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 50
+        },
+        "RED50_R": {
+          "expression": "color.r(red50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 255
+        },
+        "RED50_B": {
+          "expression": "color.b(red50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 0
+        },
+        "RED50_T": {
+          "expression": "color.t(red50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 50
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-alpha-composite-v6:ordered-alpha-composite",
+          "modelA": "both two-layer interiors are blended red/blue and differ from opaque foreground controls",
+          "modelB": "alpha ignored: upper composite is opaque blue, lower composite is opaque red",
+          "requiredControls": "opaque purple128,0,128 and pure foreground blue/red plates; opaque base extends under every sampled composite interior",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              8,
+              93
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing opaque controls, color-profile mismatch for exact-byte subclaims, no flat 5x5 interior samples at least5px from edges, or unknown colors outside preregistered candidates",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "bgcolor=blue50",
+            "new": "bgcolor=color.rgb(0, 0, 255)",
+            "occurrences": 1,
+            "additionalReplacement": {
+              "old": "bgcolor=red50",
+              "new": "bgcolor=color.rgb(255, 0, 0)"
+            }
+          },
+          "additionalCandidates": {
+            "encodedChannelBlend": [
+              [
+                127,
+                0,
+                128
+              ],
+              [
+                128,
+                0,
+                127
+              ],
+              [
+                128,
+                0,
+                128
+              ]
+            ],
+            "linearLightBlend": [
+              [
+                187,
+                0,
+                188
+              ],
+              [
+                188,
+                0,
+                187
+              ],
+              [
+                188,
+                0,
+                188
+              ]
+            ],
+            "opaqueOverwrite": {
+              "upper": [
+                0,
+                0,
+                255
+              ],
+              "lower": [
+                255,
+                0,
+                0
+              ]
+            }
+          },
+          "exactColorRule": "No distance tolerance: record every raw flat-patch RGB tuple; exact opaque RGB controls must match first. The listed quantization alternatives are finite hypotheses, not fitted error ranges. Their channel tuples cannot establish universal alpha/storage or distinguish fractional from byte alpha if both select the same tuple. Unlisted or profile-transformed tuples remain CONTRARY/UNDECIDED."
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 5,
+      "sourceId": "v104-dash-period-v6",
+      "family": "dash-period",
+      "pineVersion": 6,
+      "path": "v104/sources/v104-dash-period-v6.pine",
+      "bytes": 1588,
+      "sha256": "c186a1294185b05e9167ac00d5c46f18b0a88ab134debbe4377e92618e6baecb",
+      "indicatorTitle": "v104-dash-period-v6",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "LINE0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "LINE1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "LINE2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {
+        "LINE0_SPAN": {
+          "expression": "line.get_x2(l0) - line.get_x1(l0)",
+          "role": "build-event endpoint getter; no dash-paint credit",
+          "anchorExpected": 29
+        },
+        "LINE1_SPAN": {
+          "expression": "line.get_x2(l1) - line.get_x1(l1)",
+          "role": "build-event endpoint getter; no dash-paint credit",
+          "anchorExpected": 29
+        },
+        "LINE2_SPAN": {
+          "expression": "line.get_x2(l2) - line.get_x1(l2)",
+          "role": "build-event endpoint getter; no dash-paint credit",
+          "anchorExpected": 29
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-dash-period-v6:width-period-scaling",
+          "modelA": "dash period stays constant across widths1/4/8",
+          "modelB": "dash period scales proportionally with line width1/4/8",
+          "requiredControls": "all three complete equal-length shafts visible; distinct flat runs/gaps and matching endpoint registration",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              35,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Fewer than three complete interior periods in any lane, clipped endpoints, inaccessible periods or neither constant nor proportional intervals",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "independent geometric candidate",
+            "details": "dash period scales proportionally with line width1/4/8"
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 6,
+      "sourceId": "v104-table-survival-v5",
+      "family": "table-survival",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-table-survival-v5.pine",
+      "bytes": 1531,
+      "sha256": "8849cf5ec18f778bb193e97ff471479b002d151a59194cc9eb2bc49bdcb0cc13",
+      "indicatorTitle": "v104-table-survival-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "OLD_NA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 10,
+      "maximumPlotCounts": 10,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        },
+        "OLD_NA": {
+          "expression": "na(a) ? 1 : 0",
+          "role": "build-event handle observation only; no survival-paint credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-table-survival-v5:same-position-lifetime",
+          "modelA": "A is absent after B first takes top-left then moves to bottom-right",
+          "modelB": "A reappears at top-left after B moves away",
+          "requiredControls": "complete B bottom-right and C bottom-left, no top-left occluder; OLD_NA/TABLE_COUNT are separate numeric observations",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "B or C unreadable, top-left window occluded, no source-owned build/PNG or layout background inseparable from A",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "independent geometric candidate",
+            "details": "A reappears at top-left after B moves away"
+          },
+          "cornerWindows": {
+            "A": [
+              0,
+              0.25,
+              0,
+              0.25
+            ],
+            "B": [
+              0.75,
+              1,
+              0.75,
+              1
+            ],
+            "C": [
+              0,
+              0.25,
+              0.75,
+              1
+            ]
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 7,
+      "sourceId": "v104-step-turn-v5",
+      "family": "step-turn",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-step-turn-v5.pine",
+      "bytes": 1545,
+      "sha256": "a668712b582a775e130f22ecccbde42f5ed0313b770bdfb9827281f0336e497b",
+      "indicatorTitle": "v104-step-turn-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 32,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "STEP"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "RULER8_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "RULER24_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "PHASE32"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "numericWitnesses": {
+        "RULER8_DELTA": {
+          "expression": "line.get_x1(r8) - anchorIndex",
+          "role": "build-event transition ruler getter",
+          "anchorExpected": "-((A - 8) % 32)"
+        },
+        "RULER24_DELTA": {
+          "expression": "line.get_x1(r24) - anchorIndex",
+          "role": "build-event transition ruler getter",
+          "anchorExpected": "-((A - 24) % 32)"
+        },
+        "PHASE32": {
+          "expression": "phase",
+          "role": "per-row phase control",
+          "everyPrimaryExpected": "INPUT_INDEX % 32"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-step-turn-v5:step-location",
+          "modelA": "vertical STEP turns align to the new-value bar center X(t)",
+          "modelB": "vertical STEP turns lie half a source bar earlier X(t)-b/2",
+          "requiredControls": "two red rulers at the most recent phase8 and24 closed transitions; exported STEP, PHASE32 and build ruler deltas, actual ticks",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -32,
+              1
+            ],
+            "y": [
+              8,
+              92
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Before Add: b<16px or setup unavailable; after capture: uncertainty above3px, wrong ruler join, clipping, or candidate intervals not strictly disjoint",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "independent geometric candidate",
+            "details": "vertical STEP turns lie half a source bar earlier X(t)-b/2"
+          },
+          "candidateTurnOffsetsBars": [
+            0,
+            -0.5
+          ],
+          "uncertaintyPx": {
+            "axisRegistrationMaximum": 2,
+            "strokeEdgeMaximum": 1,
+            "combinedMaximum": 3
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 8,
+      "sourceId": "v104-step-turn-v6",
+      "family": "step-turn",
+      "pineVersion": 6,
+      "path": "v104/sources/v104-step-turn-v6.pine",
+      "bytes": 1545,
+      "sha256": "a7b22daf47b2f02488fdf7e4b112ed39412dab3f5aa0d741c2253466101fc2fd",
+      "indicatorTitle": "v104-step-turn-v6",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 32,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "STEP"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "RULER8_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "RULER24_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "PHASE32"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "numericWitnesses": {
+        "RULER8_DELTA": {
+          "expression": "line.get_x1(r8) - anchorIndex",
+          "role": "build-event transition ruler getter",
+          "anchorExpected": "-((A - 8) % 32)"
+        },
+        "RULER24_DELTA": {
+          "expression": "line.get_x1(r24) - anchorIndex",
+          "role": "build-event transition ruler getter",
+          "anchorExpected": "-((A - 24) % 32)"
+        },
+        "PHASE32": {
+          "expression": "phase",
+          "role": "per-row phase control",
+          "everyPrimaryExpected": "INPUT_INDEX % 32"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-step-turn-v6:step-location",
+          "modelA": "vertical STEP turns align to the new-value bar center X(t)",
+          "modelB": "vertical STEP turns lie half a source bar earlier X(t)-b/2",
+          "requiredControls": "two red rulers at the most recent phase8 and24 closed transitions; exported STEP, PHASE32 and build ruler deltas, actual ticks",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -32,
+              1
+            ],
+            "y": [
+              8,
+              92
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Before Add: b<16px or setup unavailable; after capture: uncertainty above3px, wrong ruler join, clipping, or candidate intervals not strictly disjoint",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "independent geometric candidate",
+            "details": "vertical STEP turns lie half a source bar earlier X(t)-b/2"
+          },
+          "candidateTurnOffsetsBars": [
+            0,
+            -0.5
+          ],
+          "uncertaintyPx": {
+            "axisRegistrationMaximum": 2,
+            "strokeEdgeMaximum": 1,
+            "combinedMaximum": 3
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 9,
+      "sourceId": "v104-arrow-direction-v6",
+      "family": "arrow-direction",
+      "pineVersion": 6,
+      "path": "v104/sources/v104-arrow-direction-v6.pine",
+      "bytes": 1348,
+      "sha256": "71fb6cfaa539dbd3b4023ce68784c8ddc93d3152f841f8cba7bef22ed1c60247",
+      "indicatorTitle": "v104-arrow-direction-v6",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 32,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plotarrow",
+          "title": "DIRECTION"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "SIGN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "CONTROL_SIGN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plotchar",
+          "title": "UP_CONTROL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plotchar",
+          "title": "DOWN_CONTROL"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 13,
+      "maximumPlotCounts": 17,
+      "numericWitnesses": {},
+      "visualPane": "main",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-arrow-direction-v6:sign-tip-direction",
+          "modelA": "positive SIGN arrow tip is at top, negative SIGN arrow tip at bottom",
+          "modelB": "tips inverted: positive at bottom, negative at top",
+          "requiredControls": "SIGN=+1 at phase8, -1 at24; separate U at12 and D at28 identified by CONTROL_SIGN; bodies, shafts and both ends readable, main OHLC ownership",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/ohlc-margin",
+            "x": [
+              -32,
+              1
+            ],
+            "y": [
+              -80,
+              80
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Any arrow tip clipped/overlapping candles or controls, phase ownership missing, inadequate price-axis margin, or morphology unreadable; color alone gives zero direction credit",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "independent geometric candidate",
+            "details": "tips inverted: positive at bottom, negative at top"
+          },
+          "controlRule": "U/D control characters occupy phase12/28, four positions after phase8/24 modulo32; all four phase rows must be owned and closed in the frozen block. They need not be later bars of the same cycle as a particular primary arrow. Direction is scored from tip shape at the SIGN row, never from character/color alone."
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 10,
+      "sourceId": "v104-box-vertical-v5",
+      "family": "box-vertical",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-box-vertical-v5.pine",
+      "bytes": 1752,
+      "sha256": "e9c3b0903cb1bd58d1b860bf27374cfc406ab00f3952e01dfc4fce2d379f7e3c",
+      "indicatorTitle": "v104-box-vertical-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BOX0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BOX1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BOX2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {
+        "BOX0_SPAN": {
+          "expression": "box.get_right(b0) - box.get_left(b0)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 8
+        },
+        "BOX1_SPAN": {
+          "expression": "box.get_right(b1) - box.get_left(b1)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 8
+        },
+        "BOX2_SPAN": {
+          "expression": "box.get_right(b2) - box.get_left(b2)",
+          "role": "build-event geometry getter; no text-layout credit",
+          "anchorExpected": 7
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-box-vertical-v5:vertical-alignment",
+          "modelA": "EDGE ink at top/center/bottom respectively in left/middle/right equal-height boxes",
+          "modelB": "bottom alignment ignored: right EDGE stays top while left/center controls retain their own positions",
+          "requiredControls": "same complete EDGE glyphs and all top/bottom edges readable, same-shot center box control",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              3,
+              98
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Clipped glyphs, concealed boundaries, horizontal clipping or nonseparated placement intervals",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "text_valign=text.align_bottom",
+            "new": "text_valign=text.align_top",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 11,
+      "sourceId": "v104-table-relocation-v5",
+      "family": "table-relocation",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-table-relocation-v5.pine",
+      "bytes": 1294,
+      "sha256": "fd160ac84d0321ca444ef3f36b24f813f470e1a524b89b0cc7b39daec72d206a",
+      "indicatorTitle": "v104-table-relocation-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-table-relocation-v5:final-position",
+          "modelA": "MOVED appears at bottom-right; CONTROL remains bottom-left",
+          "modelB": "position setter ignored: MOVED stays top-left; CONTROL remains bottom-left",
+          "requiredControls": "complete MOVED and CONTROL text with blue/orange bodies; all three corner windows visible",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing/occluded MOVED or CONTROL, clipped pane corners or source identity unknown",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "table.set_position(b, position.bottom_right)",
+            "new": "table.set_position(b, position.top_left)",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 12,
+      "sourceId": "v104-table-frame-v5",
+      "family": "table-frame",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-table-frame-v5.pine",
+      "bytes": 1552,
+      "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+      "indicatorTitle": "v104-table-frame-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-table-frame-v5:frame-border-paint",
+          "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+          "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+          "requiredControls": "complete LEFT/RIGHT in both rows, upper blue outer/red inner regions exposed independently; lower body geometry must be visible",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.5
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Any frame/divider/background region occluded, control unreadable or colors inseparable; exact universal pixel widths remain held",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "frame_width=6, border_color=color.red, border_width=4",
+            "new": "frame_width=0, border_color=color.red, border_width=0",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    },
+    {
+      "slot": 13,
+      "sourceId": "v104-table-merge-v5",
+      "family": "table-merge",
+      "pineVersion": 5,
+      "path": "v104/sources/v104-table-merge-v5.pine",
+      "bytes": 1601,
+      "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+      "indicatorTitle": "v104-table-merge-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-table-merge-v5:merged-row",
+          "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+          "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+          "requiredControls": "lower complete MERGED/HIDDEN and orange right body, upper full external span; no third table over either row",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.5
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Unreadable lower HIDDEN/divider, clipped upper full span or third-object occlusion",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "    table.merge_cells(b, 0, 0, 1, 0)\n",
+            "new": "",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      }
+    }
+  ],
+  "totalPlotColumns": 144,
+  "prospectivePrimaryPlotCells": 4608,
+  "nativeOutcome": "UNSPECIFIED"
+}

@@ -1,0 +1,27 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("v104-dash-period-v6", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float line0_span = na
+var float line1_span = na
+var float line2_span = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    l0 = line.new(bar_index - 30, 85, bar_index - 1, 85, color=color.blue, width=1, style=line.style_dashed)
+    l1 = line.new(bar_index - 30, 65, bar_index - 1, 65, color=color.blue, width=4, style=line.style_dashed)
+    l2 = line.new(bar_index - 30, 40, bar_index - 1, 40, color=color.blue, width=8, style=line.style_dashed)
+    line0_span := line.get_x2(l0) - line.get_x1(l0)
+    line1_span := line.get_x2(l1) - line.get_x1(l1)
+    line2_span := line.get_x2(l2) - line.get_x1(l2)
+plot(build ? line0_span : na, "LINE0_SPAN", display=display.data_window)
+plot(build ? line1_span : na, "LINE1_SPAN", display=display.data_window)
+plot(build ? line2_span : na, "LINE2_SPAN", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(bar_index % 8, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)

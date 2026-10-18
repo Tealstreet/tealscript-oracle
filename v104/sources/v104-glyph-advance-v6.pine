@@ -1,0 +1,31 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("v104-glyph-advance-v6", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float label0_x_delta = na
+var float label1_x_delta = na
+var float label2_x_delta = na
+var float label3_x_delta = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    l0 = label.new(bar_index - 26, 80, "IIIIIIII", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_monospace)
+    l1 = label.new(bar_index - 8, 80, "WWWWWWWW", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_monospace)
+    l2 = label.new(bar_index - 26, 35, "IIIIIIII", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_default)
+    l3 = label.new(bar_index - 8, 35, "WWWWWWWW", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_default)
+    label0_x_delta := label.get_x(l0) - anchorIndex
+    label1_x_delta := label.get_x(l1) - anchorIndex
+    label2_x_delta := label.get_x(l2) - anchorIndex
+    label3_x_delta := label.get_x(l3) - anchorIndex
+plot(build ? label0_x_delta : na, "LABEL0_X_DELTA", display=display.data_window)
+plot(build ? label1_x_delta : na, "LABEL1_X_DELTA", display=display.data_window)
+plot(build ? label2_x_delta : na, "LABEL2_X_DELTA", display=display.data_window)
+plot(build ? label3_x_delta : na, "LABEL3_X_DELTA", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(bar_index % 8, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
