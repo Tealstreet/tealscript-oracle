@@ -1,0 +1,27 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V103 visible-gap v5", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+
+s = phase == 3 or phase == 4 ? na : 10 + phase
+plot(s, "LINE", color=color.blue, linewidth=3)
+plot(s + 15, "BREAK", color=color.red, linewidth=3, style=plot.style_linebr)
+plot(s + 30, "AREA", color=color.orange, style=plot.style_area, histbase=35)
+plot(s + 45, "AREA_BREAK", color=color.aqua, style=plot.style_areabr, histbase=50)
+plot(70 + phase, "STEP", color=color.purple, style=plot.style_stepline, linewidth=3)
+plot(phase == 0 ? 94 : na, "OFFSET0", color=color.yellow, style=plot.style_circles, linewidth=1)
+plot(phase == 0 ? 94 : na, "OFFSET1", color=color.fuchsia, style=plot.style_circles, linewidth=1, offset=1)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)

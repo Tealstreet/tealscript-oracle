@@ -1,0 +1,350 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of this original v6 PNG and unchanged-pixel primary/dash crop; no v5 admission or pixel outcome transferred",
+  "inspectedOriginalPngSha256": "48f4ed6bce08f78106c9711ec0a1f5b8b63e553951ee509933352fe692f94143",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "01:30 UTC",
+        "unixSeconds": 1792287000,
+        "xPx": 53
+      },
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 143
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661,
+    "yTickWitnesses": [
+      {
+        "value": 20,
+        "yPx": 853
+      },
+      {
+        "value": 40,
+        "yPx": 805
+      }
+    ],
+    "basis": "Native bare value-axis20/40 labels and actual gray0/100 scale traces. Crowded last-value badges near94/100 are displaced for overlap avoidance and are not calibration ticks."
+  },
+  "facets": [
+    {
+      "facetId": "v103-visible-gap-v6:holes-vs-bridge",
+      "outcome": "SUPPORTED_A",
+      "observation": "The red linebr lane leaves dark gaps at all four mapped phase3/4 pairs, with readable red segments on each side. The independent lower blue continuous line visibly spans those time gaps.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          817,
+          1121,
+          853
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          858,
+          1121,
+          880
+        ]
+      ],
+      "closedHolePairs": [
+        {
+          "phase3Row": 282,
+          "phase4Row": 283,
+          "centerXPx": [
+            953,
+            959
+          ],
+          "boundingPresentXPx": [
+            947,
+            965
+          ]
+        },
+        {
+          "phase3Row": 290,
+          "phase4Row": 291,
+          "centerXPx": [
+            1001,
+            1007
+          ],
+          "boundingPresentXPx": [
+            995,
+            1013
+          ]
+        },
+        {
+          "phase3Row": 298,
+          "phase4Row": 299,
+          "centerXPx": [
+            1049,
+            1055
+          ],
+          "boundingPresentXPx": [
+            1043,
+            1061
+          ]
+        },
+        {
+          "phase3Row": 306,
+          "phase4Row": 307,
+          "centerXPx": [
+            1097,
+            1103
+          ],
+          "boundingPresentXPx": [
+            1091,
+            1109
+          ]
+        }
+      ],
+      "originalCsvSha256": "c79388bec45adc8827f940f19076d0f0f940c1431b82a37f3966f607ea841769",
+      "scope": "Only these four source-owned closed gap intervals in the registered primary window; no missing blanks become zero."
+    },
+    {
+      "facetId": "v103-visible-gap-v6:area-break",
+      "outcome": "SUPPORTED_A",
+      "observation": "The upper aqua areabr band has dark phase3/4 holes in all four mapped intervals. The separate lower orange continuous area remains filled through those intervals.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          745,
+          1121,
+          783
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          785,
+          1121,
+          818
+        ]
+      ],
+      "closedHolePairs": [
+        {
+          "phase3Row": 282,
+          "phase4Row": 283,
+          "centerXPx": [
+            953,
+            959
+          ],
+          "boundingPresentXPx": [
+            947,
+            965
+          ]
+        },
+        {
+          "phase3Row": 290,
+          "phase4Row": 291,
+          "centerXPx": [
+            1001,
+            1007
+          ],
+          "boundingPresentXPx": [
+            995,
+            1013
+          ]
+        },
+        {
+          "phase3Row": 298,
+          "phase4Row": 299,
+          "centerXPx": [
+            1049,
+            1055
+          ],
+          "boundingPresentXPx": [
+            1043,
+            1061
+          ]
+        },
+        {
+          "phase3Row": 306,
+          "phase4Row": 307,
+          "centerXPx": [
+            1097,
+            1103
+          ],
+          "boundingPresentXPx": [
+            1091,
+            1109
+          ]
+        }
+      ],
+      "originalCsvSha256": "c79388bec45adc8827f940f19076d0f0f940c1431b82a37f3966f607ea841769",
+      "occlusion": "No other object covers either band or its hole interiors."
+    },
+    {
+      "facetId": "v103-visible-gap-v6:step-half-bar",
+      "outcome": "UNDECIDED",
+      "observation": "The complete purple70+phase step lane is visible through all primary rows, including repeated downward cycle transitions. Its few-pixel turn placement is retained as raw pixels without selecting a model.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          709,
+          1121,
+          739
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          709,
+          1121,
+          739
+        ]
+      ],
+      "notObservedCause": "At six PNG pixels per source bar the center-versus-half-bar candidates are three pixels apart. Predeclared axis x uncertainty2 plus stroke-edge uncertainty1 does not give a strictly separated location certificate. No fitted tolerance, zoom, resize or second PNG is used."
+    },
+    {
+      "facetId": "v103-visible-gap-v6:offset-displacement",
+      "outcome": "SUPPORTED_A",
+      "observation": "Four yellow OFFSET0 points at source phase0 are each followed by a separate magenta point six PNG pixels to the right, within the same y94 lane. Both colors remain identifiable; ignored offset would coincide them.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          671,
+          1121,
+          680
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          671,
+          1121,
+          680
+        ]
+      ],
+      "mappedClosedPairs": [
+        {
+          "zeroRow": 279,
+          "shiftedRow": 280,
+          "zeroXPx": 935,
+          "magentaXPx": 941
+        },
+        {
+          "zeroRow": 287,
+          "shiftedRow": 288,
+          "zeroXPx": 983,
+          "magentaXPx": 989
+        },
+        {
+          "zeroRow": 295,
+          "shiftedRow": 296,
+          "zeroXPx": 1031,
+          "magentaXPx": 1037
+        },
+        {
+          "zeroRow": 303,
+          "shiftedRow": 304,
+          "zeroXPx": 1079,
+          "magentaXPx": 1085
+        }
+      ],
+      "originalCsvSha256": "c79388bec45adc8827f940f19076d0f0f940c1431b82a37f3966f607ea841769",
+      "exportPolicy": "Independently scored native CSV SCREEN_ALIGNED: OFFSET1=94 at phase1. Those raw cells are not treated as source point coordinates.",
+      "scope": "Visible one-bar relative displacement on these four closed pairs; no universal circle metric or cross-session claim."
+    },
+    {
+      "facetId": "v103-visible-gap-v6:dash-with-break",
+      "outcome": "SUPPORTED_A",
+      "observation": "The green broken-line lane has separated stroke fragments within three mapped adjacent nonmissing phase7-to0 falling segments, in addition to its source phase3/4 holes. A solid stroke would fill each such nonmissing falling segment; blank-phase gaps alone are not used to claim dashes.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          678,
+          1121,
+          700
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          976,
+          678,
+          985,
+          700
+        ],
+        [
+          1024,
+          678,
+          1033,
+          700
+        ],
+        [
+          1072,
+          678,
+          1081,
+          700
+        ]
+      ],
+      "nonmissingFallingPairs": [
+        {
+          "firstRow": 286,
+          "secondRow": 287,
+          "sourcePhases": [
+            7,
+            0
+          ],
+          "nativeRawValues": [
+            "92",
+            "85"
+          ],
+          "projectedXPx": [
+            977,
+            983
+          ]
+        },
+        {
+          "firstRow": 294,
+          "secondRow": 295,
+          "sourcePhases": [
+            7,
+            0
+          ],
+          "nativeRawValues": [
+            "92",
+            "85"
+          ],
+          "projectedXPx": [
+            1025,
+            1031
+          ]
+        },
+        {
+          "firstRow": 302,
+          "secondRow": 303,
+          "sourcePhases": [
+            7,
+            0
+          ],
+          "nativeRawValues": [
+            "92",
+            "85"
+          ],
+          "projectedXPx": [
+            1073,
+            1079
+          ]
+        }
+      ],
+      "originalCsvSha256": "c79388bec45adc8827f940f19076d0f0f940c1431b82a37f3966f607ea841769",
+      "occlusion": "The discriminating green interior fragments are below the separate yellow/magenta y94 points and above the purple stepline; no third object covers their internal gaps.",
+      "scope": "Finite visible dashed/broken class in this one v6 plate; no exact dash period, universal raster, color metric or v5 linestyle inference."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

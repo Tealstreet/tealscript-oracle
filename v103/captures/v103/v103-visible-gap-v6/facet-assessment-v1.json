@@ -1,0 +1,152 @@
+{
+  "version": "v1",
+  "sourceId": "v103-visible-gap-v6",
+  "sourceSha256": "1ec45cb1ec29f0148b636d32b08a9270fcc17a3de782c64b8d9b9ee72763f14d",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-visible-gap-v6/numeric-results-v1.json",
+    "bytes": 271061,
+    "sha256": "0d4db1fb94f871a935d2f00d4815fbb4e40b3d2d6bc3d05a4631b1bd184dcb66"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-visible-gap-v6/compiler-diagnostics-v1.json",
+    "bytes": 1580,
+    "sha256": "51fe03b1bac6422e4511bbc6faa4108702b9da3d2b8587ec9c0a1709e04ba5bd"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-visible-gap-v6:holes-vs-bridge",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "linebr gap at phase3/4",
+      "modelB": "bridge through both holes",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          20,
+          35
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-visible-gap-v6/derived-region-map-v1.json",
+        "bytes": 19883,
+        "sha256": "e2f05f383012806beee268524d8b3bac2ec5810593d06c6d004b3f7e0f194da8"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-visible-gap-v6:area-break",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "areabr leaves hole unfilled",
+      "modelB": "area bridges hole",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          50,
+          65
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-visible-gap-v6/derived-region-map-v1.json",
+        "bytes": 19883,
+        "sha256": "e2f05f383012806beee268524d8b3bac2ec5810593d06c6d004b3f7e0f194da8"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-visible-gap-v6:step-half-bar",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "step turns at bar center",
+      "modelB": "all registered step turns displaced half a bar",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          68,
+          80
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-visible-gap-v6/derived-region-map-v1.json",
+        "bytes": 19883,
+        "sha256": "e2f05f383012806beee268524d8b3bac2ec5810593d06c6d004b3f7e0f194da8"
+      },
+      "notObservedCauses": [
+        "At six PNG pixels per source bar the center-versus-half-bar candidates are three pixels apart. Predeclared axis x uncertainty2 plus stroke-edge uncertainty1 does not give a strictly separated location certificate. No fitted tolerance, zoom, resize or second PNG is used."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-visible-gap-v6:offset-displacement",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "fuchsia phase0 source marker projected+1 bar",
+      "modelB": "offset ignored",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          90,
+          98
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-visible-gap-v6/derived-region-map-v1.json",
+        "bytes": 19883,
+        "sha256": "e2f05f383012806beee268524d8b3bac2ec5810593d06c6d004b3f7e0f194da8"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-visible-gap-v6:dash-with-break",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "separated dashed stroke with holes",
+      "modelB": "solid stroke with same holes",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          83,
+          96
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-visible-gap-v6/derived-region-map-v1.json",
+        "bytes": 19883,
+        "sha256": "e2f05f383012806beee268524d8b3bac2ec5810593d06c6d004b3f7e0f194da8"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
