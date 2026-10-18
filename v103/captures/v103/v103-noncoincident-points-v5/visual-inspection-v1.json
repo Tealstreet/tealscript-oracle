@@ -1,0 +1,163 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original native PNG and exact frozen facet pairs; no getter used as pixels",
+  "inspectedOriginalPngSha256": "0545c7d12870d917378e4d6b4c8c61317bfcb9d37bfae272a14f5337ac993724",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 107
+      },
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 197
+      }
+    ],
+    "yZeroPx": 889,
+    "yHundredPx": 674
+  },
+  "facets": [
+    {
+      "facetId": "v103-noncoincident-points-v5:line-first-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The isolated blue segment begins near (611,728), consistent with assigned -85/75; no segment begins at the original -95/15 neighborhood.",
+      "actualSubjectRegionsPx": [
+        [
+          609,
+          704,
+          673,
+          731
+        ]
+      ],
+      "occlusion": "All drawing endpoints, box boundaries, POINT glyphs and predicted original/later-mutation neighborhoods are visible without another opaque subject over them. MODE is a distinct red control.",
+      "precision": "Separations exceed preregistered x2/y3/stroke1 pixel uncertainty; qualitative position and copied-field discrimination, no exact raster claim.",
+      "scope": "This independent v5 source and fixed window only. TIME_DELTA intermediate transition is numeric-only; final MODE pixels supply no intermediate time-mode frame."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v5:line-second-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The blue segment ends near (671,707), consistent with assigned -75/85; the ignored second-point alternative at -85/25 would produce a distinctly long downward segment which is absent.",
+      "actualSubjectRegionsPx": [
+        [
+          609,
+          704,
+          673,
+          731
+        ]
+      ],
+      "occlusion": "All drawing endpoints, box boundaries, POINT glyphs and predicted original/later-mutation neighborhoods are visible without another opaque subject over them. MODE is a distinct red control.",
+      "precision": "Separations exceed preregistered x2/y3/stroke1 pixel uncertainty; qualitative position and copied-field discrimination, no exact raster claim.",
+      "scope": "This independent v5 source and fixed window only. TIME_DELTA intermediate transition is numeric-only; final MODE pixels supply no intermediate time-mode frame."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v5:box-top-left-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The yellow rectangle has its top-left near (731,707), consistent with assigned -65/85. The original -70/30 top-left is not its boundary.",
+      "actualSubjectRegionsPx": [
+        [
+          730,
+          706,
+          823,
+          751
+        ]
+      ],
+      "occlusion": "All drawing endpoints, box boundaries, POINT glyphs and predicted original/later-mutation neighborhoods are visible without another opaque subject over them. MODE is a distinct red control.",
+      "precision": "Separations exceed preregistered x2/y3/stroke1 pixel uncertainty; qualitative position and copied-field discrimination, no exact raster claim.",
+      "scope": "This independent v5 source and fixed window only. TIME_DELTA intermediate transition is numeric-only; final MODE pixels supply no intermediate time-mode frame."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v5:box-bottom-right-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The same rectangle has its bottom-right near (821,750), consistent with assigned -50/65, distinct from original -60/10.",
+      "actualSubjectRegionsPx": [
+        [
+          730,
+          706,
+          823,
+          751
+        ]
+      ],
+      "occlusion": "All drawing endpoints, box boundaries, POINT glyphs and predicted original/later-mutation neighborhoods are visible without another opaque subject over them. MODE is a distinct red control.",
+      "precision": "Separations exceed preregistered x2/y3/stroke1 pixel uncertainty; qualitative position and copied-field discrimination, no exact raster claim.",
+      "scope": "This independent v5 source and fixed window only. TIME_DELTA intermediate transition is numeric-only; final MODE pixels supply no intermediate time-mode frame."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v5:label-point-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The complete POINT label is centered near (971,717), consistent with assigned -25/80; no POINT body remains at original -35/20.",
+      "actualSubjectRegionsPx": [
+        [
+          944,
+          705,
+          999,
+          731
+        ]
+      ],
+      "occlusion": "All drawing endpoints, box boundaries, POINT glyphs and predicted original/later-mutation neighborhoods are visible without another opaque subject over them. MODE is a distinct red control.",
+      "precision": "Separations exceed preregistered x2/y3/stroke1 pixel uncertainty; qualitative position and copied-field discrimination, no exact raster claim.",
+      "scope": "This independent v5 source and fixed window only. TIME_DELTA intermediate transition is numeric-only; final MODE pixels supply no intermediate time-mode frame.",
+      "visibleTextByRegion": [
+        {
+          "region": "assigned label",
+          "literal": "POINT"
+        },
+        {
+          "region": "final mode control",
+          "literal": "MODE"
+        }
+      ]
+    },
+    {
+      "facetId": "v103-noncoincident-points-v5:copied-fields-vs-live-points",
+      "outcome": "SUPPORTED_A",
+      "observation": "Blue line, yellow box and POINT label remain at their assigned high-value coordinates; their later-mutation neighborhoods near -15..-5/10..40 contain none of these subjects. The separate red MODE body remains near -12/45.",
+      "actualSubjectRegionsPx": [
+        [
+          609,
+          704,
+          673,
+          731
+        ],
+        [
+          730,
+          706,
+          823,
+          751
+        ],
+        [
+          944,
+          705,
+          999,
+          731
+        ]
+      ],
+      "occlusion": "All drawing endpoints, box boundaries, POINT glyphs and predicted original/later-mutation neighborhoods are visible without another opaque subject over them. MODE is a distinct red control.",
+      "precision": "Separations exceed preregistered x2/y3/stroke1 pixel uncertainty; qualitative position and copied-field discrimination, no exact raster claim.",
+      "scope": "This independent v5 source and fixed window only. TIME_DELTA intermediate transition is numeric-only; final MODE pixels supply no intermediate time-mode frame.",
+      "visibleTextByRegion": [
+        {
+          "region": "assigned label",
+          "literal": "POINT"
+        },
+        {
+          "region": "final mode control",
+          "literal": "MODE"
+        }
+      ]
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,10 @@
+    box.set_top_left_point(b, bp)
+    box.set_bottom_right_point(b, bq)
+    bp.index := bar_index - 15
+    bp.price := 40
+    bq.index := bar_index - 5
+    bq.price := 30
+    c = label.new(bar_index - 35, 20, "POINT", style=label.style_label_center, color=color.blue)
+    cp = chart.point.from_index(bar_index - 25, 80)
+    label.set_point(c, cp)
+    cp.index := bar_index - 5

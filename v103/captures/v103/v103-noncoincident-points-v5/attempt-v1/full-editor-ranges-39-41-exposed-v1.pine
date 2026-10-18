@@ -1,0 +1,20 @@
+    box.set_top_left_point(b, bp)
+    box.set_bottom_right_point(b, bq)
+    bp.index := bar_index - 15
+    bp.price := 40
+    bq.index := bar_index - 5
+    bq.price := 30
+    c = label.new(bar_index - 35, 20, "POINT", style=label.style_label_center, color=color.blue)
+    cp = chart.point.from_index(bar_index - 25, 80)
+    label.set_point(c, cp)
+    cp.index := bar_index - 5
+    cp.price := 10
+    t = label.new(bar_index - 35, 45, "MODE", style=label.style_label_center, color=color.red)
+    label.set_xloc(t, time[8], xloc.bar_time)
+    TIME_DELTA := label.get_x(t) - time[8]
+    label.set_xloc(t, bar_index - 12, xloc.bar_index)
+    ROUNDTRIP_X := label.get_x(t) - bar_index
+    LINE_X := line.get_x1(a) - bar_index
+    LINE_Y := line.get_y1(a)
+    BOX_LEFT := box.get_left(b) - bar_index
+    BOX_TOP := box.get_top(b)
