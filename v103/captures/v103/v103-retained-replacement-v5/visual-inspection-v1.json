@@ -1,0 +1,125 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of original retained-before-movement v5 linefill PNG; getters do not substitute for paint",
+  "inspectedOriginalPngSha256": "46d08ffcc94c91ff378364dfc33b85dafd735d2d8edebb0b42cd54f01c0b201d",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 41
+      },
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 131
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-retained-replacement-v5:replacement-not-additive",
+      "outcome": "SUPPORTED_A",
+      "observation": "The left registered interior is a single blue class, not a red/blue mixed purple class. Its full band extends x581..791 and y781..830. This is a finite visible color-class distinction, not an exact alpha-compositing formula.",
+      "actualSubjectRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ],
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "occlusion": "Separate left/right pairs and the original upper band are on screen, unoccluded. Gray parent traces and left blue positive fill distinguish an empty right region from a globally unavailable paint channel.",
+      "precision": "Large vertical-band separation and blue/mixed/empty qualitative classes exceed frozen x2/y3/stroke1 registration uncertainty. No exact compositing law, hidden-handle identity or token-collapse explanation.",
+      "scope": "Only this v5 retained-before-parent-movement plate and separate delete pair. Numeric COUNT/PARENT state is one closed build event, not32 independent getter observations."
+    },
+    {
+      "facetId": "v103-retained-replacement-v5:fill-before-parent-mutation",
+      "outcome": "SUPPORTED_A",
+      "observation": "The retained left fill occupies the moved parent band y30..50 (approximately pixels829..781), including the preregistered interior. The original y60..80 region above is clear of this fill; both current parent boundaries and their connected blue interior are readable.",
+      "actualSubjectRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ],
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "occlusion": "Separate left/right pairs and the original upper band are on screen, unoccluded. Gray parent traces and left blue positive fill distinguish an empty right region from a globally unavailable paint channel.",
+      "precision": "Large vertical-band separation and blue/mixed/empty qualitative classes exceed frozen x2/y3/stroke1 registration uncertainty. No exact compositing law, hidden-handle identity or token-collapse explanation.",
+      "scope": "Only this v5 retained-before-parent-movement plate and separate delete pair. Numeric COUNT/PARENT state is one closed build event, not32 independent getter observations."
+    },
+    {
+      "facetId": "v103-retained-replacement-v5:separate-old-delete-pair",
+      "outcome": "SUPPORTED_A",
+      "observation": "The separate right gray parent pair is visible x881..1091 at y781 and829, with dark unfilled interior. No green replacement band remains after deleting the older handle. The left blue band remains independently visible.",
+      "actualSubjectRegionsPx": [
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ],
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "occlusion": "Separate left/right pairs and the original upper band are on screen, unoccluded. Gray parent traces and left blue positive fill distinguish an empty right region from a globally unavailable paint channel.",
+      "precision": "Large vertical-band separation and blue/mixed/empty qualitative classes exceed frozen x2/y3/stroke1 registration uncertainty. No exact compositing law, hidden-handle identity or token-collapse explanation.",
+      "scope": "Only this v5 retained-before-parent-movement plate and separate delete pair. Numeric COUNT/PARENT state is one closed build event, not32 independent getter observations."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

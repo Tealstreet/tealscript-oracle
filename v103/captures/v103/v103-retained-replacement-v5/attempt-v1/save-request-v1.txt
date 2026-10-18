@@ -1,0 +1,46 @@
+------WebKitFormBoundaryVXAwzL9YMd1huikb
+Content-Disposition: form-data; name="source"
+
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V103 retained-replacement v5", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+var float COUNT = na
+var float PARENT_A = na
+var float PARENT_B = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 90, 60, bar_index - 55, 60, color=color.gray)
+    b = line.new(bar_index - 90, 80, bar_index - 55, 80, color=color.gray)
+    f = linefill.new(a, b, color.new(color.red, 50))
+    g = linefill.new(a, b, color.new(color.blue, 50))
+    line.set_y1(a, 30)
+    line.set_y2(a, 30)
+    line.set_y1(b, 50)
+    line.set_y2(b, 50)
+    c = line.new(bar_index - 40, 30, bar_index - 5, 30, color=color.gray)
+    d = line.new(bar_index - 40, 50, bar_index - 5, 50, color=color.gray)
+    h = linefill.new(c, d, color.new(color.red, 50))
+    j = linefill.new(c, d, color.new(color.green, 50))
+    linefill.delete(h)
+    COUNT := array.size(linefill.all)
+    PARENT_A := line.get_y1(linefill.get_line1(g))
+    PARENT_B := line.get_y1(linefill.get_line2(g))
+
+plot(build ? COUNT : na, "COUNT", display=display.data_window)
+plot(build ? PARENT_A : na, "PARENT_A", display=display.data_window)
+plot(build ? PARENT_B : na, "PARENT_B", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
+
+------WebKitFormBoundaryVXAwzL9YMd1huikb--
