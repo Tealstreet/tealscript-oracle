@@ -1,0 +1,61 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-format-omitted-label-v6",
+  "sourceSha256": "2c85f8c688cee2150b2b5e797475d3dfb64bfed5fcbb89b839381c305111fc9c",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/23",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-format-omitted-label-v6/numeric-results-v1.json",
+    "bytes": 9831,
+    "sha256": "f069b211bab76103489d23130549d154e188d8bc7a6a8d2268adf1d7f7a9a9e4"
+  },
+  "visualMap": null,
+  "cases": [
+    {
+      "caseId": "v102-format-omitted-label-v6:required-argument-refusal-vs-admission",
+      "verdict": "SUPPORTED",
+      "numeric": null,
+      "visual": null,
+      "admission": {
+        "verdict": "SUPPORTED",
+        "supportedCandidate": "REQUIREDNESS_FOR_THIS_EXACT_CALL",
+        "body": {
+          "path": "v102/captures/v102/v102-format-omitted-label-v6/attempt-v1/save-response-v1.json",
+          "bytes": 3873,
+          "sha256": "1326486a02f21d7c024b5c8b53e5f53596ee8788d30f1de3bf8cfa6c8ae464ea"
+        },
+        "nativeRefusal": true,
+        "nativeDiagnostic": "{\"reason\": \"{\\\"message\\\":\\\"No value assigned to the \\\\\\\"{name}\\\\\\\" parameter in {functionName}()\\\",\\\"start\\\":{\\\"line\\\":7,\\\"column\\\":1},\\\"end\\\":{\\\"line\\\":7,\\\"column\\\":28},\\\"code\\\":\\\"CE10165\\\",\\\"ctx\\\":{\\\"name\\\":\\\"text_formatting\\\",\\\"functionName\\\":\\\"label.set_text_formatting\\\"}}\", \"reason2\": {\"errors\": [{\"code\": \"CE10165\", \"ctx\": {\"functionName\": \"label.set_text_formatting\", \"name\": \"text_formatting\"}, \"end\": {\"column\": 28, \"line\": 7}, \"message\": \"No value assigned to the \\\"{name}\\\" parameter in {functionName}()\", \"start\": {\"column\": 1, \"line\": 7}}], \"warnings\": []}}",
+        "cause": "Native diagnostic expressly addresses the missing formatting argument"
+      },
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-format-omitted-label-v6:if-admitted-omitted-none-vs-retained-bold-italic",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "cause": "No independently owned/readable/discriminating PNG region for this visual property; no getter/intent replacement"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

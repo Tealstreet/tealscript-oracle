@@ -1,0 +1,61 @@
+{
+  "version": "v1",
+  "sourceId": "v102-format-omitted-label-v6",
+  "sourceSha256": "2c85f8c688cee2150b2b5e797475d3dfb64bfed5fcbb89b839381c305111fc9c",
+  "transports": [
+    {
+      "kind": "saveBody",
+      "body": {
+        "path": "v102/captures/v102/v102-format-omitted-label-v6/attempt-v1/save-response-v1.json",
+        "bytes": 3873,
+        "sha256": "1326486a02f21d7c024b5c8b53e5f53596ee8788d30f1de3bf8cfa6c8ae464ea"
+      },
+      "nativeSuccess": false,
+      "nativeReason": "{\"message\":\"No value assigned to the \\\"{name}\\\" parameter in {functionName}()\",\"start\":{\"line\":7,\"column\":1},\"end\":{\"line\":7,\"column\":28},\"code\":\"CE10165\",\"ctx\":{\"name\":\"text_formatting\",\"functionName\":\"label.set_text_formatting\"}}",
+      "nativeReason2": {
+        "errors": [
+          {
+            "code": "CE10165",
+            "ctx": {
+              "functionName": "label.set_text_formatting",
+              "name": "text_formatting"
+            },
+            "end": {
+              "column": 28,
+              "line": 7
+            },
+            "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+            "start": {
+              "column": 1,
+              "line": 7
+            }
+          }
+        ],
+        "warnings": []
+      },
+      "nativeStructuredErrors": [
+        {
+          "code": "CE10165",
+          "ctx": {
+            "functionName": "label.set_text_formatting",
+            "name": "text_formatting"
+          },
+          "end": {
+            "column": 28,
+            "line": 7
+          },
+          "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+          "start": {
+            "column": 1,
+            "line": 7
+          }
+        }
+      ],
+      "structuredErrorChannelStatus": "EXPOSED",
+      "nativeWarnings": [],
+      "warningChannelStatus": "EXPOSED",
+      "nativeEditorMarkerArrays": null,
+      "editorMarkerStatus": "UNOBSERVED; separate immediate/settled UI retained"
+    }
+  ]
+}

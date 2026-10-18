@@ -1,0 +1,132 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-extend-stroke-v6",
+  "sourceSha256": "44cecf1c82ee45071eb4410b1e5268f184c105061eb33a52031863e1aa14ed8d",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/21",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-extend-stroke-v6/numeric-results-v1.json",
+    "bytes": 90224,
+    "sha256": "c6426371f0bd094f6bd39d6614020d9ae16df979b2ac9997bf23b099aa0444b8"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-extend-stroke-v6/derived-region-map-v1.json",
+    "bytes": 16025,
+    "sha256": "800819828d27c236a34b2752ab1755559e43af4b5179bb860aee3a2b471dd9d3"
+  },
+  "cases": [
+    {
+      "caseId": "v102-extend-stroke-v6:none-left-right-both-extension",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "LINE_X1_REL",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-extend-stroke-v6/numeric-results-v1.json",
+              "bytes": 90224,
+              "sha256": "c6426371f0bd094f6bd39d6614020d9ae16df979b2ac9997bf23b099aa0444b8"
+            },
+            "jsonPointer": "/properties/0",
+            "cause": null
+          },
+          {
+            "title": "LINE_Y1",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-extend-stroke-v6/numeric-results-v1.json",
+              "bytes": 90224,
+              "sha256": "c6426371f0bd094f6bd39d6614020d9ae16df979b2ac9997bf23b099aa0444b8"
+            },
+            "jsonPointer": "/properties/1",
+            "cause": null
+          },
+          {
+            "title": "BOX_LEFT_REL",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-extend-stroke-v6/numeric-results-v1.json",
+              "bytes": 90224,
+              "sha256": "c6426371f0bd094f6bd39d6614020d9ae16df979b2ac9997bf23b099aa0444b8"
+            },
+            "jsonPointer": "/properties/2",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-extend-stroke-v6/derived-region-map-v1.json",
+          "bytes": 16025,
+          "sha256": "800819828d27c236a34b2752ab1755559e43af4b5179bb860aee3a2b471dd9d3"
+        },
+        "jsonPointer": "/facets/0",
+        "cause": null,
+        "supportedCandidate": "FOUR_REGISTERED_EXTENSION_MODES_APPLIED",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-extend-stroke-v6:solid-dash-dot-and-arrow",
+      "verdict": "SUPPORTED",
+      "numeric": null,
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-extend-stroke-v6/derived-region-map-v1.json",
+          "bytes": 16025,
+          "sha256": "800819828d27c236a34b2752ab1755559e43af4b5179bb860aee3a2b471dd9d3"
+        },
+        "jsonPointer": "/facets/1",
+        "cause": null,
+        "supportedCandidate": "FOUR_REGISTERED_LINE_STROKES_VISIBLE",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-extend-stroke-v6:line-and-box-width-setters",
+      "verdict": "SUPPORTED",
+      "numeric": null,
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-extend-stroke-v6/derived-region-map-v1.json",
+          "bytes": 16025,
+          "sha256": "800819828d27c236a34b2752ab1755559e43af4b5179bb860aee3a2b471dd9d3"
+        },
+        "jsonPointer": "/facets/2",
+        "cause": null,
+        "supportedCandidate": "SETTER_STROKES_HAVE_CONSTRUCTOR_WIDTH4_CLASS",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

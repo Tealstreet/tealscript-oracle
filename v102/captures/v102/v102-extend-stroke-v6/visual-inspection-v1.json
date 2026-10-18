@@ -1,0 +1,266 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of the original PNG and an unchanged-pixel temporary study-pane crop; no additional native screenshot",
+  "inspectedOriginalPngSha256": "b38b9ab2680d6b217322fe3edc2a6edd79a278a242b764dd62d753cbc6deef76",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792269000,
+        "xPx": 35
+      },
+      {
+        "label": "21:00 UTC",
+        "unixSeconds": 1792270800,
+        "xPx": 125
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 901
+      },
+      {
+        "value": 100,
+        "yPx": 661
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    }
+  },
+  "facets": [
+    {
+      "caseId": "v102-extend-stroke-v6:none-left-right-both-extension",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "FOUR_REGISTERED_EXTENSION_MODES_APPLIED",
+      "candidates": {
+        "applied": "None ends at both supplied x points; left/right extend on their corresponding side; both continues across the visible pane",
+        "ignored": "Rows retain bounded constructor spans or wrong sides"
+      },
+      "regions": [
+        {
+          "role": "red none y45",
+          "originalPngRectPx": [
+            518,
+            789,
+            764,
+            797
+          ],
+          "visible": "Solid red segment ends at supplied relative x-100/-60, about521/761px"
+        },
+        {
+          "role": "red left y57",
+          "originalPngRectPx": [
+            0,
+            760,
+            765,
+            768
+          ],
+          "visible": "Red dashes continue left to viewport edge and stop near supplied right endpoint761"
+        },
+        {
+          "role": "red right y69",
+          "originalPngRectPx": [
+            518,
+            732,
+            1189,
+            740
+          ],
+          "visible": "Red dots start near521 and continue right to viewport edge"
+        },
+        {
+          "role": "red both y81",
+          "originalPngRectPx": [
+            0,
+            685,
+            1189,
+            728
+          ],
+          "visible": "Red horizontal line continues through both supplied endpoints across pane; arrows identify supplied endpoints"
+        },
+        {
+          "role": "none box",
+          "originalPngRectPx": [
+            848,
+            779,
+            1034,
+            794
+          ],
+          "visible": "Aqua box bounded on both supplied sides"
+        },
+        {
+          "role": "left box",
+          "originalPngRectPx": [
+            0,
+            751,
+            1034,
+            765
+          ],
+          "visible": "Aqua band continues left and ends near1031"
+        },
+        {
+          "role": "right box",
+          "originalPngRectPx": [
+            848,
+            722,
+            1189,
+            736
+          ],
+          "visible": "Aqua band starts near851 and continues right"
+        },
+        {
+          "role": "both box",
+          "originalPngRectPx": [
+            0,
+            693,
+            1189,
+            708
+          ],
+          "visible": "Aqua band continues across both visible edges"
+        }
+      ],
+      "actualIntersections": "The red both row is near the lower aqua border, but its extensions/arrows and the separate aqua top edge remain identifiable. Other rows and supplied ends are independently visible.",
+      "scope": "This frozen four-row plate only, bound to owned closed anchor and native axes; no claim about offscreen mathematical endpoints or viewport-independent raster rules."
+    },
+    {
+      "caseId": "v102-extend-stroke-v6:solid-dash-dot-and-arrow",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "FOUR_REGISTERED_LINE_STROKES_VISIBLE",
+      "candidates": {
+        "applied": "Solid red lower row, separated long dash row, short separated dot row, and two outward endpoint arrowheads",
+        "ignored": "Solid/default strokes or absent arrows"
+      },
+      "regions": [
+        {
+          "role": "solid",
+          "originalPngRectPx": [
+            518,
+            789,
+            764,
+            797
+          ],
+          "visible": "Continuous red stroke"
+        },
+        {
+          "role": "dashed",
+          "originalPngRectPx": [
+            310,
+            760,
+            490,
+            769
+          ],
+          "visible": "Long red dashes separated by dark gaps"
+        },
+        {
+          "role": "dotted",
+          "originalPngRectPx": [
+            518,
+            731,
+            830,
+            740
+          ],
+          "visible": "Short red marks separated by dark gaps"
+        },
+        {
+          "role": "left arrow",
+          "originalPngRectPx": [
+            516,
+            684,
+            546,
+            730
+          ],
+          "visible": "Red left-pointing head at supplied endpoint"
+        },
+        {
+          "role": "right arrow",
+          "originalPngRectPx": [
+            736,
+            684,
+            766,
+            730
+          ],
+          "visible": "Red right-pointing head at supplied endpoint"
+        },
+        {
+          "role": "box borders",
+          "originalPngRectPx": [
+            0,
+            693,
+            1189,
+            794
+          ],
+          "visible": "Separate blue solid versus dashed aqua-box boundary rows are visible"
+        }
+      ],
+      "scope": "Visible finite dash/dot/arrow classes only; no universal dash periods, arrow metric, hidden linestyle getter or unsupported historical-v93 credit."
+    },
+    {
+      "caseId": "v102-extend-stroke-v6:line-and-box-width-setters",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "SETTER_STROKES_HAVE_CONSTRUCTOR_WIDTH4_CLASS",
+      "candidates": {
+        "applied": "Blue setter line has the thick class of red width4 constructor; blue setter box border is visibly thicker than the native default thin box controls",
+        "ignored": "Blue setter strokes remain thin default width1"
+      },
+      "regions": [
+        {
+          "role": "blue setter line",
+          "originalPngRectPx": [
+            637,
+            859,
+            764,
+            871
+          ],
+          "visible": "Separated thick blue dashes, matching the red width4 row qualitative stroke thickness"
+        },
+        {
+          "role": "red width4 constructor",
+          "originalPngRectPx": [
+            518,
+            789,
+            764,
+            797
+          ],
+          "visible": "Same-shot thick red horizontal stroke"
+        },
+        {
+          "role": "blue setter box",
+          "originalPngRectPx": [
+            816,
+            813,
+            946,
+            845
+          ],
+          "visible": "Thick separated blue top/bottom dashes and vertical border edges around yellow box"
+        },
+        {
+          "role": "default thin box control",
+          "originalPngRectPx": [
+            848,
+            779,
+            1035,
+            794
+          ],
+          "visible": "Thin blue outline around aqua box; clearly thinner than the yellow setter border"
+        }
+      ],
+      "strokeClassificationUncertainty": "At original image pixels the roughly4-pixel strokes and thin approximately1-pixel default outline are distinguishable with edge uncertainty1 pixel; this is a relative same-image class, not resolved CSS width or DPI.",
+      "scope": "Only qualitative setter thickness versus these visible same-shot constructor/default controls. No general physical/CSS/font metric or exact renderer width model."
+    }
+  ],
+  "visibleTextLiterals": [],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark chart UI observed",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

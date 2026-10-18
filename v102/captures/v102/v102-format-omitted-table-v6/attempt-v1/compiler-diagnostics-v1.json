@@ -1,0 +1,61 @@
+{
+  "version": "v1",
+  "sourceId": "v102-format-omitted-table-v6",
+  "sourceSha256": "3a91ef4cd007897d8a3cdb15ea0afb579b2f29aa86852dbc264d87bbefcf4c7b",
+  "transports": [
+    {
+      "kind": "saveBody",
+      "body": {
+        "path": "v102/captures/v102/v102-format-omitted-table-v6/attempt-v1/save-response-v1.json",
+        "bytes": 3883,
+        "sha256": "f37ce145511cae44f9912bd632e8a3d2842c33f6033e96cb8181c8abb606c5a5"
+      },
+      "nativeSuccess": false,
+      "nativeReason": "{\"message\":\"No value assigned to the \\\"{name}\\\" parameter in {functionName}()\",\"start\":{\"line\":8,\"column\":1},\"end\":{\"line\":8,\"column\":39},\"code\":\"CE10165\",\"ctx\":{\"name\":\"text_formatting\",\"functionName\":\"table.cell_set_text_formatting\"}}",
+      "nativeReason2": {
+        "errors": [
+          {
+            "code": "CE10165",
+            "ctx": {
+              "functionName": "table.cell_set_text_formatting",
+              "name": "text_formatting"
+            },
+            "end": {
+              "column": 39,
+              "line": 8
+            },
+            "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+            "start": {
+              "column": 1,
+              "line": 8
+            }
+          }
+        ],
+        "warnings": []
+      },
+      "nativeStructuredErrors": [
+        {
+          "code": "CE10165",
+          "ctx": {
+            "functionName": "table.cell_set_text_formatting",
+            "name": "text_formatting"
+          },
+          "end": {
+            "column": 39,
+            "line": 8
+          },
+          "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+          "start": {
+            "column": 1,
+            "line": 8
+          }
+        }
+      ],
+      "structuredErrorChannelStatus": "EXPOSED",
+      "nativeWarnings": [],
+      "warningChannelStatus": "EXPOSED",
+      "nativeEditorMarkerArrays": null,
+      "editorMarkerStatus": "UNOBSERVED; separate immediate/settled UI retained"
+    }
+  ]
+}

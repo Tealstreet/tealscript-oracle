@@ -1,0 +1,61 @@
+{
+  "version": "v1",
+  "sourceId": "v102-format-omitted-box-v6",
+  "sourceSha256": "701bc19973d21c4361fce83405d6def2e49c448983215952aff3ffa056a6db6f",
+  "transports": [
+    {
+      "kind": "saveBody",
+      "body": {
+        "path": "v102/captures/v102/v102-format-omitted-box-v6/attempt-v1/save-response-v1.json",
+        "bytes": 3865,
+        "sha256": "8fdd81a4f9c69722ad7a4f4775d5787d1b337c73e4bb37123a3d1e6621f53022"
+      },
+      "nativeSuccess": false,
+      "nativeReason": "{\"message\":\"No value assigned to the \\\"{name}\\\" parameter in {functionName}()\",\"start\":{\"line\":7,\"column\":1},\"end\":{\"line\":7,\"column\":26},\"code\":\"CE10165\",\"ctx\":{\"name\":\"text_formatting\",\"functionName\":\"box.set_text_formatting\"}}",
+      "nativeReason2": {
+        "errors": [
+          {
+            "code": "CE10165",
+            "ctx": {
+              "functionName": "box.set_text_formatting",
+              "name": "text_formatting"
+            },
+            "end": {
+              "column": 26,
+              "line": 7
+            },
+            "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+            "start": {
+              "column": 1,
+              "line": 7
+            }
+          }
+        ],
+        "warnings": []
+      },
+      "nativeStructuredErrors": [
+        {
+          "code": "CE10165",
+          "ctx": {
+            "functionName": "box.set_text_formatting",
+            "name": "text_formatting"
+          },
+          "end": {
+            "column": 26,
+            "line": 7
+          },
+          "message": "No value assigned to the \"{name}\" parameter in {functionName}()",
+          "start": {
+            "column": 1,
+            "line": 7
+          }
+        }
+      ],
+      "structuredErrorChannelStatus": "EXPOSED",
+      "nativeWarnings": [],
+      "warningChannelStatus": "EXPOSED",
+      "nativeEditorMarkerArrays": null,
+      "editorMarkerStatus": "UNOBSERVED; separate immediate/settled UI retained"
+    }
+  ]
+}

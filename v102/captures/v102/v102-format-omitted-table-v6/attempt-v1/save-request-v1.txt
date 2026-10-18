@@ -1,0 +1,27 @@
+------WebKitFormBoundaryBLoFMqfHG3txSc3r
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V102 format-omitted-table v6", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+b = table.new(position.top_right, 1, 3, bgcolor=color.white)
+table.cell(b, 0, 0, "FORMAT", text_color=color.black, text_formatting=text.format_bold + text.format_italic)
+table.cell_set_text_formatting(b, 0, 0)
+table.cell(b, 0, 1, "FORMAT", text_color=color.black, text_formatting=text.format_none)
+table.cell(b, 0, 2, "FORMAT", text_color=color.black, text_formatting=text.format_bold + text.format_italic)
+if not keep
+    table.delete(b)
+
+plot(1, "REACHED_AFTER_OMITTED_CALL", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)
+
+------WebKitFormBoundaryBLoFMqfHG3txSc3r--
