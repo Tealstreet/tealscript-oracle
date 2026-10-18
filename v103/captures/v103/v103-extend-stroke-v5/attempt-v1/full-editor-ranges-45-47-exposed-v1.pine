@@ -1,0 +1,10 @@
+    box.set_border_style(b3, line.style_dashed)
+    box.set_border_width(b3, 3)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)

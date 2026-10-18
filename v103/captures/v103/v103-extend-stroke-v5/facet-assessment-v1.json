@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "sourceId": "v103-extend-stroke-v5",
+  "sourceSha256": "084fda82fa1bc1d5e57016e14f1358830fc3aaa3ce056b4331f86a4329f1f966",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-extend-stroke-v5/numeric-results-v1.json",
+    "bytes": 131101,
+    "sha256": "de5cf77479c6bffcf6673fac689855550fabaea60a701a8ab8da035e30719096"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-extend-stroke-v5/compiler-diagnostics-v1.json",
+    "bytes": 1586,
+    "sha256": "9429596b8e26f5c9f5f7c0e93d453419d01e6727417acf85cfeb6dc60a272501"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-extend-stroke-v5:extension-modes",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "four registered line/box modes",
+      "modelB": "all extension setters ignored",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -100,
+          0
+        ],
+        "y": [
+          10,
+          95
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-extend-stroke-v5/derived-region-map-v1.json",
+        "bytes": 15327,
+        "sha256": "78ba25f0a23cff33312fb5640adcca7564093f0a1786472fb43728f79ff7782d"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-extend-stroke-v5:stroke-classes",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "dash/dot and alternating box border",
+      "modelB": "style setters ignored",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -100,
+          0
+        ],
+        "y": [
+          10,
+          95
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-extend-stroke-v5/derived-region-map-v1.json",
+        "bytes": 15327,
+        "sha256": "78ba25f0a23cff33312fb5640adcca7564093f0a1786472fb43728f79ff7782d"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-extend-stroke-v5:width-setters",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "line4 and box3 thick class",
+      "modelB": "width setters ignored",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -100,
+          0
+        ],
+        "y": [
+          10,
+          95
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-extend-stroke-v5/derived-region-map-v1.json",
+        "bytes": 15327,
+        "sha256": "78ba25f0a23cff33312fb5640adcca7564093f0a1786472fb43728f79ff7782d"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

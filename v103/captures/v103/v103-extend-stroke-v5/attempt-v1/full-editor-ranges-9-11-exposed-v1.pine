@@ -1,0 +1,19 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V103 extend-stroke v5", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a0 = line.new(bar_index - 75, 15, bar_index - 35, 15, color=color.red, width=1)
+    line.set_extend(a0, extend.none)
+    line.set_style(a0, line.style_solid)
+    line.set_width(a0, 4)
+    b0 = box.new(bar_index - 25, 24, bar_index - 10, 20, bgcolor=color.new(color.blue, 75), border_color=color.blue)
+    box.set_extend(b0, extend.none)
+    box.set_border_style(b0, line.style_solid)
+    box.set_border_width(b0, 3)
+    a1 = line.new(bar_index - 75, 37, bar_index - 35, 37, color=color.red, width

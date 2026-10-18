@@ -1,0 +1,251 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original v5 extension/stroke PNG, independent line/box lanes and thin native scale controls",
+  "inspectedOriginalPngSha256": "eb5fd94d4c7421b3d07f8d20d28906540990fa5dd385ea93cf22671a550976e9",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 53
+      },
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 143
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-extend-stroke-v5:extension-modes",
+      "outcome": "SUPPORTED_A",
+      "observation": "Red line lanes separately show finite x671..911 at y865, left-reaching to x0 at y812 with right end911, right-reaching from671 at y759 to pane edge1190, and both-reaching x0..1190 at y707. Blue box lanes independently show finite x971..1061 at y843..854, left-reaching through1061 at y791..802, right-reaching from971 at y737..749, and both-reaching at y685..696.",
+      "actualSubjectRegionsPx": [
+        [
+          671,
+          862,
+          912,
+          868
+        ],
+        [
+          0,
+          809,
+          912,
+          816
+        ],
+        [
+          670,
+          757,
+          1190,
+          763
+        ],
+        [
+          0,
+          704,
+          1190,
+          711
+        ],
+        [
+          970,
+          842,
+          1064,
+          856
+        ],
+        [
+          0,
+          789,
+          1064,
+          804
+        ],
+        [
+          970,
+          735,
+          1190,
+          751
+        ],
+        [
+          0,
+          683,
+          1190,
+          698
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          650,
+          900,
+          1127,
+          903
+        ],
+        [
+          650,
+          660,
+          1127,
+          663
+        ]
+      ],
+      "occlusion": "All four line lanes and four box lanes remain vertically separate. Finite endpoints and outward continuation beyond constructor spans are clear; reaching the pane edge is the predicted extension, not an unseen-endpoint arrow witness. No other opaque subject covers the fixed region.",
+      "precision": "Registration uses fixed x2/y3/stroke1 uncertainty. Large extension displacements, visible dash/dot gaps and thick-versus-thin classes are distinguished; absolute stroke widths, dash periods, antialiasing and arrow shapes are not certified.",
+      "scope": "Only this v5 source, four modes and registered stroke classes. No v6 or old stopped-slot completion."
+    },
+    {
+      "facetId": "v103-extend-stroke-v5:stroke-classes",
+      "outcome": "SUPPORTED_A",
+      "observation": "Red y865/y707 lanes are solid, y812 has broad separated dash segments, and y759 has small separated dot segments. Blue finite/right box borders are solid and left/both horizontal borders dashed. The vertically disjoint lanes expose positive painted strokes and internal empty intervals.",
+      "actualSubjectRegionsPx": [
+        [
+          671,
+          862,
+          912,
+          868
+        ],
+        [
+          0,
+          809,
+          912,
+          816
+        ],
+        [
+          670,
+          757,
+          1190,
+          763
+        ],
+        [
+          0,
+          704,
+          1190,
+          711
+        ],
+        [
+          970,
+          842,
+          1064,
+          856
+        ],
+        [
+          0,
+          789,
+          1064,
+          804
+        ],
+        [
+          970,
+          735,
+          1190,
+          751
+        ],
+        [
+          0,
+          683,
+          1190,
+          698
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          650,
+          900,
+          1127,
+          903
+        ],
+        [
+          650,
+          660,
+          1127,
+          663
+        ]
+      ],
+      "occlusion": "All four line lanes and four box lanes remain vertically separate. Finite endpoints and outward continuation beyond constructor spans are clear; reaching the pane edge is the predicted extension, not an unseen-endpoint arrow witness. No other opaque subject covers the fixed region.",
+      "precision": "Registration uses fixed x2/y3/stroke1 uncertainty. Large extension displacements, visible dash/dot gaps and thick-versus-thin classes are distinguished; absolute stroke widths, dash periods, antialiasing and arrow shapes are not certified.",
+      "scope": "Only this v5 source, four modes and registered stroke classes. No v6 or old stopped-slot completion."
+    },
+    {
+      "facetId": "v103-extend-stroke-v5:width-setters",
+      "outcome": "SUPPORTED_A",
+      "observation": "The solid red line lanes and solid blue box borders are visibly thick bands compared with the thin gray scale0/100 traces. The red line bands and blue borders occupy multiple native pixel rows; the width-setters-ignored thin-stroke candidate is inconsistent with these readable stroke classes. No universal exact width/raster law is inferred.",
+      "actualSubjectRegionsPx": [
+        [
+          671,
+          862,
+          912,
+          868
+        ],
+        [
+          0,
+          809,
+          912,
+          816
+        ],
+        [
+          670,
+          757,
+          1190,
+          763
+        ],
+        [
+          0,
+          704,
+          1190,
+          711
+        ],
+        [
+          970,
+          842,
+          1064,
+          856
+        ],
+        [
+          0,
+          789,
+          1064,
+          804
+        ],
+        [
+          970,
+          735,
+          1190,
+          751
+        ],
+        [
+          0,
+          683,
+          1190,
+          698
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          650,
+          900,
+          1127,
+          903
+        ],
+        [
+          650,
+          660,
+          1127,
+          663
+        ]
+      ],
+      "occlusion": "All four line lanes and four box lanes remain vertically separate. Finite endpoints and outward continuation beyond constructor spans are clear; reaching the pane edge is the predicted extension, not an unseen-endpoint arrow witness. No other opaque subject covers the fixed region.",
+      "precision": "Registration uses fixed x2/y3/stroke1 uncertainty. Large extension displacements, visible dash/dot gaps and thick-versus-thin classes are distinguished; absolute stroke widths, dash periods, antialiasing and arrow shapes are not certified.",
+      "scope": "Only this v5 source, four modes and registered stroke classes. No v6 or old stopped-slot completion."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}
