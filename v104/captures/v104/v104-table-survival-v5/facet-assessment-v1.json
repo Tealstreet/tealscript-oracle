@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-survival-v5",
+  "sourceSha256": "8849cf5ec18f778bb193e97ff471479b002d151a59194cc9eb2bc49bdcb0cc13",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-table-survival-v5/numeric-results-v1.json",
+    "bytes": 158014,
+    "sha256": "a36ca5fc1f83f164837eb3b4d84a15b20d8883b40e9cf873ccff2cc10d224773"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-table-survival-v5/compiler-diagnostics-v1.json",
+    "bytes": 1589,
+    "sha256": "0f9665263d5f7553e632ec82f5698ac08fa9f42bee56021b8fd5d9463216a135"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-table-survival-v5:same-position-lifetime",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "A is absent after B first takes top-left then moves to bottom-right",
+      "modelB": "A reappears at top-left after B moves away",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-table-survival-v5/derived-region-map-v1.json",
+        "bytes": 8619,
+        "sha256": "33e2290594e4f7ad2696ef01213ef194ae6f156e5f71e80c8a2cf74b99f04c79"
+      },
+      "notObservedCauses": [
+        "Mandatory complete C control at bottom-left is obscured by TradingView watermark. No viewport or table-source repair/retry is permitted."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

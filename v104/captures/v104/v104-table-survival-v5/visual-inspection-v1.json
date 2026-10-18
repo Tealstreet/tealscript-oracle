@@ -1,0 +1,83 @@
+{
+  "version": "v1",
+  "method": "Original whole PNG corner-by-corner inspection; same-byte local crop used only to confirm bottom-left watermark occlusion",
+  "inspectedOriginalPngSha256": "89ad00135c939a004c6c1739196fd560517fe29a41cc9c81705f19ecaaf3f58e",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 491
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 795
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-table-survival-v5:same-position-lifetime",
+      "outcome": "UNDECIDED",
+      "observation": "Bottom-right B is complete on its blue body. A red body is not visible at top-left, but the mandatory bottom-left orange C literal is covered by the TradingView watermark; its full glyph cannot be transcribed. Numeric TABLE_COUNT2/OLD_NA1 are separately preserved and do not repair the missing pixel control.",
+      "actualSubjectRegionsPx": [
+        [
+          0,
+          632,
+          297.5,
+          705.5
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          1161,
+          892,
+          1181,
+          916
+        ],
+        [
+          10,
+          892,
+          30,
+          916
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "bottom-right blue control",
+          "literal": "B"
+        },
+        {
+          "region": "bottom-left orange control",
+          "literal": null,
+          "cause": "TradingView watermark covers the expected C glyph"
+        }
+      ],
+      "occlusionRegionsPx": [
+        [
+          11,
+          897,
+          41,
+          912
+        ]
+      ],
+      "notObservedCause": "Mandatory complete C control at bottom-left is obscured by TradingView watermark. No viewport or table-source repair/retry is permitted.",
+      "scope": "One new v5 source with successful native admission and numeric observations. No visual lifetime decision or retroactive v103 stopped-source credit."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

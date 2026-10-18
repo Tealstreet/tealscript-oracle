@@ -1,0 +1,10 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v104-table-survival-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float table_count = na
+var float old_na = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    a = table.new(position.top_left, 1, 1, bgcolor=color.red)

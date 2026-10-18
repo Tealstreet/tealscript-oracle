@@ -1,0 +1,19 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v104-table-survival-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float table_count = na
+var float old_na = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    a = table.new(position.top_left, 1, 1, bgcolor=color.red)
+    table.cell(a, 0, 0, "A", text_color=color.white, bgcolor=color.red)
+    b = table.new(position.top_left, 1, 1, bgcolor=color.blue)
+    table.cell(b, 0, 0, "B", text_color=color.white, bgcolor=color.blue)
+    table.set_position(b, position.bottom_right)
+    c = table.new(position.bottom_left, 1, 1, bgcolor=color.orange)
+    table.cell(c, 0, 0, "C", text_color=color.white, bgcolor=color.orange)
+    table_count := array.size(table.all)
+    old_na := na(a) ? 1 : 0
+plot(build ? table_count : na, 
