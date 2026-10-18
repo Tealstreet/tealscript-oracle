@@ -1,0 +1,92 @@
+{
+  "version": "v1",
+  "sourceId": "v103-box-layout-v5",
+  "sourceSha256": "aecd1ec5e18432fc9557b77383e58c8d96802dbc2a0d2b3b69bf669abd40abf4",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-box-layout-v5/numeric-results-v1.json",
+    "bytes": 8488,
+    "sha256": "24959ce6b5cffd1c674b4bd383d76e968b619d15360e93fb28659a020dba48da"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-box-layout-v5/compiler-diagnostics-v1.json",
+    "bytes": 382,
+    "sha256": "436b5a1e4aa36a339bfc1b616c84f754e54013a2938c90910115b59488083f09"
+  },
+  "nativeAdmission": null,
+  "facets": [
+    {
+      "facetId": "v103-box-layout-v5:wrap-vs-nowrap",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "a has multiple complete short-word lines",
+      "modelB": "a remains nowrap like b",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -96,
+          -86
+        ],
+        "y": [
+          49,
+          96
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-layout-v5:horizontal",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "blue EDGE near right border",
+      "modelB": "blue EDGE near left border",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          4,
+          26
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-layout-v5:vertical",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "blue EDGE near bottom border",
+      "modelB": "blue EDGE near top border",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          4,
+          26
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
