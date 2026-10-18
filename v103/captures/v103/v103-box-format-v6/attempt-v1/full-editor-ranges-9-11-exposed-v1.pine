@@ -1,0 +1,13 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 box-format v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = box.new(bar_index -95, 90, bar_index -55, 60, bgcolor=color.white, border_color=color.blue, text="FORMAT", text_color=color.blue, text_size=18, text_font_family=font.family_monospace, text_halign=text.align_left, text_valign=text.align_top)
+    box.set_text_formatting(a, text.format_none)
+    b = box.new(bar_index -45, 90, bar_index -5, 60, bgcolor=color.white, border_color=color.blue, text="FORMAT", text_color=color.blue, text_size=18, text_font_family=font.family_monospace, text_halign

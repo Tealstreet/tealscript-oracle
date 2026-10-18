@@ -1,0 +1,8 @@
+, text="FORMAT", text_color=color.blue, text_size=18, text_font_family=font.family_monospace, text_halign=text.align_left, text_valign=text.align_top)
+    box.set_text_formatting(b, text.format_bold)
+    c = box.new(bar_index -95, 45, bar_index -55, 15, bgcolor=color.white, border_color=color.blue, text="FORMAT", text_color=color.blue, text_size=18, text_font_family=font.family_monospace, text_halign=text.align_left, text_valign=text.align_top)
+    box.set_text_formatting(c, text.format_italic)
+    d = box.new(bar_index -45, 45, bar_index -5, 15, bgcolor=color.white, border_color=color.blue, text="FORMAT", text_color=color.blue, text_size=18, text_font_family=font.family_monospace, text_halign=text.align_left, text_valign=text.align_top)
+    box.set_text_formatting(d, text.format_bold + text.format_italic)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)

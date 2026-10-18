@@ -1,0 +1,205 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of original four-control native formatting PNG, testing every frozen pair separately",
+  "inspectedOriginalPngSha256": "539ff5c72aeb7146740bcb55f685bf398003cb4bcbd51d8e3706901bea8b11c7",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 41
+      },
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 131
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-box-format-v6:b-vs-none",
+      "outcome": "SUPPORTED_A",
+      "observation": "The complete upper-right FORMAT has visibly heavier glyph strokes than the complete upper-left none control; both are upright.",
+      "actualSubjectRegionsPx": [
+        [
+          851,
+          685,
+          1093,
+          759
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          551,
+          685,
+          793,
+          759
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "bold",
+          "literal": "FORMAT"
+        },
+        {
+          "region": "none",
+          "literal": "FORMAT"
+        }
+      ],
+      "occlusion": "Complete same-word glyphs and white/blue box boundaries are readable; no clipping, third-object overlap or line-wrap ambiguity.",
+      "precision": "Qualitative same-shot glyph weight/slant classes, not a subpixel stroke-width/font metric or threshold fit. Axis uncertainty registers the frozen windows; no resolved font, CSS size or DPI is inferred.",
+      "scope": "Only this exact v6 setter/control pair and readable word; no omitted-argument, other-API/version or universal formatting-composition claim."
+    },
+    {
+      "facetId": "v103-box-format-v6:c-vs-none",
+      "outcome": "SUPPORTED_A",
+      "observation": "The complete lower-left FORMAT has visibly slanted glyph morphology relative to the upright upper-left none control.",
+      "actualSubjectRegionsPx": [
+        [
+          551,
+          793,
+          793,
+          867
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          551,
+          685,
+          793,
+          759
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "italic",
+          "literal": "FORMAT"
+        },
+        {
+          "region": "none",
+          "literal": "FORMAT"
+        }
+      ],
+      "occlusion": "Complete same-word glyphs and white/blue box boundaries are readable; no clipping, third-object overlap or line-wrap ambiguity.",
+      "precision": "Qualitative same-shot glyph weight/slant classes, not a subpixel stroke-width/font metric or threshold fit. Axis uncertainty registers the frozen windows; no resolved font, CSS size or DPI is inferred.",
+      "scope": "Only this exact v6 setter/control pair and readable word; no omitted-argument, other-API/version or universal formatting-composition claim."
+    },
+    {
+      "facetId": "v103-box-format-v6:d-vs-none",
+      "outcome": "SUPPORTED_A",
+      "observation": "The complete lower-right FORMAT shows both the heavier and slanted class relative to the lighter upright none control.",
+      "actualSubjectRegionsPx": [
+        [
+          851,
+          793,
+          1093,
+          867
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          551,
+          685,
+          793,
+          759
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "both",
+          "literal": "FORMAT"
+        },
+        {
+          "region": "none",
+          "literal": "FORMAT"
+        }
+      ],
+      "occlusion": "Complete same-word glyphs and white/blue box boundaries are readable; no clipping, third-object overlap or line-wrap ambiguity.",
+      "precision": "Qualitative same-shot glyph weight/slant classes, not a subpixel stroke-width/font metric or threshold fit. Axis uncertainty registers the frozen windows; no resolved font, CSS size or DPI is inferred.",
+      "scope": "Only this exact v6 setter/control pair and readable word; no omitted-argument, other-API/version or universal formatting-composition claim."
+    },
+    {
+      "facetId": "v103-box-format-v6:both-vs-bold-only",
+      "outcome": "SUPPORTED_A",
+      "observation": "The lower-right heavier FORMAT is slanted, unlike the upper-right heavier upright bold-only control.",
+      "actualSubjectRegionsPx": [
+        [
+          851,
+          793,
+          1093,
+          867
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          851,
+          685,
+          1093,
+          759
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "both",
+          "literal": "FORMAT"
+        },
+        {
+          "region": "bold",
+          "literal": "FORMAT"
+        }
+      ],
+      "occlusion": "Complete same-word glyphs and white/blue box boundaries are readable; no clipping, third-object overlap or line-wrap ambiguity.",
+      "precision": "Qualitative same-shot glyph weight/slant classes, not a subpixel stroke-width/font metric or threshold fit. Axis uncertainty registers the frozen windows; no resolved font, CSS size or DPI is inferred.",
+      "scope": "Only this exact v6 setter/control pair and readable word; no omitted-argument, other-API/version or universal formatting-composition claim."
+    },
+    {
+      "facetId": "v103-box-format-v6:both-vs-italic-only",
+      "outcome": "SUPPORTED_A",
+      "observation": "The lower-right slanted FORMAT has visibly heavier strokes than the lower-left slanted italic-only control.",
+      "actualSubjectRegionsPx": [
+        [
+          851,
+          793,
+          1093,
+          867
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          551,
+          793,
+          793,
+          867
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "both",
+          "literal": "FORMAT"
+        },
+        {
+          "region": "italic",
+          "literal": "FORMAT"
+        }
+      ],
+      "occlusion": "Complete same-word glyphs and white/blue box boundaries are readable; no clipping, third-object overlap or line-wrap ambiguity.",
+      "precision": "Qualitative same-shot glyph weight/slant classes, not a subpixel stroke-width/font metric or threshold fit. Axis uncertainty registers the frozen windows; no resolved font, CSS size or DPI is inferred.",
+      "scope": "Only this exact v6 setter/control pair and readable word; no omitted-argument, other-API/version or universal formatting-composition claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

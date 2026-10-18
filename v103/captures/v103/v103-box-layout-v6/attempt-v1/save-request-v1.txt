@@ -1,0 +1,32 @@
+------WebKitFormBoundaryLhwjGNKX7JHnZWHE
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 box-layout v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = box.new(bar_index - 95, 95, bar_index - 87, 50, bgcolor=color.white, border_color=color.blue, text="AA BB CC DD EE FF", text_color=color.blue, text_size=12, text_font_family=font.family_monospace, text_halign=text.align_left, text_valign=text.align_top, text_wrap=text.wrap_none)
+    box.set_text_wrap(a, text.wrap_auto)
+    b = box.new(bar_index - 35, 95, bar_index - 27, 50, bgcolor=color.white, border_color=color.blue, text="AA BB CC DD EE FF", text_color=color.blue, text_size=12, text_font_family=font.family_monospace, text_halign=text.align_left, text_valign=text.align_top, text_wrap=text.wrap_none)
+    c = box.new(bar_index - 95, 45, bar_index - 5, 30, bgcolor=color.white, border_color=color.blue, text="AA BB CC DD EE FF", text_color=color.blue, text_size=12, text_font_family=font.family_monospace, text_halign=text.align_left, text_valign=text.align_top)
+    d = box.new(bar_index - 95, 25, bar_index - 55, 5, bgcolor=color.white, border_color=color.red, text="EDGE", text_color=color.red, text_size=16, text_halign=text.align_left, text_valign=text.align_top)
+    e = box.new(bar_index - 45, 25, bar_index - 5, 5, bgcolor=color.white, border_color=color.blue, text="EDGE", text_color=color.blue, text_size=16, text_halign=text.align_left, text_valign=text.align_top)
+    box.set_text_halign(e, text.align_right)
+    box.set_text_valign(e, text.align_bottom)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
+
+------WebKitFormBoundaryLhwjGNKX7JHnZWHE--

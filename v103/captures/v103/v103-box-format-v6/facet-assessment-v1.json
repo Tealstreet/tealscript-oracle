@@ -1,0 +1,150 @@
+{
+  "version": "v1",
+  "sourceId": "v103-box-format-v6",
+  "sourceSha256": "ff6ec5173c597b3f5dce927ca19575e88e0481c663e514bf63f9f914c5703b06",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-box-format-v6/numeric-results-v1.json",
+    "bytes": 128262,
+    "sha256": "445ad42381d8bfb465b83227f50b53fd40b641d522fbde56b4f1422e4fcaa382"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-box-format-v6/compiler-diagnostics-v1.json",
+    "bytes": 1577,
+    "sha256": "fbbb3c6cb50aeeb0848576f00830e805886cbe84de73f61d550eb33640dac451"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-box-format-v6:b-vs-none",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "explicit text.format_bold",
+      "modelB": "retained unformatted same-word control",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          59,
+          91
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-format-v6/derived-region-map-v1.json",
+        "bytes": 17330,
+        "sha256": "74413e58475c37f7b30efd94b544fdbf479cf588536057cd3c6a3d6c3f743ca7"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-format-v6:c-vs-none",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "explicit text.format_italic",
+      "modelB": "retained unformatted same-word control",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -96,
+          -54
+        ],
+        "y": [
+          14,
+          46
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-format-v6/derived-region-map-v1.json",
+        "bytes": 17330,
+        "sha256": "74413e58475c37f7b30efd94b544fdbf479cf588536057cd3c6a3d6c3f743ca7"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-format-v6:d-vs-none",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "explicit text.format_bold + text.format_italic",
+      "modelB": "retained unformatted same-word control",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          14,
+          46
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-format-v6/derived-region-map-v1.json",
+        "bytes": 17330,
+        "sha256": "74413e58475c37f7b30efd94b544fdbf479cf588536057cd3c6a3d6c3f743ca7"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-format-v6:both-vs-bold-only",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "bold+italic",
+      "modelB": "bold alone",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          14,
+          46
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-format-v6/derived-region-map-v1.json",
+        "bytes": 17330,
+        "sha256": "74413e58475c37f7b30efd94b544fdbf479cf588536057cd3c6a3d6c3f743ca7"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-format-v6:both-vs-italic-only",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "bold+italic",
+      "modelB": "italic alone",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          14,
+          46
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-format-v6/derived-region-map-v1.json",
+        "bytes": 17330,
+        "sha256": "74413e58475c37f7b30efd94b544fdbf479cf588536057cd3c6a3d6c3f743ca7"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

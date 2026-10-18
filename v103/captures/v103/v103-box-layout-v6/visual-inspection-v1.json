@@ -1,0 +1,178 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of this original v6 box-layout PNG; complete words and three separate frozen model decisions",
+  "inspectedOriginalPngSha256": "614538287ce71e68522dc3395ea0614fa84b3d516eafe94a5e93cc990a254479",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 53
+      },
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 143
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-box-layout-v6:wrap-vs-nowrap",
+      "outcome": "SUPPORTED_A",
+      "observation": "The left narrow white box displays three complete blue lines: AA BB, CC DD, EE FF. The right same-width nowrap control displays the complete phrase on one line extending beyond its white box. A separate wide control shows the same complete one-line phrase.",
+      "actualSubjectRegionsPx": [
+        [
+          551,
+          673,
+          600,
+          783
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          911,
+          673,
+          1040,
+          783
+        ],
+        [
+          551,
+          793,
+          1093,
+          831
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "wrapped line1",
+          "literal": "AA BB"
+        },
+        {
+          "region": "wrapped line2",
+          "literal": "CC DD"
+        },
+        {
+          "region": "wrapped line3",
+          "literal": "EE FF"
+        },
+        {
+          "region": "nowrap control",
+          "literal": "AA BB CC DD EE FF"
+        },
+        {
+          "region": "wide complete control",
+          "literal": "AA BB CC DD EE FF"
+        }
+      ],
+      "occlusion": "No top-row control or third object covers the wrapped lines or the nowrap overflow; the two top subjects are widely separated.",
+      "scope": "Finite complete-word auto-wrap versus nowrap in this one v6 viewport. No resolved monospace font or glyph-width law."
+    },
+    {
+      "facetId": "v103-box-layout-v6:horizontal",
+      "outcome": "SUPPORTED_A",
+      "observation": "The blue EDGE is adjacent to the right side of its generous lower box, while the same-word red control is near the left side of its lower box. The separation is far beyond x uncertainty.",
+      "actualSubjectRegionsPx": [
+        [
+          851,
+          841,
+          1093,
+          891
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          551,
+          841,
+          793,
+          891
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "blue right-aligned subject",
+          "literal": "EDGE"
+        },
+        {
+          "region": "red left-aligned control",
+          "literal": "EDGE"
+        }
+      ],
+      "actualGlyphBoundsPx": [
+        [
+          1043,
+          867,
+          1087,
+          883
+        ],
+        [
+          555,
+          847,
+          600,
+          863
+        ]
+      ],
+      "scope": "Right-versus-left position only; no generic padding/font/DPI metric."
+    },
+    {
+      "facetId": "v103-box-layout-v6:vertical",
+      "outcome": "SUPPORTED_A",
+      "observation": "The blue EDGE sits near its lower box bottom while the red EDGE control sits near its box top. Both complete same-word glyphs and boundaries are readable in the same image.",
+      "actualSubjectRegionsPx": [
+        [
+          851,
+          841,
+          1093,
+          891
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          551,
+          841,
+          793,
+          891
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "blue bottom-aligned subject",
+          "literal": "EDGE"
+        },
+        {
+          "region": "red top-aligned control",
+          "literal": "EDGE"
+        }
+      ],
+      "actualGlyphBoundsPx": [
+        [
+          1043,
+          867,
+          1087,
+          883
+        ],
+        [
+          555,
+          847,
+          600,
+          863
+        ]
+      ],
+      "scope": "Bottom-versus-top position only; no universal alignment or resolved-font model."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

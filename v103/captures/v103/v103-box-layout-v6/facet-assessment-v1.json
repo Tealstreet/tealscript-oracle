@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "sourceId": "v103-box-layout-v6",
+  "sourceSha256": "5a21e9369110b73053093faee04f9f598e1cabfcab88f7ecd729568991d420f3",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-box-layout-v6/numeric-results-v1.json",
+    "bytes": 128262,
+    "sha256": "016a04fb2b3ccd689e7c7da512286f4f5bad702e8f5e3a82a6b2ba2396962db0"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-box-layout-v6/compiler-diagnostics-v1.json",
+    "bytes": 1577,
+    "sha256": "5ed0300f18df3cf2bc75b9d15b344e79f008138f968c729356cd2d468d61bda6"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-box-layout-v6:wrap-vs-nowrap",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "a has multiple complete short-word lines",
+      "modelB": "a remains nowrap like b",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -96,
+          -86
+        ],
+        "y": [
+          49,
+          96
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-layout-v6/derived-region-map-v1.json",
+        "bytes": 12706,
+        "sha256": "164aab42a7bab2c3d93ed157fc1a427d6b851040b829b56e0cd3df3122990ee6"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-layout-v6:horizontal",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "blue EDGE near right border",
+      "modelB": "blue EDGE near left border",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          4,
+          26
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-layout-v6/derived-region-map-v1.json",
+        "bytes": 12706,
+        "sha256": "164aab42a7bab2c3d93ed157fc1a427d6b851040b829b56e0cd3df3122990ee6"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-box-layout-v6:vertical",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "blue EDGE near bottom border",
+      "modelB": "blue EDGE near top border",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -46,
+          -4
+        ],
+        "y": [
+          4,
+          26
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-box-layout-v6/derived-region-map-v1.json",
+        "bytes": 12706,
+        "sha256": "164aab42a7bab2c3d93ed157fc1a427d6b851040b829b56e0cd3df3122990ee6"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
