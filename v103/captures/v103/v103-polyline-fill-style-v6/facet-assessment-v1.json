@@ -1,0 +1,124 @@
+{
+  "version": "v1",
+  "sourceId": "v103-polyline-fill-style-v6",
+  "sourceSha256": "0f555366d356b6aa38d2762c62a9b1b6a575a8df54dbdf3e9569bc646465533c",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-polyline-fill-style-v6/numeric-results-v1.json",
+    "bytes": 145964,
+    "sha256": "18b3ad8c5ff431232f13afbe6ce1cdc7ca9772a08528a0684a7a12f157b34168"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-polyline-fill-style-v6/compiler-diagnostics-v1.json",
+    "bytes": 1604,
+    "sha256": "d57eb733679ddde969e4265b7671a2b371b6843d91db755ef504cd84b27065aa"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-polyline-fill-style-v6:fill-and-closed-edge",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "filled closed orange triangle",
+      "modelB": "subject unfilled and open",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -98,
+          -52
+        ],
+        "y": [
+          17,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-fill-style-v6/derived-region-map-v1.json",
+        "bytes": 14816,
+        "sha256": "2d1ae7b8bd2900bbf03013ad258e04d18cdf81cc5635bf6af4c6694613ffe1f3"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-fill-style-v6:dashed-border",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "subject border dashed",
+      "modelB": "subject border solid",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -98,
+          -52
+        ],
+        "y": [
+          17,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-fill-style-v6/derived-region-map-v1.json",
+        "bytes": 14816,
+        "sha256": "2d1ae7b8bd2900bbf03013ad258e04d18cdf81cc5635bf6af4c6694613ffe1f3"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-fill-style-v6:copied-point-fields",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "left triangle retains apex85 like control",
+      "modelB": "left apex follows q.price40",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -98,
+          -52
+        ],
+        "y": [
+          35,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-fill-style-v6/derived-region-map-v1.json",
+        "bytes": 14816,
+        "sha256": "2d1ae7b8bd2900bbf03013ad258e04d18cdf81cc5635bf6af4c6694613ffe1f3"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-fill-style-v6:deleted-control",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "red lower triangle absent",
+      "modelB": "delete ignored",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -98,
+          -52
+        ],
+        "y": [
+          1,
+          15
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-fill-style-v6/derived-region-map-v1.json",
+        "bytes": 14816,
+        "sha256": "2d1ae7b8bd2900bbf03013ad258e04d18cdf81cc5635bf6af4c6694613ffe1f3"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

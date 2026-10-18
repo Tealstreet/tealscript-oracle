@@ -1,0 +1,33 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 polyline-fill-style v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+var float COUNT = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    p = chart.point.from_index(bar_index - 95, 20)
+    q = chart.point.from_index(bar_index - 75, 85)
+    r = chart.point.from_index(bar_index - 55, 20)
+    pts = array.from(p, q, r)
+    a = polyline.new(pts, curved=false, closed=true, line_color=color.blue, fill_color=color.new(color.orange, 20), line_style=line.style_dashed, line_width=4)
+    q.price := 40
+    control = array.from(chart.point.from_index(bar_index - 45, 20), chart.point.from_index(bar_index - 25, 85), chart.point.from_index(bar_index - 5, 20))
+    polyline.new(control, curved=false, closed=true, line_color=color.blue, fill_color=color.new(color.orange, 20), line_style=line.style_dashed, line_width=4)
+    dead = array.from(chart.point.from_index(bar_index - 95, 4), chart.point.from_index(bar_index - 75, 12), chart.point.from_index(bar_index - 55, 4))
+    del = polyline.new(dead, closed=true, fill_color=color.red, line_color=color.red)
+    polyline.delete(del)
+    COUNT := array.size(polyline.all)
+
+plot(build ? COUNT : na, "COUNT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)

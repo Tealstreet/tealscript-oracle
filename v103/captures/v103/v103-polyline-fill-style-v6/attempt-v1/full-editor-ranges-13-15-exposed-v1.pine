@@ -1,0 +1,9 @@
+    anchorTime := time
+    p = chart.point.from_index(bar_index - 95, 20)
+    q = chart.point.from_index(bar_index - 75, 85)
+    r = chart.point.from_index(bar_index - 55, 20)
+    pts = array.from(p, q, r)
+    a = polyline.new(pts, curved=false, closed=true, line_color=color.blue, fill_color=color.new(color.orange, 20), line_style=line.style_dashed, line_width=4)
+    q.price := 40
+    control = array.from(chart.point.from_index(bar_index - 45, 20), chart.point.from_index(bar_index - 25, 85), chart.point.from_index(bar_index - 5, 20))
+    polyline.new(control, curved=false, closed=true, line_color=color.blue, fill_color=color.new(color.orange, 20), line_style=line.styl

@@ -1,0 +1,131 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original native polyline plate; timestamp-axis joins account for ordinary bar movement without a second PNG",
+  "inspectedOriginalPngSha256": "ebaa38b0bad98860ef15bf56f1e1bfa03e3e246dc0215fa930548f2bd678f92f",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 107
+      },
+      {
+        "label": "03:30 UTC",
+        "unixSeconds": 1792294200,
+        "xPx": 197
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-polyline-fill-style-v6:fill-and-closed-edge",
+      "outcome": "SUPPORTED_A",
+      "observation": "The left subject is an orange filled triangle with a painted blue dashed base joining its lower points as well as two sloping sides. The separate right triangle gives a readable same-recipe positive control.",
+      "actualSubjectRegionsPx": [
+        [
+          542,
+          695,
+          788,
+          856
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          842,
+          695,
+          1088,
+          856
+        ]
+      ],
+      "occlusion": "Left and right triangles, complete base/slopes/apices and lower deletion window are visible without another opaque subject. The primary block is on screen.",
+      "precision": "Frozen x2/y3/stroke1 uncertainty; qualitative closed fill/dash pattern and large85-versus40 apex separation, no universal polyline raster or dash period.",
+      "scope": "This exact v6 closed straight triangle, supplied-point mutation and deliberately deleted control only. The retained build may span ordinary bars; source/session clocks do not invent a provider frame."
+    },
+    {
+      "facetId": "v103-polyline-fill-style-v6:dashed-border",
+      "outcome": "SUPPORTED_A",
+      "observation": "The left triangle has clear separated blue stroke fragments and intervening gaps along both slopes and its horizontal base. The orange interior remains present behind these border gaps; this is a dashed border, not an open or missing shape.",
+      "actualSubjectRegionsPx": [
+        [
+          542,
+          695,
+          788,
+          856
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          842,
+          695,
+          1088,
+          856
+        ]
+      ],
+      "occlusion": "Left and right triangles, complete base/slopes/apices and lower deletion window are visible without another opaque subject. The primary block is on screen.",
+      "precision": "Frozen x2/y3/stroke1 uncertainty; qualitative closed fill/dash pattern and large85-versus40 apex separation, no universal polyline raster or dash period.",
+      "scope": "This exact v6 closed straight triangle, supplied-point mutation and deliberately deleted control only. The retained build may span ordinary bars; source/session clocks do not invent a provider frame."
+    },
+    {
+      "facetId": "v103-polyline-fill-style-v6:copied-point-fields",
+      "outcome": "SUPPORTED_A",
+      "observation": "The left apex remains near y85, level with the independent right apex, distinctly above the q.price40 alternative. Both triangles have the same visible high-apex geometry after the supplied left point was mutated.",
+      "actualSubjectRegionsPx": [
+        [
+          542,
+          695,
+          788,
+          856
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          842,
+          695,
+          1088,
+          856
+        ]
+      ],
+      "occlusion": "Left and right triangles, complete base/slopes/apices and lower deletion window are visible without another opaque subject. The primary block is on screen.",
+      "precision": "Frozen x2/y3/stroke1 uncertainty; qualitative closed fill/dash pattern and large85-versus40 apex separation, no universal polyline raster or dash period.",
+      "scope": "This exact v6 closed straight triangle, supplied-point mutation and deliberately deleted control only. The retained build may span ordinary bars; source/session clocks do not invent a provider frame."
+    },
+    {
+      "facetId": "v103-polyline-fill-style-v6:deleted-control",
+      "outcome": "SUPPORTED_A",
+      "observation": "The entire lower red-triangle window under the left base is visible and dark, with no red fill or red outline. Two surviving orange/blue triangles above provide a positive polyline channel control.",
+      "actualSubjectRegionsPx": [
+        [
+          527,
+          865,
+          805,
+          901
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          842,
+          695,
+          1088,
+          856
+        ]
+      ],
+      "occlusion": "Left and right triangles, complete base/slopes/apices and lower deletion window are visible without another opaque subject. The primary block is on screen.",
+      "precision": "Frozen x2/y3/stroke1 uncertainty; qualitative closed fill/dash pattern and large85-versus40 apex separation, no universal polyline raster or dash period.",
+      "scope": "This exact v6 closed straight triangle, supplied-point mutation and deliberately deleted control only. The retained build may span ordinary bars; source/session clocks do not invent a provider frame."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}
