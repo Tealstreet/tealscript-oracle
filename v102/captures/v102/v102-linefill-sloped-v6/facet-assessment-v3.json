@@ -1,0 +1,173 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-linefill-sloped-v6",
+  "sourceSha256": "0a258d58c5f47cbc6a434ebb3b8f59a571db8a75c41e52f40dc1a4e700b94277",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/18",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-linefill-sloped-v6/numeric-results-v1.json",
+    "bytes": 177728,
+    "sha256": "db66213b31afea904de5aede9c36a6d0ddc6337ada8158c3f4fe57cb34fb0a98"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-linefill-sloped-v6/derived-region-map-v1.json",
+    "bytes": 13513,
+    "sha256": "26490829a0e2cd7b5f8a154b633084369e1b1f41ce2ffcdf340c203d0c7e9ea7"
+  },
+  "cases": [
+    {
+      "caseId": "v102-linefill-sloped-v6:sloped-both-extension-follows-endpoints",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "TRACK_FIRST_Y1",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-linefill-sloped-v6/numeric-results-v1.json",
+              "bytes": 177728,
+              "sha256": "db66213b31afea904de5aede9c36a6d0ddc6337ada8158c3f4fe57cb34fb0a98"
+            },
+            "jsonPointer": "/properties/4",
+            "cause": null
+          },
+          {
+            "title": "TRACK_FIRST_Y2",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-linefill-sloped-v6/numeric-results-v1.json",
+              "bytes": 177728,
+              "sha256": "db66213b31afea904de5aede9c36a6d0ddc6337ada8158c3f4fe57cb34fb0a98"
+            },
+            "jsonPointer": "/properties/5",
+            "cause": null
+          },
+          {
+            "title": "TRACK_SECOND_Y1",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-linefill-sloped-v6/numeric-results-v1.json",
+              "bytes": 177728,
+              "sha256": "db66213b31afea904de5aede9c36a6d0ddc6337ada8158c3f4fe57cb34fb0a98"
+            },
+            "jsonPointer": "/properties/6",
+            "cause": null
+          },
+          {
+            "title": "TRACK_SECOND_Y2",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-linefill-sloped-v6/numeric-results-v1.json",
+              "bytes": 177728,
+              "sha256": "db66213b31afea904de5aede9c36a6d0ddc6337ada8158c3f4fe57cb34fb0a98"
+            },
+            "jsonPointer": "/properties/7",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-linefill-sloped-v6/derived-region-map-v1.json",
+          "bytes": 13513,
+          "sha256": "26490829a0e2cd7b5f8a154b633084369e1b1f41ce2ffcdf340c203d0c7e9ea7"
+        },
+        "jsonPointer": "/facets/0",
+        "cause": null,
+        "supportedCandidate": "LIVE_TRACKING_ORANGE_BAND",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-linefill-sloped-v6:same-pair-replace-vs-add",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "title": "SAME_PAIR_COUNT",
+        "variants": [
+          {
+            "id": "REPLACEMENT",
+            "expectedRaw": "1",
+            "verdict": "SUPPORTED",
+            "comparisonCodes": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+          },
+          {
+            "id": "ADDITIVE",
+            "expectedRaw": "2",
+            "verdict": "REFUTED",
+            "comparisonCodes": "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+          }
+        ],
+        "supportedVariantIds": [
+          "REPLACEMENT"
+        ],
+        "nativeTargets": {
+          "path": "v102/captures/v102/v102-linefill-sloped-v6/native-cell-block-v1.json",
+          "bytes": 173952,
+          "sha256": "8b6126ce298a404dd505abda81bcaf9f539e604492815092a48a0781041df7d2"
+        },
+        "basis": "These exact alternatives are stated in the frozen CASE-MATRIX and request; every code resolves by row order to the original CSV pointer in the native block. No token explanation or unrelated lifecycle facet is fitted."
+      },
+      "visual": null,
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-linefill-sloped-v6:old-handle-delete-new-fill-survival",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "title": "AFTER_OLD_DELETE",
+        "variants": [
+          {
+            "id": "ALIASED_G_REMOVED",
+            "expectedRaw": "0",
+            "verdict": "SUPPORTED",
+            "comparisonCodes": "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+          },
+          {
+            "id": "INDEPENDENT_G_RETAINED",
+            "expectedRaw": "1",
+            "verdict": "REFUTED",
+            "comparisonCodes": "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+          }
+        ],
+        "supportedVariantIds": [
+          "ALIASED_G_REMOVED"
+        ],
+        "nativeTargets": {
+          "path": "v102/captures/v102/v102-linefill-sloped-v6/native-cell-block-v1.json",
+          "bytes": 173952,
+          "sha256": "8b6126ce298a404dd505abda81bcaf9f539e604492815092a48a0781041df7d2"
+        },
+        "basis": "These exact alternatives are stated in the frozen CASE-MATRIX and request; every code resolves by row order to the original CSV pointer in the native block. No token explanation or unrelated lifecycle facet is fitted."
+      },
+      "visual": null,
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

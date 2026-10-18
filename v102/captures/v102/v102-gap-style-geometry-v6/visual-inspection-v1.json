@@ -1,0 +1,187 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of this one original native v6 gap PNG; primary-cycle visibility is derived from exposed axes and exact CSV own-index rows",
+  "inspectedOriginalPngSha256": "8750f76b50141cbcbe2c2cbfec19c1d8565b58ca5a215e11f3447a4b693a73f1",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792269000,
+        "xPx": 71
+      },
+      {
+        "label": "21:00 UTC",
+        "unixSeconds": 1792270800,
+        "xPx": 161
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 901
+      },
+      {
+        "value": 100,
+        "yPx": 661
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    }
+  },
+  "facets": [
+    {
+      "caseId": "v102-gap-style-geometry-v6:phase3-4-holes-vs-bridges",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "bridge": "Continuous line/area spans the two blank phases",
+        "break": "Linebr/areabr leaves the registered two-phase gap"
+      },
+      "regions": [
+        {
+          "originalPngRectPx": [
+            0,
+            632,
+            1189,
+            925
+          ],
+          "visible": "Repeated lower blue continuous ramps, separated red ramps, orange/aqua area lanes, blue/red steps, purple segments, green dot-like marks and magenta sparse points"
+        }
+      ],
+      "notObservedCause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x."
+    },
+    {
+      "caseId": "v102-gap-style-geometry-v6:step-turn-bar-center-vs-half-bar",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "barCenter": "Vertical step at the mapped closed-bar center",
+        "halfBar": "Vertical step halfway between two mapped closed-bar centers"
+      },
+      "regions": [
+        {
+          "originalPngRectPx": [
+            0,
+            632,
+            1189,
+            925
+          ],
+          "visible": "Repeated lower blue continuous ramps, separated red ramps, orange/aqua area lanes, blue/red steps, purple segments, green dot-like marks and magenta sparse points"
+        }
+      ],
+      "notObservedCause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x."
+    },
+    {
+      "caseId": "v102-gap-style-geometry-v6:offset-plus-one-vs-zero",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "applied": "Magenta sparse point one bar right of its own black source point",
+        "ignored": "Magenta and black source points share a mapped bar center"
+      },
+      "regions": [
+        {
+          "originalPngRectPx": [
+            0,
+            632,
+            1189,
+            925
+          ],
+          "visible": "Repeated lower blue continuous ramps, separated red ramps, orange/aqua area lanes, blue/red steps, purple segments, green dot-like marks and magenta sparse points"
+        }
+      ],
+      "notObservedCause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x."
+    },
+    {
+      "caseId": "v102-gap-style-geometry-v6:dash-and-dot-with-breaks",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "applied": "Purple broken-line lane has dash gaps and green broken-step lane dot gaps",
+        "ignored": "Corresponding lanes are continuous solid strokes or lose blank-phase breaks"
+      },
+      "regions": [
+        {
+          "originalPngRectPx": [
+            0,
+            632,
+            1189,
+            925
+          ],
+          "visible": "Repeated lower blue continuous ramps, separated red ramps, orange/aqua area lanes, blue/red steps, purple segments, green dot-like marks and magenta sparse points"
+        }
+      ],
+      "notObservedCause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x."
+    }
+  ],
+  "primaryTimeEndpoints": [
+    {
+      "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+      "rowOrdinal": 5,
+      "columnOrdinal": 1,
+      "headerRaw": "time",
+      "valueRaw": "1792250880"
+    },
+    {
+      "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+      "rowOrdinal": 36,
+      "columnOrdinal": 1,
+      "headerRaw": "time",
+      "valueRaw": "1792254600"
+    }
+  ],
+  "excludedVisibleExample": {
+    "status": "OBSERVED / EXCLUDED",
+    "primaryScoringCredit": 0,
+    "cause": "Later own closed row outside the preregistered earliest four primary cycles",
+    "targets": {
+      "time": {
+        "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+        "rowOrdinal": 156,
+        "columnOrdinal": 1,
+        "headerRaw": "time",
+        "valueRaw": "1792269000"
+      },
+      "INPUT_INDEX": {
+        "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+        "rowOrdinal": 156,
+        "columnOrdinal": 18,
+        "headerRaw": "INPUT_INDEX",
+        "valueRaw": "24375"
+      },
+      "CASE_ID": {
+        "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+        "rowOrdinal": 156,
+        "columnOrdinal": 21,
+        "headerRaw": "CASE_ID",
+        "valueRaw": "7"
+      },
+      "CHART_CONFIRMED": {
+        "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+        "rowOrdinal": 156,
+        "columnOrdinal": 20,
+        "headerRaw": "CHART_CONFIRMED",
+        "valueRaw": "1"
+      },
+      "OFFSET_ZERO": {
+        "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+        "rowOrdinal": 156,
+        "columnOrdinal": 13,
+        "headerRaw": "OFFSET_ZERO",
+        "valueRaw": ""
+      },
+      "OFFSET_PLUS_ONE": {
+        "csvSha256": "4b4b1cf69049f1a0554d95cfa76ed224b4dd28b1e234c9182f6195d1aa292b66",
+        "rowOrdinal": 156,
+        "columnOrdinal": 14,
+        "headerRaw": "OFFSET_PLUS_ONE",
+        "valueRaw": ""
+      }
+    }
+  },
+  "scope": "Visible later shapes retained as observations; no primary pixel score, exact half-bar/offset claim, hidden geometry or font/raster claim."
+}

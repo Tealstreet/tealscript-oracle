@@ -1,0 +1,33 @@
+------WebKitFormBoundary4ufJMtZn14lVIYD8
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V102 gap-style-geometry v6", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+s = phase == 3 or phase == 4 ? na : 10 + phase
+area = phase == 3 or phase == 4 ? na : 35 + phase
+step = phase == 3 or phase == 4 ? na : 65 + phase
+plot(s, "LINE_CONTINUOUS", color=color.blue, linewidth=3)
+plot(s + 10, "LINE_BREAK", color=color.red, linewidth=3, style=plot.style_linebr)
+plot(area, "AREA_CONTINUOUS", color=color.new(color.orange, 40), style=plot.style_area, histbase=30)
+plot(area + 10, "AREA_BREAK", color=color.new(color.aqua, 40), style=plot.style_areabr, histbase=40)
+plot(step, "STEP_CONTINUOUS", color=color.blue, style=plot.style_stepline, linewidth=3)
+plot(step + 10, "STEP_BREAK", color=color.red, style=plot.style_steplinebr, linewidth=3)
+plot(phase == 0 ? 90 : na, "OFFSET_ZERO", color=color.black, style=plot.style_circles, linewidth=3)
+plot(phase == 0 ? 90 : na, "OFFSET_PLUS_ONE", color=color.fuchsia, style=plot.style_circles, linewidth=3, offset=1)
+plot(s + 20, "DASH_BREAK", color=color.purple, linewidth=3, style=plot.style_linebr, linestyle=plot.linestyle_dashed)
+plot(step + 20, "DOT_STEP_BREAK", color=color.green, linewidth=3, style=plot.style_steplinebr, linestyle=plot.linestyle_dotted)
+
+plot(na(s) ? 1 : 0, "HOLE_NA", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)
+
+------WebKitFormBoundary4ufJMtZn14lVIYD8--

@@ -1,0 +1,153 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of this original v6 sloped-linefill PNG: orange occupies the registered live band, the static candidate band is dark, and the separate lower G interior is dark",
+  "inspectedOriginalPngSha256": "b91e04f88fa0e65ffebce10c1f891fa41272118722d9b358afecf4252b492422",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792269000,
+        "xPx": 59
+      },
+      {
+        "label": "21:00 UTC",
+        "unixSeconds": 1792270800,
+        "xPx": 149
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 901
+      },
+      {
+        "value": 100,
+        "yPx": 661
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    },
+    "basis": "Visible native axis labels and exact source-index/time rows. Midpoint x491 derives from own anchor minus105 source indices; candidate y bands remain disjoint under the declared uncertainty."
+  },
+  "facets": [
+    {
+      "caseId": "v102-linefill-sloped-v6:sloped-both-extension-follows-endpoints",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "LIVE_TRACKING_ORANGE_BAND",
+      "refutedCandidate": "STATIC_SNAPSHOT_ORANGE_BAND",
+      "candidates": {
+        "staticSnapshot": {
+          "relativeX": -105,
+          "nativeYBand": [
+            75,
+            90
+          ],
+          "derivedPngYBand": [
+            685,
+            721
+          ]
+        },
+        "liveTracking": {
+          "relativeX": -105,
+          "nativeYBand": [
+            35,
+            55
+          ],
+          "derivedPngYBand": [
+            769,
+            817
+          ]
+        }
+      },
+      "regions": [
+        {
+          "role": "registered midpoint orange test",
+          "originalPngRectPx": [
+            484,
+            774,
+            498,
+            812
+          ],
+          "visible": "Orange band at the live-tracking coordinates, bounded by the current dark parent lines"
+        },
+        {
+          "role": "static-snapshot alternative",
+          "originalPngRectPx": [
+            484,
+            689,
+            498,
+            717
+          ],
+          "visible": "Dark chart background, without the orange fill predicted here by static geometry"
+        }
+      ],
+      "boundMidpointXPx": 491,
+      "actualIntersection": true,
+      "unoccludedControl": "At relative x-105 the original blue-G upper boundary would be20/3, below both orange candidates; it cannot explain or hide the observed live orange band.",
+      "numericNondiscriminator": "TRACK_FIRST_Y1/Y2 and TRACK_SECOND_Y1/Y2 are30/40/50/60 in both registered geometry models. Those getters are retained separately and never replace the PNG witness.",
+      "scope": "Only this retained orange single-fill pair created before four later parent mutations, on this one owned PNG. No new source, viewport, screenshot or hidden linefill geometry getter."
+    },
+    {
+      "caseId": "v102-linefill-sloped-v6:same-pair-replace-vs-add",
+      "verdict": "UNDECIDED",
+      "scope": "Appearance at the earlier pre-delete F/G count stage is not sampled by this final PNG. The separate primary numeric SAME_PAIR_COUNT1 discriminator is scored independently.",
+      "numericPrimaryExample": {
+        "csvSha256": "6d3b1425663ae6a130718d131b0e3cade58b5d1f33bc9153c9fb4270f776c521",
+        "rowOrdinal": 5,
+        "columnOrdinal": 7,
+        "headerRaw": "SAME_PAIR_COUNT",
+        "valueRaw": "1"
+      },
+      "notObservedCause": "No intermediate F/G screenshot is permitted or taken. The final orange tracking fill is a different pair and does not count original F/G fills."
+    },
+    {
+      "caseId": "v102-linefill-sloped-v6:old-handle-delete-new-fill-survival",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "NO_VISIBLE_BLUE_G_AFTER_OLD_DELETE",
+      "refutedCandidate": "INDEPENDENT_BLUE_G_VISIBLE_AFTER_OLD_DELETE",
+      "candidates": {
+        "surviving": "Blue fill between the original moved dark parent lines",
+        "removed": "No blue fill in that unoccluded band"
+      },
+      "regions": [
+        {
+          "role": "blue-G candidate interior",
+          "originalPngRectPx": [
+            970,
+            778,
+            1030,
+            804
+          ],
+          "visible": "Dark chart background between the original moved parent lines; no blue fill"
+        },
+        {
+          "role": "independent tracking control",
+          "originalPngRectPx": [
+            970,
+            711,
+            1030,
+            739
+          ],
+          "visible": "Orange fill remains visible in the separate upper band"
+        }
+      ],
+      "unoccludedControl": "Near relative x-20, blue G would occupy native y~33..63 and orange tracking~63..83. The tested lower interior is outside orange and away from thin parent strokes.",
+      "numericPrimaryExample": {
+        "csvSha256": "6d3b1425663ae6a130718d131b0e3cade58b5d1f33bc9153c9fb4270f776c521",
+        "rowOrdinal": 5,
+        "columnOrdinal": 13,
+        "headerRaw": "AFTER_OLD_DELETE",
+        "valueRaw": "0"
+      },
+      "scope": "Finite visible blue-G absence after this exact deletion, corroborated separately by the owned numeric0. No internal native handle/token identity is inferred."
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-gap-style-geometry-v6",
+  "sourceSha256": "031366b4668b982e5045e0bf0e1d828e9a92e5ed1f5b82196b3d88ed7472c8b9",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/17",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+    "bytes": 150132,
+    "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-gap-style-geometry-v6/derived-region-map-v1.json",
+    "bytes": 13261,
+    "sha256": "24590b7090d3142f8f9ae06c172ffe2788f1fe89a75957386468334f97dc85ec"
+  },
+  "cases": [
+    {
+      "caseId": "v102-gap-style-geometry-v6:phase3-4-holes-vs-bridges",
+      "verdict": "UNDECIDED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "HOLE_NA",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+              "bytes": 150132,
+              "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+            },
+            "jsonPointer": "/properties/15",
+            "cause": null
+          },
+          {
+            "title": "LINE_CONTINUOUS",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+              "bytes": 150132,
+              "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+            },
+            "jsonPointer": "/properties/6",
+            "cause": null
+          },
+          {
+            "title": "LINE_BREAK",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+              "bytes": 150132,
+              "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+            },
+            "jsonPointer": "/properties/7",
+            "cause": null
+          },
+          {
+            "title": "AREA_CONTINUOUS",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+              "bytes": 150132,
+              "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+            },
+            "jsonPointer": "/properties/8",
+            "cause": null
+          },
+          {
+            "title": "AREA_BREAK",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+              "bytes": 150132,
+              "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+            },
+            "jsonPointer": "/properties/9",
+            "cause": null
+          },
+          {
+            "title": "STEP_CONTINUOUS",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+              "bytes": 150132,
+              "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+            },
+            "jsonPointer": "/properties/10",
+            "cause": null
+          },
+          {
+            "title": "STEP_BREAK",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+              "bytes": 150132,
+              "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+            },
+            "jsonPointer": "/properties/11",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-gap-style-geometry-v6/derived-region-map-v1.json",
+          "bytes": 13261,
+          "sha256": "24590b7090d3142f8f9ae06c172ffe2788f1fe89a75957386468334f97dc85ec"
+        },
+        "jsonPointer": "/facets/0",
+        "cause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-gap-style-geometry-v6:step-turn-bar-center-vs-half-bar",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-gap-style-geometry-v6/derived-region-map-v1.json",
+          "bytes": 13261,
+          "sha256": "24590b7090d3142f8f9ae06c172ffe2788f1fe89a75957386468334f97dc85ec"
+        },
+        "jsonPointer": "/facets/1",
+        "cause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-gap-style-geometry-v6:offset-plus-one-vs-zero",
+      "verdict": "UNDECIDED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "scope": "offset-export-policy",
+        "observation": "ONLY_REGISTERED_VARIANT",
+        "supportedVariantIds": [
+          "SCREEN_ALIGNED"
+        ],
+        "artifact": {
+          "path": "v102/captures/v102/v102-gap-style-geometry-v6/numeric-results-v1.json",
+          "bytes": 150132,
+          "sha256": "0c30ada9d8c67d1a2f494bd7012116f4247fcf6e982252d6e1a8c8f0261c2382"
+        },
+        "jsonPointer": "/numericAlternatives/0",
+        "meaning": "Support identifies only a registered finite numeric alternative; NEITHER refutes this frozen family rather than erasing its contrary native outputs"
+      },
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-gap-style-geometry-v6/derived-region-map-v1.json",
+          "bytes": 13261,
+          "sha256": "24590b7090d3142f8f9ae06c172ffe2788f1fe89a75957386468334f97dc85ec"
+        },
+        "jsonPointer": "/facets/2",
+        "cause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-gap-style-geometry-v6:dash-and-dot-with-breaks",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-gap-style-geometry-v6/derived-region-map-v1.json",
+          "bytes": 13261,
+          "sha256": "24590b7090d3142f8f9ae06c172ffe2788f1fe89a75957386468334f97dc85ec"
+        },
+        "jsonPointer": "/facets/3",
+        "cause": "The four selected primary closed cycles are outside the unchanged viewport to the left. Visible later cycles are OBSERVED/EXCLUDED and supply zero primary pixel scoring credit. No navigation, resize, second screenshot or phase substitution is used. Offset raw CSV policy is separately scored and never treated as screen x.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}
