@@ -1,0 +1,112 @@
+{
+  "version": "v1",
+  "purpose": "Separate v6 exact original blue/red pixel profiles; no transferred version color or raster assumption",
+  "rowProfiles": [
+    {
+      "name": "lower8",
+      "role": "Both horizontal blue arms around this own v6 phase transition",
+      "transitionPhase": 8,
+      "xFirstPx": 402,
+      "xLastPx": 448,
+      "yPx": 841,
+      "exactStrokeSample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "upper8",
+      "role": "Both horizontal blue arms around this own v6 phase transition",
+      "transitionPhase": 8,
+      "xFirstPx": 402,
+      "xLastPx": 448,
+      "yPx": 721,
+      "exactStrokeSample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "lower24",
+      "role": "Both horizontal blue arms around this own v6 phase transition",
+      "transitionPhase": 24,
+      "xFirstPx": 726,
+      "xLastPx": 772,
+      "yPx": 841,
+      "exactStrokeSample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "upper24",
+      "role": "Both horizontal blue arms around this own v6 phase transition",
+      "transitionPhase": 24,
+      "xFirstPx": 726,
+      "xLastPx": 772,
+      "yPx": 721,
+      "exactStrokeSample": [
+        26,
+        97,
+        248
+      ]
+    }
+  ],
+  "columnProfiles": [
+    {
+      "name": "turn8",
+      "role": "Actual blue vertical stroke between both horizontal arms",
+      "transitionPhase": 8,
+      "xPx": 420,
+      "yFirstPx": 718,
+      "yLastPx": 844,
+      "exactStrokeSample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "ruler8",
+      "role": "Separate native v6 red portions above and below blue vertical",
+      "transitionPhase": 8,
+      "xPx": 431,
+      "yFirstPx": 685,
+      "yLastPx": 877,
+      "exactStrokeSample": [
+        248,
+        43,
+        64
+      ]
+    },
+    {
+      "name": "turn24",
+      "role": "Actual blue vertical stroke between both horizontal arms",
+      "transitionPhase": 24,
+      "xPx": 744,
+      "yFirstPx": 718,
+      "yLastPx": 844,
+      "exactStrokeSample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "ruler24",
+      "role": "Separate native v6 red portions above and below blue vertical",
+      "transitionPhase": 24,
+      "xPx": 755,
+      "yFirstPx": 685,
+      "yLastPx": 877,
+      "exactStrokeSample": [
+        248,
+        43,
+        64
+      ]
+    }
+  ]
+}

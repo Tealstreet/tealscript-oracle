@@ -1,0 +1,90 @@
+{
+  "version": "v1",
+  "method": "Independent original v6 PNG turn/arm/ruler inspection and own modulo32 CSV joins; v5 is not evidence for this source",
+  "inspectedOriginalPngSha256": "e995aa1d5218290be52b2bc243c692ffe19512047c5c5a0c332c3f06495d632b",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 431
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 735
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-step-turn-v6:step-location",
+      "outcome": "SUPPORTED_B",
+      "observation": "This v6 plate has up-turn blue vertical x420 and red phase8 ruler431; down-turn blue vertical744 and red phase24 ruler755. Both blue horizontal25/75 arms connect separately to their visible verticals. Both red rulers have exposed portions above/below those spans. The registered half-bar-earlier candidates contain both actual blue turns, with the center candidates separate.",
+      "actualSubjectRegionsPx": [
+        [
+          402,
+          717,
+          449,
+          846
+        ],
+        [
+          726,
+          717,
+          773,
+          846
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          430,
+          685,
+          433,
+          878
+        ],
+        [
+          754,
+          685,
+          757,
+          878
+        ]
+      ],
+      "candidateIntervalsPx": {
+        "phase8_A": [
+          428,
+          434
+        ],
+        "phase8_B": [
+          417.8666666667,
+          423.8666666667
+        ],
+        "phase24_A": [
+          752.2666666667,
+          758.2666666667
+        ],
+        "phase24_B": [
+          742.1333333333,
+          748.1333333333
+        ],
+        "policy": "This original v6 axis/CSV join and fixed combined uncertainty3; no cross-version or fitted tolerance"
+      },
+      "stepCertificatePath": "step-certificate-v1.json",
+      "occlusion": "Both actual blue verticals/arms and separate upper/lower red ruler portions are readable and inside the frozen window.",
+      "scope": "This v6 source/private/session only; older unresolved plates retain their own causes."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,18 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("v104-step-turn-v6", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float ruler8_delta = na
+var float ruler24_delta = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    r8 = line.new(bar_index - ((bar_index - 8) % 32), 10, bar_index - ((bar_index - 8) % 32), 90, color=color.red)
+    r24 = line.new(bar_index - ((bar_index - 24) % 32), 10, bar_index - ((bar_index - 24) % 32), 90, color=color.red)
+    ruler8_delta := line.get_x1(r8) - anchorIndex
+    ruler24_delta := line.get_x1(r24) - anchorIndex
+phase = bar_index % 32
+v = phase < 8 ? 25 : phase < 24 ? 75 : 25
+plot(v, "STEP", color=color.blue, linewidth=1, style=plot.style_stepline)
+plot(build ? ruler8_delta : na, "RULER8_DELTA", display=display.data_window)
+plot(build ? ruler24_delta : na, "RULER24_DELTA", display=displa
