@@ -1,0 +1,20 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V103 table-survival v5", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+var float OLD_NA = na
+var float COUNT = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = table.new(position.top_left, 1, 1, bgcolor=color.red)
+    table.cell(a, 0, 0, "A OLD", width=20, height=14, text_color=color.white)
+    b = table.new(position.middle_center, 2, 2)
+    for c = 0 to 1
+        table.cell(b, c, 0, "B TOP", width=12, height=12, text_color=color.black)
+        table.cell(b, c, 1, c == 0 ? "B LEFT" : "B RIGHT", width=12, height=12, text_color=color.black)
+    table.merge_cells(b, 0, 0, 1, 0)
+    table.set_position(b, position.top_left)

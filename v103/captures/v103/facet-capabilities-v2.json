@@ -1,0 +1,175 @@
+{
+  "version": "v2",
+  "sources": [
+    {
+      "sourceId": "v103-table-survival-v5",
+      "sourceSha256": "a2af2f370924594dc326582106b39d0282ac7ba456fc8e0421b01e8a73c5518f",
+      "numericReport": {
+        "path": "v103/captures/v103/v103-table-survival-v5/numeric-results-v1.json",
+        "bytes": 10345,
+        "sha256": "cd4758d2b5b5839b59dd6dec40bdc83f4d0d77a3e1331dbed4cc633084269e5e"
+      },
+      "facetAssessment": {
+        "path": "v103/captures/v103/v103-table-survival-v5/facet-assessment-v1.json",
+        "bytes": 3793,
+        "sha256": "47e05b4bd51b82fddfa539f01c0f04a47b9a6d0caf865ddba64a2ddb38c283de"
+      },
+      "compilerDiagnostics": {
+        "path": "v103/captures/v103/v103-table-survival-v5/compiler-diagnostics-v1.json",
+        "bytes": 390,
+        "sha256": "0132b980db903b8e51a867dda99d74e7916402a34af52c7f9fec65c5f4ab564e"
+      },
+      "visualMap": null
+    },
+    {
+      "sourceId": "v103-table-zero-auto-v5",
+      "sourceSha256": "b5ffe6d4780ae3794d154f1687b1fea9e5a7f5465a6208fb635637f48fd098a5",
+      "numericReport": {
+        "path": "v103/captures/v103/v103-table-zero-auto-v5/numeric-results-v1.json",
+        "bytes": 142826,
+        "sha256": "12a29c52cf85a240d4b9f9290a2832aa6fed00d0767d7bc82b15efb979872a55"
+      },
+      "facetAssessment": {
+        "path": "v103/captures/v103/v103-table-zero-auto-v5/facet-assessment-v1.json",
+        "bytes": 1779,
+        "sha256": "5d9eec1c43fa7f307168d2d871f2c434e7336210e6120e90a855f283617df1e6"
+      },
+      "compilerDiagnostics": {
+        "path": "v103/captures/v103/v103-table-zero-auto-v5/compiler-diagnostics-v1.json",
+        "bytes": 1592,
+        "sha256": "b3b4fd023df9a41e3b4872e123c4b05d62efb304f4fa0dde08ea903a22aa7185"
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-zero-auto-v5/derived-region-map-v1.json",
+        "bytes": 8195,
+        "sha256": "dc38ec8e946b65c47bb12af551cc834865ff28e5781f35f5b46921f55903015b"
+      }
+    }
+  ],
+  "visualFacets": [
+    {
+      "facetId": "v103-table-survival-v5:old-table-survival",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "A absent after witnessed destination replacement",
+      "modelB": "A still visible after B leaves",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.25
+        ],
+        "y": [
+          0,
+          0.22
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v5:final-relocation",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "B bottom_right survives",
+      "modelB": "final set_position ignored; B top_left",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v5:frame-background-border",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "B setter recipe matches independent C constructor",
+      "modelB": "B frame/background/border setters ignored",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v5:merged-row",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "B top row merged; lower separator survives",
+      "modelB": "B remains unmerged",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-zero-auto-v5:explicit-zero-auto",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "explicit zero auto-sizes like omitted dimensions",
+      "modelB": "explicit zero collapses the top-left subject",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.35
+        ],
+        "y": [
+          0,
+          0.35
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-zero-auto-v5/derived-region-map-v1.json",
+        "bytes": 8195,
+        "sha256": "dc38ec8e946b65c47bb12af551cc834865ff28e5781f35f5b46921f55903015b"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "maximumRegisteredFacets": 88,
+  "scope": "Returned finite facets only; no broad family PASS, transferred v5/v6 closure, engine parity or fixture promotion"
+}

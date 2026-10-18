@@ -1,0 +1,20 @@
+    OLD_NA := na(a) ? 1 : 0
+    table.set_position(b, position.bottom_right)
+    table.set_bgcolor(b, color.yellow)
+    table.set_frame_color(b, color.blue)
+    table.set_frame_width(b, 4)
+    table.set_border_color(b, color.red)
+    table.set_border_width(b, 2)
+    c = table.new(position.bottom_left, 2, 2, bgcolor=color.yellow, frame_color=color.blue, frame_width=4, border_color=color.red, border_width=2)
+    for k = 0 to 1
+        table.cell(c, k, 0, "C TOP", width=12, height=12, text_color=color.black)
+        table.cell(c, k, 1, k == 0 ? "C LEFT" : "C RIGHT", width=12, height=12, text_color=color.black)
+    table.merge_cells(c, 0, 0, 1, 0)
+    COUNT := array.size(table.all)
+
+plot(build ? OLD_NA : na, "OLD_NA", display=display.data_window)
+plot(build ? COUNT : na, "COUNT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)

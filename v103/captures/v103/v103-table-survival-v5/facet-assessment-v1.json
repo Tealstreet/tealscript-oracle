@@ -1,0 +1,116 @@
+{
+  "version": "v1",
+  "sourceId": "v103-table-survival-v5",
+  "sourceSha256": "a2af2f370924594dc326582106b39d0282ac7ba456fc8e0421b01e8a73c5518f",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-table-survival-v5/numeric-results-v1.json",
+    "bytes": 10345,
+    "sha256": "cd4758d2b5b5839b59dd6dec40bdc83f4d0d77a3e1331dbed4cc633084269e5e"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-table-survival-v5/compiler-diagnostics-v1.json",
+    "bytes": 390,
+    "sha256": "0132b980db903b8e51a867dda99d74e7916402a34af52c7f9fec65c5f4ab564e"
+  },
+  "nativeAdmission": null,
+  "facets": [
+    {
+      "facetId": "v103-table-survival-v5:old-table-survival",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "A absent after witnessed destination replacement",
+      "modelB": "A still visible after B leaves",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.25
+        ],
+        "y": [
+          0,
+          0.22
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v5:final-relocation",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "B bottom_right survives",
+      "modelB": "final set_position ignored; B top_left",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v5:frame-background-border",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "B setter recipe matches independent C constructor",
+      "modelB": "B frame/background/border setters ignored",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v5:merged-row",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "B top row merged; lower separator survives",
+      "modelB": "B remains unmerged",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

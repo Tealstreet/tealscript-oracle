@@ -1,0 +1,74 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of this original native PNG; dimensions/lifetime separated from partially overlapping legend glyphs",
+  "inspectedOriginalPngSha256": "0ef9aaca6c65977863e3278688ca434aa8db374e07d985bae68317d9e85ed1b7",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "01:30 UTC",
+        "unixSeconds": 1792287000,
+        "xPx": 89
+      },
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 179
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-table-zero-auto-v5:explicit-zero-auto",
+      "outcome": "SUPPORTED_A",
+      "observation": "The top-left explicit-zero table is a noncollapsed yellow rectangle with blue outline, of the same qualitative width/height class as the top-right omitted-dimension yellow table. The independent bottom-center aqua30%-by20% control is visibly much larger. All three survive after the retained build.",
+      "actualSubjectRegionsPx": [
+        [
+          7,
+          639,
+          108,
+          670
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          1081,
+          639,
+          1184,
+          670
+        ],
+        [
+          417,
+          858,
+          775,
+          920
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "right omitted-dimension control",
+          "literal": "SAME WORD"
+        },
+        {
+          "region": "bottom positive-dimension control",
+          "literal": "SAME WORD"
+        }
+      ],
+      "occlusion": "The native study legend partially overlaps the top-left table text. This supplies no complete left-glyph/font certificate; the nonzero box extent and boundary comparison remain identifiable.",
+      "precision": "Same-shot qualitative auto-sized versus collapsed alternative only, within preregistered window and predeclared x2/y3 uncertainty. No exact CSS/font or universal cell-size assertion."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

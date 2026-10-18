@@ -1,0 +1,39 @@
+# Oracle v103 response v2
+
+Returned 2 of29 finite source slots; 27 remain unreturned. The same one NEW layout remains reserved for the remaining independent slots. Exact native source bytes and body-only compiler transports are preserved, with zero retries/source repairs/input/settings/history variants. Native outcomes remain observations, not engine-supplied targets.
+
+| Source | Native status | Original / closed / primary rows | Private identity |
+| --- | --- | ---: | --- |
+| v103-table-survival-v5 | PRE_SAVE_EDITOR_VERIFICATION_STOP / slot consumed | UNOBSERVED | `None` / None |
+| v103-table-zero-auto-v5 | CAPTURED | 305 / 304 / 32 | `USER;70ba7bb526704aff804083d1a8afb9c2` / 1.0 |
+
+Primary selection is the unique one-time retained build anchor A>=240 and its exact own indices A−31..A inclusive, plus eight original physically closed predecessors A−39..A−32. Four rotated modulo8 cycles are required, with no phase0 start requirement, no matching-output filter and no alternate block search. Original input milliseconds equal native chart Unix seconds×1000; confirmation1 and timestamp+120<=actual export UTC independently establish closure. Real increasing timestamps need not have invented120-second continuity.
+
+Each build-event getter/state channel contributes **one closed event and31 intentional blanks**, never32 independent getter observations. The9,600-cell maximum is prospective and includes context, intent and intentional blanks. Raw CSV columns/strings/blanks/ordinals and all developing/other/predecessor rows remain whole; excluded cells have explicit causes and zero primary scoring credit.
+
+Before Save, admitted sources have bounded native editor selections, exact exposed text ranges, independent overlap/cursor/complete-character coverage and assembled full-editor bytes. Save-form line-ending normalization is separate and exact before Add. No browser evaluation, hidden model inspection or clipboard/protocol substitute is used. Consumed verification stops retain zero compiler/execution credit even when later read-only diagnostics recover their entered text.
+
+**v103-table-survival-v5**
+
+Numeric/context property statuses: `{"UNDECIDED": 10}`; 0 unique primary plot cells. [Raw pointers and frozen contracts](v103-table-survival-v5/numeric-results-v1.json), [per-facet decisions](v103-table-survival-v5/facet-assessment-v1.json), [compiler channels](v103-table-survival-v5/compiler-diagnostics-v1.json).
+- old-table-survival: **UNDECIDED** (`UNDECIDED`); No admitted/owned original PNG with independent readable control certificate.
+- final-relocation: **UNDECIDED** (`UNDECIDED`); No admitted/owned original PNG with independent readable control certificate.
+- frame-background-border: **UNDECIDED** (`UNDECIDED`); No admitted/owned original PNG with independent readable control certificate.
+- merged-row: **UNDECIDED** (`UNDECIDED`); No admitted/owned original PNG with independent readable control certificate.
+
+[Consumed pre-Save stop](v103-table-survival-v5/attempt-v1/source-entry-stop-v1.json): no Save/Add/export/PNG credit.
+
+**v103-table-zero-auto-v5**
+
+Numeric/context property statuses: `{"SUPPORTED": 9}`; 288 unique primary plot cells. [Raw pointers and frozen contracts](v103-table-zero-auto-v5/numeric-results-v1.json), [per-facet decisions](v103-table-zero-auto-v5/facet-assessment-v1.json), [compiler channels](v103-table-zero-auto-v5/compiler-diagnostics-v1.json).
+- explicit-zero-auto: **SUPPORTED** (`SUPPORTED_A`).
+
+The [DERIVED map](v103-table-zero-auto-v5/derived-region-map-v1.json) binds original PNG bytes/dimensions, source/private/session/CSV/closed anchor, native axes, fixed registered windows, pre-scoring uncertainty and actual control/occlusion observations. Unexposed font/DPI/zoom/frame metadata stay UNOBSERVED.
+
+Independent validation: **PASS**. Returned evidence contains 1 original CSVs, 1 original render PNGs, 32 primary rows and 288 unique requested primary plot cells. Returned source actions: 1 PRIVATE Saves, 1 Adds and 2 separately preserved compiler bodies. Unreturned slots are excluded from these return counts, not assigned prospective observations.
+
+Only new layout `208356754/qYNF2P38` (`oracle-v103-v1`), BINANCE:BTCUSDT2m Candles Etc/UTC. Native default Vol retained. End passive preservation awaits the remaining slots; original18 saved records and14 old-tab baselines are retained. P425PrivateV79v1 and sours-lat/P425PrivateV79v1/1: no action. Prior contexts are not edited/restored. Historical holds1/2/7/8/13/14/21 and all earlier finite limits remain held.
+
+No publication/sharing/visibility change, alerts, account/entitlement/reconnect action, import, old script overwrite, history/replay/reload/recalculation, engine fix, fixture promotion or universal parity assertion. Unexposed backend calculation/feed/frame/execution identities remain UNOBSERVED.
+
+Run `python3 v103/captures/v103/validate-evidence-v3.py 2`. [Inventory](attempt-inventory-v2.json), [numeric index](numeric-controls-v2.json), [frozen numeric contracts](numeric-contracts-v1.json), [facets](facet-capabilities-v2.json), [validation](validation-result-v2.json), [account actions](account-actions-v2.json), [integrity](artifact-integrity-v2.json) and [tooling license](CAPTURE-TOOLING-LICENSE-v2.md).
