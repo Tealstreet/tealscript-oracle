@@ -1,0 +1,128 @@
+{
+  "version": "v1",
+  "method": "Independent manual original-PNG inspection; all three complete EDGE glyphs, six side edges and same-shot center control",
+  "inspectedOriginalPngSha256": "7856cf76cebce3c9c4bdecf371d1ead818fb5d56df9e1f1ea6d2a340b8c21ab0",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "19:30 UTC",
+        "unixSeconds": 1792351800,
+        "xPx": 330
+      },
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 633
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-box-align-v5:horizontal-alignment",
+      "outcome": "SUPPORTED_A",
+      "observation": "Upper EDGE sits beside the left side, middle EDGE is centered, lower EDGE sits beside the right side of three equal-width white blue-outlined boxes. Every complete glyph and all six side edges are readable.",
+      "actualSubjectRegionsPx": [
+        [
+          350,
+          673,
+          938,
+          734
+        ],
+        [
+          350,
+          745,
+          938,
+          806
+        ],
+        [
+          350,
+          817,
+          938,
+          878
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          350,
+          673,
+          938,
+          734
+        ],
+        [
+          350,
+          745,
+          938,
+          806
+        ]
+      ],
+      "actualGlyphBoundsPx": [
+        [
+          357,
+          697,
+          408,
+          712
+        ],
+        [
+          618,
+          769,
+          668,
+          784
+        ],
+        [
+          879,
+          841,
+          929,
+          856
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "upper left control",
+          "literal": "EDGE"
+        },
+        {
+          "region": "middle center control",
+          "literal": "EDGE"
+        },
+        {
+          "region": "lower right subject",
+          "literal": "EDGE"
+        }
+      ],
+      "candidateIntervalsPx": {
+        "modelA_lowerGlyphLeft": [
+          876,
+          882
+        ],
+        "modelB_lowerGlyphLeft": [
+          354,
+          360
+        ],
+        "observed_lowerGlyphLeft": [
+          877,
+          881
+        ],
+        "middleGlyphCenter": [
+          641,
+          645
+        ]
+      },
+      "occlusion": "No study object, title, scale or floating toolbar obscures any glyph or box side.",
+      "scope": "Finite same-shot horizontal positions only; no resolved font, universal padding or glyph metric."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}
