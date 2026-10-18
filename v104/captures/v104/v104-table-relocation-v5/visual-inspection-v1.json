@@ -1,0 +1,83 @@
+{
+  "version": "v1",
+  "method": "Original full-pane corner inspection; complete subject and independent control assessed separately",
+  "inspectedOriginalPngSha256": "4de78760c5f8b41ee1f2e7160643da11099cb2f5d6e2a4c330a4b147bcb547e1",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 350
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 653
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-table-relocation-v5:final-position",
+      "outcome": "UNDECIDED",
+      "observation": "Complete MOVED appears on the blue bottom-right body. The orange bottom-left control body is visible, but its CONTROL prefix is covered by the TradingView watermark; only the ending TROL can be transcribed. A complete independent CONTROL word is mandatory, so the visible subject placement does not select a model.",
+      "actualSubjectRegionsPx": [
+        [
+          1120,
+          892,
+          1180,
+          916
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          10,
+          892,
+          87,
+          916
+        ],
+        [
+          0,
+          632,
+          297.5,
+          705.5
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "bottom-right blue subject",
+          "literal": "MOVED"
+        },
+        {
+          "region": "bottom-left orange control visible suffix",
+          "literal": "TROL",
+          "completeRequiredControl": false
+        }
+      ],
+      "occlusionRegionsPx": [
+        [
+          11,
+          897,
+          41,
+          912
+        ]
+      ],
+      "notObservedCause": "Mandatory complete CONTROL glyph string is occluded by the TradingView watermark at bottom-left. Subject position and numeric table count cannot replace that control; no source/viewport repair or second PNG.",
+      "scope": "One new v5 native admission and observed table count; no complete controlled position discriminator or older-source closure."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

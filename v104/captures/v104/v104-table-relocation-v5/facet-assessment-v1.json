@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-relocation-v5",
+  "sourceSha256": "fd160ac84d0321ca444ef3f36b24f813f470e1a524b89b0cc7b39daec72d206a",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-table-relocation-v5/numeric-results-v1.json",
+    "bytes": 142879,
+    "sha256": "2cd1b970487e33ab2fdce78c839d4400c6b1bee5db75c593ac79168a3a98cc79"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-table-relocation-v5/compiler-diagnostics-v1.json",
+    "bytes": 1595,
+    "sha256": "706c937346ae8af87e3b132a639b15650d052695681fa49151a0ee3e0d030d7b"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-table-relocation-v5:final-position",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "MOVED appears at bottom-right; CONTROL remains bottom-left",
+      "modelB": "position setter ignored: MOVED stays top-left; CONTROL remains bottom-left",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-table-relocation-v5/derived-region-map-v1.json",
+        "bytes": 8711,
+        "sha256": "f3c6644bd8b38bfe1395b2be49e8b20e8890616dc504d5c2835ec770dea7fbc8"
+      },
+      "notObservedCauses": [
+        "Mandatory complete CONTROL glyph string is occluded by the TradingView watermark at bottom-left. Subject position and numeric table count cannot replace that control; no source/viewport repair or second PNG."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
