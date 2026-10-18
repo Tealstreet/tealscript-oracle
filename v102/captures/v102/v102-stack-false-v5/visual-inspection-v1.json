@@ -1,0 +1,257 @@
+{
+  "version": "v1",
+  "method": "Manual original PNG inspection; a temporary sips crop of the same pixels was used for the first source, with no new native screenshot or modified original",
+  "inspectedOriginalPngSha256": "1de89b318f8c470f20e24b295f3cde4a56a1e0e5ac268bd73c22314637b11a0a",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "19:30 UTC",
+        "unixSeconds": 1792265400,
+        "xPx": 77
+      },
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792267200,
+        "xPx": 167
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 888
+      },
+      {
+        "value": 100,
+        "yPx": 673
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    },
+    "basis": "Native axis labels manually read from this PNG; rectangles are original PNG coordinates, not CSS units"
+  },
+  "facets": [
+    {
+      "caseId": "v102-stack-false-v5:polyline-line-forward/reverse",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "FIXED_POLYLINE_ABOVE_LINE",
+      "refutedCandidate": "GLOBAL_CREATION_ORDER",
+      "candidates": {
+        "fixed": "Same orange center above blue line in both creation directions",
+        "creation": "Blue center in y10 forward lane; orange in y25 reverse lane"
+      },
+      "regions": [
+        {
+          "laneY": 10,
+          "originalPngRectPx": [
+            400,
+            860,
+            600,
+            874
+          ],
+          "visible": "Orange polyline across the blue-line intersection"
+        },
+        {
+          "laneY": 25,
+          "originalPngRectPx": [
+            400,
+            827,
+            600,
+            842
+          ],
+          "visible": "Orange polyline across the reverse-order blue-line intersection"
+        }
+      ],
+      "control": "Both blue lines are narrower than the orange strokes in the exact retained source. The broad orange centers remain the visible top surface in both directions; no generic group-completeness claim."
+    },
+    {
+      "caseId": "v102-stack-false-v5:polyline-box-forward/reverse",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "FIXED_BOX_ABOVE_POLYLINE",
+      "refutedCandidate": "GLOBAL_CREATION_ORDER",
+      "candidates": {
+        "fixed": "Aqua box covers orange center in both lanes",
+        "creation": "Aqua y40 forward, orange y55 reverse"
+      },
+      "regions": [
+        {
+          "laneY": 40,
+          "originalPngRectPx": [
+            400,
+            797,
+            600,
+            807
+          ],
+          "visible": "Aqua rectangle interrupts the orange lane"
+        },
+        {
+          "laneY": 55,
+          "originalPngRectPx": [
+            400,
+            765,
+            600,
+            775
+          ],
+          "visible": "Aqua rectangle also interrupts the reverse-order orange lane"
+        }
+      ],
+      "unoccludedControlRegionsPx": [
+        [
+          100,
+          797,
+          180,
+          807
+        ],
+        [
+          100,
+          765,
+          180,
+          775
+        ]
+      ],
+      "control": "Orange resumes outside each box span; actual overlapping center regions discriminate the two candidates."
+    },
+    {
+      "caseId": "v102-stack-false-v5:polyline-label-forward/reverse",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "fixed": "Purple label above orange in both directions",
+        "creation": "Purple forward lane; orange reverse lane"
+      },
+      "visibleTextLiterals": [
+        "LABEL70",
+        "LABEL85"
+      ],
+      "regions": [
+        {
+          "laneY": 70,
+          "originalPngRectPx": [
+            727,
+            728,
+            796,
+            752
+          ],
+          "visible": "Purple LABEL70 interrupts the orange forward lane; both candidates permit this"
+        },
+        {
+          "laneY": 85,
+          "originalPngRectPx": [
+            727,
+            695,
+            796,
+            718
+          ],
+          "visible": "Purple LABEL85 is readable above magenta background"
+        }
+      ],
+      "notObservedCause": "At y85 the polyline center is already occluded by the opaque extended magenta box at82..88. Remaining edge pixels lie within coordinate uncertainty; LABEL85 does not independently certify its order against that hidden center."
+    },
+    {
+      "caseId": "v102-stack-false-v5:table-actual-intersections",
+      "verdict": "UNDECIDED",
+      "visibleTextLiterals": [
+        "TABLE"
+      ],
+      "tableRegionPx": [
+        887,
+        642,
+        1180,
+        712
+      ],
+      "subproperties": [
+        {
+          "subject": "extended magenta box",
+          "verdict": "SUPPORTED",
+          "supportedCandidate": "TABLE_ABOVE_BOX",
+          "oppositeCandidate": "BOX_ABOVE_TABLE",
+          "actualIntersection": true,
+          "subjectControlRegionPx": [
+            820,
+            703,
+            860,
+            708
+          ],
+          "tableOverlapRegionPx": [
+            940,
+            703,
+            980,
+            708
+          ],
+          "visible": "Magenta outside the table; white table surface at the same intersecting band"
+        },
+        {
+          "subject": "red late fill",
+          "verdict": "SUPPORTED",
+          "supportedCandidate": "TABLE_ABOVE_FILL",
+          "oppositeCandidate": "FILL_ABOVE_TABLE",
+          "actualIntersection": true,
+          "subjectControlRegionPx": [
+            820,
+            685,
+            860,
+            691
+          ],
+          "tableOverlapRegionPx": [
+            940,
+            685,
+            980,
+            691
+          ],
+          "visible": "Red fill outside the table; white TABLE surface covers that broad fill region"
+        },
+        {
+          "subject": "polyline85",
+          "verdict": "UNDECIDED",
+          "actualIntersection": true,
+          "cause": "Polyline center already obscured by magenta box; no independent table/polyline witness"
+        },
+        {
+          "subject": "LABEL70 and LABEL85",
+          "verdict": "UNDECIDED",
+          "actualIntersection": false,
+          "cause": "Label rectangles end near x796; table starts near x887"
+        },
+        {
+          "subject": "BLUE_PLOT55 and GREEN_HLINE55",
+          "verdict": "UNDECIDED",
+          "actualIntersection": false,
+          "cause": "Their y55 band near y770 is below the table bottom near y712"
+        },
+        {
+          "subject": "black line90 / yellow linefill exposed edge",
+          "verdict": "UNDECIDED",
+          "actualIntersection": true,
+          "cause": "Only a narrow edge remains between the red and magenta regions outside the table; individual black-line/yellow-fill identity and boundaries do not exceed the declared y uncertainty"
+        },
+        {
+          "subject": "gray SCALE_HUNDRED plot",
+          "verdict": "UNDECIDED",
+          "actualIntersection": true,
+          "cause": "The thin gray trace coincides with the native100 grid; no independently identifiable plot control"
+        }
+      ],
+      "scope": "Only named unoccluded actual intersections are supported. No all-nine-group completeness."
+    },
+    {
+      "caseId": "v102-stack-false-v5:explicit-plot-control",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "DEFAULT_PLOT_HLINE_ABOVE_LATE_FILL",
+      "refutedCandidate": "LATE_FILL_CALL_ORDER_AT_THIS_OVERLAP",
+      "originalPngRectPx": [
+        4,
+        764,
+        30,
+        776
+      ],
+      "visible": "Blue plot band and narrower green hline are visible over the red fill in the closed-series overlap",
+      "control": "Region is left of the orange retained-object span. Future right-margin hline beyond the last fill bar is excluded; the numeric EXPLICIT_INTENT is not used as a pixel witness."
+    }
+  ]
+}

@@ -1,0 +1,3033 @@
+{
+  "version": "v1",
+  "sourceId": "v102-stack-true-v5",
+  "sourceSha256": "327783d13beae93feb22ee7d04515507bfad68f8a385f2391b90c7ef909f4b91",
+  "pineVersion": 5,
+  "family": "stack-true",
+  "sourceObservation": {
+    "version": "v1",
+    "sourceId": "v102-stack-true-v5",
+    "sourceSha256": "327783d13beae93feb22ee7d04515507bfad68f8a385f2391b90c7ef909f4b91",
+    "pineVersion": 5,
+    "requested": {
+      "path": "v102/sources/v102-stack-true-v5.pine",
+      "bytes": 3196,
+      "sha256": "327783d13beae93feb22ee7d04515507bfad68f8a385f2391b90c7ef909f4b91"
+    },
+    "executed": {
+      "path": "v102/captures/v102/v102-stack-true-v5/attempt-v1/executed-v1.pine",
+      "bytes": 3196,
+      "sha256": "327783d13beae93feb22ee7d04515507bfad68f8a385f2391b90c7ef909f4b91"
+    },
+    "sourceForm": {
+      "path": "v102/captures/v102/v102-stack-true-v5/attempt-v1/save-request-v1.txt",
+      "bytes": 3378,
+      "sha256": "c20928b2f212401e9767826fe5a18247e5f46ca93c5d895c9057654330497b46"
+    },
+    "saveBody": {
+      "path": "v102/captures/v102/v102-stack-true-v5/attempt-v1/save-response-v1.json",
+      "bytes": 23400,
+      "sha256": "6af47560b09b875071728f7cbdc0d1da2f45f61d250ffbaf144b3cf13c74acd3"
+    },
+    "addBody": {
+      "path": "v102/captures/v102/v102-stack-true-v5/attempt-v1/add-response-v1.json",
+      "bytes": 23400,
+      "sha256": "d88cf3dd51f9adc607ff00c4fa894fc9c2ddf9537f47d3550107e7d3374c5704"
+    },
+    "nativeCompileSuccess": true,
+    "privateScriptId": "USER;6e1ff67efd9b4152a2c5cd59e1b25c52",
+    "privateVersion": "1.0",
+    "nativeLayoutId": 208336917,
+    "nativeLayoutImage": "sBNBtre2",
+    "receipt": {
+      "path": "v102/captures/v102/v102-stack-true-v5/attempt-v1/capture-receipt-v1.json",
+      "bytes": 2652,
+      "sha256": "9de0ba540ef05878fca38b49a646d54a565e8fd7f90f9485af827b998dacf956"
+    },
+    "editorMarkerArrays": null,
+    "editorMarkerStatus": "UNOBSERVED; separate native immediate/settled UI retained",
+    "settings": "BINANCE:BTCUSDT2m Candles Etc/UTC; one unchanged new-layout session",
+    "sourceSpecificExecutionId": null,
+    "sourceSpecificExecutionIdStatus": "UNOBSERVED"
+  },
+  "nativeBlock": {
+    "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+    "bytes": 115300,
+    "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+  },
+  "primaryInputCertificateValid": true,
+  "primaryRows": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "properties": [
+    {
+      "title": "SCALE_ZERO",
+      "sourcePlotOrdinal": 10,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/0",
+      "expectedRawByPhase": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/0/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/1/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/2/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/3/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/4/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/5/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/6/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/7/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/8/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/9/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/10/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/11/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/12/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/13/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/14/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/15/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/16/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/17/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/18/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/19/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/20/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/21/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/22/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/23/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/24/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/25/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/26/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/27/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/28/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/29/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/30/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/31/cells/SCALE_ZERO",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "0": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "SCALE_HUNDRED",
+      "sourcePlotOrdinal": 11,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/1",
+      "expectedRawByPhase": [
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/0/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/1/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/2/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/3/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/4/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/5/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/6/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/7/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/8/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/9/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/10/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/11/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/12/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/13/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/14/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/15/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/16/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/17/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/18/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/19/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/20/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/21/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/22/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/23/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/24/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/25/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/26/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/27/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/28/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/29/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/30/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "100",
+          "actualPointer": "/rows/31/cells/SCALE_HUNDRED",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "100": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "CHART_CONFIRMED",
+      "sourcePlotOrdinal": 6,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/2",
+      "expectedRawByPhase": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/0/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/1/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/2/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/3/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/4/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/5/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/6/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/7/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/8/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/9/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/10/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/11/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/12/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/13/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/14/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/15/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/16/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/17/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/18/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/19/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/20/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/21/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/22/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/23/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/24/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/25/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/26/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/27/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/28/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/29/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/30/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/31/cells/CHART_CONFIRMED",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "1": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "VISUAL_ANCHOR_TIME",
+      "sourcePlotOrdinal": 8,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/3",
+      "expectedRawByPhase": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/0/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/1/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/2/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/3/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/4/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/5/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/6/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/7/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/8/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/9/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/10/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/11/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/12/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/13/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/14/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/15/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/16/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/17/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/18/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/19/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/20/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/21/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/22/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/23/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/24/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/25/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/26/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/27/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/28/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/29/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/30/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/31/cells/VISUAL_ANCHOR_TIME",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "VISUAL_ANCHOR_INDEX",
+      "sourcePlotOrdinal": 9,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/4",
+      "expectedRawByPhase": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/0/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/1/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/2/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/3/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/4/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/5/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/6/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/7/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/8/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/9/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/10/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/11/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/12/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/13/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/14/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/15/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/16/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/17/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/18/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/19/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/20/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/21/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/22/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/23/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "",
+          "actualPointer": "/rows/24/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "",
+          "actualPointer": "/rows/25/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "",
+          "actualPointer": "/rows/26/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "",
+          "actualPointer": "/rows/27/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "",
+          "actualPointer": "/rows/28/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "",
+          "actualPointer": "/rows/29/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "",
+          "actualPointer": "/rows/30/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "",
+          "actualPointer": "/rows/31/cells/VISUAL_ANCHOR_INDEX",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "BLUE_PLOT",
+      "sourcePlotOrdinal": 0,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/5",
+      "expectedRawByPhase": [
+        "55",
+        "55",
+        "55",
+        "55",
+        "55",
+        "55",
+        "55",
+        "55"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/0/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/1/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/2/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/3/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/4/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/5/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/6/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/7/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/8/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/9/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/10/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/11/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/12/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/13/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/14/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/15/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/16/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/17/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/18/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/19/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/20/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/21/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/22/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/23/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/24/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/25/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/26/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/27/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/28/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/29/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/30/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "55",
+          "actualPointer": "/rows/31/cells/BLUE_PLOT",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "55": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "FILL_TOP",
+      "sourcePlotOrdinal": 1,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/6",
+      "expectedRawByPhase": [
+        "95",
+        "95",
+        "95",
+        "95",
+        "95",
+        "95",
+        "95",
+        "95"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/0/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/1/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/2/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/3/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/4/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/5/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/6/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/7/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/8/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/9/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/10/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/11/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/12/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/13/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/14/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/15/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/16/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/17/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/18/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/19/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/20/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/21/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/22/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/23/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/24/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/25/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/26/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/27/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/28/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/29/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/30/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "95",
+          "actualPointer": "/rows/31/cells/FILL_TOP",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "95": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "FILL_BOTTOM",
+      "sourcePlotOrdinal": 2,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/7",
+      "expectedRawByPhase": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/0/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/1/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/2/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/3/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/4/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/5/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/6/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/7/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/8/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/9/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/10/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/11/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/12/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/13/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/14/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/15/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/16/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/17/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/18/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/19/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/20/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/21/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/22/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/23/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/24/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/25/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/26/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/27/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/28/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/29/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/30/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/31/cells/FILL_BOTTOM",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "5": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "EXPLICIT_INTENT",
+      "sourcePlotOrdinal": 3,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/8",
+      "expectedRawByPhase": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/0/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/1/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/2/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/3/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/4/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/5/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/6/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/7/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/8/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/9/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/10/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/11/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/12/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/13/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/14/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/15/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/16/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/17/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/18/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/19/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/20/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/21/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/22/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/23/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/24/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/25/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/26/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/27/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/28/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/29/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/30/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/31/cells/EXPLICIT_INTENT",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "1": 32
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": true,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    },
+    {
+      "title": "CASE_ID",
+      "sourcePlotOrdinal": 7,
+      "contractArtifact": {
+        "path": "v102/captures/v102/numeric-contracts-v1.json",
+        "bytes": 167992,
+        "sha256": "c69ab56b4bd8c413a5658ff1ca4739cde9488942e095c2c44cb371261d29b6b2"
+      },
+      "contractPointer": "/sources/1/contracts/9",
+      "expectedRawByPhase": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "nativeTargets": {
+        "path": "v102/captures/v102/v102-stack-true-v5/native-cell-block-v1.json",
+        "bytes": 115300,
+        "sha256": "55ac3d8fbf3fbce3b0a47bf2aa6dc548387905ad2053f003a98c74f5ec0549d2"
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 5,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/0/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 6,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/1/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 7,
+          "phase": 2,
+          "expectedRaw": "2",
+          "actualPointer": "/rows/2/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 8,
+          "phase": 3,
+          "expectedRaw": "3",
+          "actualPointer": "/rows/3/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 9,
+          "phase": 4,
+          "expectedRaw": "4",
+          "actualPointer": "/rows/4/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 10,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/5/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 11,
+          "phase": 6,
+          "expectedRaw": "6",
+          "actualPointer": "/rows/6/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 12,
+          "phase": 7,
+          "expectedRaw": "7",
+          "actualPointer": "/rows/7/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 13,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/8/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 14,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/9/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 15,
+          "phase": 2,
+          "expectedRaw": "2",
+          "actualPointer": "/rows/10/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 16,
+          "phase": 3,
+          "expectedRaw": "3",
+          "actualPointer": "/rows/11/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 17,
+          "phase": 4,
+          "expectedRaw": "4",
+          "actualPointer": "/rows/12/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 18,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/13/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 19,
+          "phase": 6,
+          "expectedRaw": "6",
+          "actualPointer": "/rows/14/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 20,
+          "phase": 7,
+          "expectedRaw": "7",
+          "actualPointer": "/rows/15/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 21,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/16/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 22,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/17/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 23,
+          "phase": 2,
+          "expectedRaw": "2",
+          "actualPointer": "/rows/18/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 24,
+          "phase": 3,
+          "expectedRaw": "3",
+          "actualPointer": "/rows/19/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 25,
+          "phase": 4,
+          "expectedRaw": "4",
+          "actualPointer": "/rows/20/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 26,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/21/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 27,
+          "phase": 6,
+          "expectedRaw": "6",
+          "actualPointer": "/rows/22/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 28,
+          "phase": 7,
+          "expectedRaw": "7",
+          "actualPointer": "/rows/23/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 29,
+          "phase": 0,
+          "expectedRaw": "0",
+          "actualPointer": "/rows/24/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 30,
+          "phase": 1,
+          "expectedRaw": "1",
+          "actualPointer": "/rows/25/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 31,
+          "phase": 2,
+          "expectedRaw": "2",
+          "actualPointer": "/rows/26/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 32,
+          "phase": 3,
+          "expectedRaw": "3",
+          "actualPointer": "/rows/27/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 33,
+          "phase": 4,
+          "expectedRaw": "4",
+          "actualPointer": "/rows/28/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 34,
+          "phase": 5,
+          "expectedRaw": "5",
+          "actualPointer": "/rows/29/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 35,
+          "phase": 6,
+          "expectedRaw": "6",
+          "actualPointer": "/rows/30/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        },
+        {
+          "rowOrdinal": 36,
+          "phase": 7,
+          "expectedRaw": "7",
+          "actualPointer": "/rows/31/cells/CASE_ID",
+          "cellVerdict": "S",
+          "cause": null
+        }
+      ],
+      "observedRawCounts": {
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4,
+        "7": 4
+      },
+      "comparisonCounts": {
+        "S": 32
+      },
+      "verdict": "SUPPORTED",
+      "intentOnly": false,
+      "scope": "Numeric/blank source contract only; intent/getter never establishes appearance or hidden object identity"
+    }
+  ],
+  "numericAlternatives": [],
+  "observedWithoutPrediction": [],
+  "renderAssessment": {
+    "path": "v102/captures/v102/v102-stack-true-v5/derived-region-map-v1.json",
+    "bytes": 16082,
+    "sha256": "631d031c2bd2d19d45406fe2dcc94745e31a58a0375c3b69254035048dbd130e"
+  },
+  "renderAssessmentStatus": "DERIVED / original PNG inspection bound separately",
+  "dynamicContext": "Independent source INPUT_INDEX/INPUT_TIME, confirmation, phase and anchor/predecessor certificate; no absolute rebased-index parity claim",
+  "uniquePrimaryPlotCells": 384,
+  "scope": "Native numeric getters, blanks and intent codes remain separate from original PNG appearance. No engine expected values, output filter, tolerance, hidden field, cross-version borrowing or historical-hold closure"
+}
