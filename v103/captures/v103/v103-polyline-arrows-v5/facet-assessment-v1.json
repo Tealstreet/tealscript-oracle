@@ -1,0 +1,176 @@
+{
+  "version": "v1",
+  "sourceId": "v103-polyline-arrows-v5",
+  "sourceSha256": "a906d3427ad4b510df4a23e07591045ebffecd1b317e438cf4a7bc125475cb3c",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-polyline-arrows-v5/numeric-results-v1.json",
+    "bytes": 190287,
+    "sha256": "5f003e4030de1676055031a984e23011c3d390aec6ea68f2368128cc6c799363"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-polyline-arrows-v5/compiler-diagnostics-v1.json",
+    "bytes": 1592,
+    "sha256": "23167cec7d34963e0f6a8af78c8685d065f8818c5b552040976cbe5d2356b9d7"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_left-head-topology",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "open chevrons at requested endpoint(s)",
+      "modelB": "filled triangular heads at the same endpoint(s)",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -92,
+          -8
+        ],
+        "y": [
+          12,
+          28
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-arrows-v5/derived-region-map-v1.json",
+        "bytes": 20807,
+        "sha256": "152ff5875e00ee9d9f859fcbec462a5a21268ea889d1fc01b12bee9b46836673"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_left-endpoint",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "head only at first point",
+      "modelB": "head only at opposite endpoint",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -92,
+          -8
+        ],
+        "y": [
+          12,
+          28
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-arrows-v5/derived-region-map-v1.json",
+        "bytes": 20807,
+        "sha256": "152ff5875e00ee9d9f859fcbec462a5a21268ea889d1fc01b12bee9b46836673"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_right-head-topology",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "open chevrons at requested endpoint(s)",
+      "modelB": "filled triangular heads at the same endpoint(s)",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -92,
+          -8
+        ],
+        "y": [
+          42,
+          58
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-arrows-v5/derived-region-map-v1.json",
+        "bytes": 20807,
+        "sha256": "152ff5875e00ee9d9f859fcbec462a5a21268ea889d1fc01b12bee9b46836673"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_right-endpoint",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "head only at last point",
+      "modelB": "head only at opposite endpoint",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -92,
+          -8
+        ],
+        "y": [
+          42,
+          58
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-arrows-v5/derived-region-map-v1.json",
+        "bytes": 20807,
+        "sha256": "152ff5875e00ee9d9f859fcbec462a5a21268ea889d1fc01b12bee9b46836673"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_both-head-topology",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "open chevrons at requested endpoint(s)",
+      "modelB": "filled triangular heads at the same endpoint(s)",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -92,
+          -8
+        ],
+        "y": [
+          72,
+          88
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-arrows-v5/derived-region-map-v1.json",
+        "bytes": 20807,
+        "sha256": "152ff5875e00ee9d9f859fcbec462a5a21268ea889d1fc01b12bee9b46836673"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:both-heads-present",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "two heads, one at each endpoint",
+      "modelB": "neither endpoint has a head",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -92,
+          -8
+        ],
+        "y": [
+          72,
+          88
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-arrows-v5/derived-region-map-v1.json",
+        "bytes": 20807,
+        "sha256": "152ff5875e00ee9d9f859fcbec462a5a21268ea889d1fc01b12bee9b46836673"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

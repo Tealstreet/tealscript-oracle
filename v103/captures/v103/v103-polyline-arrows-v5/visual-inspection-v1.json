@@ -1,0 +1,275 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original v5 polyline.new three-lane PNG, each frozen topology/endpoint model tested separately",
+  "inspectedOriginalPngSha256": "5c47508334cd560f4a2fca403c526b97e4b9d50eeb60dd417ae353bd91eb93e1",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 71
+      },
+      {
+        "label": "03:30 UTC",
+        "unixSeconds": 1792294200,
+        "xPx": 161
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_left-head-topology",
+      "outcome": "SUPPORTED_A",
+      "observation": "The lower lane has a large open blue chevron at its first point around(611,853); the interior wedge is dark, not a filled blue triangle.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          831,
+          634,
+          875
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "All six endpoint neighborhoods and complete three-point shafts are on screen, separated by lane, with no third subject or clipping. Open dark interiors and absent opposite heads are directly readable.",
+      "precision": "Chevron spans and dark wedge interiors substantially exceed fixed x2/y3/stroke1 uncertainty. Exact native head length, angle, stroke antialiasing and universal raster remain unclaimed.",
+      "scope": "Only this admitted v5 polyline.new API/source and requested left/right/both classes. No transfer from line.new or v6, and no advance engine/PR parity assertion."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_left-endpoint",
+      "outcome": "SUPPORTED_A",
+      "observation": "The lower-lane head is present only at first/left x611. The final/right x1031 endpoint is a plain shaft end, with its neighborhood unobscured.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          831,
+          634,
+          875
+        ],
+        [
+          1007,
+          831,
+          1053,
+          875
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "All six endpoint neighborhoods and complete three-point shafts are on screen, separated by lane, with no third subject or clipping. Open dark interiors and absent opposite heads are directly readable.",
+      "precision": "Chevron spans and dark wedge interiors substantially exceed fixed x2/y3/stroke1 uncertainty. Exact native head length, angle, stroke antialiasing and universal raster remain unclaimed.",
+      "scope": "Only this admitted v5 polyline.new API/source and requested left/right/both classes. No transfer from line.new or v6, and no advance engine/PR parity assertion."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_right-head-topology",
+      "outcome": "SUPPORTED_A",
+      "observation": "The middle lane ends in an open blue chevron around(1031,781), with a clearly dark interior rather than a filled triangle.",
+      "actualSubjectRegionsPx": [
+        [
+          1007,
+          759,
+          1034,
+          803
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "All six endpoint neighborhoods and complete three-point shafts are on screen, separated by lane, with no third subject or clipping. Open dark interiors and absent opposite heads are directly readable.",
+      "precision": "Chevron spans and dark wedge interiors substantially exceed fixed x2/y3/stroke1 uncertainty. Exact native head length, angle, stroke antialiasing and universal raster remain unclaimed.",
+      "scope": "Only this admitted v5 polyline.new API/source and requested left/right/both classes. No transfer from line.new or v6, and no advance engine/PR parity assertion."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_right-endpoint",
+      "outcome": "SUPPORTED_A",
+      "observation": "The middle-lane head is present only at last/right x1031. The first/left x611 endpoint is a plain shaft end.",
+      "actualSubjectRegionsPx": [
+        [
+          589,
+          759,
+          635,
+          803
+        ],
+        [
+          1007,
+          759,
+          1034,
+          803
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "All six endpoint neighborhoods and complete three-point shafts are on screen, separated by lane, with no third subject or clipping. Open dark interiors and absent opposite heads are directly readable.",
+      "precision": "Chevron spans and dark wedge interiors substantially exceed fixed x2/y3/stroke1 uncertainty. Exact native head length, angle, stroke antialiasing and universal raster remain unclaimed.",
+      "scope": "Only this admitted v5 polyline.new API/source and requested left/right/both classes. No transfer from line.new or v6, and no advance engine/PR parity assertion."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:arrow_both-head-topology",
+      "outcome": "SUPPORTED_A",
+      "observation": "The upper lane has an open blue chevron at each endpoint near(611,709) and(1031,709). Both wedge interiors are dark and readable, not filled blue triangles.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          687,
+          634,
+          731
+        ],
+        [
+          1007,
+          687,
+          1034,
+          731
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "All six endpoint neighborhoods and complete three-point shafts are on screen, separated by lane, with no third subject or clipping. Open dark interiors and absent opposite heads are directly readable.",
+      "precision": "Chevron spans and dark wedge interiors substantially exceed fixed x2/y3/stroke1 uncertainty. Exact native head length, angle, stroke antialiasing and universal raster remain unclaimed.",
+      "scope": "Only this admitted v5 polyline.new API/source and requested left/right/both classes. No transfer from line.new or v6, and no advance engine/PR parity assertion."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v5:both-heads-present",
+      "outcome": "SUPPORTED_A",
+      "observation": "The upper lane has two distinct visible heads, one at each endpoint, connected through the same three-point blue shaft. The neither-head countermodel is contradicted.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          687,
+          634,
+          731
+        ],
+        [
+          1007,
+          687,
+          1034,
+          731
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "All six endpoint neighborhoods and complete three-point shafts are on screen, separated by lane, with no third subject or clipping. Open dark interiors and absent opposite heads are directly readable.",
+      "precision": "Chevron spans and dark wedge interiors substantially exceed fixed x2/y3/stroke1 uncertainty. Exact native head length, angle, stroke antialiasing and universal raster remain unclaimed.",
+      "scope": "Only this admitted v5 polyline.new API/source and requested left/right/both classes. No transfer from line.new or v6, and no advance engine/PR parity assertion."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,36 @@
+------WebKitFormBoundary0HjbD6l752pAfztq
+Content-Disposition: form-data; name="source"
+
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V103 polyline-arrows v5", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+var float COUNT = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    pts_arrow_left = array.from(chart.point.from_index(bar_index - 85, 20), chart.point.from_index(bar_index - 50, 25), chart.point.from_index(bar_index - 15, 20))
+    polyline.new(pts_arrow_left, curved=false, closed=false, line_color=color.blue, line_style=line.style_arrow_left, line_width=4)
+    pts_arrow_right = array.from(chart.point.from_index(bar_index - 85, 50), chart.point.from_index(bar_index - 50, 55), chart.point.from_index(bar_index - 15, 50))
+    polyline.new(pts_arrow_right, curved=false, closed=false, line_color=color.blue, line_style=line.style_arrow_right, line_width=4)
+    pts_arrow_both = array.from(chart.point.from_index(bar_index - 85, 80), chart.point.from_index(bar_index - 50, 85), chart.point.from_index(bar_index - 15, 80))
+    polyline.new(pts_arrow_both, curved=false, closed=false, line_color=color.blue, line_style=line.style_arrow_both, line_width=4)
+    COUNT := array.size(polyline.all)
+
+plot(4, "WIDTH_INTENT", display=display.data_window)
+plot(-85, "LEFT_X_INTENT", display=display.data_window)
+plot(-15, "RIGHT_X_INTENT", display=display.data_window)
+plot(build ? COUNT : na, "COUNT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
+
+------WebKitFormBoundary0HjbD6l752pAfztq--
