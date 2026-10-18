@@ -1,0 +1,84 @@
+{
+  "version": "v1",
+  "method": "Independent original v6 table/box PNG inspection, including both outside parts of the same extended orange box band",
+  "inspectedOriginalPngSha256": "833235a8dcadb4de5cc9d56f9e657fe0a4d370d8f53bcba24bbd03d61b518ec8",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "01:30 UTC",
+        "unixSeconds": 1792287000,
+        "xPx": 17
+      },
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 107
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-table-over-box-v6:actual-single-subject-overlap",
+      "outcome": "SUPPORTED_A",
+      "observation": "Blue table covers the registered interior of the orange extended-box band at native y36..44. The same orange filled band and edges remain visible outside both table sides. TABLE glyph lies above the tested strip.",
+      "actualSubjectRegionsPx": [
+        [
+          701,
+          793,
+          1031,
+          817
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          0,
+          794,
+          127,
+          818
+        ],
+        [
+          1063,
+          794,
+          1190,
+          818
+        ]
+      ],
+      "actualTableBoundsPx": [
+        127,
+        683,
+        1063,
+        875
+      ],
+      "actualIntersectionsPx": [
+        [
+          701,
+          795,
+          1031,
+          817
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "table center, away from tested strip",
+          "literal": "TABLE"
+        }
+      ],
+      "occlusion": "No third opaque subject covers this isolated pair. Orange source strokes are visible outside both table sides; absence within is not inferred from source intent alone.",
+      "scope": "Only this independent v6 table/box ordering pair; no exact percentage/CSS geometry, other-group/version or universal ordering claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

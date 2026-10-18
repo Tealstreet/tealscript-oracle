@@ -1,0 +1,12 @@
+    t = table.new(position.middle_center, 1, 1, bgcolor=color.blue)
+    table.cell(t, 0, 0, "TABLE", width=80, height=8, text_color=color.white, text_size=10, text_halign=text.align_left, bgcolor=color.blue)
+    label.new(bar_index - 40, 50, "MMMMMM\nMMMMMM\nMMMMMM", style=label.style_label_center, color=color.orange, textcolor=color.black, size=size.huge)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)

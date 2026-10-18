@@ -1,0 +1,84 @@
+{
+  "version": "v1",
+  "method": "Independent original v6 table/linefill PNG inspection; both outside parts of the same orange fill band are visible",
+  "inspectedOriginalPngSha256": "798f5ee17b75a191c7955d3a04af925432cb755fa795ec11a07ebda475a9b6e4",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 95
+      },
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 185
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-table-over-linefill-v6:actual-single-subject-overlap",
+      "outcome": "SUPPORTED_A",
+      "observation": "The opaque blue table covers the orange linefill band through the fixed y35..45 test window. That same orange band is visible outside both table sides. Its transparent parent lines are geometry dependencies and do not occlude the test.",
+      "actualSubjectRegionsPx": [
+        [
+          701,
+          793,
+          1031,
+          817
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          0,
+          794,
+          127,
+          817
+        ],
+        [
+          1063,
+          794,
+          1190,
+          817
+        ]
+      ],
+      "actualTableBoundsPx": [
+        127,
+        683,
+        1063,
+        875
+      ],
+      "actualIntersectionsPx": [
+        [
+          701,
+          795,
+          1031,
+          816
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "table center, away from tested strip",
+          "literal": "TABLE"
+        }
+      ],
+      "occlusion": "No third opaque subject covers this isolated pair. Orange source strokes are visible outside both table sides; absence within is not inferred from source intent alone.",
+      "scope": "This isolated v6 table/linefill ordering pair only. Transparent parents are not additional opaque subjects; no other group/version, color-compositing law or exact percentage/CSS claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

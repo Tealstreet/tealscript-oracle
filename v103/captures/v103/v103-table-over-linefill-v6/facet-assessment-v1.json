@@ -1,0 +1,56 @@
+{
+  "version": "v1",
+  "sourceId": "v103-table-over-linefill-v6",
+  "sourceSha256": "240def69b5799c1f20be1aee5b1a0ee832dfcaf777b9644df10195d90596d83c",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-table-over-linefill-v6/numeric-results-v1.json",
+    "bytes": 126000,
+    "sha256": "0d67fee3c7a9bc3dcccb3a997cdaa8a3c698ef5d15766d246426d3f4494f6af5"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-table-over-linefill-v6/compiler-diagnostics-v1.json",
+    "bytes": 1604,
+    "sha256": "3a22c3a4444fc9a3deb249e7cf747a9199b0b1968e50ca28325ae7d6388ef28b"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-table-over-linefill-v6:actual-single-subject-overlap",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "opaque blue table covers the subject at its own registered intersection",
+      "modelB": "subject paints above blue table",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -70,
+          -15
+        ],
+        "y": [
+          35,
+          45
+        ],
+        "paddingPx": 2,
+        "intersectPaneFractions": {
+          "x": [
+            0.12,
+            0.88
+          ],
+          "y": [
+            0.2,
+            0.8
+          ]
+        }
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-over-linefill-v6/derived-region-map-v1.json",
+        "bytes": 8477,
+        "sha256": "79261bb587a1d298434f491193a87801df3f067aefd6684fc22be90cbb0af383"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

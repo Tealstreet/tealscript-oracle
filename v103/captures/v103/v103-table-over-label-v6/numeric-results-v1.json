@@ -1,0 +1,3716 @@
+{
+  "version": "v1",
+  "sourceId": "v103-table-over-label-v6",
+  "sourceSha256": "8aa8b65bbaa79bd82ec1fe3399dded9d0a7b1b2226d20c6368c7cfa2709cc41e",
+  "sourceObservation": {
+    "version": "v1",
+    "sourceId": "v103-table-over-label-v6",
+    "sourceSha256": "8aa8b65bbaa79bd82ec1fe3399dded9d0a7b1b2226d20c6368c7cfa2709cc41e",
+    "pineVersion": 6,
+    "requested": {
+      "path": "v103/sources/v103-table-over-label-v6.pine",
+      "bytes": 1265,
+      "sha256": "8aa8b65bbaa79bd82ec1fe3399dded9d0a7b1b2226d20c6368c7cfa2709cc41e"
+    },
+    "executed": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/executed-v1.pine",
+      "bytes": 1265,
+      "sha256": "8aa8b65bbaa79bd82ec1fe3399dded9d0a7b1b2226d20c6368c7cfa2709cc41e"
+    },
+    "sourceForm": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/save-request-v1.txt",
+      "bytes": 1424,
+      "sha256": "08b0a80b06d7c4663f66bf704aa48b50836403d0b6d9be2c869a8fa3c5b3b4db"
+    },
+    "saveBody": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/save-response-v1.json",
+      "bytes": 9828,
+      "sha256": "d6d09f16131327abe1c140d96fb115299f63bd9939fad1be1d24e7644a096454"
+    },
+    "addBody": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/add-response-v1.json",
+      "bytes": 9828,
+      "sha256": "58516145428f205848d2a905ed2e7189ec74fb913218b552b9318b09a82b3e88"
+    },
+    "nativeCompileSuccess": true,
+    "privateScriptId": "USER;fd3e51cd1eb44cb0aaa9b9638d43aa29",
+    "privateVersion": "1.0",
+    "nativeLayoutId": 208356754,
+    "nativeLayoutImage": "qYNF2P38",
+    "receipt": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/capture-receipt-v1.json",
+      "bytes": 2676,
+      "sha256": "e9ab6a99bdfe78bef1923b209270679b8c57150043b86ba74e23497b86523c7d"
+    },
+    "editorMarkerArrays": null,
+    "editorMarkerStatus": "UNOBSERVED; separate native immediate/settled UI retained",
+    "settings": "BINANCE:BTCUSDT2m Candles Etc/UTC; one unchanged new-layout session",
+    "sourceSpecificExecutionId": null,
+    "sourceSpecificExecutionIdStatus": "UNOBSERVED",
+    "fullEditorUi": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/full-editor-ranges-assembled-v1.pine",
+      "bytes": 1265,
+      "sha256": "8aa8b65bbaa79bd82ec1fe3399dded9d0a7b1b2226d20c6368c7cfa2709cc41e"
+    },
+    "fullEditorVerification": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/full-editor-ranges-verification-v1.json",
+      "bytes": 1762,
+      "sha256": "464d6b19c96549eb8e8b702cbca849f6b14e032aa9f3080fb6ae30f0365dfd46"
+    },
+    "fullEditorSnapshots": [
+      {
+        "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/full-editor-ranges-1-9-v1.txt",
+        "bytes": 7577,
+        "sha256": "a5d7faf783f664b5b95b2d2b04d08c94a15babfe7305deb340303a8c0cf59b2f"
+      },
+      {
+        "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/full-editor-ranges-9-17-v1.txt",
+        "bytes": 8345,
+        "sha256": "13fb7aee4151cf45971eb5d9d311e8a40e7fe11a853893a08fe661ba5c28ef15"
+      },
+      {
+        "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/full-editor-ranges-17-23-v1.txt",
+        "bytes": 8015,
+        "sha256": "d2606eb1b850fd623fcdbe7a9257c339977a5af70dbc03944baeb14e060fa9c8"
+      }
+    ],
+    "fullEditorRangeClock": {
+      "path": "v103/captures/v103/v103-table-over-label-v6/attempt-v1/full-editor-range-clock-v1.json",
+      "bytes": 61,
+      "sha256": "d8e9f74b0a21f65c8bd5c9909fff28112eccab919f17ada13ba2faa578622b49"
+    }
+  },
+  "nativeBlock": {
+    "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+    "bytes": 97580,
+    "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+  },
+  "frozenContracts": {
+    "path": "v103/captures/v103/numeric-contracts-v1.json",
+    "bytes": 75520,
+    "sha256": "b86dd846e29af19eba95af9a309c59348ff9421a9c64a42d6f88279613e8b49e"
+  },
+  "properties": [
+    {
+      "title": "INPUT_INDEX",
+      "sourcePlotOrdinal": 0,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "INPUT_INDEX",
+        "sourcePlotOrdinal": 0,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24679"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24680"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24681"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24682"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24683"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24684"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24685"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24686"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24687"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24688"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24689"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24690"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24691"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24692"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24693"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24694"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24695"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24696"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24697"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24698"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24699"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24700"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24701"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24702"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24703"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24704"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24705"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24706"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24707"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24708"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24709"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": null,
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 7,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24710"
+          },
+          "comparison": "S",
+          "scope": "Owned consecutive input context only; no absolute-index replay parity"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "24679": 1,
+        "24680": 1,
+        "24681": 1,
+        "24682": 1,
+        "24683": 1,
+        "24684": 1,
+        "24685": 1,
+        "24686": 1,
+        "24687": 1,
+        "24688": 1,
+        "24689": 1,
+        "24690": 1,
+        "24691": 1,
+        "24692": 1,
+        "24693": 1,
+        "24694": 1,
+        "24695": 1,
+        "24696": 1,
+        "24697": 1,
+        "24698": 1,
+        "24699": 1,
+        "24700": 1,
+        "24701": 1,
+        "24702": 1,
+        "24703": 1,
+        "24704": 1,
+        "24705": 1,
+        "24706": 1,
+        "24707": 1,
+        "24708": 1,
+        "24709": 1,
+        "24710": 1
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "INPUT_TIME",
+      "sourcePlotOrdinal": 1,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "INPUT_TIME",
+        "sourcePlotOrdinal": 1,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": "1792305480000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792305480000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": "1792305600000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792305600000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": "1792305720000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792305720000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": "1792305840000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792305840000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": "1792305960000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792305960000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": "1792306080000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306080000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": "1792306200000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306200000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": "1792306320000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306320000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": "1792306440000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306440000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": "1792306560000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306560000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": "1792306680000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306680000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": "1792306800000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306800000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": "1792306920000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792306920000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": "1792307040000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307040000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": "1792307160000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307160000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": "1792307280000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307280000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": "1792307400000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307400000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": "1792307520000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307520000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": "1792307640000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307640000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": "1792307760000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307760000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": "1792307880000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792307880000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": "1792308000000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308000000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": "1792308120000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308120000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": "1792308240000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308240000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": "1792308360000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308360000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": "1792308480000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308480000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": "1792308600000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308600000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": "1792308720000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308720000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": "1792308840000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308840000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": "1792308960000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792308960000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": "1792309080000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792309080000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": "1792309200000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 8,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792309200000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "1792305480000": 1,
+        "1792305600000": 1,
+        "1792305720000": 1,
+        "1792305840000": 1,
+        "1792305960000": 1,
+        "1792306080000": 1,
+        "1792306200000": 1,
+        "1792306320000": 1,
+        "1792306440000": 1,
+        "1792306560000": 1,
+        "1792306680000": 1,
+        "1792306800000": 1,
+        "1792306920000": 1,
+        "1792307040000": 1,
+        "1792307160000": 1,
+        "1792307280000": 1,
+        "1792307400000": 1,
+        "1792307520000": 1,
+        "1792307640000": 1,
+        "1792307760000": 1,
+        "1792307880000": 1,
+        "1792308000000": 1,
+        "1792308120000": 1,
+        "1792308240000": 1,
+        "1792308360000": 1,
+        "1792308480000": 1,
+        "1792308600000": 1,
+        "1792308720000": 1,
+        "1792308840000": 1,
+        "1792308960000": 1,
+        "1792309080000": 1,
+        "1792309200000": 1
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "CHART_CONFIRMED",
+      "sourcePlotOrdinal": 2,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "CHART_CONFIRMED",
+        "sourcePlotOrdinal": 2,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 9,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "1": 32
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "CASE_ID",
+      "sourcePlotOrdinal": 3,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "CASE_ID",
+        "sourcePlotOrdinal": 3,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": "7",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "7"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": "2",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "2"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": "3",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "3"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": "4",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "4"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": "5",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "5"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": "6",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "6"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": "7",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "7"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": "2",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "2"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": "3",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "3"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": "4",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "4"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": "5",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "5"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": "6",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "6"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": "7",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "7"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": "2",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "2"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": "3",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "3"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": "4",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "4"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": "5",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "5"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": "6",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "6"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": "7",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "7"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": "1",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "1"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": "2",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "2"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": "3",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "3"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": "4",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "4"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": "5",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "5"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": "6",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 10,
+            "headerRaw": "CASE_ID",
+            "valueRaw": "6"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "7": 4,
+        "0": 4,
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 4,
+        "5": 4,
+        "6": 4
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "VISUAL_ANCHOR_INDEX",
+      "sourcePlotOrdinal": 4,
+      "rule": "UNIQUE_BUILD_MARKER",
+      "frozenContract": {
+        "title": "VISUAL_ANCHOR_INDEX",
+        "sourcePlotOrdinal": 4,
+        "rule": "UNIQUE_BUILD_MARKER",
+        "prediction": "Own index/time at A; blank at other primary rows"
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": "24710",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 11,
+            "headerRaw": "VISUAL_ANCHOR_INDEX",
+            "valueRaw": "24710"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "": 31,
+        "24710": 1
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "VISUAL_ANCHOR_TIME",
+      "sourcePlotOrdinal": 5,
+      "rule": "UNIQUE_BUILD_MARKER",
+      "frozenContract": {
+        "title": "VISUAL_ANCHOR_TIME",
+        "sourcePlotOrdinal": 5,
+        "rule": "UNIQUE_BUILD_MARKER",
+        "prediction": "Own index/time at A; blank at other primary rows"
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": "",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": ""
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": "1792309200000",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 12,
+            "headerRaw": "VISUAL_ANCHOR_TIME",
+            "valueRaw": "1792309200000"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "": 31,
+        "1792309200000": 1
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "SCALE_LOW",
+      "sourcePlotOrdinal": 6,
+      "rule": "CONSTANT",
+      "frozenContract": {
+        "title": "SCALE_LOW",
+        "sourcePlotOrdinal": 6,
+        "rule": "CONSTANT",
+        "prediction": "0",
+        "intentOnly": false
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": "0",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 13,
+            "headerRaw": "SCALE_LOW",
+            "valueRaw": "0"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "0": 32
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "SCALE_HIGH",
+      "sourcePlotOrdinal": 7,
+      "rule": "CONSTANT",
+      "frozenContract": {
+        "title": "SCALE_HIGH",
+        "sourcePlotOrdinal": 7,
+        "rule": "CONSTANT",
+        "prediction": "100",
+        "intentOnly": false
+      },
+      "verdict": "SUPPORTED",
+      "comparisonCounts": {
+        "S": 32
+      },
+      "comparisonRows": [
+        {
+          "rowOrdinal": 286,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 286,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 287,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 287,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 288,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 288,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 289,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 289,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 290,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 290,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 291,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 291,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 292,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 292,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 293,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 293,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 294,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 294,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 295,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 295,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 296,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 296,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 297,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 297,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 298,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 298,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 299,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 299,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 300,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 300,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 301,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 301,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 302,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 302,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 303,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 303,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 304,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 304,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 305,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 305,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 306,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 306,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 307,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 307,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 308,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 308,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 309,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 309,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 310,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 310,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 311,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 311,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 312,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 312,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 313,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 313,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 314,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 314,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 315,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 315,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 316,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 316,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        },
+        {
+          "rowOrdinal": 317,
+          "expectedRaw": "100",
+          "actual": {
+            "csvSha256": "6b2ef5d50aa19cb5177b74ec066bcd64f3442f64d5e6869aaf788a369c4b1954",
+            "rowOrdinal": 317,
+            "columnOrdinal": 14,
+            "headerRaw": "SCALE_HIGH",
+            "valueRaw": "100"
+          },
+          "comparison": "S",
+          "scope": "Finite source formula/control; no pixel credit"
+        }
+      ],
+      "nativeBlock": {
+        "path": "v103/captures/v103/v103-table-over-label-v6/native-cell-block-v1.json",
+        "bytes": 97580,
+        "sha256": "3672430ba5cab6597d6ac2253a1e7c6ba952a4ec8be12ccbb58a03eee9e1e827"
+      },
+      "observedRawCounts": {
+        "100": 32
+      },
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    }
+  ],
+  "numericAlternatives": [],
+  "primaryInputCertificate": true,
+  "uniquePrimaryPlotCells": 256,
+  "scope": "Build getters:31 intentional blanks and1 event, never32 independent getter observations. Context/intent/blank cells are counted once; absent sources receive no native credit. Visual models and maps are independent."
+}

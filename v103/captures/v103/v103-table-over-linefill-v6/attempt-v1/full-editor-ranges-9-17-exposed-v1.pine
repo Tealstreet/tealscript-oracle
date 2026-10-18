@@ -1,0 +1,20 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 table-over-linefill v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    t = table.new(position.middle_center, 1, 1, bgcolor=color.blue)
+    table.cell(t, 0, 0, "TABLE", width=80, height=70, text_color=color.white, bgcolor=color.blue)
+    a = line.new(bar_index - 70, 36, bar_index - 20, 36, color=na, extend=extend.both)
+    b = line.new(bar_index - 70, 44, bar_index - 20, 44, color=na, extend=extend.both)
+    linefill.new(a, b, color.orange)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
