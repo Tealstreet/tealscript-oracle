@@ -1,0 +1,128 @@
+{
+  "version": "v1",
+  "method": "Independent original PNG full-glyph and all six top/bottom boundary inspection for separate vertical subject/control boxes",
+  "inspectedOriginalPngSha256": "79fb02570d4c08e4a97ad0d33cbaccfdb9072f051f55d66249a950a3b6ee53d0",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 390
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 694
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-box-vertical-v5:vertical-alignment",
+      "outcome": "SUPPORTED_A",
+      "observation": "Complete EDGE is near the left box top, the middle box center and the right box bottom. All six top/bottom boundaries and complete glyphs are visible in this same PNG. All three boxes have the same vertical extent. The right box has the source-declared seven-bar horizontal span; no equal-width claim is made.",
+      "actualSubjectRegionsPx": [
+        [
+          350,
+          673,
+          513,
+          890
+        ],
+        [
+          572,
+          673,
+          735,
+          890
+        ],
+        [
+          795,
+          673,
+          938,
+          890
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          350,
+          673,
+          513,
+          890
+        ],
+        [
+          572,
+          673,
+          735,
+          890
+        ]
+      ],
+      "actualGlyphBoundsPx": [
+        [
+          406,
+          683,
+          457,
+          699
+        ],
+        [
+          628,
+          775,
+          679,
+          790
+        ],
+        [
+          841,
+          865,
+          892,
+          881
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "left top control",
+          "literal": "EDGE"
+        },
+        {
+          "region": "middle center control",
+          "literal": "EDGE"
+        },
+        {
+          "region": "right bottom subject",
+          "literal": "EDGE"
+        }
+      ],
+      "candidateIntervalsPx": {
+        "modelA_rightGlyphCenterY": [
+          870,
+          876
+        ],
+        "modelB_rightGlyphCenterY": [
+          688,
+          694
+        ],
+        "observedRightGlyphCenterY": [
+          871,
+          875
+        ],
+        "centerControlGlyphCenterY": [
+          779,
+          785
+        ]
+      },
+      "occlusion": "No title, watermark, plot, third object or scale overlaps these complete glyphs or their six required top/bottom boundaries.",
+      "scope": "Finite v5 vertical positions and equal heights only; no horizontal-width, resolved-font or universal padding claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v104-box-vertical-v5",
+  "sourceSha256": "e9c3b0903cb1bd58d1b860bf27374cfc406ab00f3952e01dfc4fce2d379f7e3c",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-box-vertical-v5/numeric-results-v1.json",
+    "bytes": 172662,
+    "sha256": "95247613a402e9eff10a14e7093caad0522c99742198040808ed065d996da057"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-box-vertical-v5/compiler-diagnostics-v1.json",
+    "bytes": 1583,
+    "sha256": "9c2dd6fcfb5400b0cc102f79a3635be86c84e1b388f7b6e2cc9f4389b61e2060"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-box-vertical-v5:vertical-alignment",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "EDGE ink at top/center/bottom respectively in left/middle/right equal-height boxes",
+      "modelB": "bottom alignment ignored: right EDGE stays top while left/center controls retain their own positions",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          3,
+          98
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-box-vertical-v5/derived-region-map-v1.json",
+        "bytes": 9313,
+        "sha256": "04fcf5a8689640c4f4ca28e46be4df346db8e49de4c548cbf6cc1f9b47bd942c"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

@@ -1,0 +1,10 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v104-box-vertical-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float box0_span = na
+var float box1_span = na
+var float box2_span = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index

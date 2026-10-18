@@ -1,0 +1,14 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v104-box-vertical-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float box0_span = na
+var float box1_span = na
+var float box2_span = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    b0 = box.new(bar_index - 30, 95, bar_index - 22, 5, bgcolor=color.white, text="EDGE", text_color=color.blue, text_size=size.large, text_valign=text.align_top)
+    b1 = box.new(bar_index - 19, 95, bar_index - 11, 5, bgcolor=color.white, text="EDGE", text_color=color.blue, text_size=size.large, text_valign=text.align_center)
+    b2 = box.new(bar_index - 8, 95, bar_index - 1, 5, bgcolor=color.white, text="EDGE", text_color=color.blue, text_size=size.large, text_valign=text.align_bottom)
+    box
