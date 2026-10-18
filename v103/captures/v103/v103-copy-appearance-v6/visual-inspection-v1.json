@@ -1,0 +1,153 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original disjoint source/copy/constructor native plate, separately by API",
+  "inspectedOriginalPngSha256": "155b6d9a2265fd1193e2b35782eda9a4d8ab0088301b9aa775c197a992919d99",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 65
+      },
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 155
+      }
+    ],
+    "yZeroPx": 889,
+    "yHundredPx": 674
+  },
+  "facets": [
+    {
+      "facetId": "v103-copy-appearance-v6:line-copy-appearance",
+      "outcome": "SUPPORTED_A",
+      "observation": "The copy lane has separated thick blue dash fragments near y706, matching the independent right constructor lane. The source lane is visibly thin red dotted near y749. The copy retains its blue thick dashed appearance.",
+      "actualSubjectRegionsPx": [
+        [
+          759,
+          702,
+          853,
+          711
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          939,
+          702,
+          1033,
+          711
+        ],
+        [
+          579,
+          746,
+          673,
+          752
+        ]
+      ],
+      "occlusion": "All three columns are separate and fully on screen; no third opaque object covers the comparison. The source label text above the red square is not mistaken for its body.",
+      "precision": "Qualitative recipe/style/thickness/body distinctions exceed fixed registration uncertainty; no universal dash spacing, exact font or compositing law.",
+      "scope": "Only this exact v6 API copy and same-shot constructor/mutated-source controls; no transfer to the old unexecuted v102 entry."
+    },
+    {
+      "facetId": "v103-copy-appearance-v6:box-copy-appearance",
+      "outcome": "SUPPORTED_A",
+      "observation": "The middle copy box has yellow interior, solid thick blue boundary and complete blue COPY. The independent right box has the same visible class; the left source is aqua with dashed blue border and red SRC.",
+      "actualSubjectRegionsPx": [
+        [
+          759,
+          779,
+          853,
+          827
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          939,
+          779,
+          1033,
+          827
+        ],
+        [
+          579,
+          779,
+          673,
+          827
+        ]
+      ],
+      "occlusion": "All three columns are separate and fully on screen; no third opaque object covers the comparison. The source label text above the red square is not mistaken for its body.",
+      "precision": "Qualitative recipe/style/thickness/body distinctions exceed fixed registration uncertainty; no universal dash spacing, exact font or compositing law.",
+      "scope": "Only this exact v6 API copy and same-shot constructor/mutated-source controls; no transfer to the old unexecuted v102 entry.",
+      "visibleTextByRegion": [
+        {
+          "region": "copy",
+          "literal": "COPY"
+        },
+        {
+          "region": "constructor",
+          "literal": "COPY"
+        },
+        {
+          "region": "source",
+          "literal": "SRC"
+        }
+      ]
+    },
+    {
+      "facetId": "v103-copy-appearance-v6:label-copy-appearance",
+      "outcome": "SUPPORTED_A",
+      "observation": "The middle label is a blue center body with complete white COPY, matching the independent right label. The source is a red square with SRC separately above its body.",
+      "actualSubjectRegionsPx": [
+        [
+          784,
+          850,
+          835,
+          877
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          964,
+          850,
+          1015,
+          877
+        ],
+        [
+          615,
+          849,
+          644,
+          878
+        ]
+      ],
+      "occlusion": "All three columns are separate and fully on screen; no third opaque object covers the comparison. The source label text above the red square is not mistaken for its body.",
+      "precision": "Qualitative recipe/style/thickness/body distinctions exceed fixed registration uncertainty; no universal dash spacing, exact font or compositing law.",
+      "scope": "Only this exact v6 API copy and same-shot constructor/mutated-source controls; no transfer to the old unexecuted v102 entry.",
+      "visibleTextByRegion": [
+        {
+          "region": "copy",
+          "literal": "COPY"
+        },
+        {
+          "region": "constructor",
+          "literal": "COPY"
+        },
+        {
+          "region": "source",
+          "literal": "SRC"
+        }
+      ]
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

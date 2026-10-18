@@ -1,0 +1,10 @@
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 90, 85, bar_index - 75, 85, color=color.blue, width=6, style=line.style_dashed)
+    b = line.copy(a)
+    line.set_y1(a, 65)
+    line.set_y2(a, 65)
+    line.set_color(a, color.red)
+    line.set_style(a, line.style_dotted)
+    line.set_width(a, 2)

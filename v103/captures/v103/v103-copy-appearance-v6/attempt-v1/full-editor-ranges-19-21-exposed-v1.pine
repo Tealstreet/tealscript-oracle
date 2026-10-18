@@ -1,0 +1,20 @@
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 90, 85, bar_index - 75, 85, color=color.blue, width=6, style=line.style_dashed)
+    b = line.copy(a)
+    line.set_y1(a, 65)
+    line.set_y2(a, 65)
+    line.set_color(a, color.red)
+    line.set_style(a, line.style_dotted)
+    line.set_width(a, 2)
+    line.set_x1(b, bar_index - 60)
+    line.set_x2(b, bar_index - 45)
+    line.set_y1(b, 85)
+    line.set_y2(b, 85)
+    line.new(bar_index - 30, 85, bar_index - 15, 85, color=color.blue, width=6, style=line.style_dashed)
+    x = box.new(bar_index - 90, 50, bar_index - 75, 30, text="OLD", text_color=color.blue, bgcolor=color.yellow, border_color=color.blue, border_width=4)
+    y = box.copy(x)
+    box.set_text(x, "SRC")
+    box.set_bgcolor(x, color.aqua)
+    box.set_border_style(x, line.style_dash

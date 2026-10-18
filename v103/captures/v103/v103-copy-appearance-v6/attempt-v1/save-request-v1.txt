@@ -1,0 +1,63 @@
+------WebKitFormBoundarymI92UY57g4szBXFQ
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 copy-appearance v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+var float LINE_SOURCE_X = na
+var float LINE_COPY_X = na
+var float LABEL_COPY_EXACT = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 90, 85, bar_index - 75, 85, color=color.blue, width=6, style=line.style_dashed)
+    b = line.copy(a)
+    line.set_y1(a, 65)
+    line.set_y2(a, 65)
+    line.set_color(a, color.red)
+    line.set_style(a, line.style_dotted)
+    line.set_width(a, 2)
+    line.set_x1(b, bar_index - 60)
+    line.set_x2(b, bar_index - 45)
+    line.set_y1(b, 85)
+    line.set_y2(b, 85)
+    line.new(bar_index - 30, 85, bar_index - 15, 85, color=color.blue, width=6, style=line.style_dashed)
+    x = box.new(bar_index - 90, 50, bar_index - 75, 30, text="OLD", text_color=color.blue, bgcolor=color.yellow, border_color=color.blue, border_width=4)
+    y = box.copy(x)
+    box.set_text(x, "SRC")
+    box.set_bgcolor(x, color.aqua)
+    box.set_border_style(x, line.style_dashed)
+    box.set_text_color(x, color.red)
+    box.set_left(y, bar_index - 60)
+    box.set_right(y, bar_index - 45)
+    box.set_text(y, "COPY")
+    box.new(bar_index - 30, 50, bar_index - 15, 30, text="COPY", text_color=color.blue, bgcolor=color.yellow, border_color=color.blue, border_width=4)
+    la = label.new(bar_index - 82, 12, "OLD", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.normal)
+    lb = label.copy(la)
+    label.set_text(la, "SRC")
+    label.set_color(la, color.red)
+    label.set_style(la, label.style_square)
+    label.set_x(lb, bar_index - 52)
+    label.set_text(lb, "COPY")
+    label.new(bar_index - 22, 12, "COPY", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.normal)
+    LINE_SOURCE_X := line.get_x1(a) - bar_index
+    LINE_COPY_X := line.get_x1(b) - bar_index
+    LABEL_COPY_EXACT := label.get_text(lb) == "COPY" ? 1 : 0
+
+plot(build ? LINE_SOURCE_X : na, "LINE_SOURCE_X", display=display.data_window)
+plot(build ? LINE_COPY_X : na, "LINE_COPY_X", display=display.data_window)
+plot(build ? LABEL_COPY_EXACT : na, "LABEL_COPY_EXACT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
+
+------WebKitFormBoundarymI92UY57g4szBXFQ--

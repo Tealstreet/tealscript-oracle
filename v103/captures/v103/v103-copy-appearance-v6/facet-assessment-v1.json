@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "sourceId": "v103-copy-appearance-v6",
+  "sourceSha256": "6fe183727c2e6d8694efbbd29978a6d47e50fbc13a91e0c186f36002689d945f",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-copy-appearance-v6/numeric-results-v1.json",
+    "bytes": 182705,
+    "sha256": "54933f23d68e46b59cc100257672b7c7250e4c8d3fc4f3d53e088deeac90d6da"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-copy-appearance-v6/compiler-diagnostics-v1.json",
+    "bytes": 1592,
+    "sha256": "8d4c04b390936807f9fbbe1fb060f999fefd3c6899d7ee2901028252a3c098a5"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-copy-appearance-v6:line-copy-appearance",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "independent copy retains blue6 dashed y85",
+      "modelB": "copy snapshots mutated source red2 dotted y65",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -65,
+          -40
+        ],
+        "y": [
+          60,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-copy-appearance-v6/derived-region-map-v1.json",
+        "bytes": 13202,
+        "sha256": "7fe7b190920078361478de6220bbc7146f5e59f16aa27592a97e3b78fca86309"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-copy-appearance-v6:box-copy-appearance",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "copy retains yellow/blue solid and blue COPY",
+      "modelB": "copy inherits mutated source recipe",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -65,
+          -40
+        ],
+        "y": [
+          25,
+          55
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-copy-appearance-v6/derived-region-map-v1.json",
+        "bytes": 13202,
+        "sha256": "7fe7b190920078361478de6220bbc7146f5e59f16aa27592a97e3b78fca86309"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-copy-appearance-v6:label-copy-appearance",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "blue center COPY body",
+      "modelB": "copy inherits red square source recipe",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -62,
+          -42
+        ],
+        "y": [
+          2,
+          23
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-copy-appearance-v6/derived-region-map-v1.json",
+        "bytes": 13202,
+        "sha256": "7fe7b190920078361478de6220bbc7146f5e59f16aa27592a97e3b78fca86309"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
