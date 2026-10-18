@@ -1,0 +1,25 @@
+{
+  "version": "v1",
+  "status": "PASS",
+  "method": "Known RGB and RGBA samples independently encoded using each PNG row filter 0..4, then decoded; corrupt IHDR CRC rejected; original native PNG also decoded without modification",
+  "knownPixelAssertions": 30,
+  "corruptCrcRejectionAssertions": 2,
+  "nativePngDimensionsPx": [
+    1706,
+    993
+  ],
+  "nativeOpaqueWhiteSample": {
+    "xPx": 400,
+    "yPx": 800,
+    "sample": [
+      255,
+      255,
+      255
+    ]
+  },
+  "nativeColorMetadata": [
+    "iCCP"
+  ],
+  "nativeByteScope": "Lossless original sample tuples; no color profile transformation",
+  "tool": "v104/captures/v104/read-png-pixels-v1.py"
+}

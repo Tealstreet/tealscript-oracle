@@ -1,0 +1,14 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("v104-glyph-advance-v6", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float label0_x_delta = na
+var float label1_x_delta = na
+var float label2_x_delta = na
+var float label3_x_delta = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    l0 = label.new(bar_index - 26, 80, "IIIIIIII", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_monospace)
+    l1 = label.new(bar_index - 8, 80, "WWWWWWWW", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_monospace)
+    l2 = label.new(bar_index - 26, 35, "IIIIIIII", style=label.style_label_center, color=color.blue, textcolor

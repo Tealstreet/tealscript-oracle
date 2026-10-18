@@ -1,0 +1,108 @@
+{
+  "version": "v1",
+  "method": "Original PNG complete-word and outer blue label-body inspection, with exact original-pixel row profiles; same size/style/padding source recipe",
+  "inspectedOriginalPngSha256": "0dbba4c6d7dd498d842feab5778d65d00d2aee16624c7f8ce3453b8168a66511",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 593
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 896
+      }
+    ],
+    "yZeroPx": 883,
+    "yHundredPx": 681
+  },
+  "facets": [
+    {
+      "facetId": "v104-glyph-advance-v6:relative-advance",
+      "outcome": "SUPPORTED_A",
+      "observation": "All four complete labels and blue body sides are visible. Monospace I and W bodies have near-equal raster widths 112/113 pixels; default-font bodies are 60/161 pixels. The one-pixel monospace raster difference lies within the preregistered one-pixel edge uncertainty; the two model difference intervals are strictly disjoint. Measurements use outer blue body edges, never ink extent.",
+      "actualSubjectRegionsPx": [
+        [
+          375,
+          702,
+          487,
+          741
+        ],
+        [
+          739,
+          702,
+          852,
+          741
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          401,
+          793,
+          461,
+          832
+        ],
+        [
+          715,
+          793,
+          876,
+          832
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "upper monospace I",
+          "literal": "IIIIIIII"
+        },
+        {
+          "region": "upper monospace W",
+          "literal": "WWWWWWWW"
+        },
+        {
+          "region": "lower default I",
+          "literal": "IIIIIIII"
+        },
+        {
+          "region": "lower default W",
+          "literal": "WWWWWWWW"
+        }
+      ],
+      "outerBodyWidthsInclusivePx": {
+        "monoI": 112,
+        "monoW": 113,
+        "defaultI": 60,
+        "defaultW": 161
+      },
+      "candidateIntervalsPx": {
+        "definition": "W-minus-I outer body width differences; one frozen stroke-edge pixel per measured edge gives four-pixel difference uncertainty. A and B candidate intervals, rather than the two equal-width labels themselves, must not overlap.",
+        "modelA_difference": [
+          -4,
+          4
+        ],
+        "modelB_difference": [
+          97,
+          105
+        ],
+        "observed_mono_difference": 1,
+        "observed_default_difference": 101,
+        "strictlyDisjoint": true
+      },
+      "occlusion": "All four complete blue label bodies and glyph strings are separated and inside the registered source window; no third object covers any side.",
+      "scope": "Finite same-shot relative advance only, allowing the already frozen raster edge uncertainty; no exact fractional advance, font identity, global padding or DPI claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

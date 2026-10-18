@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v104-glyph-advance-v6",
+  "sourceSha256": "5fe9203d3c6cc777a7952d24de76e783f3d001a050236855daf6b084942991b2",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-glyph-advance-v6/numeric-results-v1.json",
+    "bytes": 188645,
+    "sha256": "7025d565f8abdcf0e852624a0602af14d2da820ba2825e98eab4a3f5c1924549"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-glyph-advance-v6/compiler-diagnostics-v1.json",
+    "bytes": 1586,
+    "sha256": "005ef7a8ac018f847d33b44926173e5e21f94582fef5a93ff31b4650503052da"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-glyph-advance-v6:relative-advance",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "equal outer body widths for eight I/eight W monospace labels, unequal widths for default-font controls",
+      "modelB": "monospace ignored: I/W outer-width inequality remains in both rows",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -35,
+          2
+        ],
+        "y": [
+          15,
+          98
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-glyph-advance-v6/derived-region-map-v1.json",
+        "bytes": 9658,
+        "sha256": "b0b9edd618680d901cd6855e3cd94be5487b80c2eca8f3b531accb9fb428c185"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

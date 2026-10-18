@@ -1,0 +1,91 @@
+{
+  "version": "v1",
+  "sourceId": "v104-glyph-advance-v6",
+  "certificate": {
+    "path": "v104/captures/v104/v104-glyph-advance-v6/pixel-certificate-v1.json",
+    "bytes": 53177,
+    "sha256": "8f3fcc5566cb433ce529b38e56bbbf346a4d907c83a9ceac60f2714ea2d0e993"
+  },
+  "originalPng": {
+    "path": "v104/captures/v104/v104-glyph-advance-v6/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 143572,
+    "sha256": "0dbba4c6d7dd498d842feab5778d65d00d2aee16624c7f8ce3453b8168a66511"
+  },
+  "originalCsv": {
+    "path": "v104/captures/v104/v104-glyph-advance-v6/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 27799,
+    "sha256": "17bcd0137b6036111c6f1e23ae6443131bd3b7106fa4a9150826d6658e9a2d2a"
+  },
+  "measurements": [
+    {
+      "name": "monoI",
+      "yPx": 721,
+      "bodyFirstPx": 375,
+      "bodyLastPx": 486,
+      "widthInclusivePx": 112,
+      "exactObservedBodySample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "monoW",
+      "yPx": 721,
+      "bodyFirstPx": 739,
+      "bodyLastPx": 851,
+      "widthInclusivePx": 113,
+      "exactObservedBodySample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "defaultI",
+      "yPx": 812,
+      "bodyFirstPx": 401,
+      "bodyLastPx": 460,
+      "widthInclusivePx": 60,
+      "exactObservedBodySample": [
+        26,
+        97,
+        248
+      ]
+    },
+    {
+      "name": "defaultW",
+      "yPx": 812,
+      "bodyFirstPx": 715,
+      "bodyLastPx": 875,
+      "widthInclusivePx": 161,
+      "exactObservedBodySample": [
+        26,
+        97,
+        248
+      ]
+    }
+  ],
+  "outcome": "SUPPORTED_A",
+  "scope": "Finite relationships of exact original sample profiles with independently readable controls; no universal pixel/font/dash law.",
+  "outerBodyWidthsInclusivePx": {
+    "monoI": 112,
+    "monoW": 113,
+    "defaultI": 60,
+    "defaultW": 161
+  },
+  "observedMonospaceDifferencePx": 1,
+  "observedDefaultDifferencePx": 101,
+  "candidateIntervalsPx": {
+    "A": [
+      -4,
+      4
+    ],
+    "B": [
+      97,
+      105
+    ]
+  },
+  "uncertaintyDerivation": "Four independently measured outer edges times the preregistered one-pixel stroke-edge uncertainty",
+  "strictlyDisjoint": true
+}

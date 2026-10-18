@@ -1,0 +1,10 @@
+    anchorIndex := bar_index
+    l0 = label.new(bar_index - 26, 80, "IIIIIIII", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_monospace)
+    l1 = label.new(bar_index - 8, 80, "WWWWWWWW", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_monospace)
+    l2 = label.new(bar_index - 26, 35, "IIIIIIII", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_default)
+    l3 = label.new(bar_index - 8, 35, "WWWWWWWW", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large, text_font_family=font.family_default)
+    label0_x_delta := label.get_x(l0) - anchorIndex
+    label1_x_delta := label.get_x(l1) - anchorIndex
+    label2_x_delta := label.get_x(l2) - anchorIndex
+    label3_x_delta := label.get_x(l3) - anchorIndex
+plot(build ? label0_x_delta : na, "LABEL0_X_DELTA", display=display.data_window)
