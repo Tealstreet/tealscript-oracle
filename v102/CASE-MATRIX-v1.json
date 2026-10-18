@@ -1,0 +1,468 @@
+{
+  "version": "v1",
+  "round": "v102",
+  "cases": [
+    {
+      "sourceId": "v102-stack-false-v5",
+      "cases": [
+        "polyline-line-forward/reverse",
+        "polyline-box-forward/reverse",
+        "polyline-label-forward/reverse",
+        "table-actual-intersections",
+        "explicit-plot-control"
+      ],
+      "fixedNumericHypotheses": {},
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-stack-true-v5",
+      "cases": [
+        "polyline-line-forward/reverse",
+        "polyline-box-forward/reverse",
+        "polyline-label-forward/reverse",
+        "table-actual-intersections",
+        "explicit-plot-control"
+      ],
+      "fixedNumericHypotheses": {},
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-stack-false-v6",
+      "cases": [
+        "polyline-line-forward/reverse",
+        "polyline-box-forward/reverse",
+        "polyline-label-forward/reverse",
+        "table-actual-intersections",
+        "explicit-plot-control"
+      ],
+      "fixedNumericHypotheses": {},
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-stack-true-v6",
+      "cases": [
+        "polyline-line-forward/reverse",
+        "polyline-box-forward/reverse",
+        "polyline-label-forward/reverse",
+        "table-actual-intersections",
+        "explicit-plot-control"
+      ],
+      "fixedNumericHypotheses": {},
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-copy-appearance-v5",
+      "cases": [
+        "line-copy-preserves-dash-width-color",
+        "box-copy-preserves-style-independent-text",
+        "label-copy-preserves-style-independent-text"
+      ],
+      "fixedNumericHypotheses": {
+        "LINE_SOURCE_X_REL": -60,
+        "LINE_COPY_X_REL": -30,
+        "LINE_SOURCE_Y": 75,
+        "LINE_COPY_Y": 85,
+        "BOX_SOURCE_LEFT_REL": -60,
+        "BOX_COPY_LEFT_REL": -30,
+        "LABEL_SOURCE_EXACT": 1,
+        "LABEL_COPY_EXACT": 1
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-coordinate-render-v5",
+      "cases": [
+        "line-time-index-point-copy",
+        "box-point-copy-no-set_xloc-v5",
+        "label-time-index-point-copy",
+        "setter-vs-constructor-translated-geometry"
+      ],
+      "fixedNumericHypotheses": {
+        "LINE_TIME_X1_DELTA": 0,
+        "LINE_POINT_X1_REL": -20,
+        "LINE_POINT_Y1": 30,
+        "LABEL_POINT_X_REL": -90,
+        "LABEL_POINT_Y": 15,
+        "BOX_POINT_LEFT_REL": -60,
+        "BOX_POINT_TOP": 30,
+        "BOX_TIME_DELTA": "blank/intentionally-unexercised-v5"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-box-text-layout-v5",
+      "cases": [
+        "complete-short-sentinel-setter-vs-constructor",
+        "wrap-none-vs-auto",
+        "left-top-vs-right-bottom"
+      ],
+      "fixedNumericHypotheses": {
+        "BOX_LEFT_REL": -120,
+        "BOX_TOP": 95,
+        "TEXT_RECIPE_CODE": "intent-only-123",
+        "WRAP_RECIPE_CODE": "intent-only-1"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-table-relocation-v5",
+      "cases": [
+        "same-position-retain-vs-replace",
+        "second-move-final-anchor",
+        "frame-border-background-and-merged-sentinels",
+        "explicit-zero-vs-auto-dimensions"
+      ],
+      "fixedNumericHypotheses": {
+        "CREATED_DELTA": 3,
+        "COLLISION_DELTA": "2 replacement / 3 retained; no native choice assumed",
+        "OLD_TABLE_NA": "1 invalidated / 0 retained",
+        "FINAL_DELTA": "2 replacement / 3 retained",
+        "FINAL_POSITION_INTENT": "intent-only-9"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-gap-style-geometry-v5",
+      "cases": [
+        "phase3-4-holes-vs-bridges",
+        "step-turn-bar-center-vs-half-bar",
+        "offset-plus-one-vs-zero"
+      ],
+      "fixedNumericHypotheses": {
+        "all-lanes": "phase3/4 blank, otherwise stated base+phase. OFFSET_ZERO source90 at phase0; OFFSET_PLUS_ONE: source-series export phase0 vs chart-aligned export phase1, else blank. Export policy and visual displacement separately scored.",
+        "HOLE_NA": "1 at phase3/4, else0"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-linefill-sloped-v5",
+      "cases": [
+        "sloped-both-extension-follows-endpoints",
+        "same-pair-replace-vs-add",
+        "old-handle-delete-new-fill-survival"
+      ],
+      "fixedNumericHypotheses": {
+        "SAME_PAIR_COUNT": "1 replacement / 2 additive",
+        "OLD_FILL_NA": "observe; no token model chosen",
+        "NEW_PARENT1_ID": 1,
+        "NEW_PARENT2_ID": 1,
+        "MOVED_FIRST_Y1": 20,
+        "MOVED_SECOND_Y2": 70,
+        "AFTER_OLD_DELETE": "0 same-handle / 1 independent-new-handle; preserve unexpected outcomes"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-line-price-v5",
+      "cases": [
+        "infinite-slope-vs-extend-clamping",
+        "positive-negative-exact-slopes",
+        "getter-reflects-mutated-endpoint"
+      ],
+      "fixedNumericHypotheses": {
+        "LEFT_EXTRAPOLATE": 4,
+        "ENDPOINT1": 10,
+        "INTERPOLATE": 16,
+        "HALF_STEP": 11.5,
+        "ENDPOINT2": 22,
+        "RIGHT_EXTRAPOLATE": 28,
+        "DESC_LEFT": 48,
+        "DESC_RIGHT": 24,
+        "DESC_HALF": 40.5,
+        "AFTER_MID": 18,
+        "AFTER_RIGHT": 34
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-line-price-vertical-v5",
+      "cases": [
+        "undefined-vertical-vs-endpoint-choice-vs-runtime-refusal"
+      ],
+      "fixedNumericHypotheses": {
+        "REACHED_BEFORE": 1,
+        "VERTICAL_PRICE": "blank / endpoint / other raw result; not predetermined",
+        "VERTICAL_NA": "blank model1 / finite model0"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-extend-stroke-v5",
+      "cases": [
+        "none-left-right-both-extension",
+        "solid-dash-dot-and-arrow",
+        "line-and-box-width-setters"
+      ],
+      "fixedNumericHypotheses": {
+        "LINE_X1_REL": -80,
+        "LINE_Y1": 15,
+        "BOX_LEFT_REL": -50,
+        "EXTEND_RECIPE": "intent-only phase%4",
+        "STROKE_RECIPE": "intent-only phase%3"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-copy-appearance-v6",
+      "cases": [
+        "line-copy-preserves-dash-width-color",
+        "box-copy-preserves-style-independent-text",
+        "label-copy-preserves-style-independent-text"
+      ],
+      "fixedNumericHypotheses": {
+        "LINE_SOURCE_X_REL": -60,
+        "LINE_COPY_X_REL": -30,
+        "LINE_SOURCE_Y": 75,
+        "LINE_COPY_Y": 85,
+        "BOX_SOURCE_LEFT_REL": -60,
+        "BOX_COPY_LEFT_REL": -30,
+        "LABEL_SOURCE_EXACT": 1,
+        "LABEL_COPY_EXACT": 1
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-coordinate-render-v6",
+      "cases": [
+        "line-time-index-point-copy",
+        "box-point-copy-and-time-index",
+        "label-time-index-point-copy",
+        "setter-vs-constructor-translated-geometry"
+      ],
+      "fixedNumericHypotheses": {
+        "LINE_TIME_X1_DELTA": 0,
+        "LINE_POINT_X1_REL": -20,
+        "LINE_POINT_Y1": 30,
+        "LABEL_POINT_X_REL": -90,
+        "LABEL_POINT_Y": 15,
+        "BOX_POINT_LEFT_REL": -60,
+        "BOX_POINT_TOP": 30,
+        "BOX_TIME_DELTA": 0
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-box-text-layout-v6",
+      "cases": [
+        "complete-short-sentinel-setter-vs-constructor",
+        "wrap-none-vs-auto",
+        "left-top-vs-right-bottom",
+        "bold-italic-explicit"
+      ],
+      "fixedNumericHypotheses": {
+        "BOX_LEFT_REL": -120,
+        "BOX_TOP": 95,
+        "TEXT_RECIPE_CODE": "intent-only-123",
+        "WRAP_RECIPE_CODE": "intent-only-1"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-table-relocation-v6",
+      "cases": [
+        "same-position-retain-vs-replace",
+        "second-move-final-anchor",
+        "frame-border-background-and-merged-sentinels",
+        "explicit-zero-vs-auto-dimensions"
+      ],
+      "fixedNumericHypotheses": {
+        "CREATED_DELTA": 3,
+        "COLLISION_DELTA": "2 replacement / 3 retained; no native choice assumed",
+        "OLD_TABLE_NA": "1 invalidated / 0 retained",
+        "FINAL_DELTA": "2 replacement / 3 retained",
+        "FINAL_POSITION_INTENT": "intent-only-9"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-gap-style-geometry-v6",
+      "cases": [
+        "phase3-4-holes-vs-bridges",
+        "step-turn-bar-center-vs-half-bar",
+        "offset-plus-one-vs-zero",
+        "dash-and-dot-with-breaks"
+      ],
+      "fixedNumericHypotheses": {
+        "all-lanes": "phase3/4 blank, otherwise stated base+phase. OFFSET_ZERO source90 at phase0; OFFSET_PLUS_ONE: source-series export phase0 vs chart-aligned export phase1, else blank. Export policy and visual displacement separately scored.",
+        "HOLE_NA": "1 at phase3/4, else0"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-linefill-sloped-v6",
+      "cases": [
+        "sloped-both-extension-follows-endpoints",
+        "same-pair-replace-vs-add",
+        "old-handle-delete-new-fill-survival"
+      ],
+      "fixedNumericHypotheses": {
+        "SAME_PAIR_COUNT": "1 replacement / 2 additive",
+        "OLD_FILL_NA": "observe; no token model chosen",
+        "NEW_PARENT1_ID": 1,
+        "NEW_PARENT2_ID": 1,
+        "MOVED_FIRST_Y1": 20,
+        "MOVED_SECOND_Y2": 70,
+        "AFTER_OLD_DELETE": "0 same-handle / 1 independent-new-handle; preserve unexpected outcomes"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-line-price-v6",
+      "cases": [
+        "infinite-slope-vs-extend-clamping",
+        "positive-negative-exact-slopes",
+        "getter-reflects-mutated-endpoint"
+      ],
+      "fixedNumericHypotheses": {
+        "LEFT_EXTRAPOLATE": 4,
+        "ENDPOINT1": 10,
+        "INTERPOLATE": 16,
+        "HALF_STEP": 11.5,
+        "ENDPOINT2": 22,
+        "RIGHT_EXTRAPOLATE": 28,
+        "DESC_LEFT": 48,
+        "DESC_RIGHT": 24,
+        "DESC_HALF": 40.5,
+        "AFTER_MID": 18,
+        "AFTER_RIGHT": 34
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-line-price-vertical-v6",
+      "cases": [
+        "undefined-vertical-vs-endpoint-choice-vs-runtime-refusal"
+      ],
+      "fixedNumericHypotheses": {
+        "REACHED_BEFORE": 1,
+        "VERTICAL_PRICE": "blank / endpoint / other raw result; not predetermined",
+        "VERTICAL_NA": "blank model1 / finite model0"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-extend-stroke-v6",
+      "cases": [
+        "none-left-right-both-extension",
+        "solid-dash-dot-and-arrow",
+        "line-and-box-width-setters"
+      ],
+      "fixedNumericHypotheses": {
+        "LINE_X1_REL": -80,
+        "LINE_Y1": 15,
+        "BOX_LEFT_REL": -50,
+        "EXTEND_RECIPE": "intent-only phase%4",
+        "STROKE_RECIPE": "intent-only phase%3"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-format-omitted-box-v6",
+      "cases": [
+        "required-argument-refusal-vs-admission",
+        "if-admitted-omitted-none-vs-retained-bold-italic"
+      ],
+      "fixedNumericHypotheses": {
+        "REACHED_AFTER_OMITTED_CALL": "1 only if exact source admitted and executes; never invent CSV on refusal"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-format-omitted-label-v6",
+      "cases": [
+        "required-argument-refusal-vs-admission",
+        "if-admitted-omitted-none-vs-retained-bold-italic"
+      ],
+      "fixedNumericHypotheses": {
+        "REACHED_AFTER_OMITTED_CALL": "1 only if exact source admitted and executes; never invent CSV on refusal"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    },
+    {
+      "sourceId": "v102-format-omitted-table-v6",
+      "cases": [
+        "required-argument-refusal-vs-admission",
+        "if-admitted-omitted-none-vs-retained-bold-italic"
+      ],
+      "fixedNumericHypotheses": {
+        "REACHED_AFTER_OMITTED_CALL": "1 only if exact source admitted and executes; never invent CSV on refusal"
+      },
+      "nativeOutcome": "UNSPECIFIED",
+      "selectionUsesTargets": false,
+      "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+    }
+  ]
+}

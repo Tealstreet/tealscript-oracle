@@ -1,0 +1,22 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V102 format-omitted-box v6", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+b = box.new(bar_index - 100, 85, bar_index - 60, 55, text="FORMAT", text_formatting=text.format_bold + text.format_italic, bgcolor=color.white)
+box.set_text_formatting(b)
+if keep
+    box.new(bar_index - 50, 85, bar_index - 10, 55, text="FORMAT", text_formatting=text.format_none, bgcolor=color.white)
+    box.new(bar_index - 100, 40, bar_index - 60, 10, text="FORMAT", text_formatting=text.format_bold + text.format_italic, bgcolor=color.white)
+else
+    box.delete(b)
+
+plot(1, "REACHED_AFTER_OMITTED_CALL", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)

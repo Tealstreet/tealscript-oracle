@@ -1,0 +1,66 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V102 copy-appearance v6", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+a = line.new(bar_index - 60, 85, bar_index - 40, 85, color=color.blue, width=6, style=line.style_dashed)
+b = line.copy(a)
+line.set_y1(a, 75)
+line.set_y2(a, 75)
+line.set_color(a, color.red)
+line.set_style(a, line.style_dotted)
+line.set_width(a, 2)
+line.set_x1(b, bar_index - 30)
+line.set_x2(b, bar_index - 10)
+x = box.new(bar_index - 60, 60, bar_index - 40, 40, text="ORIGINAL", text_color=color.blue, text_halign=text.align_left, bgcolor=color.yellow, border_color=color.blue, border_width=4)
+y = box.copy(x)
+box.set_text(x, "SOURCE")
+box.set_bgcolor(x, color.aqua)
+box.set_border_style(x, line.style_dashed)
+box.set_text_color(x, color.red)
+box.set_left(y, bar_index - 30)
+box.set_right(y, bar_index - 10)
+box.set_text(y, "COPY")
+la = label.new(bar_index - 50, 20, "A", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large)
+lb = label.copy(la)
+label.set_text(la, "SOURCE")
+label.set_color(la, color.red)
+label.set_style(la, label.style_square)
+label.set_x(lb, bar_index - 20)
+label.set_text(lb, "COPY")
+ax = line.get_x1(a) - bar_index
+bx = line.get_x1(b) - bar_index
+ay = line.get_y1(a)
+copyY = line.get_y1(b)
+xl = box.get_left(x) - bar_index
+yl = box.get_left(y) - bar_index
+textA = label.get_text(la) == "SOURCE" ? 1 : 0
+textB = label.get_text(lb) == "COPY" ? 1 : 0
+if keep
+    line.new(bar_index - 90, 85, bar_index - 70, 85, color=color.blue, width=6, style=line.style_dashed)
+    box.new(bar_index - 90, 60, bar_index - 70, 40, text="CONTROL", text_color=color.blue, text_halign=text.align_left, bgcolor=color.yellow, border_color=color.blue, border_width=4)
+    label.new(bar_index - 80, 20, "CONTROL", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large)
+else
+    line.delete(a)
+    line.delete(b)
+    box.delete(x)
+    box.delete(y)
+    label.delete(la)
+    label.delete(lb)
+
+plot(ax, "LINE_SOURCE_X_REL", display=display.data_window)
+plot(bx, "LINE_COPY_X_REL", display=display.data_window)
+plot(ay, "LINE_SOURCE_Y", display=display.data_window)
+plot(copyY, "LINE_COPY_Y", display=display.data_window)
+plot(xl, "BOX_SOURCE_LEFT_REL", display=display.data_window)
+plot(yl, "BOX_COPY_LEFT_REL", display=display.data_window)
+plot(textA, "LABEL_SOURCE_EXACT", display=display.data_window)
+plot(textB, "LABEL_COPY_EXACT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)

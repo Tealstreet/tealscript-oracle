@@ -1,0 +1,2615 @@
+{
+  "version": "v1",
+  "round": "v102",
+  "baselineOracle": "56abd808d88595bab7808c063d065ce2bcd7dc55",
+  "engineFrontier": "2d3ea4939afefba3fefa28bce321ae42c0842952",
+  "authorizedMethod": "Save as PRIVATE unpublished script, Add to chart, remove studies after; MAY create a new throwaway layout and change symbol/interval/settings on it only; STILL FORBIDDEN: publish, share, any visibility change, any change to EXISTING saved layouts, alerts, library publication/import; anything beyond: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+  "localAuthoring": "Commit locally on master only; DO NOT push; owner publication after crossed QA precedes any capture",
+  "sources": [
+    {
+      "slot": 1,
+      "sourceId": "v102-stack-false-v5",
+      "path": "v102/sources/v102-stack-false-v5.pine",
+      "pathFromRound": "sources/v102-stack-false-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 stack-false v5",
+      "bytes": 3198,
+      "sha256": "96beb9fa05817111d7a24ad7a7cf76627a7feff35de84b0235d69b8e18e9ef87",
+      "family": "stack-false",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_PLOT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "EXPLICIT_INTENT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-stack-false-v5:polyline-line-forward/reverse",
+        "v102-stack-false-v5:polyline-box-forward/reverse",
+        "v102-stack-false-v5:polyline-label-forward/reverse",
+        "v102-stack-false-v5:table-actual-intersections",
+        "v102-stack-false-v5:explicit-plot-control"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 2,
+      "sourceId": "v102-stack-true-v5",
+      "path": "v102/sources/v102-stack-true-v5.pine",
+      "pathFromRound": "sources/v102-stack-true-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 stack-true v5",
+      "bytes": 3196,
+      "sha256": "327783d13beae93feb22ee7d04515507bfad68f8a385f2391b90c7ef909f4b91",
+      "family": "stack-true",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_PLOT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "EXPLICIT_INTENT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-stack-true-v5:polyline-line-forward/reverse",
+        "v102-stack-true-v5:polyline-box-forward/reverse",
+        "v102-stack-true-v5:polyline-label-forward/reverse",
+        "v102-stack-true-v5:table-actual-intersections",
+        "v102-stack-true-v5:explicit-plot-control"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 3,
+      "sourceId": "v102-stack-false-v6",
+      "path": "v102/sources/v102-stack-false-v6.pine",
+      "pathFromRound": "sources/v102-stack-false-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 stack-false v6",
+      "bytes": 3198,
+      "sha256": "88190720691f54d68dcaa23f1db820825b325b27ed9072db2372325d19ee6ee9",
+      "family": "stack-false",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_PLOT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "EXPLICIT_INTENT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-stack-false-v6:polyline-line-forward/reverse",
+        "v102-stack-false-v6:polyline-box-forward/reverse",
+        "v102-stack-false-v6:polyline-label-forward/reverse",
+        "v102-stack-false-v6:table-actual-intersections",
+        "v102-stack-false-v6:explicit-plot-control"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 4,
+      "sourceId": "v102-stack-true-v6",
+      "path": "v102/sources/v102-stack-true-v6.pine",
+      "pathFromRound": "sources/v102-stack-true-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 stack-true v6",
+      "bytes": 3196,
+      "sha256": "037d884262c9b80d020ea23c7e2c53c3181af2a1bba5e3c340c4b0c59f93c326",
+      "family": "stack-true",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BLUE_PLOT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "FILL_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "FILL_BOTTOM",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "EXPLICIT_INTENT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-stack-true-v6:polyline-line-forward/reverse",
+        "v102-stack-true-v6:polyline-box-forward/reverse",
+        "v102-stack-true-v6:polyline-label-forward/reverse",
+        "v102-stack-true-v6:table-actual-intersections",
+        "v102-stack-true-v6:explicit-plot-control"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 5,
+      "sourceId": "v102-copy-appearance-v5",
+      "path": "v102/sources/v102-copy-appearance-v5.pine",
+      "pathFromRound": "sources/v102-copy-appearance-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 copy-appearance v5",
+      "bytes": 3149,
+      "sha256": "59ab7056aee1e20ca685bcddda68b2e4182cb204340b2e6a9cebfa536da60a05",
+      "family": "copy-appearance",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 16,
+      "maximumPlotCounts": 16,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_SOURCE_X_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_COPY_X_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "LINE_SOURCE_Y",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LINE_COPY_Y",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "BOX_SOURCE_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "BOX_COPY_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "LABEL_SOURCE_EXACT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "LABEL_COPY_EXACT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-copy-appearance-v5:line-copy-preserves-dash-width-color",
+        "v102-copy-appearance-v5:box-copy-preserves-style-independent-text",
+        "v102-copy-appearance-v5:label-copy-preserves-style-independent-text"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 6,
+      "sourceId": "v102-coordinate-render-v5",
+      "path": "v102/sources/v102-coordinate-render-v5.pine",
+      "pathFromRound": "sources/v102-coordinate-render-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 coordinate-render v5",
+      "bytes": 3213,
+      "sha256": "9e03eafe79ba881aa36148d9043095a0be16c4980f11eb108be4e4b2ab9bfa3c",
+      "family": "coordinate-render",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 8,
+      "plotCalls": 16,
+      "maximumPlotCounts": 16,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_TIME_X1_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_POINT_X1_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "LINE_POINT_Y1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LABEL_POINT_X_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "LABEL_POINT_Y",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "BOX_POINT_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "BOX_POINT_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "BOX_TIME_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-coordinate-render-v5:line-time-index-point-copy",
+        "v102-coordinate-render-v5:box-point-copy-no-set_xloc-v5",
+        "v102-coordinate-render-v5:label-time-index-point-copy",
+        "v102-coordinate-render-v5:setter-vs-constructor-translated-geometry"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 7,
+      "sourceId": "v102-box-text-layout-v5",
+      "path": "v102/sources/v102-box-text-layout-v5.pine",
+      "pathFromRound": "sources/v102-box-text-layout-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 box-text-layout v5",
+      "bytes": 2214,
+      "sha256": "80576dd6a386e456084923a5990eb7f0ab5e82963a43d4a8e3eb32656a10a012",
+      "family": "box-text-layout",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BOX_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "BOX_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "TEXT_RECIPE_CODE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "WRAP_RECIPE_CODE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-box-text-layout-v5:complete-short-sentinel-setter-vs-constructor",
+        "v102-box-text-layout-v5:wrap-none-vs-auto",
+        "v102-box-text-layout-v5:left-top-vs-right-bottom"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 8,
+      "sourceId": "v102-table-relocation-v5",
+      "path": "v102/sources/v102-table-relocation-v5.pine",
+      "pathFromRound": "sources/v102-table-relocation-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 table-relocation v5",
+      "bytes": 2244,
+      "sha256": "a8561f05838a02dbdc81fb8c8e6d1c251069e93387fe8907fc2b8ee66e33d0c3",
+      "family": "table-relocation",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 13,
+      "maximumPlotCounts": 13,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "CREATED_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "COLLISION_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "OLD_TABLE_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "FINAL_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FINAL_POSITION_INTENT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-table-relocation-v5:same-position-retain-vs-replace",
+        "v102-table-relocation-v5:second-move-final-anchor",
+        "v102-table-relocation-v5:frame-border-background-and-merged-sentinels",
+        "v102-table-relocation-v5:explicit-zero-vs-auto-dimensions"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 9,
+      "sourceId": "v102-gap-style-geometry-v5",
+      "path": "v102/sources/v102-gap-style-geometry-v5.pine",
+      "pathFromRound": "sources/v102-gap-style-geometry-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 gap-style-geometry v5",
+      "bytes": 1767,
+      "sha256": "ce9cb22b32c37bd9bd4f80adf5f65e0f01f1e3974dec187be9233f38bd7a0019",
+      "family": "gap-style-geometry",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 17,
+      "maximumPlotCounts": 17,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_CONTINUOUS",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "AREA_CONTINUOUS",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "AREA_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "STEP_CONTINUOUS",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "STEP_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "OFFSET_ZERO",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "OFFSET_PLUS_ONE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "HOLE_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-gap-style-geometry-v5:phase3-4-holes-vs-bridges",
+        "v102-gap-style-geometry-v5:step-turn-bar-center-vs-half-bar",
+        "v102-gap-style-geometry-v5:offset-plus-one-vs-zero"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 10,
+      "sourceId": "v102-linefill-sloped-v5",
+      "path": "v102/sources/v102-linefill-sloped-v5.pine",
+      "pathFromRound": "sources/v102-linefill-sloped-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 linefill-sloped v5",
+      "bytes": 1988,
+      "sha256": "420660ddab547cb250da03fbc227577796ae170d9d162bef14811ea3fa4fa97e",
+      "family": "linefill-sloped",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 15,
+      "maximumPlotCounts": 15,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "SAME_PAIR_COUNT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "OLD_FILL_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "NEW_PARENT1_ID",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "NEW_PARENT2_ID",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "MOVED_FIRST_Y1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "MOVED_SECOND_Y2",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "AFTER_OLD_DELETE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-linefill-sloped-v5:sloped-both-extension-follows-endpoints",
+        "v102-linefill-sloped-v5:same-pair-replace-vs-add",
+        "v102-linefill-sloped-v5:old-handle-delete-new-fill-survival"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 11,
+      "sourceId": "v102-line-price-v5",
+      "path": "v102/sources/v102-line-price-v5.pine",
+      "pathFromRound": "sources/v102-line-price-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 line-price v5",
+      "bytes": 2164,
+      "sha256": "fed4d7c061f583665a53f2222d6af0cf72ffff1f5de9a7739426eac506ab2b7c",
+      "family": "line-price",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 19,
+      "maximumPlotCounts": 19,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LEFT_EXTRAPOLATE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "ENDPOINT1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INTERPOLATE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "HALF_STEP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "ENDPOINT2",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "RIGHT_EXTRAPOLATE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "DESC_LEFT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "DESC_RIGHT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "DESC_HALF",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "AFTER_MID",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "AFTER_RIGHT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-line-price-v5:infinite-slope-vs-extend-clamping",
+        "v102-line-price-v5:positive-negative-exact-slopes",
+        "v102-line-price-v5:getter-reflects-mutated-endpoint"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 12,
+      "sourceId": "v102-line-price-vertical-v5",
+      "path": "v102/sources/v102-line-price-vertical-v5.pine",
+      "pathFromRound": "sources/v102-line-price-vertical-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 line-price-vertical v5",
+      "bytes": 1166,
+      "sha256": "c00b5b937a281065ecba47a7055e4ac7a901e4d29d843cd126242dfb75996292",
+      "family": "line-price-vertical",
+      "kind": "numeric-boundary",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "REACHED_BEFORE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "VERTICAL_PRICE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "VERTICAL_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-line-price-vertical-v5:undefined-vertical-vs-endpoint-choice-vs-runtime-refusal"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 13,
+      "sourceId": "v102-extend-stroke-v5",
+      "path": "v102/sources/v102-extend-stroke-v5.pine",
+      "pathFromRound": "sources/v102-extend-stroke-v5.pine",
+      "pineVersion": 5,
+      "indicatorTitle": "V102 extend-stroke v5",
+      "bytes": 2366,
+      "sha256": "f08603d1af3c53a722245e068adc4647aa45c292dea8890ce3dbb37427917fb3",
+      "family": "extend-stroke",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 13,
+      "maximumPlotCounts": 13,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_X1_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_Y1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "BOX_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "EXTEND_RECIPE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "STROKE_RECIPE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-extend-stroke-v5:none-left-right-both-extension",
+        "v102-extend-stroke-v5:solid-dash-dot-and-arrow",
+        "v102-extend-stroke-v5:line-and-box-width-setters"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 14,
+      "sourceId": "v102-copy-appearance-v6",
+      "path": "v102/sources/v102-copy-appearance-v6.pine",
+      "pathFromRound": "sources/v102-copy-appearance-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 copy-appearance v6",
+      "bytes": 3149,
+      "sha256": "7cc07e79f97daed5be9924f006143d0b959f5befc3b85c62c309665051bcf2f5",
+      "family": "copy-appearance",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 16,
+      "maximumPlotCounts": 16,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_SOURCE_X_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_COPY_X_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "LINE_SOURCE_Y",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LINE_COPY_Y",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "BOX_SOURCE_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "BOX_COPY_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "LABEL_SOURCE_EXACT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "LABEL_COPY_EXACT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-copy-appearance-v6:line-copy-preserves-dash-width-color",
+        "v102-copy-appearance-v6:box-copy-preserves-style-independent-text",
+        "v102-copy-appearance-v6:label-copy-preserves-style-independent-text"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 15,
+      "sourceId": "v102-coordinate-render-v6",
+      "path": "v102/sources/v102-coordinate-render-v6.pine",
+      "pathFromRound": "sources/v102-coordinate-render-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 coordinate-render v6",
+      "bytes": 3357,
+      "sha256": "2ff4512576efb96f49326589371a657a2cce0e18ae371a88ec52df517ed52fd4",
+      "family": "coordinate-render",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 8,
+      "plotCalls": 16,
+      "maximumPlotCounts": 16,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_TIME_X1_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_POINT_X1_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "LINE_POINT_Y1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LABEL_POINT_X_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "LABEL_POINT_Y",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "BOX_POINT_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "BOX_POINT_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "BOX_TIME_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-coordinate-render-v6:line-time-index-point-copy",
+        "v102-coordinate-render-v6:box-point-copy-and-time-index",
+        "v102-coordinate-render-v6:label-time-index-point-copy",
+        "v102-coordinate-render-v6:setter-vs-constructor-translated-geometry"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 16,
+      "sourceId": "v102-box-text-layout-v6",
+      "path": "v102/sources/v102-box-text-layout-v6.pine",
+      "pathFromRound": "sources/v102-box-text-layout-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 box-text-layout v6",
+      "bytes": 2334,
+      "sha256": "a35bb5643fa68b42b5263def24fe395f2a49d31ee68ad10af19d22530de3395a",
+      "family": "box-text-layout",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "BOX_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "BOX_TOP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "TEXT_RECIPE_CODE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "WRAP_RECIPE_CODE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-box-text-layout-v6:complete-short-sentinel-setter-vs-constructor",
+        "v102-box-text-layout-v6:wrap-none-vs-auto",
+        "v102-box-text-layout-v6:left-top-vs-right-bottom",
+        "v102-box-text-layout-v6:bold-italic-explicit"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 17,
+      "sourceId": "v102-table-relocation-v6",
+      "path": "v102/sources/v102-table-relocation-v6.pine",
+      "pathFromRound": "sources/v102-table-relocation-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 table-relocation v6",
+      "bytes": 2244,
+      "sha256": "09f929f0bd1c3c881d726c4b4714ec04f2c1037637fbe9788f06a3dd2516cb43",
+      "family": "table-relocation",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 13,
+      "maximumPlotCounts": 13,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "CREATED_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "COLLISION_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "OLD_TABLE_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "FINAL_DELTA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "FINAL_POSITION_INTENT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-table-relocation-v6:same-position-retain-vs-replace",
+        "v102-table-relocation-v6:second-move-final-anchor",
+        "v102-table-relocation-v6:frame-border-background-and-merged-sentinels",
+        "v102-table-relocation-v6:explicit-zero-vs-auto-dimensions"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 18,
+      "sourceId": "v102-gap-style-geometry-v6",
+      "path": "v102/sources/v102-gap-style-geometry-v6.pine",
+      "pathFromRound": "sources/v102-gap-style-geometry-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 gap-style-geometry v6",
+      "bytes": 2012,
+      "sha256": "031366b4668b982e5045e0bf0e1d828e9a92e5ed1f5b82196b3d88ed7472c8b9",
+      "family": "gap-style-geometry",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 19,
+      "maximumPlotCounts": 19,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_CONTINUOUS",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "AREA_CONTINUOUS",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "AREA_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "STEP_CONTINUOUS",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "STEP_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "OFFSET_ZERO",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "OFFSET_PLUS_ONE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "DASH_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "DOT_STEP_BREAK",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "HOLE_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-gap-style-geometry-v6:phase3-4-holes-vs-bridges",
+        "v102-gap-style-geometry-v6:step-turn-bar-center-vs-half-bar",
+        "v102-gap-style-geometry-v6:offset-plus-one-vs-zero",
+        "v102-gap-style-geometry-v6:dash-and-dot-with-breaks"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 19,
+      "sourceId": "v102-linefill-sloped-v6",
+      "path": "v102/sources/v102-linefill-sloped-v6.pine",
+      "pathFromRound": "sources/v102-linefill-sloped-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 linefill-sloped v6",
+      "bytes": 1988,
+      "sha256": "ef84e53f4cad842e7f857d40b564e4045e21256328189838ff168310082b0349",
+      "family": "linefill-sloped",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 15,
+      "maximumPlotCounts": 15,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "SAME_PAIR_COUNT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "OLD_FILL_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "NEW_PARENT1_ID",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "NEW_PARENT2_ID",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "MOVED_FIRST_Y1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "MOVED_SECOND_Y2",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "AFTER_OLD_DELETE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-linefill-sloped-v6:sloped-both-extension-follows-endpoints",
+        "v102-linefill-sloped-v6:same-pair-replace-vs-add",
+        "v102-linefill-sloped-v6:old-handle-delete-new-fill-survival"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 20,
+      "sourceId": "v102-line-price-v6",
+      "path": "v102/sources/v102-line-price-v6.pine",
+      "pathFromRound": "sources/v102-line-price-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 line-price v6",
+      "bytes": 2164,
+      "sha256": "4b1c9661c456efaa2b6364a9acf3e8347f77a66856dda1be1fcd9e10cd9bdd65",
+      "family": "line-price",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 19,
+      "maximumPlotCounts": 19,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LEFT_EXTRAPOLATE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "ENDPOINT1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INTERPOLATE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "HALF_STEP",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "ENDPOINT2",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "RIGHT_EXTRAPOLATE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "DESC_LEFT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "DESC_RIGHT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "DESC_HALF",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "AFTER_MID",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "AFTER_RIGHT",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 16,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 17,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 18,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-line-price-v6:infinite-slope-vs-extend-clamping",
+        "v102-line-price-v6:positive-negative-exact-slopes",
+        "v102-line-price-v6:getter-reflects-mutated-endpoint"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 21,
+      "sourceId": "v102-line-price-vertical-v6",
+      "path": "v102/sources/v102-line-price-vertical-v6.pine",
+      "pathFromRound": "sources/v102-line-price-vertical-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 line-price-vertical v6",
+      "bytes": 1166,
+      "sha256": "b21e5b20dcf13af4e3cb5d46dfd9855d91dbafe499f847ac844497db1fc4ddc8",
+      "family": "line-price-vertical",
+      "kind": "numeric-boundary",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "REACHED_BEFORE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "VERTICAL_PRICE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "VERTICAL_NA",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-line-price-vertical-v6:undefined-vertical-vs-endpoint-choice-vs-runtime-refusal"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 22,
+      "sourceId": "v102-extend-stroke-v6",
+      "path": "v102/sources/v102-extend-stroke-v6.pine",
+      "pathFromRound": "sources/v102-extend-stroke-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 extend-stroke v6",
+      "bytes": 2366,
+      "sha256": "44cecf1c82ee45071eb4410b1e5268f184c105061eb33a52031863e1aa14ed8d",
+      "family": "extend-stroke",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 13,
+      "maximumPlotCounts": 13,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_X1_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_Y1",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "BOX_LEFT_REL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "EXTEND_RECIPE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "STROKE_RECIPE",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-extend-stroke-v6:none-left-right-both-extension",
+        "v102-extend-stroke-v6:solid-dash-dot-and-arrow",
+        "v102-extend-stroke-v6:line-and-box-width-setters"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 23,
+      "sourceId": "v102-format-omitted-box-v6",
+      "path": "v102/sources/v102-format-omitted-box-v6.pine",
+      "pathFromRound": "sources/v102-format-omitted-box-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 format-omitted-box v6",
+      "bytes": 1359,
+      "sha256": "701bc19973d21c4361fce83405d6def2e49c448983215952aff3ffa056a6db6f",
+      "family": "format-omitted-box",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "REACHED_AFTER_OMITTED_CALL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-format-omitted-box-v6:required-argument-refusal-vs-admission",
+        "v102-format-omitted-box-v6:if-admitted-omitted-none-vs-retained-bold-italic"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 24,
+      "sourceId": "v102-format-omitted-label-v6",
+      "path": "v102/sources/v102-format-omitted-label-v6.pine",
+      "pathFromRound": "sources/v102-format-omitted-label-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 format-omitted-label v6",
+      "bytes": 1329,
+      "sha256": "2c85f8c688cee2150b2b5e797475d3dfb64bfed5fcbb89b839381c305111fc9c",
+      "family": "format-omitted-label",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "REACHED_AFTER_OMITTED_CALL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-format-omitted-label-v6:required-argument-refusal-vs-admission",
+        "v102-format-omitted-label-v6:if-admitted-omitted-none-vs-retained-bold-italic"
+      ],
+      "requiresVisualAnchor": true
+    },
+    {
+      "slot": 25,
+      "sourceId": "v102-format-omitted-table-v6",
+      "path": "v102/sources/v102-format-omitted-table-v6.pine",
+      "pathFromRound": "sources/v102-format-omitted-table-v6.pine",
+      "pineVersion": 6,
+      "indicatorTitle": "V102 format-omitted-table v6",
+      "bytes": 1332,
+      "sha256": "3a91ef4cd007897d8a3cdb15ea0afb579b2f29aa86852dbc264d87bbefcf4c7b",
+      "family": "format-omitted-table",
+      "kind": "numeric-and-render",
+      "minimumSourceIndex": 200,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "completePhaseCycles": 4,
+      "requiredOriginalClosedPredecessors": 0,
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "REACHED_AFTER_OMITTED_CALL",
+          "role": "numeric-witness; intent columns do not certify appearance"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CHART_CONFIRMED",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CASE_ID",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_INDEX",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_ZERO",
+          "role": "context"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_HUNDRED",
+          "role": "context"
+        }
+      ],
+      "maximumSaveAttempts": 1,
+      "maximumAddAttempts": 1,
+      "maximumCsvExports": 1,
+      "maximumCalculationSessions": 1,
+      "maximumRenderingScreenshots": 1,
+      "retries": 0,
+      "caseIds": [
+        "v102-format-omitted-table-v6:required-argument-refusal-vs-admission",
+        "v102-format-omitted-table-v6:if-admitted-omitted-none-vs-retained-bold-italic"
+      ],
+      "requiresVisualAnchor": true
+    }
+  ],
+  "budget": {
+    "sources": 25,
+    "maximumSaveAttempts": 25,
+    "maximumAddAttempts": 25,
+    "maximumCsvExports": 25,
+    "maximumCalculationSessions": 25,
+    "maximumRenderingScreenshots": 25,
+    "maximumInputsOrSettingsChanges": 0,
+    "maximumRetries": 0,
+    "maximumHistoryNavigationActions": 0,
+    "maximumNewLayouts": 1
+  },
+  "selection": {
+    "minimumIndex": 200,
+    "phaseModulo": 8,
+    "cycles": 4,
+    "closedRows": 32,
+    "choose": "Earliest source-owned consecutive INPUT_INDEX block starting at phase0, all physically closed and before the single bound visual-anchor row; reserve the stated original closed predecessors for coordinate sources. No output-based filtering.",
+    "ownOriginRequired": false,
+    "snapshot": "Only the keep branch at native islastconfirmedhistory owns the visual plate; bind its original source-owned index/time marker to the screenshot and CSV. Do not substitute the current developing row.",
+    "ifMissing": "Keep every observed row/failure; full certificate HELD, partial contrary results retained."
+  },
+  "scope": "Finite drawing appearance/lifecycle hypotheses; no universal raster/font/optimizer/provider/history reconstruction or historical hold closure.",
+  "priorEvidence": [
+    {
+      "path": "v93/captures/v93/RESPONSE-v93-v7.md",
+      "bytes": 11561,
+      "sha256": "336bc2162846c1c644b1eaf291c56876ad44c90b691b2bc544c1cf58892466cf"
+    },
+    {
+      "path": "v93/captures/v93/facet-capabilities-v7.json",
+      "bytes": 3637065,
+      "sha256": "4858bcd5f088477b22eb7d42319679840314f52e253237c90192c657f536a05d"
+    },
+    {
+      "path": "v93/captures/v93/numeric-controls-v7.json",
+      "bytes": 3377255,
+      "sha256": "1e630cbec78a196bf6dc652e29cb63a663b023108bf178847e7cd18a3c399c1f"
+    },
+    {
+      "path": "v3/scalar-07-table-merge-cells-merge-already-merged.pine",
+      "bytes": 179,
+      "sha256": "61b0bb3bf9b3c0f96b1c980b16b66ac6d00b10a7e19af1e499c9c66a6baad458"
+    },
+    {
+      "path": "v3/captures/v3/outcomes-v3.json",
+      "bytes": 450944,
+      "sha256": "8a3e698bb219235eba192ad5249ebb51f88ef8802b3aacebc1bccc9532190785"
+    },
+    {
+      "path": "v3/captures/v3/scalar-07-table-merge-cells-merge-already-merged-attempt1.csv",
+      "bytes": 1119918,
+      "sha256": "b6efc91ef26cba8ad16c36b11ab371cd7ae5998d6c466bf92e36956280818ead"
+    },
+    {
+      "path": "v101/REQUEST-v101-v1.md",
+      "bytes": 13555,
+      "sha256": "a84531d3819faf7d93266333d5ae6659098bf29081160ece0bc267da48e906cf"
+    }
+  ],
+  "snapshotContract": {
+    "trigger": "barstate.islastconfirmedhistory and bar_index>=200",
+    "ownCsvTimeAndIndexMarkers": true,
+    "maximumWholeChartPNGsPerSuccessfulSource": 1,
+    "viewportChanges": 0,
+    "verticalBoundaryAppearanceClaim": false,
+    "noRecoveryOfLiveOrHistoricalContexts": true
+  }
+}
