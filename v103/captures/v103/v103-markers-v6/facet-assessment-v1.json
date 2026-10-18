@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "sourceId": "v103-markers-v6",
+  "sourceSha256": "1023b792df9c721689878aff7ea81b8316de911dbdc4f7d4277e3896dcf34af8",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-markers-v6/numeric-results-v1.json",
+    "bytes": 171807,
+    "sha256": "9fb14aed9921f072eb4584b8fbce83b750e8946a561d0c4816cd13ed6e21f11b"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-markers-v6/compiler-diagnostics-v1.json",
+    "bytes": 1566,
+    "sha256": "47fb1f81345af1a462ad851860eaa025d20c1e9b59913a902f3034f4708f93ff"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-markers-v6:shape-size",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "lower square large relative to upper small",
+      "modelB": "lower square small too",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          50,
+          70
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-markers-v6/derived-region-map-v1.json",
+        "bytes": 14080,
+        "sha256": "3af262e35f298fb7812c4115a4ef38718819b0465c48e84f24db754d6a2591d5"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-markers-v6:shape-absolute-location",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "upper square at native y80",
+      "modelB": "upper square at top edge instead",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          73,
+          86
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-markers-v6/derived-region-map-v1.json",
+        "bytes": 14080,
+        "sha256": "3af262e35f298fb7812c4115a4ef38718819b0465c48e84f24db754d6a2591d5"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-markers-v6:literal-char",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "complete orange X",
+      "modelB": "orange O",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          20,
+          40
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-markers-v6/derived-region-map-v1.json",
+        "bytes": 14080,
+        "sha256": "3af262e35f298fb7812c4115a4ef38718819b0465c48e84f24db754d6a2591d5"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

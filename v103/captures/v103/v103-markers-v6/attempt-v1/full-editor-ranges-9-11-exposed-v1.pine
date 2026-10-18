@@ -1,0 +1,17 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 markers v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+
+plotshape(phase == 0 ? 80 : na, "SMALL_SQUARE", style=shape.square, location=location.absolute, color=color.blue, size=size.small)
+plotshape(phase == 4 ? 60 : na, "LARGE_SQUARE", style=shape.square, location=location.absolute, color=color.blue, size=size.large)
+plotchar(phase == 2 ? 30 : na, "CHAR_X", char="X", location=location.absolute, color=color.orange, size=size.large)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(ba

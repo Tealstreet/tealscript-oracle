@@ -1,0 +1,168 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original absolute-location marker PNG; native glyph-driven scale expansion calibrated independently",
+  "inspectedOriginalPngSha256": "da69b3df92556a0fdee0e593fc9d2994af0f9db7ce556d35d3a87140a6dabdff",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 89
+      },
+      {
+        "label": "03:30 UTC",
+        "unixSeconds": 1792294200,
+        "xPx": 179
+      }
+    ],
+    "yZeroPx": 863,
+    "yHundredPx": 698
+  },
+  "facets": [
+    {
+      "facetId": "v103-markers-v6:shape-size",
+      "outcome": "SUPPORTED_A",
+      "observation": "At the registered lower-lane center, blue large squares span approximately40 pixels horizontally, distinctly wider than the separated upper small squares around17 pixels. Their full bodies are unoccluded in the original PNG; the frozen lower comparison window crosses their broad central portions. This supports the relative size class without changing the window.",
+      "actualSubjectRegionsPx": [
+        [
+          945,
+          745,
+          985,
+          785
+        ],
+        [
+          993,
+          745,
+          1033,
+          785
+        ],
+        [
+          1041,
+          745,
+          1081,
+          785
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          933,
+          723,
+          950,
+          741
+        ],
+        [
+          981,
+          723,
+          998,
+          741
+        ],
+        [
+          1029,
+          723,
+          1046,
+          741
+        ]
+      ],
+      "occlusion": "Interior complete X glyphs and complete square bodies are visible without mutual or third-object occlusion. Boundary glyphs outside the primary interval are not used as complete-glyph witnesses. Original glyph bounds are recorded as observations; frozen scoring windows are not expanded.",
+      "precision": "Fixed x2/y3/stroke1 registration uncertainty. Relative width17-versus40,80-versus-pane-top displacement and X crossing versus O center are qualitative classes; no universal font, marker pixel metric or forced0/100 viewport.",
+      "scope": "Only this exact v6 absolute-location/relative-size/literal-character plate, using actual expanded native scale. Unexposed font/DPI remain unknown."
+    },
+    {
+      "facetId": "v103-markers-v6:shape-absolute-location",
+      "outcome": "SUPPORTED_A",
+      "observation": "The upper small-square centers are near y731, matching native value80 from the actual0/100 axis, far below the pane top632. They are not pinned to the top edge.",
+      "actualSubjectRegionsPx": [
+        [
+          933,
+          723,
+          950,
+          741
+        ],
+        [
+          981,
+          723,
+          998,
+          741
+        ],
+        [
+          1029,
+          723,
+          1046,
+          741
+        ],
+        [
+          1077,
+          723,
+          1094,
+          741
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          0,
+          632,
+          1190,
+          650
+        ]
+      ],
+      "occlusion": "Interior complete X glyphs and complete square bodies are visible without mutual or third-object occlusion. Boundary glyphs outside the primary interval are not used as complete-glyph witnesses. Original glyph bounds are recorded as observations; frozen scoring windows are not expanded.",
+      "precision": "Fixed x2/y3/stroke1 registration uncertainty. Relative width17-versus40,80-versus-pane-top displacement and X crossing versus O center are qualitative classes; no universal font, marker pixel metric or forced0/100 viewport.",
+      "scope": "Only this exact v6 absolute-location/relative-size/literal-character plate, using actual expanded native scale. Unexposed font/DPI remain unknown."
+    },
+    {
+      "facetId": "v103-markers-v6:literal-char",
+      "outcome": "SUPPORTED_A",
+      "observation": "Complete orange X glyphs are directly readable near x1001,1049,1097 and y813 in the original PNG. Their diagonal strokes cross inside the fixed y20..40 comparison region, unlike an O; full upper/lower glyph tips remain visible elsewhere in the same original image. No glyph is completed from source intent or a clipped original.",
+      "actualSubjectRegionsPx": [
+        [
+          978,
+          786,
+          1024,
+          839
+        ],
+        [
+          1026,
+          786,
+          1072,
+          839
+        ],
+        [
+          1074,
+          786,
+          1120,
+          839
+        ]
+      ],
+      "actualControlRegionsPx": [],
+      "occlusion": "Interior complete X glyphs and complete square bodies are visible without mutual or third-object occlusion. Boundary glyphs outside the primary interval are not used as complete-glyph witnesses. Original glyph bounds are recorded as observations; frozen scoring windows are not expanded.",
+      "precision": "Fixed x2/y3/stroke1 registration uncertainty. Relative width17-versus40,80-versus-pane-top displacement and X crossing versus O center are qualitative classes; no universal font, marker pixel metric or forced0/100 viewport.",
+      "scope": "Only this exact v6 absolute-location/relative-size/literal-character plate, using actual expanded native scale. Unexposed font/DPI remain unknown.",
+      "visibleTextByRegion": [
+        {
+          "region": "interior glyph1001",
+          "literal": "X"
+        },
+        {
+          "region": "interior glyph1049",
+          "literal": "X"
+        },
+        {
+          "region": "interior glyph1097",
+          "literal": "X"
+        }
+      ]
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}
