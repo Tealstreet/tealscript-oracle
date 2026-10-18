@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v103-table-zero-auto-v6",
+  "sourceSha256": "49de687aaa17cd07d0c5ab6993a249f4a3f3532f06dad0d7dcf305aa00c33bdc",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-table-zero-auto-v6/numeric-results-v1.json",
+    "bytes": 142826,
+    "sha256": "d3aeac6ab5d0d607160c98a56890b495f9f1e9db60d810948c58b18e437d3659"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-table-zero-auto-v6/compiler-diagnostics-v1.json",
+    "bytes": 1592,
+    "sha256": "c8677a37e555b6e785ef23b788bd4cc83dc8075ccffbe59b5989832c97d1f25a"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-table-zero-auto-v6:explicit-zero-auto",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "explicit zero auto-sizes like omitted dimensions",
+      "modelB": "explicit zero collapses the top-left subject",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.35
+        ],
+        "y": [
+          0,
+          0.35
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-zero-auto-v6/derived-region-map-v1.json",
+        "bytes": 8190,
+        "sha256": "6312eaab70bae91598da4233ae9940379698cc282b6137c79b00ebaa2f508211"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

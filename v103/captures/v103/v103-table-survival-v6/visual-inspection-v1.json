@@ -1,0 +1,173 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of original v6 retained table PNG against all four frozen windows",
+  "inspectedOriginalPngSha256": "621bfd51ef14c420d52f05899e3298a625f57f6e8cb30f8962f27aaa75a90cdf",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "01:30 UTC",
+        "unixSeconds": 1792287000,
+        "xPx": 77
+      },
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 167
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-table-survival-v6:old-table-survival",
+      "outcome": "SUPPORTED_A",
+      "observation": "No red A OLD table occupies its registered top-left region. The dark pane and study legend are visible there; no opaque third object covers the predicted broad red table. B and C are both independently visible below.",
+      "actualSubjectRegionsPx": [
+        [
+          0,
+          632,
+          298,
+          697
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          892,
+          844,
+          1184,
+          920
+        ],
+        [
+          6,
+          844,
+          298,
+          920
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "B retained control",
+          "literal": "B TOP"
+        },
+        {
+          "region": "C retained control",
+          "literal": "C TOP"
+        }
+      ],
+      "scope": "Finite visible old-table absence at this retained build; numeric OLD_NA/COUNT are separate. No generic token explanation."
+    },
+    {
+      "facetId": "v103-table-survival-v6:final-relocation",
+      "outcome": "SUPPORTED_A",
+      "observation": "B is readable at bottom-right with no readable B residual at top-left or center. Independent C remains bottom-left.",
+      "actualSubjectRegionsPx": [
+        [
+          892,
+          844,
+          1184,
+          920
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          6,
+          844,
+          298,
+          920
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "B top row",
+          "literal": "B TOP"
+        },
+        {
+          "region": "B lower cells",
+          "literal": "B LEFT / B RIGHT"
+        }
+      ],
+      "occlusion": "No third object covers B or its candidate stale anchors."
+    },
+    {
+      "facetId": "v103-table-survival-v6:frame-background-border",
+      "outcome": "SUPPORTED_A",
+      "observation": "B setter table and C constructor control both show yellow background, thick blue outer frame and thin red cell boundaries. Their visible framing/field classes match in the same image.",
+      "actualSubjectRegionsPx": [
+        [
+          892,
+          844,
+          1184,
+          920
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          6,
+          844,
+          298,
+          920
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "B",
+          "literal": "B TOP / B LEFT / B RIGHT"
+        },
+        {
+          "region": "C",
+          "literal": "C TOP / C LEFT / C RIGHT"
+        }
+      ],
+      "scope": "Qualitative same-shot recipe and thickness classes; no exact color-channel, CSS width, DPI or resolved font claim."
+    },
+    {
+      "facetId": "v103-table-survival-v6:merged-row",
+      "outcome": "SUPPORTED_A",
+      "observation": "B TOP occupies a single upper row across both columns. Its lower red vertical divider begins at the red horizontal separator; it does not divide the upper row. C supplies the independent same-layout merged constructor control.",
+      "actualSubjectRegionsPx": [
+        [
+          892,
+          844,
+          1184,
+          920
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          6,
+          844,
+          298,
+          920
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "merged B upper row",
+          "literal": "B TOP"
+        },
+        {
+          "region": "B lower-left cell",
+          "literal": "B LEFT"
+        },
+        {
+          "region": "B lower-right cell",
+          "literal": "B RIGHT"
+        }
+      ],
+      "scope": "This exact merge appearance only; no arbitrary overlap/repeated-merge/version transfer."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "version": "v1",
+  "sourceId": "v103-table-survival-v6",
+  "sourceSha256": "7db52f58a721fbe669cd82d05ce7d4fb59bdab01ee63de4e7b2c43c832bf0e55",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-table-survival-v6/numeric-results-v1.json",
+    "bytes": 160050,
+    "sha256": "084d70074feb746feea6ced76ce6302cf88009ead644e773093b38f364ebbd89"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-table-survival-v6/compiler-diagnostics-v1.json",
+    "bytes": 1589,
+    "sha256": "31366b79d71ab960b6ae3416e1673cf4d229330a8528dc290f2156c30f450115"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-table-survival-v6:old-table-survival",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "A absent after witnessed destination replacement",
+      "modelB": "A still visible after B leaves",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.25
+        ],
+        "y": [
+          0,
+          0.22
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-survival-v6/derived-region-map-v1.json",
+        "bytes": 14040,
+        "sha256": "81e7949afaf4c9f5f4ae6afce24cdaf1825947518b830f1e52820017d88dca0e"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v6:final-relocation",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "B bottom_right survives",
+      "modelB": "final set_position ignored; B top_left",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-survival-v6/derived-region-map-v1.json",
+        "bytes": 14040,
+        "sha256": "81e7949afaf4c9f5f4ae6afce24cdaf1825947518b830f1e52820017d88dca0e"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v6:frame-background-border",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "B setter recipe matches independent C constructor",
+      "modelB": "B frame/background/border setters ignored",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-survival-v6/derived-region-map-v1.json",
+        "bytes": 14040,
+        "sha256": "81e7949afaf4c9f5f4ae6afce24cdaf1825947518b830f1e52820017d88dca0e"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-table-survival-v6:merged-row",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "B top row merged; lower separator survives",
+      "modelB": "B remains unmerged",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.72,
+          1
+        ],
+        "y": [
+          0.7,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-survival-v6/derived-region-map-v1.json",
+        "bytes": 14040,
+        "sha256": "81e7949afaf4c9f5f4ae6afce24cdaf1825947518b830f1e52820017d88dca0e"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

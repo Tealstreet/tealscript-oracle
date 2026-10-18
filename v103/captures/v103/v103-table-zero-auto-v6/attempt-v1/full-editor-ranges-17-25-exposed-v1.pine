@@ -1,0 +1,18 @@
+orTime := time
+    a = table.new(position.top_left, 1, 1, bgcolor=color.yellow, frame_color=color.blue, frame_width=3)
+    table.cell(a, 0, 0, "SAME WORD", width=0, height=0, text_color=color.black, text_size=16)
+    b = table.new(position.top_right, 1, 1, bgcolor=color.yellow, frame_color=color.blue, frame_width=3)
+    table.cell(b, 0, 0, "SAME WORD", text_color=color.black, text_size=16)
+    c = table.new(position.bottom_center, 1, 1, bgcolor=color.aqua, frame_color=color.blue, frame_width=3)
+    table.cell(c, 0, 0, "SAME WORD", width=30, height=20, text_color=color.black, text_size=16)
+    COUNT := array.size(table.all)
+
+plot(build ? COUNT : na, "COUNT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
