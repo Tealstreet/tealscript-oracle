@@ -1,0 +1,4760 @@
+{
+  "version": "v1",
+  "round": "v103",
+  "baselineOracle": "f47a4e34ce33441ad37add124d9572119826138d",
+  "engineFrontier": "999622124574510d2ce8ed1e9fc85d468eb53443",
+  "authorizedMethod": "Save as PRIVATE unpublished script, Add to chart, remove studies after; MAY create a new throwaway layout and change symbol/interval/settings on it only; STILL FORBIDDEN: publish, share, any visibility change, any change to EXISTING saved layouts, alerts, library publication/import; anything beyond: STOP as BLOCKED-NEEDS-OWNER-APPROVAL.",
+  "localAuthoring": "Local commit on master only; DO NOT push; crossed QA/owner handoff before capture",
+  "maximumSourceSlots": 29,
+  "sourceRetries": 0,
+  "inputVariants": 0,
+  "settingsChanges": 0,
+  "selection": {
+    "anchor": "one-time committed historical build A with original source-owned time/index",
+    "primary": "A-31..A inclusive, every physically closed source-owned row, all phases four times",
+    "originalClosedPredecessors": 8,
+    "noOutputFiltering": true,
+    "noSyntheticPrefix": true
+  },
+  "pixelCalibration": {
+    "primaryWindow": "X(A-31)..X(A), same original screenshot",
+    "X": "x_A + delta_index * pixels_per_bar; derive x_A/bar spacing from ORIGINAL CSV/time-axis tick joins",
+    "Y": "y_0 - value * (y_0-y_100)/100; overlay plotarrow uses actual OHLC/price-axis envelope plus 64px, not indicator scale",
+    "preregisteredEnvelope": {
+      "paneWidthPx": [
+        1000,
+        1600
+      ],
+      "paneHeightPx": [
+        240,
+        340
+      ],
+      "barSpacingPx": [
+        4,
+        8
+      ],
+      "rightMarginBars": [
+        5,
+        16
+      ]
+    },
+    "countermodelViewports": [
+      {
+        "width": 1200,
+        "height": 280,
+        "barSpacing": 6,
+        "rightMarginBars": 10
+      },
+      {
+        "width": 1000,
+        "height": 240,
+        "barSpacing": 8,
+        "rightMarginBars": 16
+      },
+      {
+        "width": 1400,
+        "height": 340,
+        "barSpacing": 4,
+        "rightMarginBars": 8
+      },
+      {
+        "width": 1000,
+        "height": 240,
+        "barSpacing": 4,
+        "rightMarginBars": 16,
+        "axisPadding": 0.05
+      }
+    ],
+    "outsideEnvelope": "UNDECIDED; do not resize/zoom/pan or obtain a second plate",
+    "uncertainty": "Original tick/calibration uncertainty must leave distinct candidate windows; no fitted tolerance"
+  },
+  "sources": [
+    {
+      "slot": 1,
+      "sourceId": "v103-table-survival-v5",
+      "family": "table-survival",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-table-survival-v5.pine",
+      "bytes": 2237,
+      "sha256": "a2af2f370924594dc326582106b39d0282ac7ba456fc8e0421b01e8a73c5518f",
+      "indicatorTitle": "V103 table-survival v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "OLD_NA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 10,
+      "maximumPlotCounts": 10,
+      "numericWitnesses": {
+        "OLD_NA": "anchor only:1 under invalidation,0 under retention; old v102 numeric contract is a control",
+        "COUNT": "anchor only:2 under invalidation; observed count not painted position"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-table-survival-v5:old-table-survival",
+          "modelA": "A absent after witnessed destination replacement",
+          "modelB": "A still visible after B leaves",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.25
+            ],
+            "y": [
+              0,
+              0.22
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "retain-destination",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-table-survival-v5:final-relocation",
+          "modelA": "B bottom_right survives",
+          "modelB": "final set_position ignored; B top_left",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.72,
+              1
+            ],
+            "y": [
+              0.7,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "table.set_position(b, position.bottom_right)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-table-survival-v5:frame-background-border",
+          "modelA": "B setter recipe matches independent C constructor",
+          "modelB": "B frame/background/border setters ignored",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.72,
+              1
+            ],
+            "y": [
+              0.7,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "table.set_bgcolor(b, color.yellow)\n    table.set_frame_color(b, color.blue)\n    table.set_frame_width(b, 4)\n    table.set_border_color(b, color.red)\n    table.set_border_width(b, 2)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-table-survival-v5:merged-row",
+          "modelA": "B top row merged; lower separator survives",
+          "modelB": "B remains unmerged",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.72,
+              1
+            ],
+            "y": [
+              0.7,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "table.merge_cells(b, 0, 0, 1, 0)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 2,
+      "sourceId": "v103-table-zero-auto-v5",
+      "family": "table-zero-auto",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-table-zero-auto-v5.pine",
+      "bytes": 1632,
+      "sha256": "b5ffe6d4780ae3794d154f1687b1fea9e5a7f5465a6208fb635637f48fd098a5",
+      "indicatorTitle": "V103 table-zero-auto v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "COUNT": "anchor:3, a non-raster lifecycle control"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-table-zero-auto-v5:explicit-zero-auto",
+          "modelA": "explicit zero auto-sizes like omitted dimensions",
+          "modelB": "explicit zero collapses the top-left subject",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.35
+            ],
+            "y": [
+              0,
+              0.35
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "collapse-zero",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 3,
+      "sourceId": "v103-table-survival-v6",
+      "family": "table-survival",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-table-survival-v6.pine",
+      "bytes": 2237,
+      "sha256": "7db52f58a721fbe669cd82d05ce7d4fb59bdab01ee63de4e7b2c43c832bf0e55",
+      "indicatorTitle": "V103 table-survival v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "OLD_NA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 10,
+      "maximumPlotCounts": 10,
+      "numericWitnesses": {
+        "OLD_NA": "anchor only:1 under invalidation,0 under retention; old v102 numeric contract is a control",
+        "COUNT": "anchor only:2 under invalidation; observed count not painted position"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-table-survival-v6:old-table-survival",
+          "modelA": "A absent after witnessed destination replacement",
+          "modelB": "A still visible after B leaves",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.25
+            ],
+            "y": [
+              0,
+              0.22
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "retain-destination",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-table-survival-v6:final-relocation",
+          "modelA": "B bottom_right survives",
+          "modelB": "final set_position ignored; B top_left",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.72,
+              1
+            ],
+            "y": [
+              0.7,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "table.set_position(b, position.bottom_right)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-table-survival-v6:frame-background-border",
+          "modelA": "B setter recipe matches independent C constructor",
+          "modelB": "B frame/background/border setters ignored",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.72,
+              1
+            ],
+            "y": [
+              0.7,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "table.set_bgcolor(b, color.yellow)\n    table.set_frame_color(b, color.blue)\n    table.set_frame_width(b, 4)\n    table.set_border_color(b, color.red)\n    table.set_border_width(b, 2)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-table-survival-v6:merged-row",
+          "modelA": "B top row merged; lower separator survives",
+          "modelB": "B remains unmerged",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.72,
+              1
+            ],
+            "y": [
+              0.7,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "table.merge_cells(b, 0, 0, 1, 0)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 4,
+      "sourceId": "v103-table-zero-auto-v6",
+      "family": "table-zero-auto",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-table-zero-auto-v6.pine",
+      "bytes": 1605,
+      "sha256": "49de687aaa17cd07d0c5ab6993a249f4a3f3532f06dad0d7dcf305aa00c33bdc",
+      "indicatorTitle": "V103 table-zero-auto v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "COUNT": "anchor:3, a non-raster lifecycle control"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-table-zero-auto-v6:explicit-zero-auto",
+          "modelA": "explicit zero auto-sizes like omitted dimensions",
+          "modelB": "explicit zero collapses the top-left subject",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.35
+            ],
+            "y": [
+              0,
+              0.35
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "collapse-zero",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 5,
+      "sourceId": "v103-visible-gap-v5",
+      "family": "visible-gap",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-visible-gap-v5.pine",
+      "bytes": 1522,
+      "sha256": "6e096affc64676a711bc923d2d4853091ea774574a2f57bb36d9d3106c2d3ce0",
+      "indicatorTitle": "V103 visible-gap v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "BREAK"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "AREA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "AREA_BREAK"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "STEP"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "OFFSET0"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "OFFSET1"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 15,
+      "maximumPlotCounts": 15,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-visible-gap-v5:holes-vs-bridge",
+          "modelA": "linebr gap at phase3/4",
+          "modelB": "bridge through both holes",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              20,
+              35
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "\"BREAK\", color=color.red, linewidth=3, style=plot.style_linebr",
+            "new": "\"BREAK\", color=color.red, linewidth=3, style=plot.style_line"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-visible-gap-v5:area-break",
+          "modelA": "areabr leaves hole unfilled",
+          "modelB": "area bridges hole",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              50,
+              65
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "style=plot.style_areabr",
+            "new": "style=plot.style_area"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-visible-gap-v5:step-half-bar",
+          "modelA": "step turns at bar center",
+          "modelB": "all registered step turns displaced half a bar",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              68,
+              80
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "step-turn-models",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-visible-gap-v5:offset-displacement",
+          "modelA": "fuchsia phase0 source marker projected+1 bar",
+          "modelB": "offset ignored",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              90,
+              98
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "linewidth=1, offset=1",
+            "new": "linewidth=1, offset=0"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 6,
+      "sourceId": "v103-visible-gap-v6",
+      "family": "visible-gap",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-visible-gap-v6.pine",
+      "bytes": 1633,
+      "sha256": "1ec45cb1ec29f0148b636d32b08a9270fcc17a3de782c64b8d9b9ee72763f14d",
+      "indicatorTitle": "V103 visible-gap v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "BREAK"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "AREA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "AREA_BREAK"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "STEP"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "OFFSET0"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "OFFSET1"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "DASH"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 16,
+      "maximumPlotCounts": 16,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-visible-gap-v6:holes-vs-bridge",
+          "modelA": "linebr gap at phase3/4",
+          "modelB": "bridge through both holes",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              20,
+              35
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "\"BREAK\", color=color.red, linewidth=3, style=plot.style_linebr",
+            "new": "\"BREAK\", color=color.red, linewidth=3, style=plot.style_line"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-visible-gap-v6:area-break",
+          "modelA": "areabr leaves hole unfilled",
+          "modelB": "area bridges hole",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              50,
+              65
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "style=plot.style_areabr",
+            "new": "style=plot.style_area"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-visible-gap-v6:step-half-bar",
+          "modelA": "step turns at bar center",
+          "modelB": "all registered step turns displaced half a bar",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              68,
+              80
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "step-turn-models",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-visible-gap-v6:offset-displacement",
+          "modelA": "fuchsia phase0 source marker projected+1 bar",
+          "modelB": "offset ignored",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              90,
+              98
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "linewidth=1, offset=1",
+            "new": "linewidth=1, offset=0"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-visible-gap-v6:dash-with-break",
+          "modelA": "separated dashed stroke with holes",
+          "modelB": "solid stroke with same holes",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              83,
+              96
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "linestyle=plot.linestyle_dashed",
+            "new": "linestyle=plot.linestyle_solid"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 7,
+      "sourceId": "v103-polyline-label-v5",
+      "family": "polyline-label",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-polyline-label-v5.pine",
+      "bytes": 1506,
+      "sha256": "0803eb2041251a22103e6354ef154f360c0058fa99d90d019b1a5b62ab011c1f",
+      "indicatorTitle": "V103 polyline-label v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-polyline-label-v5:unoccluded-pair-both-orders",
+          "modelA": "opaque labels cover orange stripe in both lanes",
+          "modelB": "orange stripe covers label center in both lanes",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -65,
+              -35
+            ],
+            "y": [
+              20,
+              80
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "polyline-over-label",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 8,
+      "sourceId": "v103-polyline-label-v6",
+      "family": "polyline-label",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-polyline-label-v6.pine",
+      "bytes": 1506,
+      "sha256": "059f20d8a4580208b7a679eb3c4b7a4ff7d0f153faa07965981c99d9b541e182",
+      "indicatorTitle": "V103 polyline-label v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-polyline-label-v6:unoccluded-pair-both-orders",
+          "modelA": "opaque labels cover orange stripe in both lanes",
+          "modelB": "orange stripe covers label center in both lanes",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -65,
+              -35
+            ],
+            "y": [
+              20,
+              80
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "polyline-over-label",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 9,
+      "sourceId": "v103-table-over-line-v6",
+      "family": "table-over-line",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-table-over-line-v6.pine",
+      "bytes": 1174,
+      "sha256": "2172f00137398d927b30eb3767021724018da8f9e42b456bbb7f28e4aaec0e14",
+      "indicatorTitle": "V103 table-over-line v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-table-over-line-v6:actual-single-subject-overlap",
+          "modelA": "opaque blue table covers the subject at its own registered intersection",
+          "modelB": "subject paints above blue table",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -70,
+              -15
+            ],
+            "y": [
+              35,
+              45
+            ],
+            "paddingPx": 2,
+            "intersectPaneFractions": {
+              "x": [
+                0.12,
+                0.88
+              ],
+              "y": [
+                0.2,
+                0.8
+              ]
+            }
+          },
+          "countermodel": {
+            "kind": "table-under-subject",
+            "old": null,
+            "new": null,
+            "positiveControl": "The same subject must be visible outside the blue table: left/right shaft or band; for label, orange body above AND below the thin table. If absent, UNDECIDED."
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 10,
+      "sourceId": "v103-table-over-polyline-v6",
+      "family": "table-over-polyline",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-table-over-polyline-v6.pine",
+      "bytes": 1244,
+      "sha256": "6435f9e69bdb68ae804b326afdf0c7b004f139f947cd4f22f72d6292c909b067",
+      "indicatorTitle": "V103 table-over-polyline v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-table-over-polyline-v6:actual-single-subject-overlap",
+          "modelA": "opaque blue table covers the subject at its own registered intersection",
+          "modelB": "subject paints above blue table",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -70,
+              -15
+            ],
+            "y": [
+              35,
+              45
+            ],
+            "paddingPx": 2,
+            "intersectPaneFractions": {
+              "x": [
+                0.12,
+                0.88
+              ],
+              "y": [
+                0.2,
+                0.8
+              ]
+            }
+          },
+          "countermodel": {
+            "kind": "table-under-subject",
+            "old": null,
+            "new": null,
+            "positiveControl": "The same subject must be visible outside the blue table: left/right shaft or band; for label, orange body above AND below the thin table. If absent, UNDECIDED."
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 11,
+      "sourceId": "v103-table-over-box-v6",
+      "family": "table-over-box",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-table-over-box-v6.pine",
+      "bytes": 1191,
+      "sha256": "991ef4e33110405f8d556018c378b87ebe5da5a2b40fbc1af8df3800b274493c",
+      "indicatorTitle": "V103 table-over-box v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-table-over-box-v6:actual-single-subject-overlap",
+          "modelA": "opaque blue table covers the subject at its own registered intersection",
+          "modelB": "subject paints above blue table",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -70,
+              -15
+            ],
+            "y": [
+              35,
+              45
+            ],
+            "paddingPx": 2,
+            "intersectPaneFractions": {
+              "x": [
+                0.12,
+                0.88
+              ],
+              "y": [
+                0.2,
+                0.8
+              ]
+            }
+          },
+          "countermodel": {
+            "kind": "table-under-subject",
+            "old": null,
+            "new": null,
+            "positiveControl": "The same subject must be visible outside the blue table: left/right shaft or band; for label, orange body above AND below the thin table. If absent, UNDECIDED."
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 12,
+      "sourceId": "v103-table-over-label-v6",
+      "family": "table-over-label",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-table-over-label-v6.pine",
+      "bytes": 1265,
+      "sha256": "8aa8b65bbaa79bd82ec1fe3399dded9d0a7b1b2226d20c6368c7cfa2709cc41e",
+      "indicatorTitle": "V103 table-over-label v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-table-over-label-v6:actual-single-subject-overlap",
+          "modelA": "opaque blue table covers the subject at its own registered intersection",
+          "modelB": "subject paints above blue table",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -70,
+              -15
+            ],
+            "y": [
+              49,
+              51
+            ],
+            "paddingPx": 2,
+            "intersectPaneFractions": {
+              "x": [
+                0.12,
+                0.88
+              ],
+              "y": [
+                0.2,
+                0.8
+              ]
+            }
+          },
+          "countermodel": {
+            "kind": "table-under-subject",
+            "old": null,
+            "new": null,
+            "positiveControl": "The same subject must be visible outside the blue table: left/right shaft or band; for label, orange body above AND below the thin table. If absent, UNDECIDED."
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 13,
+      "sourceId": "v103-table-over-linefill-v6",
+      "family": "table-over-linefill",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-table-over-linefill-v6.pine",
+      "bytes": 1286,
+      "sha256": "240def69b5799c1f20be1aee5b1a0ee832dfcaf777b9644df10195d90596d83c",
+      "indicatorTitle": "V103 table-over-linefill v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-table-over-linefill-v6:actual-single-subject-overlap",
+          "modelA": "opaque blue table covers the subject at its own registered intersection",
+          "modelB": "subject paints above blue table",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -70,
+              -15
+            ],
+            "y": [
+              35,
+              45
+            ],
+            "paddingPx": 2,
+            "intersectPaneFractions": {
+              "x": [
+                0.12,
+                0.88
+              ],
+              "y": [
+                0.2,
+                0.8
+              ]
+            }
+          },
+          "countermodel": {
+            "kind": "table-under-subject",
+            "old": null,
+            "new": null,
+            "positiveControl": "The same subject must be visible outside the blue table: left/right shaft or band; for label, orange body above AND below the thin table. If absent, UNDECIDED."
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 14,
+      "sourceId": "v103-box-layout-v5",
+      "family": "box-layout",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-box-layout-v5.pine",
+      "bytes": 2324,
+      "sha256": "aecd1ec5e18432fc9557b77383e58c8d96802dbc2a0d2b3b69bf669abd40abf4",
+      "indicatorTitle": "V103 box-layout v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-box-layout-v5:wrap-vs-nowrap",
+          "modelA": "a has multiple complete short-word lines",
+          "modelB": "a remains nowrap like b",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -96,
+              -86
+            ],
+            "y": [
+              49,
+              96
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_wrap(a, text.wrap_auto)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-layout-v5:horizontal",
+          "modelA": "blue EDGE near right border",
+          "modelB": "blue EDGE near left border",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              4,
+              26
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_halign(e, text.align_right)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-layout-v5:vertical",
+          "modelA": "blue EDGE near bottom border",
+          "modelB": "blue EDGE near top border",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              4,
+              26
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_valign(e, text.align_bottom)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 15,
+      "sourceId": "v103-box-layout-v6",
+      "family": "box-layout",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-box-layout-v6.pine",
+      "bytes": 2282,
+      "sha256": "5a21e9369110b73053093faee04f9f598e1cabfcab88f7ecd729568991d420f3",
+      "indicatorTitle": "V103 box-layout v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-box-layout-v6:wrap-vs-nowrap",
+          "modelA": "a has multiple complete short-word lines",
+          "modelB": "a remains nowrap like b",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -96,
+              -86
+            ],
+            "y": [
+              49,
+              96
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_wrap(a, text.wrap_auto)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-layout-v6:horizontal",
+          "modelA": "blue EDGE near right border",
+          "modelB": "blue EDGE near left border",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              4,
+              26
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_halign(e, text.align_right)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-layout-v6:vertical",
+          "modelA": "blue EDGE near bottom border",
+          "modelB": "blue EDGE near top border",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              4,
+              26
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_valign(e, text.align_bottom)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 16,
+      "sourceId": "v103-box-format-v6",
+      "family": "box-format",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-box-format-v6.pine",
+      "bytes": 2113,
+      "sha256": "ff6ec5173c597b3f5dce927ca19575e88e0481c663e514bf63f9f914c5703b06",
+      "indicatorTitle": "V103 box-format v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-box-format-v6:b-vs-none",
+          "modelA": "explicit text.format_bold",
+          "modelB": "retained unformatted same-word control",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              59,
+              91
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_formatting(b, text.format_bold)",
+            "new": "box.set_text_formatting(b, text.format_none)"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-format-v6:c-vs-none",
+          "modelA": "explicit text.format_italic",
+          "modelB": "retained unformatted same-word control",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -96,
+              -54
+            ],
+            "y": [
+              14,
+              46
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_formatting(c, text.format_italic)",
+            "new": "box.set_text_formatting(c, text.format_none)"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-format-v6:d-vs-none",
+          "modelA": "explicit text.format_bold + text.format_italic",
+          "modelB": "retained unformatted same-word control",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              14,
+              46
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_formatting(d, text.format_bold + text.format_italic)",
+            "new": "box.set_text_formatting(d, text.format_none)"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-format-v6:both-vs-bold-only",
+          "modelA": "bold+italic",
+          "modelB": "bold alone",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              14,
+              46
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_formatting(d, text.format_bold + text.format_italic)",
+            "new": "box.set_text_formatting(d, text.format_bold)"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-box-format-v6:both-vs-italic-only",
+          "modelA": "bold+italic",
+          "modelB": "italic alone",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -46,
+              -4
+            ],
+            "y": [
+              14,
+              46
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_text_formatting(d, text.format_bold + text.format_italic)",
+            "new": "box.set_text_formatting(d, text.format_italic)"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 17,
+      "sourceId": "v103-noncoincident-points-v5",
+      "family": "noncoincident-points",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-noncoincident-points-v5.pine",
+      "bytes": 3095,
+      "sha256": "540923dbc684d1ee45e4ebea7317b790e57073a05ab180a55626019113a9875d",
+      "indicatorTitle": "V103 noncoincident-points v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "TIME_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "ROUNDTRIP_X"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "LINE_X"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LINE_Y"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "BOX_LEFT"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "BOX_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "LABEL_X"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "LABEL_Y"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 16,
+      "maximumPlotCounts": 16,
+      "numericWitnesses": {
+        "TIME_DELTA": "anchor:0; intermediate getter BEFORE reset, numeric-only",
+        "ROUNDTRIP_X": "anchor:-12; final mode coordinate",
+        "LINE_X": "anchor:-85",
+        "LINE_Y": "anchor:75",
+        "BOX_LEFT": "anchor:-65",
+        "BOX_TOP": "anchor:85",
+        "LABEL_X": "anchor:-25",
+        "LABEL_Y": "anchor:80"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-noncoincident-points-v5:line-first-applied",
+          "modelA": "first point -85/75",
+          "modelB": "original first -95/15",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -72
+            ],
+            "y": [
+              10,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "line.set_first_point(a, p)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v5:line-second-applied",
+          "modelA": "second point -75/85",
+          "modelB": "original second -85/25",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -72
+            ],
+            "y": [
+              10,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "line.set_second_point(a, q)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v5:box-top-left-applied",
+          "modelA": "box left/top -65/85",
+          "modelB": "original left/top -70/30",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -72,
+              -48
+            ],
+            "y": [
+              5,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_top_left_point(b, bp)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v5:box-bottom-right-applied",
+          "modelA": "box right/bottom -50/65",
+          "modelB": "original right/bottom -60/10",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -72,
+              -48
+            ],
+            "y": [
+              5,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_bottom_right_point(b, bq)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v5:label-point-applied",
+          "modelA": "label -25/80",
+          "modelB": "original label -35/20",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -40,
+              -15
+            ],
+            "y": [
+              10,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "label.set_point(c, cp)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v5:copied-fields-vs-live-points",
+          "modelA": "assigned fields survive subsequent point mutations",
+          "modelB": "all assigned drawings follow later point fields",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -2
+            ],
+            "y": [
+              5,
+              95
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "live-points",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 18,
+      "sourceId": "v103-noncoincident-points-v6",
+      "family": "noncoincident-points",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-noncoincident-points-v6.pine",
+      "bytes": 3095,
+      "sha256": "f46290f55a654dbe9e9e91d97047270c2c71e33ca9297a4b6deb819219f0f417",
+      "indicatorTitle": "V103 noncoincident-points v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "TIME_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "ROUNDTRIP_X"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "LINE_X"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "LINE_Y"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "BOX_LEFT"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "BOX_TOP"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "LABEL_X"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "LABEL_Y"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 14,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 15,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 16,
+      "maximumPlotCounts": 16,
+      "numericWitnesses": {
+        "TIME_DELTA": "anchor:0; intermediate getter BEFORE reset, numeric-only",
+        "ROUNDTRIP_X": "anchor:-12; final mode coordinate",
+        "LINE_X": "anchor:-85",
+        "LINE_Y": "anchor:75",
+        "BOX_LEFT": "anchor:-65",
+        "BOX_TOP": "anchor:85",
+        "LABEL_X": "anchor:-25",
+        "LABEL_Y": "anchor:80"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-noncoincident-points-v6:line-first-applied",
+          "modelA": "first point -85/75",
+          "modelB": "original first -95/15",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -72
+            ],
+            "y": [
+              10,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "line.set_first_point(a, p)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v6:line-second-applied",
+          "modelA": "second point -75/85",
+          "modelB": "original second -85/25",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -72
+            ],
+            "y": [
+              10,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "line.set_second_point(a, q)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v6:box-top-left-applied",
+          "modelA": "box left/top -65/85",
+          "modelB": "original left/top -70/30",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -72,
+              -48
+            ],
+            "y": [
+              5,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_top_left_point(b, bp)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v6:box-bottom-right-applied",
+          "modelA": "box right/bottom -50/65",
+          "modelB": "original right/bottom -60/10",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -72,
+              -48
+            ],
+            "y": [
+              5,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "box.set_bottom_right_point(b, bq)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v6:label-point-applied",
+          "modelA": "label -25/80",
+          "modelB": "original label -35/20",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -40,
+              -15
+            ],
+            "y": [
+              10,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "label.set_point(c, cp)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-noncoincident-points-v6:copied-fields-vs-live-points",
+          "modelA": "assigned fields survive subsequent point mutations",
+          "modelB": "all assigned drawings follow later point fields",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -2
+            ],
+            "y": [
+              5,
+              95
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "live-points",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 19,
+      "sourceId": "v103-copy-appearance-v6",
+      "family": "copy-appearance",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-copy-appearance-v6.pine",
+      "bytes": 2925,
+      "sha256": "6fe183727c2e6d8694efbbd29978a6d47e50fbc13a91e0c186f36002689d945f",
+      "indicatorTitle": "V103 copy-appearance v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "LINE_SOURCE_X"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LINE_COPY_X"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "LABEL_COPY_EXACT"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {
+        "LINE_SOURCE_X": "anchor:-90",
+        "LINE_COPY_X": "anchor:-60",
+        "LABEL_COPY_EXACT": "anchor:1"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-copy-appearance-v6:line-copy-appearance",
+          "modelA": "independent copy retains blue6 dashed y85",
+          "modelB": "copy snapshots mutated source red2 dotted y65",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -65,
+              -40
+            ],
+            "y": [
+              60,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "late-copy",
+            "old": null,
+            "new": null,
+            "target": "line"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-copy-appearance-v6:box-copy-appearance",
+          "modelA": "copy retains yellow/blue solid and blue COPY",
+          "modelB": "copy inherits mutated source recipe",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -65,
+              -40
+            ],
+            "y": [
+              25,
+              55
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "late-copy",
+            "old": null,
+            "new": null,
+            "target": "box"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-copy-appearance-v6:label-copy-appearance",
+          "modelA": "blue center COPY body",
+          "modelB": "copy inherits red square source recipe",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -62,
+              -42
+            ],
+            "y": [
+              2,
+              23
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "late-copy",
+            "old": null,
+            "new": null,
+            "target": "label"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 20,
+      "sourceId": "v103-extend-stroke-v5",
+      "family": "extend-stroke",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-extend-stroke-v5.pine",
+      "bytes": 2589,
+      "sha256": "084fda82fa1bc1d5e57016e14f1358830fc3aaa3ce056b4331f86a4329f1f966",
+      "indicatorTitle": "V103 extend-stroke v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 8,
+      "maximumPlotCounts": 8,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-extend-stroke-v5:extension-modes",
+          "modelA": "four registered line/box modes",
+          "modelB": "all extension setters ignored",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -100,
+              0
+            ],
+            "y": [
+              10,
+              95
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "drop-calls",
+            "old": null,
+            "new": null,
+            "prefixes": [
+              "line.set_extend(",
+              "box.set_extend("
+            ]
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-extend-stroke-v5:stroke-classes",
+          "modelA": "dash/dot and alternating box border",
+          "modelB": "style setters ignored",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -100,
+              0
+            ],
+            "y": [
+              10,
+              95
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "drop-calls",
+            "old": null,
+            "new": null,
+            "prefixes": [
+              "line.set_style(",
+              "box.set_border_style("
+            ]
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-extend-stroke-v5:width-setters",
+          "modelA": "line4 and box3 thick class",
+          "modelB": "width setters ignored",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -100,
+              0
+            ],
+            "y": [
+              10,
+              95
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "drop-calls",
+            "old": null,
+            "new": null,
+            "prefixes": [
+              "line.set_width(",
+              "box.set_border_width("
+            ]
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 21,
+      "sourceId": "v103-retained-replacement-v5",
+      "family": "retained-replacement",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-retained-replacement-v5.pine",
+      "bytes": 1948,
+      "sha256": "ada32ad43127ebb1544d249f913f80d37162ba118e97925804803e20eb4bb7ac",
+      "indicatorTitle": "V103 retained-replacement v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PARENT_A"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "PARENT_B"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {
+        "COUNT": "anchor:1 under known aliased replacement, additive model may differ",
+        "PARENT_A": "anchor:30 in both static/live geometry models",
+        "PARENT_B": "anchor:50 in both static/live geometry models"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-retained-replacement-v5:replacement-not-additive",
+          "modelA": "single blue50 band",
+          "modelB": "earlier red50 also retained behind blue50",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -88,
+              -57
+            ],
+            "y": [
+              32,
+              48
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "additive-fill",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-retained-replacement-v5:fill-before-parent-mutation",
+          "modelA": "retained blue fill follows 30..50 parents",
+          "modelB": "fill freezes original60..80 band",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -88,
+              -57
+            ],
+            "y": [
+              25,
+              85
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "static-fill",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-retained-replacement-v5:separate-old-delete-pair",
+          "modelA": "no fill on separate right pair",
+          "modelB": "replacement right fill survives old-handle delete",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -38,
+              -7
+            ],
+            "y": [
+              32,
+              48
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "linefill.delete(h)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 22,
+      "sourceId": "v103-retained-replacement-v6",
+      "family": "retained-replacement",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-retained-replacement-v6.pine",
+      "bytes": 1948,
+      "sha256": "a5debd8ed18fdafe79a2633aa82e696b2d91a4c85d0ec0b905fb9b4b9725483b",
+      "indicatorTitle": "V103 retained-replacement v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "PARENT_A"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "PARENT_B"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {
+        "COUNT": "anchor:1 under known aliased replacement, additive model may differ",
+        "PARENT_A": "anchor:30 in both static/live geometry models",
+        "PARENT_B": "anchor:50 in both static/live geometry models"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-retained-replacement-v6:replacement-not-additive",
+          "modelA": "single blue50 band",
+          "modelB": "earlier red50 also retained behind blue50",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -88,
+              -57
+            ],
+            "y": [
+              32,
+              48
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "additive-fill",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-retained-replacement-v6:fill-before-parent-mutation",
+          "modelA": "retained blue fill follows 30..50 parents",
+          "modelB": "fill freezes original60..80 band",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -88,
+              -57
+            ],
+            "y": [
+              25,
+              85
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "static-fill",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-retained-replacement-v6:separate-old-delete-pair",
+          "modelA": "no fill on separate right pair",
+          "modelB": "replacement right fill survives old-handle delete",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -38,
+              -7
+            ],
+            "y": [
+              32,
+              48
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "linefill.delete(h)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 23,
+      "sourceId": "v103-polyline-fill-style-v6",
+      "family": "polyline-fill-style",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-polyline-fill-style-v6.pine",
+      "bytes": 1971,
+      "sha256": "0f555366d356b6aa38d2762c62a9b1b6a575a8df54dbdf3e9569bc646465533c",
+      "indicatorTitle": "V103 polyline-fill-style v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "COUNT": "anchor:2 if delete applied; lifecycle only"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-polyline-fill-style-v6:fill-and-closed-edge",
+          "modelA": "filled closed orange triangle",
+          "modelB": "subject unfilled and open",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -52
+            ],
+            "y": [
+              17,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "curved=false, closed=true, line_color=color.blue, fill_color=color.new(color.orange, 20), line_style=line.style_dashed, line_width=4)\n    q.price",
+            "new": "curved=false, closed=false, line_color=color.blue, fill_color=na, line_style=line.style_dashed, line_width=4)\n    q.price"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-fill-style-v6:dashed-border",
+          "modelA": "subject border dashed",
+          "modelB": "subject border solid",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -52
+            ],
+            "y": [
+              17,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "line_style=line.style_dashed, line_width=4)\n    q.price",
+            "new": "line_style=line.style_solid, line_width=4)\n    q.price"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-fill-style-v6:copied-point-fields",
+          "modelA": "left triangle retains apex85 like control",
+          "modelB": "left apex follows q.price40",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -52
+            ],
+            "y": [
+              35,
+              90
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-live-point",
+            "old": null,
+            "new": null
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-fill-style-v6:deleted-control",
+          "modelA": "red lower triangle absent",
+          "modelB": "delete ignored",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -98,
+              -52
+            ],
+            "y": [
+              1,
+              15
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "polyline.delete(del)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 24,
+      "sourceId": "v103-fillgaps-overloads-v6",
+      "family": "fillgaps-overloads",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-fillgaps-overloads-v6.pine",
+      "bytes": 1322,
+      "sha256": "89ee8acffe8641b0f1e400932175580fabbd86e8ea96f2bdf4ebf1bf68ed9a55",
+      "indicatorTitle": "V103 fillgaps-overloads v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "P20"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "P40"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "P60"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "P80"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-fillgaps-overloads-v6:plot-fill-false",
+          "modelA": "yellow band has phase3/4 holes",
+          "modelB": "yellow fill bridges gaps",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              22,
+              38
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "color=color.new(color.yellow, 30), fillgaps=false",
+            "new": "color=color.new(color.yellow, 30), fillgaps=true"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-fillgaps-overloads-v6:plot-fill-true",
+          "modelA": "aqua band bridges phase3/4",
+          "modelB": "aqua band has holes",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              62,
+              78
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "color=color.new(color.aqua, 30), fillgaps=true",
+            "new": "color=color.new(color.aqua, 30), fillgaps=false"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-fillgaps-overloads-v6:hline-fill-positive",
+          "modelA": "purple band between two constant hlines",
+          "modelB": "no hline fill",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              91,
+              95
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "fill(u, v, color=color.purple)",
+            "new": ""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 25,
+      "sourceId": "v103-plot-controls-v6",
+      "family": "plot-controls",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-plot-controls-v6.pine",
+      "bytes": 1274,
+      "sha256": "0835d4388fd9d4383101ed41197d3120050c8ac34d7bdec53026243c2c0587b5",
+      "indicatorTitle": "V103 plot-controls v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "JOIN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "NOJOIN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "TAIL4"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "TRACK"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-plot-controls-v6:circle-join",
+          "modelA": "adjacent blue nonmissing circles joined; holes remain separate",
+          "modelB": "isolated circles",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              12,
+              28
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "linewidth=1, join=true",
+            "new": "linewidth=1, join=false"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-plot-controls-v6:show-last",
+          "modelA": "old closed orange points suppressed",
+          "modelB": "all closed orange points visible",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -30,
+              -10
+            ],
+            "y": [
+              62,
+              68
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "linewidth=3, show_last=4",
+            "new": "linewidth=3"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-plot-controls-v6:trackprice",
+          "modelA": "red horizontal price tracker persists despite single-point tail",
+          "modelB": "no price tracker",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -95,
+              -10
+            ],
+            "y": [
+              87,
+              93
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "trackprice=true, show_last=1",
+            "new": "trackprice=false, show_last=1"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 26,
+      "sourceId": "v103-markers-v6",
+      "family": "markers",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-markers-v6.pine",
+      "bytes": 1275,
+      "sha256": "1023b792df9c721689878aff7ea81b8316de911dbdc4f7d4277e3896dcf34af8",
+      "indicatorTitle": "V103 markers v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "SMALL_SQUARE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LARGE_SQUARE"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "CHAR_X"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 11,
+      "maximumPlotCounts": 11,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-markers-v6:shape-size",
+          "modelA": "lower square large relative to upper small",
+          "modelB": "lower square small too",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              50,
+              70
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "\"LARGE_SQUARE\", style=shape.square, location=location.absolute, color=color.blue, size=size.large",
+            "new": "\"LARGE_SQUARE\", style=shape.square, location=location.absolute, color=color.blue, size=size.small"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-markers-v6:shape-absolute-location",
+          "modelA": "upper square at native y80",
+          "modelB": "upper square at top edge instead",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              73,
+              86
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "\"SMALL_SQUARE\", style=shape.square, location=location.absolute",
+            "new": "\"SMALL_SQUARE\", style=shape.square, location=location.top"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-markers-v6:literal-char",
+          "modelA": "complete orange X",
+          "modelB": "orange O",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -31,
+              0
+            ],
+            "y": [
+              20,
+              40
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "char=\"X\"",
+            "new": "char=\"O\""
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 27,
+      "sourceId": "v103-plotarrow-height-v6",
+      "family": "plotarrow-height",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-plotarrow-height-v6.pine",
+      "bytes": 1244,
+      "sha256": "dbe3e010b7bccf2c89127551a027aba45488f418f67445b4405363ba7a9e1a9c",
+      "indicatorTitle": "V103 plotarrow-height v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "ARROW_PHASE"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "ARROWS"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 10,
+      "maximumPlotCounts": 10,
+      "numericWitnesses": {},
+      "visualFacets": [
+        {
+          "facetId": "v103-plotarrow-height-v6:relative-height",
+          "modelA": "magnitude1/2/4 varies within8..24",
+          "modelB": "all heights fixed8",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/ohlc-margin",
+            "x": [
+              -31,
+              0
+            ],
+            "paddingPx": 64
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "minheight=8, maxheight=24",
+            "new": "minheight=8, maxheight=8"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-plotarrow-height-v6:sign-direction",
+          "modelA": "arrow phase24 points down",
+          "modelB": "arrow phase24 forced positive points up",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/ohlc-margin",
+            "x": [
+              -31,
+              0
+            ],
+            "paddingPx": 64
+          },
+          "countermodel": {
+            "kind": "source",
+            "old": "arrowPhase == 24 ? -4 : na",
+            "new": "arrowPhase == 24 ? 4 : na"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "main"
+    },
+    {
+      "slot": 28,
+      "sourceId": "v103-polyline-arrows-v5",
+      "family": "polyline-arrows",
+      "pineVersion": 5,
+      "path": "v103/sources/v103-polyline-arrows-v5.pine",
+      "bytes": 2084,
+      "sha256": "a906d3427ad4b510df4a23e07591045ebffecd1b317e438cf4a7bc125475cb3c",
+      "indicatorTitle": "V103 polyline-arrows v5",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "WIDTH_INTENT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LEFT_X_INTENT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RIGHT_X_INTENT"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "numericWitnesses": {
+        "COUNT": "anchor:3 if admitted; lifecycle only, no head-shape credit"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-polyline-arrows-v5:arrow_left-head-topology",
+          "modelA": "open chevrons at requested endpoint(s)",
+          "modelB": "filled triangular heads at the same endpoint(s)",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              12,
+              28
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-topology",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_left"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v5:arrow_left-endpoint",
+          "modelA": "head only at first point",
+          "modelB": "head only at opposite endpoint",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              12,
+              28
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-direction",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_left"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v5:arrow_right-head-topology",
+          "modelA": "open chevrons at requested endpoint(s)",
+          "modelB": "filled triangular heads at the same endpoint(s)",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              42,
+              58
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-topology",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_right"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v5:arrow_right-endpoint",
+          "modelA": "head only at last point",
+          "modelB": "head only at opposite endpoint",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              42,
+              58
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-direction",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_right"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v5:arrow_both-head-topology",
+          "modelA": "open chevrons at requested endpoint(s)",
+          "modelB": "filled triangular heads at the same endpoint(s)",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              72,
+              88
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-topology",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_both"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v5:both-heads-present",
+          "modelA": "two heads, one at each endpoint",
+          "modelB": "neither endpoint has a head",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              72,
+              88
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-presence",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_both"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    },
+    {
+      "slot": 29,
+      "sourceId": "v103-polyline-arrows-v6",
+      "family": "polyline-arrows",
+      "pineVersion": 6,
+      "path": "v103/sources/v103-polyline-arrows-v6.pine",
+      "bytes": 2084,
+      "sha256": "176e1eb5952a374204f9afbd9a7d46b764e6bb770559b93cba563bcedcce5d62",
+      "indicatorTitle": "V103 polyline-arrows v6",
+      "minimumSourceIndex": 200,
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "selection": "A-31..A, inclusive retained build anchor; four rotated complete phase cycles",
+      "buildLifetime": "one committed historical build; anchorIndex guard forbids later recreation; no observed retained object cleanup",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "title": "WIDTH_INTENT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "title": "LEFT_X_INTENT"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "title": "RIGHT_X_INTENT"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "title": "COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 12,
+      "maximumPlotCounts": 12,
+      "numericWitnesses": {
+        "COUNT": "anchor:3 if admitted; lifecycle only, no head-shape credit"
+      },
+      "visualFacets": [
+        {
+          "facetId": "v103-polyline-arrows-v6:arrow_left-head-topology",
+          "modelA": "open chevrons at requested endpoint(s)",
+          "modelB": "filled triangular heads at the same endpoint(s)",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              12,
+              28
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-topology",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_left"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v6:arrow_left-endpoint",
+          "modelA": "head only at first point",
+          "modelB": "head only at opposite endpoint",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              12,
+              28
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-direction",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_left"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v6:arrow_right-head-topology",
+          "modelA": "open chevrons at requested endpoint(s)",
+          "modelB": "filled triangular heads at the same endpoint(s)",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              42,
+              58
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-topology",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_right"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v6:arrow_right-endpoint",
+          "modelA": "head only at last point",
+          "modelB": "head only at opposite endpoint",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              42,
+              58
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-direction",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_right"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v6:arrow_both-head-topology",
+          "modelA": "open chevrons at requested endpoint(s)",
+          "modelB": "filled triangular heads at the same endpoint(s)",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              72,
+              88
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-topology",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_both"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        },
+        {
+          "facetId": "v103-polyline-arrows-v6:both-heads-present",
+          "modelA": "two heads, one at each endpoint",
+          "modelB": "neither endpoint has a head",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -92,
+              -8
+            ],
+            "y": [
+              72,
+              88
+            ],
+            "paddingPx": 2
+          },
+          "countermodel": {
+            "kind": "poly-arrow-presence",
+            "old": null,
+            "new": null,
+            "targetStyle": "arrow_both"
+          },
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED"
+        }
+      ],
+      "scaleRange": [
+        0,
+        100
+      ],
+      "visualPane": "study"
+    }
+  ],
+  "totalPlotColumns": 300,
+  "prospectivePrimaryPlotCells": 9600,
+  "nativeOutcome": "UNSPECIFIED"
+}

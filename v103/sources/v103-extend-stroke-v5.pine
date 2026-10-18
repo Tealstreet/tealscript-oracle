@@ -1,0 +1,51 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V103 extend-stroke v5", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a0 = line.new(bar_index - 75, 15, bar_index - 35, 15, color=color.red, width=1)
+    line.set_extend(a0, extend.none)
+    line.set_style(a0, line.style_solid)
+    line.set_width(a0, 4)
+    b0 = box.new(bar_index - 25, 24, bar_index - 10, 20, bgcolor=color.new(color.blue, 75), border_color=color.blue)
+    box.set_extend(b0, extend.none)
+    box.set_border_style(b0, line.style_solid)
+    box.set_border_width(b0, 3)
+    a1 = line.new(bar_index - 75, 37, bar_index - 35, 37, color=color.red, width=1)
+    line.set_extend(a1, extend.left)
+    line.set_style(a1, line.style_dashed)
+    line.set_width(a1, 4)
+    b1 = box.new(bar_index - 25, 46, bar_index - 10, 42, bgcolor=color.new(color.blue, 75), border_color=color.blue)
+    box.set_extend(b1, extend.left)
+    box.set_border_style(b1, line.style_dashed)
+    box.set_border_width(b1, 3)
+    a2 = line.new(bar_index - 75, 59, bar_index - 35, 59, color=color.red, width=1)
+    line.set_extend(a2, extend.right)
+    line.set_style(a2, line.style_dotted)
+    line.set_width(a2, 4)
+    b2 = box.new(bar_index - 25, 68, bar_index - 10, 64, bgcolor=color.new(color.blue, 75), border_color=color.blue)
+    box.set_extend(b2, extend.right)
+    box.set_border_style(b2, line.style_solid)
+    box.set_border_width(b2, 3)
+    a3 = line.new(bar_index - 75, 81, bar_index - 35, 81, color=color.red, width=1)
+    line.set_extend(a3, extend.both)
+    line.set_style(a3, line.style_solid)
+    line.set_width(a3, 4)
+    b3 = box.new(bar_index - 25, 90, bar_index - 10, 86, bgcolor=color.new(color.blue, 75), border_color=color.blue)
+    box.set_extend(b3, extend.both)
+    box.set_border_style(b3, line.style_dashed)
+    box.set_border_width(b3, 3)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
