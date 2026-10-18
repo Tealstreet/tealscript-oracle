@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "status": "ENTRY_STOP / slot consumed before Save",
+  "cause": "Native cursor guard expected line8 after the single Enter but observed line7,col50; root cause UNOBSERVED",
+  "sourceId": "v102-gap-style-geometry-v5",
+  "requestedSourceSha256": "ce9cb22b32c37bd9bd4f80adf5f65e0f01f1e3974dec187be9233f38bd7a0019",
+  "nativeUiTextSnapshots": [
+    {
+      "nativeSnapshot": "partial-attempt-v1.txt",
+      "enteredUiText": "entered-partial-at-stop-v1.pine",
+      "bytes": 377,
+      "sha256": "c15cce6a5bccb5528927f047cab0f57c365e328247dd04113f707dca074477e9",
+      "lineCount": 7
+    },
+    {
+      "nativeSnapshot": "partial-entry-settled-v1.txt",
+      "enteredUiText": "entered-partial-settled-v1.pine",
+      "bytes": 377,
+      "sha256": "c15cce6a5bccb5528927f047cab0f57c365e328247dd04113f707dca074477e9",
+      "lineCount": 7
+    }
+  ],
+  "byteProvenance": "Native accessibility textbox value serialized as UTF-8; no Save form exists, so compiler transport and its original line endings remain UNOBSERVED",
+  "nativeSaves": 0,
+  "nativeAdds": 0,
+  "originalCsvs": 0,
+  "nativeRenderingPngs": 0,
+  "retries": 0
+}

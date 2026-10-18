@@ -1,0 +1,157 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of this one original native box-text PNG",
+  "inspectedOriginalPngSha256": "ddb952ec043ff17938d39d0a088175c824a9b09653113b71b9769f203a3ae2c6",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "19:30 UTC",
+        "unixSeconds": 1792265400,
+        "xPx": 11
+      },
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792267200,
+        "xPx": 101
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 901
+      },
+      {
+        "value": 100,
+        "yPx": 661
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    },
+    "basis": "Visible native axes in this PNG, independently calibrated from earlier panes"
+  },
+  "facets": [
+    {
+      "caseId": "v102-box-text-layout-v5:complete-short-sentinel-setter-vs-constructor",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "APPLIED_COMPLETE_TEXT_RECIPE_MATCHES_CONSTRUCTOR",
+      "candidates": {
+        "applied": "Both wide boxes show blue ALPHA BETA then OMEGA at upper left",
+        "retained": "Setter box retains OLD/default text or differs from the explicit constructor recipe"
+      },
+      "visibleLinesByRegion": {
+        "setter": [
+          "ALPHA BETA",
+          "OMEGA"
+        ],
+        "constructor": [
+          "ALPHA BETA",
+          "OMEGA"
+        ]
+      },
+      "regions": [
+        {
+          "role": "setter",
+          "originalPngRectPx": [
+            401,
+            673,
+            642,
+            759
+          ],
+          "visible": "Complete blue ALPHA BETA / OMEGA near the top-left of a wide white box"
+        },
+        {
+          "role": "constructor control",
+          "originalPngRectPx": [
+            701,
+            673,
+            942,
+            759
+          ],
+          "visible": "The same complete two-line blue sentinel near the top-left"
+        }
+      ],
+      "scope": "Complete literal replacement and same-shot visible recipe matching, including placement and qualitative glyph appearance. Resolved font family/metrics and universal monospace rendering remain UNOBSERVED."
+    },
+    {
+      "caseId": "v102-box-text-layout-v5:wrap-none-vs-auto",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "wrapNone": "Single line when the short phrase fits",
+        "wrapAuto": "Also a single line when the same short phrase fits"
+      },
+      "visibleTextLiterals": [
+        "A B C D"
+      ],
+      "regions": [
+        {
+          "role": "red nowrap",
+          "originalPngRectPx": [
+            401,
+            793,
+            450,
+            891
+          ],
+          "visible": "A B C D on one line near the top"
+        },
+        {
+          "role": "blue auto-wrap",
+          "originalPngRectPx": [
+            611,
+            793,
+            660,
+            891
+          ],
+          "visible": "A B C D on one line near the bottom"
+        }
+      ],
+      "notObservedCause": "At the unchanged native viewport the short phrase fits both narrow boxes on one line. No line-break difference discriminates nowrap from auto-wrap; WRAP_RECIPE_CODE is intent only. No resize or second screenshot."
+    },
+    {
+      "caseId": "v102-box-text-layout-v5:left-top-vs-right-bottom",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "applied": "Red top/left and blue bottom/right",
+        "retained": "Blue keeps the default or other alignment"
+      },
+      "visibleTextLiterals": [
+        "A B C D"
+      ],
+      "subproperties": [
+        {
+          "property": "vertical top versus bottom",
+          "verdict": "SUPPORTED",
+          "supportedCandidate": "TOP_AND_BOTTOM_DIFFER",
+          "regionsPx": [
+            [
+              401,
+              793,
+              450,
+              814
+            ],
+            [
+              611,
+              869,
+              660,
+              891
+            ]
+          ],
+          "visible": "Red phrase is near the top edge; blue phrase is near the bottom edge, separated far beyond y uncertainty"
+        },
+        {
+          "property": "horizontal left versus right",
+          "verdict": "UNDECIDED",
+          "cause": "The phrase nearly fills each48-pixel box. Remaining side margins and glyph edges do not independently distinguish both horizontal recipes at x uncertainty2 pixels"
+        }
+      ],
+      "notObservedCause": "Only the vertical subfacet is discriminated. The combined horizontal/vertical case retains a hold for near-full-width horizontal placement; numeric intent never supplies it."
+    }
+  ]
+}

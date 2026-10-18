@@ -1,0 +1,265 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of the original whole-chart PNG, including the complete study pane and main chart",
+  "inspectedOriginalPngSha256": "e6d20a7e5b594517ddec22c330f6e98fddb605bf2ee9eff82167465e881351b9",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792267200,
+        "xPx": 95
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792269000,
+        "xPx": 185
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 901
+      },
+      {
+        "value": 100,
+        "yPx": 661
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    },
+    "basis": "Visible native axes; table position is not inferred from these data coordinates"
+  },
+  "facets": [
+    {
+      "caseId": "v102-table-relocation-v5:same-position-retain-vs-replace",
+      "verdict": "UNDECIDED",
+      "scope": "This map scores appearance only. The independently owned primary numeric3/2/1/2 vector is scored separately as INVALIDATE_REPLACE, without a generic internal token explanation.",
+      "visibleTextLiterals": [],
+      "regions": [
+        {
+          "role": "candidate top-left A location",
+          "originalPngRectPx": [
+            0,
+            632,
+            240,
+            750
+          ],
+          "visible": "Dark study pane and source legend; no readable A table"
+        }
+      ],
+      "notObservedCause": "No readable A/B/C table survives as a visible region in the single PNG. A source-owned closed anchor marker exists, but it alone does not certify surviving painted tables.",
+      "primaryNumericExample": {
+        "CREATED_DELTA": {
+          "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+          "rowOrdinal": 5,
+          "columnOrdinal": 7,
+          "headerRaw": "CREATED_DELTA",
+          "valueRaw": "3"
+        },
+        "COLLISION_DELTA": {
+          "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+          "rowOrdinal": 5,
+          "columnOrdinal": 8,
+          "headerRaw": "COLLISION_DELTA",
+          "valueRaw": "2"
+        },
+        "OLD_TABLE_NA": {
+          "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+          "rowOrdinal": 5,
+          "columnOrdinal": 9,
+          "headerRaw": "OLD_TABLE_NA",
+          "valueRaw": "1"
+        },
+        "FINAL_DELTA": {
+          "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+          "rowOrdinal": 5,
+          "columnOrdinal": 10,
+          "headerRaw": "FINAL_DELTA",
+          "valueRaw": "2"
+        },
+        "INPUT_INDEX": {
+          "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+          "rowOrdinal": 5,
+          "columnOrdinal": 12,
+          "headerRaw": "INPUT_INDEX",
+          "valueRaw": "24224"
+        },
+        "INPUT_TIME": {
+          "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+          "rowOrdinal": 5,
+          "columnOrdinal": 13,
+          "headerRaw": "INPUT_TIME",
+          "valueRaw": "1792250880000"
+        },
+        "CHART_CONFIRMED": {
+          "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+          "rowOrdinal": 5,
+          "columnOrdinal": 14,
+          "headerRaw": "CHART_CONFIRMED",
+          "valueRaw": "1"
+        }
+      },
+      "excludedDevelopingRow": {
+        "targets": {
+          "CREATED_DELTA": {
+            "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+            "rowOrdinal": 313,
+            "columnOrdinal": 7,
+            "headerRaw": "CREATED_DELTA",
+            "valueRaw": "2"
+          },
+          "COLLISION_DELTA": {
+            "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+            "rowOrdinal": 313,
+            "columnOrdinal": 8,
+            "headerRaw": "COLLISION_DELTA",
+            "valueRaw": "1"
+          },
+          "OLD_TABLE_NA": {
+            "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+            "rowOrdinal": 313,
+            "columnOrdinal": 9,
+            "headerRaw": "OLD_TABLE_NA",
+            "valueRaw": "1"
+          },
+          "FINAL_DELTA": {
+            "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+            "rowOrdinal": 313,
+            "columnOrdinal": 10,
+            "headerRaw": "FINAL_DELTA",
+            "valueRaw": "0"
+          },
+          "INPUT_INDEX": {
+            "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+            "rowOrdinal": 313,
+            "columnOrdinal": 12,
+            "headerRaw": "INPUT_INDEX",
+            "valueRaw": "24532"
+          },
+          "INPUT_TIME": {
+            "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+            "rowOrdinal": 313,
+            "columnOrdinal": 13,
+            "headerRaw": "INPUT_TIME",
+            "valueRaw": "1792287840000"
+          },
+          "CHART_CONFIRMED": {
+            "csvSha256": "70fa0503a4650ec516de89d75dddd327f50f191dc041f76147324f3d14e51bb3",
+            "rowOrdinal": 313,
+            "columnOrdinal": 14,
+            "headerRaw": "CHART_CONFIRMED",
+            "valueRaw": "0"
+          }
+        },
+        "status": "OBSERVED / EXCLUDED",
+        "primaryScoringCredit": 0,
+        "cause": "CHART_CONFIRMED0 and physical2m bar still open; its actual2/1/1/0 table counters remain raw observations and never replace the selected closed3/2/1/2 vector"
+      }
+    },
+    {
+      "caseId": "v102-table-relocation-v5:second-move-final-anchor",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "applied": "Readable B at bottom_right with no stale B region",
+        "ignored": "B remains at an earlier anchor"
+      },
+      "visibleTextLiterals": [],
+      "regions": [
+        {
+          "role": "candidate final B bottom-right",
+          "originalPngRectPx": [
+            950,
+            815,
+            1189,
+            925
+          ],
+          "visible": "Dark pane, grid and0 scale trace; no readable B"
+        },
+        {
+          "role": "prior middle-center B",
+          "originalPngRectPx": [
+            450,
+            720,
+            750,
+            845
+          ],
+          "visible": "Dark pane and grid; no readable B"
+        }
+      ],
+      "notObservedCause": "No independently identifiable B table region exists in the PNG, so final relocation versus ignored position is not distinguished. FINAL_POSITION_INTENT9 and primary counts do not supply its pixel location."
+    },
+    {
+      "caseId": "v102-table-relocation-v5:frame-border-background-and-merged-sentinels",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "applied": "Visible yellow B/C tables with blue frame, red border and complete merged TOP/END sentinels",
+        "retained": "Missing setter effects or different visible fields"
+      },
+      "visibleTextLiterals": [],
+      "regions": [
+        {
+          "role": "candidate C bottom-left control",
+          "originalPngRectPx": [
+            0,
+            815,
+            240,
+            925
+          ],
+          "visible": "No readable C TOP/C END or yellow/blue/red table control"
+        },
+        {
+          "role": "candidate B bottom-right setter",
+          "originalPngRectPx": [
+            950,
+            815,
+            1189,
+            925
+          ],
+          "visible": "No readable B TOP/B END or yellow/blue/red table"
+        }
+      ],
+      "notObservedCause": "Both table appearance controls are absent as identifiable pixel regions. No glyph, frame, border, background or merge appearance is inferred from source intent or numeric counts."
+    },
+    {
+      "caseId": "v102-table-relocation-v5:explicit-zero-vs-auto-dimensions",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "equivalent": "B explicit0 width/height matches C automatic dimensions",
+        "different": "One collapses or differs visibly"
+      },
+      "visibleTextLiterals": [],
+      "regions": [
+        {
+          "role": "B candidate",
+          "originalPngRectPx": [
+            950,
+            815,
+            1189,
+            925
+          ],
+          "visible": "No identifiable B table"
+        },
+        {
+          "role": "C candidate",
+          "originalPngRectPx": [
+            0,
+            815,
+            240,
+            925
+          ],
+          "visible": "No identifiable C control"
+        }
+      ],
+      "notObservedCause": "Neither independently readable table is available for a dimension comparison. The empty PNG is preserved unchanged; no hidden geometry, second viewport, retry or table repair is used."
+    }
+  ],
+  "missingPaintCause": "UNOBSERVED; no internal token/lifecycle explanation fitted from the count/PNG combination"
+}

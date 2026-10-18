@@ -1,0 +1,7 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V102 gap-style-geometry v5", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+s = phase == 3 or phase == 4 ? na : 10 + phase
+area = phase == 3 or phase == 4 ? na : 35 + phase
