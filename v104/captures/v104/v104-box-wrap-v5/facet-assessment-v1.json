@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v104-box-wrap-v5",
+  "sourceSha256": "d831ee981b81fcd1ddfc6332630a602947bd04a5ec0d9a976e9d9cfa750a958d",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-box-wrap-v5/numeric-results-v1.json",
+    "bytes": 172519,
+    "sha256": "eb59ca7dfe2cec20ba3579281ae8baf962b21cc6fe90acc9d9d47b8e07adbc2e"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-box-wrap-v5/compiler-diagnostics-v1.json",
+    "bytes": 1571,
+    "sha256": "06ad7018138a9428227910b285b62ebfc36ec1ea843cec08344ebde4c09ccfae"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-box-wrap-v5:wrap-vs-nowrap",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "auto box contains multiple complete word lines; same-width nowrap box remains a single line/clipped",
+      "modelB": "auto ignored: both narrow boxes remain single-line/clipped",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          3,
+          94
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-box-wrap-v5/derived-region-map-v1.json",
+        "bytes": 8729,
+        "sha256": "289f826c99802a44b18068af9485a964ad030479a1784e9dd4557717171aa37c"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

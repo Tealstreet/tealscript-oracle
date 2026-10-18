@@ -1,0 +1,8 @@
+    b0 = box.new(bar_index - 30, 90, bar_index - 22, 25, bgcolor=color.white, text="ALPHA BETA GAMMA DELTA", text_color=color.blue, text_size=size.large, text_halign=text.align_left, text_valign=text.align_top, text_wrap=text.wrap_auto)
+    b1 = box.new(bar_index - 19, 90, bar_index - 11, 25, bgcolor=color.white, text="ALPHA BETA GAMMA DELTA", text_color=color.blue, text_size=size.large, text_halign=text.align_left, text_valign=text.align_top, text_wrap=text.wrap_none)
+    b2 = box.new(bar_index - 30, 20, bar_index - 1, 5, bgcolor=color.white, text="ALPHA BETA GAMMA DELTA", text_color=color.blue, text_size=size.large, text_halign=text.align_left, text_wrap=text.wrap_none)
+    box0_span := box.get_right(b0) - box.get_left(b0)
+    box1_span := box.get_right(b1) - box.get_left(b1)
+    box2_span := box.get_right(b2) - box.get_left(b2)
+plot(build ? box0_span : na, "BOX0_SPAN", display=display.data_window)
+plot(build ? box1_span : na, "BOX1_SPAN", display=display.da

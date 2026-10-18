@@ -1,0 +1,926 @@
+{
+  "version": "v1",
+  "status": "PASS",
+  "requestCommit": "c9a226074c15cbaea93381d27aaa0e406f14e108",
+  "checksumEntries": [
+    {
+      "path": "v104/CASE-MATRIX-v1.json",
+      "sha256": "4499f4a870b376fc3229b59384c123a16db474b273a8a1cf60a27607b9412db1",
+      "bytes": 16650
+    },
+    {
+      "path": "v104/REQUEST-v104-v1.md",
+      "sha256": "4012b33098a60bffbcf663f7855ed86370faf12dc1bc0a934fa406f1a8cfc033",
+      "bytes": 19965
+    },
+    {
+      "path": "v104/SELF-REVIEW-v1.md",
+      "sha256": "e0d65f44dd6a789d79ea3db94b1611472103ff5fd0807e2c6bf1b7f01d5b0940",
+      "bytes": 6539
+    },
+    {
+      "path": "v104/SOURCE-INVENTORY-v1.md",
+      "sha256": "4d22f55eee9e2ef57dcbf8a57121afd896faf14de031328c9823cc4ca4bea573",
+      "bytes": 14544
+    },
+    {
+      "path": "v104/bundle-manifest-v1.json",
+      "sha256": "573b830bde5f9bca83fdf07cfc742f85d3a527553f86d94435c0129b899d23d9",
+      "bytes": 57819
+    },
+    {
+      "path": "v104/sources/v104-alpha-composite-v6.pine",
+      "sha256": "b30dc532bad869957a3299a30afb8300d50f2252d67ef85da5c6510b3a88659b",
+      "bytes": 2030
+    },
+    {
+      "path": "v104/sources/v104-arrow-direction-v6.pine",
+      "sha256": "71fb6cfaa539dbd3b4023ce68784c8ddc93d3152f841f8cba7bef22ed1c60247",
+      "bytes": 1348
+    },
+    {
+      "path": "v104/sources/v104-box-align-v5.pine",
+      "sha256": "4869a975177b42f950b0d317530166575393894fc4f97cf922a8602814edb74b",
+      "bytes": 1751
+    },
+    {
+      "path": "v104/sources/v104-box-vertical-v5.pine",
+      "sha256": "e9c3b0903cb1bd58d1b860bf27374cfc406ab00f3952e01dfc4fce2d379f7e3c",
+      "bytes": 1752
+    },
+    {
+      "path": "v104/sources/v104-box-wrap-v5.pine",
+      "sha256": "d831ee981b81fcd1ddfc6332630a602947bd04a5ec0d9a976e9d9cfa750a958d",
+      "bytes": 1936
+    },
+    {
+      "path": "v104/sources/v104-dash-period-v6.pine",
+      "sha256": "c186a1294185b05e9167ac00d5c46f18b0a88ab134debbe4377e92618e6baecb",
+      "bytes": 1588
+    },
+    {
+      "path": "v104/sources/v104-glyph-advance-v6.pine",
+      "sha256": "5fe9203d3c6cc777a7952d24de76e783f3d001a050236855daf6b084942991b2",
+      "bytes": 2180
+    },
+    {
+      "path": "v104/sources/v104-step-turn-v5.pine",
+      "sha256": "a668712b582a775e130f22ecccbde42f5ed0313b770bdfb9827281f0336e497b",
+      "bytes": 1545
+    },
+    {
+      "path": "v104/sources/v104-step-turn-v6.pine",
+      "sha256": "a7b22daf47b2f02488fdf7e4b112ed39412dab3f5aa0d741c2253466101fc2fd",
+      "bytes": 1545
+    },
+    {
+      "path": "v104/sources/v104-table-frame-v5.pine",
+      "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+      "bytes": 1552
+    },
+    {
+      "path": "v104/sources/v104-table-merge-v5.pine",
+      "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+      "bytes": 1601
+    },
+    {
+      "path": "v104/sources/v104-table-relocation-v5.pine",
+      "sha256": "fd160ac84d0321ca444ef3f36b24f813f470e1a524b89b0cc7b39daec72d206a",
+      "bytes": 1294
+    },
+    {
+      "path": "v104/sources/v104-table-survival-v5.pine",
+      "sha256": "8849cf5ec18f778bb193e97ff471479b002d151a59194cc9eb2bc49bdcb0cc13",
+      "bytes": 1531
+    }
+  ],
+  "sources": [
+    {
+      "slot": 1,
+      "sourceId": "v104-box-wrap-v5",
+      "bytes": 1936,
+      "sha256": "d831ee981b81fcd1ddfc6332630a602947bd04a5ec0d9a976e9d9cfa750a958d",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BOX0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BOX1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BOX2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "sourceId": "v104-box-align-v5",
+      "bytes": 1751,
+      "sha256": "4869a975177b42f950b0d317530166575393894fc4f97cf922a8602814edb74b",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BOX0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BOX1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BOX2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "sourceId": "v104-glyph-advance-v6",
+      "bytes": 2180,
+      "sha256": "5fe9203d3c6cc777a7952d24de76e783f3d001a050236855daf6b084942991b2",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "LABEL0_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "LABEL1_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "LABEL2_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "LABEL3_X_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 4,
+      "sourceId": "v104-alpha-composite-v6",
+      "bytes": 2030,
+      "sha256": "b30dc532bad869957a3299a30afb8300d50f2252d67ef85da5c6510b3a88659b",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BLUE50_R"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BLUE50_B"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BLUE50_T"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "RED50_R"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "RED50_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "RED50_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "sourceId": "v104-dash-period-v6",
+      "bytes": 1588,
+      "sha256": "c186a1294185b05e9167ac00d5c46f18b0a88ab134debbe4377e92618e6baecb",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "LINE0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "LINE1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "LINE2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 6,
+      "sourceId": "v104-table-survival-v5",
+      "bytes": 1531,
+      "sha256": "8849cf5ec18f778bb193e97ff471479b002d151a59194cc9eb2bc49bdcb0cc13",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "OLD_NA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 7,
+      "sourceId": "v104-step-turn-v5",
+      "bytes": 1545,
+      "sha256": "a668712b582a775e130f22ecccbde42f5ed0313b770bdfb9827281f0336e497b",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "STEP"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "RULER8_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "RULER24_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "PHASE32"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 8,
+      "sourceId": "v104-step-turn-v6",
+      "bytes": 1545,
+      "sha256": "a7b22daf47b2f02488fdf7e4b112ed39412dab3f5aa0d741c2253466101fc2fd",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "STEP"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "RULER8_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "RULER24_DELTA"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "PHASE32"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 9,
+      "sourceId": "v104-arrow-direction-v6",
+      "bytes": 1348,
+      "sha256": "71fb6cfaa539dbd3b4023ce68784c8ddc93d3152f841f8cba7bef22ed1c60247",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plotarrow",
+          "title": "DIRECTION"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "SIGN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "CONTROL_SIGN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plotchar",
+          "title": "UP_CONTROL"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plotchar",
+          "title": "DOWN_CONTROL"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 10,
+      "sourceId": "v104-box-vertical-v5",
+      "bytes": 1752,
+      "sha256": "e9c3b0903cb1bd58d1b860bf27374cfc406ab00f3952e01dfc4fce2d379f7e3c",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BOX0_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BOX1_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BOX2_SPAN"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 11,
+      "sourceId": "v104-table-relocation-v5",
+      "bytes": 1294,
+      "sha256": "fd160ac84d0321ca444ef3f36b24f813f470e1a524b89b0cc7b39daec72d206a",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 12,
+      "sourceId": "v104-table-frame-v5",
+      "bytes": 1552,
+      "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 13,
+      "sourceId": "v104-table-merge-v5",
+      "bytes": 1601,
+      "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    }
+  ],
+  "totalPlotColumns": 144,
+  "prospectivePrimaryCells": 4608,
+  "nativeOutcome": "UNSPECIFIED; source hypotheses do not supply native targets"
+}

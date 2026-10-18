@@ -1,0 +1,102 @@
+{
+  "version": "v1",
+  "method": "Manual complete-glyph and object-edge inspection of original native PNG; fixed window and independent full-text sentinel",
+  "inspectedOriginalPngSha256": "a92cd9ae8a5a6809db81f98c09cf9f524858642ed42fea7919dae4602608d2f5",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "19:30 UTC",
+        "unixSeconds": 1792351800,
+        "xPx": 350
+      },
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 653
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-box-wrap-v5:wrap-vs-nowrap",
+      "outcome": "SUPPORTED_A",
+      "observation": "Left narrow box shows two complete lines ALPHA BETA / GAMMA DELTA. The same-width right nowrap box shows the complete phrase on one line extending right. The separate lower wide sentinel shows ALPHA BETA GAMMA DELTA completely. All three blue outlines and white interiors are visible; nowrap text stays clear of the wrapped subject.",
+      "actualSubjectRegionsPx": [
+        [
+          350,
+          685,
+          513,
+          842
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          572,
+          685,
+          735,
+          842
+        ],
+        [
+          350,
+          853,
+          938,
+          890
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "auto-wrap line1",
+          "literal": "ALPHA BETA"
+        },
+        {
+          "region": "auto-wrap line2",
+          "literal": "GAMMA DELTA"
+        },
+        {
+          "region": "nowrap control",
+          "literal": "ALPHA BETA GAMMA DELTA"
+        },
+        {
+          "region": "lower wide sentinel",
+          "literal": "ALPHA BETA GAMMA DELTA"
+        }
+      ],
+      "actualGlyphBoundsPx": [
+        [
+          357,
+          694,
+          492,
+          730
+        ],
+        [
+          579,
+          694,
+          833,
+          710
+        ],
+        [
+          357,
+          865,
+          612,
+          881
+        ]
+      ],
+      "occlusion": "All three outlines are readable. Right nowrap spill goes away from left wrapped subject; no third-object overlap.",
+      "scope": "One retained v5 plate; finite auto-wrap versus nowrap only, no absolute font or line-height law."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}
