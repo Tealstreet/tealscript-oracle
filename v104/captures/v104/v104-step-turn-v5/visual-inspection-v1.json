@@ -1,0 +1,90 @@
+{
+  "version": "v1",
+  "method": "Original PNG separate native blue turn/arm and red ruler inspection; every transition joined to own original CSV modulo32 row",
+  "inspectedOriginalPngSha256": "59d415d9f88255581adbc794912261a7c0b126700557dd79b898a8e9a789caf6",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 471
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 775
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-step-turn-v5:step-location",
+      "outcome": "SUPPORTED_B",
+      "observation": "The up-turn blue vertical is at x461, with red phase8 ruler at471. Down-turn blue vertical is at785, red phase24 ruler795. Both blue horizontal arms at25/75 join their own blue verticals, and both red rulers remain separately visible above/below the blue vertical spans. Each blue turn lies about half a source bar earlier than its own new-value center.",
+      "actualSubjectRegionsPx": [
+        [
+          443,
+          717,
+          489,
+          846
+        ],
+        [
+          767,
+          717,
+          813,
+          846
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          470,
+          685,
+          473,
+          878
+        ],
+        [
+          794,
+          685,
+          797,
+          878
+        ]
+      ],
+      "candidateIntervalsPx": {
+        "phase8_A": [
+          468,
+          474
+        ],
+        "phase8_B": [
+          457.8666666667,
+          463.8666666667
+        ],
+        "phase24_A": [
+          792.2666666667,
+          798.2666666667
+        ],
+        "phase24_B": [
+          782.1333333333,
+          788.1333333333
+        ],
+        "policy": "Source/time tick joins and fixed combined uncertainty3; no fitted tolerance"
+      },
+      "stepCertificatePath": "step-certificate-v1.json",
+      "occlusion": "Blue vertical strokes, both blue arms and upper/lower red ruler portions are separated and fully readable in the registered window.",
+      "scope": "This v5 source/phase32 block only; no transfer to v6 or older unresolved plates."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,10 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v104-step-turn-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float ruler8_delta = na
+var float ruler24_delta = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    r8 = line.new(bar_index - ((bar_index - 8) % 32), 10, bar_index - ((bar_index - 8) % 32), 90, color=color.red)

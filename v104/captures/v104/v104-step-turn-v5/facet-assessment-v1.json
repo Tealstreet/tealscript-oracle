@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v104-step-turn-v5",
+  "sourceSha256": "a668712b582a775e130f22ecccbde42f5ed0313b770bdfb9827281f0336e497b",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-step-turn-v5/numeric-results-v1.json",
+    "bytes": 188908,
+    "sha256": "bcdc8913962de5d971e6941f290e00bd94aa2e2ec4de159246114b9630494f87"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-step-turn-v5/compiler-diagnostics-v1.json",
+    "bytes": 1574,
+    "sha256": "762a16cf2385d70af38a10996bb769c1274f59e191a730145ec72a3c754787ce"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-step-turn-v5:step-location",
+      "verdict": "REFUTED",
+      "outcome": "SUPPORTED_B",
+      "modelA": "vertical STEP turns align to the new-value bar center X(t)",
+      "modelB": "vertical STEP turns lie half a source bar earlier X(t)-b/2",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -32,
+          1
+        ],
+        "y": [
+          8,
+          92
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-step-turn-v5/derived-region-map-v1.json",
+        "bytes": 8789,
+        "sha256": "f94343204ed9d03fe68a0d441e01bf2512da1d4932e5cd1165eb79ca4f6d3292"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
