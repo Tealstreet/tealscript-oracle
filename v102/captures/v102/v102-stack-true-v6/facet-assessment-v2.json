@@ -1,0 +1,138 @@
+{
+  "version": "v2",
+  "sourceId": "v102-stack-true-v6",
+  "sourceSha256": "037d884262c9b80d020ea23c7e2c53c3181af2a1bba5e3c340c4b0c59f93c326",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/3",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-stack-true-v6/numeric-results-v1.json",
+    "bytes": 82084,
+    "sha256": "6dcf72e9ee8872427b33636126e7595fb3c3eebaaa848ebd02d69782574cdd0f"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-stack-true-v6/derived-region-map-v1.json",
+    "bytes": 16082,
+    "sha256": "38303a781c9cf58d1deb8bf5e373b429a72cc7e382fc07505586742ad5c8a57e"
+  },
+  "cases": [
+    {
+      "caseId": "v102-stack-true-v6:polyline-line-forward/reverse",
+      "verdict": "SUPPORTED",
+      "numeric": null,
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-stack-true-v6/derived-region-map-v1.json",
+          "bytes": 16082,
+          "sha256": "38303a781c9cf58d1deb8bf5e373b429a72cc7e382fc07505586742ad5c8a57e"
+        },
+        "jsonPointer": "/facets/0",
+        "cause": null,
+        "supportedCandidate": "FIXED_POLYLINE_ABOVE_LINE",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-stack-true-v6:polyline-box-forward/reverse",
+      "verdict": "SUPPORTED",
+      "numeric": null,
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-stack-true-v6/derived-region-map-v1.json",
+          "bytes": 16082,
+          "sha256": "38303a781c9cf58d1deb8bf5e373b429a72cc7e382fc07505586742ad5c8a57e"
+        },
+        "jsonPointer": "/facets/1",
+        "cause": null,
+        "supportedCandidate": "FIXED_BOX_ABOVE_POLYLINE",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-stack-true-v6:polyline-label-forward/reverse",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-stack-true-v6/derived-region-map-v1.json",
+          "bytes": 16082,
+          "sha256": "38303a781c9cf58d1deb8bf5e373b429a72cc7e382fc07505586742ad5c8a57e"
+        },
+        "jsonPointer": "/facets/2",
+        "cause": "At y85 the polyline center is already occluded by the opaque extended magenta box at82..88. Remaining edge pixels lie within coordinate uncertainty; LABEL85 does not independently certify its order against that hidden center.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-stack-true-v6:table-actual-intersections",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-stack-true-v6/derived-region-map-v1.json",
+          "bytes": 16082,
+          "sha256": "38303a781c9cf58d1deb8bf5e373b429a72cc7e382fc07505586742ad5c8a57e"
+        },
+        "jsonPointer": "/facets/3",
+        "cause": null,
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-stack-true-v6:explicit-plot-control",
+      "verdict": "SUPPORTED",
+      "numeric": null,
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-stack-true-v6/derived-region-map-v1.json",
+          "bytes": 16082,
+          "sha256": "38303a781c9cf58d1deb8bf5e373b429a72cc7e382fc07505586742ad5c8a57e"
+        },
+        "jsonPointer": "/facets/4",
+        "cause": null,
+        "supportedCandidate": "EXPLICIT_LATE_FILL_ABOVE_EARLIER_PLOT_AND_HLINE",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

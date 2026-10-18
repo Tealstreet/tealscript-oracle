@@ -1,0 +1,205 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of this original native coordinate PNG",
+  "inspectedOriginalPngSha256": "305b30aac8567e6d347ae2b2a7ea76e6272d7b97ae1d1dd602c0e81b4ebce287",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "19:30 UTC",
+        "unixSeconds": 1792265400,
+        "xPx": 17
+      },
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792267200,
+        "xPx": 107
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 889
+      },
+      {
+        "value": 100,
+        "yPx": 674
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    },
+    "basis": "Visible native ticks and exact matching own source indices in this original CSV; no forced time-gap continuity"
+  },
+  "facets": [
+    {
+      "caseId": "v102-coordinate-render-v5:line-time-index-point-copy",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "FINAL_LINE_POINTS_APPLIED_WITH_COPIED_FIELDS",
+      "candidates": {
+        "copied": "Final blue line at relative x-20..-12,y30..50",
+        "liveAlias": "Later point mutations move both endpoints toward relative x-2/-1,y95",
+        "ignored": "Old constructor x-24..-16 remains"
+      },
+      "regions": [
+        {
+          "role": "final blue point-based line",
+          "originalPngRectPx": [
+            997,
+            777,
+            1053,
+            829
+          ],
+          "visible": "Blue rising line from about x1001,y825 to1049,y782"
+        },
+        {
+          "role": "translated constructor",
+          "originalPngRectPx": [
+            997,
+            691,
+            1053,
+            743
+          ],
+          "visible": "Red parallel line with the same x span,40 native units above"
+        }
+      ],
+      "scope": "These final visible coordinates independently agree with copied point fields rather than the moved-point or unchanged initial line. Intermediate line time-mode delta is scored only from its separately owned numeric getter, not pixels."
+    },
+    {
+      "caseId": "v102-coordinate-render-v5:box-point-copy-no-set_xloc-v5",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "FINAL_BOX_FIELDS_DO_NOT_FOLLOW_LATER_POINT_MUTATIONS",
+      "candidates": {
+        "copied": "Wide yellow rectangle at relative x-60..-40,y10..30",
+        "liveAlias": "Narrow moved rectangle near relative x-2/-1,y94..95"
+      },
+      "regions": [
+        {
+          "role": "final yellow rectangle",
+          "originalPngRectPx": [
+            758,
+            821,
+            885,
+            871
+          ],
+          "visible": "Wide yellow rectangle with thin blue boundary"
+        },
+        {
+          "role": "translated constructor",
+          "originalPngRectPx": [
+            758,
+            735,
+            885,
+            785
+          ],
+          "visible": "Aqua rectangle with the same width and height,40 native units above"
+        }
+      ],
+      "notExercised": "No box.set_xloc call exists in this v5 source; BOX_TIME_DELTA is intentionally blank and supplies zero positive box-xloc credit.",
+      "aliasLimit": "Initial box coordinates coincide with its point inputs, so an ignored box-point setter is not distinguished from value-copy here. Only the stated non-following final fields versus live point mutation are witnessed."
+    },
+    {
+      "caseId": "v102-coordinate-render-v5:label-time-index-point-copy",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "FINAL_LABEL_FIELDS_REMAIN_AT_POINT_COORDINATES",
+      "candidates": {
+        "copied": "POINT remains at relative x-90,y15",
+        "liveAlias": "POINT follows later cp mutation to relative x-2,y95"
+      },
+      "visibleTextLiterals": [
+        "POINT",
+        "CONTROL"
+      ],
+      "regions": [
+        {
+          "role": "final point label",
+          "originalPngRectPx": [
+            551,
+            842,
+            613,
+            871
+          ],
+          "visible": "Blue POINT centered near x581,y857"
+        },
+        {
+          "role": "translated constructor",
+          "originalPngRectPx": [
+            540,
+            756,
+            623,
+            786
+          ],
+          "visible": "Blue CONTROL centered at the same x and40 native units above"
+        }
+      ],
+      "notObservedCause": "The transient label bar_time transition has no intermediate getter. Initial label fields also coincide with cp before mutation, so ignored point/time setters are not separated from final value-copy by this plate.",
+      "scope": "SUPPORT applies only to the final non-following copied-field alternative versus live point mutation; transient label time-mode application remains UNOBSERVED."
+    },
+    {
+      "caseId": "v102-coordinate-render-v5:setter-vs-constructor-translated-geometry",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "REGISTERED_FINAL_GEOMETRY_WITH_PLUS40_TRANSLATED_CONTROLS",
+      "candidates": {
+        "copied": "Each final object has its constructor control at the same x and40 units above",
+        "liveAliasOrStale": "Moved points or a stale final mode fail the stated final placements"
+      },
+      "regions": [
+        {
+          "pair": "line",
+          "setterRectPx": [
+            997,
+            777,
+            1053,
+            829
+          ],
+          "constructorRectPx": [
+            997,
+            691,
+            1053,
+            743
+          ],
+          "visible": "Parallel blue/red sloping segments, same x interval and about86 PNG pixels vertical separation"
+        },
+        {
+          "pair": "box",
+          "setterRectPx": [
+            758,
+            821,
+            885,
+            871
+          ],
+          "constructorRectPx": [
+            758,
+            735,
+            885,
+            785
+          ],
+          "visible": "Yellow/aqua rectangles with matching width/height, about86 PNG pixels apart"
+        },
+        {
+          "pair": "label",
+          "setterRectPx": [
+            551,
+            842,
+            613,
+            871
+          ],
+          "constructorRectPx": [
+            540,
+            756,
+            623,
+            786
+          ],
+          "visible": "POINT and CONTROL have matching center x and about86 PNG pixels vertical separation"
+        }
+      ],
+      "scope": "Visible final geometry on this one native plate, calibrated from0/100 axis ticks with explicit uncertainty; no universal CSS/DPI geometry, transient-mode or ignored-setter elimination for coincident box/label initial inputs."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of this original native PNG, independently of numeric getter outcomes",
+  "inspectedOriginalPngSha256": "97d090f7abd9fc749554f8fce44037004e53f28ce346f0b64ef207759de74407",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "19:30 UTC",
+        "unixSeconds": 1792265400,
+        "xPx": 35
+      },
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792267200,
+        "xPx": 125
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 883
+      },
+      {
+        "value": 100,
+        "yPx": 680
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    },
+    "basis": "Visible native ticks in this specific PNG; y calibration is independent of the stacking panes"
+  },
+  "facets": [
+    {
+      "caseId": "v102-copy-appearance-v5:line-copy-preserves-dash-width-color",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "INDEPENDENT_COPY_RETAINS_VISIBLE_ORIGINAL_LINE_APPEARANCE",
+      "candidates": {
+        "preserving": "Copy matches the unchanged blue thick dashed constructor while source is red thin dotted",
+        "aliasOrReset": "Copy follows the changed source or differs from the unchanged original-style control"
+      },
+      "regions": [
+        {
+          "role": "constructor control",
+          "originalPngRectPx": [
+            578,
+            706,
+            705,
+            715
+          ],
+          "visible": "Two blue thick dashed segments with a long intervening gap"
+        },
+        {
+          "role": "mutated source",
+          "originalPngRectPx": [
+            758,
+            727,
+            885,
+            735
+          ],
+          "visible": "Thin red dotted horizontal line"
+        },
+        {
+          "role": "copy",
+          "originalPngRectPx": [
+            938,
+            706,
+            1065,
+            715
+          ],
+          "visible": "Blue thick dashed segments matching the side-by-side constructor control"
+        }
+      ],
+      "actualIntersections": "Separate nonoverlapping source/copy/control spans; no occluding object at these strokes",
+      "scope": "Only these visible color/dash/relative-width fields and numeric copy-isolation witnesses; no hidden full-style record or universal raster widths"
+    },
+    {
+      "caseId": "v102-copy-appearance-v5:box-copy-preserves-style-independent-text",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "COPY_RETAINS_YELLOW_BLUE_SOLID_BORDER_AND_BLUE_TEXT",
+      "candidates": {
+        "preserving": "Copy remains yellow with solid blue border/blue COPY while source is aqua/dashed with red SOURCE",
+        "aliasOrReset": "Copy takes the changed source appearance/text or differs from the constructor control"
+      },
+      "visibleTextLiterals": [
+        "CONTROL",
+        "SOURCE",
+        "COPY"
+      ],
+      "regions": [
+        {
+          "role": "constructor control",
+          "originalPngRectPx": [
+            578,
+            758,
+            704,
+            805
+          ],
+          "visible": "Yellow rectangle, thick solid blue border, blue CONTROL aligned toward left"
+        },
+        {
+          "role": "mutated source",
+          "originalPngRectPx": [
+            758,
+            758,
+            884,
+            805
+          ],
+          "visible": "Aqua rectangle, dashed blue border, readable red SOURCE"
+        },
+        {
+          "role": "copy",
+          "originalPngRectPx": [
+            938,
+            758,
+            1064,
+            805
+          ],
+          "visible": "Yellow rectangle, solid blue border, readable blue COPY toward left"
+        }
+      ],
+      "occlusion": "A separate white SOURCE label inscription overlaps the lower source-box region. Red SOURCE remains readable; no extra text is completed through that overlap.",
+      "scope": "Visible original appearance and independent text mutations in this one plate; no unexported box-text getter, font metric or universal style-copy claim"
+    },
+    {
+      "caseId": "v102-copy-appearance-v5:label-copy-preserves-style-independent-text",
+      "verdict": "SUPPORTED",
+      "supportedCandidate": "COPY_RETAINS_BLUE_CENTER_LABEL_LARGE_APPEARANCE",
+      "candidates": {
+        "preserving": "Copy and constructor remain blue centered rectangular labels, unlike the red square source",
+        "aliasOrReset": "Copy follows the red square source or loses the constructor appearance"
+      },
+      "visibleTextLiterals": [
+        "CONTROL",
+        "COPY",
+        "SOURCE"
+      ],
+      "regions": [
+        {
+          "role": "constructor control",
+          "originalPngRectPx": [
+            584,
+            822,
+            699,
+            864
+          ],
+          "visible": "Blue centered rectangle with white CONTROL"
+        },
+        {
+          "role": "mutated source marker",
+          "originalPngRectPx": [
+            800,
+            821,
+            843,
+            864
+          ],
+          "visible": "Red square marker"
+        },
+        {
+          "role": "mutated source inscription",
+          "originalPngRectPx": [
+            784,
+            788,
+            858,
+            806
+          ],
+          "visible": "White SOURCE above the red marker, overlapping the lower aqua-box region"
+        },
+        {
+          "role": "copy",
+          "originalPngRectPx": [
+            962,
+            821,
+            1041,
+            864
+          ],
+          "visible": "Blue centered rectangle with white COPY; its height and rounded rectangular shape match the original-style control"
+        }
+      ],
+      "scope": "Only actually readable glyphs, visible blue/white centered-label appearance and independent source/copy text getter flags; no general label font/size/DPI contract"
+    }
+  ]
+}
