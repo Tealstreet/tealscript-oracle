@@ -1,0 +1,10 @@
+    line.set_y2(b, 50)
+    c = line.new(bar_index - 40, 30, bar_index - 5, 30, color=color.gray)
+    d = line.new(bar_index - 40, 50, bar_index - 5, 50, color=color.gray)
+    h = linefill.new(c, d, color.new(color.red, 50))
+    j = linefill.new(c, d, color.new(color.green, 50))
+    linefill.delete(h)
+    COUNT := array.size(linefill.all)
+    PARENT_A := line.get_y1(linefill.get_line1(g))
+    PARENT_B := line.get_y1(linefill.get_line2(g))
+

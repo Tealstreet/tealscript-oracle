@@ -1,0 +1,10 @@
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 90, 60, bar_index - 55, 60, color=color.gray)
+    b = line.new(bar_index - 90, 80, bar_index - 55, 80, color=color.gray)
+    f = linefill.new(a, b, color.new(color.red, 50))
+    g = linefill.new(a, b, color.new(color.blue, 50))
+    line.set_y1(a, 30)
+    line.set_y2(a, 30)
+    line.set_y1(b, 50)

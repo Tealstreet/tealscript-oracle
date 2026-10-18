@@ -1,0 +1,125 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of this v6 original retained-fill plate, not transferred v5 evidence",
+  "inspectedOriginalPngSha256": "0ab1426e5e068af58cac3b20a6c38683081bdc5497a187bf9bf350a80d6c8a77",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 29
+      },
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 119
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-retained-replacement-v6:replacement-not-additive",
+      "outcome": "SUPPORTED_A",
+      "observation": "This v6 original has one blue-class left band x581..791/y781..830, with no visible red/blue purple mixture. The registered interior contains actual paint, so the color discriminator is available.",
+      "actualSubjectRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ],
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "occlusion": "Both pairs and the competing upper band are visible without third-object overlap; existing parent traces and a positive fill prevent confusing channel absence with a deletion result.",
+      "precision": "Fixed x2/y3/stroke1 uncertainty; large band displacement and qualitative blue/mixed/empty color classes only, no exact alpha law or hidden-handle explanation.",
+      "scope": "This exact v6 plate, independent by version; COUNT/PARENT getters retain one closed event and31 intentional blanks each."
+    },
+    {
+      "facetId": "v103-retained-replacement-v6:fill-before-parent-mutation",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 blue fill connects the moved left parent traces at native30 and50, approximately y829 and781. The original60..80 band is visibly empty of this fill, distinguishing live parent geometry from a frozen original band.",
+      "actualSubjectRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ],
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "occlusion": "Both pairs and the competing upper band are visible without third-object overlap; existing parent traces and a positive fill prevent confusing channel absence with a deletion result.",
+      "precision": "Fixed x2/y3/stroke1 uncertainty; large band displacement and qualitative blue/mixed/empty color classes only, no exact alpha law or hidden-handle explanation.",
+      "scope": "This exact v6 plate, independent by version; COUNT/PARENT getters retain one closed event and31 intentional blanks each."
+    },
+    {
+      "facetId": "v103-retained-replacement-v6:separate-old-delete-pair",
+      "outcome": "SUPPORTED_A",
+      "observation": "The independent right pair has two visible gray parent traces x881..1091 at y781/y829 and a dark interior, with no green replacement paint. The retained left blue fill is a separate positive paint control.",
+      "actualSubjectRegionsPx": [
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          581,
+          781,
+          791,
+          830
+        ],
+        [
+          881,
+          780,
+          1092,
+          831
+        ]
+      ],
+      "occlusion": "Both pairs and the competing upper band are visible without third-object overlap; existing parent traces and a positive fill prevent confusing channel absence with a deletion result.",
+      "precision": "Fixed x2/y3/stroke1 uncertainty; large band displacement and qualitative blue/mixed/empty color classes only, no exact alpha law or hidden-handle explanation.",
+      "scope": "This exact v6 plate, independent by version; COUNT/PARENT getters retain one closed event and31 intentional blanks each."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

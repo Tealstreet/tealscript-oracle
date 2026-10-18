@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "sourceId": "v103-retained-replacement-v6",
+  "sourceSha256": "a5debd8ed18fdafe79a2633aa82e696b2d91a4c85d0ec0b905fb9b4b9725483b",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-retained-replacement-v6/numeric-results-v1.json",
+    "bytes": 180559,
+    "sha256": "67694c1a66bc571a5a77d9c825275b3177dbeec50241ded9c4c5900a74160d62"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-retained-replacement-v6/compiler-diagnostics-v1.json",
+    "bytes": 1607,
+    "sha256": "cecf1bbb54ac6fbf5b8ab0e76c10d6370e919330bf3283a825a7132089cbf9fa"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-retained-replacement-v6:replacement-not-additive",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "single blue50 band",
+      "modelB": "earlier red50 also retained behind blue50",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -88,
+          -57
+        ],
+        "y": [
+          32,
+          48
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-retained-replacement-v6/derived-region-map-v1.json",
+        "bytes": 12747,
+        "sha256": "cc4cf2e22e39b2e356ee3787bd6f6d29d2643b07610570371d13e0720b50278f"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-retained-replacement-v6:fill-before-parent-mutation",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "retained blue fill follows 30..50 parents",
+      "modelB": "fill freezes original60..80 band",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -88,
+          -57
+        ],
+        "y": [
+          25,
+          85
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-retained-replacement-v6/derived-region-map-v1.json",
+        "bytes": 12747,
+        "sha256": "cc4cf2e22e39b2e356ee3787bd6f6d29d2643b07610570371d13e0720b50278f"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-retained-replacement-v6:separate-old-delete-pair",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "no fill on separate right pair",
+      "modelB": "replacement right fill survives old-handle delete",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -38,
+          -7
+        ],
+        "y": [
+          32,
+          48
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-retained-replacement-v6/derived-region-map-v1.json",
+        "bytes": 12747,
+        "sha256": "cc4cf2e22e39b2e356ee3787bd6f6d29d2643b07610570371d13e0720b50278f"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
