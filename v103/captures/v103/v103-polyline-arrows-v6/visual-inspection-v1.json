@@ -1,0 +1,275 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of original v6 polyline.new PNG, topology and endpoint choices observed separately from v5",
+  "inspectedOriginalPngSha256": "bc8e10312fb96cbfaff763461e47976dc31aa6ea20fa33a76e14360c03d754ee",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 65
+      },
+      {
+        "label": "03:30 UTC",
+        "unixSeconds": 1792294200,
+        "xPx": 155
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-polyline-arrows-v6:arrow_left-head-topology",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 lower-lane first endpoint near(611,853) has a clear open blue chevron with dark interior; no filled triangular patch occupies the wedge.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          831,
+          634,
+          875
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "Complete shafts and all six endpoint neighborhoods are exposed and vertically separate, with no third-object overlap or clipping. Dark open interiors and plain opposite endpoints are independently readable.",
+      "precision": "Large chevrons and their empty interiors exceed fixed x2/y3/stroke1 uncertainty. Exact native head length/angle/antialiasing and universal raster remain unknown.",
+      "scope": "This exact v6 polyline.new source only, independently observed. No line.new transfer, whole-engine parity or automatic PR acceptance claim."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v6:arrow_left-endpoint",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 lower lane has a left/first head at611 and a plain right/last shaft endpoint at1031, both fully exposed.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          831,
+          634,
+          875
+        ],
+        [
+          1007,
+          831,
+          1053,
+          875
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "Complete shafts and all six endpoint neighborhoods are exposed and vertically separate, with no third-object overlap or clipping. Dark open interiors and plain opposite endpoints are independently readable.",
+      "precision": "Large chevrons and their empty interiors exceed fixed x2/y3/stroke1 uncertainty. Exact native head length/angle/antialiasing and universal raster remain unknown.",
+      "scope": "This exact v6 polyline.new source only, independently observed. No line.new transfer, whole-engine parity or automatic PR acceptance claim."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v6:arrow_right-head-topology",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 middle-lane last endpoint near(1031,781) is a readable open chevron, with dark interior separating its two blue wings from a filled triangle.",
+      "actualSubjectRegionsPx": [
+        [
+          1007,
+          759,
+          1034,
+          803
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "Complete shafts and all six endpoint neighborhoods are exposed and vertically separate, with no third-object overlap or clipping. Dark open interiors and plain opposite endpoints are independently readable.",
+      "precision": "Large chevrons and their empty interiors exceed fixed x2/y3/stroke1 uncertainty. Exact native head length/angle/antialiasing and universal raster remain unknown.",
+      "scope": "This exact v6 polyline.new source only, independently observed. No line.new transfer, whole-engine parity or automatic PR acceptance claim."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v6:arrow_right-endpoint",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 middle lane has a right/last head at1031 and a plain first/left shaft endpoint at611.",
+      "actualSubjectRegionsPx": [
+        [
+          589,
+          759,
+          635,
+          803
+        ],
+        [
+          1007,
+          759,
+          1034,
+          803
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "Complete shafts and all six endpoint neighborhoods are exposed and vertically separate, with no third-object overlap or clipping. Dark open interiors and plain opposite endpoints are independently readable.",
+      "precision": "Large chevrons and their empty interiors exceed fixed x2/y3/stroke1 uncertainty. Exact native head length/angle/antialiasing and universal raster remain unknown.",
+      "scope": "This exact v6 polyline.new source only, independently observed. No line.new transfer, whole-engine parity or automatic PR acceptance claim."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v6:arrow_both-head-topology",
+      "outcome": "SUPPORTED_A",
+      "observation": "Both v6 upper endpoints near(611,709)/(1031,709) have open chevrons. Their interiors are visibly dark, independently excluding the filled-triangle candidate.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          687,
+          634,
+          731
+        ],
+        [
+          1007,
+          687,
+          1034,
+          731
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "Complete shafts and all six endpoint neighborhoods are exposed and vertically separate, with no third-object overlap or clipping. Dark open interiors and plain opposite endpoints are independently readable.",
+      "precision": "Large chevrons and their empty interiors exceed fixed x2/y3/stroke1 uncertainty. Exact native head length/angle/antialiasing and universal raster remain unknown.",
+      "scope": "This exact v6 polyline.new source only, independently observed. No line.new transfer, whole-engine parity or automatic PR acceptance claim."
+    },
+    {
+      "facetId": "v103-polyline-arrows-v6:both-heads-present",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 upper shaft has a clear head at each end, two total, rather than no endpoint heads.",
+      "actualSubjectRegionsPx": [
+        [
+          608,
+          687,
+          634,
+          731
+        ],
+        [
+          1007,
+          687,
+          1034,
+          731
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          609,
+          839,
+          1033,
+          856
+        ],
+        [
+          609,
+          767,
+          1033,
+          784
+        ],
+        [
+          609,
+          695,
+          1033,
+          712
+        ]
+      ],
+      "occlusion": "Complete shafts and all six endpoint neighborhoods are exposed and vertically separate, with no third-object overlap or clipping. Dark open interiors and plain opposite endpoints are independently readable.",
+      "precision": "Large chevrons and their empty interiors exceed fixed x2/y3/stroke1 uncertainty. Exact native head length/angle/antialiasing and universal raster remain unknown.",
+      "scope": "This exact v6 polyline.new source only, independently observed. No line.new transfer, whole-engine parity or automatic PR acceptance claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

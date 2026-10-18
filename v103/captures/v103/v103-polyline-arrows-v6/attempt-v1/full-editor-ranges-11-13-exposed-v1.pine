@@ -1,0 +1,6 @@
+    anchorTime := time
+    pts_arrow_left = array.from(chart.point.from_index(bar_index - 85, 20), chart.point.from_index(bar_index - 50, 25), chart.point.from_index(bar_index - 15, 20))
+    polyline.new(pts_arrow_left, curved=false, closed=false, line_color=color.blue, line_style=line.style_arrow_left, line_width=4)
+    pts_arrow_right = array.from(chart.point.from_index(bar_index - 85, 50), chart.point.from_index(bar_index - 50, 55), chart.point.from_index(bar_index - 15, 50))
+    polyline.new(pts_arrow_right, curved=false, closed=false, line_color=color.blue, line_style=line.style_arrow_right, line_width=4)
+    pts_arrow_both = array.from(chart.point.from_index(bar_index - 85
