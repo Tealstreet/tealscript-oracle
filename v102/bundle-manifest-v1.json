@@ -930,8 +930,8 @@
       "pathFromRound": "sources/v102-linefill-sloped-v5.pine",
       "pineVersion": 5,
       "indicatorTitle": "V102 linefill-sloped v5",
-      "bytes": 1988,
-      "sha256": "420660ddab547cb250da03fbc227577796ae170d9d162bef14811ea3fa4fa97e",
+      "bytes": 2884,
+      "sha256": "c9b4a705298650382378f7e761b1bcf9e0aa95f22a6c5e17b73e211f190b55a6",
       "family": "linefill-sloped",
       "kind": "numeric-and-render",
       "minimumSourceIndex": 200,
@@ -939,8 +939,8 @@
       "primaryClosedRows": 32,
       "completePhaseCycles": 4,
       "requiredOriginalClosedPredecessors": 0,
-      "plotCalls": 15,
-      "maximumPlotCounts": 15,
+      "plotCalls": 19,
+      "maximumPlotCounts": 19,
       "plots": [
         {
           "sourcePlotOrdinal": 0,
@@ -979,41 +979,61 @@
         },
         {
           "sourcePlotOrdinal": 7,
+          "title": "TRACK_FIRST_Y1",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "TRACK_FIRST_Y2",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TRACK_SECOND_Y1",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "TRACK_SECOND_Y2",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 11,
           "title": "INPUT_INDEX",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 8,
+          "sourcePlotOrdinal": 12,
           "title": "INPUT_TIME",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 9,
+          "sourcePlotOrdinal": 13,
           "title": "CHART_CONFIRMED",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 10,
+          "sourcePlotOrdinal": 14,
           "title": "CASE_ID",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 11,
+          "sourcePlotOrdinal": 15,
           "title": "VISUAL_ANCHOR_TIME",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 12,
+          "sourcePlotOrdinal": 16,
           "title": "VISUAL_ANCHOR_INDEX",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 13,
+          "sourcePlotOrdinal": 17,
           "title": "SCALE_ZERO",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 14,
+          "sourcePlotOrdinal": 18,
           "title": "SCALE_HUNDRED",
           "role": "context"
         }
@@ -1029,7 +1049,60 @@
         "v102-linefill-sloped-v5:same-pair-replace-vs-add",
         "v102-linefill-sloped-v5:old-handle-delete-new-fill-survival"
       ],
-      "requiresVisualAnchor": true
+      "requiresVisualAnchor": true,
+      "trackingDiscriminator": {
+        "observedFill": "tracking",
+        "parents": [
+          "trackA",
+          "trackB"
+        ],
+        "creationBeforeParentMutation": true,
+        "recreatedAfterParentMutation": false,
+        "deletedAtVisualAnchor": false,
+        "color": "orange",
+        "extend": "both",
+        "xRelative": [
+          -120,
+          -90
+        ],
+        "staticSnapshot": {
+          "firstParentY": [
+            70,
+            80
+          ],
+          "secondParentY": [
+            85,
+            95
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            75,
+            90
+          ]
+        },
+        "liveTracking": {
+          "firstParentY": [
+            30,
+            40
+          ],
+          "secondParentY": [
+            50,
+            60
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            35,
+            55
+          ]
+        },
+        "numericGettersSameInBothModels": [
+          30,
+          40,
+          50,
+          60
+        ],
+        "appearanceSupport": "The one owned, readable and unoccluded original anchor PNG must distinguish the separate orange band; parent getters alone never certify fill tracking. Missing/clipped/obscured tracking regions stay HELD independently of G survival."
+      }
     },
     {
       "slot": 11,
@@ -1899,8 +1972,8 @@
       "pathFromRound": "sources/v102-linefill-sloped-v6.pine",
       "pineVersion": 6,
       "indicatorTitle": "V102 linefill-sloped v6",
-      "bytes": 1988,
-      "sha256": "ef84e53f4cad842e7f857d40b564e4045e21256328189838ff168310082b0349",
+      "bytes": 2884,
+      "sha256": "0a258d58c5f47cbc6a434ebb3b8f59a571db8a75c41e52f40dc1a4e700b94277",
       "family": "linefill-sloped",
       "kind": "numeric-and-render",
       "minimumSourceIndex": 200,
@@ -1908,8 +1981,8 @@
       "primaryClosedRows": 32,
       "completePhaseCycles": 4,
       "requiredOriginalClosedPredecessors": 0,
-      "plotCalls": 15,
-      "maximumPlotCounts": 15,
+      "plotCalls": 19,
+      "maximumPlotCounts": 19,
       "plots": [
         {
           "sourcePlotOrdinal": 0,
@@ -1948,41 +2021,61 @@
         },
         {
           "sourcePlotOrdinal": 7,
+          "title": "TRACK_FIRST_Y1",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "title": "TRACK_FIRST_Y2",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "title": "TRACK_SECOND_Y1",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "title": "TRACK_SECOND_Y2",
+          "role": "parent-line getter; same in both fill-geometry models, no standalone appearance credit"
+        },
+        {
+          "sourcePlotOrdinal": 11,
           "title": "INPUT_INDEX",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 8,
+          "sourcePlotOrdinal": 12,
           "title": "INPUT_TIME",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 9,
+          "sourcePlotOrdinal": 13,
           "title": "CHART_CONFIRMED",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 10,
+          "sourcePlotOrdinal": 14,
           "title": "CASE_ID",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 11,
+          "sourcePlotOrdinal": 15,
           "title": "VISUAL_ANCHOR_TIME",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 12,
+          "sourcePlotOrdinal": 16,
           "title": "VISUAL_ANCHOR_INDEX",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 13,
+          "sourcePlotOrdinal": 17,
           "title": "SCALE_ZERO",
           "role": "context"
         },
         {
-          "sourcePlotOrdinal": 14,
+          "sourcePlotOrdinal": 18,
           "title": "SCALE_HUNDRED",
           "role": "context"
         }
@@ -1998,7 +2091,60 @@
         "v102-linefill-sloped-v6:same-pair-replace-vs-add",
         "v102-linefill-sloped-v6:old-handle-delete-new-fill-survival"
       ],
-      "requiresVisualAnchor": true
+      "requiresVisualAnchor": true,
+      "trackingDiscriminator": {
+        "observedFill": "tracking",
+        "parents": [
+          "trackA",
+          "trackB"
+        ],
+        "creationBeforeParentMutation": true,
+        "recreatedAfterParentMutation": false,
+        "deletedAtVisualAnchor": false,
+        "color": "orange",
+        "extend": "both",
+        "xRelative": [
+          -120,
+          -90
+        ],
+        "staticSnapshot": {
+          "firstParentY": [
+            70,
+            80
+          ],
+          "secondParentY": [
+            85,
+            95
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            75,
+            90
+          ]
+        },
+        "liveTracking": {
+          "firstParentY": [
+            30,
+            40
+          ],
+          "secondParentY": [
+            50,
+            60
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            35,
+            55
+          ]
+        },
+        "numericGettersSameInBothModels": [
+          30,
+          40,
+          50,
+          60
+        ],
+        "appearanceSupport": "The one owned, readable and unoccluded original anchor PNG must distinguish the separate orange band; parent getters alone never certify fill tracking. Missing/clipped/obscured tracking regions stay HELD independently of G survival."
+      }
     },
     {
       "slot": 20,

@@ -175,12 +175,69 @@
         "NEW_PARENT2_ID": 1,
         "MOVED_FIRST_Y1": 20,
         "MOVED_SECOND_Y2": 70,
-        "AFTER_OLD_DELETE": "0 same-handle / 1 independent-new-handle; preserve unexpected outcomes"
+        "AFTER_OLD_DELETE": "0 same-handle / 1 independent-new-handle; preserve unexpected outcomes",
+        "TRACK_FIRST_Y1": 30,
+        "TRACK_FIRST_Y2": 40,
+        "TRACK_SECOND_Y1": 50,
+        "TRACK_SECOND_Y2": 60
       },
       "nativeOutcome": "UNSPECIFIED",
       "selectionUsesTargets": false,
       "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
-      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED.",
+      "visualHypotheses": {
+        "observedFill": "tracking",
+        "parents": [
+          "trackA",
+          "trackB"
+        ],
+        "creationBeforeParentMutation": true,
+        "recreatedAfterParentMutation": false,
+        "deletedAtVisualAnchor": false,
+        "color": "orange",
+        "extend": "both",
+        "xRelative": [
+          -120,
+          -90
+        ],
+        "staticSnapshot": {
+          "firstParentY": [
+            70,
+            80
+          ],
+          "secondParentY": [
+            85,
+            95
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            75,
+            90
+          ]
+        },
+        "liveTracking": {
+          "firstParentY": [
+            30,
+            40
+          ],
+          "secondParentY": [
+            50,
+            60
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            35,
+            55
+          ]
+        },
+        "numericGettersSameInBothModels": [
+          30,
+          40,
+          50,
+          60
+        ],
+        "appearanceSupport": "The one owned, readable and unoccluded original anchor PNG must distinguish the separate orange band; parent getters alone never certify fill tracking. Missing/clipped/obscured tracking regions stay HELD independently of G survival."
+      }
     },
     {
       "sourceId": "v102-line-price-v5",
@@ -356,12 +413,69 @@
         "NEW_PARENT2_ID": 1,
         "MOVED_FIRST_Y1": 20,
         "MOVED_SECOND_Y2": 70,
-        "AFTER_OLD_DELETE": "0 same-handle / 1 independent-new-handle; preserve unexpected outcomes"
+        "AFTER_OLD_DELETE": "0 same-handle / 1 independent-new-handle; preserve unexpected outcomes",
+        "TRACK_FIRST_Y1": 30,
+        "TRACK_FIRST_Y2": 40,
+        "TRACK_SECOND_Y1": 50,
+        "TRACK_SECOND_Y2": 60
       },
       "nativeOutcome": "UNSPECIFIED",
       "selectionUsesTargets": false,
       "supportRule": "Only the stated finite property with all owned eligible witnesses; every contrary owned cell is retained and refutes its prediction even with partial coverage. Incomplete matching coverage is UNDECIDED.",
-      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED."
+      "notObservedRule": "Refusal, wrong/absent source ownership, absent CSV/column, inadequate predecessor/closure or missing anchor/intersection/readability holds only the affected property. Present excluded cells remain OBSERVED/EXCLUDED.",
+      "visualHypotheses": {
+        "observedFill": "tracking",
+        "parents": [
+          "trackA",
+          "trackB"
+        ],
+        "creationBeforeParentMutation": true,
+        "recreatedAfterParentMutation": false,
+        "deletedAtVisualAnchor": false,
+        "color": "orange",
+        "extend": "both",
+        "xRelative": [
+          -120,
+          -90
+        ],
+        "staticSnapshot": {
+          "firstParentY": [
+            70,
+            80
+          ],
+          "secondParentY": [
+            85,
+            95
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            75,
+            90
+          ]
+        },
+        "liveTracking": {
+          "firstParentY": [
+            30,
+            40
+          ],
+          "secondParentY": [
+            50,
+            60
+          ],
+          "midpointRelativeX": -105,
+          "fillBandAtMidpoint": [
+            35,
+            55
+          ]
+        },
+        "numericGettersSameInBothModels": [
+          30,
+          40,
+          50,
+          60
+        ],
+        "appearanceSupport": "The one owned, readable and unoccluded original anchor PNG must distinguish the separate orange band; parent getters alone never certify fill tracking. Missing/clipped/obscured tracking regions stay HELD independently of G survival."
+      }
     },
     {
       "sourceId": "v102-line-price-v6",
