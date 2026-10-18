@@ -1,0 +1,20 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 fillgaps-overloads v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+
+hole = phase == 3 or phase == 4
+p = plot(hole ? na : 20, "P20", color=na)
+q = plot(hole ? na : 40, "P40", color=na)
+fill(p, q, color=color.new(color.yellow, 30), fillgaps=false)
+r = plot(hole ? na : 60, "P60", color=na)
+s = plot(hole ? na : 80, "P80", color=na)
+fill(r, s, color=color.new(color.aqua, 30), fillgaps=true)
+u = hline(90, "H90", color=na)
+v = hline(96, "H96", color=na)

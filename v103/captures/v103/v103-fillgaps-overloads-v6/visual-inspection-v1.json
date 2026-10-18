@@ -1,0 +1,143 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original native plot/plot and hline/hline fill lanes with own CSV phase registration",
+  "inspectedOriginalPngSha256": "ea9d88ca63d6ed95bdd1b1b2750223ead2eda6fc66d9d514cf944d9ab84c314a",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 101
+      },
+      {
+        "label": "03:30 UTC",
+        "unixSeconds": 1792294200,
+        "xPx": 191
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-fillgaps-overloads-v6:plot-fill-false",
+      "outcome": "SUPPORTED_A",
+      "observation": "In the fixed primary block, yellow y20..40 paint is interrupted by dark holes around native phase3/4 x971/977,1019/1025,1067/1073 and1115/1121. Neighboring present phases have positive yellow fill; holes are not a globally absent series.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          805,
+          1121,
+          854
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          805,
+          1121,
+          854
+        ],
+        [
+          935,
+          709,
+          1121,
+          758
+        ],
+        [
+          935,
+          671,
+          1121,
+          686
+        ]
+      ],
+      "occlusion": "Three vertically disjoint paint bands, four own phase cycles and complete primary interval are visible without third-object overlap.",
+      "precision": "Fixed x2/y3/stroke1 uncertainty; multi-bar gaps, continuous paint and separate positive purple band, not an exact alpha/raster rule.",
+      "scope": "This v6 pair of fillgaps settings and hline/hline positive overload only. Native metadata is retained separately from the12 requested numeric plot columns."
+    },
+    {
+      "facetId": "v103-fillgaps-overloads-v6:plot-fill-true",
+      "outcome": "SUPPORTED_A",
+      "observation": "The aqua y60..80 band remains painted across those same phase3/4 columns; no corresponding dark vertical holes appear in its registered interior. The yellow lane independently exhibits the gap locations.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          709,
+          1121,
+          758
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          805,
+          1121,
+          854
+        ],
+        [
+          935,
+          709,
+          1121,
+          758
+        ],
+        [
+          935,
+          671,
+          1121,
+          686
+        ]
+      ],
+      "occlusion": "Three vertically disjoint paint bands, four own phase cycles and complete primary interval are visible without third-object overlap.",
+      "precision": "Fixed x2/y3/stroke1 uncertainty; multi-bar gaps, continuous paint and separate positive purple band, not an exact alpha/raster rule.",
+      "scope": "This v6 pair of fillgaps settings and hline/hline positive overload only. Native metadata is retained separately from the12 requested numeric plot columns."
+    },
+    {
+      "facetId": "v103-fillgaps-overloads-v6:hline-fill-positive",
+      "outcome": "SUPPORTED_A",
+      "observation": "The registered y91..95 region has continuous purple paint inside the distinct90..96 hline band, across the complete primary x interval.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          671,
+          1121,
+          686
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          805,
+          1121,
+          854
+        ],
+        [
+          935,
+          709,
+          1121,
+          758
+        ],
+        [
+          935,
+          671,
+          1121,
+          686
+        ]
+      ],
+      "occlusion": "Three vertically disjoint paint bands, four own phase cycles and complete primary interval are visible without third-object overlap.",
+      "precision": "Fixed x2/y3/stroke1 uncertainty; multi-bar gaps, continuous paint and separate positive purple band, not an exact alpha/raster rule.",
+      "scope": "This v6 pair of fillgaps settings and hline/hline positive overload only. Native metadata is retained separately from the12 requested numeric plot columns."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

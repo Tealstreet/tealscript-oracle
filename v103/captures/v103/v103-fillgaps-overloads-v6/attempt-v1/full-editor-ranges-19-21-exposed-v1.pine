@@ -1,0 +1,19 @@
+
+hole = phase == 3 or phase == 4
+p = plot(hole ? na : 20, "P20", color=na)
+q = plot(hole ? na : 40, "P40", color=na)
+fill(p, q, color=color.new(color.yellow, 30), fillgaps=false)
+r = plot(hole ? na : 60, "P60", color=na)
+s = plot(hole ? na : 80, "P80", color=na)
+fill(r, s, color=color.new(color.aqua, 30), fillgaps=true)
+u = hline(90, "H90", color=na)
+v = hline(96, "H96", color=na)
+fill(u, v, color=color.purple)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_

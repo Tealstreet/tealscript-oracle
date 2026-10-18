@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "sourceId": "v103-fillgaps-overloads-v6",
+  "sourceSha256": "89ee8acffe8641b0f1e400932175580fabbd86e8ea96f2bdf4ebf1bf68ed9a55",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-fillgaps-overloads-v6/numeric-results-v1.json",
+    "bytes": 187304,
+    "sha256": "c1438d909ef3f73131b2ff330cb57bec16d8d61510e2842ee70e2e8b2283469d"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-fillgaps-overloads-v6/compiler-diagnostics-v1.json",
+    "bytes": 1601,
+    "sha256": "9fd4029caa11ac199c6e400629637c03701a0d2ca9505dda2ddeca46492afa8c"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-fillgaps-overloads-v6:plot-fill-false",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "yellow band has phase3/4 holes",
+      "modelB": "yellow fill bridges gaps",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          22,
+          38
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-fillgaps-overloads-v6/derived-region-map-v1.json",
+        "bytes": 12725,
+        "sha256": "5610485c190f86672653aa2e4d8e501d7afaf74d6c16c0f1bd5b0c434d8ddd62"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-fillgaps-overloads-v6:plot-fill-true",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "aqua band bridges phase3/4",
+      "modelB": "aqua band has holes",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          62,
+          78
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-fillgaps-overloads-v6/derived-region-map-v1.json",
+        "bytes": 12725,
+        "sha256": "5610485c190f86672653aa2e4d8e501d7afaf74d6c16c0f1bd5b0c434d8ddd62"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-fillgaps-overloads-v6:hline-fill-positive",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "purple band between two constant hlines",
+      "modelB": "no hline fill",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          91,
+          95
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-fillgaps-overloads-v6/derived-region-map-v1.json",
+        "bytes": 12725,
+        "sha256": "5610485c190f86672653aa2e4d8e501d7afaf74d6c16c0f1bd5b0c434d8ddd62"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
