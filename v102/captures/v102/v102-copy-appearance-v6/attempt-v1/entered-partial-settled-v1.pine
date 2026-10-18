@@ -1,0 +1,9 @@
+splay=display.data_window)
+                                    plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+                                    plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+                                    plot(0, "SCALE_ZERO", color=color.gray)
+                                    plot(100, "SCALE_HUNDRED", color=color.gray)
+                                    // This Pine Script® code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © sours-lat
+
+//@version=6

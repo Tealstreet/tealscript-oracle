@@ -1,0 +1,29 @@
+{
+  "version": "v1",
+  "status": "ENTRY_STOP / slot consumed before Save",
+  "cause": "After a single Enter and passive cursor settling/polling the guard expected line7 but observed line6,col112; root cause UNOBSERVED",
+  "sourceId": "v102-extend-stroke-v5",
+  "requestedSourceSha256": "f08603d1af3c53a722245e068adc4647aa45c292dea8890ce3dbb37427917fb3",
+  "nativeUiTextSnapshots": [
+    {
+      "nativeSnapshot": "partial-attempt-v1.txt",
+      "enteredUiText": "entered-partial-at-stop-v1.pine",
+      "bytes": 387,
+      "sha256": "7c789e037f47de5d3af36c65e6aa0f970a7214221c627f7cb99498311e97b8b2",
+      "lineCount": 6
+    },
+    {
+      "nativeSnapshot": "partial-entry-settled-v1.txt",
+      "enteredUiText": "entered-partial-settled-v1.pine",
+      "bytes": 387,
+      "sha256": "7c789e037f47de5d3af36c65e6aa0f970a7214221c627f7cb99498311e97b8b2",
+      "lineCount": 6
+    }
+  ],
+  "byteProvenance": "Native accessibility editor value serialized as UTF-8; no Save form exists, so compiler transport line endings remain UNOBSERVED",
+  "nativeSaves": 0,
+  "nativeAdds": 0,
+  "originalCsvs": 0,
+  "nativeRenderingPngs": 0,
+  "retries": 0
+}

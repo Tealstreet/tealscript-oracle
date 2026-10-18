@@ -1,0 +1,6 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("V102 extend-stroke v5", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+ext = phase % 4 == 0 ? extend.none : phase % 4 == 1 ? extend.left : phase % 4 == 2 ? extend.right : extend.both
