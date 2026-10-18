@@ -1,0 +1,113 @@
+{
+  "version": "v1",
+  "method": "Original PNG full-shaft inspection and exact sample-row run/period measurement for independent widths1/4/8",
+  "inspectedOriginalPngSha256": "65e54ef79167978b8f1d3b5016932d899e9fd9996a61eb113d06e160da2d9a66",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 532
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 836
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-dash-period-v6:width-period-scaling",
+      "outcome": "SUPPORTED_B",
+      "observation": "All three complete separate blue dashed shafts have common left/right source registrations. The visible dash/gap pattern expands with source width. Exact original-pixel profiles yield period11 at width1,44 at width4,88 at width8; each lane has more than three complete interior periods.",
+      "actualSubjectRegionsPx": [
+        [
+          349,
+          696,
+          939,
+          699
+        ],
+        [
+          349,
+          742,
+          939,
+          748
+        ],
+        [
+          349,
+          800,
+          939,
+          810
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          349,
+          696,
+          939,
+          699
+        ],
+        [
+          349,
+          742,
+          939,
+          748
+        ],
+        [
+          349,
+          800,
+          939,
+          810
+        ]
+      ],
+      "sourceEndpointRegistrationsPx": {
+        "left": [
+          348,
+          352
+        ],
+        "right": [
+          935,
+          939
+        ],
+        "policy": "Common source-owned endpoint axes and build span29, complete original plate. Terminal dash gaps are preserved; no clip-phase or reset law inferred."
+      },
+      "candidateIntervalsPx": {
+        "width1Period": [
+          11,
+          11
+        ],
+        "width4Period": [
+          44,
+          44
+        ],
+        "width8Period": [
+          88,
+          88
+        ],
+        "normalizedPeriods": [
+          11,
+          11,
+          11
+        ],
+        "constantIntersection": null
+      },
+      "occlusion": "All three full horizontal lane regions and both source endpoint neighborhoods are inside the original pane, with no third-object overlay.",
+      "scope": "Finite proportional width-period discriminator only; no universal dash length, phase/reset or clipping law."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

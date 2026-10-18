@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v104-dash-period-v6",
+  "sourceSha256": "c186a1294185b05e9167ac00d5c46f18b0a88ab134debbe4377e92618e6baecb",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-dash-period-v6/numeric-results-v1.json",
+    "bytes": 172730,
+    "sha256": "3d089780c08a53a8ebdb119cdc91da1b80b225d2cf6877432f54f951a3b3cb00"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-dash-period-v6/compiler-diagnostics-v1.json",
+    "bytes": 1580,
+    "sha256": "ecfd23cb7540a5e1b726deb6b95e350124cc55a08510c547a1798c6b6daacf7e"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-dash-period-v6:width-period-scaling",
+      "verdict": "REFUTED",
+      "outcome": "SUPPORTED_B",
+      "modelA": "dash period stays constant across widths1/4/8",
+      "modelB": "dash period scales proportionally with line width1/4/8",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          35,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-dash-period-v6/derived-region-map-v1.json",
+        "bytes": 9205,
+        "sha256": "4adca667b4b3d49dfd6b0aaa740fe81a56483b56b639bc708b15ba65c35e15e1"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
