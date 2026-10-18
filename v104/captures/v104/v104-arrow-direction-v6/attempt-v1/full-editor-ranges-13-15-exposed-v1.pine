@@ -1,0 +1,10 @@
+plot(v, "SIGN", display=display.data_window)
+controlSign = phase == 12 ? 1 : phase == 28 ? -1 : na
+plot(controlSign, "CONTROL_SIGN", display=display.data_window)
+plotchar(phase == 12, "UP_CONTROL", char="U", location=location.abovebar, color=color.blue)
+plotchar(phase == 28, "DOWN_CONTROL", char="D", location=location.belowbar, color=color.orange)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(bar_index % 8, "CASE_ID", display=display.data_window)

@@ -1,0 +1,19 @@
+{
+  "version": "v1",
+  "recordedAtUtc": "2026-10-18T20:56:53.301748+00:00",
+  "phase": "Before inspecting or scoring this round arrow PNG",
+  "sourceId": "v104-arrow-direction-v6",
+  "method": "Whole original object-colored horizontal sample profiles, retaining each raw tuple and complete shaft/end morphology. Inspect the upper and lower quarters of each actual arrow body height; the quarter containing the wider head shoulders must have a width interval strictly separate from the opposite shaft-end quarter. Tip narrowing toward the outward end must be independently readable, with both ends clear of OHLC/candles/other objects.",
+  "edgeUncertaintyPx": 1,
+  "candidateA": {
+    "positiveSign": "top tip",
+    "negativeSign": "bottom tip"
+  },
+  "candidateB": {
+    "positiveSign": "bottom tip",
+    "negativeSign": "top tip"
+  },
+  "mandatoryControls": "Literal U at own phase12 and D at28, separate closed controlSign joins; glyph/color/relative-to-candle location alone gives no direction credit",
+  "notObserved": "Overlapping or indistinguishable quarter width intervals, unreadable outward tip narrowing, missing shafts/ends/control words/closed rows, clipping or overlap",
+  "policy": "No later view, source or tolerance adjustment; raw image remains unchanged"
+}

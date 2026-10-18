@@ -1,0 +1,159 @@
+{
+  "version": "v1",
+  "inspectedAtUtc": "2026-10-18T20:59:23.749743+00:00",
+  "method": "Independent original main-pane arrow morphology inspection, complete native head/shaft/tip row profiles and own OHLC/sign/control joins; no0/100 price mapping",
+  "inspectedOriginalPngSha256": "d47f1f2d16207390b0193578bab60ed059b6a1b3fe7a35ef95b4b258572024d7",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      40,
+      1277,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 497
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 801
+      }
+    ],
+    "priceTicks": [
+      {
+        "label": "81,000.00 USDT",
+        "value": 81000,
+        "yPx": 410
+      },
+      {
+        "label": "80,800.00 USDT",
+        "value": 80800,
+        "yPx": 671
+      }
+    ]
+  },
+  "facets": [
+    {
+      "facetId": "v104-arrow-direction-v6:sign-tip-direction",
+      "outcome": "SUPPORTED_A",
+      "observation": "The source-owned positive arrow at x496 has a sharp outward top tip, widening to broad head shoulders then a separate vertical shaft below; its lower end is flat. The negative arrow at x820 has a flat upper shaft end and broad lower shoulders narrowing to a sharp bottom tip. Their actual shoulders, shafts and both ends are clear of candles and other objects. Separate complete U and D glyphs occur at their own phase12 and28 rows.",
+      "actualSubjectRegionsPx": [
+        [
+          487,
+          573,
+          506,
+          621
+        ],
+        [
+          811,
+          389,
+          830,
+          437
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          570,
+          485,
+          585,
+          503
+        ],
+        [
+          894,
+          674,
+          910,
+          692
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "phase12 up control",
+          "literal": "U"
+        },
+        {
+          "region": "phase28 down control",
+          "literal": "D"
+        }
+      ],
+      "arrowObjects": {
+        "positive": {
+          "centerXPx": 496,
+          "bodyYInclusivePx": [
+            573,
+            620
+          ],
+          "bothEndsAndShaftReadable": true,
+          "clearOfCandlesAndOtherObjects": true,
+          "tipDirectionObserved": "top",
+          "morphology": "Top rows widen1,3,5,7,9,11,13,15,17 original opaque-color pixels; separate lower shaft9 pixels wide, flat lower end."
+        },
+        "negative": {
+          "centerXPx": 820,
+          "bodyYInclusivePx": [
+            389,
+            436
+          ],
+          "bothEndsAndShaftReadable": true,
+          "clearOfCandlesAndOtherObjects": true,
+          "tipDirectionObserved": "bottom",
+          "morphology": "Upper shaft9 pixels wide; lower shoulders17 pixels then narrow toward bottom15,13,11,9,7,5,3,1."
+        }
+      },
+      "controls": {
+        "U": {
+          "literal": "U",
+          "centerXPx": 577,
+          "glyphRegionPx": [
+            570,
+            485,
+            585,
+            503
+          ],
+          "completeUnoccluded": true
+        },
+        "D": {
+          "literal": "D",
+          "centerXPx": 901,
+          "glyphRegionPx": [
+            894,
+            674,
+            910,
+            692
+          ],
+          "completeUnoccluded": true
+        }
+      },
+      "candidateIntervalsPx": {
+        "positiveTopHeadWidth": [
+          15,
+          19
+        ],
+        "positiveBottomShaftWidth": [
+          7,
+          11
+        ],
+        "negativeTopShaftWidth": [
+          7,
+          11
+        ],
+        "negativeBottomHeadWidth": [
+          15,
+          19
+        ],
+        "policy": "Two measured edges times preregistered one-pixel edge uncertainty; model direction also requires independent outward narrowing, actual sign and controls"
+      },
+      "arrowCertificatePath": "arrow-certificate-v1.json",
+      "occlusion": "Both source-owned48px arrow bodies and endpoints, plus separate literal U/D controls, are unoccluded. The older orange arrow at x172 and D at254 are outside the fixed primary X window and have zero primary direction credit.",
+      "scope": "Finite this v6 private source/session and original primary OHLC envelope plus80px; no old v103 arrow closure or generic raster claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}
