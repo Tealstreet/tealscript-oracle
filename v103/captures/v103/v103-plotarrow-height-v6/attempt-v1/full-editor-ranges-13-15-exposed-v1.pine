@@ -1,0 +1,10 @@
+
+arrowPhase = bar_index % 32
+v = arrowPhase == 0 ? 1 : arrowPhase == 8 ? 2 : arrowPhase == 16 ? 4 : arrowPhase == 24 ? -4 : na
+plot(arrowPhase, "ARROW_PHASE", display=display.data_window)
+plotarrow(v, "ARROWS", colorup=color.blue, colordown=color.orange, minheight=8, maxheight=24)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)

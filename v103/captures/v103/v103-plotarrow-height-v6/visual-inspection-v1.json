@@ -1,0 +1,88 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original main-chart plotarrow PNG and unchanged-pixel/local display enlargements; price ticks and original OHLC define the frozen window, not0/100",
+  "inspectedOriginalPngSha256": "5a49c87cceb5a8464411f3f211c1304fa0cde6876f6bc8eed0f50463687a3b3f",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      40,
+      1277,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 169
+      },
+      {
+        "label": "03:30 UTC",
+        "unixSeconds": 1792294200,
+        "xPx": 259
+      }
+    ],
+    "priceTicks": [
+      {
+        "value": 81650,
+        "yPx": 767
+      },
+      {
+        "value": 81750,
+        "yPx": 618
+      }
+    ]
+  },
+  "facets": [
+    {
+      "facetId": "v103-plotarrow-height-v6:relative-height",
+      "outcome": "SUPPORTED_A",
+      "observation": "The own primary events identify positive2 at x1021, positive4 at1069 and positive1 at1165. Their thin blue vertical glyphs have clearly varying short/medium/tall extents, with4 the longest,2 intermediate and1 shortest; the4 glyph spans roughly two dozen original rows, visibly inconsistent with all fixed8. All three are below their own candle lows with visible separation, clear of Volume and neighboring candles. Exact native heights and normalization algorithm are not certified.",
+      "actualSubjectRegionsPx": [
+        [
+          1019,
+          738,
+          1024,
+          757
+        ],
+        [
+          1067,
+          769,
+          1072,
+          798
+        ],
+        [
+          1163,
+          693,
+          1168,
+          713
+        ]
+      ],
+      "occlusion": "All positive glyphs are physically on the original chart and unoccluded. The first event lies at the frozen primary x boundary; its shaft extent is visible within the window and its neighboring pixels remain visible in the unchanged original. No x/y window is shifted or expanded.",
+      "precision": "Frozen axisx2/axisy3/strokeedge1 uncertainty. Common registration shift does not manufacture the visibly different vertical extents; this is a relative class decision, not exact pixel-height certification.",
+      "scope": "Only this v6 main-chart primary block and relative-height countermodel. Source values and CSV formula controls identify events but do not supply pixels."
+    },
+    {
+      "facetId": "v103-plotarrow-height-v6:sign-direction",
+      "outcome": "UNDECIDED",
+      "observation": "The negative4 event at x1117 has an orange shaft above its candle and is separated from the positive blue glyphs. At native six pixels per bar, the endpoint motifs are only a few pixels across and do not independently certify a down-versus-up head direction beyond the frozen edge uncertainty. Color and above/below placement are recorded without replacing the requested directional-head observation.",
+      "actualSubjectRegionsPx": [
+        [
+          1115,
+          701,
+          1120,
+          734
+        ]
+      ],
+      "notObservedCause": "Native endpoint morphology is too narrow for an independent sign-direction certificate at the frozen viewport/uncertainty; no second PNG, zoom or viewport rescue.",
+      "occlusion": "Orange shaft and candle gap are visible; uncertainty is directional endpoint morphology, not an unavailable source or absent export.",
+      "precision": "Predeclared stroke-edge uncertainty1 and axis uncertainty retained; no fitted head-size threshold or source-intent direction inference.",
+      "scope": "Only this registered negative-arrow direction facet remains held; relative height has its own independent observation."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

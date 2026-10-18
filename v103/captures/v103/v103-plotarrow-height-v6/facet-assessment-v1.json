@@ -1,0 +1,66 @@
+{
+  "version": "v1",
+  "sourceId": "v103-plotarrow-height-v6",
+  "sourceSha256": "dbe3e010b7bccf2c89127551a027aba45488f418f67445b4405363ba7a9e1a9c",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-plotarrow-height-v6/numeric-results-v1.json",
+    "bytes": 158793,
+    "sha256": "1f9cf653f723ae7a6f81f30f38ec2060954b6581b2fe9adafa9aa10e16e79795"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-plotarrow-height-v6/compiler-diagnostics-v1.json",
+    "bytes": 1593,
+    "sha256": "d053f6785fba109269144e2fdc3f643d29047fbf108a97778b66bb615f08eb19"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-plotarrow-height-v6:relative-height",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "magnitude1/2/4 varies within8..24",
+      "modelB": "all heights fixed8",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/ohlc-margin",
+        "x": [
+          -31,
+          0
+        ],
+        "paddingPx": 64
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-plotarrow-height-v6/derived-region-map-v1.json",
+        "bytes": 10931,
+        "sha256": "5ec5109c14c29d151de13dc54110cde87a93b338974f257b1ddedeae31e5ed4d"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-plotarrow-height-v6:sign-direction",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "arrow phase24 points down",
+      "modelB": "arrow phase24 forced positive points up",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/ohlc-margin",
+        "x": [
+          -31,
+          0
+        ],
+        "paddingPx": 64
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-plotarrow-height-v6/derived-region-map-v1.json",
+        "bytes": 10931,
+        "sha256": "5ec5109c14c29d151de13dc54110cde87a93b338974f257b1ddedeae31e5ed4d"
+      },
+      "notObservedCauses": [
+        "Native endpoint morphology is too narrow for an independent sign-direction certificate at the frozen viewport/uncertainty; no second PNG, zoom or viewport rescue."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
