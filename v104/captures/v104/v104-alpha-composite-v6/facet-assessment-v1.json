@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "sourceId": "v104-alpha-composite-v6",
+  "sourceSha256": "b30dc532bad869957a3299a30afb8300d50f2252d67ef85da5c6510b3a88659b",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-alpha-composite-v6/numeric-results-v1.json",
+    "bytes": 217954,
+    "sha256": "ccedefecba99e882653a8c37425835c7ebe8146a248e5bcc6a688e420ed348c9"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-alpha-composite-v6/compiler-diagnostics-v1.json",
+    "bytes": 1592,
+    "sha256": "6cf06c2b8240f1b373f1eb380483e85b514a1e7cbe6f8198ee63ca1feb2f0f61"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-alpha-composite-v6:ordered-alpha-composite",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "both two-layer interiors are blended red/blue and differ from opaque foreground controls",
+      "modelB": "alpha ignored: upper composite is opaque blue, lower composite is opaque red",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          8,
+          93
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-alpha-composite-v6/derived-region-map-v1.json",
+        "bytes": 9382,
+        "sha256": "6d16dba188ec17e9d861edac39e58d6264063024c8d90e6e5e76ccbb222b7d43"
+      },
+      "notObservedCauses": [
+        "Exact opaque-control RGB bytes fail, and raw composite tuples lie outside frozen finite candidates. Embedded ICC profile is retained; no color-space conversion, tolerance or nearest-candidate fit is authorized."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

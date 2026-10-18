@@ -1,0 +1,10 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("v104-alpha-composite-v6", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+blue50 = color.new(color.rgb(0, 0, 255), 50)
+red50 = color.new(color.rgb(255, 0, 0), 50)
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    box.new(bar_index - 30, 90, bar_index - 23, 55, bgcolor=color.rgb(255, 0, 0), border_width=0)

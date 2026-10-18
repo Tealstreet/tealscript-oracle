@@ -1,0 +1,84 @@
+{
+  "version": "v1",
+  "method": "Original whole PNG inspection and six preregistered flat 5x5 patches; exact original stored samples, without color transformation",
+  "inspectedOriginalPngSha256": "663b2869f7349b3d0052464ec48a6af3cfbb58b78cb2637d67d3db7faf182bad",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 552
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 856
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-alpha-composite-v6:ordered-alpha-composite",
+      "outcome": "UNDECIDED",
+      "observation": "All six separate opaque/composite plate interiors are visible, with the two composite appearances purple and distinct from the pure foreground control appearances. Exact original stored samples do not match literal opaque RGB controls: purple [121,17,114], blue [0,44,247], red [255,0,26]. Upper composite [120,17,114], lower [121,17,113]. No listed exact blend tuple is selected.",
+      "actualSubjectRegionsPx": [
+        [
+          350,
+          685,
+          492,
+          769
+        ],
+        [
+          350,
+          793,
+          492,
+          877
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          552,
+          685,
+          695,
+          769
+        ],
+        [
+          755,
+          685,
+          897,
+          769
+        ],
+        [
+          552,
+          793,
+          695,
+          877
+        ],
+        [
+          755,
+          793,
+          897,
+          877
+        ]
+      ],
+      "occlusion": "All six complete flat interiors and their source-owned rectangles are separated; no third object covers any sample. Opaque base and foreground use the same full rectangle bounds in each composite.",
+      "notObservedCause": "Exact opaque-control RGB bytes fail, and raw composite tuples lie outside frozen finite candidates. Embedded ICC profile is retained; no color-space conversion, tolerance or nearest-candidate fit is authorized.",
+      "scope": "Raw six-patch observations and qualitative appearances only. Exact channel/compositing candidate, fractional-versus-byte alpha and any universal storage law remain held."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null,
+    "storedColorProfile": "Original embedded iCCP bytes and SHA retained in pixel certificate; resolved display color space unobserved"
+  }
+}

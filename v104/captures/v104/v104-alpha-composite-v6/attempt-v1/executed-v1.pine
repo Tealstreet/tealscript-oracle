@@ -1,0 +1,31 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("v104-alpha-composite-v6", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+blue50 = color.new(color.rgb(0, 0, 255), 50)
+red50 = color.new(color.rgb(255, 0, 0), 50)
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    box.new(bar_index - 30, 90, bar_index - 23, 55, bgcolor=color.rgb(255, 0, 0), border_width=0)
+    box.new(bar_index - 30, 90, bar_index - 23, 55, bgcolor=blue50, border_width=0)
+    box.new(bar_index - 20, 90, bar_index - 13, 55, bgcolor=color.rgb(128, 0, 128), border_width=0)
+    box.new(bar_index - 10, 90, bar_index - 3, 55, bgcolor=color.rgb(0, 0, 255), border_width=0)
+    box.new(bar_index - 30, 45, bar_index - 23, 10, bgcolor=color.rgb(0, 0, 255), border_width=0)
+    box.new(bar_index - 30, 45, bar_index - 23, 10, bgcolor=red50, border_width=0)
+    box.new(bar_index - 20, 45, bar_index - 13, 10, bgcolor=color.rgb(128, 0, 128), border_width=0)
+    box.new(bar_index - 10, 45, bar_index - 3, 10, bgcolor=color.rgb(255, 0, 0), border_width=0)
+plot(color.r(blue50), "BLUE50_R", display=display.data_window)
+plot(color.b(blue50), "BLUE50_B", display=display.data_window)
+plot(color.t(blue50), "BLUE50_T", display=display.data_window)
+plot(color.r(red50), "RED50_R", display=display.data_window)
+plot(color.b(red50), "RED50_B", display=display.data_window)
+plot(color.t(red50), "RED50_T", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(bar_index % 8, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
