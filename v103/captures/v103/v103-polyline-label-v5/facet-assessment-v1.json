@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v103-polyline-label-v5",
+  "sourceSha256": "0803eb2041251a22103e6354ef154f360c0058fa99d90d019b1a5b62ab011c1f",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-polyline-label-v5/numeric-results-v1.json",
+    "bytes": 126114,
+    "sha256": "6c0b5bce78950ddcf1ce6275636f7c7513736e029503bead9350adfe252c76be"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-polyline-label-v5/compiler-diagnostics-v1.json",
+    "bytes": 1589,
+    "sha256": "eab947c0b4e41b424b5df0e3c6f565fd7728c4282d31c5bf27914c39410f1bd1"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-polyline-label-v5:unoccluded-pair-both-orders",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "opaque labels cover orange stripe in both lanes",
+      "modelB": "orange stripe covers label center in both lanes",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -65,
+          -35
+        ],
+        "y": [
+          20,
+          80
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-polyline-label-v5/derived-region-map-v1.json",
+        "bytes": 8519,
+        "sha256": "5adf34438a230d188dd7d3e5ee37e1123597144221bc46f82aca6a86da638ec2"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

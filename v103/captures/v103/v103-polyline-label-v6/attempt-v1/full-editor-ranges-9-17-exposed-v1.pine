@@ -1,0 +1,20 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 polyline-label v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    p = array.from(chart.point.from_index(bar_index - 90, 30), chart.point.from_index(bar_index - 10, 30))
+    polyline.new(p, line_color=color.orange, line_width=14)
+    label.new(bar_index - 50, 30, "MMMMMM", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large)
+    label.new(bar_index - 50, 70, "MMMMMM", style=label.style_label_center, color=color.blue, textcolor=color.white, size=size.large)
+    q = array.from(chart.point.from_index(bar_index - 90, 70), chart.point.from_index(bar_index - 10, 70))
+    polyline.new(q, line_color=color.orange, line_width=14)
+
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)

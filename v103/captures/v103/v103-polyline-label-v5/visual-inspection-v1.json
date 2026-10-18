@@ -1,0 +1,107 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of this original retained v5 pair PNG; both registered center intersections and outside shafts visible",
+  "inspectedOriginalPngSha256": "3028ab204af2e73eb54a6cbce283567701aaed4c9d92ab86fdba8e9b117c5b6c",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "01:30 UTC",
+        "unixSeconds": 1792287000,
+        "xPx": 47
+      },
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 137
+      }
+    ],
+    "yZeroPx": 882,
+    "yHundredPx": 680,
+    "basis": "Actual native0/100 traces and unoccluded axis labels in this PNG; text-object autoscale differs from table/gap panes and is calibrated independently."
+  },
+  "facets": [
+    {
+      "facetId": "v103-polyline-label-v5:unoccluded-pair-both-orders",
+      "outcome": "SUPPORTED_A",
+      "observation": "Lower lane: orange polyline created first, opaque blue MMMMMM label later, and blue label covers the stripe at center. Upper lane reverses creation order and the same opaque blue label still covers the orange stripe. Orange shafts continue visibly to each side of each blue body.",
+      "actualSubjectRegionsPx": [
+        [
+          763,
+          722,
+          880,
+          762
+        ],
+        [
+          763,
+          802,
+          880,
+          843
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          581,
+          733,
+          762,
+          750
+        ],
+        [
+          881,
+          733,
+          1062,
+          750
+        ],
+        [
+          581,
+          814,
+          762,
+          831
+        ],
+        [
+          881,
+          814,
+          1062,
+          831
+        ]
+      ],
+      "actualIntersectionsPx": [
+        [
+          763,
+          734,
+          880,
+          749
+        ],
+        [
+          763,
+          815,
+          880,
+          830
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "upper label",
+          "literal": "MMMMMM"
+        },
+        {
+          "region": "lower label",
+          "literal": "MMMMMM"
+        }
+      ],
+      "occlusion": "No opaque box/table/third drawing overlaps either tested center; source legend is above the tested y range.",
+      "scope": "Only this native v5 polyline/label pair in both orders. No all-group ordering, pixel metric, other-version or historical-v93 completion."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}
