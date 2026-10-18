@@ -1,0 +1,193 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-line-price-v5",
+  "sourceSha256": "fed4d7c061f583665a53f2222d6af0cf72ffff1f5de9a7739426eac506ab2b7c",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/10",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+    "bytes": 260021,
+    "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-line-price-v5/derived-region-map-v1.json",
+    "bytes": 12675,
+    "sha256": "7f675ec40ba42db3d446e8d591589eda3218f72db5773d83c2bc12e97fa7eb69"
+  },
+  "cases": [
+    {
+      "caseId": "v102-line-price-v5:infinite-slope-vs-extend-clamping",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "scope": "exterior-interpolation",
+        "observation": "ONLY_REGISTERED_VARIANT",
+        "supportedVariantIds": [
+          "INFINITE"
+        ],
+        "artifact": {
+          "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+          "bytes": 260021,
+          "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+        },
+        "jsonPointer": "/numericAlternatives/0",
+        "meaning": "Support identifies only a registered finite numeric alternative; NEITHER refutes this frozen family rather than erasing its contrary native outputs"
+      },
+      "visual": null,
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-line-price-v5:positive-negative-exact-slopes",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "LEFT_EXTRAPOLATE",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/0",
+            "cause": null
+          },
+          {
+            "title": "ENDPOINT1",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/1",
+            "cause": null
+          },
+          {
+            "title": "INTERPOLATE",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/2",
+            "cause": null
+          },
+          {
+            "title": "HALF_STEP",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/3",
+            "cause": null
+          },
+          {
+            "title": "ENDPOINT2",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/4",
+            "cause": null
+          },
+          {
+            "title": "RIGHT_EXTRAPOLATE",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/5",
+            "cause": null
+          },
+          {
+            "title": "DESC_LEFT",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/6",
+            "cause": null
+          },
+          {
+            "title": "DESC_RIGHT",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/7",
+            "cause": null
+          },
+          {
+            "title": "DESC_HALF",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+              "bytes": 260021,
+              "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+            },
+            "jsonPointer": "/properties/8",
+            "cause": null
+          }
+        ]
+      },
+      "visual": null,
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-line-price-v5:getter-reflects-mutated-endpoint",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "scope": "mutated-slope",
+        "observation": "ONLY_REGISTERED_VARIANT",
+        "supportedVariantIds": [
+          "UPDATED"
+        ],
+        "artifact": {
+          "path": "v102/captures/v102/v102-line-price-v5/numeric-results-v1.json",
+          "bytes": 260021,
+          "sha256": "e019db93b571487b8b987f20713a9a8f5b0860e7d9b47a91f8f117a9fc6b87b1"
+        },
+        "jsonPointer": "/numericAlternatives/1",
+        "meaning": "Support identifies only a registered finite numeric alternative; NEITHER refutes this frozen family rather than erasing its contrary native outputs"
+      },
+      "visual": null,
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

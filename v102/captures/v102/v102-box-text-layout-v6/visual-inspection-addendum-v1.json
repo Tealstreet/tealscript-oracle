@@ -1,0 +1,43 @@
+{
+  "version": "v1",
+  "sourceId": "v102-box-text-layout-v6",
+  "sourceSha256": "a35bb5643fa68b42b5263def24fe395f2a49d31ee68ad10af19d22530de3395a",
+  "originalPng": {
+    "path": "v102/captures/v102/v102-box-text-layout-v6/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 140312,
+    "sha256": "c9b6de692fa0d09e29f129499b760d2e7d9295fbe5a193dd74ed46d596e179dc"
+  },
+  "priorDerivedMap": {
+    "path": "v102/captures/v102/v102-box-text-layout-v6/derived-region-map-v1.json",
+    "bytes": 13128,
+    "sha256": "4756cc203e46a0645e00230627fcaf5b3f8a0a6fe1593d04cea4d0bbe627fed8"
+  },
+  "role": "DERIVED inspection addendum; original PNG and previous records unchanged",
+  "facets": [
+    {
+      "caseId": "v102-box-text-layout-v6:bold-italic-explicit",
+      "verdict": "UNDECIDED",
+      "candidates": {
+        "applied": "Explicit bold+italic recipe visibly differs from a none-format same-word control",
+        "retained": "Formatting setter retains default fields"
+      },
+      "regions": [
+        {
+          "originalPngRectPx": [
+            401,
+            673,
+            942,
+            759
+          ],
+          "visible": "Both complete blue ALPHA BETA / OMEGA sentinels have matching slanted heavier glyph appearance"
+        }
+      ],
+      "visibleTextLiterals": [
+        "ALPHA BETA",
+        "OMEGA"
+      ],
+      "notObservedCause": "The paired constructor uses the same bold+italic recipe. There is no independent same-word none-format control in this plate, so recipe matching does not isolate both formatting effects or resolve the font. Complete sentinel replacement is separately supported."
+    }
+  ],
+  "correction": "The first manual map omitted the extra v6-only bold-italic-explicit case. This addendum returns its explicit held decision; no new capture, numeric change, screenshot or source retry."
+}

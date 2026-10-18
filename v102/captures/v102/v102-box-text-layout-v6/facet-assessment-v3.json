@@ -1,0 +1,147 @@
+{
+  "version": "v3",
+  "visualAddendum": {
+    "path": "v102/captures/v102/v102-box-text-layout-v6/visual-inspection-addendum-v1.json",
+    "bytes": 1847,
+    "sha256": "79310abef0cb740fc1c5fc40fdad14361f411d1ae650d873f71828a02781095c"
+  },
+  "sourceId": "v102-box-text-layout-v6",
+  "sourceSha256": "a35bb5643fa68b42b5263def24fe395f2a49d31ee68ad10af19d22530de3395a",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/15",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-box-text-layout-v6/numeric-results-v1.json",
+    "bytes": 82626,
+    "sha256": "43225ccb9e6932f6c850aee0a0c39b640e8030f7d7de2763ee09120a58517bbe"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-box-text-layout-v6/derived-region-map-v1.json",
+    "bytes": 13128,
+    "sha256": "4756cc203e46a0645e00230627fcaf5b3f8a0a6fe1593d04cea4d0bbe627fed8"
+  },
+  "cases": [
+    {
+      "caseId": "v102-box-text-layout-v6:complete-short-sentinel-setter-vs-constructor",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "BOX_LEFT_REL",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-box-text-layout-v6/numeric-results-v1.json",
+              "bytes": 82626,
+              "sha256": "43225ccb9e6932f6c850aee0a0c39b640e8030f7d7de2763ee09120a58517bbe"
+            },
+            "jsonPointer": "/properties/0",
+            "cause": null
+          },
+          {
+            "title": "BOX_TOP",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-box-text-layout-v6/numeric-results-v1.json",
+              "bytes": 82626,
+              "sha256": "43225ccb9e6932f6c850aee0a0c39b640e8030f7d7de2763ee09120a58517bbe"
+            },
+            "jsonPointer": "/properties/1",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-box-text-layout-v6/derived-region-map-v1.json",
+          "bytes": 13128,
+          "sha256": "4756cc203e46a0645e00230627fcaf5b3f8a0a6fe1593d04cea4d0bbe627fed8"
+        },
+        "jsonPointer": "/facets/0",
+        "cause": null,
+        "supportedCandidate": "APPLIED_COMPLETE_TEXT_RECIPE_MATCHES_CONSTRUCTOR",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-box-text-layout-v6:wrap-none-vs-auto",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-box-text-layout-v6/derived-region-map-v1.json",
+          "bytes": 13128,
+          "sha256": "4756cc203e46a0645e00230627fcaf5b3f8a0a6fe1593d04cea4d0bbe627fed8"
+        },
+        "jsonPointer": "/facets/1",
+        "cause": "At the unchanged native viewport the short phrase fits both narrow boxes on one line. No line-break difference discriminates nowrap from auto-wrap; WRAP_RECIPE_CODE is intent only. No resize or second screenshot.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-box-text-layout-v6:left-top-vs-right-bottom",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-box-text-layout-v6/derived-region-map-v1.json",
+          "bytes": 13128,
+          "sha256": "4756cc203e46a0645e00230627fcaf5b3f8a0a6fe1593d04cea4d0bbe627fed8"
+        },
+        "jsonPointer": "/facets/2",
+        "cause": "Only the vertical subfacet is discriminated. The combined horizontal/vertical case retains a hold for near-full-width horizontal placement; numeric intent never supplies it.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-box-text-layout-v6:bold-italic-explicit",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-box-text-layout-v6/visual-inspection-addendum-v1.json",
+          "bytes": 1847,
+          "sha256": "79310abef0cb740fc1c5fc40fdad14361f411d1ae650d873f71828a02781095c"
+        },
+        "jsonPointer": "/facets/0",
+        "cause": "The paired constructor uses the same bold+italic recipe. There is no independent same-word none-format control in this plate, so recipe matching does not isolate both formatting effects or resolve the font. Complete sentinel replacement is separately supported.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

@@ -1,0 +1,44 @@
+------WebKitFormBoundaryXFct8I5zdTaqjgLP
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V102 box-text-layout v6", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+b = box.new(bar_index - 120, 95, bar_index - 80, 60, text="OLD", bgcolor=color.white)
+box.set_text(b, "ALPHA BETA\nOMEGA")
+box.set_text_size(b, size.normal)
+box.set_text_color(b, color.blue)
+box.set_text_halign(b, text.align_left)
+box.set_text_valign(b, text.align_top)
+box.set_text_wrap(b, text.wrap_auto)
+box.set_text_font_family(b, font.family_monospace)
+box.set_text_formatting(b, text.format_bold + text.format_italic)
+left = box.get_left(b) - bar_index
+top = box.get_top(b)
+if keep
+    box.new(bar_index - 70, 95, bar_index - 30, 60, text="ALPHA BETA\nOMEGA", text_color=color.blue, text_size=size.normal, text_halign=text.align_left, text_valign=text.align_top, text_wrap=text.wrap_auto, text_font_family=font.family_monospace, bgcolor=color.white, text_formatting=text.format_bold + text.format_italic)
+    box.new(bar_index - 120, 45, bar_index - 112, 5, text="A B C D", text_color=color.red, text_halign=text.align_left, text_valign=text.align_top, text_wrap=text.wrap_none, bgcolor=color.white)
+    w = box.new(bar_index - 85, 45, bar_index - 77, 5, text="A B C D", bgcolor=color.white)
+    box.set_text_wrap(w, text.wrap_auto)
+    box.set_text_halign(w, text.align_right)
+    box.set_text_valign(w, text.align_bottom)
+    box.set_text_color(w, color.blue)
+else
+    box.delete(b)
+
+plot(left, "BOX_LEFT_REL", display=display.data_window)
+plot(top, "BOX_TOP", display=display.data_window)
+plot(123, "TEXT_RECIPE_CODE", display=display.data_window)
+plot(1, "WRAP_RECIPE_CODE", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)
+
+------WebKitFormBoundaryXFct8I5zdTaqjgLP--

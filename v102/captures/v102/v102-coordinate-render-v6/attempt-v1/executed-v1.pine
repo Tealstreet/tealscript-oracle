@@ -1,0 +1,76 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V102 coordinate-render v6", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+float timeDelta = na
+float pointX = na
+float pointY = na
+float labelX = na
+float labelY = na
+float boxLeft = na
+float boxTop = na
+float boxTime = na
+if bar_index >= 8
+    a = line.new(bar_index - 24, 30, bar_index - 16, 50, color=color.blue, width=4)
+    line.set_xloc(a, time[8], time[1], xloc.bar_time)
+    timeDelta := line.get_x1(a) - time[8]
+    line.set_xloc(a, bar_index - 24, bar_index - 16, xloc.bar_index)
+    p = chart.point.from_index(bar_index - 20, 30)
+    q = chart.point.from_index(bar_index - 12, 50)
+    line.set_first_point(a, p)
+    line.set_second_point(a, q)
+    p.index := bar_index - 2
+    p.price := 95
+    q.index := bar_index - 1
+    q.price := 95
+    pointX := line.get_x1(a) - bar_index
+    pointY := line.get_y1(a)
+    b = box.new(bar_index - 60, 30, bar_index - 40, 10, bgcolor=color.yellow)
+    box.set_xloc(b, time[8], time[1], xloc.bar_time)
+    boxTime := box.get_left(b) - time[8]
+    box.set_xloc(b, bar_index - 60, bar_index - 40, xloc.bar_index)
+    bp = chart.point.from_index(bar_index - 60, 30)
+    bq = chart.point.from_index(bar_index - 40, 10)
+    box.set_top_left_point(b, bp)
+    box.set_bottom_right_point(b, bq)
+    bp.index := bar_index - 2
+    bp.price := 95
+    bq.index := bar_index - 1
+    bq.price := 94
+    boxLeft := box.get_left(b) - bar_index
+    boxTop := box.get_top(b)
+    c = label.new(bar_index - 90, 15, "POINT", style=label.style_label_center)
+    label.set_xloc(c, time[8], xloc.bar_time)
+    label.set_xloc(c, bar_index - 90, xloc.bar_index)
+    cp = chart.point.from_index(bar_index - 90, 15)
+    label.set_point(c, cp)
+    cp.index := bar_index - 2
+    cp.price := 95
+    labelX := label.get_x(c) - bar_index
+    labelY := label.get_y(c)
+    if keep
+        line.new(bar_index - 20, 70, bar_index - 12, 90, color=color.red, width=4)
+        box.new(bar_index - 60, 70, bar_index - 40, 50, bgcolor=color.aqua)
+        label.new(bar_index - 90, 55, "CONTROL", style=label.style_label_center)
+    else
+        line.delete(a)
+        box.delete(b)
+        label.delete(c)
+
+plot(timeDelta, "LINE_TIME_X1_DELTA", display=display.data_window)
+plot(pointX, "LINE_POINT_X1_REL", display=display.data_window)
+plot(pointY, "LINE_POINT_Y1", display=display.data_window)
+plot(labelX, "LABEL_POINT_X_REL", display=display.data_window)
+plot(labelY, "LABEL_POINT_Y", display=display.data_window)
+plot(boxLeft, "BOX_POINT_LEFT_REL", display=display.data_window)
+plot(boxTop, "BOX_POINT_TOP", display=display.data_window)
+plot(boxTime, "BOX_TIME_DELTA", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)

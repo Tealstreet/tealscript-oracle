@@ -1,0 +1,104 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-extend-stroke-v5",
+  "sourceSha256": "f08603d1af3c53a722245e068adc4647aa45c292dea8890ce3dbb37427917fb3",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/12",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-extend-stroke-v5/numeric-results-v1.json",
+    "bytes": 14317,
+    "sha256": "1011dbd6d70c84700889f1dd2508a46d9532ec07e9e127b4c636f265d5742e68"
+  },
+  "visualMap": null,
+  "cases": [
+    {
+      "caseId": "v102-extend-stroke-v5:none-left-right-both-extension",
+      "verdict": "UNDECIDED",
+      "numeric": {
+        "verdict": "UNDECIDED",
+        "properties": [
+          {
+            "title": "LINE_X1_REL",
+            "verdict": "UNDECIDED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-extend-stroke-v5/numeric-results-v1.json",
+              "bytes": 14317,
+              "sha256": "1011dbd6d70c84700889f1dd2508a46d9532ec07e9e127b4c636f265d5742e68"
+            },
+            "jsonPointer": "/properties/0",
+            "cause": null
+          },
+          {
+            "title": "LINE_Y1",
+            "verdict": "UNDECIDED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-extend-stroke-v5/numeric-results-v1.json",
+              "bytes": 14317,
+              "sha256": "1011dbd6d70c84700889f1dd2508a46d9532ec07e9e127b4c636f265d5742e68"
+            },
+            "jsonPointer": "/properties/1",
+            "cause": null
+          },
+          {
+            "title": "BOX_LEFT_REL",
+            "verdict": "UNDECIDED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-extend-stroke-v5/numeric-results-v1.json",
+              "bytes": 14317,
+              "sha256": "1011dbd6d70c84700889f1dd2508a46d9532ec07e9e127b4c636f265d5742e68"
+            },
+            "jsonPointer": "/properties/2",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "UNDECIDED",
+        "cause": "No independently owned/readable/discriminating PNG region for this visual property; no getter/intent replacement"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-extend-stroke-v5:solid-dash-dot-and-arrow",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "cause": "No independently owned/readable/discriminating PNG region for this visual property; no getter/intent replacement"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-extend-stroke-v5:line-and-box-width-setters",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "cause": "No independently owned/readable/discriminating PNG region for this visual property; no getter/intent replacement"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

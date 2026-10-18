@@ -1,0 +1,119 @@
+{
+  "version": "v2",
+  "sourceId": "v102-table-relocation-v6",
+  "sourceSha256": "09f929f0bd1c3c881d726c4b4714ec04f2c1037637fbe9788f06a3dd2516cb43",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/16",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-table-relocation-v6/numeric-results-v1.json",
+    "bytes": 128368,
+    "sha256": "a46a1e0cc15a825a934f6d3f775daea8262a9a78fdb5514450bf0ef99461f292"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-table-relocation-v6/derived-region-map-v1.json",
+    "bytes": 17296,
+    "sha256": "4443ed1f939f623e737a35d7d16860a611396afcb086d9f2ec0866c4e6ba401a"
+  },
+  "cases": [
+    {
+      "caseId": "v102-table-relocation-v6:same-position-retain-vs-replace",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "scope": "table-collision-lifecycle",
+        "observation": "ONLY_REGISTERED_VARIANT",
+        "supportedVariantIds": [
+          "INVALIDATE_REPLACE"
+        ],
+        "artifact": {
+          "path": "v102/captures/v102/v102-table-relocation-v6/numeric-results-v1.json",
+          "bytes": 128368,
+          "sha256": "a46a1e0cc15a825a934f6d3f775daea8262a9a78fdb5514450bf0ef99461f292"
+        },
+        "jsonPointer": "/numericAlternatives/0",
+        "meaning": "Support identifies only a registered finite numeric alternative; NEITHER refutes this frozen family rather than erasing its contrary native outputs"
+      },
+      "visual": null,
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-table-relocation-v6:second-move-final-anchor",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-table-relocation-v6/derived-region-map-v1.json",
+          "bytes": 17296,
+          "sha256": "4443ed1f939f623e737a35d7d16860a611396afcb086d9f2ec0866c4e6ba401a"
+        },
+        "jsonPointer": "/facets/1",
+        "cause": "No independently identifiable B table region exists in the PNG, so final relocation versus ignored position is not distinguished. FINAL_POSITION_INTENT9 and primary counts do not supply its pixel location.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-table-relocation-v6:frame-border-background-and-merged-sentinels",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-table-relocation-v6/derived-region-map-v1.json",
+          "bytes": 17296,
+          "sha256": "4443ed1f939f623e737a35d7d16860a611396afcb086d9f2ec0866c4e6ba401a"
+        },
+        "jsonPointer": "/facets/2",
+        "cause": "Both table appearance controls are absent as identifiable pixel regions. No glyph, frame, border, background or merge appearance is inferred from source intent or numeric counts.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-table-relocation-v6:explicit-zero-vs-auto-dimensions",
+      "verdict": "UNDECIDED",
+      "numeric": null,
+      "visual": {
+        "verdict": "UNDECIDED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-table-relocation-v6/derived-region-map-v1.json",
+          "bytes": 17296,
+          "sha256": "4443ed1f939f623e737a35d7d16860a611396afcb086d9f2ec0866c4e6ba401a"
+        },
+        "jsonPointer": "/facets/3",
+        "cause": "Neither independently readable table is available for a dimension comparison. The empty PNG is preserved unchanged; no hidden geometry, second viewport, retry or table repair is used.",
+        "supportedCandidate": null,
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

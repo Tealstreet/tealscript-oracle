@@ -1,0 +1,195 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-copy-appearance-v5",
+  "sourceSha256": "59ab7056aee1e20ca685bcddda68b2e4182cb204340b2e6a9cebfa536da60a05",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/4",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+    "bytes": 115005,
+    "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+  },
+  "visualMap": {
+    "path": "v102/captures/v102/v102-copy-appearance-v5/derived-region-map-v1.json",
+    "bytes": 14238,
+    "sha256": "00acdfed91eeceb12b39bdac7bc59c64a96765820d900c1f694a72697bd525ee"
+  },
+  "cases": [
+    {
+      "caseId": "v102-copy-appearance-v5:line-copy-preserves-dash-width-color",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "LINE_SOURCE_X_REL",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/0",
+            "cause": null
+          },
+          {
+            "title": "LINE_COPY_X_REL",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/1",
+            "cause": null
+          },
+          {
+            "title": "LINE_SOURCE_Y",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/2",
+            "cause": null
+          },
+          {
+            "title": "LINE_COPY_Y",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/3",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-copy-appearance-v5/derived-region-map-v1.json",
+          "bytes": 14238,
+          "sha256": "00acdfed91eeceb12b39bdac7bc59c64a96765820d900c1f694a72697bd525ee"
+        },
+        "jsonPointer": "/facets/0",
+        "cause": null,
+        "supportedCandidate": "INDEPENDENT_COPY_RETAINS_VISIBLE_ORIGINAL_LINE_APPEARANCE",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-copy-appearance-v5:box-copy-preserves-style-independent-text",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "BOX_SOURCE_LEFT_REL",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/4",
+            "cause": null
+          },
+          {
+            "title": "BOX_COPY_LEFT_REL",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/5",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-copy-appearance-v5/derived-region-map-v1.json",
+          "bytes": 14238,
+          "sha256": "00acdfed91eeceb12b39bdac7bc59c64a96765820d900c1f694a72697bd525ee"
+        },
+        "jsonPointer": "/facets/1",
+        "cause": null,
+        "supportedCandidate": "COPY_RETAINS_YELLOW_BLUE_SOLID_BORDER_AND_BLUE_TEXT",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    },
+    {
+      "caseId": "v102-copy-appearance-v5:label-copy-preserves-style-independent-text",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "properties": [
+          {
+            "title": "LABEL_SOURCE_EXACT",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/6",
+            "cause": null
+          },
+          {
+            "title": "LABEL_COPY_EXACT",
+            "verdict": "SUPPORTED",
+            "artifact": {
+              "path": "v102/captures/v102/v102-copy-appearance-v5/numeric-results-v1.json",
+              "bytes": 115005,
+              "sha256": "245e03e5f625d793b18ae4fbd5c92c2a20fc8c1004f41b19bd718391741e448c"
+            },
+            "jsonPointer": "/properties/7",
+            "cause": null
+          }
+        ]
+      },
+      "visual": {
+        "verdict": "SUPPORTED",
+        "artifact": {
+          "path": "v102/captures/v102/v102-copy-appearance-v5/derived-region-map-v1.json",
+          "bytes": 14238,
+          "sha256": "00acdfed91eeceb12b39bdac7bc59c64a96765820d900c1f694a72697bd525ee"
+        },
+        "jsonPointer": "/facets/2",
+        "cause": null,
+        "supportedCandidate": "COPY_RETAINS_BLUE_CENTER_LABEL_LARGE_APPEARANCE",
+        "scope": "Only the bound original PNG pixels and explicit intersections/occlusions/uncertainty in this map"
+      },
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}
