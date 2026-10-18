@@ -1,0 +1,19 @@
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 plot-controls v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+
+s = phase % 4 < 2 ? 15 + 2 * phase : na
+plot(s, "JOIN", color=color.blue, style=plot.style_circles, linewidth=1, join=true)
+plot(s + 30, "NOJOIN", color=color.aqua, style=plot.style_circles, linewidth=1, join=false)
+plot(65, "TAIL4", color=color.orange, style=plot.style_circles, linewidth=3, show_last=4)
+plot(90, "TRACK", color=color.red, trackprice=true, show_last=1)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.

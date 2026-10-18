@@ -1,0 +1,98 @@
+{
+  "version": "v1",
+  "sourceId": "v103-plot-controls-v6",
+  "sourceSha256": "0835d4388fd9d4383101ed41197d3120050c8ac34d7bdec53026243c2c0587b5",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-plot-controls-v6/numeric-results-v1.json",
+    "bytes": 186767,
+    "sha256": "5f68a92f46df97285d1ddefc47df0cfb0b562737e62dff848db8f87eedcd3a97"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-plot-controls-v6/compiler-diagnostics-v1.json",
+    "bytes": 1584,
+    "sha256": "8c7f88456489317278ebf8217d8d223a54a6cfa9a5359f250483ec2a8f0cdf0a"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-plot-controls-v6:circle-join",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "adjacent blue nonmissing circles joined; holes remain separate",
+      "modelB": "isolated circles",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -31,
+          0
+        ],
+        "y": [
+          12,
+          28
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-plot-controls-v6/derived-region-map-v1.json",
+        "bytes": 12856,
+        "sha256": "5f4d0c44bbcdd4124baff5bc6951415958e7ee2711479082fbc5a1005a9349b6"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-plot-controls-v6:show-last",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "old closed orange points suppressed",
+      "modelB": "all closed orange points visible",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -30,
+          -10
+        ],
+        "y": [
+          62,
+          68
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-plot-controls-v6/derived-region-map-v1.json",
+        "bytes": 12856,
+        "sha256": "5f4d0c44bbcdd4124baff5bc6951415958e7ee2711479082fbc5a1005a9349b6"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-plot-controls-v6:trackprice",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "red horizontal price tracker persists despite single-point tail",
+      "modelB": "no price tracker",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -95,
+          -10
+        ],
+        "y": [
+          87,
+          93
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-plot-controls-v6/derived-region-map-v1.json",
+        "bytes": 12856,
+        "sha256": "5f4d0c44bbcdd4124baff5bc6951415958e7ee2711479082fbc5a1005a9349b6"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

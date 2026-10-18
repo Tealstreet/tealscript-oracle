@@ -1,0 +1,107 @@
+{
+  "version": "v1",
+  "method": "Manual inspection of original native circle/visibility/tracker PNG, raw CSV visibility policy kept separate",
+  "inspectedOriginalPngSha256": "d1f70f0f971628a8eb8582e3b01498754e519486209e6cf932ea215515392da6",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 95
+      },
+      {
+        "label": "03:30 UTC",
+        "unixSeconds": 1792294200,
+        "xPx": 185
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-plot-controls-v6:circle-join",
+      "outcome": "SUPPORTED_A",
+      "observation": "Blue adjacent nonmissing phase0/1 and4/5 pairs have visible short rising connecting strokes between their point centers in the fixed lower lane; the intervening missing-phase intervals stay dark. The separate aqua lane shows isolated point pairs without those connecting strokes.",
+      "actualSubjectRegionsPx": [
+        [
+          935,
+          832,
+          1121,
+          873
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          935,
+          760,
+          1121,
+          801
+        ]
+      ],
+      "occlusion": "Blue, aqua, orange and red lanes are separated, readable and unobscured. Complete primary interval and the long tracker window remain on screen.",
+      "precision": "Fixed x2/y3/stroke1 registration uncertainty. Visible connecting strokes versus disconnected dots, multi-bar absence with positive tail, and long tracker presence are qualitative topology/visibility classes; no universal raster or exact dash-period claim.",
+      "scope": "This exact v6 source and frozen facet. CSV retains32 constant65/90 values even where native show_last suppresses old painted markers; raw formula controls do not supply visibility pixels."
+    },
+    {
+      "facetId": "v103-plot-controls-v6:show-last",
+      "outcome": "SUPPORTED_A",
+      "observation": "The registered old closed x941..1061 neighborhood at y65 is dark, while exactly four orange circles remain at the current right tail around x1109/1115/1121/1127. Positive right-tail markers distinguish filtering from an unavailable orange series.",
+      "actualSubjectRegionsPx": [
+        [
+          941,
+          737,
+          1061,
+          752
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          1105,
+          741,
+          1131,
+          750
+        ]
+      ],
+      "occlusion": "Blue, aqua, orange and red lanes are separated, readable and unobscured. Complete primary interval and the long tracker window remain on screen.",
+      "precision": "Fixed x2/y3/stroke1 registration uncertainty. Visible connecting strokes versus disconnected dots, multi-bar absence with positive tail, and long tracker presence are qualitative topology/visibility classes; no universal raster or exact dash-period claim.",
+      "scope": "This exact v6 source and frozen facet. CSV retains32 constant65/90 values even where native show_last suppresses old painted markers; raw formula controls do not supply visibility pixels."
+    },
+    {
+      "facetId": "v103-plot-controls-v6:trackprice",
+      "outcome": "SUPPORTED_A",
+      "observation": "A red dotted horizontal tracker is visibly painted across the long registered historical interval x551..1061 near y685, despite the single-point plot tail. The native red90 value badge is separate supporting context, not a replacement for the visible line.",
+      "actualSubjectRegionsPx": [
+        [
+          551,
+          681,
+          1061,
+          690
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          1190,
+          676,
+          1345,
+          696
+        ]
+      ],
+      "occlusion": "Blue, aqua, orange and red lanes are separated, readable and unobscured. Complete primary interval and the long tracker window remain on screen.",
+      "precision": "Fixed x2/y3/stroke1 registration uncertainty. Visible connecting strokes versus disconnected dots, multi-bar absence with positive tail, and long tracker presence are qualitative topology/visibility classes; no universal raster or exact dash-period claim.",
+      "scope": "This exact v6 source and frozen facet. CSV retains32 constant65/90 values even where native show_last suppresses old painted markers; raw formula controls do not supply visibility pixels."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

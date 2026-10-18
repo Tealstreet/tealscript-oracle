@@ -1,0 +1,10 @@
+
+s = phase % 4 < 2 ? 15 + 2 * phase : na
+plot(s, "JOIN", color=color.blue, style=plot.style_circles, linewidth=1, join=true)
+plot(s + 30, "NOJOIN", color=color.aqua, style=plot.style_circles, linewidth=1, join=false)
+plot(65, "TAIL4", color=color.orange, style=plot.style_circles, linewidth=3, show_last=4)
+plot(90, "TRACK", color=color.red, trackprice=true, show_last=1)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
