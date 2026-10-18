@@ -1,0 +1,47 @@
+------WebKitFormBoundary3CTAfNA36Fak2bm1
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V102 line-price v6", overlay=false, precision=16, max_lines_count=80, max_boxes_count=40, max_labels_count=40, max_polylines_count=20)
+phase = bar_index % 8
+keep = barstate.islastconfirmedhistory and bar_index >= 200
+a = line.new(bar_index - 12, 10, bar_index - 4, 22, extend=extend.none, color=color.blue, width=3)
+b = line.new(bar_index - 12, 42, bar_index - 4, 30, extend=extend.both, color=color.red, width=3)
+left = line.get_price(a, bar_index - 16)
+x1 = line.get_price(a, bar_index - 12)
+mid = line.get_price(a, bar_index - 8)
+halfStep = line.get_price(a, bar_index - 11)
+x2 = line.get_price(a, bar_index - 4)
+right = line.get_price(a, bar_index)
+descLeft = line.get_price(b, bar_index - 16)
+descRight = line.get_price(b, bar_index)
+descHalf = line.get_price(b, bar_index - 11)
+line.set_y2(a, 26)
+afterMid = line.get_price(a, bar_index - 8)
+afterRight = line.get_price(a, bar_index)
+if not keep
+    line.delete(a)
+    line.delete(b)
+
+plot(left, "LEFT_EXTRAPOLATE", display=display.data_window)
+plot(x1, "ENDPOINT1", display=display.data_window)
+plot(mid, "INTERPOLATE", display=display.data_window)
+plot(halfStep, "HALF_STEP", display=display.data_window)
+plot(x2, "ENDPOINT2", display=display.data_window)
+plot(right, "RIGHT_EXTRAPOLATE", display=display.data_window)
+plot(descLeft, "DESC_LEFT", display=display.data_window)
+plot(descRight, "DESC_RIGHT", display=display.data_window)
+plot(descHalf, "DESC_HALF", display=display.data_window)
+plot(afterMid, "AFTER_MID", display=display.data_window)
+plot(afterRight, "AFTER_RIGHT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(barstate.islastconfirmedhistory ? bar_index : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(0, "SCALE_ZERO", color=color.gray)
+plot(100, "SCALE_HUNDRED", color=color.gray)
+
+------WebKitFormBoundary3CTAfNA36Fak2bm1--

@@ -1,0 +1,50 @@
+{
+  "version": "v3",
+  "visualAddendum": null,
+  "sourceId": "v102-line-price-vertical-v6",
+  "sourceSha256": "b21e5b20dcf13af4e3cb5d46dfd9855d91dbafe499f847ac844497db1fc4ddc8",
+  "matrix": {
+    "path": "v102/CASE-MATRIX-v1.json",
+    "bytes": 28069,
+    "sha256": "7ba8faffa21128eaca2fde117c1b8fae6b9203e6dfd0c951b2cf852f03d0f272"
+  },
+  "matrixPointer": "/cases/20",
+  "numericReport": {
+    "path": "v102/captures/v102/v102-line-price-vertical-v6/numeric-results-v1.json",
+    "bytes": 123562,
+    "sha256": "d9e9e0d50389c5757671a716070f068115fda4e7b409d0850734386e3e20e8ca"
+  },
+  "visualMap": null,
+  "cases": [
+    {
+      "caseId": "v102-line-price-vertical-v6:undefined-vertical-vs-endpoint-choice-vs-runtime-refusal",
+      "verdict": "SUPPORTED",
+      "numeric": {
+        "verdict": "SUPPORTED",
+        "scope": "vertical-price-result",
+        "observation": "ONLY_REGISTERED_VARIANT",
+        "supportedVariantIds": [
+          "UNDEFINED"
+        ],
+        "artifact": {
+          "path": "v102/captures/v102/v102-line-price-vertical-v6/numeric-results-v1.json",
+          "bytes": 123562,
+          "sha256": "d9e9e0d50389c5757671a716070f068115fda4e7b409d0850734386e3e20e8ca"
+        },
+        "jsonPointer": "/numericAlternatives/0",
+        "meaning": "Support identifies only a registered finite numeric alternative; NEITHER refutes this frozen family rather than erasing its contrary native outputs"
+      },
+      "visual": null,
+      "admission": null,
+      "scope": "Named finite case only; subfacets retain their own status. Numerical getters/counts/intent never certify an unexposed visual field.",
+      "versionBoundary": "This exact source/version independently owned; no v5/v6 transfer",
+      "v5BoxXlocCredit": null,
+      "unobservedIntermediateLabelTimeTransition": null
+    }
+  ],
+  "held": [
+    "Any absent/unreadable/nonintersecting/already obscured/precision-ambiguous pixel region",
+    "All native backend token explanations, universal raster/font metrics and historical holds"
+  ],
+  "scope": "Per-case conjunctions preserve independently scored numeric, native-admission and visual evidence. A contrary scoped property remains a refutation; missing matching coverage remains undecided, with no broad family PASS."
+}

@@ -1,0 +1,22 @@
+{
+  "version": "v1",
+  "sourceId": "v102-line-price-v6",
+  "priorManualInspection": {
+    "path": "v102/captures/v102/v102-line-price-v6/visual-inspection-v1.json",
+    "bytes": 4939,
+    "sha256": "e90111aa349fb8927f7808cea5a0898565701eee09a45384467aab52f7c39c59"
+  },
+  "nativeExportTrigger": {
+    "path": "v102/captures/v102/v102-line-price-v6/attempt-v1/session-mode0-v1/chart-export-trigger-v1.json",
+    "bytes": 214,
+    "sha256": "962bd8a7b7405e22ba6742696855bdb8be31c217e0989965008e15a50422e735"
+  },
+  "nativeSession": {
+    "path": "v102/captures/v102/v102-line-price-v6/attempt-v1/session-mode0-v1/session-receipt-v1.json",
+    "bytes": 960,
+    "sha256": "86d9440e93546c6ab878f4c3217830bfd0242036c44826d9f0980dae79ea83ab"
+  },
+  "correction": "The overall session workflow began at02:29:59.200, but the actual native Download click was02:30:00.054 and PNG window02:30:01.285..01.739. Both export and PNG are within the same physical2m clock bar; derived exportAndPngClockBarUnchanged=true is correct. Earlier manual text saying export and PNG straddled the boundary is superseded by these exact native clocks.",
+  "unchangedStatus": "PNG does not establish numeric get_price; its cases remain visually UNDECIDED. Native frame ID and exact painted anchor continuity remain UNOBSERVED rather than inferred from UTC coincidence.",
+  "nativeAdditionalActions": 0
+}

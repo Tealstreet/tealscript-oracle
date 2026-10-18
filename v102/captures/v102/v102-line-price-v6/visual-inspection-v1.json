@@ -1,0 +1,130 @@
+{
+  "version": "v1",
+  "method": "Manual independent inspection of this original v6 final line-price PNG; numeric decisions use only its owned original CSV",
+  "inspectedOriginalPngSha256": "3d55ef14cfd6ec6133d99b97f3eb7d06df0014568a141db605abf3e2d3efef2a",
+  "axisCalibration": {
+    "studyPlotBoundsPx": [
+      0,
+      632,
+      1189,
+      925
+    ],
+    "xTicks": [
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792269000,
+        "xPx": 47
+      },
+      {
+        "label": "21:00 UTC",
+        "unixSeconds": 1792270800,
+        "xPx": 137
+      }
+    ],
+    "yTicks": [
+      {
+        "value": 0,
+        "yPx": 901
+      },
+      {
+        "value": 100,
+        "yPx": 661
+      }
+    ],
+    "coordinateUncertaintyPx": {
+      "x": 2,
+      "y": 3
+    },
+    "basis": "Visible native axes, with no raster-to-getter substitution or pixel-exact generalization"
+  },
+  "facets": [
+    {
+      "caseId": "v102-line-price-v6:infinite-slope-vs-extend-clamping",
+      "verdict": "UNDECIDED",
+      "visualApplicable": false,
+      "scope": "This case is a separately scored numeric line.get_price property. The original final plate is archived but supplies no getter value or subpixel price assertion.",
+      "regions": [
+        {
+          "role": "final blue extend.none line",
+          "originalPngRectPx": [
+            1039,
+            835,
+            1096,
+            882
+          ],
+          "visible": "Short blue rising segment near the supplied final endpoints"
+        },
+        {
+          "role": "red extended descending line",
+          "originalPngRectPx": [
+            755,
+            632,
+            1189,
+            895
+          ],
+          "visible": "Red descending trace across the visible study pane, clipped at its upper edge"
+        }
+      ],
+      "notObservedCause": "No numeric getter result is inferred from pixels; the native CSV independently discriminates exact interpolation/clamping and updated/stale getter predictions. Rendered final geometry and getter semantics are separate properties. Export and PNG also straddled a2m clock boundary; no cross-boundary anchor continuity is inferred."
+    },
+    {
+      "caseId": "v102-line-price-v6:positive-negative-exact-slopes",
+      "verdict": "UNDECIDED",
+      "visualApplicable": false,
+      "scope": "This case is a separately scored numeric line.get_price property. The original final plate is archived but supplies no getter value or subpixel price assertion.",
+      "regions": [
+        {
+          "role": "final blue extend.none line",
+          "originalPngRectPx": [
+            1039,
+            835,
+            1096,
+            882
+          ],
+          "visible": "Short blue rising segment near the supplied final endpoints"
+        },
+        {
+          "role": "red extended descending line",
+          "originalPngRectPx": [
+            755,
+            632,
+            1189,
+            895
+          ],
+          "visible": "Red descending trace across the visible study pane, clipped at its upper edge"
+        }
+      ],
+      "notObservedCause": "No numeric getter result is inferred from pixels; the native CSV independently discriminates exact interpolation/clamping and updated/stale getter predictions. Rendered final geometry and getter semantics are separate properties. Export and PNG also straddled a2m clock boundary; no cross-boundary anchor continuity is inferred."
+    },
+    {
+      "caseId": "v102-line-price-v6:getter-reflects-mutated-endpoint",
+      "verdict": "UNDECIDED",
+      "visualApplicable": false,
+      "scope": "This case is a separately scored numeric line.get_price property. The original final plate is archived but supplies no getter value or subpixel price assertion.",
+      "regions": [
+        {
+          "role": "final blue extend.none line",
+          "originalPngRectPx": [
+            1039,
+            835,
+            1096,
+            882
+          ],
+          "visible": "Short blue rising segment near the supplied final endpoints"
+        },
+        {
+          "role": "red extended descending line",
+          "originalPngRectPx": [
+            755,
+            632,
+            1189,
+            895
+          ],
+          "visible": "Red descending trace across the visible study pane, clipped at its upper edge"
+        }
+      ],
+      "notObservedCause": "No numeric getter result is inferred from pixels; the native CSV independently discriminates exact interpolation/clamping and updated/stale getter predictions. Rendered final geometry and getter semantics are separate properties. Export and PNG also straddled a2m clock boundary; no cross-boundary anchor continuity is inferred."
+    }
+  ],
+  "screenshotFrameBoundaryHold": "Export and PNG straddled a physical2m UTC boundary. The raw CSV anchor remains owned in its export, but the precise rendered anchor continuity is UNOBSERVED; all pixel/getter certificates remain held."
+}
