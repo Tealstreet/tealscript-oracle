@@ -1,0 +1,74 @@
+------WebKitFormBoundaryxDvZwaTxZWFzncdS
+Content-Disposition: form-data; name="source"
+
+//@version=6
+// SPDX-License-Identifier: MIT
+indicator("V103 noncoincident-points v6", overlay=false, precision=16, max_lines_count=100, max_boxes_count=60, max_labels_count=60, max_polylines_count=30)
+phase = bar_index % 8
+var int anchorIndex = na
+var int anchorTime = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+var float TIME_DELTA = na
+var float ROUNDTRIP_X = na
+var float LINE_X = na
+var float LINE_Y = na
+var float BOX_LEFT = na
+var float BOX_TOP = na
+var float LABEL_X = na
+var float LABEL_Y = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 95, 15, bar_index - 85, 25, color=color.blue, width=4)
+    p = chart.point.from_index(bar_index - 85, 75)
+    q = chart.point.from_index(bar_index - 75, 85)
+    line.set_first_point(a, p)
+    line.set_second_point(a, q)
+    p.index := bar_index - 10
+    p.price := 10
+    q.index := bar_index - 5
+    q.price := 15
+    b = box.new(bar_index - 70, 30, bar_index - 60, 10, bgcolor=color.yellow, border_color=color.blue)
+    bp = chart.point.from_index(bar_index - 65, 85)
+    bq = chart.point.from_index(bar_index - 50, 65)
+    box.set_top_left_point(b, bp)
+    box.set_bottom_right_point(b, bq)
+    bp.index := bar_index - 15
+    bp.price := 40
+    bq.index := bar_index - 5
+    bq.price := 30
+    c = label.new(bar_index - 35, 20, "POINT", style=label.style_label_center, color=color.blue)
+    cp = chart.point.from_index(bar_index - 25, 80)
+    label.set_point(c, cp)
+    cp.index := bar_index - 5
+    cp.price := 10
+    t = label.new(bar_index - 35, 45, "MODE", style=label.style_label_center, color=color.red)
+    label.set_xloc(t, time[8], xloc.bar_time)
+    TIME_DELTA := label.get_x(t) - time[8]
+    label.set_xloc(t, bar_index - 12, xloc.bar_index)
+    ROUNDTRIP_X := label.get_x(t) - bar_index
+    LINE_X := line.get_x1(a) - bar_index
+    LINE_Y := line.get_y1(a)
+    BOX_LEFT := box.get_left(b) - bar_index
+    BOX_TOP := box.get_top(b)
+    LABEL_X := label.get_x(c) - bar_index
+    LABEL_Y := label.get_y(c)
+
+plot(build ? TIME_DELTA : na, "TIME_DELTA", display=display.data_window)
+plot(build ? ROUNDTRIP_X : na, "ROUNDTRIP_X", display=display.data_window)
+plot(build ? LINE_X : na, "LINE_X", display=display.data_window)
+plot(build ? LINE_Y : na, "LINE_Y", display=display.data_window)
+plot(build ? BOX_LEFT : na, "BOX_LEFT", display=display.data_window)
+plot(build ? BOX_TOP : na, "BOX_TOP", display=display.data_window)
+plot(build ? LABEL_X : na, "LABEL_X", display=display.data_window)
+plot(build ? LABEL_Y : na, "LABEL_Y", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
+
+------WebKitFormBoundaryxDvZwaTxZWFzncdS--

@@ -1,0 +1,18 @@
+    LABEL_X := label.get_x(c) - bar_index
+    LABEL_Y := label.get_y(c)
+
+plot(build ? TIME_DELTA : na, "TIME_DELTA", display=display.data_window)
+plot(build ? ROUNDTRIP_X : na, "ROUNDTRIP_X", display=display.data_window)
+plot(build ? LINE_X : na, "LINE_X", display=display.data_window)
+plot(build ? LINE_Y : na, "LINE_Y", display=display.data_window)
+plot(build ? BOX_LEFT : na, "BOX_LEFT", display=display.data_window)
+plot(build ? BOX_TOP : na, "BOX_TOP", display=display.data_window)
+plot(build ? LABEL_X : na, "LABEL_X", display=display.data_window)
+plot(build ? LABEL_Y : na, "LABEL_Y", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(phase, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? anchorTime : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW",

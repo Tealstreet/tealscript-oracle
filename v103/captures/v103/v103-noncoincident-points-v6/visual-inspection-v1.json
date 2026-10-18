@@ -1,0 +1,163 @@
+{
+  "version": "v1",
+  "method": "Independent manual inspection of this original v6 PNG; no v5 result or numeric getter supplies its pixels",
+  "inspectedOriginalPngSha256": "3abc9b968d3fcf1117b0fa1b23275fef1a2f29b3bf055a71b90e9ca21018305a",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "02:30 UTC",
+        "unixSeconds": 1792290600,
+        "xPx": 77
+      },
+      {
+        "label": "03:00 UTC",
+        "unixSeconds": 1792292400,
+        "xPx": 167
+      }
+    ],
+    "yZeroPx": 889,
+    "yHundredPx": 674
+  },
+  "facets": [
+    {
+      "facetId": "v103-noncoincident-points-v6:line-first-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 blue segment starts near (611,728), consistent with -85/75; the original -95/15 neighborhood is clear.",
+      "actualSubjectRegionsPx": [
+        [
+          609,
+          704,
+          673,
+          731
+        ]
+      ],
+      "occlusion": "Endpoints, rectangle boundaries and complete POINT/MODE glyphs are readable. The competing original and later-mutation neighborhoods are not clipped or covered by another subject.",
+      "precision": "Position separations exceed frozen x2/y3/stroke1 pixel uncertainty; no exact raster, native font or DPI claim.",
+      "scope": "This v6 source and frozen facet only. Final MODE pixels do not certify the numeric-only intermediate time-mode transition."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:line-second-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The segment terminates near (671,707), consistent with -75/85; no long segment descends toward original -85/25.",
+      "actualSubjectRegionsPx": [
+        [
+          609,
+          704,
+          673,
+          731
+        ]
+      ],
+      "occlusion": "Endpoints, rectangle boundaries and complete POINT/MODE glyphs are readable. The competing original and later-mutation neighborhoods are not clipped or covered by another subject.",
+      "precision": "Position separations exceed frozen x2/y3/stroke1 pixel uncertainty; no exact raster, native font or DPI claim.",
+      "scope": "This v6 source and frozen facet only. Final MODE pixels do not certify the numeric-only intermediate time-mode transition."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:box-top-left-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The v6 yellow box begins near (731,707), consistent with -65/85 rather than original -70/30.",
+      "actualSubjectRegionsPx": [
+        [
+          730,
+          706,
+          823,
+          751
+        ]
+      ],
+      "occlusion": "Endpoints, rectangle boundaries and complete POINT/MODE glyphs are readable. The competing original and later-mutation neighborhoods are not clipped or covered by another subject.",
+      "precision": "Position separations exceed frozen x2/y3/stroke1 pixel uncertainty; no exact raster, native font or DPI claim.",
+      "scope": "This v6 source and frozen facet only. Final MODE pixels do not certify the numeric-only intermediate time-mode transition."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:box-bottom-right-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The box ends near (821,750), consistent with -50/65 rather than original -60/10.",
+      "actualSubjectRegionsPx": [
+        [
+          730,
+          706,
+          823,
+          751
+        ]
+      ],
+      "occlusion": "Endpoints, rectangle boundaries and complete POINT/MODE glyphs are readable. The competing original and later-mutation neighborhoods are not clipped or covered by another subject.",
+      "precision": "Position separations exceed frozen x2/y3/stroke1 pixel uncertainty; no exact raster, native font or DPI claim.",
+      "scope": "This v6 source and frozen facet only. Final MODE pixels do not certify the numeric-only intermediate time-mode transition."
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:label-point-applied",
+      "outcome": "SUPPORTED_A",
+      "observation": "The complete blue POINT body is centered near (971,717), consistent with -25/80; original -35/20 is empty of this label.",
+      "actualSubjectRegionsPx": [
+        [
+          944,
+          705,
+          999,
+          731
+        ]
+      ],
+      "occlusion": "Endpoints, rectangle boundaries and complete POINT/MODE glyphs are readable. The competing original and later-mutation neighborhoods are not clipped or covered by another subject.",
+      "precision": "Position separations exceed frozen x2/y3/stroke1 pixel uncertainty; no exact raster, native font or DPI claim.",
+      "scope": "This v6 source and frozen facet only. Final MODE pixels do not certify the numeric-only intermediate time-mode transition.",
+      "visibleTextByRegion": [
+        {
+          "region": "assigned label",
+          "literal": "POINT"
+        },
+        {
+          "region": "final mode control",
+          "literal": "MODE"
+        }
+      ]
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:copied-fields-vs-live-points",
+      "outcome": "SUPPORTED_A",
+      "observation": "All three subjects remain in their assigned high-value positions. The later point-field coordinates near -15..-5/10..40 have no corresponding blue segment, yellow box or POINT body. Separate red MODE is readable near -12/45.",
+      "actualSubjectRegionsPx": [
+        [
+          609,
+          704,
+          673,
+          731
+        ],
+        [
+          730,
+          706,
+          823,
+          751
+        ],
+        [
+          944,
+          705,
+          999,
+          731
+        ]
+      ],
+      "occlusion": "Endpoints, rectangle boundaries and complete POINT/MODE glyphs are readable. The competing original and later-mutation neighborhoods are not clipped or covered by another subject.",
+      "precision": "Position separations exceed frozen x2/y3/stroke1 pixel uncertainty; no exact raster, native font or DPI claim.",
+      "scope": "This v6 source and frozen facet only. Final MODE pixels do not certify the numeric-only intermediate time-mode transition.",
+      "visibleTextByRegion": [
+        {
+          "region": "assigned label",
+          "literal": "POINT"
+        },
+        {
+          "region": "final mode control",
+          "literal": "MODE"
+        }
+      ]
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

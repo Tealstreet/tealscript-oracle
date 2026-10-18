@@ -1,0 +1,20 @@
+    cp.price := 10
+    t = label.new(bar_index - 35, 45, "MODE", style=label.style_label_center, color=color.red)
+    label.set_xloc(t, time[8], xloc.bar_time)
+    TIME_DELTA := label.get_x(t) - time[8]
+    label.set_xloc(t, bar_index - 12, xloc.bar_index)
+    ROUNDTRIP_X := label.get_x(t) - bar_index
+    LINE_X := line.get_x1(a) - bar_index
+    LINE_Y := line.get_y1(a)
+    BOX_LEFT := box.get_left(b) - bar_index
+    BOX_TOP := box.get_top(b)
+    LABEL_X := label.get_x(c) - bar_index
+    LABEL_Y := label.get_y(c)
+
+plot(build ? TIME_DELTA : na, "TIME_DELTA", display=display.data_window)
+plot(build ? ROUNDTRIP_X : na, "ROUNDTRIP_X", display=display.data_window)
+plot(build ? LINE_X : na, "LINE_X", display=display.data_window)
+plot(build ? LINE_Y : na, "LINE_Y", display=display.data_window)
+plot(build ? BOX_LEFT : na, "BOX_LEFT", display=display.data_window)
+plot(build ? BOX_TOP : na, "BOX_TOP", display=display.data_window)
+plot(build ? 

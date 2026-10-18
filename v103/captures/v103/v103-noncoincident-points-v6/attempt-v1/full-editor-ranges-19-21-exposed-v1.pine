@@ -1,0 +1,20 @@
+var float LINE_Y = na
+var float BOX_LEFT = na
+var float BOX_TOP = na
+var float LABEL_X = na
+var float LABEL_Y = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 95, 15, bar_index - 85, 25, color=color.blue, width=4)
+    p = chart.point.from_index(bar_index - 85, 75)
+    q = chart.point.from_index(bar_index - 75, 85)
+    line.set_first_point(a, p)
+    line.set_second_point(a, q)
+    p.index := bar_index - 10
+    p.price := 10
+    q.index := bar_index - 5
+    q.price := 15
+    b = box.new(bar_index - 70, 30, bar_index - 60, 10, bgcolor=color.yellow, border_color=color.blue)
+    bp = chart.point.from_index(bar_index - 65, 85)
+    bq = chart.point.from_index(bar_index - 50, 65)

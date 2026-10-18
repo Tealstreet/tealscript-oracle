@@ -1,0 +1,10 @@
+var float LINE_Y = na
+var float BOX_LEFT = na
+var float BOX_TOP = na
+var float LABEL_X = na
+var float LABEL_Y = na
+if build
+    anchorIndex := bar_index
+    anchorTime := time
+    a = line.new(bar_index - 95, 15, bar_index - 85, 25, color=color.blue, width=4)
+    p = chart.point.from_index(bar_index - 85, 75)

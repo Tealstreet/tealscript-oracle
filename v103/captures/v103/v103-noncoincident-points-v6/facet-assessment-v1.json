@@ -1,0 +1,176 @@
+{
+  "version": "v1",
+  "sourceId": "v103-noncoincident-points-v6",
+  "sourceSha256": "f46290f55a654dbe9e9e91d97047270c2c71e33ca9297a4b6deb819219f0f417",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-noncoincident-points-v6/numeric-results-v1.json",
+    "bytes": 267649,
+    "sha256": "16ddc9e854a649054127fea9b83083000512058fd9a9568f0e5a9a84bfd924bd"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-noncoincident-points-v6/compiler-diagnostics-v1.json",
+    "bytes": 1607,
+    "sha256": "6d3fd5a012d4e4e6ec14b21dcba85cace63872bcbe85e7b24af1c2bd18b15d7b"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-noncoincident-points-v6:line-first-applied",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "first point -85/75",
+      "modelB": "original first -95/15",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -98,
+          -72
+        ],
+        "y": [
+          10,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-noncoincident-points-v6/derived-region-map-v1.json",
+        "bytes": 18220,
+        "sha256": "d66b1881f9646bc064c736be1864f46c17681ba62305fcc69c75b3ca27476b23"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:line-second-applied",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "second point -75/85",
+      "modelB": "original second -85/25",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -98,
+          -72
+        ],
+        "y": [
+          10,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-noncoincident-points-v6/derived-region-map-v1.json",
+        "bytes": 18220,
+        "sha256": "d66b1881f9646bc064c736be1864f46c17681ba62305fcc69c75b3ca27476b23"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:box-top-left-applied",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "box left/top -65/85",
+      "modelB": "original left/top -70/30",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -72,
+          -48
+        ],
+        "y": [
+          5,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-noncoincident-points-v6/derived-region-map-v1.json",
+        "bytes": 18220,
+        "sha256": "d66b1881f9646bc064c736be1864f46c17681ba62305fcc69c75b3ca27476b23"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:box-bottom-right-applied",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "box right/bottom -50/65",
+      "modelB": "original right/bottom -60/10",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -72,
+          -48
+        ],
+        "y": [
+          5,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-noncoincident-points-v6/derived-region-map-v1.json",
+        "bytes": 18220,
+        "sha256": "d66b1881f9646bc064c736be1864f46c17681ba62305fcc69c75b3ca27476b23"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:label-point-applied",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "label -25/80",
+      "modelB": "original label -35/20",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -40,
+          -15
+        ],
+        "y": [
+          10,
+          90
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-noncoincident-points-v6/derived-region-map-v1.json",
+        "bytes": 18220,
+        "sha256": "d66b1881f9646bc064c736be1864f46c17681ba62305fcc69c75b3ca27476b23"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v103-noncoincident-points-v6:copied-fields-vs-live-points",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "assigned fields survive subsequent point mutations",
+      "modelB": "all assigned drawings follow later point fields",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -98,
+          -2
+        ],
+        "y": [
+          5,
+          95
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-noncoincident-points-v6/derived-region-map-v1.json",
+        "bytes": 18220,
+        "sha256": "d66b1881f9646bc064c736be1864f46c17681ba62305fcc69c75b3ca27476b23"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
