@@ -1,0 +1,84 @@
+{
+  "version": "v1",
+  "method": "Independent inspection of the original v6 table/polyline PNG: the same long orange polyline shaft is visible outside both table sides",
+  "inspectedOriginalPngSha256": "5f54cf236fdcece8ad972928883d54bfda10fdf301e26f94c5c7002e7e3e1ae0",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "01:30 UTC",
+        "unixSeconds": 1792287000,
+        "xPx": 23
+      },
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 113
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-table-over-polyline-v6:actual-single-subject-overlap",
+      "outcome": "SUPPORTED_A",
+      "observation": "The opaque blue table covers the retained orange polyline shaft through the registered y40 intersection. Orange remains independently visible outside the left and right table edges, proving the subject is painted. The white TABLE glyph is away from this strip.",
+      "actualSubjectRegionsPx": [
+        [
+          701,
+          793,
+          1031,
+          817
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          0,
+          798,
+          127,
+          813
+        ],
+        [
+          1063,
+          798,
+          1190,
+          813
+        ]
+      ],
+      "actualTableBoundsPx": [
+        127,
+        683,
+        1063,
+        875
+      ],
+      "actualIntersectionsPx": [
+        [
+          701,
+          799,
+          1031,
+          812
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "table center, away from tested strip",
+          "literal": "TABLE"
+        }
+      ],
+      "occlusion": "No third opaque subject covers this isolated pair. Orange source strokes are visible outside both table sides; absence within is not inferred from source intent alone.",
+      "scope": "This isolated v6 table/polyline-body ordering pair only. Long-polyline endpoints are offscreen and receive zero head/topology credit; no v5 or all-nine-group transfer."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

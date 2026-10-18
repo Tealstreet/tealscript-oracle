@@ -1,0 +1,84 @@
+{
+  "version": "v1",
+  "method": "Independent inspection of original retained v6 table/line PNG, requiring both exposed parts of the same orange line outside the table",
+  "inspectedOriginalPngSha256": "7823e80ffea7e77154eb86a0829dd5a7135ff646b9ed0cee4cb9f3987b24bb75",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "01:30 UTC",
+        "unixSeconds": 1792287000,
+        "xPx": 29
+      },
+      {
+        "label": "02:00 UTC",
+        "unixSeconds": 1792288800,
+        "xPx": 119
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v103-table-over-line-v6:actual-single-subject-overlap",
+      "outcome": "SUPPORTED_A",
+      "observation": "An opaque blue centered table covers the y40 orange line through the entire registered intersection. The same orange horizontal line is independently visible to the left and right outside the table. The white TABLE glyph is above the tested y40 strip.",
+      "actualSubjectRegionsPx": [
+        [
+          701,
+          793,
+          1031,
+          817
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          0,
+          800,
+          127,
+          811
+        ],
+        [
+          1063,
+          800,
+          1190,
+          811
+        ]
+      ],
+      "actualTableBoundsPx": [
+        127,
+        683,
+        1063,
+        875
+      ],
+      "actualIntersectionsPx": [
+        [
+          701,
+          800,
+          1031,
+          811
+        ]
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "table center, away from tested strip",
+          "literal": "TABLE"
+        }
+      ],
+      "occlusion": "No third opaque subject covers this isolated pair. Orange source strokes are visible outside both table sides; absence within is not inferred from source intent alone.",
+      "scope": "This v6 table/line overlap only; no other drawing group, v5, universal order or frame/raster claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "version": "v1",
+  "sourceId": "v103-table-over-line-v6",
+  "sourceSha256": "2172f00137398d927b30eb3767021724018da8f9e42b456bbb7f28e4aaec0e14",
+  "numericReport": {
+    "path": "v103/captures/v103/v103-table-over-line-v6/numeric-results-v1.json",
+    "bytes": 125906,
+    "sha256": "acb61c1a325ca87986bd89edd34956cd3bebff86c02d399414e0e6ab00a4cdb1"
+  },
+  "compilerDiagnostics": {
+    "path": "v103/captures/v103/v103-table-over-line-v6/compiler-diagnostics-v1.json",
+    "bytes": 1590,
+    "sha256": "08fcb74d08729b091c1c4ef80933a512584975a24b23f3092018aca3d205a1af"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v103-table-over-line-v6:actual-single-subject-overlap",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "opaque blue table covers the subject at its own registered intersection",
+      "modelB": "subject paints above blue table",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -70,
+          -15
+        ],
+        "y": [
+          35,
+          45
+        ],
+        "paddingPx": 2,
+        "intersectPaneFractions": {
+          "x": [
+            0.12,
+            0.88
+          ],
+          "y": [
+            0.2,
+            0.8
+          ]
+        }
+      },
+      "visualMap": {
+        "path": "v103/captures/v103/v103-table-over-line-v6/derived-region-map-v1.json",
+        "bytes": 8376,
+        "sha256": "8d97c370f630bc9ff89695b61268fabc911549825fc283ccdf446fa92e6fc4db"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context/phase/scale controls and export-offset policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
