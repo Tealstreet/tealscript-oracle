@@ -1,0 +1,1522 @@
+{
+  "schemaVersion": 1,
+  "round": "v105",
+  "oracleBaseline": "04a6378c310ef405448e5eea719bf4bc0e699e1a",
+  "proposal": "oracle-v105/BRIEF.md: explicit v104 alpha/table holds and two unreturned slots",
+  "authorization": "Author request on oracle master and push; capture only through authorized new-layout native UI method.",
+  "sourceCount": 5,
+  "pineVersionCounts": {
+    "5": 4,
+    "6": 1
+  },
+  "visualFacetCount": 8,
+  "primaryClosedRowsPerSource": 32,
+  "originalPredecessorsPerSource": 8,
+  "maximumBudget": {
+    "saves": 5,
+    "adds": 5,
+    "csvExports": 5,
+    "wholeChartPNGs": 5,
+    "sessions": 5,
+    "retries": 0,
+    "variants": 0,
+    "layouts": 1
+  },
+  "viewportPrerequisite": {
+    "initialSetupOnly": true,
+    "studyPaneHeightPx": [
+      240,
+      600
+    ],
+    "pixelsPerBar": [
+      16,
+      24
+    ],
+    "wholePrimaryPlus8PredecessorsVisible": true,
+    "layout": "one new v105 throwaway; unchanged after initial setup",
+    "uncertaintyRule": "Register actual native axes before scoring; every sample must have five-pixel actual edge clearance. No inferred unpadded 0..100 map or fitted sample location."
+  },
+  "entries": [
+    {
+      "slot": 1,
+      "sourceId": "v105-alpha-composite-v6",
+      "family": "alpha-composite",
+      "pineVersion": 6,
+      "path": "v105/sources/v105-alpha-composite-v6.pine",
+      "bytes": 4424,
+      "sha256": "1256da2a975e8c87c8b605e10a93d2a3bb916eb0f1c053721e1d4f2b1c7f459c",
+      "indicatorTitle": "v105-alpha-composite-v6",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BLUE50_R"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BLUE50_B"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BLUE50_T"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "RED50_R"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "RED50_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "RED50_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 14,
+      "maximumPlotCounts": 15,
+      "numericWitnesses": {
+        "BLUE50_R": {
+          "expression": "color.r(blue50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 0
+        },
+        "BLUE50_B": {
+          "expression": "color.b(blue50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 255
+        },
+        "BLUE50_T": {
+          "expression": "color.t(blue50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 50
+        },
+        "RED50_R": {
+          "expression": "color.r(red50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 255
+        },
+        "RED50_B": {
+          "expression": "color.b(red50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 0
+        },
+        "RED50_T": {
+          "expression": "color.t(red50)",
+          "role": "per-row source color channel; no compositing-paint credit",
+          "everyPrimaryExpected": 50
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v105-alpha-composite-v6:fill-over-fill",
+          "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+          "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+          "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion.",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -39,
+              0
+            ],
+            "y": [
+              0,
+              100
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "subjectPatchIds": [
+            "FILL_BLUE_OVER_RED",
+            "FILL_RED_OVER_BLUE"
+          ],
+          "encodedCandidateIds": [
+            "ENC_R127_B128",
+            "ENC_R128_B127",
+            "PURPLE"
+          ],
+          "linearCandidateIds": [
+            "LIN_R187_B188",
+            "LIN_R188_B187",
+            "LIN_R188_B188"
+          ],
+          "opaqueCandidateIds": [
+            "BLUE",
+            "RED"
+          ],
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "color.new(color.rgb(0, 0, 255), 50)",
+            "new": "color.new(color.rgb(0, 0, 255), 0)",
+            "occurrences": 1,
+            "additionalReplacement": {
+              "old": "color.new(color.rgb(255, 0, 0), 50)",
+              "new": "color.new(color.rgb(255, 0, 0), 0)"
+            }
+          }
+        },
+        {
+          "facetId": "v105-alpha-composite-v6:fill-over-background",
+          "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+          "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+          "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion.",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -39,
+              0
+            ],
+            "y": [
+              0,
+              100
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "subjectPatchIds": [
+            "FILL_BLUE_OVER_BG",
+            "FILL_RED_OVER_BG"
+          ],
+          "encodedCandidateIds": [
+            "ENC_BG_BLUE191",
+            "ENC_BG_BLUE192",
+            "ENC_BG_RED191",
+            "ENC_BG_RED192"
+          ],
+          "linearCandidateIds": [
+            "LIN_BG_BLUE204",
+            "LIN_BG_BLUE205",
+            "LIN_BG_RED204",
+            "LIN_BG_RED205"
+          ],
+          "opaqueCandidateIds": [
+            "BLUE",
+            "RED"
+          ],
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "color.new(color.rgb(0, 0, 255), 50)",
+            "new": "color.new(color.rgb(0, 0, 255), 0)",
+            "occurrences": 1,
+            "additionalReplacement": {
+              "old": "color.new(color.rgb(255, 0, 0), 50)",
+              "new": "color.new(color.rgb(255, 0, 0), 0)"
+            }
+          }
+        },
+        {
+          "facetId": "v105-alpha-composite-v6:line-over-line",
+          "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+          "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+          "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference.",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -39,
+              0
+            ],
+            "y": [
+              0,
+              100
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "subjectPatchIds": [
+            "LINE_BLUE_OVER_RED",
+            "LINE_RED_OVER_BLUE"
+          ],
+          "encodedCandidateIds": [
+            "ENC_R127_B128",
+            "ENC_R128_B127",
+            "PURPLE"
+          ],
+          "linearCandidateIds": [
+            "LIN_R187_B188",
+            "LIN_R188_B187",
+            "LIN_R188_B188"
+          ],
+          "opaqueCandidateIds": [
+            "BLUE",
+            "RED"
+          ],
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "color.new(color.rgb(0, 0, 255), 50)",
+            "new": "color.new(color.rgb(0, 0, 255), 0)",
+            "occurrences": 1,
+            "additionalReplacement": {
+              "old": "color.new(color.rgb(255, 0, 0), 50)",
+              "new": "color.new(color.rgb(255, 0, 0), 0)"
+            }
+          }
+        },
+        {
+          "facetId": "v105-alpha-composite-v6:line-over-background",
+          "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+          "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+          "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference.",
+          "pixelWindow": {
+            "coordinates": "anchor-bars/value",
+            "x": [
+              -39,
+              0
+            ],
+            "y": [
+              0,
+              100
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "subjectPatchIds": [
+            "LINE_BLUE_OVER_BG",
+            "LINE_RED_OVER_BG"
+          ],
+          "encodedCandidateIds": [
+            "ENC_BG_BLUE191",
+            "ENC_BG_BLUE192",
+            "ENC_BG_RED191",
+            "ENC_BG_RED192"
+          ],
+          "linearCandidateIds": [
+            "LIN_BG_BLUE204",
+            "LIN_BG_BLUE205",
+            "LIN_BG_RED204",
+            "LIN_BG_RED205"
+          ],
+          "opaqueCandidateIds": [
+            "BLUE",
+            "RED"
+          ],
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "color.new(color.rgb(0, 0, 255), 50)",
+            "new": "color.new(color.rgb(0, 0, 255), 0)",
+            "occurrences": 1,
+            "additionalReplacement": {
+              "old": "color.new(color.rgb(255, 0, 0), 50)",
+              "new": "color.new(color.rgb(255, 0, 0), 0)"
+            }
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "slotId": "v105-alpha-composite-v6",
+      "provenance": {
+        "path": "v104/sources/v104-alpha-composite-v6.pine",
+        "sha256": "b30dc532bad869957a3299a30afb8300d50f2252d67ef85da5c6510b3a88659b",
+        "unchanged": false
+      },
+      "sampling": {
+        "coordinates": "anchor-bars/value",
+        "subjects": [
+          {
+            "id": "FILL_BLUE_OVER_RED",
+            "center": [
+              -34.5,
+              87
+            ],
+            "bounds": [
+              -38,
+              78,
+              -31,
+              96
+            ],
+            "kind": "fill"
+          },
+          {
+            "id": "LINE_BLUE_OVER_RED",
+            "center": [
+              -24.5,
+              87
+            ],
+            "endpoints": [
+              [
+                -28,
+                87
+              ],
+              [
+                -21,
+                87
+              ]
+            ],
+            "kind": "line"
+          },
+          {
+            "id": "FILL_RED_OVER_BLUE",
+            "center": [
+              -34.5,
+              63
+            ],
+            "bounds": [
+              -38,
+              54,
+              -31,
+              72
+            ],
+            "kind": "fill"
+          },
+          {
+            "id": "LINE_RED_OVER_BLUE",
+            "center": [
+              -24.5,
+              63
+            ],
+            "endpoints": [
+              [
+                -28,
+                63
+              ],
+              [
+                -21,
+                63
+              ]
+            ],
+            "kind": "line"
+          },
+          {
+            "id": "FILL_BLUE_OVER_BG",
+            "center": [
+              -34.5,
+              39
+            ],
+            "bounds": [
+              -38,
+              30,
+              -31,
+              48
+            ],
+            "kind": "fill"
+          },
+          {
+            "id": "LINE_BLUE_OVER_BG",
+            "center": [
+              -24.5,
+              39
+            ],
+            "endpoints": [
+              [
+                -28,
+                39
+              ],
+              [
+                -21,
+                39
+              ]
+            ],
+            "kind": "line"
+          },
+          {
+            "id": "FILL_RED_OVER_BG",
+            "center": [
+              -34.5,
+              15
+            ],
+            "bounds": [
+              -38,
+              6,
+              -31,
+              24
+            ],
+            "kind": "fill"
+          },
+          {
+            "id": "LINE_RED_OVER_BG",
+            "center": [
+              -24.5,
+              15
+            ],
+            "endpoints": [
+              [
+                -28,
+                15
+              ],
+              [
+                -21,
+                15
+              ]
+            ],
+            "kind": "line"
+          }
+        ],
+        "controls": [
+          {
+            "id": "RED",
+            "rgb": [
+              255,
+              0,
+              0
+            ],
+            "center": [
+              -17.5,
+              9
+            ],
+            "bounds": [
+              -19,
+              2,
+              -16,
+              16
+            ]
+          },
+          {
+            "id": "BLUE",
+            "rgb": [
+              0,
+              0,
+              255
+            ],
+            "center": [
+              -12.5,
+              9
+            ],
+            "bounds": [
+              -14,
+              2,
+              -11,
+              16
+            ]
+          },
+          {
+            "id": "GRAY",
+            "rgb": [
+              128,
+              128,
+              128
+            ],
+            "center": [
+              -7.5,
+              9
+            ],
+            "bounds": [
+              -9,
+              2,
+              -6,
+              16
+            ]
+          },
+          {
+            "id": "ENC_R127_B128",
+            "rgb": [
+              127,
+              0,
+              128
+            ],
+            "center": [
+              -2.5,
+              9
+            ],
+            "bounds": [
+              -4,
+              2,
+              -1,
+              16
+            ]
+          },
+          {
+            "id": "ENC_R128_B127",
+            "rgb": [
+              128,
+              0,
+              127
+            ],
+            "center": [
+              -17.5,
+              29
+            ],
+            "bounds": [
+              -19,
+              22,
+              -16,
+              36
+            ]
+          },
+          {
+            "id": "PURPLE",
+            "rgb": [
+              128,
+              0,
+              128
+            ],
+            "center": [
+              -12.5,
+              29
+            ],
+            "bounds": [
+              -14,
+              22,
+              -11,
+              36
+            ]
+          },
+          {
+            "id": "LIN_R187_B188",
+            "rgb": [
+              187,
+              0,
+              188
+            ],
+            "center": [
+              -7.5,
+              29
+            ],
+            "bounds": [
+              -9,
+              22,
+              -6,
+              36
+            ]
+          },
+          {
+            "id": "LIN_R188_B187",
+            "rgb": [
+              188,
+              0,
+              187
+            ],
+            "center": [
+              -2.5,
+              29
+            ],
+            "bounds": [
+              -4,
+              22,
+              -1,
+              36
+            ]
+          },
+          {
+            "id": "LIN_R188_B188",
+            "rgb": [
+              188,
+              0,
+              188
+            ],
+            "center": [
+              -17.5,
+              49
+            ],
+            "bounds": [
+              -19,
+              42,
+              -16,
+              56
+            ]
+          },
+          {
+            "id": "ENC_BG_BLUE191",
+            "rgb": [
+              64,
+              64,
+              191
+            ],
+            "center": [
+              -12.5,
+              49
+            ],
+            "bounds": [
+              -14,
+              42,
+              -11,
+              56
+            ]
+          },
+          {
+            "id": "ENC_BG_BLUE192",
+            "rgb": [
+              64,
+              64,
+              192
+            ],
+            "center": [
+              -7.5,
+              49
+            ],
+            "bounds": [
+              -9,
+              42,
+              -6,
+              56
+            ]
+          },
+          {
+            "id": "ENC_BG_RED191",
+            "rgb": [
+              191,
+              64,
+              64
+            ],
+            "center": [
+              -2.5,
+              49
+            ],
+            "bounds": [
+              -4,
+              42,
+              -1,
+              56
+            ]
+          },
+          {
+            "id": "ENC_BG_RED192",
+            "rgb": [
+              192,
+              64,
+              64
+            ],
+            "center": [
+              -17.5,
+              69
+            ],
+            "bounds": [
+              -19,
+              62,
+              -16,
+              76
+            ]
+          },
+          {
+            "id": "LIN_BG_BLUE204",
+            "rgb": [
+              92,
+              92,
+              204
+            ],
+            "center": [
+              -12.5,
+              69
+            ],
+            "bounds": [
+              -14,
+              62,
+              -11,
+              76
+            ]
+          },
+          {
+            "id": "LIN_BG_BLUE205",
+            "rgb": [
+              92,
+              92,
+              205
+            ],
+            "center": [
+              -7.5,
+              69
+            ],
+            "bounds": [
+              -9,
+              62,
+              -6,
+              76
+            ]
+          },
+          {
+            "id": "LIN_BG_RED204",
+            "rgb": [
+              204,
+              92,
+              92
+            ],
+            "center": [
+              -2.5,
+              69
+            ],
+            "bounds": [
+              -4,
+              62,
+              -1,
+              76
+            ]
+          },
+          {
+            "id": "LIN_BG_RED205",
+            "rgb": [
+              205,
+              92,
+              92
+            ],
+            "center": [
+              -17.5,
+              89
+            ],
+            "bounds": [
+              -19,
+              82,
+              -16,
+              96
+            ]
+          },
+          {
+            "id": "BLACK",
+            "rgb": [
+              0,
+              0,
+              0
+            ],
+            "center": [
+              -12.5,
+              89
+            ],
+            "bounds": [
+              -14,
+              82,
+              -11,
+              96
+            ]
+          },
+          {
+            "id": "WHITE",
+            "rgb": [
+              255,
+              255,
+              255
+            ],
+            "center": [
+              -7.5,
+              89
+            ],
+            "bounds": [
+              -9,
+              82,
+              -6,
+              96
+            ]
+          }
+        ],
+        "lineControls": [
+          {
+            "id": "OPAQUE_LINE_RED",
+            "rgb": [
+              255,
+              0,
+              0
+            ],
+            "center": [
+              -24.5,
+              75
+            ],
+            "endpoints": [
+              [
+                -28,
+                75
+              ],
+              [
+                -21,
+                75
+              ]
+            ],
+            "width": 16
+          },
+          {
+            "id": "OPAQUE_LINE_BLUE",
+            "rgb": [
+              0,
+              0,
+              255
+            ],
+            "center": [
+              -24.5,
+              51
+            ],
+            "endpoints": [
+              [
+                -28,
+                51
+              ],
+              [
+                -21,
+                51
+              ]
+            ],
+            "width": 16
+          },
+          {
+            "id": "OPAQUE_LINE_GRAY",
+            "rgb": [
+              128,
+              128,
+              128
+            ],
+            "center": [
+              -24.5,
+              27
+            ],
+            "endpoints": [
+              [
+                -28,
+                27
+              ],
+              [
+                -21,
+                27
+              ]
+            ],
+            "width": 16
+          }
+        ],
+        "background": {
+          "id": "PANE_BG",
+          "center": [
+            -30,
+            50
+          ],
+          "rgb": [
+            128,
+            128,
+            128
+          ]
+        },
+        "patchSize": [
+          5,
+          5
+        ],
+        "minimumEverySampleEdgeClearancePx": 5,
+        "rounding": "nearest original pixel; .5 toward positive infinity",
+        "sampleSelection": "fixed centers only; no search for favorable pixels"
+      },
+      "colorProfilePolicy": {
+        "original": "Preserve all PNG bytes, iCCP/sRGB/gAMA/cHRM/cICP chunks, decompressed ICC bytes and SHA. Raw stored samples remain distinct from any derived conversion.",
+        "primary": "Exact same-shot opaque RGB-candidate equivalence; no assumption that stored bytes equal source sRGB. Require separated candidate classes and independent primary/gray/black/white controls. Equality binds only this plate.",
+        "derived": "Optional offline explicit embedded-ICC-to-sRGB conversion; fixed relative-colorimetric intent, no black-point compensation, no resizing or manual curves. Record CMM/version/flags/profiles/bit depths/commands and all transformed samples separately. Missing/invalid/ambiguous profile keeps conversion-dependent exact-channel facets held.",
+        "exclusions": "Original RGB PNGs have no observed alpha channel. Derived alpha=255 is synthetic container opacity; no native source-alpha/storage or universal compositor/DPI credit."
+      }
+    },
+    {
+      "slot": 2,
+      "sourceId": "v105-table-survival-v5",
+      "family": "table-survival",
+      "pineVersion": 5,
+      "path": "v105/sources/v105-table-survival-v5.pine",
+      "bytes": 1529,
+      "sha256": "53d74858a26c6e3cbce7c4e1412d5aa3ad92050b19fab34fdd3a3c366e8d3ee2",
+      "indicatorTitle": "v105-table-survival-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "OLD_NA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 10,
+      "maximumPlotCounts": 10,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        },
+        "OLD_NA": {
+          "expression": "na(a) ? 1 : 0",
+          "role": "build-event handle observation only; no survival-paint credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v105-table-survival-v5:same-position-lifetime",
+          "modelA": "A is absent after B first takes top-left then moves to middle-right",
+          "modelB": "A reappears at top-left after B moves away",
+          "requiredControls": "complete B middle-right and C top-right, no top-left occluder; OLD_NA/TABLE_COUNT are separate numeric observations",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "B or C unreadable, top-left window occluded, no source-owned build/PNG or layout background inseparable from A",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "independent geometric candidate",
+            "details": "A reappears at top-left after B moves away"
+          },
+          "positionWindows": {
+            "original": [
+              0,
+              0.25,
+              0,
+              0.25
+            ],
+            "moved": [
+              0.75,
+              1,
+              0.375,
+              0.625
+            ],
+            "control": [
+              0.75,
+              1,
+              0,
+              0.25
+            ]
+          },
+          "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table."
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v104/sources/v104-table-survival-v5.pine",
+        "sha256": "8849cf5ec18f778bb193e97ff471479b002d151a59194cc9eb2bc49bdcb0cc13",
+        "unchanged": false
+      },
+      "slotId": "v105-table-survival-v5"
+    },
+    {
+      "slot": 3,
+      "sourceId": "v105-table-relocation-v5",
+      "family": "table-relocation",
+      "pineVersion": 5,
+      "path": "v105/sources/v105-table-relocation-v5.pine",
+      "bytes": 1292,
+      "sha256": "070fa78f0f606b14b1d19f7a90b0b412d202f26bc93cfaff6fe0e21521b31afb",
+      "indicatorTitle": "v105-table-relocation-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v105-table-relocation-v5:final-position",
+          "modelA": "MOVED appears at middle-right; CONTROL remains top-right",
+          "modelB": "position setter ignored: MOVED stays top-left; CONTROL remains top-right",
+          "requiredControls": "complete MOVED and CONTROL text with blue/orange bodies; all three position windows visible",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing/occluded MOVED or CONTROL, clipped position windows or source identity unknown",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "table.set_position(b, position.middle_right)",
+            "new": "table.set_position(b, position.top_left)",
+            "occurrences": 1
+          },
+          "positionWindows": {
+            "original": [
+              0,
+              0.25,
+              0,
+              0.25
+            ],
+            "moved": [
+              0.75,
+              1,
+              0.375,
+              0.625
+            ],
+            "control": [
+              0.75,
+              1,
+              0,
+              0.25
+            ]
+          },
+          "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table."
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v104/sources/v104-table-relocation-v5.pine",
+        "sha256": "fd160ac84d0321ca444ef3f36b24f813f470e1a524b89b0cc7b39daec72d206a",
+        "unchanged": false
+      },
+      "slotId": "v105-table-relocation-v5"
+    },
+    {
+      "slot": 4,
+      "sourceId": "v104-table-frame-v5",
+      "family": "table-frame",
+      "pineVersion": 5,
+      "path": "v105/sources/v104-table-frame-v5.pine",
+      "bytes": 1552,
+      "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+      "indicatorTitle": "v104-table-frame-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-table-frame-v5:frame-border-paint",
+          "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+          "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+          "requiredControls": "complete LEFT/RIGHT in both rows, upper blue outer/red inner regions exposed independently; lower body geometry must be visible",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.5
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Any frame/divider/background region occluded, control unreadable or colors inseparable; exact universal pixel widths remain held",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "frame_width=6, border_color=color.red, border_width=4",
+            "new": "frame_width=0, border_color=color.red, border_width=0",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v104/sources/v104-table-frame-v5.pine",
+        "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+        "unchanged": true
+      },
+      "slotId": "v105-table-frame-v5",
+      "unchangedReaskRule": "Exact v104 bytes/title/models, no failure noted in responses v1..v11. Bottom-left control is deliberately unchanged; any watermark occlusion holds the facet, never a source repair."
+    },
+    {
+      "slot": 5,
+      "sourceId": "v104-table-merge-v5",
+      "family": "table-merge",
+      "pineVersion": 5,
+      "path": "v105/sources/v104-table-merge-v5.pine",
+      "bytes": 1601,
+      "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+      "indicatorTitle": "v104-table-merge-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v104-table-merge-v5:merged-row",
+          "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+          "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+          "requiredControls": "lower complete MERGED/HIDDEN and orange right body, upper full external span; no third table over either row",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0,
+              0.5
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Unreadable lower HIDDEN/divider, clipped upper full span or third-object occlusion",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "    table.merge_cells(b, 0, 0, 1, 0)\n",
+            "new": "",
+            "occurrences": 1
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v104/sources/v104-table-merge-v5.pine",
+        "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+        "unchanged": true
+      },
+      "slotId": "v105-table-merge-v5",
+      "unchangedReaskRule": "Exact v104 bytes/title/models, no failure noted in responses v1..v11. Bottom-left control is deliberately unchanged; any watermark occlusion holds the facet, never a source repair."
+    }
+  ],
+  "totalPlotColumns": 51,
+  "prospectivePrimaryPlotCells": 1632,
+  "nativeOutcome": "UNSPECIFIED"
+}

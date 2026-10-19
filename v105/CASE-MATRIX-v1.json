@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "facets": [
+    {
+      "facetId": "v105-alpha-composite-v6:fill-over-fill",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion.",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "subjectPatchIds": [
+        "FILL_BLUE_OVER_RED",
+        "FILL_RED_OVER_BLUE"
+      ],
+      "encodedCandidateIds": [
+        "ENC_R127_B128",
+        "ENC_R128_B127",
+        "PURPLE"
+      ],
+      "linearCandidateIds": [
+        "LIN_R187_B188",
+        "LIN_R188_B187",
+        "LIN_R188_B188"
+      ],
+      "opaqueCandidateIds": [
+        "BLUE",
+        "RED"
+      ],
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "color.new(color.rgb(0, 0, 255), 50)",
+        "new": "color.new(color.rgb(0, 0, 255), 0)",
+        "occurrences": 1,
+        "additionalReplacement": {
+          "old": "color.new(color.rgb(255, 0, 0), 50)",
+          "new": "color.new(color.rgb(255, 0, 0), 0)"
+        }
+      }
+    },
+    {
+      "facetId": "v105-alpha-composite-v6:fill-over-background",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion.",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "subjectPatchIds": [
+        "FILL_BLUE_OVER_BG",
+        "FILL_RED_OVER_BG"
+      ],
+      "encodedCandidateIds": [
+        "ENC_BG_BLUE191",
+        "ENC_BG_BLUE192",
+        "ENC_BG_RED191",
+        "ENC_BG_RED192"
+      ],
+      "linearCandidateIds": [
+        "LIN_BG_BLUE204",
+        "LIN_BG_BLUE205",
+        "LIN_BG_RED204",
+        "LIN_BG_RED205"
+      ],
+      "opaqueCandidateIds": [
+        "BLUE",
+        "RED"
+      ],
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "color.new(color.rgb(0, 0, 255), 50)",
+        "new": "color.new(color.rgb(0, 0, 255), 0)",
+        "occurrences": 1,
+        "additionalReplacement": {
+          "old": "color.new(color.rgb(255, 0, 0), 50)",
+          "new": "color.new(color.rgb(255, 0, 0), 0)"
+        }
+      }
+    },
+    {
+      "facetId": "v105-alpha-composite-v6:line-over-line",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference.",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "subjectPatchIds": [
+        "LINE_BLUE_OVER_RED",
+        "LINE_RED_OVER_BLUE"
+      ],
+      "encodedCandidateIds": [
+        "ENC_R127_B128",
+        "ENC_R128_B127",
+        "PURPLE"
+      ],
+      "linearCandidateIds": [
+        "LIN_R187_B188",
+        "LIN_R188_B187",
+        "LIN_R188_B188"
+      ],
+      "opaqueCandidateIds": [
+        "BLUE",
+        "RED"
+      ],
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "color.new(color.rgb(0, 0, 255), 50)",
+        "new": "color.new(color.rgb(0, 0, 255), 0)",
+        "occurrences": 1,
+        "additionalReplacement": {
+          "old": "color.new(color.rgb(255, 0, 0), 50)",
+          "new": "color.new(color.rgb(255, 0, 0), 0)"
+        }
+      }
+    },
+    {
+      "facetId": "v105-alpha-composite-v6:line-over-background",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference.",
+      "pixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "subjectPatchIds": [
+        "LINE_BLUE_OVER_BG",
+        "LINE_RED_OVER_BG"
+      ],
+      "encodedCandidateIds": [
+        "ENC_BG_BLUE191",
+        "ENC_BG_BLUE192",
+        "ENC_BG_RED191",
+        "ENC_BG_RED192"
+      ],
+      "linearCandidateIds": [
+        "LIN_BG_BLUE204",
+        "LIN_BG_BLUE205",
+        "LIN_BG_RED204",
+        "LIN_BG_RED205"
+      ],
+      "opaqueCandidateIds": [
+        "BLUE",
+        "RED"
+      ],
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "color.new(color.rgb(0, 0, 255), 50)",
+        "new": "color.new(color.rgb(0, 0, 255), 0)",
+        "occurrences": 1,
+        "additionalReplacement": {
+          "old": "color.new(color.rgb(255, 0, 0), 50)",
+          "new": "color.new(color.rgb(255, 0, 0), 0)"
+        }
+      }
+    },
+    {
+      "facetId": "v105-table-survival-v5:same-position-lifetime",
+      "modelA": "A is absent after B first takes top-left then moves to middle-right",
+      "modelB": "A reappears at top-left after B moves away",
+      "requiredControls": "complete B middle-right and C top-right, no top-left occluder; OLD_NA/TABLE_COUNT are separate numeric observations",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "B or C unreadable, top-left window occluded, no source-owned build/PNG or layout background inseparable from A",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "independent geometric candidate",
+        "details": "A reappears at top-left after B moves away"
+      },
+      "positionWindows": {
+        "original": [
+          0,
+          0.25,
+          0,
+          0.25
+        ],
+        "moved": [
+          0.75,
+          1,
+          0.375,
+          0.625
+        ],
+        "control": [
+          0.75,
+          1,
+          0,
+          0.25
+        ]
+      },
+      "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table."
+    },
+    {
+      "facetId": "v105-table-relocation-v5:final-position",
+      "modelA": "MOVED appears at middle-right; CONTROL remains top-right",
+      "modelB": "position setter ignored: MOVED stays top-left; CONTROL remains top-right",
+      "requiredControls": "complete MOVED and CONTROL text with blue/orange bodies; all three position windows visible",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Missing/occluded MOVED or CONTROL, clipped position windows or source identity unknown",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "table.set_position(b, position.middle_right)",
+        "new": "table.set_position(b, position.top_left)",
+        "occurrences": 1
+      },
+      "positionWindows": {
+        "original": [
+          0,
+          0.25,
+          0,
+          0.25
+        ],
+        "moved": [
+          0.75,
+          1,
+          0.375,
+          0.625
+        ],
+        "control": [
+          0.75,
+          1,
+          0,
+          0.25
+        ]
+      },
+      "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table."
+    },
+    {
+      "facetId": "v104-table-frame-v5:frame-border-paint",
+      "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+      "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+      "requiredControls": "complete LEFT/RIGHT in both rows, upper blue outer/red inner regions exposed independently; lower body geometry must be visible",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Any frame/divider/background region occluded, control unreadable or colors inseparable; exact universal pixel widths remain held",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "frame_width=6, border_color=color.red, border_width=4",
+        "new": "frame_width=0, border_color=color.red, border_width=0",
+        "occurrences": 1
+      }
+    },
+    {
+      "facetId": "v104-table-merge-v5:merged-row",
+      "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+      "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+      "requiredControls": "lower complete MERGED/HIDDEN and orange right body, upper full external span; no third table over either row",
+      "pixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "notObserved": "Unreadable lower HIDDEN/divider, clipped upper full span or third-object occlusion",
+      "outcomes": [
+        "SUPPORTED_A",
+        "SUPPORTED_B",
+        "CONTRARY",
+        "UNDECIDED"
+      ],
+      "nativeOutcome": "UNSPECIFIED",
+      "localCountermodel": {
+        "kind": "source-copy",
+        "old": "    table.merge_cells(b, 0, 0, 1, 0)\n",
+        "new": "",
+        "occurrences": 1
+      }
+    }
+  ],
+  "nativeOutcome": "UNSPECIFIED"
+}
