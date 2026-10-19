@@ -1,0 +1,110 @@
+{
+  "version": "v1",
+  "method": "Original per-object fixed-window inspection; complete MOVED and CONTROL distinguished from obscured original location",
+  "inspectedOriginalPngSha256": "12b6a7dac973a55963ff997aba2cc2ffb850adae862264165486899a59e0b155",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      55,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "08:00 UTC",
+        "unixSeconds": 1792396800,
+        "xPx": 288
+      },
+      {
+        "label": "08:30 UTC",
+        "unixSeconds": 1792398600,
+        "xPx": 592
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "original": {
+      "exteriorPx": null,
+      "registrationReadable": false,
+      "windowFindings": {
+        "envelope": "The native legend covers the original MOVED candidate region; visible remaining original envelope is empty."
+      }
+    },
+    "moved": {
+      "exteriorPx": [
+        1120,
+        767,
+        1180,
+        791
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete blue MOVED body at middle-right",
+        "text/completeText": "Complete literal MOVED"
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        1103,
+        642,
+        1180,
+        666
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete orange CONTROL body at top-right",
+        "text/completeText": "Complete literal CONTROL"
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        63,
+        639,
+        413,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        67,
+        897,
+        98,
+        913
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v105-table-relocation-v5:final-position",
+      "outcome": "UNDECIDED",
+      "observation": "MOVED is fully readable on its blue middle-right body, and CONTROL is fully readable on its orange top-right body. The original top-left candidate location remains partly covered by the native indicator legend. The frozen rule requires all three windows, so visible final placement alone does not close the facet.",
+      "visibleTextByRegion": [
+        {
+          "region": "moved middle-right",
+          "literal": "MOVED"
+        },
+        {
+          "region": "control top-right",
+          "literal": "CONTROL"
+        }
+      ],
+      "notObservedCause": "The original top-left location intersects the native indicator legend. Complete MOVED/CONTROL readings are preserved, but the required clear original window cannot be authenticated.",
+      "notObservedCauses": [
+        "The original top-left location intersects the native indicator legend. Complete MOVED/CONTROL readings are preserved, but the required clear original window cannot be authenticated."
+      ],
+      "scope": "New v5 source/private/session only. Counts, source intent and another window do not replace the required original-location observation."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

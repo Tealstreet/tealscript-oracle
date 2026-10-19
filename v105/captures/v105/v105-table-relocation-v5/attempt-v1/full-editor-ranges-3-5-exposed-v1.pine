@@ -1,0 +1,10 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v105-table-relocation-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float table_count = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    b = table.new(position.top_left, 1, 1, bgcolor=color.blue)
+    table.cell(b, 0, 0, "MOVED", text_color=color.white, bgcolor=color.blue)
