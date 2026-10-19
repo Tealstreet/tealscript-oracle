@@ -1,0 +1,10 @@
+    anchorIndex := bar_index
+    box.new(bar_index - 38, 96, bar_index - 31, 78, bgcolor=color.rgb(255, 0, 0), border_width=0)
+    box.new(bar_index - 38, 96, bar_index - 31, 78, bgcolor=blue50, border_width=0)
+    line.new(bar_index - 28, 87, bar_index - 21, 87, color=color.rgb(255, 0, 0), width=24)
+    line.new(bar_index - 28, 87, bar_index - 21, 87, color=blue50, width=16)
+    box.new(bar_index - 38, 72, bar_index - 31, 54, bgcolor=color.rgb(0, 0, 255), border_width=0)
+    box.new(bar_index - 38, 72, bar_index - 31, 54, bgcolor=red50, border_width=0)
+    line.new(bar_index - 28, 63, bar_index - 21, 63, color=color.rgb(0, 0, 255), width=24)
+    line.new(bar_index - 28, 63, bar_index - 21, 63, color=red50, width=16)
+    box.new(bar_index - 38, 48, bar_index - 31, 30, bgcolor=blue50, border_width=0)

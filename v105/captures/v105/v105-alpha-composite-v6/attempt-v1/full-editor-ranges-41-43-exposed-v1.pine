@@ -1,0 +1,9 @@
+    box.new(bar_index -9, 76, bar_index -6, 62, bgcolor=color.rgb(92, 92, 205), border_width=0)
+    box.new(bar_index -4, 76, bar_index -1, 62, bgcolor=color.rgb(204, 92, 92), border_width=0)
+    box.new(bar_index -19, 96, bar_index -16, 82, bgcolor=color.rgb(205, 92, 92), border_width=0)
+    box.new(bar_index -14, 96, bar_index -11, 82, bgcolor=color.rgb(0, 0, 0), border_width=0)
+    box.new(bar_index -9, 96, bar_index -6, 82, bgcolor=color.rgb(255, 255, 255), border_width=0)
+plot(color.r(blue50), "BLUE50_R", display=display.data_window)
+plot(color.b(blue50), "BLUE50_B", display=display.data_window)
+plot(color.t(blue50), "BLUE50_T", display=display.data_window)
+plot(color.r(red50), 

@@ -1,0 +1,45 @@
+{
+  "version": "v1",
+  "command": [
+    "/tmp/oracle-v105-convert-icc-samples-v1",
+    "/Users/samuelsteady/cs/tealscript-oracle/v105/captures/v105/v105-alpha-composite-v6/original-embedded-profile-1-v1.icc",
+    "/Users/samuelsteady/cs/tealscript-oracle/v105/captures/v105/environment-v1/comparison-srgb-profile-v1.icc",
+    "/Users/samuelsteady/cs/tealscript-oracle/v105/captures/v105/v105-alpha-composite-v6/original-fixed-patch-samples-rgb8-v1.bin",
+    "/Users/samuelsteady/cs/tealscript-oracle/v105/captures/v105/v105-alpha-composite-v6/derived-fixed-srgb-samples-rgb8-v1.bin"
+  ],
+  "stdout": "{\"status\":\"PASS\",\"samples\":775,\"bitsPerChannel\":8,\"channels\":3,\"intent\":\"relative-colorimetric\",\"blackPointCompensation\":false,\"quality\":\"best\"}\n",
+  "stderr": "",
+  "exitCode": 0,
+  "implementation": "Apple ColorSync, macOS27.0 build26A428",
+  "inputProfile": {
+    "path": "v105/captures/v105/v105-alpha-composite-v6/original-embedded-profile-1-v1.icc",
+    "bytes": 512,
+    "sha256": "97a63b05b1755b923936c82dc04f7bc63e48eceab99b8085a89aeddac28cf410"
+  },
+  "outputProfile": {
+    "path": "v105/captures/v105/environment-v1/comparison-srgb-profile-v1.icc",
+    "bytes": 3144,
+    "sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+  },
+  "inputSamples": {
+    "path": "v105/captures/v105/v105-alpha-composite-v6/original-fixed-patch-samples-rgb8-v1.bin",
+    "bytes": 2325,
+    "sha256": "087977f08b9e80ad3a0137a23690b0b166c2b8e79b10bad2b63649381a38d35c"
+  },
+  "outputSamples": {
+    "path": "v105/captures/v105/v105-alpha-composite-v6/derived-fixed-srgb-samples-rgb8-v1.bin",
+    "bytes": 2325,
+    "sha256": "d652b78179bff7cf66e5f7fa9b2b4fdee49f5338997e04de5853dc6e23f72377"
+  },
+  "tool": {
+    "path": "v105/captures/v105/convert-icc-samples-v1.c",
+    "bytes": 2949,
+    "sha256": "2736399ce4ce38513895549aa6e8074c5fb57c4d42812f9253174cb78adc6061"
+  },
+  "intent": "relative-colorimetric",
+  "blackPointCompensation": false,
+  "channels": 3,
+  "inputBitDepth": 8,
+  "outputBitDepth": 8,
+  "syntheticAlpha": false
+}

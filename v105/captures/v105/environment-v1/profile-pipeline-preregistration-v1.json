@@ -1,0 +1,60 @@
+{
+  "version": "v1",
+  "registeredAtUtc": "2026-10-19T08:56:49.584831+00:00",
+  "beforeNativeSourceEntryAndColorInspection": true,
+  "comparisonSpace": "Encoded8-bit sRGB, RGB3channels only",
+  "policy": "Use original metadata only to choose path: one valid embedded RGB ICC with no conflicting sRGB/cICP tags uses this fixed ColorSync transform; authenticated sRGB without conflicts uses original raw encoded samples. Missing/invalid/conflicting/ambiguous profiles hold every composite. No post-color pipeline choice.",
+  "implementation": "Apple ColorSync API; macOS27.0 build26A428; clang21.0.0",
+  "tool": "v105/captures/v105/convert-icc-samples-v1.c",
+  "buildCommand": "clang -Wall -Wextra -Werror -framework ColorSync -framework CoreFoundation v105/captures/v105/convert-icc-samples-v1.c -o /tmp/oracle-v105-convert-icc-samples-v1",
+  "transform": {
+    "source": "Exact decompressed original PNG iCCP profile, with original bytes/length/SHA retained",
+    "target": "v105/captures/v105/environment-v1/comparison-srgb-profile-v1.icc",
+    "targetBytes": 3144,
+    "targetSha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+    "intent": "relative-colorimetric on both stages",
+    "blackPointCompensation": false,
+    "quality": "best",
+    "inputBitDepth": 8,
+    "outputBitDepth": 8,
+    "channels": 3,
+    "layout": "kColorSyncAlphaNone",
+    "syntheticAlpha": false,
+    "rendering": "No image re-render, resampling, browser/profile change or original PNG alteration; only already-decoded saved RGB samples converted"
+  },
+  "exactOpaqueGate": {
+    "RED": [
+      255,
+      0,
+      0
+    ],
+    "BLUE": [
+      0,
+      0,
+      255
+    ],
+    "PURPLE": [
+      128,
+      0,
+      128
+    ],
+    "all25SamplesPerControlRequired": true,
+    "tolerance": 0,
+    "failure": "All four composites UNDECIDED / zero composite scoring credit"
+  },
+  "identityCheck": {
+    "status": "PASS",
+    "rgbSamples": 6,
+    "inputSha256": "fd3316a1979ca7f373f36ad410e14b5520a7c9ddf750c2b9b7b82763a022dc3b",
+    "outputSha256": "fd3316a1979ca7f373f36ad410e14b5520a7c9ddf750c2b9b7b82763a022dc3b",
+    "command": [
+      "/tmp/oracle-v105-convert-icc-samples-v1",
+      "v105/captures/v105/environment-v1/comparison-srgb-profile-v1.icc",
+      "v105/captures/v105/environment-v1/comparison-srgb-profile-v1.icc",
+      "v105/captures/v105/environment-v1/profile-identity-input-rgb8-v1.bin",
+      "v105/captures/v105/environment-v1/profile-identity-output-rgb8-v1.bin"
+    ],
+    "stdout": "{\"status\":\"PASS\",\"samples\":6,\"bitsPerChannel\":8,\"channels\":3,\"intent\":\"relative-colorimetric\",\"blackPointCompensation\":false,\"quality\":\"best\"}"
+  },
+  "retroactiveV104Conversion": false
+}

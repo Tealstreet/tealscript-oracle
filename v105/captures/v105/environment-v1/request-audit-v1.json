@@ -1,0 +1,357 @@
+{
+  "version": "v1",
+  "status": "PASS",
+  "requestCommit": "ff30499361b2eebc302577d56c4757bba4818365",
+  "checksumEntries": [
+    {
+      "path": "v105/CASE-MATRIX-v1.json",
+      "sha256": "91baebc7ec18a4aaf7f6ad563e4e235bb182442af3dab88010e63b5d2742bc45",
+      "bytes": 22843
+    },
+    {
+      "path": "v105/REQUEST-v105-v1.md",
+      "sha256": "87cdfe0c5a9a727bc7e17c506750f88d559b8ec2ed2bf770acd737a21a2a9b67",
+      "bytes": 20357
+    },
+    {
+      "path": "v105/SELF-REVIEW-v1.md",
+      "sha256": "8055829b5a0ce2c5776bbd9911134dc4f08b48171a70ba61f1f2fdc935e0e89d",
+      "bytes": 9076
+    },
+    {
+      "path": "v105/SOURCE-INVENTORY-v1.md",
+      "sha256": "1444a262c6fdd46e99194c33fe4ec5cb2a7676b8411c47433350f63c9fcffa69",
+      "bytes": 6393
+    },
+    {
+      "path": "v105/bundle-manifest-v1.json",
+      "sha256": "86849dc396c61b833ce0bed6a627ed97b67031af89771b9806368e2f96e03f59",
+      "bytes": 55091
+    },
+    {
+      "path": "v105/sources/v104-table-frame-v5.pine",
+      "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+      "bytes": 1552
+    },
+    {
+      "path": "v105/sources/v104-table-merge-v5.pine",
+      "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+      "bytes": 1601
+    },
+    {
+      "path": "v105/sources/v105-alpha-composite-v6.pine",
+      "sha256": "1256da2a975e8c87c8b605e10a93d2a3bb916eb0f1c053721e1d4f2b1c7f459c",
+      "bytes": 4424
+    },
+    {
+      "path": "v105/sources/v105-table-relocation-v5.pine",
+      "sha256": "070fa78f0f606b14b1d19f7a90b0b412d202f26bc93cfaff6fe0e21521b31afb",
+      "bytes": 1292
+    },
+    {
+      "path": "v105/sources/v105-table-survival-v5.pine",
+      "sha256": "53d74858a26c6e3cbce7c4e1412d5aa3ad92050b19fab34fdd3a3c366e8d3ee2",
+      "bytes": 1529
+    }
+  ],
+  "sources": [
+    {
+      "slot": 1,
+      "sourceId": "v105-alpha-composite-v6",
+      "bytes": 4424,
+      "sha256": "1256da2a975e8c87c8b605e10a93d2a3bb916eb0f1c053721e1d4f2b1c7f459c",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "BLUE50_R"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "BLUE50_B"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "BLUE50_T"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "RED50_R"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "RED50_B"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "RED50_T"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 10,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 11,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 12,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 13,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "sourceId": "v105-table-survival-v5",
+      "bytes": 1529,
+      "sha256": "53d74858a26c6e3cbce7c4e1412d5aa3ad92050b19fab34fdd3a3c366e8d3ee2",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "OLD_NA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "sourceId": "v105-table-relocation-v5",
+      "bytes": 1292,
+      "sha256": "070fa78f0f606b14b1d19f7a90b0b412d202f26bc93cfaff6fe0e21521b31afb",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 4,
+      "sourceId": "v104-table-frame-v5",
+      "bytes": 1552,
+      "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "sourceId": "v104-table-merge-v5",
+      "bytes": 1601,
+      "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ]
+    }
+  ],
+  "totalPlotColumns": 51,
+  "prospectivePrimaryCells": 1632,
+  "nativeOutcome": "UNSPECIFIED; source hypotheses do not supply native targets"
+}

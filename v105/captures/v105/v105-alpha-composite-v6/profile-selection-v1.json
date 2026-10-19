@@ -1,0 +1,68 @@
+{
+  "version": "v1",
+  "selectedAtUtc": "2026-10-19T09:04:19.098527+00:00",
+  "phase": "Original metadata only, before reading/scoring or exposing subject/control sample tuples",
+  "originalPng": {
+    "path": "v105/captures/v105/v105-alpha-composite-v6/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 143441,
+    "sha256": "cca17b12d7aa382e317a7ac178ddd4eeacf8b99a4270e5f8af3a15d08b159ab9"
+  },
+  "pngContainer": {
+    "width": 1706,
+    "height": 993,
+    "bitDepth": 8,
+    "colorType": 2,
+    "channels": 3,
+    "observedAlphaChannel": false,
+    "syntheticAlpha": false
+  },
+  "originalColorChunks": [
+    {
+      "type": "iCCP",
+      "originalOffsetBytes": 33,
+      "payloadBytes": 277,
+      "payloadSha256": "74c505642f3e56bad2925f8cd5dd3a6ab1521b27ec9a24c7699345ec3026fce4",
+      "wholeChunkHex": "00000115694343505f0000789c9590bd4ac35014c77f4a4114410747878083939a36347ee052632daead42754bd3103fda18d2147d081fc2c537707211c437109c055fc0a9b3ff34c32d48879ec3b9f7c7b97feef98079722bd9d08fb3b4d938b2da1797d6c23773f2b1f9c12061ba4935fa2ab49f5bcc6e8bdd7010e8fe5564a98aebcbae782d2af821e74ec18f39df6749267eca393d6b7ae217f16a34c19d090e9234d77f880ffbbd6160fa66398ccf5bbadb8a751adcc9237a84ecd0e2966b7c914715179b13f629e350137bec8d4f873a1565aa624f0a57515778eceacd96d7f27d1625af5ec17d56e9a1c9dd1cc0db26ac1c9bdcc60f2c39f09e999cd971e2a7bed9fea8346526ebdf4c16a7c4046c8b2aeaac8cfb072d634663f2be9890",
+      "payloadHex": "5f0000789c9590bd4ac35014c77f4a4114410747878083939a36347ee052632daead42754bd3103fda18d2147d081fc2c537707211c437109c055fc0a9b3ff34c32d48879ec3b9f7c7b97feef98079722bd9d08fb3b4d938b2da1797d6c23773f2b1f9c12061ba4935fa2ab49f5bcc6e8bdd7010e8fe5564a98aebcbae782d2af821e74ec18f39df6749267eca393d6b7ae217f16a34c19d090e9234d77f880ffbbd6160fa66398ccf5bbadb8a751adcc9237a84ecd0e2966b7c914715179b13f629e350137bec8d4f873a1565aa624f0a57515778eceacd96d7f27d1625af5ec17d56e9a1c9dd1cc0db26ac1c9bdcc60f2c39f09e999cd971e2a7bed9fea8346526ebdf4c16a7c4046c8b2aeaac8cfb072d634663",
+      "profileName": "_",
+      "decodedIcc": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/original-embedded-profile-1-v1.icc",
+        "bytes": 512,
+        "sha256": "97a63b05b1755b923936c82dc04f7bc63e48eceab99b8085a89aeddac28cf410"
+      }
+    }
+  ],
+  "profileVerification": {
+    "command": [
+      "/usr/bin/sips",
+      "--verify",
+      "/Users/samuelsteady/cs/tealscript-oracle/v105/captures/v105/v105-alpha-composite-v6/original-embedded-profile-1-v1.icc"
+    ],
+    "exitCode": 0,
+    "stdout": "/Users/samuelsteady/cs/tealscript-oracle/v105/captures/v105/v105-alpha-composite-v6/original-embedded-profile-1-v1.icc\n   Header message digest (MD5) is missing. \n",
+    "stderr": "",
+    "headerAndTagBoundsValid": true
+  },
+  "selectedPipeline": "EMBEDDED_ICC_TO_FIXED_SRGB_RELATIVE_NO_BPC",
+  "notObservedCauses": [],
+  "preregisteredPipeline": {
+    "path": "v105/captures/v105/environment-v1/profile-pipeline-preregistration-v1.json",
+    "bytes": 2719,
+    "sha256": "5e4857fbfa25c6383e2464204a21a53f83905a3df837e7cf9a95db7172282363"
+  },
+  "targetProfile": {
+    "path": "v105/captures/v105/environment-v1/comparison-srgb-profile-v1.icc",
+    "bytes": 3144,
+    "sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e"
+  },
+  "conversionTool": {
+    "path": "v105/captures/v105/convert-icc-samples-v1.c",
+    "bytes": 2949,
+    "sha256": "2736399ce4ce38513895549aa6e8074c5fb57c4d42812f9253174cb78adc6061"
+  },
+  "comparisonSpace": "Encoded8-bit sRGB",
+  "intent": "relative-colorimetric",
+  "blackPointCompensation": false,
+  "rawPixelTuplesReadForSelection": false,
+  "scope": "No pipeline fitting, native profile/browser/account action, color tolerance, source change or retroactive v104 conversion"
+}
