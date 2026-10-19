@@ -1,0 +1,125 @@
+{
+  "version": "v1",
+  "method": "Original v105-session whole PNG, separately registered upper/lower exteriors, four connected exterior bands, two vertical divider strips, body and complete LEFT/RIGHT windows",
+  "inspectedOriginalPngSha256": "a93812277f5dec6b03d21420a5bd690bbf694c60b2a96da37197853e91b8e52f",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      55,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "08:00 UTC",
+        "unixSeconds": 1792396800,
+        "xPx": 268
+      },
+      {
+        "label": "08:30 UTC",
+        "unixSeconds": 1792398600,
+        "xPx": 572
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "subject": {
+      "exteriorPx": [
+        59,
+        636,
+        522,
+        703
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Yellow LEFT/RIGHT body with readable complete words; native legend occludes upper background pixels",
+        "text/LEFT": "Complete literal LEFT readable at its own upper/lower cell center; window occlusion reported separately",
+        "text/RIGHT": "Complete literal RIGHT readable at its own upper/lower cell center; window occlusion reported separately",
+        "frame/top": "Upper connected blue top stroke visible except native legend overlap; lower control no matching blue stroke in exposed region",
+        "frame/bottom": "Upper connected blue bottom stroke readable; lower control no corresponding blue stroke",
+        "frame/left": "Upper blue left stroke fragments readable; legend obscures upper portion. Lower control window intersects watermark",
+        "frame/right": "Upper connected blue right stroke readable; lower control no corresponding blue stroke",
+        "divider/1": "Upper red internal separator lies between yellow bodies but native legend crosses upper strip. Lower unframed control has no red divider",
+        "divider/2": "Upper red vertical internal separator readable in lower strip; lower control has no red separator"
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        65,
+        861,
+        512,
+        916
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Yellow LEFT/RIGHT body with readable complete words; native legend occludes upper background pixels",
+        "text/LEFT": "Complete literal LEFT readable at its own upper/lower cell center; window occlusion reported separately",
+        "text/RIGHT": "Complete literal RIGHT readable at its own upper/lower cell center; window occlusion reported separately",
+        "frame/top": "Upper connected blue top stroke visible except native legend overlap; lower control no matching blue stroke in exposed region",
+        "frame/bottom": "Upper connected blue bottom stroke readable; lower control no corresponding blue stroke",
+        "frame/left": "Upper blue left stroke fragments readable; legend obscures upper portion. Lower control window intersects watermark",
+        "frame/right": "Upper connected blue right stroke readable; lower control no corresponding blue stroke",
+        "divider/1": "Upper red internal separator lies between yellow bodies but native legend crosses upper strip. Lower unframed control has no red divider",
+        "divider/2": "Upper red vertical internal separator readable in lower strip; lower control has no red separator"
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        63,
+        639,
+        378,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        67,
+        897,
+        98,
+        913
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v104-table-frame-v5:frame-border-paint",
+      "outcome": "UNDECIDED",
+      "observation": "Upper blue connected outer strokes and red inner vertical divider are exposed around yellow LEFT/RIGHT bodies. The lower same-recipe yellow bodies have no corresponding blue/red structure in visible regions. All four complete LEFT/RIGHT words are readable in their own cells. Native legend obscures parts of required upper structural/background windows, and watermark obscures lower control background.",
+      "visibleTextByRegion": [
+        {
+          "region": "upper left",
+          "literal": "LEFT"
+        },
+        {
+          "region": "upper right",
+          "literal": "RIGHT"
+        },
+        {
+          "region": "lower left",
+          "literal": "LEFT"
+        },
+        {
+          "region": "lower right",
+          "literal": "RIGHT"
+        }
+      ],
+      "notObservedCause": "Native legend intersects the required upper top/left frame, body and upper divider strip; watermark intersects lower control body/left frame-band windows. Complete words and exposed structural segments are retained, but not all frozen independent windows are unoccluded.",
+      "notObservedCauses": [
+        "Native legend intersects the required upper top/left frame, body and upper divider strip; watermark intersects lower control body/left frame-band windows. Complete words and exposed structural segments are retained, but not all frozen independent windows are unoccluded."
+      ],
+      "scope": "This separate v105 slot/private/session with unchanged source/title. Per-band paint observations and missing pixels do not create full controlled frame credit or universal width/color claims."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

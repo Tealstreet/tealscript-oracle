@@ -1,0 +1,4406 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-frame-v5",
+  "slotId": "v105-table-frame-v5",
+  "sourceSha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+  "privateScriptId": "USER;98b951988f7b4b3e91a0a962c5081871",
+  "privateVersion": "1.0",
+  "originalPng": {
+    "path": "v105/captures/v105/v104-table-frame-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 150713,
+    "sha256": "a93812277f5dec6b03d21420a5bd690bbf694c60b2a96da37197853e91b8e52f"
+  },
+  "originalCsv": {
+    "path": "v105/captures/v105/v104-table-frame-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 26689,
+    "sha256": "9179070d33abf0784faad1d400a6e781acc716e694fb5cfb93c3ee30031f3769"
+  },
+  "rowSet": {
+    "path": "v105/captures/v105/v104-table-frame-v5/attempt-v1/session-mode0-v1/row-set-observation-v1.json",
+    "bytes": 7745,
+    "sha256": "9a02935e775f9f17913397bdfc43a753b692553057e7306e4a01c0b90ca181cf"
+  },
+  "manualInspection": {
+    "path": "v105/captures/v105/v104-table-frame-v5/visual-inspection-v1.json",
+    "bytes": 5594,
+    "sha256": "8a2aeed2404ea70f2003654fcd053d4e4b70fc447ec646cd3bdc5345db4c8a5a"
+  },
+  "frozenPredeclaredWindows": {
+    "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+    "envelopes": {
+      "subject": [
+        0,
+        0.5,
+        0,
+        0.3
+      ],
+      "control": [
+        0,
+        0.5,
+        0.7,
+        1
+      ]
+    },
+    "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+    "body": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "registration": "Map declared envelopes through actual pane bounds. Register the complete table exterior using all visible boundary segments without choosing a model or fitting text. Missing/ambiguous boundaries hold the property; never move or enlarge an envelope after inspection.",
+    "completeText": {
+      "LEFT": [
+        0,
+        0.5,
+        0,
+        1
+      ],
+      "RIGHT": [
+        0.5,
+        1,
+        0,
+        1
+      ]
+    },
+    "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+    "subjectName": "B upper framed LEFT/RIGHT",
+    "controlName": "C lower unframed LEFT/RIGHT",
+    "divider": [
+      [
+        0.45,
+        0.55,
+        0.15,
+        0.25
+      ],
+      [
+        0.45,
+        0.55,
+        0.75,
+        0.85
+      ]
+    ],
+    "frame": {
+      "top": [
+        0,
+        1,
+        0,
+        0.15
+      ],
+      "bottom": [
+        0,
+        1,
+        0.85,
+        1
+      ],
+      "left": [
+        0,
+        0.15,
+        0,
+        1
+      ],
+      "right": [
+        0.85,
+        1,
+        0,
+        1
+      ]
+    },
+    "frameRule": "Record all four connected blue exterior strokes independently from red inner vertical divider and yellow body, and corresponding control bands. A band outside its envelope or occluded is held; no inferred width/DPR. Colored presence anywhere in a broad union is insufficient."
+  },
+  "paneInteriorBoundsPx": [
+    55,
+    632,
+    1190,
+    926
+  ],
+  "derivedEnvelopesPx": {
+    "subject": [
+      55,
+      632,
+      622.5,
+      720.2
+    ],
+    "control": [
+      55,
+      837.8,
+      622.5,
+      926
+    ]
+  },
+  "registeredTableObjects": {
+    "subject": {
+      "exteriorPx": [
+        59,
+        636,
+        522,
+        703
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Yellow LEFT/RIGHT body with readable complete words; native legend occludes upper background pixels",
+        "text/LEFT": "Complete literal LEFT readable at its own upper/lower cell center; window occlusion reported separately",
+        "text/RIGHT": "Complete literal RIGHT readable at its own upper/lower cell center; window occlusion reported separately",
+        "frame/top": "Upper connected blue top stroke visible except native legend overlap; lower control no matching blue stroke in exposed region",
+        "frame/bottom": "Upper connected blue bottom stroke readable; lower control no corresponding blue stroke",
+        "frame/left": "Upper blue left stroke fragments readable; legend obscures upper portion. Lower control window intersects watermark",
+        "frame/right": "Upper connected blue right stroke readable; lower control no corresponding blue stroke",
+        "divider/1": "Upper red internal separator lies between yellow bodies but native legend crosses upper strip. Lower unframed control has no red divider",
+        "divider/2": "Upper red vertical internal separator readable in lower strip; lower control has no red separator"
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        65,
+        861,
+        512,
+        916
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Yellow LEFT/RIGHT body with readable complete words; native legend occludes upper background pixels",
+        "text/LEFT": "Complete literal LEFT readable at its own upper/lower cell center; window occlusion reported separately",
+        "text/RIGHT": "Complete literal RIGHT readable at its own upper/lower cell center; window occlusion reported separately",
+        "frame/top": "Upper connected blue top stroke visible except native legend overlap; lower control no matching blue stroke in exposed region",
+        "frame/bottom": "Upper connected blue bottom stroke readable; lower control no corresponding blue stroke",
+        "frame/left": "Upper blue left stroke fragments readable; legend obscures upper portion. Lower control window intersects watermark",
+        "frame/right": "Upper connected blue right stroke readable; lower control no corresponding blue stroke",
+        "divider/1": "Upper red internal separator lies between yellow bodies but native legend crosses upper strip. Lower unframed control has no red divider",
+        "divider/2": "Upper red vertical internal separator readable in lower strip; lower control has no red separator"
+      }
+    }
+  },
+  "namedWindows": [
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "envelope",
+      "derivedWindowPx": [
+        55,
+        632,
+        622.5,
+        720.2
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 676,
+        "runs": [
+          {
+            "first": 55,
+            "last": 55,
+            "sample": [
+              41,
+              41,
+              41
+            ]
+          },
+          {
+            "first": 56,
+            "last": 59,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 60,
+            "last": 65,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 66,
+            "last": 288,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 289,
+            "last": 292,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          },
+          {
+            "first": 293,
+            "last": 515,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 516,
+            "last": 521,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 522,
+            "last": 571,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 572,
+            "last": 572,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 573,
+            "last": 622,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 339,
+        "runs": [
+          {
+            "first": 632,
+            "last": 635,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 636,
+            "last": 641,
+            "sample": [
+              21,
+              56,
+              132
+            ]
+          },
+          {
+            "first": 642,
+            "last": 643,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 644,
+            "last": 644,
+            "sample": [
+              116,
+              115,
+              101
+            ]
+          },
+          {
+            "first": 645,
+            "last": 645,
+            "sample": [
+              114,
+              114,
+              107
+            ]
+          },
+          {
+            "first": 646,
+            "last": 646,
+            "sample": [
+              126,
+              118,
+              72
+            ]
+          },
+          {
+            "first": 647,
+            "last": 647,
+            "sample": [
+              131,
+              120,
+              60
+            ]
+          },
+          {
+            "first": 648,
+            "last": 648,
+            "sample": [
+              133,
+              121,
+              54
+            ]
+          },
+          {
+            "first": 649,
+            "last": 649,
+            "sample": [
+              129,
+              119,
+              61
+            ]
+          },
+          {
+            "first": 650,
+            "last": 650,
+            "sample": [
+              124,
+              118,
+              76
+            ]
+          },
+          {
+            "first": 651,
+            "last": 651,
+            "sample": [
+              111,
+              113,
+              112
+            ]
+          },
+          {
+            "first": 652,
+            "last": 652,
+            "sample": [
+              121,
+              117,
+              88
+            ]
+          },
+          {
+            "first": 653,
+            "last": 659,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 660,
+            "last": 696,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 697,
+            "last": 702,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 703,
+            "last": 708,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 709,
+            "last": 709,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 710,
+            "last": 720,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "UNOBSERVED"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "body",
+      "derivedWindowPx": [
+        59,
+        636,
+        522,
+        703
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 670,
+        "runs": [
+          {
+            "first": 59,
+            "last": 59,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 60,
+            "last": 65,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 66,
+            "last": 162,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 163,
+            "last": 163,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 164,
+            "last": 164,
+            "sample": [
+              202,
+              182,
+              70
+            ]
+          },
+          {
+            "first": 165,
+            "last": 169,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 170,
+            "last": 170,
+            "sample": [
+              201,
+              181,
+              69
+            ]
+          },
+          {
+            "first": 171,
+            "last": 171,
+            "sample": [
+              49,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 172,
+            "last": 175,
+            "sample": [
+              202,
+              182,
+              70
+            ]
+          },
+          {
+            "first": 176,
+            "last": 176,
+            "sample": [
+              223,
+              199,
+              72
+            ]
+          },
+          {
+            "first": 177,
+            "last": 178,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 179,
+            "last": 179,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 180,
+            "last": 180,
+            "sample": [
+              122,
+              114,
+              62
+            ]
+          },
+          {
+            "first": 181,
+            "last": 183,
+            "sample": [
+              148,
+              137,
+              65
+            ]
+          },
+          {
+            "first": 184,
+            "last": 184,
+            "sample": [
+              191,
+              172,
+              69
+            ]
+          },
+          {
+            "first": 185,
+            "last": 188,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 189,
+            "last": 189,
+            "sample": [
+              108,
+              103,
+              62
+            ]
+          },
+          {
+            "first": 190,
+            "last": 190,
+            "sample": [
+              134,
+              124,
+              64
+            ]
+          },
+          {
+            "first": 191,
+            "last": 288,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 289,
+            "last": 292,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          },
+          {
+            "first": 293,
+            "last": 384,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 385,
+            "last": 385,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 386,
+            "last": 386,
+            "sample": [
+              58,
+              60,
+              60
+            ]
+          },
+          {
+            "first": 387,
+            "last": 387,
+            "sample": [
+              69,
+              69,
+              60
+            ]
+          },
+          {
+            "first": 388,
+            "last": 388,
+            "sample": [
+              67,
+              67,
+              60
+            ]
+          },
+          {
+            "first": 389,
+            "last": 389,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 390,
+            "last": 390,
+            "sample": [
+              143,
+              132,
+              64
+            ]
+          },
+          {
+            "first": 391,
+            "last": 393,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 394,
+            "last": 394,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 395,
+            "last": 395,
+            "sample": [
+              146,
+              135,
+              64
+            ]
+          },
+          {
+            "first": 396,
+            "last": 396,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 397,
+            "last": 397,
+            "sample": [
+              194,
+              175,
+              69
+            ]
+          },
+          {
+            "first": 398,
+            "last": 398,
+            "sample": [
+              52,
+              56,
+              60
+            ]
+          },
+          {
+            "first": 399,
+            "last": 399,
+            "sample": [
+              255,
+              227,
+              77
+            ]
+          },
+          {
+            "first": 400,
+            "last": 401,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 402,
+            "last": 402,
+            "sample": [
+              123,
+              115,
+              62
+            ]
+          },
+          {
+            "first": 403,
+            "last": 404,
+            "sample": [
+              75,
+              75,
+              60
+            ]
+          },
+          {
+            "first": 405,
+            "last": 405,
+            "sample": [
+              49,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 406,
+            "last": 406,
+            "sample": [
+              191,
+              172,
+              69
+            ]
+          },
+          {
+            "first": 407,
+            "last": 407,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 408,
+            "last": 408,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 409,
+            "last": 409,
+            "sample": [
+              120,
+              113,
+              62
+            ]
+          },
+          {
+            "first": 410,
+            "last": 413,
+            "sample": [
+              200,
+              180,
+              69
+            ]
+          },
+          {
+            "first": 414,
+            "last": 414,
+            "sample": [
+              184,
+              167,
+              68
+            ]
+          },
+          {
+            "first": 415,
+            "last": 415,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 416,
+            "last": 416,
+            "sample": [
+              226,
+              202,
+              72
+            ]
+          },
+          {
+            "first": 417,
+            "last": 420,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 421,
+            "last": 421,
+            "sample": [
+              59,
+              61,
+              60
+            ]
+          },
+          {
+            "first": 422,
+            "last": 422,
+            "sample": [
+              187,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 423,
+            "last": 515,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 516,
+            "last": 521,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 522,
+            "last": 522,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 636,
+            "last": 641,
+            "sample": [
+              21,
+              56,
+              132
+            ]
+          },
+          {
+            "first": 642,
+            "last": 642,
+            "sample": [
+              135,
+              42,
+              46
+            ]
+          },
+          {
+            "first": 643,
+            "last": 643,
+            "sample": [
+              134,
+              44,
+              49
+            ]
+          },
+          {
+            "first": 644,
+            "last": 644,
+            "sample": [
+              110,
+              108,
+              117
+            ]
+          },
+          {
+            "first": 645,
+            "last": 645,
+            "sample": [
+              127,
+              64,
+              70
+            ]
+          },
+          {
+            "first": 646,
+            "last": 649,
+            "sample": [
+              135,
+              42,
+              46
+            ]
+          },
+          {
+            "first": 650,
+            "last": 650,
+            "sample": [
+              135,
+              43,
+              47
+            ]
+          },
+          {
+            "first": 651,
+            "last": 651,
+            "sample": [
+              123,
+              74,
+              80
+            ]
+          },
+          {
+            "first": 652,
+            "last": 652,
+            "sample": [
+              113,
+              100,
+              109
+            ]
+          },
+          {
+            "first": 653,
+            "last": 659,
+            "sample": [
+              135,
+              42,
+              46
+            ]
+          },
+          {
+            "first": 660,
+            "last": 696,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          },
+          {
+            "first": 697,
+            "last": 702,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 703,
+            "last": 703,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Yellow LEFT/RIGHT body with readable complete words; native legend occludes upper background pixels"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "text/LEFT",
+      "derivedWindowPx": [
+        59,
+        636,
+        290.5,
+        703
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 670,
+        "runs": [
+          {
+            "first": 59,
+            "last": 59,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 60,
+            "last": 65,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 66,
+            "last": 162,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 163,
+            "last": 163,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 164,
+            "last": 164,
+            "sample": [
+              202,
+              182,
+              70
+            ]
+          },
+          {
+            "first": 165,
+            "last": 169,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 170,
+            "last": 170,
+            "sample": [
+              201,
+              181,
+              69
+            ]
+          },
+          {
+            "first": 171,
+            "last": 171,
+            "sample": [
+              49,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 172,
+            "last": 175,
+            "sample": [
+              202,
+              182,
+              70
+            ]
+          },
+          {
+            "first": 176,
+            "last": 176,
+            "sample": [
+              223,
+              199,
+              72
+            ]
+          },
+          {
+            "first": 177,
+            "last": 178,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 179,
+            "last": 179,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 180,
+            "last": 180,
+            "sample": [
+              122,
+              114,
+              62
+            ]
+          },
+          {
+            "first": 181,
+            "last": 183,
+            "sample": [
+              148,
+              137,
+              65
+            ]
+          },
+          {
+            "first": 184,
+            "last": 184,
+            "sample": [
+              191,
+              172,
+              69
+            ]
+          },
+          {
+            "first": 185,
+            "last": 188,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 189,
+            "last": 189,
+            "sample": [
+              108,
+              103,
+              62
+            ]
+          },
+          {
+            "first": 190,
+            "last": 190,
+            "sample": [
+              134,
+              124,
+              64
+            ]
+          },
+          {
+            "first": 191,
+            "last": 288,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 289,
+            "last": 290,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 175,
+        "runs": [
+          {
+            "first": 636,
+            "last": 641,
+            "sample": [
+              21,
+              56,
+              132
+            ]
+          },
+          {
+            "first": 642,
+            "last": 647,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 648,
+            "last": 648,
+            "sample": [
+              152,
+              142,
+              83
+            ]
+          },
+          {
+            "first": 649,
+            "last": 649,
+            "sample": [
+              199,
+              197,
+              183
+            ]
+          },
+          {
+            "first": 650,
+            "last": 659,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 660,
+            "last": 664,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 665,
+            "last": 665,
+            "sample": [
+              71,
+              72,
+              60
+            ]
+          },
+          {
+            "first": 666,
+            "last": 666,
+            "sample": [
+              201,
+              181,
+              69
+            ]
+          },
+          {
+            "first": 667,
+            "last": 668,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 669,
+            "last": 669,
+            "sample": [
+              57,
+              60,
+              60
+            ]
+          },
+          {
+            "first": 670,
+            "last": 670,
+            "sample": [
+              202,
+              182,
+              70
+            ]
+          },
+          {
+            "first": 671,
+            "last": 672,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 673,
+            "last": 673,
+            "sample": [
+              233,
+              207,
+              73
+            ]
+          },
+          {
+            "first": 674,
+            "last": 674,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 675,
+            "last": 696,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 697,
+            "last": 702,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 703,
+            "last": 703,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Complete literal LEFT readable at its own upper/lower cell center; window occlusion reported separately"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "text/RIGHT",
+      "derivedWindowPx": [
+        290.5,
+        636,
+        522,
+        703
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 670,
+        "runs": [
+          {
+            "first": 290,
+            "last": 292,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          },
+          {
+            "first": 293,
+            "last": 384,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 385,
+            "last": 385,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 386,
+            "last": 386,
+            "sample": [
+              58,
+              60,
+              60
+            ]
+          },
+          {
+            "first": 387,
+            "last": 387,
+            "sample": [
+              69,
+              69,
+              60
+            ]
+          },
+          {
+            "first": 388,
+            "last": 388,
+            "sample": [
+              67,
+              67,
+              60
+            ]
+          },
+          {
+            "first": 389,
+            "last": 389,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 390,
+            "last": 390,
+            "sample": [
+              143,
+              132,
+              64
+            ]
+          },
+          {
+            "first": 391,
+            "last": 393,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 394,
+            "last": 394,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 395,
+            "last": 395,
+            "sample": [
+              146,
+              135,
+              64
+            ]
+          },
+          {
+            "first": 396,
+            "last": 396,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 397,
+            "last": 397,
+            "sample": [
+              194,
+              175,
+              69
+            ]
+          },
+          {
+            "first": 398,
+            "last": 398,
+            "sample": [
+              52,
+              56,
+              60
+            ]
+          },
+          {
+            "first": 399,
+            "last": 399,
+            "sample": [
+              255,
+              227,
+              77
+            ]
+          },
+          {
+            "first": 400,
+            "last": 401,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 402,
+            "last": 402,
+            "sample": [
+              123,
+              115,
+              62
+            ]
+          },
+          {
+            "first": 403,
+            "last": 404,
+            "sample": [
+              75,
+              75,
+              60
+            ]
+          },
+          {
+            "first": 405,
+            "last": 405,
+            "sample": [
+              49,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 406,
+            "last": 406,
+            "sample": [
+              191,
+              172,
+              69
+            ]
+          },
+          {
+            "first": 407,
+            "last": 407,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 408,
+            "last": 408,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 409,
+            "last": 409,
+            "sample": [
+              120,
+              113,
+              62
+            ]
+          },
+          {
+            "first": 410,
+            "last": 413,
+            "sample": [
+              200,
+              180,
+              69
+            ]
+          },
+          {
+            "first": 414,
+            "last": 414,
+            "sample": [
+              184,
+              167,
+              68
+            ]
+          },
+          {
+            "first": 415,
+            "last": 415,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 416,
+            "last": 416,
+            "sample": [
+              226,
+              202,
+              72
+            ]
+          },
+          {
+            "first": 417,
+            "last": 420,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 421,
+            "last": 421,
+            "sample": [
+              59,
+              61,
+              60
+            ]
+          },
+          {
+            "first": 422,
+            "last": 422,
+            "sample": [
+              187,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 423,
+            "last": 515,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 516,
+            "last": 521,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 522,
+            "last": 522,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 406,
+        "runs": [
+          {
+            "first": 636,
+            "last": 641,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 642,
+            "last": 666,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 667,
+            "last": 667,
+            "sample": [
+              245,
+              218,
+              75
+            ]
+          },
+          {
+            "first": 668,
+            "last": 668,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 669,
+            "last": 669,
+            "sample": [
+              236,
+              210,
+              74
+            ]
+          },
+          {
+            "first": 670,
+            "last": 670,
+            "sample": [
+              191,
+              172,
+              69
+            ]
+          },
+          {
+            "first": 671,
+            "last": 671,
+            "sample": [
+              212,
+              190,
+              71
+            ]
+          },
+          {
+            "first": 672,
+            "last": 672,
+            "sample": [
+              248,
+              220,
+              75
+            ]
+          },
+          {
+            "first": 673,
+            "last": 696,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 697,
+            "last": 702,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 703,
+            "last": 703,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Complete literal RIGHT readable at its own upper/lower cell center; window occlusion reported separately"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "frame/top",
+      "derivedWindowPx": [
+        59,
+        636,
+        522,
+        646.05
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 641,
+        "runs": [
+          {
+            "first": 59,
+            "last": 59,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 60,
+            "last": 377,
+            "sample": [
+              21,
+              56,
+              132
+            ]
+          },
+          {
+            "first": 378,
+            "last": 521,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 522,
+            "last": 522,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 636,
+            "last": 641,
+            "sample": [
+              21,
+              56,
+              132
+            ]
+          },
+          {
+            "first": 642,
+            "last": 642,
+            "sample": [
+              135,
+              42,
+              46
+            ]
+          },
+          {
+            "first": 643,
+            "last": 643,
+            "sample": [
+              134,
+              44,
+              49
+            ]
+          },
+          {
+            "first": 644,
+            "last": 644,
+            "sample": [
+              110,
+              108,
+              117
+            ]
+          },
+          {
+            "first": 645,
+            "last": 645,
+            "sample": [
+              127,
+              64,
+              70
+            ]
+          },
+          {
+            "first": 646,
+            "last": 646,
+            "sample": [
+              135,
+              42,
+              46
+            ]
+          }
+        ]
+      },
+      "finding": "Upper connected blue top stroke visible except native legend overlap; lower control no matching blue stroke in exposed region"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "frame/bottom",
+      "derivedWindowPx": [
+        59,
+        692.95,
+        522,
+        703
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 698,
+        "runs": [
+          {
+            "first": 59,
+            "last": 59,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 60,
+            "last": 521,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 522,
+            "last": 522,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 692,
+            "last": 696,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          },
+          {
+            "first": 697,
+            "last": 702,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 703,
+            "last": 703,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Upper connected blue bottom stroke readable; lower control no corresponding blue stroke"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "frame/left",
+      "derivedWindowPx": [
+        59,
+        636,
+        128.45,
+        703
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 670,
+        "runs": [
+          {
+            "first": 59,
+            "last": 59,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 60,
+            "last": 65,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 66,
+            "last": 128,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 94,
+        "runs": [
+          {
+            "first": 636,
+            "last": 641,
+            "sample": [
+              21,
+              56,
+              132
+            ]
+          },
+          {
+            "first": 642,
+            "last": 642,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 643,
+            "last": 643,
+            "sample": [
+              141,
+              129,
+              59
+            ]
+          },
+          {
+            "first": 644,
+            "last": 649,
+            "sample": [
+              171,
+              164,
+              122
+            ]
+          },
+          {
+            "first": 650,
+            "last": 650,
+            "sample": [
+              211,
+              211,
+              208
+            ]
+          },
+          {
+            "first": 651,
+            "last": 651,
+            "sample": [
+              175,
+              168,
+              131
+            ]
+          },
+          {
+            "first": 652,
+            "last": 652,
+            "sample": [
+              171,
+              164,
+              122
+            ]
+          },
+          {
+            "first": 653,
+            "last": 659,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 660,
+            "last": 696,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 697,
+            "last": 702,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 703,
+            "last": 703,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Upper blue left stroke fragments readable; legend obscures upper portion. Lower control window intersects watermark"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "frame/right",
+      "derivedWindowPx": [
+        452.55,
+        636,
+        522,
+        703
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 670,
+        "runs": [
+          {
+            "first": 452,
+            "last": 515,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 516,
+            "last": 521,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 522,
+            "last": 522,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 487,
+        "runs": [
+          {
+            "first": 636,
+            "last": 641,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 642,
+            "last": 696,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 697,
+            "last": 702,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 703,
+            "last": 703,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Upper connected blue right stroke readable; lower control no corresponding blue stroke"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "divider/1",
+      "derivedWindowPx": [
+        267.35,
+        646.05,
+        313.65000000000003,
+        652.75
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 649,
+        "runs": [
+          {
+            "first": 267,
+            "last": 267,
+            "sample": [
+              110,
+              112,
+              116
+            ]
+          },
+          {
+            "first": 268,
+            "last": 268,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 269,
+            "last": 269,
+            "sample": [
+              135,
+              122,
+              47
+            ]
+          },
+          {
+            "first": 270,
+            "last": 270,
+            "sample": [
+              109,
+              113,
+              119
+            ]
+          },
+          {
+            "first": 271,
+            "last": 271,
+            "sample": [
+              132,
+              120,
+              57
+            ]
+          },
+          {
+            "first": 272,
+            "last": 274,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 275,
+            "last": 275,
+            "sample": [
+              110,
+              112,
+              119
+            ]
+          },
+          {
+            "first": 276,
+            "last": 276,
+            "sample": [
+              131,
+              120,
+              59
+            ]
+          },
+          {
+            "first": 277,
+            "last": 277,
+            "sample": [
+              135,
+              122,
+              47
+            ]
+          },
+          {
+            "first": 278,
+            "last": 278,
+            "sample": [
+              109,
+              113,
+              119
+            ]
+          },
+          {
+            "first": 279,
+            "last": 279,
+            "sample": [
+              132,
+              120,
+              57
+            ]
+          },
+          {
+            "first": 280,
+            "last": 282,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 283,
+            "last": 283,
+            "sample": [
+              110,
+              112,
+              119
+            ]
+          },
+          {
+            "first": 284,
+            "last": 284,
+            "sample": [
+              131,
+              120,
+              59
+            ]
+          },
+          {
+            "first": 285,
+            "last": 285,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 286,
+            "last": 286,
+            "sample": [
+              115,
+              114,
+              101
+            ]
+          },
+          {
+            "first": 287,
+            "last": 287,
+            "sample": [
+              125,
+              118,
+              76
+            ]
+          },
+          {
+            "first": 288,
+            "last": 288,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 289,
+            "last": 290,
+            "sample": [
+              135,
+              42,
+              46
+            ]
+          },
+          {
+            "first": 291,
+            "last": 291,
+            "sample": [
+              116,
+              91,
+              99
+            ]
+          },
+          {
+            "first": 292,
+            "last": 292,
+            "sample": [
+              124,
+              71,
+              77
+            ]
+          },
+          {
+            "first": 293,
+            "last": 293,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 294,
+            "last": 294,
+            "sample": [
+              115,
+              114,
+              101
+            ]
+          },
+          {
+            "first": 295,
+            "last": 295,
+            "sample": [
+              125,
+              118,
+              76
+            ]
+          },
+          {
+            "first": 296,
+            "last": 298,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 299,
+            "last": 299,
+            "sample": [
+              116,
+              114,
+              99
+            ]
+          },
+          {
+            "first": 300,
+            "last": 300,
+            "sample": [
+              124,
+              117,
+              77
+            ]
+          },
+          {
+            "first": 301,
+            "last": 301,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 302,
+            "last": 302,
+            "sample": [
+              115,
+              114,
+              101
+            ]
+          },
+          {
+            "first": 303,
+            "last": 303,
+            "sample": [
+              125,
+              118,
+              76
+            ]
+          },
+          {
+            "first": 304,
+            "last": 306,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 307,
+            "last": 307,
+            "sample": [
+              116,
+              114,
+              99
+            ]
+          },
+          {
+            "first": 308,
+            "last": 308,
+            "sample": [
+              124,
+              117,
+              77
+            ]
+          },
+          {
+            "first": 309,
+            "last": 309,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          },
+          {
+            "first": 310,
+            "last": 310,
+            "sample": [
+              122,
+              117,
+              83
+            ]
+          },
+          {
+            "first": 311,
+            "last": 311,
+            "sample": [
+              118,
+              116,
+              95
+            ]
+          },
+          {
+            "first": 312,
+            "last": 313,
+            "sample": [
+              135,
+              122,
+              46
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 646,
+            "last": 649,
+            "sample": [
+              135,
+              42,
+              46
+            ]
+          },
+          {
+            "first": 650,
+            "last": 650,
+            "sample": [
+              135,
+              43,
+              47
+            ]
+          },
+          {
+            "first": 651,
+            "last": 651,
+            "sample": [
+              123,
+              74,
+              80
+            ]
+          },
+          {
+            "first": 652,
+            "last": 652,
+            "sample": [
+              113,
+              100,
+              109
+            ]
+          }
+        ]
+      },
+      "finding": "Upper red internal separator lies between yellow bodies but native legend crosses upper strip. Lower unframed control has no red divider"
+    },
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "divider/2",
+      "derivedWindowPx": [
+        267.35,
+        686.25,
+        313.65000000000003,
+        692.95
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 690,
+        "runs": [
+          {
+            "first": 267,
+            "last": 288,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 289,
+            "last": 292,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          },
+          {
+            "first": 293,
+            "last": 313,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 686,
+            "last": 692,
+            "sample": [
+              255,
+              69,
+              77
+            ]
+          }
+        ]
+      },
+      "finding": "Upper red vertical internal separator readable in lower strip; lower control has no red separator"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "envelope",
+      "derivedWindowPx": [
+        55,
+        837.8,
+        622.5,
+        926
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 882,
+        "runs": [
+          {
+            "first": 55,
+            "last": 55,
+            "sample": [
+              41,
+              41,
+              41
+            ]
+          },
+          {
+            "first": 56,
+            "last": 64,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 66,
+            "last": 511,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 512,
+            "last": 571,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 572,
+            "last": 572,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 573,
+            "last": 622,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 339,
+        "runs": [
+          {
+            "first": 837,
+            "last": 852,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 853,
+            "last": 853,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 854,
+            "last": 860,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 916,
+            "last": 926,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "UNOBSERVED"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "body",
+      "derivedWindowPx": [
+        65,
+        861,
+        512,
+        916
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 66,
+            "last": 162,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 163,
+            "last": 163,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 164,
+            "last": 164,
+            "sample": [
+              202,
+              182,
+              70
+            ]
+          },
+          {
+            "first": 165,
+            "last": 169,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 170,
+            "last": 170,
+            "sample": [
+              201,
+              181,
+              69
+            ]
+          },
+          {
+            "first": 171,
+            "last": 171,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 172,
+            "last": 175,
+            "sample": [
+              57,
+              60,
+              60
+            ]
+          },
+          {
+            "first": 176,
+            "last": 176,
+            "sample": [
+              127,
+              119,
+              63
+            ]
+          },
+          {
+            "first": 177,
+            "last": 178,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 179,
+            "last": 179,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 180,
+            "last": 180,
+            "sample": [
+              89,
+              86,
+              61
+            ]
+          },
+          {
+            "first": 181,
+            "last": 183,
+            "sample": [
+              104,
+              99,
+              61
+            ]
+          },
+          {
+            "first": 184,
+            "last": 184,
+            "sample": [
+              161,
+              147,
+              65
+            ]
+          },
+          {
+            "first": 185,
+            "last": 188,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 189,
+            "last": 189,
+            "sample": [
+              108,
+              103,
+              62
+            ]
+          },
+          {
+            "first": 190,
+            "last": 190,
+            "sample": [
+              134,
+              124,
+              64
+            ]
+          },
+          {
+            "first": 191,
+            "last": 380,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 381,
+            "last": 381,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 382,
+            "last": 382,
+            "sample": [
+              115,
+              108,
+              62
+            ]
+          },
+          {
+            "first": 383,
+            "last": 383,
+            "sample": [
+              189,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 384,
+            "last": 384,
+            "sample": [
+              187,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 385,
+            "last": 385,
+            "sample": [
+              143,
+              132,
+              64
+            ]
+          },
+          {
+            "first": 386,
+            "last": 386,
+            "sample": [
+              64,
+              66,
+              60
+            ]
+          },
+          {
+            "first": 387,
+            "last": 387,
+            "sample": [
+              135,
+              125,
+              63
+            ]
+          },
+          {
+            "first": 388,
+            "last": 389,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 390,
+            "last": 390,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 391,
+            "last": 391,
+            "sample": [
+              146,
+              135,
+              64
+            ]
+          },
+          {
+            "first": 392,
+            "last": 392,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 393,
+            "last": 393,
+            "sample": [
+              185,
+              167,
+              68
+            ]
+          },
+          {
+            "first": 394,
+            "last": 394,
+            "sample": [
+              59,
+              60,
+              60
+            ]
+          },
+          {
+            "first": 395,
+            "last": 397,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 398,
+            "last": 398,
+            "sample": [
+              204,
+              184,
+              70
+            ]
+          },
+          {
+            "first": 399,
+            "last": 401,
+            "sample": [
+              183,
+              166,
+              68
+            ]
+          },
+          {
+            "first": 402,
+            "last": 402,
+            "sample": [
+              236,
+              210,
+              74
+            ]
+          },
+          {
+            "first": 403,
+            "last": 403,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 404,
+            "last": 404,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 405,
+            "last": 405,
+            "sample": [
+              51,
+              55,
+              60
+            ]
+          },
+          {
+            "first": 406,
+            "last": 409,
+            "sample": [
+              56,
+              59,
+              60
+            ]
+          },
+          {
+            "first": 410,
+            "last": 410,
+            "sample": [
+              55,
+              58,
+              60
+            ]
+          },
+          {
+            "first": 411,
+            "last": 411,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 412,
+            "last": 412,
+            "sample": [
+              226,
+              202,
+              72
+            ]
+          },
+          {
+            "first": 413,
+            "last": 416,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 417,
+            "last": 417,
+            "sample": [
+              59,
+              61,
+              60
+            ]
+          },
+          {
+            "first": 418,
+            "last": 418,
+            "sample": [
+              187,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 419,
+            "last": 511,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 512,
+            "last": 512,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 288,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Yellow LEFT/RIGHT body with readable complete words; native legend occludes upper background pixels"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "text/LEFT",
+      "derivedWindowPx": [
+        65,
+        861,
+        288.5,
+        916
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 66,
+            "last": 162,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 163,
+            "last": 163,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 164,
+            "last": 164,
+            "sample": [
+              202,
+              182,
+              70
+            ]
+          },
+          {
+            "first": 165,
+            "last": 169,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 170,
+            "last": 170,
+            "sample": [
+              201,
+              181,
+              69
+            ]
+          },
+          {
+            "first": 171,
+            "last": 171,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 172,
+            "last": 175,
+            "sample": [
+              57,
+              60,
+              60
+            ]
+          },
+          {
+            "first": 176,
+            "last": 176,
+            "sample": [
+              127,
+              119,
+              63
+            ]
+          },
+          {
+            "first": 177,
+            "last": 178,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 179,
+            "last": 179,
+            "sample": [
+              48,
+              52,
+              60
+            ]
+          },
+          {
+            "first": 180,
+            "last": 180,
+            "sample": [
+              89,
+              86,
+              61
+            ]
+          },
+          {
+            "first": 181,
+            "last": 183,
+            "sample": [
+              104,
+              99,
+              61
+            ]
+          },
+          {
+            "first": 184,
+            "last": 184,
+            "sample": [
+              161,
+              147,
+              65
+            ]
+          },
+          {
+            "first": 185,
+            "last": 188,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 189,
+            "last": 189,
+            "sample": [
+              108,
+              103,
+              62
+            ]
+          },
+          {
+            "first": 190,
+            "last": 190,
+            "sample": [
+              134,
+              124,
+              64
+            ]
+          },
+          {
+            "first": 191,
+            "last": 288,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 177,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Complete literal LEFT readable at its own upper/lower cell center; window occlusion reported separately"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "text/RIGHT",
+      "derivedWindowPx": [
+        288.5,
+        861,
+        512,
+        916
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 288,
+            "last": 380,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 381,
+            "last": 381,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 382,
+            "last": 382,
+            "sample": [
+              115,
+              108,
+              62
+            ]
+          },
+          {
+            "first": 383,
+            "last": 383,
+            "sample": [
+              189,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 384,
+            "last": 384,
+            "sample": [
+              187,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 385,
+            "last": 385,
+            "sample": [
+              143,
+              132,
+              64
+            ]
+          },
+          {
+            "first": 386,
+            "last": 386,
+            "sample": [
+              64,
+              66,
+              60
+            ]
+          },
+          {
+            "first": 387,
+            "last": 387,
+            "sample": [
+              135,
+              125,
+              63
+            ]
+          },
+          {
+            "first": 388,
+            "last": 389,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 390,
+            "last": 390,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 391,
+            "last": 391,
+            "sample": [
+              146,
+              135,
+              64
+            ]
+          },
+          {
+            "first": 392,
+            "last": 392,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 393,
+            "last": 393,
+            "sample": [
+              185,
+              167,
+              68
+            ]
+          },
+          {
+            "first": 394,
+            "last": 394,
+            "sample": [
+              59,
+              60,
+              60
+            ]
+          },
+          {
+            "first": 395,
+            "last": 397,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 398,
+            "last": 398,
+            "sample": [
+              204,
+              184,
+              70
+            ]
+          },
+          {
+            "first": 399,
+            "last": 401,
+            "sample": [
+              183,
+              166,
+              68
+            ]
+          },
+          {
+            "first": 402,
+            "last": 402,
+            "sample": [
+              236,
+              210,
+              74
+            ]
+          },
+          {
+            "first": 403,
+            "last": 403,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 404,
+            "last": 404,
+            "sample": [
+              94,
+              91,
+              61
+            ]
+          },
+          {
+            "first": 405,
+            "last": 405,
+            "sample": [
+              51,
+              55,
+              60
+            ]
+          },
+          {
+            "first": 406,
+            "last": 409,
+            "sample": [
+              56,
+              59,
+              60
+            ]
+          },
+          {
+            "first": 410,
+            "last": 410,
+            "sample": [
+              55,
+              58,
+              60
+            ]
+          },
+          {
+            "first": 411,
+            "last": 411,
+            "sample": [
+              47,
+              51,
+              60
+            ]
+          },
+          {
+            "first": 412,
+            "last": 412,
+            "sample": [
+              226,
+              202,
+              72
+            ]
+          },
+          {
+            "first": 413,
+            "last": 416,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 417,
+            "last": 417,
+            "sample": [
+              59,
+              61,
+              60
+            ]
+          },
+          {
+            "first": 418,
+            "last": 418,
+            "sample": [
+              187,
+              170,
+              68
+            ]
+          },
+          {
+            "first": 419,
+            "last": 511,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 512,
+            "last": 512,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 400,
+        "runs": [
+          {
+            "first": 861,
+            "last": 883,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 884,
+            "last": 884,
+            "sample": [
+              172,
+              157,
+              67
+            ]
+          },
+          {
+            "first": 885,
+            "last": 885,
+            "sample": [
+              66,
+              67,
+              60
+            ]
+          },
+          {
+            "first": 886,
+            "last": 886,
+            "sample": [
+              219,
+              196,
+              72
+            ]
+          },
+          {
+            "first": 887,
+            "last": 887,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 888,
+            "last": 888,
+            "sample": [
+              183,
+              166,
+              68
+            ]
+          },
+          {
+            "first": 889,
+            "last": 889,
+            "sample": [
+              75,
+              75,
+              60
+            ]
+          },
+          {
+            "first": 890,
+            "last": 890,
+            "sample": [
+              245,
+              218,
+              75
+            ]
+          },
+          {
+            "first": 891,
+            "last": 891,
+            "sample": [
+              186,
+              168,
+              68
+            ]
+          },
+          {
+            "first": 892,
+            "last": 892,
+            "sample": [
+              59,
+              61,
+              60
+            ]
+          },
+          {
+            "first": 893,
+            "last": 893,
+            "sample": [
+              141,
+              130,
+              64
+            ]
+          },
+          {
+            "first": 894,
+            "last": 915,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Complete literal RIGHT readable at its own upper/lower cell center; window occlusion reported separately"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "frame/top",
+      "derivedWindowPx": [
+        65,
+        861,
+        512,
+        869.25
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 865,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 66,
+            "last": 511,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 512,
+            "last": 512,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 288,
+        "runs": [
+          {
+            "first": 861,
+            "last": 869,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "finding": "Upper connected blue top stroke visible except native legend overlap; lower control no matching blue stroke in exposed region"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "frame/bottom",
+      "derivedWindowPx": [
+        65,
+        907.75,
+        512,
+        916
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 912,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 66,
+            "last": 71,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 72,
+            "last": 93,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 94,
+            "last": 511,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 512,
+            "last": 512,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 288,
+        "runs": [
+          {
+            "first": 907,
+            "last": 915,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Upper connected blue bottom stroke readable; lower control no corresponding blue stroke"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "frame/left",
+      "derivedWindowPx": [
+        65,
+        861,
+        132.05,
+        916
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 66,
+            "last": 132,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 99,
+        "runs": [
+          {
+            "first": 861,
+            "last": 894,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 895,
+            "last": 897,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 898,
+            "last": 898,
+            "sample": [
+              125,
+              112,
+              43
+            ]
+          },
+          {
+            "first": 899,
+            "last": 915,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Upper blue left stroke fragments readable; legend obscures upper portion. Lower control window intersects watermark"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "frame/right",
+      "derivedWindowPx": [
+        444.95,
+        861,
+        512,
+        916
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 444,
+            "last": 511,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 512,
+            "last": 512,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 478,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Upper connected blue right stroke readable; lower control no corresponding blue stroke"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "divider/1",
+      "derivedWindowPx": [
+        266.15,
+        869.25,
+        310.85,
+        874.75
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 872,
+        "runs": [
+          {
+            "first": 266,
+            "last": 310,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 288,
+        "runs": [
+          {
+            "first": 869,
+            "last": 874,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "finding": "Upper red internal separator lies between yellow bodies but native legend crosses upper strip. Lower unframed control has no red divider"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "divider/2",
+      "derivedWindowPx": [
+        266.15,
+        902.25,
+        310.85,
+        907.75
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 905,
+        "runs": [
+          {
+            "first": 266,
+            "last": 310,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 288,
+        "runs": [
+          {
+            "first": 902,
+            "last": 907,
+            "sample": [
+              255,
+              228,
+              77
+            ]
+          }
+        ]
+      },
+      "finding": "Upper red vertical internal separator readable in lower strip; lower control has no red separator"
+    }
+  ],
+  "outcome": "UNDECIDED",
+  "notObservedCauses": [
+    "subject/envelope intersects native indicator legend",
+    "subject/body intersects native indicator legend",
+    "subject/text/LEFT intersects native indicator legend",
+    "subject/text/RIGHT intersects native indicator legend",
+    "subject/frame/top intersects native indicator legend",
+    "subject/frame/left intersects native indicator legend",
+    "subject/divider/1 intersects native indicator legend",
+    "control/envelope intersects TradingView watermark",
+    "control/body intersects TradingView watermark",
+    "control/text/LEFT intersects TradingView watermark",
+    "control/frame/bottom intersects TradingView watermark",
+    "control/frame/left intersects TradingView watermark",
+    "Native legend intersects the required upper top/left frame, body and upper divider strip; watermark intersects lower control body/left frame-band windows. Complete words and exposed structural segments are retained, but not all frozen independent windows are unoccluded."
+  ],
+  "scope": "Complete per-object fixed envelopes, exterior registration, body/text/individual frame bands/divider strips; raw scan pointers do not complete unreadable glyphs or infer occluded structures."
+}

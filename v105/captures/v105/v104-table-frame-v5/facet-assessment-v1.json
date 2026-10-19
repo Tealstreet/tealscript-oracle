@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-frame-v5",
+  "sourceSha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+  "numericReport": {
+    "path": "v105/captures/v105/v104-table-frame-v5/numeric-results-v1.json",
+    "bytes": 142751,
+    "sha256": "a2f113f99d6686956edc8f387dfa1db981e620b7188aa1f047a29f440617dc11"
+  },
+  "compilerDiagnostics": {
+    "path": "v105/captures/v105/v104-table-frame-v5/compiler-diagnostics-v1.json",
+    "bytes": 1580,
+    "sha256": "926ba56f190872a470586f0c0ad5d629b0c064c4dcd0c68039393bf209d33542"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-table-frame-v5:frame-border-paint",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+      "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v104-table-frame-v5/derived-region-map-v1.json",
+        "bytes": 9004,
+        "sha256": "b0592ac193f7d2a24015553f01fb0d4b326dc677d7344da7a01853fbf3a0bf82"
+      },
+      "notObservedCauses": [
+        "Native legend intersects the required upper top/left frame, body and upper divider strip; watermark intersects lower control body/left frame-band windows. Complete words and exposed structural segments are retained, but not all frozen independent windows are unoccluded."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
