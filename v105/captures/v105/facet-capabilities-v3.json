@@ -1,0 +1,197 @@
+{
+  "version": "v3",
+  "sources": [
+    {
+      "sourceId": "v105-alpha-composite-v6",
+      "sourceSha256": "1256da2a975e8c87c8b605e10a93d2a3bb916eb0f1c053721e1d4f2b1c7f459c",
+      "numericReport": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/numeric-results-v1.json",
+        "bytes": 221216,
+        "sha256": "5fbb8dd8d71e435de50a958038908f950540cb82e718e0553f4779fcd22852ba"
+      },
+      "facetAssessment": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/facet-assessment-v1.json",
+        "bytes": 5806,
+        "sha256": "b345083c693b7e78e1dbfc5a9ac5f5d2adf7b6a9d9fbdd1d180f50ce673d1c69"
+      },
+      "compilerDiagnostics": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/compiler-diagnostics-v1.json",
+        "bytes": 1592,
+        "sha256": "c95be7bfdaf72bcaef5f63bfefc7e7583a55c2e30e2e9abaac7c49f9c88962ac"
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/derived-region-map-v1.json",
+        "bytes": 15268,
+        "sha256": "e68cfa1a6f0703455f0f2f7cc9f17a6f9fcf1d24d4e324c1daa93b3f3e1f4e00"
+      }
+    },
+    {
+      "sourceId": "v105-table-survival-v5",
+      "sourceSha256": "53d74858a26c6e3cbce7c4e1412d5aa3ad92050b19fab34fdd3a3c366e8d3ee2",
+      "numericReport": {
+        "path": "v105/captures/v105/v105-table-survival-v5/numeric-results-v1.json",
+        "bytes": 158054,
+        "sha256": "591917af3d49f4fb647196c13f17d691016c2b20e8628fb09a364ecfd89ec04c"
+      },
+      "facetAssessment": {
+        "path": "v105/captures/v105/v105-table-survival-v5/facet-assessment-v1.json",
+        "bytes": 2065,
+        "sha256": "f1d5e688c6493e0716c4833fe517f4b1aa28c1d73cc5bbbfc886186db6e84c8b"
+      },
+      "compilerDiagnostics": {
+        "path": "v105/captures/v105/v105-table-survival-v5/compiler-diagnostics-v1.json",
+        "bytes": 1589,
+        "sha256": "7ebd3279a52ab518833d241b684a2721289d1a3fe69fa5b66ecd20a1a0c9aaac"
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-table-survival-v5/derived-region-map-v1.json",
+        "bytes": 8456,
+        "sha256": "865f79388871789b5c8a55951fd968b9202c35bd60600b0f5b6d4c24211916d5"
+      }
+    }
+  ],
+  "visualFacets": [
+    {
+      "facetId": "v105-alpha-composite-v6:fill-over-fill",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/derived-region-map-v1.json",
+        "bytes": 15268,
+        "sha256": "e68cfa1a6f0703455f0f2f7cc9f17a6f9fcf1d24d4e324c1daa93b3f3e1f4e00"
+      },
+      "notObservedCauses": [
+        "Independent gray-control painted edges are unexposed; frozen five-pixel actual object-edge clearance is not authenticated. All raw/derived samples and exact opaque-control results are retained."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v105-alpha-composite-v6:fill-over-background",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/derived-region-map-v1.json",
+        "bytes": 15268,
+        "sha256": "e68cfa1a6f0703455f0f2f7cc9f17a6f9fcf1d24d4e324c1daa93b3f3e1f4e00"
+      },
+      "notObservedCauses": [
+        "Independent gray-control painted edges are unexposed; frozen five-pixel actual object-edge clearance is not authenticated. All raw/derived samples and exact opaque-control results are retained."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v105-alpha-composite-v6:line-over-line",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/derived-region-map-v1.json",
+        "bytes": 15268,
+        "sha256": "e68cfa1a6f0703455f0f2f7cc9f17a6f9fcf1d24d4e324c1daa93b3f3e1f4e00"
+      },
+      "notObservedCauses": [
+        "Independent gray-control painted edges are unexposed; frozen five-pixel actual object-edge clearance is not authenticated. All raw/derived samples and exact opaque-control results are retained."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v105-alpha-composite-v6:line-over-background",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
+      "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
+      "frozenPixelWindow": {
+        "coordinates": "anchor-bars/value",
+        "x": [
+          -39,
+          0
+        ],
+        "y": [
+          0,
+          100
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-alpha-composite-v6/derived-region-map-v1.json",
+        "bytes": 15268,
+        "sha256": "e68cfa1a6f0703455f0f2f7cc9f17a6f9fcf1d24d4e324c1daa93b3f3e1f4e00"
+      },
+      "notObservedCauses": [
+        "Independent gray-control painted edges are unexposed; frozen five-pixel actual object-edge clearance is not authenticated. All raw/derived samples and exact opaque-control results are retained."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v105-table-survival-v5:same-position-lifetime",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "A is absent after B first takes top-left then moves to middle-right",
+      "modelB": "A reappears at top-left after B moves away",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-table-survival-v5/derived-region-map-v1.json",
+        "bytes": 8456,
+        "sha256": "865f79388871789b5c8a55951fd968b9202c35bd60600b0f5b6d4c24211916d5"
+      },
+      "notObservedCauses": [
+        "The mandatory original A/top-left envelope intersects the native indicator legend; A presence/absence under that overlay is unobserved. Full B/C controls and numeric handles do not repair the missing unoccluded original window."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "maximumRegisteredFacets": 8,
+  "scope": "Returned finite facets only; no broad family PASS, transferred v5/v6 closure, engine parity or fixture promotion"
+}

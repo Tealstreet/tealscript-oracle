@@ -1,0 +1,110 @@
+{
+  "version": "v1",
+  "method": "Original PNG named windows and complete B/C readings; original top-left A region assessed independently of handle/count values",
+  "inspectedOriginalPngSha256": "42a294260d90bf291d5fac38af745caeb6504f9c8afb3b8b46182f2191757be7",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      55,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "08:00 UTC",
+        "unixSeconds": 1792396800,
+        "xPx": 309
+      },
+      {
+        "label": "08:30 UTC",
+        "unixSeconds": 1792398600,
+        "xPx": 613
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "original": {
+      "exteriorPx": null,
+      "registrationReadable": false,
+      "windowFindings": {
+        "envelope": "No red A body is exposed in the visible portion; native indicator legend obscures the candidate location, so absence is not certified."
+      }
+    },
+    "moved": {
+      "exteriorPx": [
+        1161,
+        767,
+        1180,
+        791
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete separate blue B body",
+        "text/completeText": "Complete literal B"
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        1160,
+        642,
+        1180,
+        666
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete separate orange C body",
+        "text/completeText": "Complete literal C"
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        63,
+        639,
+        412,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        67,
+        897,
+        98,
+        913
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v105-table-survival-v5:same-position-lifetime",
+      "outcome": "UNDECIDED",
+      "observation": "Blue B at middle-right and orange C at top-right are both complete. The visible top-left portion has no exposed red A, but the native legend covers the small candidate location; no complete unoccluded original-window absence observation is possible.",
+      "visibleTextByRegion": [
+        {
+          "region": "moved middle-right",
+          "literal": "B"
+        },
+        {
+          "region": "control top-right",
+          "literal": "C"
+        }
+      ],
+      "notObservedCause": "The mandatory original A/top-left envelope intersects the native indicator legend; A presence/absence under that overlay is unobserved. Full B/C controls and numeric handles do not repair the missing unoccluded original window.",
+      "notObservedCauses": [
+        "The mandatory original A/top-left envelope intersects the native indicator legend; A presence/absence under that overlay is unobserved. Full B/C controls and numeric handles do not repair the missing unoccluded original window."
+      ],
+      "scope": "Only this new v5 source/private/session and fixed named windows. Numeric TABLE_COUNT/OLD_NA are separate unspecified native observations; no borrowed historical paint credit."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,33 @@
+------WebKitFormBoundaryxgtCRWeMCAC5t1gC
+Content-Disposition: form-data; name="source"
+
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v105-table-survival-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float table_count = na
+var float old_na = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    a = table.new(position.top_left, 1, 1, bgcolor=color.red)
+    table.cell(a, 0, 0, "A", text_color=color.white, bgcolor=color.red)
+    b = table.new(position.top_left, 1, 1, bgcolor=color.blue)
+    table.cell(b, 0, 0, "B", text_color=color.white, bgcolor=color.blue)
+    table.set_position(b, position.middle_right)
+    c = table.new(position.top_right, 1, 1, bgcolor=color.orange)
+    table.cell(c, 0, 0, "C", text_color=color.white, bgcolor=color.orange)
+    table_count := array.size(table.all)
+    old_na := na(a) ? 1 : 0
+plot(build ? table_count : na, "TABLE_COUNT", display=display.data_window)
+plot(build ? old_na : na, "OLD_NA", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
+plot(time, "INPUT_TIME", display=display.data_window)
+plot(barstate.isconfirmed ? 1 : 0, "CHART_CONFIRMED", display=display.data_window)
+plot(bar_index % 8, "CASE_ID", display=display.data_window)
+plot(build ? anchorIndex : na, "VISUAL_ANCHOR_INDEX", display=display.data_window)
+plot(build ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)
+
+------WebKitFormBoundaryxgtCRWeMCAC5t1gC--

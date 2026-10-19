@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "sourceId": "v105-table-survival-v5",
+  "sourceSha256": "53d74858a26c6e3cbce7c4e1412d5aa3ad92050b19fab34fdd3a3c366e8d3ee2",
+  "numericReport": {
+    "path": "v105/captures/v105/v105-table-survival-v5/numeric-results-v1.json",
+    "bytes": 158054,
+    "sha256": "591917af3d49f4fb647196c13f17d691016c2b20e8628fb09a364ecfd89ec04c"
+  },
+  "compilerDiagnostics": {
+    "path": "v105/captures/v105/v105-table-survival-v5/compiler-diagnostics-v1.json",
+    "bytes": 1589,
+    "sha256": "7ebd3279a52ab518833d241b684a2721289d1a3fe69fa5b66ecd20a1a0c9aaac"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v105-table-survival-v5:same-position-lifetime",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "A is absent after B first takes top-left then moves to middle-right",
+      "modelB": "A reappears at top-left after B moves away",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v105-table-survival-v5/derived-region-map-v1.json",
+        "bytes": 8456,
+        "sha256": "865f79388871789b5c8a55951fd968b9202c35bd60600b0f5b6d4c24211916d5"
+      },
+      "notObservedCauses": [
+        "The mandatory original A/top-left envelope intersects the native indicator legend; A presence/absence under that overlay is unobserved. Full B/C controls and numeric handles do not repair the missing unoccluded original window."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

@@ -1,0 +1,10 @@
+    table.cell(a, 0, 0, "A", text_color=color.white, bgcolor=color.red)
+    b = table.new(position.top_left, 1, 1, bgcolor=color.blue)
+    table.cell(b, 0, 0, "B", text_color=color.white, bgcolor=color.blue)
+    table.set_position(b, position.middle_right)
+    c = table.new(position.top_right, 1, 1, bgcolor=color.orange)
+    table.cell(c, 0, 0, "C", text_color=color.white, bgcolor=color.orange)
+    table_count := array.size(table.all)
+    old_na := na(a) ? 1 : 0
+plot(build ? table_count : na, "TABLE_COUNT", display=display.data_window)
+plot(build ? old_na : na, "OLD_NA", display=display.data_window)
