@@ -1,0 +1,3279 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-merge-v5",
+  "slotId": "v105-table-merge-v5",
+  "sourceSha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+  "privateScriptId": "USER;cfbf99b1946a4adb830af9302fd3ca1e",
+  "privateVersion": "1.0",
+  "originalPng": {
+    "path": "v105/captures/v105/v104-table-merge-v5/attempt-v1/session-mode0-v1/render-v1.png",
+    "bytes": 151303,
+    "sha256": "84dd3acf0ab452076e9e43aa534796ad7fb0429d3f100ee540757e3f9a3c495d"
+  },
+  "originalCsv": {
+    "path": "v105/captures/v105/v104-table-merge-v5/attempt-v1/session-mode0-v1/chart-native-v1.csv",
+    "bytes": 26779,
+    "sha256": "de1b255e305dbed830d6374e5fcc2067cf39828880a8d8bc976e290cd29a2ced"
+  },
+  "rowSet": {
+    "path": "v105/captures/v105/v104-table-merge-v5/attempt-v1/session-mode0-v1/row-set-observation-v1.json",
+    "bytes": 7763,
+    "sha256": "afffad686573e78add12640173ff6d09f15eb270b6c7a5ed3e0c9be031a29e4d"
+  },
+  "manualInspection": {
+    "path": "v105/captures/v105/v104-table-merge-v5/visual-inspection-v1.json",
+    "bytes": 4376,
+    "sha256": "9c6fbd1d40c0aa6d46821e2adcccd04e0f3ef9a070530dcb74f0a0356c8d0dfe"
+  },
+  "frozenPredeclaredWindows": {
+    "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+    "envelopes": {
+      "subject": [
+        0,
+        0.5,
+        0,
+        0.3
+      ],
+      "control": [
+        0,
+        0.5,
+        0.7,
+        1
+      ]
+    },
+    "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+    "body": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "registration": "Map declared envelopes through actual pane bounds. Register the complete table exterior using all visible boundary segments without choosing a model or fitting text. Missing/ambiguous boundaries hold the property; never move or enlarge an envelope after inspection.",
+    "completeText": {
+      "subjectMERGED": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "subjectHIDDENcandidate": [
+        0.5,
+        1,
+        0,
+        1
+      ],
+      "controlMERGED": [
+        0,
+        0.5,
+        0,
+        1
+      ],
+      "controlHIDDEN": [
+        0.5,
+        1,
+        0,
+        1
+      ]
+    },
+    "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+    "subjectName": "B upper merged candidate",
+    "controlName": "C lower unmerged control",
+    "bodies": {
+      "subjectFull": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "subjectRight": [
+        0.5,
+        1,
+        0,
+        1
+      ],
+      "controlLeft": [
+        0,
+        0.5,
+        0,
+        1
+      ],
+      "controlRight": [
+        0.5,
+        1,
+        0,
+        1
+      ]
+    },
+    "divider": [
+      [
+        0.45,
+        0.55,
+        0.15,
+        0.25
+      ],
+      [
+        0.45,
+        0.55,
+        0.75,
+        0.85
+      ]
+    ],
+    "dividerRule": "Upper/lower divider bands require a vertical separator with colored body on either side; horizontal outer borders and caption ink cannot supply it. Score full blue merged span and absence/presence of orange HIDDEN body separately. Whole table outside the fixed envelope or unreadable lower control is NOT OBSERVED."
+  },
+  "paneInteriorBoundsPx": [
+    55,
+    632,
+    1190,
+    926
+  ],
+  "derivedEnvelopesPx": {
+    "subject": [
+      55,
+      632,
+      622.5,
+      720.2
+    ],
+    "control": [
+      55,
+      837.8,
+      622.5,
+      926
+    ]
+  },
+  "registeredTableObjects": {
+    "subject": {
+      "exteriorPx": null,
+      "registrationReadable": false,
+      "visiblePartialBodyBoundsPx": [
+        65,
+        661,
+        289,
+        697
+      ],
+      "observedLiteral": "MERGED",
+      "observedGlyphBoundsPx": [
+        149,
+        665,
+        207,
+        676
+      ],
+      "windowFindings": {
+        "envelope": "Legend covers the upper top boundary and background. Visible separate blue body fragment extends x65..289; no claim of equal width to lower control or complete two-column span."
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        65,
+        861,
+        516,
+        916
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Separate blue left and orange right bodies, with watermark over part of left background",
+        "text/controlMERGED": "Complete literal MERGED readable in its own left cell",
+        "text/controlHIDDEN": "Complete literal HIDDEN readable in its own right cell",
+        "body/controlLeft": "Blue body partially obscured by native watermark",
+        "body/controlRight": "Orange right body visible and separated",
+        "divider/1": "White internal vertical separator at x289..293 between blue and orange; independently visible in upper strip",
+        "divider/2": "Same vertical separator independently visible in lower strip, clear of watermark"
+      }
+    }
+  },
+  "namedWindows": [
+    {
+      "objectIdentity": "subject",
+      "regionIdentity": "envelope",
+      "derivedWindowPx": [
+        55,
+        632,
+        622.5,
+        720.2
+      ],
+      "occludingObjects": [
+        {
+          "identity": "native indicator legend",
+          "boundsPx": [
+            63,
+            639,
+            378,
+            661
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 676,
+        "runs": [
+          {
+            "first": 55,
+            "last": 55,
+            "sample": [
+              41,
+              41,
+              41
+            ]
+          },
+          {
+            "first": 56,
+            "last": 65,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 66,
+            "last": 288,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 289,
+            "last": 348,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 349,
+            "last": 349,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 350,
+            "last": 449,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 450,
+            "last": 450,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 451,
+            "last": 551,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 552,
+            "last": 552,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 553,
+            "last": 622,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 339,
+        "runs": [
+          {
+            "first": 632,
+            "last": 635,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 636,
+            "last": 643,
+            "sample": [
+              16,
+              16,
+              16
+            ]
+          },
+          {
+            "first": 644,
+            "last": 644,
+            "sample": [
+              68,
+              70,
+              76
+            ]
+          },
+          {
+            "first": 645,
+            "last": 645,
+            "sample": [
+              102,
+              105,
+              114
+            ]
+          },
+          {
+            "first": 646,
+            "last": 646,
+            "sample": [
+              64,
+              65,
+              71
+            ]
+          },
+          {
+            "first": 647,
+            "last": 647,
+            "sample": [
+              50,
+              51,
+              55
+            ]
+          },
+          {
+            "first": 648,
+            "last": 648,
+            "sample": [
+              43,
+              44,
+              47
+            ]
+          },
+          {
+            "first": 649,
+            "last": 649,
+            "sample": [
+              52,
+              53,
+              57
+            ]
+          },
+          {
+            "first": 650,
+            "last": 650,
+            "sample": [
+              70,
+              72,
+              78
+            ]
+          },
+          {
+            "first": 651,
+            "last": 651,
+            "sample": [
+              103,
+              106,
+              116
+            ]
+          },
+          {
+            "first": 652,
+            "last": 652,
+            "sample": [
+              54,
+              56,
+              60
+            ]
+          },
+          {
+            "first": 653,
+            "last": 659,
+            "sample": [
+              16,
+              16,
+              16
+            ]
+          },
+          {
+            "first": 660,
+            "last": 660,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 661,
+            "last": 661,
+            "sample": [
+              108,
+              112,
+              122
+            ]
+          },
+          {
+            "first": 662,
+            "last": 708,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 709,
+            "last": 709,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 710,
+            "last": 720,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Legend covers the upper top boundary and background. Visible separate blue body fragment extends x65..289; no claim of equal width to lower control or complete two-column span."
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "envelope",
+      "derivedWindowPx": [
+        55,
+        837.8,
+        622.5,
+        926
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 882,
+        "runs": [
+          {
+            "first": 55,
+            "last": 55,
+            "sample": [
+              41,
+              41,
+              41
+            ]
+          },
+          {
+            "first": 56,
+            "last": 65,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 66,
+            "last": 288,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 289,
+            "last": 292,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 293,
+            "last": 515,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 516,
+            "last": 551,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 552,
+            "last": 552,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 553,
+            "last": 622,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 339,
+        "runs": [
+          {
+            "first": 837,
+            "last": 852,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 853,
+            "last": 853,
+            "sample": [
+              53,
+              53,
+              53
+            ]
+          },
+          {
+            "first": 854,
+            "last": 860,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 916,
+            "last": 926,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "UNOBSERVED"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "body",
+      "derivedWindowPx": [
+        65,
+        861,
+        516,
+        916
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 66,
+            "last": 149,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 150,
+            "last": 150,
+            "sample": [
+              191,
+              211,
+              252
+            ]
+          },
+          {
+            "first": 151,
+            "last": 151,
+            "sample": [
+              113,
+              156,
+              250
+            ]
+          },
+          {
+            "first": 152,
+            "last": 152,
+            "sample": [
+              174,
+              199,
+              252
+            ]
+          },
+          {
+            "first": 153,
+            "last": 153,
+            "sample": [
+              131,
+              168,
+              250
+            ]
+          },
+          {
+            "first": 154,
+            "last": 155,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 156,
+            "last": 156,
+            "sample": [
+              78,
+              132,
+              249
+            ]
+          },
+          {
+            "first": 157,
+            "last": 157,
+            "sample": [
+              229,
+              237,
+              254
+            ]
+          },
+          {
+            "first": 158,
+            "last": 158,
+            "sample": [
+              65,
+              124,
+              248
+            ]
+          },
+          {
+            "first": 159,
+            "last": 159,
+            "sample": [
+              250,
+              252,
+              255
+            ]
+          },
+          {
+            "first": 160,
+            "last": 161,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 162,
+            "last": 162,
+            "sample": [
+              133,
+              170,
+              250
+            ]
+          },
+          {
+            "first": 163,
+            "last": 163,
+            "sample": [
+              251,
+              253,
+              255
+            ]
+          },
+          {
+            "first": 164,
+            "last": 167,
+            "sample": [
+              241,
+              245,
+              254
+            ]
+          },
+          {
+            "first": 168,
+            "last": 168,
+            "sample": [
+              100,
+              147,
+              249
+            ]
+          },
+          {
+            "first": 169,
+            "last": 169,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 170,
+            "last": 170,
+            "sample": [
+              77,
+              131,
+              249
+            ]
+          },
+          {
+            "first": 171,
+            "last": 171,
+            "sample": [
+              253,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 172,
+            "last": 173,
+            "sample": [
+              89,
+              140,
+              249
+            ]
+          },
+          {
+            "first": 174,
+            "last": 174,
+            "sample": [
+              103,
+              149,
+              249
+            ]
+          },
+          {
+            "first": 175,
+            "last": 175,
+            "sample": [
+              181,
+              204,
+              252
+            ]
+          },
+          {
+            "first": 176,
+            "last": 176,
+            "sample": [
+              236,
+              242,
+              254
+            ]
+          },
+          {
+            "first": 177,
+            "last": 177,
+            "sample": [
+              53,
+              115,
+              248
+            ]
+          },
+          {
+            "first": 178,
+            "last": 178,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 179,
+            "last": 179,
+            "sample": [
+              149,
+              182,
+              251
+            ]
+          },
+          {
+            "first": 180,
+            "last": 180,
+            "sample": [
+              178,
+              202,
+              252
+            ]
+          },
+          {
+            "first": 181,
+            "last": 183,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 184,
+            "last": 184,
+            "sample": [
+              91,
+              142,
+              249
+            ]
+          },
+          {
+            "first": 185,
+            "last": 187,
+            "sample": [
+              95,
+              143,
+              249
+            ]
+          },
+          {
+            "first": 188,
+            "last": 188,
+            "sample": [
+              29,
+              99,
+              248
+            ]
+          },
+          {
+            "first": 189,
+            "last": 189,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 190,
+            "last": 190,
+            "sample": [
+              254,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 191,
+            "last": 191,
+            "sample": [
+              244,
+              247,
+              255
+            ]
+          },
+          {
+            "first": 192,
+            "last": 194,
+            "sample": [
+              241,
+              245,
+              254
+            ]
+          },
+          {
+            "first": 195,
+            "last": 195,
+            "sample": [
+              210,
+              223,
+              253
+            ]
+          },
+          {
+            "first": 196,
+            "last": 197,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 198,
+            "last": 198,
+            "sample": [
+              254,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 199,
+            "last": 199,
+            "sample": [
+              76,
+              131,
+              249
+            ]
+          },
+          {
+            "first": 200,
+            "last": 203,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 204,
+            "last": 204,
+            "sample": [
+              83,
+              135,
+              249
+            ]
+          },
+          {
+            "first": 205,
+            "last": 205,
+            "sample": [
+              249,
+              251,
+              255
+            ]
+          },
+          {
+            "first": 206,
+            "last": 206,
+            "sample": [
+              29,
+              99,
+              248
+            ]
+          },
+          {
+            "first": 207,
+            "last": 288,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 289,
+            "last": 292,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 293,
+            "last": 379,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 380,
+            "last": 380,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 381,
+            "last": 381,
+            "sample": [
+              255,
+              250,
+              245
+            ]
+          },
+          {
+            "first": 382,
+            "last": 385,
+            "sample": [
+              255,
+              249,
+              241
+            ]
+          },
+          {
+            "first": 386,
+            "last": 386,
+            "sample": [
+              255,
+              251,
+              246
+            ]
+          },
+          {
+            "first": 387,
+            "last": 387,
+            "sample": [
+              255,
+              240,
+              223
+            ]
+          },
+          {
+            "first": 388,
+            "last": 389,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 390,
+            "last": 390,
+            "sample": [
+              255,
+              224,
+              185
+            ]
+          },
+          {
+            "first": 391,
+            "last": 391,
+            "sample": [
+              255,
+              192,
+              122
+            ]
+          },
+          {
+            "first": 392,
+            "last": 393,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 394,
+            "last": 394,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 395,
+            "last": 395,
+            "sample": [
+              255,
+              164,
+              69
+            ]
+          },
+          {
+            "first": 396,
+            "last": 399,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 400,
+            "last": 400,
+            "sample": [
+              255,
+              168,
+              75
+            ]
+          },
+          {
+            "first": 401,
+            "last": 401,
+            "sample": [
+              255,
+              253,
+              248
+            ]
+          },
+          {
+            "first": 402,
+            "last": 402,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 403,
+            "last": 403,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 404,
+            "last": 404,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 405,
+            "last": 405,
+            "sample": [
+              255,
+              164,
+              69
+            ]
+          },
+          {
+            "first": 406,
+            "last": 409,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 410,
+            "last": 410,
+            "sample": [
+              255,
+              168,
+              75
+            ]
+          },
+          {
+            "first": 411,
+            "last": 411,
+            "sample": [
+              255,
+              253,
+              248
+            ]
+          },
+          {
+            "first": 412,
+            "last": 412,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 413,
+            "last": 413,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 414,
+            "last": 414,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 415,
+            "last": 415,
+            "sample": [
+              255,
+              250,
+              243
+            ]
+          },
+          {
+            "first": 416,
+            "last": 418,
+            "sample": [
+              255,
+              248,
+              240
+            ]
+          },
+          {
+            "first": 419,
+            "last": 419,
+            "sample": [
+              255,
+              232,
+              204
+            ]
+          },
+          {
+            "first": 420,
+            "last": 421,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 422,
+            "last": 422,
+            "sample": [
+              255,
+              224,
+              185
+            ]
+          },
+          {
+            "first": 423,
+            "last": 423,
+            "sample": [
+              255,
+              191,
+              118
+            ]
+          },
+          {
+            "first": 424,
+            "last": 424,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 425,
+            "last": 425,
+            "sample": [
+              255,
+              227,
+              195
+            ]
+          },
+          {
+            "first": 426,
+            "last": 426,
+            "sample": [
+              255,
+              196,
+              127
+            ]
+          },
+          {
+            "first": 427,
+            "last": 427,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 428,
+            "last": 428,
+            "sample": [
+              255,
+              146,
+              47
+            ]
+          },
+          {
+            "first": 429,
+            "last": 429,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 430,
+            "last": 430,
+            "sample": [
+              255,
+              152,
+              53
+            ]
+          },
+          {
+            "first": 431,
+            "last": 515,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 516,
+            "last": 516,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Separate blue left and orange right bodies, with watermark over part of left background"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "text/controlMERGED",
+      "derivedWindowPx": [
+        65,
+        861,
+        290.5,
+        916
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 66,
+            "last": 149,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 150,
+            "last": 150,
+            "sample": [
+              191,
+              211,
+              252
+            ]
+          },
+          {
+            "first": 151,
+            "last": 151,
+            "sample": [
+              113,
+              156,
+              250
+            ]
+          },
+          {
+            "first": 152,
+            "last": 152,
+            "sample": [
+              174,
+              199,
+              252
+            ]
+          },
+          {
+            "first": 153,
+            "last": 153,
+            "sample": [
+              131,
+              168,
+              250
+            ]
+          },
+          {
+            "first": 154,
+            "last": 155,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 156,
+            "last": 156,
+            "sample": [
+              78,
+              132,
+              249
+            ]
+          },
+          {
+            "first": 157,
+            "last": 157,
+            "sample": [
+              229,
+              237,
+              254
+            ]
+          },
+          {
+            "first": 158,
+            "last": 158,
+            "sample": [
+              65,
+              124,
+              248
+            ]
+          },
+          {
+            "first": 159,
+            "last": 159,
+            "sample": [
+              250,
+              252,
+              255
+            ]
+          },
+          {
+            "first": 160,
+            "last": 161,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 162,
+            "last": 162,
+            "sample": [
+              133,
+              170,
+              250
+            ]
+          },
+          {
+            "first": 163,
+            "last": 163,
+            "sample": [
+              251,
+              253,
+              255
+            ]
+          },
+          {
+            "first": 164,
+            "last": 167,
+            "sample": [
+              241,
+              245,
+              254
+            ]
+          },
+          {
+            "first": 168,
+            "last": 168,
+            "sample": [
+              100,
+              147,
+              249
+            ]
+          },
+          {
+            "first": 169,
+            "last": 169,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 170,
+            "last": 170,
+            "sample": [
+              77,
+              131,
+              249
+            ]
+          },
+          {
+            "first": 171,
+            "last": 171,
+            "sample": [
+              253,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 172,
+            "last": 173,
+            "sample": [
+              89,
+              140,
+              249
+            ]
+          },
+          {
+            "first": 174,
+            "last": 174,
+            "sample": [
+              103,
+              149,
+              249
+            ]
+          },
+          {
+            "first": 175,
+            "last": 175,
+            "sample": [
+              181,
+              204,
+              252
+            ]
+          },
+          {
+            "first": 176,
+            "last": 176,
+            "sample": [
+              236,
+              242,
+              254
+            ]
+          },
+          {
+            "first": 177,
+            "last": 177,
+            "sample": [
+              53,
+              115,
+              248
+            ]
+          },
+          {
+            "first": 178,
+            "last": 178,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 179,
+            "last": 179,
+            "sample": [
+              149,
+              182,
+              251
+            ]
+          },
+          {
+            "first": 180,
+            "last": 180,
+            "sample": [
+              178,
+              202,
+              252
+            ]
+          },
+          {
+            "first": 181,
+            "last": 183,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 184,
+            "last": 184,
+            "sample": [
+              91,
+              142,
+              249
+            ]
+          },
+          {
+            "first": 185,
+            "last": 187,
+            "sample": [
+              95,
+              143,
+              249
+            ]
+          },
+          {
+            "first": 188,
+            "last": 188,
+            "sample": [
+              29,
+              99,
+              248
+            ]
+          },
+          {
+            "first": 189,
+            "last": 189,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 190,
+            "last": 190,
+            "sample": [
+              254,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 191,
+            "last": 191,
+            "sample": [
+              244,
+              247,
+              255
+            ]
+          },
+          {
+            "first": 192,
+            "last": 194,
+            "sample": [
+              241,
+              245,
+              254
+            ]
+          },
+          {
+            "first": 195,
+            "last": 195,
+            "sample": [
+              210,
+              223,
+              253
+            ]
+          },
+          {
+            "first": 196,
+            "last": 197,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 198,
+            "last": 198,
+            "sample": [
+              254,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 199,
+            "last": 199,
+            "sample": [
+              76,
+              131,
+              249
+            ]
+          },
+          {
+            "first": 200,
+            "last": 203,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 204,
+            "last": 204,
+            "sample": [
+              83,
+              135,
+              249
+            ]
+          },
+          {
+            "first": 205,
+            "last": 205,
+            "sample": [
+              249,
+              251,
+              255
+            ]
+          },
+          {
+            "first": 206,
+            "last": 206,
+            "sample": [
+              29,
+              99,
+              248
+            ]
+          },
+          {
+            "first": 207,
+            "last": 288,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 289,
+            "last": 290,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 178,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Complete literal MERGED readable in its own left cell"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "text/controlHIDDEN",
+      "derivedWindowPx": [
+        290.5,
+        861,
+        516,
+        916
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 290,
+            "last": 292,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 293,
+            "last": 379,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 380,
+            "last": 380,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 381,
+            "last": 381,
+            "sample": [
+              255,
+              250,
+              245
+            ]
+          },
+          {
+            "first": 382,
+            "last": 385,
+            "sample": [
+              255,
+              249,
+              241
+            ]
+          },
+          {
+            "first": 386,
+            "last": 386,
+            "sample": [
+              255,
+              251,
+              246
+            ]
+          },
+          {
+            "first": 387,
+            "last": 387,
+            "sample": [
+              255,
+              240,
+              223
+            ]
+          },
+          {
+            "first": 388,
+            "last": 389,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 390,
+            "last": 390,
+            "sample": [
+              255,
+              224,
+              185
+            ]
+          },
+          {
+            "first": 391,
+            "last": 391,
+            "sample": [
+              255,
+              192,
+              122
+            ]
+          },
+          {
+            "first": 392,
+            "last": 393,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 394,
+            "last": 394,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 395,
+            "last": 395,
+            "sample": [
+              255,
+              164,
+              69
+            ]
+          },
+          {
+            "first": 396,
+            "last": 399,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 400,
+            "last": 400,
+            "sample": [
+              255,
+              168,
+              75
+            ]
+          },
+          {
+            "first": 401,
+            "last": 401,
+            "sample": [
+              255,
+              253,
+              248
+            ]
+          },
+          {
+            "first": 402,
+            "last": 402,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 403,
+            "last": 403,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 404,
+            "last": 404,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 405,
+            "last": 405,
+            "sample": [
+              255,
+              164,
+              69
+            ]
+          },
+          {
+            "first": 406,
+            "last": 409,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 410,
+            "last": 410,
+            "sample": [
+              255,
+              168,
+              75
+            ]
+          },
+          {
+            "first": 411,
+            "last": 411,
+            "sample": [
+              255,
+              253,
+              248
+            ]
+          },
+          {
+            "first": 412,
+            "last": 412,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 413,
+            "last": 413,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 414,
+            "last": 414,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 415,
+            "last": 415,
+            "sample": [
+              255,
+              250,
+              243
+            ]
+          },
+          {
+            "first": 416,
+            "last": 418,
+            "sample": [
+              255,
+              248,
+              240
+            ]
+          },
+          {
+            "first": 419,
+            "last": 419,
+            "sample": [
+              255,
+              232,
+              204
+            ]
+          },
+          {
+            "first": 420,
+            "last": 421,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 422,
+            "last": 422,
+            "sample": [
+              255,
+              224,
+              185
+            ]
+          },
+          {
+            "first": 423,
+            "last": 423,
+            "sample": [
+              255,
+              191,
+              118
+            ]
+          },
+          {
+            "first": 424,
+            "last": 424,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 425,
+            "last": 425,
+            "sample": [
+              255,
+              227,
+              195
+            ]
+          },
+          {
+            "first": 426,
+            "last": 426,
+            "sample": [
+              255,
+              196,
+              127
+            ]
+          },
+          {
+            "first": 427,
+            "last": 427,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 428,
+            "last": 428,
+            "sample": [
+              255,
+              146,
+              47
+            ]
+          },
+          {
+            "first": 429,
+            "last": 429,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 430,
+            "last": 430,
+            "sample": [
+              255,
+              152,
+              53
+            ]
+          },
+          {
+            "first": 431,
+            "last": 515,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 516,
+            "last": 516,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 403,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Complete literal HIDDEN readable in its own right cell"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "body/controlLeft",
+      "derivedWindowPx": [
+        65,
+        861,
+        290.5,
+        916
+      ],
+      "occludingObjects": [
+        {
+          "identity": "TradingView watermark",
+          "boundsPx": [
+            67,
+            897,
+            98,
+            913
+          ]
+        }
+      ],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 65,
+            "last": 65,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          },
+          {
+            "first": 66,
+            "last": 149,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 150,
+            "last": 150,
+            "sample": [
+              191,
+              211,
+              252
+            ]
+          },
+          {
+            "first": 151,
+            "last": 151,
+            "sample": [
+              113,
+              156,
+              250
+            ]
+          },
+          {
+            "first": 152,
+            "last": 152,
+            "sample": [
+              174,
+              199,
+              252
+            ]
+          },
+          {
+            "first": 153,
+            "last": 153,
+            "sample": [
+              131,
+              168,
+              250
+            ]
+          },
+          {
+            "first": 154,
+            "last": 155,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 156,
+            "last": 156,
+            "sample": [
+              78,
+              132,
+              249
+            ]
+          },
+          {
+            "first": 157,
+            "last": 157,
+            "sample": [
+              229,
+              237,
+              254
+            ]
+          },
+          {
+            "first": 158,
+            "last": 158,
+            "sample": [
+              65,
+              124,
+              248
+            ]
+          },
+          {
+            "first": 159,
+            "last": 159,
+            "sample": [
+              250,
+              252,
+              255
+            ]
+          },
+          {
+            "first": 160,
+            "last": 161,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 162,
+            "last": 162,
+            "sample": [
+              133,
+              170,
+              250
+            ]
+          },
+          {
+            "first": 163,
+            "last": 163,
+            "sample": [
+              251,
+              253,
+              255
+            ]
+          },
+          {
+            "first": 164,
+            "last": 167,
+            "sample": [
+              241,
+              245,
+              254
+            ]
+          },
+          {
+            "first": 168,
+            "last": 168,
+            "sample": [
+              100,
+              147,
+              249
+            ]
+          },
+          {
+            "first": 169,
+            "last": 169,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 170,
+            "last": 170,
+            "sample": [
+              77,
+              131,
+              249
+            ]
+          },
+          {
+            "first": 171,
+            "last": 171,
+            "sample": [
+              253,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 172,
+            "last": 173,
+            "sample": [
+              89,
+              140,
+              249
+            ]
+          },
+          {
+            "first": 174,
+            "last": 174,
+            "sample": [
+              103,
+              149,
+              249
+            ]
+          },
+          {
+            "first": 175,
+            "last": 175,
+            "sample": [
+              181,
+              204,
+              252
+            ]
+          },
+          {
+            "first": 176,
+            "last": 176,
+            "sample": [
+              236,
+              242,
+              254
+            ]
+          },
+          {
+            "first": 177,
+            "last": 177,
+            "sample": [
+              53,
+              115,
+              248
+            ]
+          },
+          {
+            "first": 178,
+            "last": 178,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 179,
+            "last": 179,
+            "sample": [
+              149,
+              182,
+              251
+            ]
+          },
+          {
+            "first": 180,
+            "last": 180,
+            "sample": [
+              178,
+              202,
+              252
+            ]
+          },
+          {
+            "first": 181,
+            "last": 183,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 184,
+            "last": 184,
+            "sample": [
+              91,
+              142,
+              249
+            ]
+          },
+          {
+            "first": 185,
+            "last": 187,
+            "sample": [
+              95,
+              143,
+              249
+            ]
+          },
+          {
+            "first": 188,
+            "last": 188,
+            "sample": [
+              29,
+              99,
+              248
+            ]
+          },
+          {
+            "first": 189,
+            "last": 189,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 190,
+            "last": 190,
+            "sample": [
+              254,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 191,
+            "last": 191,
+            "sample": [
+              244,
+              247,
+              255
+            ]
+          },
+          {
+            "first": 192,
+            "last": 194,
+            "sample": [
+              241,
+              245,
+              254
+            ]
+          },
+          {
+            "first": 195,
+            "last": 195,
+            "sample": [
+              210,
+              223,
+              253
+            ]
+          },
+          {
+            "first": 196,
+            "last": 197,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 198,
+            "last": 198,
+            "sample": [
+              254,
+              254,
+              255
+            ]
+          },
+          {
+            "first": 199,
+            "last": 199,
+            "sample": [
+              76,
+              131,
+              249
+            ]
+          },
+          {
+            "first": 200,
+            "last": 203,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 204,
+            "last": 204,
+            "sample": [
+              83,
+              135,
+              249
+            ]
+          },
+          {
+            "first": 205,
+            "last": 205,
+            "sample": [
+              249,
+              251,
+              255
+            ]
+          },
+          {
+            "first": 206,
+            "last": 206,
+            "sample": [
+              29,
+              99,
+              248
+            ]
+          },
+          {
+            "first": 207,
+            "last": 288,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 289,
+            "last": 290,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 178,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Blue body partially obscured by native watermark"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "body/controlRight",
+      "derivedWindowPx": [
+        290.5,
+        861,
+        516,
+        916
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 888,
+        "runs": [
+          {
+            "first": 290,
+            "last": 292,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 293,
+            "last": 379,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 380,
+            "last": 380,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 381,
+            "last": 381,
+            "sample": [
+              255,
+              250,
+              245
+            ]
+          },
+          {
+            "first": 382,
+            "last": 385,
+            "sample": [
+              255,
+              249,
+              241
+            ]
+          },
+          {
+            "first": 386,
+            "last": 386,
+            "sample": [
+              255,
+              251,
+              246
+            ]
+          },
+          {
+            "first": 387,
+            "last": 387,
+            "sample": [
+              255,
+              240,
+              223
+            ]
+          },
+          {
+            "first": 388,
+            "last": 389,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 390,
+            "last": 390,
+            "sample": [
+              255,
+              224,
+              185
+            ]
+          },
+          {
+            "first": 391,
+            "last": 391,
+            "sample": [
+              255,
+              192,
+              122
+            ]
+          },
+          {
+            "first": 392,
+            "last": 393,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 394,
+            "last": 394,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 395,
+            "last": 395,
+            "sample": [
+              255,
+              164,
+              69
+            ]
+          },
+          {
+            "first": 396,
+            "last": 399,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 400,
+            "last": 400,
+            "sample": [
+              255,
+              168,
+              75
+            ]
+          },
+          {
+            "first": 401,
+            "last": 401,
+            "sample": [
+              255,
+              253,
+              248
+            ]
+          },
+          {
+            "first": 402,
+            "last": 402,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 403,
+            "last": 403,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 404,
+            "last": 404,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 405,
+            "last": 405,
+            "sample": [
+              255,
+              164,
+              69
+            ]
+          },
+          {
+            "first": 406,
+            "last": 409,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 410,
+            "last": 410,
+            "sample": [
+              255,
+              168,
+              75
+            ]
+          },
+          {
+            "first": 411,
+            "last": 411,
+            "sample": [
+              255,
+              253,
+              248
+            ]
+          },
+          {
+            "first": 412,
+            "last": 412,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 413,
+            "last": 413,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 414,
+            "last": 414,
+            "sample": [
+              255,
+              255,
+              254
+            ]
+          },
+          {
+            "first": 415,
+            "last": 415,
+            "sample": [
+              255,
+              250,
+              243
+            ]
+          },
+          {
+            "first": 416,
+            "last": 418,
+            "sample": [
+              255,
+              248,
+              240
+            ]
+          },
+          {
+            "first": 419,
+            "last": 419,
+            "sample": [
+              255,
+              232,
+              204
+            ]
+          },
+          {
+            "first": 420,
+            "last": 421,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 422,
+            "last": 422,
+            "sample": [
+              255,
+              224,
+              185
+            ]
+          },
+          {
+            "first": 423,
+            "last": 423,
+            "sample": [
+              255,
+              191,
+              118
+            ]
+          },
+          {
+            "first": 424,
+            "last": 424,
+            "sample": [
+              255,
+              139,
+              41
+            ]
+          },
+          {
+            "first": 425,
+            "last": 425,
+            "sample": [
+              255,
+              227,
+              195
+            ]
+          },
+          {
+            "first": 426,
+            "last": 426,
+            "sample": [
+              255,
+              196,
+              127
+            ]
+          },
+          {
+            "first": 427,
+            "last": 427,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 428,
+            "last": 428,
+            "sample": [
+              255,
+              146,
+              47
+            ]
+          },
+          {
+            "first": 429,
+            "last": 429,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 430,
+            "last": 430,
+            "sample": [
+              255,
+              152,
+              53
+            ]
+          },
+          {
+            "first": 431,
+            "last": 515,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 516,
+            "last": 516,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 403,
+        "runs": [
+          {
+            "first": 861,
+            "last": 915,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          },
+          {
+            "first": 916,
+            "last": 916,
+            "sample": [
+              17,
+              17,
+              17
+            ]
+          }
+        ]
+      },
+      "finding": "Orange right body visible and separated"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "divider/1",
+      "derivedWindowPx": [
+        267.95000000000005,
+        869.25,
+        313.05,
+        874.75
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 872,
+        "runs": [
+          {
+            "first": 267,
+            "last": 288,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 289,
+            "last": 292,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 293,
+            "last": 313,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 869,
+            "last": 874,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          }
+        ]
+      },
+      "finding": "White internal vertical separator at x289..293 between blue and orange; independently visible in upper strip"
+    },
+    {
+      "objectIdentity": "control",
+      "regionIdentity": "divider/2",
+      "derivedWindowPx": [
+        267.95000000000005,
+        902.25,
+        313.05,
+        907.75
+      ],
+      "occludingObjects": [],
+      "rawCenterRow": {
+        "yPx": 905,
+        "runs": [
+          {
+            "first": 267,
+            "last": 288,
+            "sample": [
+              26,
+              97,
+              248
+            ]
+          },
+          {
+            "first": 289,
+            "last": 292,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          },
+          {
+            "first": 293,
+            "last": 313,
+            "sample": [
+              255,
+              137,
+              41
+            ]
+          }
+        ]
+      },
+      "rawCenterColumn": {
+        "xPx": 290,
+        "runs": [
+          {
+            "first": 902,
+            "last": 907,
+            "sample": [
+              255,
+              255,
+              255
+            ]
+          }
+        ]
+      },
+      "finding": "Same vertical separator independently visible in lower strip, clear of watermark"
+    }
+  ],
+  "outcome": "UNDECIDED",
+  "notObservedCauses": [
+    "subject required named table exterior absent or unreadable",
+    "subject/envelope intersects native indicator legend",
+    "control/envelope intersects TradingView watermark",
+    "control/body intersects TradingView watermark",
+    "control/text/controlMERGED intersects TradingView watermark",
+    "control/body/controlLeft intersects TradingView watermark",
+    "The native legend covers the entire exposed upper table top boundary, so a complete independent subject exterior cannot be registered. It also covers required upper body pixels. The lower control body/window intersects the TradingView watermark. Complete glyphs and exposed divider pixels do not repair those missing boundaries/body windows."
+  ],
+  "scope": "Complete per-object fixed envelopes, exterior registration, body/text/individual frame bands/divider strips; raw scan pointers do not complete unreadable glyphs or infer occluded structures."
+}

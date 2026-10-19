@@ -1,0 +1,119 @@
+{
+  "version": "v1",
+  "method": "Original new-v105-session PNG; upper visible body fragment kept separate from unobservable full exterior, lower same-shot cell/body/divider/text windows registered independently",
+  "inspectedOriginalPngSha256": "84dd3acf0ab452076e9e43aa534796ad7fb0429d3f100ee540757e3f9a3c495d",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      55,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "08:00 UTC",
+        "unixSeconds": 1792396800,
+        "xPx": 247
+      },
+      {
+        "label": "08:30 UTC",
+        "unixSeconds": 1792398600,
+        "xPx": 551
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "subject": {
+      "exteriorPx": null,
+      "registrationReadable": false,
+      "visiblePartialBodyBoundsPx": [
+        65,
+        661,
+        289,
+        697
+      ],
+      "observedLiteral": "MERGED",
+      "observedGlyphBoundsPx": [
+        149,
+        665,
+        207,
+        676
+      ],
+      "windowFindings": {
+        "envelope": "Legend covers the upper top boundary and background. Visible separate blue body fragment extends x65..289; no claim of equal width to lower control or complete two-column span."
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        65,
+        861,
+        516,
+        916
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Separate blue left and orange right bodies, with watermark over part of left background",
+        "text/controlMERGED": "Complete literal MERGED readable in its own left cell",
+        "text/controlHIDDEN": "Complete literal HIDDEN readable in its own right cell",
+        "body/controlLeft": "Blue body partially obscured by native watermark",
+        "body/controlRight": "Orange right body visible and separated",
+        "divider/1": "White internal vertical separator at x289..293 between blue and orange; independently visible in upper strip",
+        "divider/2": "Same vertical separator independently visible in lower strip, clear of watermark"
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        63,
+        639,
+        378,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        67,
+        897,
+        98,
+        913
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v104-table-merge-v5:merged-row",
+      "outcome": "UNDECIDED",
+      "observation": "Upper visible blue body shows complete MERGED, while lower independent blue/orange cells show complete MERGED and HIDDEN separated by a white vertical divider. Upper visible horizontal extent is narrower than lower full exterior; no equal-width/two-column-span inference is made from that fragment. Its full top boundary is legend-covered, and lower left body pixels are watermark-covered.",
+      "visibleTextByRegion": [
+        {
+          "region": "upper subject visible fragment",
+          "literal": "MERGED"
+        },
+        {
+          "region": "lower left control",
+          "literal": "MERGED"
+        },
+        {
+          "region": "lower right control",
+          "literal": "HIDDEN"
+        }
+      ],
+      "notObservedCause": "The native legend covers the entire exposed upper table top boundary, so a complete independent subject exterior cannot be registered. It also covers required upper body pixels. The lower control body/window intersects the TradingView watermark. Complete glyphs and exposed divider pixels do not repair those missing boundaries/body windows.",
+      "notObservedCauses": [
+        "The native legend covers the entire exposed upper table top boundary, so a complete independent subject exterior cannot be registered. It also covers required upper body pixels. The lower control body/window intersects the TradingView watermark. Complete glyphs and exposed divider pixels do not repair those missing boundaries/body windows."
+      ],
+      "scope": "Distinct v105 source/private/session with original v104 bytes/title. Missing exterior and occluded required body windows prevent either A/B selection; no old v104 stopped-slot or universal merge-width credit."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-merge-v5",
+  "sourceSha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+  "numericReport": {
+    "path": "v105/captures/v105/v104-table-merge-v5/numeric-results-v1.json",
+    "bytes": 142977,
+    "sha256": "c1d7fc4f096b42be6990dbce2319c4f14b02b2beeaadead2930172093291c3dc"
+  },
+  "compilerDiagnostics": {
+    "path": "v105/captures/v105/v104-table-merge-v5/compiler-diagnostics-v1.json",
+    "bytes": 1580,
+    "sha256": "0d6e55d602a77a1452c76af29cd1f817affdf89dfd704822d5c039919eab878e"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-table-merge-v5:merged-row",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+      "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v105/captures/v105/v104-table-merge-v5/derived-region-map-v1.json",
+        "bytes": 9149,
+        "sha256": "fb4e59171ebcbde56868ccb995cb96b1aa568cdd7cdea63b1041e669062c77eb"
+      },
+      "notObservedCauses": [
+        "The native legend covers the entire exposed upper table top boundary, so a complete independent subject exterior cannot be registered. It also covers required upper body pixels. The lower control body/window intersects the TradingView watermark. Complete glyphs and exposed divider pixels do not repair those missing boundaries/body windows."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
