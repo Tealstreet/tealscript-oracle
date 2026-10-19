@@ -5,7 +5,7 @@
       "facetId": "v105-alpha-composite-v6:fill-over-fill",
       "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
       "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
-      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. BEFORE any composite judgment, all 25 samples of opaque RED/BLUE/PURPLE must equal their exact literal tuples in predeclared encoded 8-bit sRGB; any mismatch or unavailable pipeline means NOT OBSERVED, zero composite credit.",
       "pixelWindow": {
         "coordinates": "anchor-bars/value",
         "x": [
@@ -18,7 +18,7 @@
         ],
         "paddingPx": 2
       },
-      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded. Exact opaque RED/BLUE/PURPLE authentication failure in the predeclared comparison space is NOT OBSERVED before scoring any composite; supplementary raw same-shot equality cannot override it.",
       "outcomes": [
         "SUPPORTED_A",
         "SUPPORTED_B",
@@ -59,7 +59,7 @@
       "facetId": "v105-alpha-composite-v6:fill-over-background",
       "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
       "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
-      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. BEFORE any composite judgment, all 25 samples of opaque RED/BLUE/PURPLE must equal their exact literal tuples in predeclared encoded 8-bit sRGB; any mismatch or unavailable pipeline means NOT OBSERVED, zero composite credit.",
       "pixelWindow": {
         "coordinates": "anchor-bars/value",
         "x": [
@@ -72,7 +72,7 @@
         ],
         "paddingPx": 2
       },
-      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded. Exact opaque RED/BLUE/PURPLE authentication failure in the predeclared comparison space is NOT OBSERVED before scoring any composite; supplementary raw same-shot equality cannot override it.",
       "outcomes": [
         "SUPPORTED_A",
         "SUPPORTED_B",
@@ -115,7 +115,7 @@
       "facetId": "v105-alpha-composite-v6:line-over-line",
       "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
       "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
-      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference. BEFORE any composite judgment, all 25 samples of opaque RED/BLUE/PURPLE must equal their exact literal tuples in predeclared encoded 8-bit sRGB; any mismatch or unavailable pipeline means NOT OBSERVED, zero composite credit.",
       "pixelWindow": {
         "coordinates": "anchor-bars/value",
         "x": [
@@ -128,7 +128,7 @@
         ],
         "paddingPx": 2
       },
-      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded. Exact opaque RED/BLUE/PURPLE authentication failure in the predeclared comparison space is NOT OBSERVED before scoring any composite; supplementary raw same-shot equality cannot override it.",
       "outcomes": [
         "SUPPORTED_A",
         "SUPPORTED_B",
@@ -169,7 +169,7 @@
       "facetId": "v105-alpha-composite-v6:line-over-background",
       "modelA": "Both ordered subjects blend: each differs from opaque foreground and its background; exact same-shot opaque candidate equality is recorded separately.",
       "modelB": "Alpha ignored: blue subject equals same-shot opaque BLUE and red subject equals same-shot opaque RED.",
-      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference.",
+      "requiredControls": "Complete flat RED, BLUE, GRAY, BLACK, WHITE plus all applicable ordered opaque candidate swatches; gray pane background equals GRAY; subject and controls have no occlusion. Independent OPAQUE_LINE_RED/BLUE/GRAY center patches must equal their same-shot box RGB controls before any cross-primitive candidate inference; otherwise hold that inference. BEFORE any composite judgment, all 25 samples of opaque RED/BLUE/PURPLE must equal their exact literal tuples in predeclared encoded 8-bit sRGB; any mismatch or unavailable pipeline means NOT OBSERVED, zero composite credit.",
       "pixelWindow": {
         "coordinates": "anchor-bars/value",
         "x": [
@@ -182,7 +182,7 @@
         ],
         "paddingPx": 2
       },
-      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded.",
+      "notObserved": "Missing/nonflat/occluded fixed patch, absent background ownership, profile/control failure, or candidates collapsed by color mapping. Unlisted tuples are CONTRARY to finite candidates, never rounded. Exact opaque RED/BLUE/PURPLE authentication failure in the predeclared comparison space is NOT OBSERVED before scoring any composite; supplementary raw same-shot equality cannot override it.",
       "outcomes": [
         "SUPPORTED_A",
         "SUPPORTED_B",
@@ -270,7 +270,48 @@
           0.25
         ]
       },
-      "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table."
+      "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table.",
+      "predeclaredWindows": {
+        "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+        "envelopes": {
+          "original": [
+            0,
+            0.25,
+            0,
+            0.25
+          ],
+          "moved": [
+            0.75,
+            1,
+            0.375,
+            0.625
+          ],
+          "control": [
+            0.75,
+            1,
+            0,
+            0.25
+          ]
+        },
+        "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+        "body": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "registration": "Map declared envelopes through actual pane bounds. Register the complete table exterior using all visible boundary segments without choosing a model or fitting text. Missing/ambiguous boundaries hold the property; never move or enlarge an envelope after inspection.",
+        "completeText": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+        "subjectName": "B blue middle-right",
+        "controlName": "C orange top-right",
+        "oldName": "A red top-left presence/absence in complete original envelope"
+      }
     },
     {
       "facetId": "v105-table-relocation-v5:final-position",
@@ -323,7 +364,47 @@
           0.25
         ]
       },
-      "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table."
+      "watermarkRule": "A/original window top-left; moved subject middle-right; independent control top-right. All subject/control ink and bodies must be clear of every watermark; no bottom-left table.",
+      "predeclaredWindows": {
+        "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+        "envelopes": {
+          "original": [
+            0,
+            0.25,
+            0,
+            0.25
+          ],
+          "moved": [
+            0.75,
+            1,
+            0.375,
+            0.625
+          ],
+          "control": [
+            0.75,
+            1,
+            0,
+            0.25
+          ]
+        },
+        "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+        "body": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "registration": "Map declared envelopes through actual pane bounds. Register the complete table exterior using all visible boundary segments without choosing a model or fitting text. Missing/ambiguous boundaries hold the property; never move or enlarge an envelope after inspection.",
+        "completeText": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+        "subjectName": "blue MOVED middle-right or top-left",
+        "controlName": "orange CONTROL top-right"
+      }
     },
     {
       "facetId": "v104-table-frame-v5:frame-border-paint",
@@ -355,6 +436,89 @@
         "old": "frame_width=6, border_color=color.red, border_width=4",
         "new": "frame_width=0, border_color=color.red, border_width=0",
         "occurrences": 1
+      },
+      "predeclaredWindows": {
+        "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+        "envelopes": {
+          "subject": [
+            0,
+            0.5,
+            0,
+            0.3
+          ],
+          "control": [
+            0,
+            0.5,
+            0.7,
+            1
+          ]
+        },
+        "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+        "body": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "registration": "Map declared envelopes through actual pane bounds. Register the complete table exterior using all visible boundary segments without choosing a model or fitting text. Missing/ambiguous boundaries hold the property; never move or enlarge an envelope after inspection.",
+        "completeText": {
+          "LEFT": [
+            0,
+            0.5,
+            0,
+            1
+          ],
+          "RIGHT": [
+            0.5,
+            1,
+            0,
+            1
+          ]
+        },
+        "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+        "subjectName": "B upper framed LEFT/RIGHT",
+        "controlName": "C lower unframed LEFT/RIGHT",
+        "divider": [
+          [
+            0.45,
+            0.55,
+            0.15,
+            0.25
+          ],
+          [
+            0.45,
+            0.55,
+            0.75,
+            0.85
+          ]
+        ],
+        "frame": {
+          "top": [
+            0,
+            1,
+            0,
+            0.15
+          ],
+          "bottom": [
+            0,
+            1,
+            0.85,
+            1
+          ],
+          "left": [
+            0,
+            0.15,
+            0,
+            1
+          ],
+          "right": [
+            0.85,
+            1,
+            0,
+            1
+          ]
+        },
+        "frameRule": "Record all four connected blue exterior strokes independently from red inner vertical divider and yellow body, and corresponding control bands. A band outside its envelope or occluded is held; no inferred width/DPR. Colored presence anywhere in a broad union is insufficient."
       }
     },
     {
@@ -387,6 +551,101 @@
         "old": "    table.merge_cells(b, 0, 0, 1, 0)\n",
         "new": "",
         "occurrences": 1
+      },
+      "predeclaredWindows": {
+        "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+        "envelopes": {
+          "subject": [
+            0,
+            0.5,
+            0,
+            0.3
+          ],
+          "control": [
+            0,
+            0.5,
+            0.7,
+            1
+          ]
+        },
+        "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+        "body": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "registration": "Map declared envelopes through actual pane bounds. Register the complete table exterior using all visible boundary segments without choosing a model or fitting text. Missing/ambiguous boundaries hold the property; never move or enlarge an envelope after inspection.",
+        "completeText": {
+          "subjectMERGED": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "subjectHIDDENcandidate": [
+            0.5,
+            1,
+            0,
+            1
+          ],
+          "controlMERGED": [
+            0,
+            0.5,
+            0,
+            1
+          ],
+          "controlHIDDEN": [
+            0.5,
+            1,
+            0,
+            1
+          ]
+        },
+        "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+        "subjectName": "B upper merged candidate",
+        "controlName": "C lower unmerged control",
+        "bodies": {
+          "subjectFull": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "subjectRight": [
+            0.5,
+            1,
+            0,
+            1
+          ],
+          "controlLeft": [
+            0,
+            0.5,
+            0,
+            1
+          ],
+          "controlRight": [
+            0.5,
+            1,
+            0,
+            1
+          ]
+        },
+        "divider": [
+          [
+            0.45,
+            0.55,
+            0.15,
+            0.25
+          ],
+          [
+            0.45,
+            0.55,
+            0.75,
+            0.85
+          ]
+        ],
+        "dividerRule": "Upper/lower divider bands require a vertical separator with colored body on either side; horizontal outer borders and caption ink cannot supply it. Score full blue merged span and absence/presence of orange HIDDEN body separately. Whole table outside the fixed envelope or unreadable lower control is NOT OBSERVED."
       }
     }
   ],
