@@ -1,0 +1,44 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-merge-v5",
+  "sourceSha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-table-merge-v5/numeric-results-v1.json",
+    "bytes": 9350,
+    "sha256": "e8048ca1a17671b1674c56cacc6f9d80a379590587e4fe07b50e3db1e3311a1b"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-table-merge-v5/compiler-diagnostics-v1.json",
+    "bytes": 384,
+    "sha256": "6360be9a0352a51f73d2d0905c3d55a9d774722b01cc8019b60ad74a3f55580c"
+  },
+  "nativeAdmission": null,
+  "facets": [
+    {
+      "facetId": "v104-table-merge-v5:merged-row",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+      "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "No admitted/owned original PNG with independent readable control certificate"
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
