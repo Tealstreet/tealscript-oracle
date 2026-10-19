@@ -1,0 +1,132 @@
+{
+  "version": "v1",
+  "method": "Original upper/lower frame/divider/body/glyph inspection; explicit native legend and watermark occlusion registered under the frozen any-background-region rule",
+  "inspectedOriginalPngSha256": "580fbe904995d9735f95c0cb524fdeea622f39e8f0c7e450507327f57b708d84",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "20:00 UTC",
+        "unixSeconds": 1792353600,
+        "xPx": 330
+      },
+      {
+        "label": "20:30 UTC",
+        "unixSeconds": 1792355400,
+        "xPx": 633
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "facets": [
+    {
+      "facetId": "v104-table-frame-v5:frame-border-paint",
+      "outcome": "UNDECIDED",
+      "observation": "The upper table exposes a blue outer frame, a red vertical internal divider and yellow LEFT/RIGHT cells. Lower yellow LEFT/RIGHT cells have no visible matching outer frame/divider. All four full words are readable. However the native indicator legend covers part of the upper background/top-frame region, and the TradingView watermark covers part of the lower control background. The frozen rule disallows an occluded frame/divider/background region, so these visible partial regions do not select a complete controlled model.",
+      "actualSubjectRegionsPx": [
+        [
+          4,
+          636,
+          488,
+          703
+        ]
+      ],
+      "actualControlRegionsPx": [
+        [
+          10,
+          861,
+          478,
+          916
+        ]
+      ],
+      "paintSubregionsPx": {
+        "upperBlueOuterFrame": [
+          4,
+          636,
+          488,
+          703
+        ],
+        "upperRedInnerDivider": [
+          244,
+          642,
+          248,
+          697
+        ],
+        "upperYellowBodies": [
+          [
+            10,
+            642,
+            244,
+            697
+          ],
+          [
+            248,
+            642,
+            482,
+            697
+          ]
+        ],
+        "lowerUnframedYellowBodies": [
+          [
+            10,
+            861,
+            244,
+            916
+          ],
+          [
+            244,
+            861,
+            478,
+            916
+          ]
+        ]
+      },
+      "visibleTextByRegion": [
+        {
+          "region": "upper left",
+          "literal": "LEFT"
+        },
+        {
+          "region": "upper right",
+          "literal": "RIGHT"
+        },
+        {
+          "region": "lower left control",
+          "literal": "LEFT"
+        },
+        {
+          "region": "lower right control",
+          "literal": "RIGHT"
+        }
+      ],
+      "occlusionRegionsPx": [
+        [
+          8,
+          640,
+          322,
+          661
+        ],
+        [
+          11,
+          897,
+          41,
+          912
+        ]
+      ],
+      "notObservedCause": "Native indicator legend occludes upper background/top-frame pixels; watermark occludes lower control background. Frozen NOT OBSERVED branch covers any occluded frame/divider/background region. No legend/settings/viewport change, retry or additional PNG.",
+      "scope": "Original visible frame/divider and complete-word observations retained; no complete unoccluded A/B certificate, universal frame widths or color-space target."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native chart UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

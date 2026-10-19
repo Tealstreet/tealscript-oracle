@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "purpose": "Unmodified raw upper/lower frame/divider/background profiles, retaining UI occlusion rather than masking or synthesizing pixels",
+  "rowProfiles": [
+    {
+      "name": "upper-midrow",
+      "role": "Exposed outer frame, both yellow bodies and internal divider",
+      "xFirstPx": 0,
+      "xLastPx": 500,
+      "yPx": 680
+    },
+    {
+      "name": "upper-legend-occlusion",
+      "role": "Native legend crossing original background region",
+      "xFirstPx": 0,
+      "xLastPx": 500,
+      "yPx": 648
+    },
+    {
+      "name": "lower-unframed-body",
+      "role": "Separate same-recipe unframed control row",
+      "xFirstPx": 0,
+      "xLastPx": 500,
+      "yPx": 875
+    },
+    {
+      "name": "lower-watermark-occlusion",
+      "role": "Native watermark crossing control background",
+      "xFirstPx": 0,
+      "xLastPx": 500,
+      "yPx": 904
+    }
+  ],
+  "columnProfiles": [
+    {
+      "name": "upper-outer-left-frame",
+      "xPx": 6,
+      "yFirstPx": 634,
+      "yLastPx": 706
+    },
+    {
+      "name": "upper-inner-divider",
+      "xPx": 246,
+      "yFirstPx": 634,
+      "yLastPx": 706
+    }
+  ]
+}

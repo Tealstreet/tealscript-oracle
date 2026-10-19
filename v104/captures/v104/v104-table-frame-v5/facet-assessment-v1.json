@@ -1,0 +1,48 @@
+{
+  "version": "v1",
+  "sourceId": "v104-table-frame-v5",
+  "sourceSha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+  "numericReport": {
+    "path": "v104/captures/v104/v104-table-frame-v5/numeric-results-v1.json",
+    "bytes": 142714,
+    "sha256": "c82899dd73e761a9d31bf42dbb9f38abb2d886a83014f50a17a19d87025ab3a6"
+  },
+  "compilerDiagnostics": {
+    "path": "v104/captures/v104/v104-table-frame-v5/compiler-diagnostics-v1.json",
+    "bytes": 1580,
+    "sha256": "b768f0228529a765ee4b121ac6a22120f16f24dd81e9407c803bf4b43e4d31b3"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v104-table-frame-v5:frame-border-paint",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+      "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0,
+          0.5
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v104/captures/v104/v104-table-frame-v5/derived-region-map-v1.json",
+        "bytes": 10215,
+        "sha256": "5c429a85375d1360c1dd666f85f408f85d26f68e9eaf5df6f1b5ed1847659327"
+      },
+      "notObservedCauses": [
+        "Native indicator legend occludes upper background/top-frame pixels; watermark occludes lower control background. Frozen NOT OBSERVED branch covers any occluded frame/divider/background region. No legend/settings/viewport change, retry or additional PNG."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar context, modulo32 step/arrow formulas, source color channels and boolean export policy are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
