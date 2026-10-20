@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v107-table-relocation-v5",
+  "sourceSha256": "af71f08b1fa26ab9201430baf46d77a7766df4ff390cea8d9747214231ab58c2",
+  "numericReport": {
+    "path": "v107/captures/v107/v107-table-relocation-v5/numeric-results-v1.json",
+    "bytes": 142921,
+    "sha256": "33071aad047490c2419ed51356000bf67066e2957c0e2305b04053731ada555a"
+  },
+  "compilerDiagnostics": {
+    "path": "v107/captures/v107/v107-table-relocation-v5/compiler-diagnostics-v1.json",
+    "bytes": 1595,
+    "sha256": "3b4ce280f4d08a0799f4e13ec19d042b1ffe694dc7ed9a249304e132f3170fba"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v107-table-relocation-v5:final-position",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "Complete blue MOVED at middle-right; complete orange CONTROL at bottom-right; original top-right clear",
+      "modelB": "Position setter ignored: complete blue MOVED stays top-right, middle-right clear; complete orange CONTROL remains bottom-right",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v107/captures/v107/v107-table-relocation-v5/derived-region-map-v1.json",
+        "bytes": 6491,
+        "sha256": "89788d5d50b408ea4037aaa27ee17b3d6fcb95dbc1b4f43094f4f2c88ade3966"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. CSV-owned context and independent build-event table state are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

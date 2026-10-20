@@ -1,0 +1,190 @@
+{
+  "version": "v1",
+  "registeredAtUtc": "2026-10-20T11:17:47.280734+00:00",
+  "sourceId": "v107-table-merge-v5",
+  "sourceSha256": "73bb52e02bd042068f3d64d480bf0d52063aed2e4f7ad7b113da835e50ada164",
+  "originalPngSha256": "d491b316603bd811a8dceac993f3f941a5a759618a7b872cf049e1808584d384",
+  "paneInteriorBoundsPx": [
+    0,
+    632,
+    1190,
+    926
+  ],
+  "xTicks": [
+    {
+      "label": "05:00 UTC",
+      "unixSeconds": 1792472400,
+      "xPx": 23
+    },
+    {
+      "label": "05:30 UTC",
+      "unixSeconds": 1792474200,
+      "xPx": 113
+    }
+  ],
+  "pixelsPerBar": 6,
+  "yZeroPx": 901,
+  "yHundredPx": 661,
+  "uncertaintyPx": {
+    "axisX": 2,
+    "axisY": 3,
+    "strokeEdge": 1
+  },
+  "barSpacingGated": false,
+  "paneSizeGated": false,
+  "historicalBarVisibilityRequired": false,
+  "tableExteriorBoundsPx": {
+    "subject": [
+      946,
+      642,
+      1180,
+      697
+    ],
+    "control": [
+      708,
+      861,
+      1180,
+      916
+    ]
+  },
+  "frozenPredeclaredWindows": {
+    "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+    "envelopes": {
+      "subject": [
+        0.5,
+        1,
+        0,
+        0.3
+      ],
+      "control": [
+        0.5,
+        1,
+        0.7,
+        1
+      ]
+    },
+    "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+    "body": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "registration": "Map frozen envelopes through actual study-pane bounds (plotting area, excluding axes). Register the complete table exterior using all visible boundary segments, independent of text/model. Missing/ambiguous boundaries hold that property; never move/enlarge an envelope after inspection. All body/text/divider/frame coordinates are local to the named object, never a union of tables.",
+    "completeText": {
+      "subjectMERGED": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "subjectHIDDENcandidate": [
+        0.5,
+        1,
+        0,
+        1
+      ],
+      "controlMERGED": [
+        0,
+        0.5,
+        0,
+        1
+      ],
+      "controlHIDDEN": [
+        0.5,
+        1,
+        0,
+        1
+      ]
+    },
+    "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+    "subjectName": "B top-right merged candidate",
+    "controlName": "C bottom-right unmerged control",
+    "bodies": {
+      "subjectFull": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "subjectRight": [
+        0.5,
+        1,
+        0,
+        1
+      ],
+      "controlLeft": [
+        0,
+        0.5,
+        0,
+        1
+      ],
+      "controlRight": [
+        0.5,
+        1,
+        0,
+        1
+      ]
+    },
+    "divider": [
+      [
+        0.45,
+        0.55,
+        0.15,
+        0.25
+      ],
+      [
+        0.45,
+        0.55,
+        0.75,
+        0.85
+      ]
+    ],
+    "dividerRule": "Upper/lower divider bands require a vertical separator with colored body on either side; horizontal outer borders and caption ink cannot supply it. Score full blue merged span and absence/presence of orange HIDDEN body separately. Whole table outside the fixed envelope or unreadable lower control is NOT OBSERVED."
+  },
+  "modelScoreAtRegistration": null,
+  "structuralPaintRegistrations": {
+    "subjectBodyBoundsPx": [
+      946,
+      642,
+      1180,
+      697
+    ],
+    "controlBlueBodyBoundsPx": [
+      708,
+      861,
+      942,
+      916
+    ],
+    "controlOrangeBodyBoundsPx": [
+      946,
+      861,
+      1180,
+      916
+    ],
+    "controlVerticalDividerBoundsPx": [
+      942,
+      861,
+      946,
+      916
+    ],
+    "observedBlueRawSample": [
+      26,
+      97,
+      248
+    ],
+    "observedOrangeRawSample": [
+      255,
+      137,
+      41
+    ],
+    "observedDividerRawSample": [
+      255,
+      255,
+      255
+    ],
+    "subjectWidthPx": 234,
+    "controlWidthPx": 472,
+    "widthScope": "Measured independent complete exteriors; no equal-width or universal merged-width claim."
+  }
+}

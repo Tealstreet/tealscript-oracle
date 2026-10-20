@@ -1,0 +1,148 @@
+{
+  "version": "v1",
+  "inspectedAtUtc": "2026-10-20T11:02:10.222523+00:00",
+  "method": "Original whole PNG; preregistered per-table geometry, complete B/C and entire clear original absence envelope. Dominant saturated-body pixel bounds independently confirm both registered exteriors; no caption sample is used as body colour.",
+  "geometryRegistration": "geometry-registration-v1.json",
+  "inspectedOriginalPngSha256": "2f14b0cc53396855cb1a06ff29d9ac3a0e232b41c93ad82df2a6b40165dd7b8f",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "05:00 UTC",
+        "unixSeconds": 1792472400,
+        "xPx": 59
+      },
+      {
+        "label": "05:30 UTC",
+        "unixSeconds": 1792474200,
+        "xPx": 149
+      }
+    ],
+    "pixelsPerBar": 6,
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "original": {
+      "exteriorPx": null,
+      "registrationReadable": false,
+      "absenceWindowReadable": true,
+      "windowFindings": {
+        "envelope": "Complete fixed original top-right envelope shows chart background/grid and a separate scale line; no red A body or A glyph. No absent exterior is invented."
+      }
+    },
+    "moved": {
+      "exteriorPx": [
+        1161,
+        767,
+        1180,
+        791
+      ],
+      "registrationReadable": true,
+      "rawObservedBodySample": [
+        26,
+        97,
+        248
+      ],
+      "windowFindings": {
+        "body": "Complete isolated blue body at middle-right; all four exterior boundaries readable.",
+        "text/completeText": "Complete literal B read independently in own blue body."
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        1160,
+        892,
+        1180,
+        916
+      ],
+      "registrationReadable": true,
+      "rawObservedBodySample": [
+        255,
+        137,
+        41
+      ],
+      "windowFindings": {
+        "body": "Complete isolated orange body at bottom-right; all four exterior boundaries readable.",
+        "text/completeText": "Complete literal C read independently in own orange body."
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        8,
+        639,
+        359,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        10,
+        897,
+        43,
+        913
+      ]
+    },
+    {
+      "identity": "study value axis outside plotting area",
+      "boundsPx": [
+        1190,
+        632,
+        1355,
+        926
+      ]
+    },
+    {
+      "identity": "floating favorite drawings toolbar in main price pane",
+      "boundsPx": [
+        852,
+        99,
+        1638,
+        139
+      ]
+    },
+    {
+      "identity": "Manage layouts tooltip above chart",
+      "boundsPx": [
+        1372,
+        42,
+        1487,
+        66
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v107-table-survival-v5:same-position-lifetime",
+      "outcome": "SUPPORTED_A",
+      "observation": "No red A appears anywhere in the complete unobscured original top-right envelope. Complete blue B is middle-right and complete orange C bottom-right, in separate registered bodies. The observed pixels distinguish A from red-A reappearance in model B.",
+      "visibleTextByRegion": [
+        {
+          "region": "moved middle-right",
+          "literal": "B"
+        },
+        {
+          "region": "control bottom-right",
+          "literal": "C"
+        }
+      ],
+      "notObservedCauses": [],
+      "scope": "Fresh v107 v5 source/private/session and fixed screen-anchored windows only; no old v106 credit, getter-to-pixel inference or universal geometry claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

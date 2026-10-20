@@ -1,0 +1,162 @@
+{
+  "version": "v1",
+  "inspectedAtUtc": "2026-10-20T11:17:47.281934+00:00",
+  "method": "Original whole PNG and lossless original-channel pixels; independently registered complete subject/control exteriors and frozen body/text/divider windows. No control-width normalization or new screenshot.",
+  "geometryRegistration": "geometry-registration-v1.json",
+  "inspectedOriginalPngSha256": "d491b316603bd811a8dceac993f3f941a5a759618a7b872cf049e1808584d384",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "05:00 UTC",
+        "unixSeconds": 1792472400,
+        "xPx": 23
+      },
+      {
+        "label": "05:30 UTC",
+        "unixSeconds": 1792474200,
+        "xPx": 113
+      }
+    ],
+    "pixelsPerBar": 6,
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "subject": {
+      "exteriorPx": [
+        946,
+        642,
+        1180,
+        697
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete blue table body across its independently registered exterior.",
+        "text/subjectMERGED": "Complete literal MERGED readable in the full subject window.",
+        "text/subjectHIDDENcandidate": "No separate HIDDEN word. The right part of the complete MERGED caption crosses this window and is not counted as HIDDEN.",
+        "body/subjectFull": "Blue background across full actual exterior; caption antialias is separate.",
+        "body/subjectRight": "Right local half remains blue; no orange second-cell background.",
+        "divider/1": "Blue body across upper fixed strip, no vertical white separator.",
+        "divider/2": "Blue body across lower independent fixed strip, no vertical white separator."
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        708,
+        861,
+        1180,
+        916
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete separate blue left and orange right control cells with white vertical separator.",
+        "text/controlMERGED": "Complete literal MERGED in own left-half window.",
+        "text/controlHIDDEN": "Complete literal HIDDEN in own right-half window.",
+        "body/controlLeft": "Blue left cell; the local half includes the left portion of the white divider at its boundary.",
+        "body/controlRight": "Orange right cell; the local half includes the right portion of the white divider at its boundary.",
+        "divider/1": "White vertical x942..945 separator with blue/orange body on either side, upper strip outside caption ink.",
+        "divider/2": "Same white separator independently visible in lower strip outside caption ink."
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        8,
+        639,
+        360,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        10,
+        897,
+        43,
+        913
+      ]
+    },
+    {
+      "identity": "study value axis outside plotting area",
+      "boundsPx": [
+        1190,
+        632,
+        1355,
+        926
+      ]
+    },
+    {
+      "identity": "favorite drawings toolbar in main price pane",
+      "boundsPx": [
+        852,
+        99,
+        1638,
+        139
+      ]
+    },
+    {
+      "identity": "selected main series and its controls in separate price pane",
+      "boundsPx": [
+        0,
+        41,
+        1190,
+        632
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v107-table-merge-v5:merged-row",
+      "outcome": "SUPPORTED_A",
+      "observation": "Complete upper blue MERGED table has no HIDDEN caption, orange right body or internal vertical divider; both fixed divider strips remain blue. Separate lower unmerged control has complete MERGED/HIDDEN captions, blue left/orange right bodies and a white vertical separator in both fixed strips. Actual subject exterior width is234px versus472px for the control; the frozen per-object windows support the merged structure, without an equal-width inference.",
+      "propertyObservations": [
+        {
+          "property": "full blue merged span",
+          "observed": "Blue body across the subjectFull and subjectRight fixed local windows of the complete234px exterior."
+        },
+        {
+          "property": "HIDDEN caption absence",
+          "observed": "Complete MERGED caption and no separate HIDDEN word; lower complete HIDDEN control readable."
+        },
+        {
+          "property": "orange right-body absence",
+          "observed": "No orange subject body; lower orange right control body visible."
+        },
+        {
+          "property": "internal divider absence",
+          "observed": "Both upper subject strips blue without a separator; both lower control strips contain the white vertical separator."
+        }
+      ],
+      "visibleTextByRegion": [
+        {
+          "region": "subject full",
+          "literal": "MERGED"
+        },
+        {
+          "region": "control left",
+          "literal": "MERGED"
+        },
+        {
+          "region": "control right",
+          "literal": "HIDDEN"
+        }
+      ],
+      "notObservedCauses": [],
+      "scope": "One exact fresh v107 v5 source/private/session and frozen per-object windows; subject234px and control472px recorded independently, no equality or universal width law inferred."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

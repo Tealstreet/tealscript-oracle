@@ -1,0 +1,17 @@
+//@version=5
+// SPDX-License-Identifier: MIT
+indicator("v107-table-frame-v5", overlay=false, precision=16, max_lines_count=60, max_boxes_count=30, max_labels_count=30)
+var int anchorIndex = na
+var float table_count = na
+build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240
+if build
+    anchorIndex := bar_index
+    b = table.new(position.top_right, 2, 1, bgcolor=color.yellow, frame_color=color.blue, frame_width=6, border_color=color.red, border_width=4)
+    table.cell(b, 0, 0, "LEFT", width=20, height=20, text_color=color.black)
+    table.cell(b, 1, 0, "RIGHT", width=20, height=20, text_color=color.black)
+    c = table.new(position.bottom_right, 2, 1, bgcolor=color.yellow, frame_color=color.blue, frame_width=0, border_color=color.red, border_width=0)
+    table.cell(c, 0, 0, "LEFT", width=20, height=20, text_color=color.black)
+    table.cell(c, 1, 0, "RIGHT", width=20, height=20, text_color=color.black)
+    table_count := array.size(table.all)
+plot(build ? table_count : na, "TABLE_COUNT", display=display.data_window)
+plo

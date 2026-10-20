@@ -1,0 +1,157 @@
+{
+  "version": "v1",
+  "inspectedAtUtc": "2026-10-20T11:03:41.485374+00:00",
+  "method": "Original whole PNG, independent table exteriors and full fixed original/moved/control windows; no getter or source-text completion.",
+  "geometryRegistration": "geometry-registration-v1.json",
+  "inspectedOriginalPngSha256": "4a686c56ff670d291f48966f75adf65c6c4443f359781776d0fb3b0c51800b7c",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "05:00 UTC",
+        "unixSeconds": 1792472400,
+        "xPx": 47
+      },
+      {
+        "label": "05:30 UTC",
+        "unixSeconds": 1792474200,
+        "xPx": 137
+      }
+    ],
+    "pixelsPerBar": 6,
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "original": {
+      "exteriorPx": null,
+      "registrationReadable": false,
+      "absenceWindowReadable": true,
+      "windowFindings": {
+        "envelope": "Complete original top-right envelope is clear: no blue MOVED body or MOVED glyph at that position."
+      }
+    },
+    "moved": {
+      "exteriorPx": [
+        1120,
+        767,
+        1180,
+        791
+      ],
+      "registrationReadable": true,
+      "rawObservedBodySample": [
+        26,
+        97,
+        248
+      ],
+      "windowFindings": {
+        "body": "Complete separate blue body at middle-right with all exterior boundaries readable.",
+        "text/completeText": "Complete literal MOVED independently read in its own body."
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        1103,
+        892,
+        1180,
+        916
+      ],
+      "registrationReadable": true,
+      "rawObservedBodySample": [
+        255,
+        137,
+        41
+      ],
+      "windowFindings": {
+        "body": "Complete separate orange body at bottom-right with all exterior boundaries readable.",
+        "text/completeText": "Complete literal CONTROL independently read in its own body."
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        8,
+        639,
+        377,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        10,
+        897,
+        43,
+        913
+      ]
+    },
+    {
+      "identity": "study value axis outside plotting area",
+      "boundsPx": [
+        1190,
+        632,
+        1355,
+        926
+      ]
+    },
+    {
+      "identity": "favorite drawings toolbar in main price pane",
+      "boundsPx": [
+        852,
+        99,
+        1638,
+        139
+      ]
+    },
+    {
+      "identity": "Manage layouts tooltip above chart",
+      "boundsPx": [
+        1372,
+        42,
+        1487,
+        66
+      ]
+    },
+    {
+      "identity": "selected main-series control points in separate price pane",
+      "boundsPx": [
+        0,
+        41,
+        1190,
+        632
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v107-table-relocation-v5:final-position",
+      "outcome": "SUPPORTED_A",
+      "observation": "Complete blue MOVED is at middle-right; complete orange CONTROL is at bottom-right. The entire fixed original top-right envelope is clear of MOVED. All three named windows are unoccluded, distinguishing effective relocation from model B.",
+      "visibleTextByRegion": [
+        {
+          "region": "moved middle-right",
+          "literal": "MOVED"
+        },
+        {
+          "region": "control bottom-right",
+          "literal": "CONTROL"
+        }
+      ],
+      "notObservedCauses": [],
+      "scope": "Fresh v107 v5 source/private/session and frozen table windows only; no numeric getter or old-round visual transfer."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

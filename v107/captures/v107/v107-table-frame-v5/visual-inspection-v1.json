@@ -1,0 +1,152 @@
+{
+  "version": "v1",
+  "inspectedAtUtc": "2026-10-20T11:10:16.274195+00:00",
+  "method": "Original whole PNG; separately registered complete subject/control exteriors, all four connected blue strokes, independent upper/lower red divider strips, yellow bodies and four complete text windows.",
+  "geometryRegistration": "geometry-registration-v1.json",
+  "inspectedOriginalPngSha256": "669eb9d37f6bfc263b7d9b372486adbcd45ec5386a6686e4d78c113b718a27c8",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      0,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "05:00 UTC",
+        "unixSeconds": 1792472400,
+        "xPx": 35
+      },
+      {
+        "label": "05:30 UTC",
+        "unixSeconds": 1792474200,
+        "xPx": 125
+      }
+    ],
+    "pixelsPerBar": 6,
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "subject": {
+      "exteriorPx": [
+        702,
+        636,
+        1186,
+        703
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Yellow LEFT/RIGHT bodies with all background pixels and complete exterior visible.",
+        "text/LEFT": "Complete literal LEFT in own subject left-half window.",
+        "text/RIGHT": "Complete literal RIGHT in own subject right-half window.",
+        "frame/top": "Unbroken connected blue top stroke, independently registered from original pixels.",
+        "frame/bottom": "Unbroken connected blue bottom stroke, independently registered from original pixels.",
+        "frame/left": "Unbroken connected blue left stroke, independently registered from original pixels.",
+        "frame/right": "Unbroken connected blue right stroke, independently registered from original pixels.",
+        "divider/1": "Red internal vertical separator between yellow body on both sides, clear in upper fixed strip.",
+        "divider/2": "Same red internal vertical separator independently clear in lower fixed strip."
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        712,
+        861,
+        1180,
+        916
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete separate unframed yellow LEFT/RIGHT bodies.",
+        "text/LEFT": "Complete literal LEFT in own control left-half window.",
+        "text/RIGHT": "Complete literal RIGHT in own control right-half window.",
+        "frame/top": "Yellow control top band has no blue outer frame.",
+        "frame/bottom": "Yellow control bottom band has no blue outer frame.",
+        "frame/left": "Yellow control left band has no blue outer frame.",
+        "frame/right": "Yellow control right band has no blue outer frame.",
+        "divider/1": "No red divider in upper strip; uninterrupted yellow body across the internal midpoint.",
+        "divider/2": "No red divider in lower strip; uninterrupted yellow body across the internal midpoint."
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        8,
+        639,
+        360,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        10,
+        897,
+        43,
+        913
+      ]
+    },
+    {
+      "identity": "study value axis outside plotting area",
+      "boundsPx": [
+        1190,
+        632,
+        1355,
+        926
+      ]
+    },
+    {
+      "identity": "favorite drawings toolbar in main price pane",
+      "boundsPx": [
+        852,
+        99,
+        1638,
+        139
+      ]
+    },
+    {
+      "identity": "selected main series and its controls in separate price pane",
+      "boundsPx": [
+        0,
+        41,
+        1190,
+        632
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v107-table-frame-v5:frame-border-paint",
+      "outcome": "SUPPORTED_A",
+      "observation": "Top-right yellow LEFT/RIGHT subject has four separately observed connected blue exterior strokes and a red internal vertical divider in both frozen strips. Bottom-right same-recipe yellow LEFT/RIGHT control has neither blue frame nor red divider. All four complete words and all named structural/body windows are unoccluded.",
+      "visibleTextByRegion": [
+        {
+          "region": "subject left",
+          "literal": "LEFT"
+        },
+        {
+          "region": "subject right",
+          "literal": "RIGHT"
+        },
+        {
+          "region": "control left",
+          "literal": "LEFT"
+        },
+        {
+          "region": "control right",
+          "literal": "RIGHT"
+        }
+      ],
+      "notObservedCauses": [],
+      "scope": "This fresh v107 v5 source/private/session and controlled same-shot structural relation only; no universal frame-width, font, DPR or old-round closure claim."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

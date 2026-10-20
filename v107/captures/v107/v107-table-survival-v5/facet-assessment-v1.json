@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v107-table-survival-v5",
+  "sourceSha256": "a170949eb4df4addcbdb1a8c32e3a1f42cda03ed547367932d5e3e9de3e303fd",
+  "numericReport": {
+    "path": "v107/captures/v107/v107-table-survival-v5/numeric-results-v1.json",
+    "bytes": 158054,
+    "sha256": "9cb17dd356632dfb569de741a5ba506b466d05f950ac1d720b9e6fbce94b18fa"
+  },
+  "compilerDiagnostics": {
+    "path": "v107/captures/v107/v107-table-survival-v5/compiler-diagnostics-v1.json",
+    "bytes": 1589,
+    "sha256": "35c6fe3dca47c0cdfd277f0336e082fe2d7f405522cae49efd079d5e7e11be8c"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v107-table-survival-v5:same-position-lifetime",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "A is absent at top-right after B first takes top-right then moves to middle-right; B and C remain readable at middle-right and bottom-right",
+      "modelB": "A reappears at top-right after B moves away; B and C remain readable at middle-right and bottom-right",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v107/captures/v107/v107-table-survival-v5/derived-region-map-v1.json",
+        "bytes": 6543,
+        "sha256": "c569c8be3428caac4776ddfdffa5fdbc1dc0300a6cb480de9b2e79f3791f2445"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. CSV-owned context and independent build-event table state are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

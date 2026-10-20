@@ -1,0 +1,3 @@
+plot(build ? time : na, "VISUAL_ANCHOR_TIME", display=display.data_window)
+plot(0, "SCALE_LOW", color=color.gray)
+plot(100, "SCALE_HIGH", color=color.gray)

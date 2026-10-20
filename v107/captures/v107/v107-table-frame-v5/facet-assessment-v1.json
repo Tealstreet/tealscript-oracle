@@ -1,0 +1,46 @@
+{
+  "version": "v1",
+  "sourceId": "v107-table-frame-v5",
+  "sourceSha256": "256718bb484b1157cefdbdcbbce807e9713283cbf23924409eb398ab6cd6f3b6",
+  "numericReport": {
+    "path": "v107/captures/v107/v107-table-frame-v5/numeric-results-v1.json",
+    "bytes": 142751,
+    "sha256": "6498d5d5a0ea24c1074fcb6a891360f3c49220cfa8bacf5b858744cee4111e5f"
+  },
+  "compilerDiagnostics": {
+    "path": "v107/captures/v107/v107-table-frame-v5/compiler-diagnostics-v1.json",
+    "bytes": 1580,
+    "sha256": "6e5770ad3fcfac5f767e980915f5493cf74499f199ddce7f605addccdda0e653"
+  },
+  "nativeAdmission": true,
+  "facets": [
+    {
+      "facetId": "v107-table-frame-v5:frame-border-paint",
+      "verdict": "SUPPORTED",
+      "outcome": "SUPPORTED_A",
+      "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+      "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v107/captures/v107/v107-table-frame-v5/derived-region-map-v1.json",
+        "bytes": 6741,
+        "sha256": "c27ac778600f77a42a1e7ea34d82b14227b192471606576c44121de0fae2012d"
+      },
+      "notObservedCauses": [],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. CSV-owned context and independent build-event table state are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}
