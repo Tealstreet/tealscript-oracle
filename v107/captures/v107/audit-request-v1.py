@@ -1,0 +1,87 @@
+import hashlib
+import json
+import re
+import runpy
+from pathlib import Path
+
+BASE = Path(__file__).resolve().parent
+ROOT = BASE.parents[2]
+split_arguments = runpy.run_path(str(ROOT/'v102/captures/v102/audit-request-v1.py'))['split_arguments']
+
+
+def audit():
+    manifest = json.loads((ROOT/'v107/bundle-manifest-v1.json').read_text())
+    matrix = json.loads((ROOT/'v107/CASE-MATRIX-v1.json').read_text())
+    facets = {f['facetId']: f for f in matrix['facets']}
+    assert len(manifest['entries']) == 4 and len(facets) == 4
+    checksums = []
+    for line in (ROOT/'v107/SHA256SUMS').read_text().splitlines():
+        digest, name = line.split(maxsplit=1)
+        name = name.lstrip('*')
+        raw = (ROOT/'v107'/name).read_bytes()
+        assert hashlib.sha256(raw).hexdigest() == digest, name
+        checksums.append(dict(path='v107/'+name, sha256=digest, bytes=len(raw)))
+    sources = []
+    versions = {5: 0, 6: 0}
+    for asset in manifest['entries']:
+        raw = (ROOT/asset['path']).read_bytes()
+        assert len(raw) == asset['bytes'] and hashlib.sha256(raw).hexdigest() == asset['sha256']
+        source = raw.decode()
+        plots = []
+        for line in source.splitlines():
+            match = re.search(r'\b(plot(?:shape|char|arrow)?)\(', line)
+            if match:
+                args = split_arguments(line[match.end():])
+                title = next((a.split('=', 1)[1].strip() for a in args if re.match(r'^title\s*=', a)), args[1])
+                plots.append(dict(sourcePlotOrdinal=len(plots), function=match[1], title=json.loads(title)))
+        assert plots == asset['plots']
+        assert len({p['title'] for p in plots}) == asset['plotCalls']
+        assert re.search(r'indicator\("([^"]+)"', source)[1] == asset['indicatorTitle']
+        assert not re.search(r'^\s*import\s|\brequest\.|\balert\(|\bstrategy\(', source, re.M)
+        assert 'build = barstate.islastconfirmedhistory and na(anchorIndex) and bar_index >= 240' in source
+        assert source.count('anchorIndex := bar_index') == 1
+        assert 'plot(build ? time : na, "VISUAL_ANCHOR_TIME"' in source
+        for line in source.splitlines():
+            if re.search(r'\b(?:box|label|line|table)\.(?:new|copy|set_\w+|merge_cells|cell|delete)\(', line):
+                assert line.startswith('    '), line
+        assert len(asset['visualFacets']) == 1
+        for facet in asset['visualFacets']:
+            assert facets.pop(facet['facetId']) == facet
+        provenance=asset['provenance'];prior=(ROOT/provenance['path']).read_bytes();assert hashlib.sha256(prior).hexdigest()==provenance['sha256']
+        assert provenance['unchanged'] is False
+        prior_text=prior.decode()
+        prior_title=re.search(r'indicator\("([^"]+)"',prior_text)[1]
+        reversed_source=source.replace(asset['indicatorTitle'],prior_title)
+        assert reversed_source.encode()==prior
+        assert not re.search(r'position\.(?:top_left|bottom_left)',source)
+        assert all(p in ['top_right','middle_right','middle_center','bottom_right'] for p in re.findall(r'position\.(\w+)',source))
+        assert asset['budget']==dict(save=1,add=1,csv=1,png=1,sessions=1,retries=0,variants=0)
+        assert asset['primaryClosedRows']==32 and asset['predecessorClosedRows']==8
+        assert asset['nativeOutcome']=='UNSPECIFIED'
+        versions[asset['pineVersion']] += 1
+        sources.append(dict(slot=asset['slot'], sourceId=asset['sourceId'], bytes=len(raw), sha256=asset['sha256'], plots=plots))
+    viewport=manifest['viewportPrerequisite']
+    assert matrix['viewportPrerequisite']==viewport
+    assert viewport['wholePrimaryPlus8PredecessorsVisible'] is False and viewport['primaryOrPredecessorBarVisibilityRequired'] is False
+    assert viewport['tableWindowClearanceRequired'] is True
+    for key in ['pixelsPerBar','studyPaneHeightPx','paneSize']:
+        assert viewport[key]==dict(recordActual=True,gated=False,requiredRange=None)
+    prior_manifest=json.loads((ROOT/'v106/bundle-manifest-v1.json').read_text())
+    for asset,old in zip(manifest['entries'],prior_manifest['entries']):
+        frozen=dict(asset['visualFacets'][0]);prior_facet=dict(old['visualFacets'][0]);frozen.pop('facetId');prior_facet.pop('facetId');assert frozen==prior_facet
+        assert asset['plots']==old['plots'] and asset['numericWitnesses']==old['numericWitnesses']
+    historical=manifest['historicalResponse'];assert hashlib.sha256((ROOT/historical['path']).read_bytes()).hexdigest()==historical['sha256']
+    assert not facets and versions == {5: 4, 6: 0}
+    assert sum(len(s['plots']) for s in sources) == 37
+    return dict(version='v1', status='PASS', requestCommit='35d3d1914b2a397d961e35968725c198450aea00', checksumEntries=checksums, sources=sources, totalPlotColumns=37, prospectivePrimaryCells=1184, nativeOutcome='UNSPECIFIED; source hypotheses do not supply native targets')
+
+
+if __name__ == '__main__':
+    result = audit()
+    path = BASE/'environment-v1/request-audit-v1.json'
+    content = json.dumps(result, indent=2)+'\n'
+    if path.exists():
+        assert path.read_text() == content
+    else:
+        path.write_text(content)
+    print(json.dumps(dict(status='PASS', sources=len(result['sources']), checksumEntries=len(result['checksumEntries']), totalPlotColumns=37)))

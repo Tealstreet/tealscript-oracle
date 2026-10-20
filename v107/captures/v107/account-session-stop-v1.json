@@ -1,0 +1,88 @@
+{
+  "version": "v1",
+  "status": "BLOCKED-NEEDS-OWNER-APPROVAL",
+  "recordedAtUtc": "2026-10-20T10:23:13.697670+00:00",
+  "requestCommit": "35d3d1914b2a397d961e35968725c198450aea00",
+  "reason": "Native Session disconnected modal reports Mac/Electron. Authorized account session is unavailable; v107 forbids sign-in/reconnect. Connect was not clicked.",
+  "newLayoutsCreated": 0,
+  "sourceSlotsConsumed": 0,
+  "nativeSourceEntries": 0,
+  "nativeSaves": 0,
+  "nativeAdds": 0,
+  "originalCsvs": 0,
+  "originalRenderPngs": 0,
+  "reconnectActions": 0,
+  "oldLayoutEdits": 0,
+  "sourceRepairs": 0,
+  "retries": 0,
+  "privateLibraryActions": 0,
+  "requestAudit": {
+    "path": "v107/captures/v107/environment-v1/request-audit-v1.json",
+    "bytes": 7005,
+    "sha256": "9ae2b5687b73431a24c16ef801a1a9b6f5c6486d2942af1d64718dc87304c182"
+  },
+  "nativeModalSnapshot": {
+    "path": "v107/captures/v107/environment-v1/layout-menu-inspection-v1.txt",
+    "bytes": 9177,
+    "sha256": "d7dba673fc2ebb81bdac4ba08d461889b29bdc9fb46b8846d97d608a622c6096"
+  },
+  "nativeModalJpeg": {
+    "path": "v107/captures/v107/environment-v1/session-disconnected-v1.jpg",
+    "bytes": 174692,
+    "sha256": "65fd34c52ff2f51f954adaf6e569be8cba55930d6a7579f7ce5a9c50dc0a79c7"
+  },
+  "slots": [
+    {
+      "slot": 1,
+      "sourceId": "v107-table-survival-v5",
+      "sourceSha256": "a170949eb4df4addcbdb1a8c32e3a1f42cda03ed547367932d5e3e9de3e303fd",
+      "status": "BLOCKED BEFORE SOURCE ENTRY; no attempt consumed",
+      "nativeOutcome": "UNOBSERVED",
+      "save": null,
+      "add": null,
+      "session": null
+    },
+    {
+      "slot": 2,
+      "sourceId": "v107-table-relocation-v5",
+      "sourceSha256": "af71f08b1fa26ab9201430baf46d77a7766df4ff390cea8d9747214231ab58c2",
+      "status": "BLOCKED BEFORE SOURCE ENTRY; no attempt consumed",
+      "nativeOutcome": "UNOBSERVED",
+      "save": null,
+      "add": null,
+      "session": null
+    },
+    {
+      "slot": 3,
+      "sourceId": "v107-table-frame-v5",
+      "sourceSha256": "256718bb484b1157cefdbdcbbce807e9713283cbf23924409eb398ab6cd6f3b6",
+      "status": "BLOCKED BEFORE SOURCE ENTRY; no attempt consumed",
+      "nativeOutcome": "UNOBSERVED",
+      "save": null,
+      "add": null,
+      "session": null
+    },
+    {
+      "slot": 4,
+      "sourceId": "v107-table-merge-v5",
+      "sourceSha256": "73bb52e02bd042068f3d64d480bf0d52063aed2e4f7ad7b113da835e50ada164",
+      "status": "BLOCKED BEFORE SOURCE ENTRY; no attempt consumed",
+      "nativeOutcome": "UNOBSERVED",
+      "save": null,
+      "add": null,
+      "session": null
+    }
+  ],
+  "remainingFiniteBudget": {
+    "saves": 4,
+    "adds": 4,
+    "csvExports": 4,
+    "wholeChartPNGs": 4,
+    "sessions": 4,
+    "retries": 0,
+    "variants": 0,
+    "layouts": 1
+  },
+  "earlierApproval": "Historical v92 reconnect approval is not treated as authority to override the fresh v107 prohibition. No current-round reconnect occurred.",
+  "failedSetupAction": "Manage layouts click was followed by missing Open layout control; passive inspection exposed the account-session modal. No layout create or old-layout Save occurred."
+}
