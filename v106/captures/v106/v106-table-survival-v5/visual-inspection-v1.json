@@ -1,0 +1,140 @@
+{
+  "version": "v1",
+  "inspectedAtUtc": "2026-10-20T00:25:12.218883+00:00",
+  "method": "Original whole PNG; preregistered geometry and actual axes, complete B/C in separate right-side bodies and entire clear original top-right absence envelope. Viewport prerequisite checked before visual model scoring.",
+  "geometryRegistration": "geometry-registration-v1.json",
+  "inspectedOriginalPngSha256": "46b1e81e029ca58d5ffe334ea0de54f6238a6b53d17f839460fedfff8ac7ed77",
+  "axisCalibration": {
+    "paneInteriorBoundsPx": [
+      55,
+      632,
+      1190,
+      926
+    ],
+    "xTicks": [
+      {
+        "label": "23:10 UTC 2026-10-19",
+        "unixSeconds": 1792451400,
+        "xPx": 141
+      },
+      {
+        "label": "00:10 UTC 2026-10-20",
+        "unixSeconds": 1792455000,
+        "xPx": 818
+      }
+    ],
+    "yZeroPx": 901,
+    "yHundredPx": 661
+  },
+  "tableObjects": {
+    "original": {
+      "exteriorPx": null,
+      "registrationReadable": false,
+      "absenceWindowReadable": true,
+      "windowFindings": {
+        "envelope": "Entire frozen original top-right region is unobscured: background/grid and separate scale line, with no red A body or A glyph. No absent exterior is invented."
+      }
+    },
+    "moved": {
+      "exteriorPx": [
+        1161,
+        767,
+        1180,
+        791
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete isolated blue body at middle-right with all exterior boundaries readable.",
+        "text/completeText": "Complete literal B, independently read in own blue body."
+      }
+    },
+    "control": {
+      "exteriorPx": [
+        1160,
+        892,
+        1180,
+        916
+      ],
+      "registrationReadable": true,
+      "windowFindings": {
+        "body": "Complete isolated orange body at bottom-right with all exterior boundaries readable.",
+        "text/completeText": "Complete literal C, independently read in own orange body."
+      }
+    }
+  },
+  "occlusionRegionsPx": [
+    {
+      "identity": "native indicator legend",
+      "boundsPx": [
+        63,
+        639,
+        412,
+        661
+      ]
+    },
+    {
+      "identity": "TradingView watermark",
+      "boundsPx": [
+        67,
+        897,
+        98,
+        913
+      ]
+    },
+    {
+      "identity": "study price/value axis outside plotting area",
+      "boundsPx": [
+        1190,
+        632,
+        1355,
+        926
+      ]
+    },
+    {
+      "identity": "floating favorite drawings toolbar in main price pane",
+      "boundsPx": [
+        852,
+        99,
+        1638,
+        139
+      ]
+    },
+    {
+      "identity": "Manage layouts tooltip above chart",
+      "boundsPx": [
+        1372,
+        42,
+        1487,
+        66
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetId": "v106-table-survival-v5:same-position-lifetime",
+      "outcome": "UNDECIDED",
+      "observation": "Original top-right envelope has no red A. Separate complete blue B is middle-right; separate complete orange C is bottom-right. All three frozen table windows are clear. These readable observations do not override the failed whole-primary-plus-predecessor viewport prerequisite.",
+      "visibleTextByRegion": [
+        {
+          "region": "moved middle-right",
+          "literal": "B"
+        },
+        {
+          "region": "control bottom-right",
+          "literal": "C"
+        }
+      ],
+      "notObservedCause": "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized.",
+      "notObservedCauses": [
+        "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized."
+      ],
+      "scope": "Fresh v106 source/private/session only. Zero visual scoring credit; numeric state remains independent. No v104/v105 hold is revised."
+    }
+  ],
+  "exposedAppearanceMetadata": {
+    "theme": "Dark native UI",
+    "zoom": null,
+    "dpi": null,
+    "resolvedFont": null
+  }
+}

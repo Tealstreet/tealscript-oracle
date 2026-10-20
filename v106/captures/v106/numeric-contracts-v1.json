@@ -1,0 +1,334 @@
+{
+  "version": "v1",
+  "method": "Frozen source/manifest contracts before native source attempts; no engine or observed-output fitting",
+  "sources": [
+    {
+      "sourceId": "v106-table-survival-v5",
+      "sourceSha256": "eb893cbc2b1b80322b86b59f5aabdfb9031b7306445b3f3915b8376f70b2a170",
+      "contracts": [
+        {
+          "title": "TABLE_COUNT",
+          "sourcePlotOrdinal": 0,
+          "rule": "BUILD_EVENT_UNSPECIFIED",
+          "prediction": null,
+          "frozenWitness": {
+            "expression": "array.size(table.all)",
+            "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+            "anchorExpected": "UNSPECIFIED"
+          }
+        },
+        {
+          "title": "OLD_NA",
+          "sourcePlotOrdinal": 1,
+          "rule": "BUILD_EVENT_UNSPECIFIED",
+          "prediction": null,
+          "frozenWitness": {
+            "expression": "na(a) ? 1 : 0",
+            "role": "build-event handle observation only; no survival-paint credit",
+            "anchorExpected": "UNSPECIFIED"
+          }
+        },
+        {
+          "title": "INPUT_INDEX",
+          "sourcePlotOrdinal": 2,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "INPUT_TIME",
+          "sourcePlotOrdinal": 3,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CHART_CONFIRMED",
+          "sourcePlotOrdinal": 4,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CASE_ID",
+          "sourcePlotOrdinal": 5,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "VISUAL_ANCHOR_INDEX",
+          "sourcePlotOrdinal": 6,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "VISUAL_ANCHOR_TIME",
+          "sourcePlotOrdinal": 7,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "SCALE_LOW",
+          "sourcePlotOrdinal": 8,
+          "rule": "CONSTANT",
+          "prediction": "0"
+        },
+        {
+          "title": "SCALE_HIGH",
+          "sourcePlotOrdinal": 9,
+          "rule": "CONSTANT",
+          "prediction": "100"
+        }
+      ],
+      "frozenNumericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        },
+        "OLD_NA": {
+          "expression": "na(a) ? 1 : 0",
+          "role": "build-event handle observation only; no survival-paint credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      }
+    },
+    {
+      "sourceId": "v106-table-relocation-v5",
+      "sourceSha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd",
+      "contracts": [
+        {
+          "title": "TABLE_COUNT",
+          "sourcePlotOrdinal": 0,
+          "rule": "BUILD_EVENT_UNSPECIFIED",
+          "prediction": null,
+          "frozenWitness": {
+            "expression": "array.size(table.all)",
+            "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+            "anchorExpected": "UNSPECIFIED"
+          }
+        },
+        {
+          "title": "INPUT_INDEX",
+          "sourcePlotOrdinal": 1,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "INPUT_TIME",
+          "sourcePlotOrdinal": 2,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CHART_CONFIRMED",
+          "sourcePlotOrdinal": 3,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CASE_ID",
+          "sourcePlotOrdinal": 4,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "VISUAL_ANCHOR_INDEX",
+          "sourcePlotOrdinal": 5,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "VISUAL_ANCHOR_TIME",
+          "sourcePlotOrdinal": 6,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "SCALE_LOW",
+          "sourcePlotOrdinal": 7,
+          "rule": "CONSTANT",
+          "prediction": "0"
+        },
+        {
+          "title": "SCALE_HIGH",
+          "sourcePlotOrdinal": 8,
+          "rule": "CONSTANT",
+          "prediction": "100"
+        }
+      ],
+      "frozenNumericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      }
+    },
+    {
+      "sourceId": "v106-table-frame-v5",
+      "sourceSha256": "ad41f925347fdb5bcafeea53034fec6739a5d5b1c942d4f8c1eb612d95ba60db",
+      "contracts": [
+        {
+          "title": "TABLE_COUNT",
+          "sourcePlotOrdinal": 0,
+          "rule": "BUILD_EVENT_UNSPECIFIED",
+          "prediction": null,
+          "frozenWitness": {
+            "expression": "array.size(table.all)",
+            "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+            "anchorExpected": "UNSPECIFIED"
+          }
+        },
+        {
+          "title": "INPUT_INDEX",
+          "sourcePlotOrdinal": 1,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "INPUT_TIME",
+          "sourcePlotOrdinal": 2,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CHART_CONFIRMED",
+          "sourcePlotOrdinal": 3,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CASE_ID",
+          "sourcePlotOrdinal": 4,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "VISUAL_ANCHOR_INDEX",
+          "sourcePlotOrdinal": 5,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "VISUAL_ANCHOR_TIME",
+          "sourcePlotOrdinal": 6,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "SCALE_LOW",
+          "sourcePlotOrdinal": 7,
+          "rule": "CONSTANT",
+          "prediction": "0"
+        },
+        {
+          "title": "SCALE_HIGH",
+          "sourcePlotOrdinal": 8,
+          "rule": "CONSTANT",
+          "prediction": "100"
+        }
+      ],
+      "frozenNumericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      }
+    },
+    {
+      "sourceId": "v106-table-merge-v5",
+      "sourceSha256": "9c6633fd0944a505af2f98ca39b5d11db6f0020141e371503f133c222791b9b4",
+      "contracts": [
+        {
+          "title": "TABLE_COUNT",
+          "sourcePlotOrdinal": 0,
+          "rule": "BUILD_EVENT_UNSPECIFIED",
+          "prediction": null,
+          "frozenWitness": {
+            "expression": "array.size(table.all)",
+            "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+            "anchorExpected": "UNSPECIFIED"
+          }
+        },
+        {
+          "title": "INPUT_INDEX",
+          "sourcePlotOrdinal": 1,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "INPUT_TIME",
+          "sourcePlotOrdinal": 2,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CHART_CONFIRMED",
+          "sourcePlotOrdinal": 3,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "CASE_ID",
+          "sourcePlotOrdinal": 4,
+          "rule": "OWNED_CONTEXT",
+          "prediction": null
+        },
+        {
+          "title": "VISUAL_ANCHOR_INDEX",
+          "sourcePlotOrdinal": 5,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "VISUAL_ANCHOR_TIME",
+          "sourcePlotOrdinal": 6,
+          "rule": "UNIQUE_BUILD_MARKER",
+          "prediction": "Own index/time at A; blank elsewhere"
+        },
+        {
+          "title": "SCALE_LOW",
+          "sourcePlotOrdinal": 7,
+          "rule": "CONSTANT",
+          "prediction": "0"
+        },
+        {
+          "title": "SCALE_HIGH",
+          "sourcePlotOrdinal": 8,
+          "rule": "CONSTANT",
+          "prediction": "100"
+        }
+      ],
+      "frozenNumericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      }
+    }
+  ],
+  "primarySelection": "A-31..A plus8 original A-39..A-32 predecessors",
+  "calibrationUncertaintyBeforeScoring": {
+    "axisXPx": 2,
+    "axisYPx": 3,
+    "strokeEdgePx": 1,
+    "stepCombinedXPx": 3
+  },
+  "stepRule": "Candidate intervals strictly disjoint or UNDECIDED; no relaxation",
+  "viewportPrerequisite": {
+    "initialSetupOnly": true,
+    "studyPaneHeightPx": [
+      240,
+      600
+    ],
+    "pixelsPerBar": [
+      16,
+      24
+    ],
+    "wholePrimaryPlus8PredecessorsVisible": true,
+    "layout": "one new v106 throwaway; unchanged after initial setup",
+    "uncertaintyRule": "Register actual native axes/pane bounds and every native overlay before scoring; no assumed DPR/font/padding. Every complete required window must be unoccluded. Missing registration is NOT OBSERVED, no rescue."
+  },
+  "missingOrOverlappingCandidates": "UNDECIDED; no later viewport/settings/source rescue",
+  "buildEventScope": "31 intentional blanks and one closed event; unspecified table state is observed without inventing an expected value"
+}

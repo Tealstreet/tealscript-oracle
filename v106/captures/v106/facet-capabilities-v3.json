@@ -1,0 +1,194 @@
+{
+  "version": "v3",
+  "sources": [
+    {
+      "sourceId": "v106-table-survival-v5",
+      "sourceSha256": "eb893cbc2b1b80322b86b59f5aabdfb9031b7306445b3f3915b8376f70b2a170",
+      "numericReport": {
+        "path": "v106/captures/v106/v106-table-survival-v5/numeric-results-v1.json",
+        "bytes": 158054,
+        "sha256": "f50bbacd884dd4ed9e717d0e140de4273b9fe0fb7ba0e9ecb92f471e1b0b5f3c"
+      },
+      "facetAssessment": {
+        "path": "v106/captures/v106/v106-table-survival-v5/facet-assessment-v1.json",
+        "bytes": 2299,
+        "sha256": "ca188c2ed964e81b7ae27cefbb2ec766dbe1535509b1ab9edc7a9d1abfe2e309"
+      },
+      "compilerDiagnostics": {
+        "path": "v106/captures/v106/v106-table-survival-v5/compiler-diagnostics-v1.json",
+        "bytes": 1589,
+        "sha256": "ba10732d1feaa9e052cb85f98492fa1e773f51868e219397fa4163798535db0f"
+      },
+      "visualMap": {
+        "path": "v106/captures/v106/v106-table-survival-v5/derived-region-map-v1.json",
+        "bytes": 8840,
+        "sha256": "de7f59939884459d1bfad1da19e8e2270c3bffb17685ea99fabfef65d1613115"
+      }
+    },
+    {
+      "sourceId": "v106-table-relocation-v5",
+      "sourceSha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd",
+      "numericReport": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/numeric-results-v1.json",
+        "bytes": 9537,
+        "sha256": "d5a28ed4d537d2ded5c54c3861c9531ca4f49114e785971793f8ac7b94b71c88"
+      },
+      "facetAssessment": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/facet-assessment-v1.json",
+        "bytes": 1996,
+        "sha256": "031e8087fc73bf6ef1d2cb8944a2ebf87051a8507506d0bc067c55a2a7cbdd13"
+      },
+      "compilerDiagnostics": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/compiler-diagnostics-v1.json",
+        "bytes": 394,
+        "sha256": "96b5c7d14c76d09497e56807b55a70e646e8ab8ab473496fa3e760fefacd6410"
+      },
+      "visualMap": null
+    },
+    {
+      "sourceId": "v106-table-frame-v5",
+      "sourceSha256": "ad41f925347fdb5bcafeea53034fec6739a5d5b1c942d4f8c1eb612d95ba60db",
+      "numericReport": {
+        "path": "v106/captures/v106/v106-table-frame-v5/numeric-results-v1.json",
+        "bytes": 8986,
+        "sha256": "b1c31b49b065c62ec13d0ffa34a9ae273f91d576efc4721e0e749eb4f071dcab"
+      },
+      "facetAssessment": {
+        "path": "v106/captures/v106/v106-table-frame-v5/facet-assessment-v1.json",
+        "bytes": 1962,
+        "sha256": "e2f6f1fceefed2d2f9200080445d7f43f7405713d5921b841eb7342dfac86171"
+      },
+      "compilerDiagnostics": {
+        "path": "v106/captures/v106/v106-table-frame-v5/compiler-diagnostics-v1.json",
+        "bytes": 384,
+        "sha256": "c3b39ab7ecc4edebbf5d39b7365b2107a37ef7b2c3df8f5d3dc4921db0f99ea1"
+      },
+      "visualMap": null
+    },
+    {
+      "sourceId": "v106-table-merge-v5",
+      "sourceSha256": "9c6633fd0944a505af2f98ca39b5d11db6f0020141e371503f133c222791b9b4",
+      "numericReport": {
+        "path": "v106/captures/v106/v106-table-merge-v5/numeric-results-v1.json",
+        "bytes": 8986,
+        "sha256": "09a81db2dac3ab727bb94b3da5f4f68961c5e39c8aafed42c5baa0879c3cea9b"
+      },
+      "facetAssessment": {
+        "path": "v106/captures/v106/v106-table-merge-v5/facet-assessment-v1.json",
+        "bytes": 1953,
+        "sha256": "04344f9d72116fcd5362da3abfd92e9e93f54180429f753bd7cff0d0efd64f2b"
+      },
+      "compilerDiagnostics": {
+        "path": "v106/captures/v106/v106-table-merge-v5/compiler-diagnostics-v1.json",
+        "bytes": 384,
+        "sha256": "69de38350f9bc9d3e059e174ff3d879c303c1dde75992e1f279e6c97373a1ce3"
+      },
+      "visualMap": null
+    }
+  ],
+  "visualFacets": [
+    {
+      "facetId": "v106-table-survival-v5:same-position-lifetime",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "A is absent at top-right after B first takes top-right then moves to middle-right; B and C remain readable at middle-right and bottom-right",
+      "modelB": "A reappears at top-right after B moves away; B and C remain readable at middle-right and bottom-right",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": {
+        "path": "v106/captures/v106/v106-table-survival-v5/derived-region-map-v1.json",
+        "bytes": 8840,
+        "sha256": "de7f59939884459d1bfad1da19e8e2270c3bffb17685ea99fabfef65d1613115"
+      },
+      "notObservedCauses": [
+        "Full own A-39..A primary-plus-predecessor viewport is outside original pane",
+        "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v106-table-relocation-v5:final-position",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "Complete blue MOVED at middle-right; complete orange CONTROL at bottom-right; original top-right clear",
+      "modelB": "Position setter ignored: complete blue MOVED stays top-right, middle-right clear; complete orange CONTROL remains bottom-right",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v106-table-frame-v5:frame-border-paint",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+      "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    },
+    {
+      "facetId": "v106-table-merge-v5:merged-row",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+      "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "maximumRegisteredFacets": 4,
+  "scope": "Returned finite facets only; no broad family PASS, transferred v5/v6 closure, engine parity or fixture promotion"
+}

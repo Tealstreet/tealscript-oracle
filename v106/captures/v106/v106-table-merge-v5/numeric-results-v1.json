@@ -1,0 +1,264 @@
+{
+  "version": "v1",
+  "sourceId": "v106-table-merge-v5",
+  "sourceSha256": "9c6633fd0944a505af2f98ca39b5d11db6f0020141e371503f133c222791b9b4",
+  "sourceObservation": {
+    "version": "v1",
+    "sourceId": "v106-table-merge-v5",
+    "slotId": "v106-table-merge-v5",
+    "sourceSha256": "9c6633fd0944a505af2f98ca39b5d11db6f0020141e371503f133c222791b9b4",
+    "pineVersion": 5,
+    "requested": {
+      "path": "v106/sources/v106-table-merge-v5.pine",
+      "bytes": 1603,
+      "sha256": "9c6633fd0944a505af2f98ca39b5d11db6f0020141e371503f133c222791b9b4"
+    },
+    "executed": null,
+    "sourceForm": null,
+    "saveBody": null,
+    "addBody": null,
+    "nativeCompileSuccess": null,
+    "privateScriptId": null,
+    "privateVersion": null,
+    "nativeLayoutId": 208556660,
+    "nativeLayoutImage": "dp7FfcLy",
+    "receipt": {
+      "path": "v106/captures/v106/v106-table-merge-v5/attempt-v1/capture-receipt-v1.json",
+      "bytes": 775,
+      "sha256": "0e9695e749a00cc599b1224690fd806b4e884d8c729cf7a509e0925e019b8797"
+    },
+    "editorMarkerArrays": null,
+    "editorMarkerStatus": "UNOBSERVED; no native compiler attempt",
+    "settings": "BINANCE:BTCUSDT2m Candles Etc/UTC; shared round viewport prerequisite failure; no requested-source execution",
+    "sourceSpecificExecutionId": null,
+    "sourceSpecificExecutionIdStatus": "UNOBSERVED; no Save/Add",
+    "sourceEntryStop": {
+      "path": "v106/captures/v106/v106-table-merge-v5/attempt-v1/source-entry-stop-v1.json",
+      "bytes": 1189,
+      "sha256": "134065b62f4ed75480d9ab5c2321cadf2bc0a2aecb5123941cf83aaf36f4bb59"
+    },
+    "partialEnteredUiText": [],
+    "nativePartialEntrySnapshots": [],
+    "admissionStatus": "NOT OBSERVED; viewport prerequisite hold before Save/Add",
+    "nativeEntryAttempted": false
+  },
+  "nativeBlock": {
+    "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+    "bytes": 559,
+    "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+  },
+  "frozenContracts": {
+    "path": "v106/captures/v106/numeric-contracts-v1.json",
+    "bytes": 10430,
+    "sha256": "7a1d2cf0fdac714ba7c88b413578cae23dcd1b5228f93a263cc3167f12865fd8"
+  },
+  "properties": [
+    {
+      "title": "TABLE_COUNT",
+      "sourcePlotOrdinal": 0,
+      "rule": "BUILD_EVENT_UNSPECIFIED",
+      "frozenContract": {
+        "title": "TABLE_COUNT",
+        "sourcePlotOrdinal": 0,
+        "rule": "BUILD_EVENT_UNSPECIFIED",
+        "prediction": null,
+        "frozenWitness": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "INPUT_INDEX",
+      "sourcePlotOrdinal": 1,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "INPUT_INDEX",
+        "sourcePlotOrdinal": 1,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "INPUT_TIME",
+      "sourcePlotOrdinal": 2,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "INPUT_TIME",
+        "sourcePlotOrdinal": 2,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "CHART_CONFIRMED",
+      "sourcePlotOrdinal": 3,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "CHART_CONFIRMED",
+        "sourcePlotOrdinal": 3,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "CASE_ID",
+      "sourcePlotOrdinal": 4,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "CASE_ID",
+        "sourcePlotOrdinal": 4,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "VISUAL_ANCHOR_INDEX",
+      "sourcePlotOrdinal": 5,
+      "rule": "UNIQUE_BUILD_MARKER",
+      "frozenContract": {
+        "title": "VISUAL_ANCHOR_INDEX",
+        "sourcePlotOrdinal": 5,
+        "rule": "UNIQUE_BUILD_MARKER",
+        "prediction": "Own index/time at A; blank elsewhere"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "VISUAL_ANCHOR_TIME",
+      "sourcePlotOrdinal": 6,
+      "rule": "UNIQUE_BUILD_MARKER",
+      "frozenContract": {
+        "title": "VISUAL_ANCHOR_TIME",
+        "sourcePlotOrdinal": 6,
+        "rule": "UNIQUE_BUILD_MARKER",
+        "prediction": "Own index/time at A; blank elsewhere"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "SCALE_LOW",
+      "sourcePlotOrdinal": 7,
+      "rule": "CONSTANT",
+      "frozenContract": {
+        "title": "SCALE_LOW",
+        "sourcePlotOrdinal": 7,
+        "rule": "CONSTANT",
+        "prediction": "0"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "SCALE_HIGH",
+      "sourcePlotOrdinal": 8,
+      "rule": "CONSTANT",
+      "frozenContract": {
+        "title": "SCALE_HIGH",
+        "sourcePlotOrdinal": 8,
+        "rule": "CONSTANT",
+        "prediction": "100"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-merge-v5/native-cell-block-v1.json",
+        "bytes": 559,
+        "sha256": "8a1ff11b0250dbb5fc04d316956fe7db5351e92a656c43fb46edd450afdaad96"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    }
+  ],
+  "numericAlternatives": [],
+  "primaryInputCertificate": false,
+  "uniquePrimaryPlotCells": 0,
+  "scope": "Build getters:31 intentional blanks and1 event, never32 independent getter observations. Context/intent/blank cells are counted once; absent sources receive no native credit. Visual models and maps are independent."
+}

@@ -1,0 +1,44 @@
+{
+  "version": "v1",
+  "sourceId": "v106-table-merge-v5",
+  "sourceSha256": "9c6633fd0944a505af2f98ca39b5d11db6f0020141e371503f133c222791b9b4",
+  "numericReport": {
+    "path": "v106/captures/v106/v106-table-merge-v5/numeric-results-v1.json",
+    "bytes": 8986,
+    "sha256": "09a81db2dac3ab727bb94b3da5f4f68961c5e39c8aafed42c5baa0879c3cea9b"
+  },
+  "compilerDiagnostics": {
+    "path": "v106/captures/v106/v106-table-merge-v5/compiler-diagnostics-v1.json",
+    "bytes": 384,
+    "sha256": "69de38350f9bc9d3e059e174ff3d879c303c1dde75992e1f279e6c97373a1ce3"
+  },
+  "nativeAdmission": null,
+  "facets": [
+    {
+      "facetId": "v106-table-merge-v5:merged-row",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+      "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar source context and separate build-event table state are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

@@ -1,0 +1,44 @@
+{
+  "version": "v1",
+  "sourceId": "v106-table-relocation-v5",
+  "sourceSha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd",
+  "numericReport": {
+    "path": "v106/captures/v106/v106-table-relocation-v5/numeric-results-v1.json",
+    "bytes": 9537,
+    "sha256": "d5a28ed4d537d2ded5c54c3861c9531ca4f49114e785971793f8ac7b94b71c88"
+  },
+  "compilerDiagnostics": {
+    "path": "v106/captures/v106/v106-table-relocation-v5/compiler-diagnostics-v1.json",
+    "bytes": 394,
+    "sha256": "96b5c7d14c76d09497e56807b55a70e646e8ab8ab473496fa3e760fefacd6410"
+  },
+  "nativeAdmission": null,
+  "facets": [
+    {
+      "facetId": "v106-table-relocation-v5:final-position",
+      "verdict": "UNDECIDED",
+      "outcome": "UNDECIDED",
+      "modelA": "Complete blue MOVED at middle-right; complete orange CONTROL at bottom-right; original top-right clear",
+      "modelB": "Position setter ignored: complete blue MOVED stays top-right, middle-right clear; complete orange CONTROL remains bottom-right",
+      "frozenPixelWindow": {
+        "coordinates": "pane-fraction-top-down",
+        "x": [
+          0.5,
+          1
+        ],
+        "y": [
+          0,
+          1
+        ],
+        "paddingPx": 2
+      },
+      "visualMap": null,
+      "notObservedCauses": [
+        "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized."
+      ],
+      "scope": "One exact source/version and frozen window; numeric getters/intent never supply pixels"
+    }
+  ],
+  "numericScope": "Build-event getters are one observation plus31 intentional blanks. Per-bar source context and separate build-event table state are distinct.",
+  "held": "All absent/clipped/overlapping/unreadable controls; native frame/font/DPI/zoom; historical holds and universal raster/API claims"
+}

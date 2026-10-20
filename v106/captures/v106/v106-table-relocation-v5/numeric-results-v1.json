@@ -1,0 +1,276 @@
+{
+  "version": "v1",
+  "sourceId": "v106-table-relocation-v5",
+  "sourceSha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd",
+  "sourceObservation": {
+    "version": "v1",
+    "sourceId": "v106-table-relocation-v5",
+    "slotId": "v106-table-relocation-v5",
+    "sourceSha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd",
+    "pineVersion": 5,
+    "requested": {
+      "path": "v106/sources/v106-table-relocation-v5.pine",
+      "bytes": 1296,
+      "sha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd"
+    },
+    "executed": null,
+    "sourceForm": null,
+    "saveBody": null,
+    "addBody": null,
+    "nativeCompileSuccess": null,
+    "privateScriptId": null,
+    "privateVersion": null,
+    "nativeLayoutId": 208556660,
+    "nativeLayoutImage": "dp7FfcLy",
+    "receipt": {
+      "path": "v106/captures/v106/v106-table-relocation-v5/attempt-v1/capture-receipt-v1.json",
+      "bytes": 778,
+      "sha256": "34e992341a252b720216c02b48ae12ad96e1ec945ba0bf1672b1df1e875c97b2"
+    },
+    "editorMarkerArrays": null,
+    "editorMarkerStatus": "UNOBSERVED; no native compiler attempt",
+    "settings": "BINANCE:BTCUSDT2m Candles Etc/UTC; shared round viewport prerequisite failure; no requested-source execution",
+    "sourceSpecificExecutionId": null,
+    "sourceSpecificExecutionIdStatus": "UNOBSERVED; no Save/Add",
+    "sourceEntryStop": {
+      "path": "v106/captures/v106/v106-table-relocation-v5/attempt-v1/source-entry-stop-v1.json",
+      "bytes": 1423,
+      "sha256": "e2dc92091a9997466570b2a556fad30150eb818bfc594a41a48db6852fb51373"
+    },
+    "partialEnteredUiText": [
+      {
+        "path": "v106/captures/v106/v106-table-relocation-v5/attempt-v1/prerequisite-stop-exposed-v1.pine",
+        "bytes": 375,
+        "sha256": "8f5bccf2ecdb7881298f055e96967ceb90065e89d9cf8c156d54d826442e25cf"
+      }
+    ],
+    "nativePartialEntrySnapshots": [
+      {
+        "path": "v106/captures/v106/v106-table-relocation-v5/attempt-v1/prerequisite-stop-context-v1.txt",
+        "bytes": 8178,
+        "sha256": "f4bc78442f5503d3e997d02dc1114505fc10341a5101b21ef4834aff3f7a3287"
+      }
+    ],
+    "admissionStatus": "NOT OBSERVED; viewport prerequisite hold before Save/Add",
+    "nativeEntryAttempted": true
+  },
+  "nativeBlock": {
+    "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+    "bytes": 569,
+    "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+  },
+  "frozenContracts": {
+    "path": "v106/captures/v106/numeric-contracts-v1.json",
+    "bytes": 10430,
+    "sha256": "7a1d2cf0fdac714ba7c88b413578cae23dcd1b5228f93a263cc3167f12865fd8"
+  },
+  "properties": [
+    {
+      "title": "TABLE_COUNT",
+      "sourcePlotOrdinal": 0,
+      "rule": "BUILD_EVENT_UNSPECIFIED",
+      "frozenContract": {
+        "title": "TABLE_COUNT",
+        "sourcePlotOrdinal": 0,
+        "rule": "BUILD_EVENT_UNSPECIFIED",
+        "prediction": null,
+        "frozenWitness": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "INPUT_INDEX",
+      "sourcePlotOrdinal": 1,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "INPUT_INDEX",
+        "sourcePlotOrdinal": 1,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "INPUT_TIME",
+      "sourcePlotOrdinal": 2,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "INPUT_TIME",
+        "sourcePlotOrdinal": 2,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "CHART_CONFIRMED",
+      "sourcePlotOrdinal": 3,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "CHART_CONFIRMED",
+        "sourcePlotOrdinal": 3,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "CASE_ID",
+      "sourcePlotOrdinal": 4,
+      "rule": "OWNED_CONTEXT",
+      "frozenContract": {
+        "title": "CASE_ID",
+        "sourcePlotOrdinal": 4,
+        "rule": "OWNED_CONTEXT",
+        "prediction": null
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "VISUAL_ANCHOR_INDEX",
+      "sourcePlotOrdinal": 5,
+      "rule": "UNIQUE_BUILD_MARKER",
+      "frozenContract": {
+        "title": "VISUAL_ANCHOR_INDEX",
+        "sourcePlotOrdinal": 5,
+        "rule": "UNIQUE_BUILD_MARKER",
+        "prediction": "Own index/time at A; blank elsewhere"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "VISUAL_ANCHOR_TIME",
+      "sourcePlotOrdinal": 6,
+      "rule": "UNIQUE_BUILD_MARKER",
+      "frozenContract": {
+        "title": "VISUAL_ANCHOR_TIME",
+        "sourcePlotOrdinal": 6,
+        "rule": "UNIQUE_BUILD_MARKER",
+        "prediction": "Own index/time at A; blank elsewhere"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "SCALE_LOW",
+      "sourcePlotOrdinal": 7,
+      "rule": "CONSTANT",
+      "frozenContract": {
+        "title": "SCALE_LOW",
+        "sourcePlotOrdinal": 7,
+        "rule": "CONSTANT",
+        "prediction": "0"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    },
+    {
+      "title": "SCALE_HIGH",
+      "sourcePlotOrdinal": 8,
+      "rule": "CONSTANT",
+      "frozenContract": {
+        "title": "SCALE_HIGH",
+        "sourcePlotOrdinal": 8,
+        "rule": "CONSTANT",
+        "prediction": "100"
+      },
+      "verdict": "UNDECIDED",
+      "comparisonCounts": {},
+      "comparisonRows": [],
+      "nativeBlock": {
+        "path": "v106/captures/v106/v106-table-relocation-v5/native-cell-block-v1.json",
+        "bytes": 569,
+        "sha256": "4a204f8e20445725ecca2a6a0efcc2c60f0837585bd187a9e023e609c8a82f70"
+      },
+      "observedRawCounts": {},
+      "buildEventObservations": 0,
+      "intentionalPrimaryBlanks": null
+    }
+  ],
+  "numericAlternatives": [],
+  "primaryInputCertificate": false,
+  "uniquePrimaryPlotCells": 0,
+  "scope": "Build getters:31 intentional blanks and1 event, never32 independent getter observations. Context/intent/blank cells are counted once; absent sources receive no native credit. Visual models and maps are independent."
+}

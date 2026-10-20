@@ -1,0 +1,28 @@
+{
+  "version": "v1",
+  "sourceId": "v106-table-relocation-v5",
+  "sourceSha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd",
+  "stoppedAtUtc": "2026-10-20T00:25:12.218883+00:00",
+  "status": "PRE_SAVE_VIEWPORT_PREREQUISITE_STOP",
+  "cause": "Initial natural study pane clips own A-39: its registered center is x50.7333 and frozen uncertainty upper bound x54.2667, left of pane x55. Whole own A-39..A visibility is required. No post-first-Add zoom, pan, resize, settings rescue, replacement export or PNG is authorized.",
+  "prerequisiteEvidence": "v106/captures/v106/v106-table-survival-v5/geometry-registration-v1.json",
+  "nativeEntryAttempted": true,
+  "nativeCursorAtStop": {
+    "line": 17,
+    "column": 1
+  },
+  "fullSourceExact": false,
+  "nativeSaves": 0,
+  "nativeAdds": 0,
+  "originalCsvs": 0,
+  "nativeRenderingPngs": 0,
+  "retries": 0,
+  "nativeUiTextSnapshots": [
+    {
+      "nativeSnapshot": "prerequisite-stop-context-v1.txt",
+      "enteredUiText": "prerequisite-stop-exposed-v1.pine"
+    }
+  ],
+  "entryTermination": "Root terminated pending native entry after the first natural study pane failed the prerequisite, before any Save/Add. Partial buffer was passively snapshotted then own editor closed without Save.",
+  "noBorrowedEvidence": "Referenced earlier source proves the failed shared viewport prerequisite only; no requested-source execution or table outcome inferred."
+}

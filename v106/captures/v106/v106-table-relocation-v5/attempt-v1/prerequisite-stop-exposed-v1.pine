@@ -1,0 +1,6 @@
+    table.set_position(b, position.middle_right)
+    c = table.new(position.bottom_right, 1, 1, bgcolor=color.orange)
+    table.cell(c, 0, 0, "CONTROL", text_color=color.white, bgcolor=color.orange)
+    table_count := array.size(table.all)
+plot(build ? table_count : na, "TABLE_COUNT", display=display.data_window)
+plot(bar_index, "INPUT_INDEX", display=display.data_window)
