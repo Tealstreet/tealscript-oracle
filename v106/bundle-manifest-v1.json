@@ -1,0 +1,882 @@
+{
+  "schemaVersion": 1,
+  "round": "v106",
+  "oracleBaseline": "12bc8a2625ba8fb4631ea427826a8351269a9b77",
+  "proposal": "oracle-v106/BRIEF.md; four fresh v5 table identities clear of native overlays",
+  "authorization": "Author request on oracle master and push; capture only through authorized new-layout native UI method.",
+  "sourceCount": 4,
+  "pineVersionCounts": {
+    "5": 4
+  },
+  "visualFacetCount": 4,
+  "primaryClosedRowsPerSource": 32,
+  "originalPredecessorsPerSource": 8,
+  "maximumBudget": {
+    "saves": 4,
+    "adds": 4,
+    "csvExports": 4,
+    "wholeChartPNGs": 4,
+    "sessions": 4,
+    "retries": 0,
+    "variants": 0,
+    "layouts": 1
+  },
+  "viewportPrerequisite": {
+    "initialSetupOnly": true,
+    "studyPaneHeightPx": [
+      240,
+      600
+    ],
+    "pixelsPerBar": [
+      16,
+      24
+    ],
+    "wholePrimaryPlus8PredecessorsVisible": true,
+    "layout": "one new v106 throwaway; unchanged after initial setup",
+    "uncertaintyRule": "Register actual native axes/pane bounds and every native overlay before scoring; no assumed DPR/font/padding. Every complete required window must be unoccluded. Missing registration is NOT OBSERVED, no rescue."
+  },
+  "totalPlotColumns": 37,
+  "prospectivePrimaryPlotCells": 1184,
+  "nativeOutcome": "UNSPECIFIED",
+  "entries": [
+    {
+      "slot": 1,
+      "sourceId": "v106-table-survival-v5",
+      "family": "table-survival",
+      "pineVersion": 5,
+      "path": "v106/sources/v106-table-survival-v5.pine",
+      "bytes": 1534,
+      "sha256": "eb893cbc2b1b80322b86b59f5aabdfb9031b7306445b3f3915b8376f70b2a170",
+      "indicatorTitle": "v106-table-survival-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "OLD_NA"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 9,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 10,
+      "maximumPlotCounts": 10,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        },
+        "OLD_NA": {
+          "expression": "na(a) ? 1 : 0",
+          "role": "build-event handle observation only; no survival-paint credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v106-table-survival-v5:same-position-lifetime",
+          "modelA": "A is absent at top-right after B first takes top-right then moves to middle-right; B and C remain readable at middle-right and bottom-right",
+          "modelB": "A reappears at top-right after B moves away; B and C remain readable at middle-right and bottom-right",
+          "requiredControls": "complete blue B middle-right and orange C bottom-right; unobscured entire original top-right envelope; OLD_NA/TABLE_COUNT are separate numeric observations",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.5,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "B or C unreadable, any required envelope occluded, no source-owned build/PNG, or original background inseparable from red A; zero visual credit",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "independent geometric candidate",
+            "details": "A reappears at top-right after B moves away; keep B middle-right and C bottom-right identical"
+          },
+          "positionWindows": {
+            "original": [
+              0.75,
+              1,
+              0,
+              0.25
+            ],
+            "moved": [
+              0.75,
+              1,
+              0.375,
+              0.625
+            ],
+            "control": [
+              0.75,
+              1,
+              0.75,
+              1
+            ]
+          },
+          "watermarkRule": "Original top-right; moved middle-right; independent control bottom-right. Every subject/control and original absence window must be clear of native legend, watermark and every other occluder. No top-left or bottom-left table in either candidate.",
+          "predeclaredWindows": {
+            "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+            "envelopes": {
+              "original": [
+                0.75,
+                1,
+                0,
+                0.25
+              ],
+              "moved": [
+                0.75,
+                1,
+                0.375,
+                0.625
+              ],
+              "control": [
+                0.75,
+                1,
+                0.75,
+                1
+              ]
+            },
+            "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+            "body": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "registration": "Map frozen envelopes through actual study-pane bounds (plotting area, excluding axes). Register the complete table exterior using all visible boundary segments, independent of text/model. Missing/ambiguous boundaries hold that property; never move/enlarge an envelope after inspection. All body/text/divider/frame coordinates are local to the named object, never a union of tables.",
+            "completeText": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+            "subjectName": "B blue middle-right",
+            "controlName": "C orange bottom-right",
+            "oldName": "A red top-right presence/absence in entire original envelope"
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v105/sources/v105-table-survival-v5.pine",
+        "sha256": "53d74858a26c6e3cbce7c4e1412d5aa3ad92050b19fab34fdd3a3c366e8d3ee2",
+        "unchanged": false,
+        "changes": "indicator title and table positions only; constructor/setter/getter order and all other bytes unchanged"
+      },
+      "slotId": "v106-table-survival-v5",
+      "allowedTablePositions": [
+        "top_right",
+        "middle_right",
+        "middle_center",
+        "bottom_right"
+      ]
+    },
+    {
+      "slot": 2,
+      "sourceId": "v106-table-relocation-v5",
+      "family": "table-relocation",
+      "pineVersion": 5,
+      "path": "v106/sources/v106-table-relocation-v5.pine",
+      "bytes": 1296,
+      "sha256": "9d8cbbd919acf24bd253a621b69986f3b8671b976007204eaa3e356c288173dd",
+      "indicatorTitle": "v106-table-relocation-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v106-table-relocation-v5:final-position",
+          "modelA": "Complete blue MOVED at middle-right; complete orange CONTROL at bottom-right; original top-right clear",
+          "modelB": "Position setter ignored: complete blue MOVED stays top-right, middle-right clear; complete orange CONTROL remains bottom-right",
+          "requiredControls": "complete MOVED/CONTROL in their own blue/orange bodies and all three unoccluded position windows, including the empty original or moved window",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.5,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Missing/occluded MOVED or CONTROL, clipped/ambiguous original or moved absence window, or source identity unknown; zero visual credit",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "table.set_position(b, position.middle_right)",
+            "new": "table.set_position(b, position.top_right)",
+            "occurrences": 1
+          },
+          "positionWindows": {
+            "original": [
+              0.75,
+              1,
+              0,
+              0.25
+            ],
+            "moved": [
+              0.75,
+              1,
+              0.375,
+              0.625
+            ],
+            "control": [
+              0.75,
+              1,
+              0.75,
+              1
+            ]
+          },
+          "watermarkRule": "Original top-right; moved middle-right; independent control bottom-right. Every subject/control and original absence window must be clear of native legend, watermark and every other occluder. No top-left or bottom-left table in either candidate.",
+          "predeclaredWindows": {
+            "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+            "envelopes": {
+              "original": [
+                0.75,
+                1,
+                0,
+                0.25
+              ],
+              "moved": [
+                0.75,
+                1,
+                0.375,
+                0.625
+              ],
+              "control": [
+                0.75,
+                1,
+                0.75,
+                1
+              ]
+            },
+            "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+            "body": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "registration": "Map frozen envelopes through actual study-pane bounds (plotting area, excluding axes). Register the complete table exterior using all visible boundary segments, independent of text/model. Missing/ambiguous boundaries hold that property; never move/enlarge an envelope after inspection. All body/text/divider/frame coordinates are local to the named object, never a union of tables.",
+            "completeText": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+            "subjectName": "blue MOVED middle-right or top-right",
+            "controlName": "orange CONTROL bottom-right"
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v105/sources/v105-table-relocation-v5.pine",
+        "sha256": "070fa78f0f606b14b1d19f7a90b0b412d202f26bc93cfaff6fe0e21521b31afb",
+        "unchanged": false,
+        "changes": "indicator title and table positions only; constructor/setter/getter order and all other bytes unchanged"
+      },
+      "slotId": "v106-table-relocation-v5",
+      "allowedTablePositions": [
+        "top_right",
+        "middle_right",
+        "middle_center",
+        "bottom_right"
+      ]
+    },
+    {
+      "slot": 3,
+      "sourceId": "v106-table-frame-v5",
+      "family": "table-frame",
+      "pineVersion": 5,
+      "path": "v106/sources/v106-table-frame-v5.pine",
+      "bytes": 1554,
+      "sha256": "ad41f925347fdb5bcafeea53034fec6739a5d5b1c942d4f8c1eb612d95ba60db",
+      "indicatorTitle": "v106-table-frame-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v106-table-frame-v5:frame-border-paint",
+          "modelA": "upper table has blue outer frame and red inner divider around yellow LEFT/RIGHT body; lower same-recipe table has neither",
+          "modelB": "frame/border ignored: upper plate has the same unframed yellow structure as lower control",
+          "requiredControls": "complete LEFT/RIGHT in both rows, upper blue outer/red inner regions exposed independently; lower body geometry must be visible",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.5,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Any frame/divider/background region occluded, control unreadable or colors inseparable; exact universal pixel widths remain held; any legend/watermark/other occlusion, missing complete exterior or out-of-envelope table gives zero visual credit",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "frame_width=6, border_color=color.red, border_width=4",
+            "new": "frame_width=0, border_color=color.red, border_width=0",
+            "occurrences": 1
+          },
+          "predeclaredWindows": {
+            "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+            "envelopes": {
+              "subject": [
+                0.5,
+                1,
+                0,
+                0.3
+              ],
+              "control": [
+                0.5,
+                1,
+                0.7,
+                1
+              ]
+            },
+            "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+            "body": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "registration": "Map frozen envelopes through actual study-pane bounds (plotting area, excluding axes). Register the complete table exterior using all visible boundary segments, independent of text/model. Missing/ambiguous boundaries hold that property; never move/enlarge an envelope after inspection. All body/text/divider/frame coordinates are local to the named object, never a union of tables.",
+            "completeText": {
+              "LEFT": [
+                0,
+                0.5,
+                0,
+                1
+              ],
+              "RIGHT": [
+                0.5,
+                1,
+                0,
+                1
+              ]
+            },
+            "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+            "subjectName": "B top-right framed LEFT/RIGHT",
+            "controlName": "C bottom-right unframed LEFT/RIGHT",
+            "divider": [
+              [
+                0.45,
+                0.55,
+                0.15,
+                0.25
+              ],
+              [
+                0.45,
+                0.55,
+                0.75,
+                0.85
+              ]
+            ],
+            "frame": {
+              "top": [
+                0,
+                1,
+                0,
+                0.15
+              ],
+              "bottom": [
+                0,
+                1,
+                0.85,
+                1
+              ],
+              "left": [
+                0,
+                0.15,
+                0,
+                1
+              ],
+              "right": [
+                0.85,
+                1,
+                0,
+                1
+              ]
+            },
+            "frameRule": "Record all four connected blue exterior strokes independently from red inner vertical divider and yellow body, and corresponding control bands. A band outside its envelope or occluded is held; no inferred width/DPR. Colored presence anywhere in a broad union is insufficient."
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v105/sources/v104-table-frame-v5.pine",
+        "sha256": "2efb2ee771728ce469ec9f36b8eb8bf9e0d160927739aa7dd3874e4c0af7fd82",
+        "unchanged": false,
+        "changes": "indicator title and table positions only; constructor/setter/getter order and all other bytes unchanged"
+      },
+      "slotId": "v106-table-frame-v5",
+      "allowedTablePositions": [
+        "top_right",
+        "middle_right",
+        "middle_center",
+        "bottom_right"
+      ]
+    },
+    {
+      "slot": 4,
+      "sourceId": "v106-table-merge-v5",
+      "family": "table-merge",
+      "pineVersion": 5,
+      "path": "v106/sources/v106-table-merge-v5.pine",
+      "bytes": 1603,
+      "sha256": "9c6633fd0944a505af2f98ca39b5d11db6f0020141e371503f133c222791b9b4",
+      "indicatorTitle": "v106-table-merge-v5",
+      "minimumBuildIndex": 240,
+      "phaseModulo": 8,
+      "primaryClosedRows": 32,
+      "predecessorClosedRows": 8,
+      "plots": [
+        {
+          "sourcePlotOrdinal": 0,
+          "function": "plot",
+          "title": "TABLE_COUNT"
+        },
+        {
+          "sourcePlotOrdinal": 1,
+          "function": "plot",
+          "title": "INPUT_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 2,
+          "function": "plot",
+          "title": "INPUT_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 3,
+          "function": "plot",
+          "title": "CHART_CONFIRMED"
+        },
+        {
+          "sourcePlotOrdinal": 4,
+          "function": "plot",
+          "title": "CASE_ID"
+        },
+        {
+          "sourcePlotOrdinal": 5,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_INDEX"
+        },
+        {
+          "sourcePlotOrdinal": 6,
+          "function": "plot",
+          "title": "VISUAL_ANCHOR_TIME"
+        },
+        {
+          "sourcePlotOrdinal": 7,
+          "function": "plot",
+          "title": "SCALE_LOW"
+        },
+        {
+          "sourcePlotOrdinal": 8,
+          "function": "plot",
+          "title": "SCALE_HIGH"
+        }
+      ],
+      "plotCalls": 9,
+      "maximumPlotCounts": 9,
+      "numericWitnesses": {
+        "TABLE_COUNT": {
+          "expression": "array.size(table.all)",
+          "role": "build-event lifetime observation only; native result unspecified, no appearance credit",
+          "anchorExpected": "UNSPECIFIED"
+        }
+      },
+      "visualPane": "study",
+      "nativeOutcome": "UNSPECIFIED",
+      "visualFacets": [
+        {
+          "facetId": "v106-table-merge-v5:merged-row",
+          "modelA": "upper blue MERGED spans both columns with no internal divider/HIDDEN; lower unmerged orange HIDDEN/divider remains visible",
+          "modelB": "merge ignored: both rows show independent MERGED and HIDDEN cells with internal divider",
+          "requiredControls": "lower complete MERGED/HIDDEN and orange right body, upper full external span; no third table over either row",
+          "pixelWindow": {
+            "coordinates": "pane-fraction-top-down",
+            "x": [
+              0.5,
+              1
+            ],
+            "y": [
+              0,
+              1
+            ],
+            "paddingPx": 2
+          },
+          "notObserved": "Unreadable lower HIDDEN/divider, clipped upper full span or third-object occlusion; any legend/watermark/other occlusion, missing complete exterior or out-of-envelope table gives zero visual credit",
+          "outcomes": [
+            "SUPPORTED_A",
+            "SUPPORTED_B",
+            "CONTRARY",
+            "UNDECIDED"
+          ],
+          "nativeOutcome": "UNSPECIFIED",
+          "localCountermodel": {
+            "kind": "source-copy",
+            "old": "    table.merge_cells(b, 0, 0, 1, 0)\n",
+            "new": "",
+            "occurrences": 1
+          },
+          "predeclaredWindows": {
+            "envelopeCoordinates": "pane fractions xMin,xMax,yMin,yMax; top-down",
+            "envelopes": {
+              "subject": [
+                0.5,
+                1,
+                0,
+                0.3
+              ],
+              "control": [
+                0.5,
+                1,
+                0.7,
+                1
+              ]
+            },
+            "objectCoordinates": "u,v normalized to each independently registered complete table exterior, including any visible frame; xMin,xMax,yMin,yMax",
+            "body": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "registration": "Map frozen envelopes through actual study-pane bounds (plotting area, excluding axes). Register the complete table exterior using all visible boundary segments, independent of text/model. Missing/ambiguous boundaries hold that property; never move/enlarge an envelope after inspection. All body/text/divider/frame coordinates are local to the named object, never a union of tables.",
+            "completeText": {
+              "subjectMERGED": [
+                0,
+                1,
+                0,
+                1
+              ],
+              "subjectHIDDENcandidate": [
+                0.5,
+                1,
+                0,
+                1
+              ],
+              "controlMERGED": [
+                0,
+                0.5,
+                0,
+                1
+              ],
+              "controlHIDDEN": [
+                0.5,
+                1,
+                0,
+                1
+              ]
+            },
+            "textRule": "All glyphs of the exact named literal must be readable in its own frozen window; presence elsewhere or partial/inferred text gives zero credit.",
+            "subjectName": "B top-right merged candidate",
+            "controlName": "C bottom-right unmerged control",
+            "bodies": {
+              "subjectFull": [
+                0,
+                1,
+                0,
+                1
+              ],
+              "subjectRight": [
+                0.5,
+                1,
+                0,
+                1
+              ],
+              "controlLeft": [
+                0,
+                0.5,
+                0,
+                1
+              ],
+              "controlRight": [
+                0.5,
+                1,
+                0,
+                1
+              ]
+            },
+            "divider": [
+              [
+                0.45,
+                0.55,
+                0.15,
+                0.25
+              ],
+              [
+                0.45,
+                0.55,
+                0.75,
+                0.85
+              ]
+            ],
+            "dividerRule": "Upper/lower divider bands require a vertical separator with colored body on either side; horizontal outer borders and caption ink cannot supply it. Score full blue merged span and absence/presence of orange HIDDEN body separately. Whole table outside the fixed envelope or unreadable lower control is NOT OBSERVED."
+          }
+        }
+      ],
+      "selection": "unique closed retained build A; own A-31..A plus original A-39..A-32 predecessors; no output-based search",
+      "buildLifetime": "one islastconfirmedhistory build guarded by missing anchorIndex, index>=240; no later reconstruction or cleanup",
+      "budget": {
+        "save": 1,
+        "add": 1,
+        "csv": 1,
+        "png": 1,
+        "sessions": 1,
+        "retries": 0,
+        "variants": 0
+      },
+      "provenance": {
+        "path": "v105/sources/v104-table-merge-v5.pine",
+        "sha256": "f4ca586354bd444194e7eb90e44592e73c1c145701d3c5047667f97ee312d892",
+        "unchanged": false,
+        "changes": "indicator title and table positions only; constructor/setter/getter order and all other bytes unchanged"
+      },
+      "slotId": "v106-table-merge-v5",
+      "allowedTablePositions": [
+        "top_right",
+        "middle_right",
+        "middle_center",
+        "bottom_right"
+      ]
+    }
+  ],
+  "deferred": "Alpha is deferred until an exact-colour capture path exists.",
+  "historicalResponse": {
+    "path": "v105/captures/v105/RESPONSE-v105-v7.md",
+    "sha256": "c3fdb2d625f5853b710851c09452aec06a4985f912f32d7dbdca1fe4d9d78146",
+    "returnedSlots": 5,
+    "unreturnedSlots": 0,
+    "visualFacets": 8,
+    "undecidedFacets": 8,
+    "creditTransfer": "NONE; v106 sources have modified positions and new identities"
+  }
+}
